@@ -15,6 +15,7 @@ export default function Home({ start }: Props) {
 
 	return (
 		<div className={s.container}>
+			BAC
 			{start?.content.map((block, idx) =>
 				<section key={idx}>
 					<Block

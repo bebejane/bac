@@ -36,7 +36,7 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 			</div>
 			<Menu items={menu} />
 			<Language menu={menu} />
-			<Footer menu={menu} footer={footer} />
+			<Footer menu={menu} />
 			<FullscreenGallery
 				index={images?.findIndex((image) => image?.id === imageId)}
 				images={images}
