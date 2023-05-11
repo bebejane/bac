@@ -53,6 +53,15 @@ declare module '*/global.gql' {
 }
     
 
+declare module '*/search.gql' {
+  import { DocumentNode } from 'graphql';
+  const defaultDocument: DocumentNode;
+  export const SiteSearch: DocumentNode;
+
+  export default defaultDocument;
+}
+    
+
 declare module '*/start.gql' {
   import { DocumentNode } from 'graphql';
   const defaultDocument: DocumentNode;

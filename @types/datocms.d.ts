@@ -2732,6 +2732,13 @@ type GlobalQueryVariables = Exact<{ [key: string]: never; }>;
 
 type GlobalQuery = { __typename?: 'Query', site: { __typename?: 'Site', favicon: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }>, globalSeo?: { __typename?: 'GlobalSeoField', facebookPageUrl?: string | null, siteName?: string | null, titleSuffix?: string | null, twitterAccount?: string | null, fallbackSeo?: { __typename?: 'SeoField', description?: string | null, title?: string | null, twitterCard?: string | null, image?: { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null } | null } | null } | null } };
 
+type SiteSearchQueryVariables = Exact<{
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type SiteSearchQuery = { __typename?: 'Query', projects: Array<{ __typename?: 'ProjectRecord', id: any }> };
+
 type StartQueryVariables = Exact<{
   locale?: InputMaybe<SiteLocale>;
 }>;

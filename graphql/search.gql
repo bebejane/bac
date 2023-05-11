@@ -1,0 +1,10 @@
+query SiteSearch(
+	#$aboutIds: [ItemId]
+	#$first: IntType = 100
+	#$skip: IntType = 0
+	$locale: SiteLocale
+) {
+	projects: allProjects(locale: $locale) {
+		id
+	}
+}
