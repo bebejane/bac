@@ -1,0 +1,60 @@
+[
+  {
+    "id": 118,
+    "date": "2022-04-26T16:18:38",
+    "date_gmt": "2022-04-26T14:18:38",
+    "guid": {
+      "rendered": "http://fyrbodal.konstframjandet.se/?post_type=kf-about&#038;p=118"
+    },
+    "modified": "2022-06-08T18:03:52",
+    "modified_gmt": "2022-06-08T16:03:52",
+    "slug": "om-konstframjandet-fyrbodal",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://fyrbodal.konstframjandet.se/om/om-konstframjandet-fyrbodal/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Fyrbodal"
+    },
+    "content": {
+      "rendered": "<p>Vi tror på konsten som kraft att bidra till nya perspektiv och alternativa sätt att tänka om oss själva och samhället. Genom projekt sammanflätar vi konst och kultur med lokala företeelser och berättelser i samarbete med våra medlemsorganisationer. Konstfrämjandet Fyrbodal vill skapa sammanhang för utbyte och utveckling inom fältet för samtidskonst, genom utställningar, samtal och evenemang. Vi vill tillvarata kompetenser och initiativ som finns i regionen och brygga mellan platser, konstarter och mellan konst och andra sektioner i samhället.<br />\n&nbsp;<br />\nFöreningen startades 2022 och har sitt säte i Bärfendal, Munkedals kommun. Under 2022 påbörjas etableringen av verksamheten genom ett första projektet Flux Studios. Successivt etableras verksamheten i regionen, genom  projekt och samarbeten med organisationer i hela Fyrbodalsregionen &#8211; från Vänern till Västerhavet.<br />\n&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjadet Fyrbodal är en ideell förening som startade 2022. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://fyrbodal.konstframjandet.se/wp-json/wp/v2/kf-about/118"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://fyrbodal.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://fyrbodal.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://fyrbodal.konstframjandet.se/wp-json/wp/v2/media?parent=118"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

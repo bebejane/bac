@@ -1,0 +1,1437 @@
+[
+  {
+    "id": 769,
+    "date": "2022-10-03T11:16:24",
+    "date_gmt": "2022-10-03T09:16:24",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=769"
+    },
+    "modified": "2023-03-06T11:47:33",
+    "modified_gmt": "2023-03-06T10:47:33",
+    "slug": "galleriet-st-gertrud",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/galleriet-st-gertrud/",
+    "title": {
+      "rendered": "GALLERI S:t Gertrud"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet Skåne har fantastiska lokaler på Östergatan 9 i Malmö. Organisationens ändamål är att bidra till konst för alla: främja kunskap, folkbildning, förståelse och ökat intresse för, skapande av och medverkan till konst, oavsett bakgrund, och med utgångspunkt i var och ens särskilda förutsättningar.<br />\n<br />\nVårt mål är att tillgängliggöra konst och vara en sammanhängande länk för konstaktörer i hela Skåne och skapa mötesplatser. Från och med 2023 vill vi väcka liv i våra lokaler både genom de nätverk som redan utnyttjar lokalen samt Malmö/regionens-aktörer som inte har tillgång till egen lokal. Vår förhoppning är att fylla en lucka och tillgängliggöra fria lokaler för unga, eller  nystartade kulturaktörer.<br />\n<br />\nLokalen på S:t Gertrud är både central och kompatibel för att göra mindre projekt. Vi vill därför främja kulturaktörer i Malmö och regionen genom att upplåta vår lokal till utställningar, samtalsserier eller filmvisningar etc. Utställningsersättning utbetalas till medverkande konstnärer för utställningsperioder över 2 veckor (gäller ej samtal eller filmvisning).<br />\n<br />\nFör att anmäla intresse skickar ni in formuläret nedan, mer information om lokalen och förhållningsregler finns i formuläret.<br />\n<br />\nInskickat formulär är ingen garanti för att få tillgång till lokalen, Konstfrämjandet Skåne gör ett urval av aktiviteter och återkommer med besked. Skriv önskad utställningsperiod men vi förbehåller oss rätten att föreslå andra datum om nödvändigt. Lokalen lånas ut max 3 gånger per termin (sommaren stängt).<br />\n<br />\n<a href=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/Formular-for-anvandning-av-lokalen-1.docx\">Formulär för användning av lokalen</a><br />\n<br />\n<strong>Kriterier för att få möjlighet att använda lokalen:</strong><br />\n&#8211; Minst 3 deltagande i arrangemanget (lokalen lånas inte ut till enskilda konstnärer)<br />\n&#8211; Ni har ingen befintlig lokal<br />\n&#8211; Verksam i Skåne-regionen<br />\n&#8211; Publik verksamhet<br />\n&#8211; En uppdaterad hemsida/sociala medier för er grupp/verksamhet/förening<br />\n<br />\nKonstfrämjandet Skåne prioriterar verksamheter/föreningar/arrangemang som är i samklang med våra mål.<br />\nFör frågor: skane@konstframjandet.se</p>\n",
+      "protected": false
+    },
+    "featured_media": 772,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#dd9933",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 772,
+        "id": 772,
+        "title": "IMG_3654",
+        "filename": "IMG_3654-scaled.jpg",
+        "filesize": 595540,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-scaled.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/galleriet-st-gertrud/img_3654/",
+        "alt": "",
+        "author": "61",
+        "description": "",
+        "caption": "",
+        "name": "img_3654",
+        "status": "inherit",
+        "uploaded_to": 769,
+        "date": "2022-10-03 09:14:23",
+        "modified": "2022-10-03 09:14:23",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-300x225.jpg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-768x576.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-1024x768.jpg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-1536x1152.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-2048x1536.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/10/IMG_3654-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": true,
+      "teaser_1_text": "",
+      "teaser_1_url": "",
+      "teaser_2_text": "",
+      "teaser_2_url": "",
+      "teaser_3_text": "",
+      "teaser_3_url": "",
+      "teaser_4_text": "",
+      "teaser_4_url": "",
+      "teaser_5_text": "",
+      "teaser_5_url": "",
+      "teasear_6_text": "",
+      "teasear_6_url": "",
+      "teaser_7_text": "",
+      "teaser_7_url": "",
+      "teaser_8_text": "",
+      "teaser_8_url": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/769"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media/772"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 759,
+    "date": "2022-08-29T11:16:58",
+    "date_gmt": "2022-08-29T09:16:58",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=759"
+    },
+    "modified": "2023-02-03T11:41:54",
+    "modified_gmt": "2023-02-03T10:41:54",
+    "slug": "barn-och-unga",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/barn-och-unga/",
+    "title": {
+      "rendered": "BARN &amp; UNGA"
+    },
+    "content": {
+      "rendered": "<p>Barn och unga ett viktigt utvecklingsområde för Konstfrämjandet Skåne. Vi lägger fokus på hur vi kan utveckla basmetoder för vårt arbete samt hitta koncept som kan främja både barn och unga i regionen samt konstlivet i hela Skåne.<br />\n<br />\nI linje med vår främjande målsättning vill vi ge möjlighet för barn och unga att ta del av konst och kultur i hela Skåne. Vi prioriterar därför att finnas på mindre orter och samhällen som inte har möjlighet att gå på konsthallar, gallerier och museum. Vi vill därför verka för att nå ut till dessa vita fläckar och lägga vårt fokus på att utveckla metoder för detta.<br />\n<br />\n<strong>På gång: </strong><br />\n<em>Så arbetar konstnären</em><br />\nI projektet samarbetar vi med en lokal konstnär för att tillsammans med denne träffa en skolklass (åk 4-7), först genom ett studiebesök i konstnärens ateljé och sedan en workshop på skolan. Vårt mål är att genom detta projekt främja konsten i regionen, ge barn och unga en inblick i den konstnärliga processen, samt ge möjlighet för att uppleva konst i sin egen hemort.<br />\n<br />\nFör mer information om projektet eller andra frågor kring vår barn &amp; unga-verksamhet, kontakta: ellen.bjerborn@konstframjandet.se</p>\n",
+      "protected": false
+    },
+    "featured_media": 760,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#9cd673",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 760,
+        "id": 760,
+        "title": "IMG_0873",
+        "filename": "IMG_0873-scaled.jpg",
+        "filesize": 642210,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-scaled.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/barn-och-unga/img_0873/",
+        "alt": "",
+        "author": "61",
+        "description": "",
+        "caption": "",
+        "name": "img_0873",
+        "status": "inherit",
+        "uploaded_to": 759,
+        "date": "2022-08-29 09:10:39",
+        "modified": "2022-08-29 09:10:39",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-300x225.jpg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-768x576.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-1024x768.jpg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-1536x1152.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-2048x1536.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/08/IMG_0873-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/759"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media/760"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=759"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 720,
+    "date": "2022-03-07T20:48:50",
+    "date_gmt": "2022-03-07T19:48:50",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=720"
+    },
+    "modified": "2022-10-03T11:43:26",
+    "modified_gmt": "2022-10-03T09:43:26",
+    "slug": "cultivating-stories",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/cultivating-stories/",
+    "title": {
+      "rendered": "CULTIVATING STORIES / ODLADE BERÄTTELSER"
+    },
+    "content": {
+      "rendered": "<p>Välkommen till ett interdisciplinärt program vid odlade åkrar i Häglinge den 10 juli och 18 september, och på Malmö Konstmuseum 15 och 17 september.<br />\n<br />\n<em>Odlade berättelser </em>undersöker odlingens växtkulturer, och på vilket sätt historiska skeenden lever vidare i samtiden. Genom guidade fältvandringar, filmvisningar, publika samtal, utställning, och musik, förmedlas berättelser och frågeställningar kring vad odling, förädling och kulturväxter är, har varit, och kunde vara.<br />\n<br />\nMed etableringen av Sveriges Utsädesförening i Svalöv i 1886, kom en metod för modern växtförädling att utvecklas som la grunden för det monokulturlantbruk som idag praktiseras globalt. I projektet undersöks på vilket sätt det etiska och estetiska förhållningssätt till mer-än-mänskliga sammanhang denna ’moderna’ metod för växtförädling skiljer sig från ’traditionella’ tillvägagångssätt.<br />\n<br />\nMed utgångspunkt i återupptäckta och sällan visade fotografier från de allra första växtförädlingsförsöken i Svalöv, och i samarbete med den i Skåne initierade föreningen Allkorn som återodlar traditionella sädesslag, undersöker <em>Odlade berättelser  </em>historiska och samtida perspektiv på odling och förädling med syfte att skapa rum för omtänkande kring denna för människor livsnödvändiga praktik. Vilka historier har fått berättats, hur har de format bilden av mer-än-mänskliga sammanhang och roller, och hur ser dessa förhållanden ut idag?<br />\n<br />\nProgrammet genomförs vid platser och på tidpunkter som följer de odlade sädesslagens rytm. Under första halvan av juli är sädesslagens ax är som mest utvecklade och skillnader mellan växtsorter tydlig. I september har axen skördats och bundits upp på kärvar eller har tröskats och kanske till och med malts till mjöl.<br />\n<br />\n<b>Arrangörer.</b><i><span style=\"font-weight: 400\"> Cultivating Stories / Odlade berättelser </span></i><span style=\"font-weight: 400\">är ett samarbete mellan föreningen Allkorn, den konstnärliga rörelsen potatoes’ perspective, Konstfrämjandet Skåne och Malmö Konstmuseum. </span><i><span style=\"font-weight: 400\">Cultivating Stories / Odlade berättelser </span></i><span style=\"font-weight: 400\">genomförs med stöd från Kulturrådet samt Region Skåne.</span><br />\n<br />\n<strong>Detaljerat program<br />\n10 juli, Häglinge Kopparsmedja.</strong> Heldagsprogram med guidade fältvandringar, filmvisning, musik, bokbord och publika samtal. Kaffe och mat serveras.<br />\nEn shuttle-buss hämtar och lämnar vid tågstationen i Sösdala mellan: 09.00-10.30, 12.00-13.30, och 17.30-19.00.<br />\n<br />\n11.00 Välkomst och presentation av Allkorn<br />\n11.15 Fältvandring med Allkorn, Nordbruk, och Seeds WG EVEC<br />\n13.00 Presentation av Seeds WG EVEC och NOrdbruk<br />\n13.45 Öppen debatt med Allkorn, Nordbruk, och Seeds WG EVEC<br />\n15.00 Visning av filmen Cultivated Abundance<br />\n16.00 Samtal med Åsa Sonjasdotter och Hans Larsson<br />\n16.30 Berättelser och musik med Mats Edén.<br />\n<br />\n<strong>Program 15, 17, 18 september. Malmö konstmuseum och Häglinge Kopparsmedja.</strong><br />\nTre dagars fördjupande program med utställning, filmvisning,<br />\npublika samtal, debatt, och fältvandringar som öppnar för<br />\nfrågor kring kulturväxternas roll i samhälleliga skeenden.<br />\nEn shuttle-buss hämtar och lämnar besökande<br />\nvid tågstationen i Sösdala den 18 september.<br />\n<br />\nTorsdag 15/9, Malmö konstmuseum, Skovgaardsalen.<br />\n16.30 Välkomst, introduktion till ämnet och programmet<br />\n16.45 Screening av filmen Cultivated Abundance<br />\n18.00 Samtal med Åsa Sonjasdotter och Hans Larsson<br />\n<br />\nLördag 17/9, Malmö konstmuseum, Skovgaardsalen.<br />\nAnmälan krävs: Anmäl dig <a href=\"https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Konstmuseum/Visningar-och-program/Odlade-berattelser.html\" rel=\"noopener\" target=\"_blank\">här</a>!<br />\n11.15 Välkomst, introduktion till temat och programmet<br />\n11.30 Forskare Mick Wilson om “Det brutna brödet: Mat och livet-dödens politik”<br />\n12.00 Konstnär Åsa Sonjasdotter om uppfinningen av monokultur-förädling vid Sveriges utsädesförening i Svalöv<br />\n12.30 Lunch<br />\n13.30 Konstnär Katarina Pirak Sikku om verket Nammaláhpán<br />\n14.00 Samtal mellan Pirak Sikku, Sonjasdotter och Wilson<br />\n14.30 Kaffe<br />\n15.00 Konstnär Kalle Brolin om arbete, kol- och sockerindustri<br />\n15.30 Konstnärlig forskare Naomi Henning om om samtida globala födosystem<br />\n16.00 Samtal med Hennig och Brolin<br />\n16.30 Öppet samtal och avslutande kommentarer<br />\n<br />\nSöndag 18/9, Häglinge Kopparsmedja.<br />\nEn buss hämtar och lämnar vid tågstationen i Sösdala<br />\ni samband med tågen: 10.45 från Sösdala till Häglinge, samt 16.10 från Häglinge till Sösdala.<br />\n<br />\nKaffe, tilltugg och mat serveras hela dagen.<br />\n11.00 Välkomst, introduktion till temat och programmet<br />\n11.15 Fältvandring med Hans Larsson och Allkorn<br />\n13.00 Lunch<br />\n14.00 Presentation av nätverket 15th Garden, för stöd till<br />\nbönder i krigsdrabbade områden, vid Julia Bar-Tal<br />\n15.00 Kaffe<br />\n15.30 Öppet avslutande med Hans Larsson, Allkorn och Bal-Tar.<br />\n<br />\n<strong>Om deltagarna</strong><br />\n<br />\nAllkorn. Föreningen Allkorn främjar framtagning och utveckling av en mångfald av lokalt anpassade stråsädessorter och annat korn för ekologisk odling.<br />\n<br />\nKalle Brolin är konstnär och författare. Han arbetar med videoinstallationer och performance i forskningsbaserade, storskaliga projekt. Kalle Brolin är en av initiativtagarna till den soldrivna socialistiska utomhusbiografen The Sunshine Socialist Cinema. Brolin kommer att presentera en ny serie arbeten som handlar om kolbrytning och sockerproduktion. Brolin undersöker hur dessa två Skånebaserade industrier påverkar människors inre och yttre landskap.<br />\n<br />\nMats Edén är folkmusiker på fiol och durspel, riksspelman, och tonsättare. Sedan 1970-talet är han en viktig förgrundsgestalt i folkmusikrörelsen i Sverige. Edén kommer att berätta om, och i musik gestalta, hur folkmusiken under nationalromantiken lyftes in i borgerskapets salonger och strömlinjeformades på ett sätt som kan associeras till hur de odlade grödorna anpassats till agrar- och livsmedels-industrin.<br />\n<br />\nThe 15th Garden. The 15th Garden är ett gräsrots-nätverk som stöttar odling i krigsdrabbade områden i Syrien och grannländer. Nätverket omfattar familjeträdgårdar, bönder på landsbygden och jordbruksinitiativ i flyktingläger. Med praktiska färdigheter är redo att stå vid alla människor som drabbas av kriget. http://aseed.net/en/the-15th-garden-seeds-for-syria/<br />\n<br />\nNaomi Hennig verkar som forskare, konstnär, kurator, redaktör och projektkoordinator. Henning är doktorand vid Goldsmiths, University of London, där hon forskar om jordbruk och extraktivism. Hennigs arbete är inspirerat av ett intresse för politisk ekologi, ekonomi, markanvändning och ackumulation i landsbygds- och urbana sammanhang.<br />\n<br />\nHans Larsson är växtförädlare med inriktning på deltagande och evolutionär växtförädling. I 2004 startade Larsson föreningen Allkorn, som idag har mer än 450 medlemmar. Med bas vid Sveriges Lantbruksuniversitet i Alnarp, och i samverkan med lantbrukare, har Larsson sedan 1990-talet förädlat en mångfald lokalt anpassade stråsädessorter för ekologisk odling.<br />\n<br />\nNav Haq är direktör vid M HKA – Museum of Contemporary Art Antwerpen, i Belgien. Under 2020- 2021 kuraterade Haq den forskningsbaserade utställningen MONOCULTURE – A Recent History. Strukturerat som en kartläggning, bidrog projektet med en jämförande analys av olika slags manifestationer av monokultur, samt hur de bearbetats i konst och propaganda. Syftet var att synliggöra aspekter som kan vara relevanta för samhället och kulturen i stort.<br />\n<br />\nNOrdBruk är en småbrukarorganisation i Sverige som arbetar för matsuveränitet, hållbar förvaltning av våra naturresurser, och mänskliga rättigheter. Sedan starten i 1993, är NOrdBruk medlem i den internationella småbrukarrörelsen La Via Campesina.<br />\n<br />\nSeeds Workgroup, European Coordination Via Campesina (ECVC) är en europeisk gräsrotsorganisation som för närvarande samlar 31 nationella och regionala jordbruks-, lantarbetar- och landsbygdsorganisationer baserade i 21 europeiska länder. ECVC är den regionala medlemmen i La Vía Campesina, den största internationella bonderörelsen på gräsrotsnivå.<br />\n<br />\nKatarina Pirak Sikku är en konstnär som huvudsakligen arbetar med teknikerna teckning och fotografi. Många av hennes verk är textbaserade. De senaste åren har hon forskat i historiska studier av ras som biologi. Pirak Sikku vill veta vad som hände. Svenska institutet för rasbiologi gjorde en stor undersökning bland samerna. Pirak Sikku tar den andra sidans perspektiv; de som studerades i undersökningen. Pirak Sikku vill göra berättelsen till sin egen, gå från att vara ett objekt till att bli ett subjekt. Pirak Sikkus verk handlar ofta om sorg, identitet, makt och etnicitet.<br />\n<br />\nÅsa Sonjasdotter är konstnär och forskare. Sonjasdotter engagerar sig i processer för återskapande och återberättande av livgivande relationer. Genom odling av marginaliserade grödor och närläsning av relaterat arkivmaterial, kan glömd kunskap och föreställningsförmåga återupplivas.<br />\n<br />\nMick Wilson är konstnär, forskare, och pedagog baserad i Göteborg och Dublin. Han är professor i fri konst och doktorandstudieledare vid HDK-Valand, Göteborgs universitet. Wilsons forskning inkluderar konstruktioner av &#8221;offentlighet&#8221; och det &#8221;sociala&#8221; med avseende på det samtida konstfältet; förbudsskapande som förfrågan; och livsmedlens estetiska politik.<br />\n<br />\n<strong>Kontakter</strong><br />\n<br />\nAllkorn<br />\n<a href=\"http://www.allkorn.se\">www.allkorn.se</a><br />\n<br />\nKonstfrämjandet Skåne<br />\nÖstergatan 9a<br />\n21125 Malmö<br />\nskane@konstframjandet.se<br />\n<a href=\"http://skane.konstframjandet.se/projekt/cultivating-stories/\">www.skane.konstframjandet.se</a><br />\n<br />\nMalmö Konstmuseum<br />\nMalmöhusvägen 6,<br />\nSE 201 24 Malmö<br />\n<a href=\"https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Konstmuseum.html\">https://malmo.se/Uppleva-och-gora/Konst-och-museer/Malmo-Konstmuseum.html</a><br />\n<br />\npotatoes’ perspective<br />\nLandvägen 52 b<br />\n260 13 Sankt Ibb, Ven<br />\noffice@potatoperspective.org<br />\n<a href=\"http://www.asasonjasdotter.info\">www.asasonjasdotter.info</a><br />\n<br />\nOdlade berättelser genomförs med stöd från Kulturrådet samt Region Skåne.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#efc45f",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 721,
+        "id": 721,
+        "title": "IMG_4349",
+        "filename": "IMG_4349-scaled.jpeg",
+        "filesize": 700157,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-scaled.jpeg",
+        "link": "http://skane.konstframjandet.se/projekt/cultivating-stories/img_4349/",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "img_4349",
+        "status": "inherit",
+        "uploaded_to": 720,
+        "date": "2022-03-07 18:48:51",
+        "modified": "2022-03-07 18:48:51",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-300x225.jpeg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-768x576.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-1024x768.jpeg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-1536x1152.jpeg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-2048x1536.jpeg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4349-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": true,
+      "dropcap": false,
+      "anniversary": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/720"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=720"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 717,
+    "date": "2022-03-07T19:45:35",
+    "date_gmt": "2022-03-07T18:45:35",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=717"
+    },
+    "modified": "2022-08-29T11:27:54",
+    "modified_gmt": "2022-08-29T09:27:54",
+    "slug": "bygga-vaxa",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/bygga-vaxa/",
+    "title": {
+      "rendered": "BYGGA/VÄXA"
+    },
+    "content": {
+      "rendered": "<p>I ett samarbete mellan konstnären Johan Suneson, Konstfrämjandet Skåne, Kristianstad konsthall och skolan i Everöd inleddes arbetet med en ny skulptur på skolgården i Everöd.</p>\n<p>Delarna till en tillfällig trädskulptur skapades av barnen på Everöds skola i workshops som utformats av Johan Suneson. De olika delarna sammanfogades senare till en helhet som bildade ett träd för att senare kunna förankras i marken, samtidigt som ett levande träd planteras bredvid.<span class=\"Apple-converted-space\"> </span></p>\n<p>Det var workshops i tre dagar och sammanlagt 91 elever i klass F-6 deltog. Bark, rötter, grenar, blad och knoppar formades fritt i gips som gjöts i sand eller lera. Samtidigt skapades frottage av bark och natur i omgivningen.<span class=\"Apple-converted-space\"> </span>Det var ett kreativt kaos som alla närvarande njöt av.</p>\n<p>På plats för att hjälpa till med arbetet var Filippa Forsberg från Kristianstad konsthall, pedagog och konstnär Jens Lundberg och Cecilia Sterner från Konstfrämjandet Skåne.</p>\n<p>29 oktober hade vi invigning av verket Bygga/Växa. Alla elever, politiker, rektorer, lärare, arrangörer och konstnären var på plats då bandet klipptes och tal hölls. Efter det blev det kalas med dricka och godsaker.</p>\n<p>Till invigningen hade Johan planterat trädet New Horizon, en resistent alm som har goda förutsättningar att trivas på skolgården. Barnen kommer nu att vattna och sköta om trädet.</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ffffff",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 719,
+        "id": 719,
+        "title": "IMG_4286",
+        "filename": "IMG_4286-1.jpeg",
+        "filesize": 2425035,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1.jpeg",
+        "link": "http://skane.konstframjandet.se/projekt/bygga-vaxa/img_4286-2/",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "img_4286-2",
+        "status": "inherit",
+        "uploaded_to": 717,
+        "date": "2022-03-07 18:09:02",
+        "modified": "2022-03-07 18:09:02",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2001,
+        "height": 2001,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-300x300.jpeg",
+          "medium-width": 300,
+          "medium-height": 300,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-768x768.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 640,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-1024x1024.jpeg",
+          "large-width": 640,
+          "large-height": 640,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-1536x1536.jpeg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1.jpeg",
+          "2048x2048-width": 2001,
+          "2048x2048-height": 2001,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4286-1-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": true,
+      "dropcap": false,
+      "anniversary": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/717"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=717"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 714,
+    "date": "2022-03-07T18:44:06",
+    "date_gmt": "2022-03-07T17:44:06",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=714"
+    },
+    "modified": "2022-10-18T14:27:14",
+    "modified_gmt": "2022-10-18T12:27:14",
+    "slug": "lek-for-demokrati",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/lek-for-demokrati/",
+    "title": {
+      "rendered": "LEK FÖR DEMOKRATI"
+    },
+    "content": {
+      "rendered": "<p>Femteklassare från Rebbelberga skola och Ängelholms Montessoriskola gav form åt sina tankar om Ängelholms nya stadshus, och provade på demokrati i praktiken. Barnens arbete är nu en förstudie till framtida arkitekttävling.<br />\n<span class=\"Apple-converted-space\"> </span><br />\nMed lek och den kreativa processen i fokus hjälps barn, arkitekter och konstnärer åt att ta fram förslag med skisser, modeller och idéer till ett framtida stadshus i Ängelholm. Efter ett antal workshops på skolorna flyttade leken ut till den plats vid Ängelholms station där det framtida stadshuset ska stå. Under två veckor byggde barnen i samarbete med snickare och konstnärer en prototyp av barnens stadshus i stor skala.<br />\n<span class=\"Apple-converted-space\"> </span><br />\nEn demonstration initierades av konstnären Kalle Brolin som en del av arbetet.  Barnen fick möjlighet att framföra krav, idéer och önskemål för sin stads framtid när de mötte kommunstyrelsens ordförande Robin Holmberg på platsen för det tilltänkta stadshuset.<br />\n<span class=\"Apple-converted-space\"> </span><br />\nArkitekter från Sydväst Arkitektur &amp; Landskap höll workshops med alla femteklassare på Rebbelberga skola och Ängelholms Montessoriskola. Tillsammans undersökte de vad demokrati är, vad ett stadshus står för, vad det ska innehålla, hur man kan rita, bygga och måla det, vad som gör platsen speciell, hur miljön runtomkring kan se ut och om det är inkluderande för barn. De testade annorlunda former och material och lärde sig att tänka hållbart. Varför ser hus ut som de gör och kan man göra annorlunda?<br />\n<span class=\"Apple-converted-space\"> </span><br />\nLek för Demokrati är ett forskningsprojekt inom ramen för FORMAS utlysning Gestaltad livsmiljö. Intentioner om barns delaktighet och rätt till lek måste omsättas i handling och bli en naturlig del av stadsutvecklingen. Genom lek och praktiska konstnärliga processer skapas en grund för den metodutveckling projektet syftar till.<br />\n<span class=\"Apple-converted-space\"> </span><br />\nProjektet är ett samarbete mellan Form/Design Center, Lunds universitet, Konstfrämjandet Skåne, Tankesmedjan Movium vid SLU och Ängelholms Kommun.<br />\n<span class=\"Apple-converted-space\"> </span><br />\nKonstfrämjandet Skåne har varit ansvariga för den kreativa processen med barnen och arbetar nu vidare för implementering i stadshuset.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#d683f7",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 715,
+        "id": 715,
+        "title": "IMG_4728",
+        "filename": "IMG_4728-scaled.jpg",
+        "filesize": 818079,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-scaled.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/lek-for-demokrati/img_4728/",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "img_4728",
+        "status": "inherit",
+        "uploaded_to": 714,
+        "date": "2022-03-07 17:38:42",
+        "modified": "2022-03-07 17:38:42",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-300x225.jpg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-768x576.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-1024x768.jpg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-1536x1152.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-2048x1536.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2022/03/IMG_4728-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/714"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=714"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 704,
+    "date": "2021-12-10T17:00:31",
+    "date_gmt": "2021-12-10T16:00:31",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=704"
+    },
+    "modified": "2022-08-29T11:01:23",
+    "modified_gmt": "2022-08-29T09:01:23",
+    "slug": "nu-ar-grafikbanken-oppen",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/nu-ar-grafikbanken-oppen/",
+    "title": {
+      "rendered": "GRAFIKBANKEN"
+    },
+    "content": {
+      "rendered": "<p>Nu ger vi nytt liv åt det arkiv av grafiska verk som organisationen har till förfogande. I arkivet ryms hundratals olika konstnärer och deras grafiska verk. Det stora arkiv av grafiska blad som finns hos Konstfrämjandet Skåne är nu helt inventerad och digitaliserad.</p>\n<p>Gå in och titta och köp grafiska verk ur vår grafikbank, <a href=\"https://grafikbanken-skane.myshopify.com/\">https://grafikbanken-skane.myshopify.com/</a>. Material laddas upp fortlöpande.</p>\n<p>Har du en anhörig, en vän eller vet en organisation som är intresserad av grafiken? Sprid gärna vidare!</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#ed6ae0",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 703,
+        "id": 703,
+        "title": "IMG_5145",
+        "filename": "IMG_5145-scaled.jpeg",
+        "filesize": 690850,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-scaled.jpeg",
+        "link": "http://skane.konstframjandet.se/?attachment_id=703",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "img_5145",
+        "status": "inherit",
+        "uploaded_to": 702,
+        "date": "2021-12-10 15:38:46",
+        "modified": "2021-12-10 15:38:46",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-300x225.jpeg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-768x576.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-1024x768.jpeg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-1536x1152.jpeg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-2048x1536.jpeg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/12/IMG_5145-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/704"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=704"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 682,
+    "date": "2021-03-15T16:02:40",
+    "date_gmt": "2021-03-15T15:02:40",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=682"
+    },
+    "modified": "2023-03-02T15:56:49",
+    "modified_gmt": "2023-03-02T14:56:49",
+    "slug": "682-2",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/682-2/",
+    "title": {
+      "rendered": "MALMÖ GALLERIHELG"
+    },
+    "content": {
+      "rendered": "<p>Vad som nu är Malmö Gallerihelg startade år 1997 som en Gallerinatt och har sedan dess varit en årlig höjdpunkt för alla konstintresserade då gallerier och konstinstitutioner har gemensamt öppet under den sista helgen i september. Under veckan deltar etablerade konstinstitutioner, kommersiella gallerier samt det fria och ideella konstlivet sida vid sida.<br />\n<br />\nMalmö Gallerinatt har en förmåga att locka både den konstintresserade och den konst-ovana publiken till stadens olika utställningsrum och har varje år c:a 40 000 besökare.<br />\n<br />\nDet faktum att antal utställare dubblerats de senaste åren, gör att arrangemanget gynnas av att spridas ut på flera dagar för att besökare ska ha en chans att se fler utställningar. Efter utvärdering med utställarna som vittnar om bättre konstmöten, permanentas upplägget med en gallerihelg.<br />\n<br /> <br />\nDetta innebär att arrangemanget kommer att hållas fre-sön sista, hela helgen i september varje år (22-24 september 2023). Fredagen har öppettid 18-22, med möjlighet för varje utställare att utöka med fest under senare del av kvällen. Öppettider under lör-sön är kl. 12-16.<br />\n<br />\nGALLERIER/UTSTÄLLNINGSRUM: fre 22 september kl 18-22 och lör-sön 23-24 september kl 12-16<br />\nPOP UP: lör-sön 23-24 september kl 12-16<br />\nSamtliga utställare ska hålla öppet under tiderna ovan för att det ska bli ett besökarvänligt arrangemang. Givetvis är alla välkomna att ha öppet fler eller längre dagar samt utöka med fest under fredagen.<br />\n<br />\nMalmö Gallerihelg en egen hemsida! Här kan man hitta allmän information om Gallerihelgen, kriterier för att medverka, länk till anmälan, deadlines, och information om alla deltagarnas utställningar. Hemsidan uppdateras med utställarnas information under augusti och kan hittas på hemsidan ett par veckor innan helgen.<br />\n<br />\nAnmälan är öppen fram till midsommar för ert galleri/utställningsrum här:<br />\n<a href=\"http://www.malmogallerihelg.se\" rel=\"noopener\" target=\"_blank\">www.malmogallerihelg.se</a><br />\n<br />\nGrafisk form 2022: <a href=\"http://joakimolsson.se\">joakimolsson.se</a><br />\n<br />\nTack till Region Skåne, Malmö stad, ABF Malmö, alla guider, deltagande gallerier, konstinstitutioner och tillfälliga konstnärsdrivna initiativ!<br /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ff5b5b",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 723,
+        "id": 723,
+        "title": "DSCF7395",
+        "filename": "DSCF7395.jpg",
+        "filesize": 1726678,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/682-2/dscf7395/",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "dscf7395",
+        "status": "inherit",
+        "uploaded_to": 682,
+        "date": "2022-03-07 19:09:37",
+        "modified": "2022-03-07 19:09:37",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1333,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-300x200.jpg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-768x512.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 427,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-1024x682.jpg",
+          "large-width": 640,
+          "large-height": 426,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-1536x1024.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1024,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1333,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2021/03/DSCF7395-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "aside-images": false,
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/682"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=682"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 250,
+    "date": "2016-02-02T22:43:18",
+    "date_gmt": "2016-02-02T21:43:18",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=250"
+    },
+    "modified": "2022-10-03T11:43:00",
+    "modified_gmt": "2022-10-03T09:43:00",
+    "slug": "konst-i-ungt-urval",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/konst-i-ungt-urval/",
+    "title": {
+      "rendered": "Konst i Ungt Urval"
+    },
+    "content": {
+      "rendered": "<p>Konst i Ungt Urval är ett pilotprojekt som går ut på att högstadieelever från Lindängeskolan i Malmö bildar en jury och får välja ut fyra konstverk, som ska visas på Lindängen under en tvåveckorsperiod med vernissage lördagen den 20 februari 2016 kl. 12.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Juryn</strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ungdomsjuryn har mellan november 2015 och februari 2016 deltagit i totalt sex workshopliknande juryträffar. Juryn består av sju högstadieelever från Lindängeskolan, som har blivit specialutvalda genom rekommendation av skolans bildlärare. Främst på premissen att de har ett intresse för konst, bilder och användningen av det offentliga rummet och att de tycker om att tänka, diskutera och ifrågasätta. Men vad som skiljer ut Konst i Ungt Urval från andra konstprojekt som involverar ungdomars deltagande är att juryn här blir arvoderad för sitt deltagande. Att sitta i juryn blir alltså ett jobb som ungdomarna tar på sig, därför att deras kompetens är efterfrågad av oss. I juryn ingår: Bridget Adjei, Viviann Kaminska, Sara Tam, Nilofar Hushmand, Endrit Hajra, Samer Barkawi och Yousuf Saboor.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Deltagande konstnärer</strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ansökan till Konst i Ungt urval var öppen. Projektet passar konstnärer som är intresserade av att ställa ut på andra platser än i den vita kuben och som vill delta i ett projekt med tydlig målgruppsinflytande. I början av december 2015 välkomnades konstnärerna till en guidning med juryn på Lindängen och i januari 2016 hölls en gestaltningspitch på Konsthögskolan i Malmö där konstnärerna gjorde en visuell och muntlig presentation av sina verksförslag för juryn. Därefter skedde urvalet och alla deltagande konstnärer fick feedback från juryn på sina förslag. Verk av dessa fyra konstnärer valdes ut: Loana Ibarra, Lisa Ewald, Madelaine Sillfors och Linus Svensson.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Omfattande samarbete</strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p>KONST I UNGT URVAL drivs med stöd av Malmö Stad och är ett samarbete mellan Konstfrämjandet Skåne och Lindängenbiblioteket.</p>\n<p>Tack till! Lindängeskolan och Alexander Tandefelt. Moderna Museet Malmö. Konsthögskolan i Malmö.</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#aa25e8",
+      "image": {
+        "ID": 263,
+        "id": 263,
+        "title": "Lindängen_centrumlo",
+        "filename": "Lindängen_centrumlo.jpg",
+        "filesize": 656518,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/konst-i-ungt-urval/linda%cc%88ngen_centrumlo/",
+        "alt": "",
+        "author": "3",
+        "description": "",
+        "caption": "",
+        "name": "linda%cc%88ngen_centrumlo",
+        "status": "inherit",
+        "uploaded_to": 250,
+        "date": "2016-02-08 07:38:03",
+        "modified": "2016-02-08 07:38:03",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2200,
+        "height": 1640,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-300x224.jpg",
+          "medium-width": 300,
+          "medium-height": 224,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 477,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-1024x763.jpg",
+          "large-width": 640,
+          "large-height": 477,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1145,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1527,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2016/02/Lindängen_centrumlo-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Konst i Ungt Urval främjar ungdomars möjlighet till medbestämmande om- och inflytande över händelser i sitt närområde.",
+      "aside-images": false,
+      "is_archived": true,
+      "dropcap": true,
+      "show_on_startpage": false,
+      "anniversary": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/250"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=250"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "date": "2015-06-18T15:16:38",
+    "date_gmt": "2015-06-18T13:16:38",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=110"
+    },
+    "modified": "2015-06-18T15:16:38",
+    "modified_gmt": "2015-06-18T13:16:38",
+    "slug": "art-by-video",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/art-by-video/",
+    "title": {
+      "rendered": "Art by Video"
+    },
+    "content": {
+      "rendered": "<p>Art by Video specialiserar sig på att skapa informativa och bildande filmer om konstnärer, gallerier, konstnärskap och skapande. Tillsammans med Konstfrämjandet Skåne har Art by Video i samband med Malmö Nordic 2013 dokumenterat och intervjuat ett antal konstnärer som diskuterar och reflekterar över sitt konstnärskap.</p>\n<p>Vid ett antal tillfällen har Art by video träffat konstnärerna för att dokumentera och filma utvecklingen bakom utställningarna. Konstnärerna pratar om sitt konstnärskap och sin process för att vi som besökare ska få en djupare förståelse för deras arbete i den stängda ateljén. Det ger dessutom möjlighet till en ökad kunskap om konstscenen i Malmö och eftersom filmerna binder samman konstnärerna och gallerierna samt ger en samhörighet mellan de olika verksamheterna i Malmös rika konstliv.</p>\n<p>Deltagande gallerier var Makeriet, Galleri Gordon och Konstfrämjandet Skånes Galleri S:t Gertrud. Filmerna visades på Galleri S:t Gertud 3/5- 18/8 2013.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#d875d7",
+      "image": {
+        "ID": 101,
+        "id": 101,
+        "title": "MonetSad",
+        "filename": "MonetSad.jpg",
+        "filesize": 485866,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+        "link": "http://skane.konstframjandet.se/om/medlemmar/monetsad/",
+        "alt": "",
+        "author": "7",
+        "description": "",
+        "caption": "",
+        "name": "monetsad",
+        "status": "inherit",
+        "uploaded_to": 108,
+        "date": "2015-06-17 11:21:10",
+        "modified": "2022-05-30 12:41:28",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 795,
+        "height": 654,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-300x247.jpg",
+          "medium-width": 300,
+          "medium-height": 247,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 526,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "large-width": 640,
+          "large-height": 526,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "1536x1536-width": 795,
+          "1536x1536-height": 654,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "2048x2048-width": 795,
+          "2048x2048-height": 654,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Samarbete under Malmö Nordic 2013",
+      "is_archived": true,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/110"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=110"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "date": "2015-06-18T14:38:42",
+    "date_gmt": "2015-06-18T12:38:42",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=107"
+    },
+    "modified": "2015-08-17T16:28:12",
+    "modified_gmt": "2015-08-17T14:28:12",
+    "slug": "konst-i-narheten",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/konst-i-narheten/",
+    "title": {
+      "rendered": "Konst i Närheten"
+    },
+    "content": {
+      "rendered": "<p>I Konst i Närheten genomfördes tre utställningar på äldreboenden i Skåne, i samband med detta besökte konstnärerna äldreomsorgen och talade om sitt konstnärskap. Tanken var att konstnärer skulle få möjlighet att arbeta på plats inom äldreomsorgen, något vi märkt att det fanns intresse för.</p>\n<p>Konst i Närheten var ett sidoprojekt till det långvariga projektet Konst i Vården. Vi såg ett behov av utveckling av Konst i Vården som har drivits av Konstfrämjandet Skåne sedan 2004, som en del i utvecklingsarbetet startade vi sidoprojektet Konst i Närheten. Projektet avslutades 2014.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#99bc76",
+      "image": {
+        "ID": 134,
+        "id": 134,
+        "title": "Pierre-Auguste_Renoir_143",
+        "filename": "Pierre-Auguste_Renoir_143.jpg",
+        "filesize": 433542,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143.jpg",
+        "link": "http://skane.konstframjandet.se/projekt/konst-i-narheten/pierre-auguste_renoir_143/",
+        "alt": "",
+        "author": "7",
+        "description": "",
+        "caption": "",
+        "name": "pierre-auguste_renoir_143",
+        "status": "inherit",
+        "uploaded_to": 107,
+        "date": "2015-08-17 14:27:53",
+        "modified": "2015-08-17 14:27:53",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2536,
+        "height": 2100,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-300x248.jpg",
+          "medium-width": 300,
+          "medium-height": 248,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 530,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-1024x848.jpg",
+          "large-width": 640,
+          "large-height": 530,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1272,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1696,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Pierre-Auguste_Renoir_143-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Ett utvecklingsprojekt för Konst i Vården",
+      "is_archived": true,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/107"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=107"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "date": "2015-06-18T13:55:46",
+    "date_gmt": "2015-06-18T11:55:46",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=106"
+    },
+    "modified": "2015-06-18T13:57:37",
+    "modified_gmt": "2015-06-18T11:57:37",
+    "slug": "konst-i-skolan",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/konst-i-skolan/",
+    "title": {
+      "rendered": "Konst i Skolan"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet Skåne genomförde hösten 2010 en pilotstudie av projektet Konst i skolan genom stöd från Malmö stad. Tanken var att testa en experimentell projektverksamhet mellan skolor och konstnärer och därigenom utveckla en fungerande arbetsmodell. Våren 2011 genomfördes en andra pilotstudie ute på skolor i region Skåne. Resultatet av dessa båda pilotstudier var en modell för hur konstnärer under 15 timmar kan arbeta med elever i en klass ute på en skola, ett tillhörande kvällssamtal, en utställning av arbetet på skolan samt en avslutande konstutställning på Konstfrämjandet Skånes galleri. Under 2013 och 2014 genomfördes Konst i Skolan på sex nya skolor med stöd från Allmänna Arvsfonden och medel från skapande skola.</p>\n<p>Syftet med projektet var att skapa en länk mellan skola och konstnär och att utveckla formen för samtidskonstnärers arbete inom skolan. Anledningen till att vi ville göra detta, var att vi såg en brist hos skolorna, såväl i deras skapande skola-verksamhet, som i deras eget pedagogiska arbete. Vi såg att samtidskonstnären som aktör på skolan saknades, som kommunikatör och igångsättare av tankar, processer och nya sätt att arbeta på. Vi ville med projektet hjälpa skolan att se nya möjligheter med konstnärerna och konstnärlig praxis.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#548dbf",
+      "image": {
+        "ID": 101,
+        "id": 101,
+        "title": "MonetSad",
+        "filename": "MonetSad.jpg",
+        "filesize": 485866,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+        "link": "http://skane.konstframjandet.se/om/medlemmar/monetsad/",
+        "alt": "",
+        "author": "7",
+        "description": "",
+        "caption": "",
+        "name": "monetsad",
+        "status": "inherit",
+        "uploaded_to": 108,
+        "date": "2015-06-17 11:21:10",
+        "modified": "2022-05-30 12:41:28",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 795,
+        "height": 654,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-300x247.jpg",
+          "medium-width": 300,
+          "medium-height": 247,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 526,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "large-width": 640,
+          "large-height": 526,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "1536x1536-width": 795,
+          "1536x1536-height": 654,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "2048x2048-width": 795,
+          "2048x2048-height": 654,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Ett projekt där konstnärer skapar konst tillsammans med elever",
+      "is_archived": true,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/106"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=106"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "date": "2015-06-15T14:13:00",
+    "date_gmt": "2015-06-15T12:13:00",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-project&#038;p=97"
+    },
+    "modified": "2023-04-19T11:45:16",
+    "modified_gmt": "2023-04-19T09:45:16",
+    "slug": "konst-i-varden",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://skane.konstframjandet.se/projekt/konst-i-varden/",
+    "title": {
+      "rendered": "KONST OCH HÄLSA"
+    },
+    "content": {
+      "rendered": "<p>Konst och Hälsa är ett av Konstfrämjandet Skånes långsiktiga projekt, som pågått sedan 2004 med stöd från Region Skåne.</p>\n<p><strong>Varför ”konst och hälsa”?</strong><br />\nKan konst läka? Att ta del av konst och ha en estetisk upplevelse kommer inte att läka våra sjukdomar, men den kan hjälpa oss att vända oss inåt, det kan möjliggöra ett utrymme där vi får vara utan kritik, fördomar eller prestationsförväntningar, en plats där vi kan få vara tillsammans med andra personer och skapa nya sammanhang.<br />\n”Existentiell hälsa” är en term som har framkommit för att syfta till allt som bidrar till hälsa, även när en inte är sjuk. Existentiell hälsa handlar om känslan av att ha en inre kärna där självreflektion är central. De estetiska upplevelserna ger oss ett brett spektrum av känslor som överskrider det vi kan förstå med bara ord eller intellektuella koncept.</p>\n<p><strong>Hur vi arbetar?</strong><br />\nProjekten inom Konst och hälsa strävar efter att ge nya intryck, upphov till samtal och diskussion genom konsten. Tanken är att ge inspiration till fler kulturupplevelser även utanför projekten, skapa möjligheter till meningsfulla aktiviteter och gemensamma erfarenheter för personal och vårdtagare t.ex. inom äldreomsorgen, daglig verksamhet, beroendecentrum eller palliativvård. Konstupplevelser ger människor fler sätt att kommunicera på, bilden kan fungera som språk och hjälpa till att bryta isolering. Bildsamtal har visat sig vara en bra metod för att stimulera äldres upplevelseförmåga och tolkningsförmåga.</p>\n<p>I Konst och hälsa arbetar konstnärer med sin konst, på det sätt som passar alla deltagare bäst! För att genomföra ett så bra projekt som möjligt vill vi att processen präglas av flexibilitet både för konsten men även för deltagarna.</p>\n<p>Det är viktigt att poängtera att vårt arbete inom konst och hälsa inte är terapeutiskt.</p>\n<p><strong>På gång:</strong><br />\n&#8211; <strong>Open Call för konstnärer inom konst och hälsa.</strong><br />\nKonstfrämjandet Skånes verksamhet ”Konst och hälsa” arbetar processbaserad, vi ämnar ge så många personer som möjligt tillgång till den estetiska upplevelsen och dess hälsofrämjande effekter. Inom ”Konst och hälsa” är våra målgrupper först och främst personer inom vården – patienter, brukare, anhöriga och inte minst, vårdpersonal.Med ett växande intresse för fältet Konst och hälsa, samt Konstfrämjandet Skånes utökade arbete inom det, söker vi nu konstnärer som är intresserade av att utveckla processer inom vård och hälsa.</p>\n<p>Vi söker:<br />\nKonstnärer som vill arbeta kring konst och hälsa med olika målgrupper: äldre, ungdomar, barn, vårdpersonal, lärare, personer med demens och personer som lever med psykisk ohälsa.</p>\n<p>Konstnärer som vill arbeta med de möjligheter konst- och hälsafältet kan erbjuda, som är flexibla i sitt arbete och som är lyhörda.</p>\n<p>Vi arbetar med och för våra målgrupper. Vi skapar ingenting utan att träffa personer, verksamheter och/eller grupper, lyssnar på deras behov och frågor och skapar sedan processer som är relevanta för alla. Vi tror på konst som en katalysator till upptäckter om sig själv.</p>\n<p><em>Känner du igen dig? Läs mer om vårt Open Call här: </em><br />\n<a href=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Open-Call_Konstnarer-.pdf\">Open Call_Konstnärer</a><br />\nAnsökan är löpande.</p>\n<p>&#8211; <strong>Kurs ”Att se konst”</strong><br />\nKursen riktar sig till vård- och omsorgspersonal och syftet är att sänka trösklarna gällande tillgång till konsten och dess tolkningar. Att se och uppskatta konst behöver inte vara svårt eller bara för några få som har läst konstvetenskap. Kursen ämnar förse personal med tillräcklig trygghet för att prata om konst på ett avslappnat, personligt, öppet sätt som kan ge upphov till spontana dialoger och träffar.Kursen bokas direkt med projektledaren för Konst och hälsa.</p>\n<p><em>Läs mer om kursen här:</em><br />\n<a href=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Att-se-konst_infoblad1.pdf\">Att se konst_infoblad1</a></p>\n<p><strong>Övriga metoder som finns att tillgå inom ramen för vår Konst och hälsa-verksamhet:</strong><br />\n&#8211; Konstnärsbesök/utställning: Vi kan i dialog med personal eller deltagare välja en konstnär som sedan gör en utställning i de lokaler som finns tillgängliga. Det finns även möjlighet för konstnären att hålla i workshops eller konstnärssamtal med personal och deltagare.</p>\n<p>&#8211; Materialpaket: Under pandemin testade Konstfrämjandet Skåne att skicka ut materialpaket på Beroendecentrum i Malmö. Patienter kunde genom materialpaketen själva ta initiativ till att måla och gjorde det flitigt. Konstfrämjandet sätter ihop en låda med akvarellfärgpaletter, penslar och akvarellpapper i olika storlekar och fyller på efter behov. Materialpaketen finns på plats för ett spontant skapande, lådan finns tillgänglig i ett utrymme som bestäms av personalen.</p>\n<p><strong>Veta mer?</strong><br />\nKontakta gärna vår projektledare Ana María Bermeo, om ni som konstnär eller inom ert arbete vill delta, har frågor eller vill ha mer information! anamaria.bermeo@konstframjandet.se</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#77d7ea",
+      "image": {
+        "ID": 724,
+        "id": 724,
+        "title": "Skärmavbild 2021-02-17 kl. 15.08.34",
+        "filename": "Skarmavbild-2021-02-17-kl.-15.08.34.png",
+        "filesize": 2961852,
+        "url": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34.png",
+        "link": "http://skane.konstframjandet.se/projekt/konst-i-varden/skarmavbild-2021-02-17-kl-15-08-34/",
+        "alt": "",
+        "author": "37",
+        "description": "",
+        "caption": "",
+        "name": "skarmavbild-2021-02-17-kl-15-08-34",
+        "status": "inherit",
+        "uploaded_to": 97,
+        "date": "2022-03-07 19:45:46",
+        "modified": "2022-03-07 19:45:46",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://skane.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2313,
+        "height": 1534,
+        "sizes": {
+          "thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-300x199.png",
+          "medium-width": 300,
+          "medium-height": 199,
+          "medium_large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-768x509.png",
+          "medium_large-width": 640,
+          "medium_large-height": 424,
+          "large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-1024x679.png",
+          "large-width": 640,
+          "large-height": 424,
+          "1536x1536": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-1536x1019.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1019,
+          "2048x2048": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-2048x1358.png",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1358,
+          "kf-tip": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-640x640.png",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/Skarmavbild-2021-02-17-kl.-15.08.34-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "",
+      "is_archived": false,
+      "dropcap": false,
+      "aside-images": false,
+      "show_on_startpage": true,
+      "anniversary": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project/97"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=97"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "id": 174,
+    "date": "2022-02-11T13:59:24",
+    "date_gmt": "2022-02-11T12:59:24",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=174"
+    },
+    "modified": "2022-02-11T13:59:24",
+    "modified_gmt": "2022-02-11T12:59:24",
+    "slug": "nyhetsbrev",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/nyhetsbrev/",
+    "title": {
+      "rendered": "Nyhetsbrev"
+    },
+    "content": {
+      "rendered": "<p>Vill du få mejlutskick om våra evenemang?<br />\nSkriv ”Nyhetsbrev, ja tack” till adress: <a href=\"mailto:kraft@konstframjandet.se\">kraft@konstframjandet.se</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/174"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=174"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 172,
+    "date": "2022-02-11T13:56:03",
+    "date_gmt": "2022-02-11T12:56:03",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=172"
+    },
+    "modified": "2023-04-14T09:10:22",
+    "modified_gmt": "2023-04-14T07:10:22",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<div class=\"wp-caption\"><img loading=\"lazy\" width=\"300\" height=\"225\" class=\"alignnone size-medium wp-image-219\" src=\"http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1-300x225.jpeg\" alt=\"\" srcset=\"http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1-300x225.jpeg 300w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1-1024x768.jpeg 1024w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1-768x576.jpeg 768w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1-480x360.jpeg 480w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-1.jpeg 1280w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p><strong>Styrelse 2023: </strong><br />\nHanna Stahle, Katrineholm (ordförande)<br />\nÅsa Lockner, Mellösa (sekreterare)<br />\nNils Claesson, Stockholm (kassör)<br />\nLinda Karlsson, Stjärnhov (ledamot)<br />\nAnna Berglind, Jönåker (ledamot)<br />\nÅsa Elzén, Näshulta (ledamot)<br />\nMårten Medbo, Katrineholm (suppleant)<br />\nGustav Person, Julita (suppleant)</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Kraft leds av konstnärer med bred erfarenhet av att arrangera, kurera och skapa en plats för konsten. Styrelse består av aktivt arbetande medlemmar och väljs på årsmötet. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/172"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=172"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 171,
+    "date": "2022-02-11T13:54:53",
+    "date_gmt": "2022-02-11T12:54:53",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=171"
+    },
+    "modified": "2022-07-04T08:52:47",
+    "modified_gmt": "2022-07-04T06:52:47",
+    "slug": "supporter",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/supporter/",
+    "title": {
+      "rendered": "Supporter"
+    },
+    "content": {
+      "rendered": "<p>Som supporter stödjer du Konstfrämjandet Kraft.<br />\n• Du får utskick om utställningar och evenemang där Konstfrämjandet är arrangör..<br />\n• Du får delta i seminarier och utbildningar.<br />\n• Du får möjlighet att hjälpa till som funktionär vid olika evenemang.</p>\n<p>Kostnad 100 kronor/år<br />\nBankgironr 5783-8922, Konstfrämjandet Kraft OBS märk med ditt namn och Support 2022</p>\n<p>För att vi ska få din mejladress till utskick vill vi att du bekräftar din insättning genom att mejla: <a href=\"mailto:kraft@konstframjandet.se\">kraft@konstframjandet.se</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Är du intresserad av konst och samtid?<br />\r\nVill du veta vad som händer inom samtidskonsten i Sörmland?<br />\r\nVill du träffa andra med samma intresse?<br />\r\nDå kan du bli supporter i Konstfrämjandet Kraft!",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/171"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=171"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 170,
+    "date": "2022-02-11T13:53:23",
+    "date_gmt": "2022-02-11T12:53:23",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=170"
+    },
+    "modified": "2023-02-18T15:18:19",
+    "modified_gmt": "2023-02-18T14:18:19",
+    "slug": "medlemsorganisationer",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/medlemsorganisationer/",
+    "title": {
+      "rendered": "Medlemsorganisationer"
+    },
+    "content": {
+      "rendered": "<p><strong>Våra medlemsorganisationer:</strong></p>\n<p><a href=\"https://katrineholm.naturskyddsforeningen.se\">Naturskyddsföreningen i Katrineholm</a></p>\n<p><a href=\"https://statenskonstrad.se/konst/skogen-kallar/\">Föreningen Skogen kallar</a></p>\n<p><a href=\"http://www.biebiennal.se\">Bie Biennal</a></p>\n<p><a href=\"https://etcsolpark.se\">Etc Solpark</a></p>\n<p><a href=\"https://mellosaverken.se\">Mellösaverken</a></p>\n<p><a href=\"https://www.fogelstad.org\">Kulturföreningen Fogelstad</a></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Som medlemmar är ni delaktiga i Konstfrämjandet Krafts aktiviteter – ni bjuds in till utbildningar och seminarier samt  till utställningar och mingel. Vi kan dessutom göra samarbetsprojekt med er som medlemmar. Som medlemmar stödjer ni vår verksamhet och kan vara med och påverka Konstfrämjandets innehåll och inriktning genom årsmötet.</p>\n<p><strong>Medlemsskap:</strong><br />\nFörening, organisation eller företag: 300 kronor/år</p>\n<p>Ansökan och information om medlemskap, kontakta oss: <a href=\"mailto:kraft@konstframjandet.se\">kraft@konstframjandet.se</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Är ni en förening eller organisation med intresse för hållbarhetsfrågor, samtidskonst och för kultur- och folkbildning? Bli medlemmar i Konstfrämjandet Kraft!",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/170"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=170"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 169,
+    "date": "2022-02-11T13:51:47",
+    "date_gmt": "2022-02-11T12:51:47",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=169"
+    },
+    "modified": "2022-02-15T16:40:09",
+    "modified_gmt": "2022-02-15T15:40:09",
+    "slug": "solparken",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/solparken/",
+    "title": {
+      "rendered": "Solparken"
+    },
+    "content": {
+      "rendered": "<div class=\"wp-caption\"><img loading=\"lazy\" width=\"300\" height=\"172\" class=\"alignnone size-medium wp-image-184\" src=\"http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Solparken1-300x172.jpeg\" alt=\"\" srcset=\"http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Solparken1-300x172.jpeg 300w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Solparken1-1024x586.jpeg 1024w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Solparken1-768x440.jpeg 768w, http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Solparken1.jpeg 1280w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p>På Solparken finner vi förutsättningar och en potential för att göra stora utställningar och att hålla workshops och kurser. Där finns ett engagemang och intresse för att mötas kring våra stora framtidsfrågor, där finns också redan idag en stor besöksgrupp från när och fjärran med fokus på dessa frågor som också kan ta del av hur frågorna gestaltas genom konst. Genom att kombinera tekniska överlevnadsexperiment med produktion av solel, växthus, kurser och utställningar ser vi många möjligheter till korsbefruktande möten. Sommaren 2021 genomfördes en första sommarutställning och en konsthall skapades i en av byggnaderna. Nu vill vi satsa lite till, Solparken är en zon för överlevnadsexperiment, för ny teknologi som kan bidra till att vända den ekologiska kris som innebär klimatuppvärmning som också får stora konsekvenser vad gäller grundläggande villkor för mänsklighetens överlevnad.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Vi fortsätter att utveckla det samarbete med ETCs Solpark i Katrineholm som inleddes 2021. Solparken är en unik plats, en zon för överlevnadsexperiment, för ny teknologi som kan bidra till att vända den ekologiska kris som innebär klimatuppvärmning som också får stora konsekvenser vad gäller grundläggande villkor för mänsklighetens överlevnad. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/169"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=169"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 120,
+    "date": "2022-02-02T15:19:00",
+    "date_gmt": "2022-02-02T14:19:00",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-about&#038;p=120"
+    },
+    "modified": "2022-02-11T13:55:32",
+    "modified_gmt": "2022-02-11T12:55:32",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://kraft.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Konstfrämjandet Kraft"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet Kraft vill främja en konst som inte väjer för vår tids stora frågor. Vi tror på en konst som opererar fritt och som kan dyka upp var som helst i länet där behov och fruktsamma idéer finns. Konstfrämjandet Kraft leds av konstnärer med bred erfarenhet av att arrangera, kurera och skapa en plats för konsten. Vi vill arbeta utan en fast scen men med olika noder i ett nätverk som bilder en väv av samtal och upplevelser. Föreningen har sitt säte i Katrineholm. Vårt utvecklingsarbete startar 2022 med att skapa kontakter och etablera formerna för samverkan.<br />\n&nbsp;<br />\nVi vet att konsten idag rör sig mellan discipliner och tekniker och att just denna brokighet är vår styrka. Vi vill skapa synergier mellan en rad olika initiativ genom att samverka med aktörer över hela Sörmlands län. Vi tror på samtal och konstpedagogik och på att ge många människor möjlighet att uppleva konst och redskap att skapa. Vi tror på att ge barn och unga en möjlighet att förstå konsten och konsten en roll genom att göra saker tillsammans.<br />\n&nbsp;<br />\n<strong>Nyhetsbrev</strong><br />\nVill du få mejlutskick om våra evenemang?<br />\nSkriv ”Nyhetsbrev, ja tack” till adress: <a href=\"mailto:kraft@konstframjandet.se\">kraft@konstframjandet.se</a><br />\n&nbsp;<br />\n<strong>Kontakt: </strong>kraft@konstframjandet.se</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Kraft vill belysa teman som hållbarhet, energi och konstens kraft. Föreningen arbetar konstfrämjande inom ett brett samtidskonstfält i Sörmland. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about/120"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=120"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

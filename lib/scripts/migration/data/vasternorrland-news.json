@@ -1,0 +1,972 @@
+[
+  {
+    "id": 224,
+    "date": "2023-04-11T12:45:24",
+    "date_gmt": "2023-04-11T10:45:24",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=224"
+    },
+    "modified": "2023-04-11T12:46:21",
+    "modified_gmt": "2023-04-11T10:46:21",
+    "slug": "save-the-date",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/save-the-date/",
+    "title": {
+      "rendered": "Save the date"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Den 3 juni öppnar Wander Wonder – en konstupplevelse längs vandringsled med start på Varvsberget i Örnsköldsvik.",
+      "image": {
+        "ID": 226,
+        "id": 226,
+        "title": "WW 3juni",
+        "filename": "WW-3juni.png",
+        "filesize": 343009,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni.png",
+        "link": "http://vasternorrland.konstframjandet.se/aktuellt/save-the-date/ww-3juni/",
+        "alt": "",
+        "author": "59",
+        "description": "",
+        "caption": "",
+        "name": "ww-3juni",
+        "status": "inherit",
+        "uploaded_to": 224,
+        "date": "2023-04-11 10:44:34",
+        "modified": "2023-04-11 10:44:34",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 4500,
+        "height": 4500,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-300x300.png",
+          "medium-width": 300,
+          "medium-height": 300,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-768x768.png",
+          "medium_large-width": 640,
+          "medium_large-height": 640,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-1024x1024.png",
+          "large-width": 640,
+          "large-height": 640,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-1536x1536.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-2048x2048.png",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 2048,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-640x640.png",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/04/WW-3juni-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "",
+      "text": "<p style=\"font-weight: 400\">Sju konstnärer visar nya verk som relaterar till vandring och natur på olika sätt. Skulptur, måleri, installation, performance och ljud är något av allt vi bjuds på. Ta linbanan upp till bergets topp och följ med på en vandring med konsten.</p>\n<p style=\"font-weight: 400\">Deltagande konstnärer:<br />\nMattias Andersson<br />\nDimen Abdulla<br />\nOscar Kaleva Karlsson<br />\nJenny Lundgren<br />\nMalin Lin Nordström<br />\nLena Stenberg<br />\nYlva Westerlund</p>\n<p style=\"font-weight: 400\">Curatorer: Helena Byström och Karolina Aastrup</p>\n<p style=\"font-weight: 400\">Konstfrämjandet Västernorrland i samarbete med Västernorrlands museum, Region Västernorrland och Örnsköldsvik kommun. Projektet genomförs med stöd av Kulturrådet.</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/224"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=224"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=224"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 221,
+    "date": "2023-03-30T16:14:57",
+    "date_gmt": "2023-03-30T14:14:57",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=221"
+    },
+    "modified": "2023-03-30T16:18:54",
+    "modified_gmt": "2023-03-30T14:18:54",
+    "slug": "blanagla-art-fest",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/blanagla-art-fest/",
+    "title": {
+      "rendered": "Blånagla ART fest"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Helgen  5 – 6 augusti 2023",
+      "image": {
+        "ID": 222,
+        "id": 222,
+        "title": "artfestlogo-1-edited-2048x1280",
+        "filename": "artfestlogo-1-edited-2048x1280-1.png",
+        "filesize": 110664,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1.png",
+        "link": "http://vasternorrland.konstframjandet.se/aktuellt/blanagla-art-fest/artfestlogo-1-edited-2048x1280/",
+        "alt": "",
+        "author": "59",
+        "description": "",
+        "caption": "",
+        "name": "artfestlogo-1-edited-2048x1280",
+        "status": "inherit",
+        "uploaded_to": 221,
+        "date": "2023-03-30 14:14:33",
+        "modified": "2023-03-30 14:14:33",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2048,
+        "height": 1280,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-300x188.png",
+          "medium-width": 300,
+          "medium-height": 188,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-768x480.png",
+          "medium_large-width": 640,
+          "medium_large-height": 400,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-1024x640.png",
+          "large-width": 640,
+          "large-height": 400,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-1536x960.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 960,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1.png",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1280,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-640x640.png",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/03/artfestlogo-1-edited-2048x1280-1-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Program med musik, dans, performance och konst i det gamla danspalatset i Orrviken, Husum.<br />\r\nMer information om deltagare och tider kommer.",
+      "text": "<p><a href=\"http://vasternorrland.konstframjandet.se/projekt/blanagla/\">Läs mer om Blånagla ART fest</a></p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "5-6 augusti 2023",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/221"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=221"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=221"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "date": "2023-01-18T10:58:32",
+    "date_gmt": "2023-01-18T09:58:32",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=217"
+    },
+    "modified": "2023-01-18T10:58:32",
+    "modified_gmt": "2023-01-18T09:58:32",
+    "slug": "wander-wonder",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/wander-wonder/",
+    "title": {
+      "rendered": "Wander Wonder"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Ett konstprojekt på vandringsleder och i omkringliggande landskap. ",
+      "image": {
+        "ID": 215,
+        "id": 215,
+        "title": "WW logo",
+        "filename": "WW-logo.png",
+        "filesize": 91135,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo.png",
+        "link": "http://vasternorrland.konstframjandet.se/projekt/wander-wonder/ww-logo-4/",
+        "alt": "",
+        "author": "59",
+        "description": "",
+        "caption": "",
+        "name": "ww-logo-4",
+        "status": "inherit",
+        "uploaded_to": 208,
+        "date": "2023-01-13 11:16:38",
+        "modified": "2023-01-13 11:16:38",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 3509,
+        "height": 2482,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-300x212.png",
+          "medium-width": 300,
+          "medium-height": 212,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-768x543.png",
+          "medium_large-width": 640,
+          "medium_large-height": 453,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-1024x724.png",
+          "large-width": 640,
+          "large-height": 453,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-1536x1086.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1086,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-2048x1449.png",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1449,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-640x640.png",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2023/01/WW-logo-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Sommaren 2023 öppnar konstprojektet längs vandringsleden 4 Berg, en ny stadsnära led i Örnsköldsvik med start på Varvsberget.",
+      "text": "",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/217"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=217"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=217"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 185,
+    "date": "2022-10-24T20:31:42",
+    "date_gmt": "2022-10-24T18:31:42",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=185"
+    },
+    "modified": "2022-10-24T23:27:52",
+    "modified_gmt": "2022-10-24T21:27:52",
+    "slug": "triennalen-blaser-vidare",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/triennalen-blaser-vidare/",
+    "title": {
+      "rendered": "Triennalen blåser vidare"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": false,
+      "video": "",
+      "caption": "",
+      "excerpt": "Ett antal av de verk som ingick i Triennalen 2022 hade specifika platsanknytningar. Några av verken flyttas under kommande år ut till dessa platser och visas i nya miljöer, på nya sätt och med nya samarbetspartners. ",
+      "text": "<p><img loading=\"lazy\" width=\"264\" height=\"300\" class=\"alignnone size-medium wp-image-187\" src=\"http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/10/Den-röda-tråden-genom-åren-264x300.png\" alt=\"\" srcset=\"http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/10/Den-röda-tråden-genom-åren-264x300.png 264w, http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/10/Den-röda-tråden-genom-åren-902x1024.png 902w, http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/10/Den-röda-tråden-genom-åren-768x872.png 768w, http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/10/Den-röda-tråden-genom-åren.png 960w\" sizes=\"(max-width: 264px) 100vw, 264px\" /></p>\n",
+      "extra_text": "<p>Först ut är Den röda tråden genom åren, av Ingvar Sjöberg där Brita-Kajsa Karlsdotters Anundsjösöm givits en digital form. Verket kommer att visas som en projektion utomhus vid torget i Bredbyn, Anundsjö.</p>\n<p>Invigning onsdag 2/11 kl 18.00. Visas fram tom lördag 5/11, kvällstid.<br />\nI samarbete med Anundsjö företagarförening och Bygdsam Anundsjö.</p>\n",
+      "place": "Torget Bredbyn, Anundsjö",
+      "address": "",
+      "date": "2/11",
+      "time": "18.00",
+      "price": "",
+      "external_link": "http://triennalen.konstframjandet.se/",
+      "extra_meta": [
+        {
+          "meta_text": ""
+        }
+      ],
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/185"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=185"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=185"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 168,
+    "date": "2022-03-27T18:31:30",
+    "date_gmt": "2022-03-27T16:31:30",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=168"
+    },
+    "modified": "2022-03-27T18:31:30",
+    "modified_gmt": "2022-03-27T16:31:30",
+    "slug": "konstnar-soker-bilder-pa-kopior-av-bengt-lindstroms-y",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/konstnar-soker-bilder-pa-kopior-av-bengt-lindstroms-y/",
+    "title": {
+      "rendered": "Konstnär söker bilder på kopior av Bengt Lindströms Y"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 169,
+        "id": 169,
+        "title": "nina",
+        "filename": "nina.png",
+        "filesize": 867815,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina.png",
+        "link": "http://vasternorrland.konstframjandet.se/aktuellt/konstnar-soker-bilder-pa-kopior-av-bengt-lindstroms-y/nina/",
+        "alt": "",
+        "author": "59",
+        "description": "",
+        "caption": "Nina Svensson med Y:et i Timrå. Foto: Ingrid Engstedt Edfast/ Sveriges Radio",
+        "name": "nina",
+        "status": "inherit",
+        "uploaded_to": 168,
+        "date": "2022-03-27 16:29:33",
+        "modified": "2022-03-27 16:29:38",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1024,
+        "height": 576,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-300x169.png",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-768x432.png",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina.png",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina.png",
+          "1536x1536-width": 1024,
+          "1536x1536-height": 576,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina.png",
+          "2048x2048-width": 1024,
+          "2048x2048-height": 576,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-640x576.png",
+          "square-large-width": 640,
+          "square-large-height": 576,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/03/nina-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Nina Svensson med Y:et i Timrå. Foto: Ingrid Engstedt Edfast/ Sveriges Radio",
+      "excerpt": "Nina Svensson är en av deltagarna i Triennalen som under lång tid intresserat sig för Bengt Lindströms jätteskulptur - Y:et på olika sätt. <br />\r\nNu söker hon andra Y:n som folk har byggt hemma i sina trädgårdar inspirerade av skulpturen.<br />\r\n<br />\r\nLyssna på intervjun med P4 Västernorrland och hör av er med tips!<br />\r\n",
+      "text": "",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "https://sverigesradio.se/artikel/konstnar-soker-bilder-pa-kopior-av-bengt-lindstroms-y",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/168"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=168"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=168"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 157,
+    "date": "2022-02-25T11:44:32",
+    "date_gmt": "2022-02-25T10:44:32",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=157"
+    },
+    "modified": "2022-03-25T16:43:27",
+    "modified_gmt": "2022-03-25T15:43:27",
+    "slug": "pressrelease",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/pressrelease/",
+    "title": {
+      "rendered": "Pressrelease"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "33 konstnärer utvalda till allra första Triennalen i Västernorrland",
+      "image": {
+        "ID": 160,
+        "id": 160,
+        "title": "FC705FB3-79E2-4603-A286-2FDE91395A4C",
+        "filename": "FC705FB3-79E2-4603-A286-2FDE91395A4C.jpg",
+        "filesize": 531840,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C.jpg",
+        "link": "http://vasternorrland.konstframjandet.se/aktuellt/pressrelease/fc705fb3-79e2-4603-a286-2fde91395a4c/",
+        "alt": "",
+        "author": "59",
+        "description": "",
+        "caption": "",
+        "name": "fc705fb3-79e2-4603-a286-2fde91395a4c",
+        "status": "inherit",
+        "uploaded_to": 157,
+        "date": "2022-02-25 10:41:48",
+        "modified": "2022-02-25 10:41:48",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2048,
+        "height": 2048,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-300x300.jpg",
+          "medium-width": 300,
+          "medium-height": 300,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-768x768.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 640,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-1024x1024.jpg",
+          "large-width": 640,
+          "large-height": 640,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-1536x1536.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-2048x2048.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 2048,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2022/02/FC705FB3-79E2-4603-A286-2FDE91395A4C-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Bild: Nina Svensson, Dom ska vara glada att det inte blev W, 2019, Ulla Carin Winter, Utsikt IV: Vindlek I, stillbild från video, 2021 ",
+      "excerpt": "Åtta män och tjugofem kvinnor. Det blev resultatet när curatorn för Triennalen, Björn Norberg gjort sitt urval av konstnärer som kommer att medverka i regionen genom tiderna största konstevenemang. Triennalens första öppning äger rum den 21 maj och kommer att presentera verk i en mängd olika material och tekniker – alla med anknytning till regionen",
+      "text": "<p>Bakgrunden till vårens och sommarens stora konsthändelse är beslutet att låta Y-salongen expandera och omfatta fler städer och institutioner. Syftet är att aktivera och belysa det betydande och livaktiga konstlivet i Västernorrland. Urvalet speglar i stort sett fördelningen i ansökningar, med tre fjärdedelar intresseanmälningar från kvinnliga konstnärer och en fjärdedel manliga. I höstas utsågs Björn Norberg till curator:</p>\n<p>&nbsp;</p>\n<p>–Det har varit ett nöje att få lära känna regionens konstliv på djupet på det här sättet. Här finns så många lager av historia, natur, industrier och naturresurser som varit essentiella i övergången från bondesamhälle till modern stat. Det var också av den anledningen jag föreslog vinden som kraft som tematisk underström i Triennalen, säger Björn Norberg. Vindkraften är en av många aktuella frågor om resursfördelning och hänger i sin tur samman med många andra viktiga diskussioner kopplade till framtidens samhällsutveckling. Dessutom har vinden många symboliska betydelser.</p>\n<p>&nbsp;</p>\n<p>Utvalda konstnärer</p>\n<p>Mats Adelman, Andreas Brännlund, Annika Kronlid, Birgitta Ricklund, Cecilia Björk, Cecilia Hultman, Cecilia Ömalm, Christian Bjärgö, David Larsson, Elin Kristoffersson, Elin Maria Johansson, Elme Ämting-Selja, Emilia Bergmark, Emma Löfström, Fredrik Nordin, Ida Rödén, Ina Palm, Ingvar Sjöberg, Jenny Berg, Jenny Lundgren, Josefin Östberg Olsson, Linda Lasson, Linnéa Therese Dimitriou, Lisa W Carlson, Margareta Klingberg, Maria Mäki, Maria Sundström, Max Book, Nina Svensson, Oscar Kaleva Karlsson, Sonia Hedstrand, Ulla-Carin Winter, Ylva Westerlund.</p>\n<p>&nbsp;</p>\n<p>Triennalen kommer att äga rum på följande platser i Västernorrland: Örnsköldsviks museum och konsthall, Apotekshuset – konst och kultur i Sollefteå, Kramfors Konsthall, Västernorrlands museum, Härnösands konsthall, Konsthallen i Ånge, Sundsvalls museum och på en ännu inte bestämd plats i Timrå. Första platsen Örnsköldsviks museum öppnar den 7 maj och därefter sker vernissagen vid olika datum. Se respektive platser eller på Konstfrämjandets hemsida. Läs mer om bakgrunden till Triennalen.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Triennalen stöds av Postkodstiftelsen och är ett är ett samarbete mellan Konstfrämjandet Västernorrland, Västernorrlands museum och Konstkonsulentverksamheten i Region Västernorrland.</p>\n<p>&nbsp;</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/157"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=157"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=157"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 156,
+    "date": "2022-02-25T11:38:27",
+    "date_gmt": "2022-02-25T10:38:27",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=156"
+    },
+    "modified": "2022-03-25T16:33:06",
+    "modified_gmt": "2022-03-25T15:33:06",
+    "slug": "utvalda-konstnarer",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/utvalda-konstnarer/",
+    "title": {
+      "rendered": "Utvalda konstnärer"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Nu är urvalet klart och deltagarna presenteras",
+      "image": false,
+      "video": "",
+      "caption": "",
+      "excerpt": "",
+      "text": "<p>Mats Adelman, Andreas Brännlund, Annika Kronlid, Birgitta Ricklund, Cecilia Björk, Cecilia Hultman, Cecilia Ömalm, Christian Bjärgö, David Larsson, Elin Kristoffersson, Elin Maria Johansson, Elme Ämting-Selja, Emilia Bergmark, Emma Löfström, Fredrik Nordin, Ida Rödén, Ina Palm, Ingvar Sjöberg, Jenny Berg, Jenny Lundgren, Josefin Östberg Olsson, Linda Lasson, Linnéa Therese Dimitriou, Lisa W Carlson, Margareta Klingberg, Maria Mäki, Maria Sundström, Max Book, Nina Svensson, Oscar Kaleva Karlsson, Sonia Hedstrand, Ulla-Carin Winter, Ylva Westerlund.</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/156"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=156"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=156"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 136,
+    "date": "2021-09-29T14:04:01",
+    "date_gmt": "2021-09-29T12:04:01",
+    "guid": {
+      "rendered": "http://vasternorrland.konstframjandet.se/?post_type=kf-news&#038;p=136"
+    },
+    "modified": "2021-09-29T14:04:01",
+    "modified_gmt": "2021-09-29T12:04:01",
+    "slug": "hela-lanets-konstliv-engageras-nar-y-salong-byter-namn-till-triennalen",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://vasternorrland.konstframjandet.se/aktuellt/hela-lanets-konstliv-engageras-nar-y-salong-byter-namn-till-triennalen/",
+    "title": {
+      "rendered": "Hela länets konstliv engageras när Y-salong byter namn till Triennalen"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 137,
+        "id": 137,
+        "title": "image001Bjorn",
+        "filename": "image001Bjorn-scaled.jpg",
+        "filesize": 1079190,
+        "url": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-scaled.jpg",
+        "link": "http://vasternorrland.konstframjandet.se/aktuellt/hela-lanets-konstliv-engageras-nar-y-salong-byter-namn-till-triennalen/image001bjorn/",
+        "alt": "",
+        "author": "55",
+        "description": "",
+        "caption": "",
+        "name": "image001bjorn",
+        "status": "inherit",
+        "uploaded_to": 136,
+        "date": "2021-09-29 11:11:48",
+        "modified": "2021-09-29 11:11:48",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://vasternorrland.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1920,
+        "height": 2560,
+        "sizes": {
+          "thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-225x300.jpg",
+          "medium-width": 225,
+          "medium-height": 300,
+          "medium_large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-768x1024.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 853,
+          "large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-768x1024.jpg",
+          "large-width": 640,
+          "large-height": 853,
+          "1536x1536": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-1152x1536.jpg",
+          "1536x1536-width": 1152,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-1536x2048.jpg",
+          "2048x2048-width": 1536,
+          "2048x2048-height": 2048,
+          "kf-tip": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://vasternorrland.konstframjandet.se/wp-content/uploads/sites/18/2021/09/image001Bjorn-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Björn Norberg. Foto: Konstfrämjandet Västernorrland",
+      "excerpt": "Triennalen är det nya namnet på det som tidigare varit känt som Y-salong, en återkommande konsthändelse på Västernorrlands Museum. Den stora nyheten att utställningen nu expanderar till hela länet. Björn Norberg har utsetts till curator för den första upplagan och inom kort kommer arbetet med med att kontakta konstnärer att inledas. ",
+      "text": "<p>Triennalen är det nya namnet på det som tidigare varit känt som Y-salong, en vart tredje år återkommande konsthändelse på Västernorrlands museum. Den stora nyheten att själva utställningen expanderar till att äga rum på platser runt om i hela länet. Björn Norberg har utsetts till curator för den första upplagan och inom kort kommer arbetet med att kontakta konstnärer att inledas.<br />\n&nbsp;</p>\n<p>Y-salongen, som lockat konstälskare i över fyrtio år, har varit ett av de större konstevenemangen i Västernorrland. I samarbete med Konstfrämjandet tas nu nästa steg och fler rum kommer att aktiveras och involveras i den nya Triennalen med bland annat Sundsvalls museum, Härnösands konsthall, Kramfors konsthall, Apotekshuset i Sollefteå, Örnsköldsviks museum samt som tidigare Västernorrlands museum.<br />\n&nbsp;</p>\n<p>-Det är många som har älskat Y-salong och nu kommer ännu fler kunna ta del av samtidskonsten i den här delen av Sverige. Triennalen öppnar upp för ett engagemang från många olika krafter och viktiga institutioner med konsten i fokus. Jag ser framför mig att det kommer att ge många ringar på vattnet, säger Helena Byström verksamhetsutvecklare Konstfrämjandet norra Sverige.<br />\n&nbsp;</p>\n<p>Björn Norberg, curator för projektet, har en lång utställningserfarenhet och har bland annat curerat och producerat utställningar på Moderna Museet, Bonniers konsthall, Bildmuseet i Umeå och Gävle konstcentrum och institutioner utomlands som Museet For Samtidskunst i Roskilde. Han är också grundare och konstnärlig ledare för konstparken Ulvhälls hällar i Strängnäs.<br />\n&nbsp;</p>\n<p>-Genom att Triennalen kommer att äga rum på flera olika orter i Västernorrland ser jag att det finns stora möjligheter att skapa något som knyter an till varje plats och de frågor som är aktuella där. Det kan handla om historia men också de framtidsfrågor som är viktiga för de enskilda platserna eller för regionen i stort. Jag är glad att jag får möjligheten att leda projektet och skapa det tillsammans med andra fantastiska aktörer i Västernorrland, säger Björn Norberg.<br />\n&nbsp;</p>\n<p>Just nu sätts organisationen och arbetsprocessen för Triennalen samt för hur olika samarbeten med samarbetspartners och konstnärer ska se ut. Projektet kommer att inledas med ett researcharbete i form av bland annat ateljébesök. Utlysning kommer att aviseras inom kort. Triennalen beräknas öppna i maj 2022 där datumen för de olika platserna kan komma att variera något.<br />\n&nbsp;</p>\n<p>I samband med arbetet med Triennalen startar Folkrörelsernas Konstfrämjande ett nytt distrikt för Västernorrland, Konstfrämjandet Västernorrland.<br />\n&nbsp;</p>\n<p>Kontakt<br />\nHelena Byström, Verksamhetsutvecklare Konstfrämjandet Norr<br />\n0739 844 762. Björn Norberg kan kontaktas via Helena.</p>\n<p>Bild: Björn Norberg, curator, i en t-shirt av konstnären Klas Eriksson</p>\n",
+      "extra_text": "",
+      "place": "Olika platser i Västernorrland",
+      "address": "",
+      "date": "",
+      "time": "Våren 2022",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news/136"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/comments?post=136"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasternorrland.konstframjandet.se/wp-json/wp/v2/media?parent=136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

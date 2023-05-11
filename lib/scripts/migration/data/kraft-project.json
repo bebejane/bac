@@ -1,0 +1,382 @@
+[
+  {
+    "id": 263,
+    "date": "2023-03-28T07:36:04",
+    "date_gmt": "2023-03-28T05:36:04",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-project&#038;p=263"
+    },
+    "modified": "2023-04-13T17:08:55",
+    "modified_gmt": "2023-04-13T15:08:55",
+    "slug": "forst-var-det-morkt",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://kraft.konstframjandet.se/projekt/forst-var-det-morkt/",
+    "title": {
+      "rendered": "Först var det mörkt"
+    },
+    "content": {
+      "rendered": "<p>Ett projekt med utställning och workshops om&nbsp;konst, återbruk och odling som motstånd.Den 17 juni öppnar vi utställningen Först var det mörkt med Takao Momiyama, Gunnel Pettersson och Nisse Bergman som pågår ända in på hösten. Workshops/kurser kommer att hållas vid flera tillfällen under perioden. Mer info kommer under våren.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#3ed5e0",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 266,
+        "id": 266,
+        "title": "screamtower_3000-S",
+        "filename": "screamtower_3000-S-scaled.jpg",
+        "filesize": 855008,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/projekt/forst-var-det-morkt/screamtower_3000-s/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "Screamtower©Nisse Bergman",
+        "name": "screamtower_3000-s",
+        "status": "inherit",
+        "uploaded_to": 263,
+        "date": "2023-03-28 18:50:47",
+        "modified": "2023-03-28 18:52:04",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1920,
+        "height": 2560,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-225x300.jpg",
+          "medium-width": 225,
+          "medium-height": 300,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-768x1024.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 853,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-768x1024.jpg",
+          "large-width": 640,
+          "large-height": 853,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-1152x1536.jpg",
+          "1536x1536-width": 1152,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-1536x2048.jpg",
+          "2048x2048-width": 1536,
+          "2048x2048-height": 2048,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/screamtower_3000-S-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Den 17 juni öppnar vi utställningen Först var det mörkt med Takao Momiyama, Gunnel Pettersson och Nisse Bergman som pågår ända in på hösten. Workshops/kurser kommer att hållas  under perioden. Mer info kommer under våren. ",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project/263"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=263"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 167,
+    "date": "2022-02-11T13:45:24",
+    "date_gmt": "2022-02-11T12:45:24",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-project&#038;p=167"
+    },
+    "modified": "2023-02-18T15:50:54",
+    "modified_gmt": "2023-02-18T14:50:54",
+    "slug": "kartlaggning-utveckling",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://kraft.konstframjandet.se/projekt/kartlaggning-utveckling/",
+    "title": {
+      "rendered": "Kartläggning &#8211; Utveckling"
+    },
+    "content": {
+      "rendered": "<p>Vi vill skapa kontakt med önskade samarbetspartners både inom samtidskonstfältet och inom andra områden som intresserar oss. Vi vill ta reda på vad kan vi ha för nytta och glädje av varandra, och vilka former för samverkan som är mest intressanta och fruktbara. Vår samlade erfarenhet säger oss att ett starkt samarbete har möjlighet att ge högre utväxling för det arbete vi vill bedriva och som nystartad förening är det därför en viktig sak att starta med som i slutändan också kommer publiken/deltagarna till del. Under året kommer en rad möten och ett avslutande seminarium äga rum. Nu lägger vi grunden och sedan kan vad som helst hända!</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#afe045",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 148,
+        "id": 148,
+        "title": "Kraftstyrelsen1",
+        "filename": "Kraftstyrelsen1-scaled.jpg",
+        "filesize": 1040759,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/kraft-nytt-distrikt-i-sormland-korsar-konst-med-natverkande-och-hallbarhet/kraftstyrelsen1/",
+        "alt": "",
+        "author": "55",
+        "description": "",
+        "caption": "",
+        "name": "kraftstyrelsen1",
+        "status": "inherit",
+        "uploaded_to": 146,
+        "date": "2022-02-09 12:57:59",
+        "modified": "2022-02-09 12:57:59",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-300x225.jpg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-768x576.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-1024x768.jpg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-1536x1152.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-2048x1536.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Vårt första projekt handlar om att undersöka vår spelplats och våra kontaktnät för vår framtida verksamhet med målet att kunna utgöra den nod som samtidskonsten i Sörmland behöver.",
+      "aside-images": [
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/IMG_5241-scaled.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/IMG_7416-scaled.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image.jpeg",
+          "caption": ""
+        }
+      ],
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project/167"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=167"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 166,
+    "date": "2022-02-11T13:43:03",
+    "date_gmt": "2022-02-11T12:43:03",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-project&#038;p=166"
+    },
+    "modified": "2023-03-28T07:28:15",
+    "modified_gmt": "2023-03-28T05:28:15",
+    "slug": "forflytta-berg",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://kraft.konstframjandet.se/projekt/forflytta-berg/",
+    "title": {
+      "rendered": "Förflytta berg"
+    },
+    "content": {
+      "rendered": "<p><strong>Den 2 juli &#8211; 20 september 2022 visar vi utställningen Förflytta Berg på ETC Solpark i Katrineholm. Utställningen innehåller verk av konstnärerna Lars Bergström, Mats Bigert, Hanna Ljungh och Tina Nykvist. Tematiken rör sig kring solen, den globala uppvärmningen och vilka konsekvenser denna får för Kebnekaise – Sveriges högsta berg som de senaste decennierna minskat med tjugo meter i höjd.</strong></p>\n<p class=\"\">I verket <em class=\"\">The Freeze, 2015 Rescue Blanket for Kebnekaise</em> beskrivs hur konstnärsduon Bigert &amp; Bergström täcker Kebnekaises södra topp med skyddsfiltar för att hindra att glaciären smälter bort, medan verket <em class=\"\">I Am Mountain, To Measure Impermanence</em> av Hanna Ljungh är en sex timmar lång tagning av samma plats. Filmerna speglar tid och materia där bergets långsamma sten står i kontrast till den mer flyktiga vätskan i glaciären. Det blir en undersökning av tid utifrån filmens, geologins, vetenskapens och samtidens förutsättningar. Båda verken spelades in under samma dag och de olika filmteamen hjälpte varandra. Bigert &amp; Bergström deltar även med verket <em class=\"\">CO2 Lock–In</em> som består av 300 kilo tunga fotbojor – motsvarigheten till vad en vanlig svensk släpper ut i koldioxid under tio dagar. Tina Nykvist deltar med verket <em class=\"\">Alpha Channel / Alfa kanal</em> som är ett interaktivt verk där betraktaren uppmanas att passera en ljusstråle – i skuggan framträder då andra bilder. Det är ett tekniskt avancerat verk med många bottnar, om de avtryck människan lämnar efter sig och allt som går att upptäcka i dem.</p>\n<p class=\"\">Utställningen är kuraterad av Nils Claesson och arrangeras av Konstfrämjandet Kraft med stöd av Katrineholms kommun och Statens kulturråd. Konstfrämjandet Kraft kommer under utställningsperioden att ordna publika visningar och även en animationsverkstad för barn och unga.</p>\n<p><em>Videostill ur: I am mountain, to measure impermanence ©Hanna Ljungh</em></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#75eac3",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 181,
+        "id": 181,
+        "title": "Hanna Ljungh_I am mountain 16.57",
+        "filename": "Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "filesize": 335094,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/projekt/forflytta-berg/hanna-ljungh_i-am-mountain-16-57/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "hanna-ljungh_i-am-mountain-16-57",
+        "status": "inherit",
+        "uploaded_to": 166,
+        "date": "2022-02-14 13:42:47",
+        "modified": "2022-02-14 13:42:47",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1440,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-2048x1152.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1152,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Utställning på ETC Solpark med Bigert &amp; Bergström, Hanna Ljung och Tina Nykvist",
+      "aside-images": [
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/IMG_2982.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/IMG_6843-scaled.jpeg",
+          "caption": ""
+        },
+        {
+          "image": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/IMG_3195-scaled.jpeg",
+          "caption": ""
+        }
+      ],
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project/166"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=166"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

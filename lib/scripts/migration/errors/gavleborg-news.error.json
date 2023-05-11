@@ -1,0 +1,730 @@
+[
+  {
+    "item": {
+      "createdAt": "2023-03-02T21:12:03",
+      "image": {
+        "upload_id": "52863074"
+      },
+      "title": "Forum Konst",
+      "subtitle": "i Sandviken",
+      "intro": "Forum Konst är en återkommande mötesplats och samtalsnod för konstfältet i Gävleborg arrangerad av Kultur Gävleborg. Den 24 mars 2023 arrangeras forumet i Sandviken.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Förhoppningen är att kunna samla konstnärer, utställningsarrangörer, representanter för länets konstföreningar och det självorganiserade konstlivet, tjänstepersoner och kulturpolitiker i dialoger och gemensamma reflektioner.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Utifrån ett program av föreläsningar och presentationer – med inbjudna gäster som alla, på olika sätt, förhåller sig till och delar med sig av sina erfarenheter av att arbeta med biennaler och triennaler runtom i Sverige och i Norden – vill vi samla länets konstaktörer för att inspireras och blicka framåt tillsammans.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Här vill Forum Konst, vilket i år arrangeras i samarbete med Konstfrämjandet Gävleborg, BackBeatBolaget och Sandvikens Konsthall, bjuda in till ett sammanhang där vi får chansen att möta varandra och undersöka hur vi, utifrån våra olika positioner inom konstfältet, skulle kunna utgöra en mer samlad kraft för konsten. Kan vi förenas, ge näring åt varandra och söka gemensamma vägar framöver för att utveckla vårt arbete med konst i länet? Om vi betraktar en triennal i Gävleborg som en möjlig horisont att samlas inför, vad kan och behöver vi i så fall göra för att nå fram till den (och vidare)?",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Datum, tid och plats",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "Plats: Kungen/BackBeatBolaget (Fredriksgatan 35, Sandviken) och Sandvikens Konsthall.",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "Datum och tid: fredag 24 mars, 10.00-20.00",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "Fri entré men anmälan krävs.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Anmälan",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "Anmäl dig senast den 20 mars 2023 till ",
+                  "type": "span"
+                },
+                {
+                  "value": "konst@regiongavleborg.se",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": ". Ange namn, titel, organisation/förening och om du har några allergier eller särskilda kostpreferenser.",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "I anmälan ingår förmiddagsfika, vegetarisk lunch, eftermiddagskaffe och vegetarisk middag på Kungen/BackBeatBolaget.",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "Forum Konst är kostnadsfritt men antalet platser är begränsat.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Program",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "9.30 – Incheckning, kaffe och fika",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "10.00 – Introduktion – Erik Anderman",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "10.15 – xKONSTx: nätverk, residens och geografisk spridning av konst – Jon Perman",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "10.45 – Med vinden: om Triennalen i Västernorrland – Helena Byström och Sebastian Andersson",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "11.30 – Sandvikens nya ögon, en promenad ledd av Karin Nilsson och Karin Bäckström",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "12.00 – Lunch",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "12.45 – Sandvikens Konsthallen och pågående utställning – Daniel Palmberg och Max Hebert",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "14.00 – Att lyssna på djupet/Den curatoriella närvaron – Ulrika Flink",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "14.45 – Konstnärspresentation – Backa Carin Ivarsdotter",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "15.00 – Bildkonst Sverige: en samlad röst för konstfältet – Magdalena Malm",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "15.45 – Konstnärspresentation – Simon Gran Danielsson",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "16.00 – Biennalerna och triennaler i vår tid – Niklas Östholm",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "16.45 – Dialoger och gemensamma reflektioner",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "17.15 – Open Studios",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "17.30 – Middag",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "18.45 – Konsert: Un Programme + Tidsrymd)",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "extra": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Läs mer på Kultur Gävleborgs hemsida",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": ":",
+                  "type": "span"
+                },
+                {
+                  "url": "https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+                  "children": [
+                    {
+                      "value": " https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noreferrer noopener"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "where": "Backbeatbolaget",
+      "address": "Fredriksgatan 35 Sandviken",
+      "date": "14 Mars",
+      "time": "9.30–18.00",
+      "price": "Gratis men anmälan krävs",
+      "external_link": "https:// https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+      "slug": "forum-konst",
+      "district": "133471196"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52863074"
+              },
+              "title": "Forum Konst",
+              "subtitle": "i Sandviken",
+              "intro": "Forum Konst är en återkommande mötesplats och samtalsnod för konstfältet i Gävleborg arrangerad av Kultur Gävleborg. Den 24 mars 2023 arrangeras forumet i Sandviken.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Förhoppningen är att kunna samla konstnärer, utställningsarrangörer, representanter för länets konstföreningar och det självorganiserade konstlivet, tjänstepersoner och kulturpolitiker i dialoger och gemensamma reflektioner.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Utifrån ett program av föreläsningar och presentationer – med inbjudna gäster som alla, på olika sätt, förhåller sig till och delar med sig av sina erfarenheter av att arbeta med biennaler och triennaler runtom i Sverige och i Norden – vill vi samla länets konstaktörer för att inspireras och blicka framåt tillsammans.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Här vill Forum Konst, vilket i år arrangeras i samarbete med Konstfrämjandet Gävleborg, BackBeatBolaget och Sandvikens Konsthall, bjuda in till ett sammanhang där vi får chansen att möta varandra och undersöka hur vi, utifrån våra olika positioner inom konstfältet, skulle kunna utgöra en mer samlad kraft för konsten. Kan vi förenas, ge näring åt varandra och söka gemensamma vägar framöver för att utveckla vårt arbete med konst i länet? Om vi betraktar en triennal i Gävleborg som en möjlig horisont att samlas inför, vad kan och behöver vi i så fall göra för att nå fram till den (och vidare)?",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Datum, tid och plats",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Plats: Kungen/BackBeatBolaget (Fredriksgatan 35, Sandviken) och Sandvikens Konsthall.",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Datum och tid: fredag 24 mars, 10.00-20.00",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Fri entré men anmälan krävs.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Anmälan",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Anmäl dig senast den 20 mars 2023 till ",
+                          "type": "span"
+                        },
+                        {
+                          "value": "konst@regiongavleborg.se",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ". Ange namn, titel, organisation/förening och om du har några allergier eller särskilda kostpreferenser.",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "I anmälan ingår förmiddagsfika, vegetarisk lunch, eftermiddagskaffe och vegetarisk middag på Kungen/BackBeatBolaget.",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Forum Konst är kostnadsfritt men antalet platser är begränsat.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Program",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "9.30 – Incheckning, kaffe och fika",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "10.00 – Introduktion – Erik Anderman",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "10.15 – xKONSTx: nätverk, residens och geografisk spridning av konst – Jon Perman",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "10.45 – Med vinden: om Triennalen i Västernorrland – Helena Byström och Sebastian Andersson",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "11.30 – Sandvikens nya ögon, en promenad ledd av Karin Nilsson och Karin Bäckström",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "12.00 – Lunch",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "12.45 – Sandvikens Konsthallen och pågående utställning – Daniel Palmberg och Max Hebert",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "14.00 – Att lyssna på djupet/Den curatoriella närvaron – Ulrika Flink",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "14.45 – Konstnärspresentation – Backa Carin Ivarsdotter",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "15.00 – Bildkonst Sverige: en samlad röst för konstfältet – Magdalena Malm",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "15.45 – Konstnärspresentation – Simon Gran Danielsson",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "16.00 – Biennalerna och triennaler i vår tid – Niklas Östholm",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "16.45 – Dialoger och gemensamma reflektioner",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "17.15 – Open Studios",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "17.30 – Middag",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "18.45 – Konsert: Un Programme + Tidsrymd)",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "extra": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Läs mer på Kultur Gävleborgs hemsida",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ":",
+                          "type": "span"
+                        },
+                        {
+                          "url": "https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+                          "children": [
+                            {
+                              "value": " https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noreferrer noopener"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "where": "Backbeatbolaget",
+              "address": "Fredriksgatan 35 Sandviken",
+              "date": "14 Mars",
+              "time": "9.30–18.00",
+              "price": "Gratis men anmälan krävs",
+              "external_link": "https:// https://www.regiongavleborg.se/kultur/verksamhet/konst/program-och-pedagogik/program/forum-konst/",
+              "slug": "forum-konst",
+              "district": "133471196"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd69c9788e210ef-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:32:57 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "5ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "43",
+          "x-request-id": "5e678923-0ab5-45fd-a519-adf261a7dfd2",
+          "x-runtime": "0.037002",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "beeb7f",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "external_link",
+                  "field_id": "8133055",
+                  "field_label": "Extern länk",
+                  "field_type": "string",
+                  "code": "VALIDATION_FORMAT",
+                  "options": {
+                    "predefined_pattern": "url"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 4)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  }
+]

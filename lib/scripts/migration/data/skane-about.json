@@ -1,0 +1,336 @@
+[
+  {
+    "id": 121,
+    "date": "2019-06-01T12:24:27",
+    "date_gmt": "2019-06-01T10:24:27",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-about&#038;p=121"
+    },
+    "modified": "2022-03-08T12:45:17",
+    "modified_gmt": "2022-03-08T11:45:17",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://skane.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Konstfrämjandet Skåne"
+    },
+    "content": {
+      "rendered": "<p><strong><a href=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/KfS_årsberättelse_2014.pdf\">KfS_årsberättelse_2014</a><img loading=\"lazy\" width=\"300\" height=\"225\" class=\"alignnone size-medium wp-image-133\" src=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/857327b1863fa15813fb13072444db3f-300x225.jpg\" alt=\"857327b1863fa15813fb13072444db3f\" srcset=\"http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/857327b1863fa15813fb13072444db3f-300x225.jpg 300w, http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/857327b1863fa15813fb13072444db3f-480x360.jpg 480w, http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/857327b1863fa15813fb13072444db3f.jpg 710w\" sizes=\"(max-width: 300px) 100vw, 300px\" />Konstfrämjandet Skåne</strong> är en organisation som arbetar med konstbildning och med att föra ut konst till människor i deras vardag.</p>\n<p>Konstfrämjandet Skåne är en liten flexibel organisation med ett stort nätverk. Vår flexibilitet gör det möjligt för oss att snabbt fånga upp innovativa idéer och initiera eller stötta olika projekt. Vi har Malmö som bas men arbetar med konstprojekt i hela Skåne.</p>\n<p>För att möta den ovane konstbetraktarens frågor inför samtidskonsten satsar vi framförallt på att arbeta med dem i projekt samt i vårt galleri, Galleri S:t Gertrud.</p>\n<p>Förutom kontinuerliga utställningar i vårt galleri S:t Gertrud har Konstfrämjandet Skåne även en stor grafikbank där över 400 konstnärer finns representerade.</p>\n<p>Verksamheten stöds av Malmö Kulturstöd och Kultur Skåne.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true,
+      "layout": [
+        {
+          "acf_fc_layout": "p_with_image",
+          "sub_headline": "",
+          "text": "<p><strong>Konstfrämjandet Skånes</strong> motto är att locka till upptäckter genom konsten. Vi är övertygade om bildningens och konstens roll, och vill att alla ska ha tillgång till konst i ett jämlikt samhälle.</p>\n<p>Organisationens ändamål är att bidra till konst för alla:<br />\nfrämja kunskap, bildning, förståelse och ökat intresse för, skapande av och medverkan till konst, oavsett bakgrund, och med utgångs- punkt i var och ens särskilda förutsättningar.</p>\n<p>Konstfrämjandet Skåne är en liten flexibel organisation med ett stort nätverk. Vår flexibilitet gör det möjligt för oss att snabbt fånga upp innovativa idéer och initiera eller stötta olika projekt. Vi har Malmö som bas men arbetar med konstprojekt i hela Skåne.</p>\n<p>Verksamheten stöds av Malmö Kulturstöd och Kultur Skåne.</p>\n",
+          "image": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2019/06/IMG_1744.jpg",
+          "caption": "",
+          "qoute": ""
+        }
+      ]
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about/121"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=121"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 518,
+    "date": "2018-03-24T12:26:12",
+    "date_gmt": "2018-03-24T11:26:12",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-about&#038;p=518"
+    },
+    "modified": "2023-04-19T10:18:20",
+    "modified_gmt": "2023-04-19T08:18:20",
+    "slug": "lokalen",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://skane.konstframjandet.se/om/lokalen/",
+    "title": {
+      "rendered": "Lokal"
+    },
+    "content": {
+      "rendered": "<p>Lokalen finns på markplan och nås via en trappa med två trappsteg. Rullstol entré från gården. Kontakta oss gärna så hjälper vi till med detta.</p>\n<p>Tillgängliga parkeringsplatser i närheten:<br />\nHandikapparkering finns direkt utanför på Östergatan samt parkeringshus på Caroli Köpcentrum.</p>\n<p>Kontaktperson om en besökare vill ställa frågor om tillgänglighet:<br />\nSofia Landström, verksamhetsledare<br />\nsofia.landstrom@konstframjandet.se</p>\n<p>Mer information om lokalen finns här: <a href=\"http://skane.konstframjandet.se/projekt/galleriet-st-gertrud/\" target=\"_blank\" rel=\"noopener\">http://skane.konstframjandet.se/projekt/galleriet-st-gertrud/</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Skåne ligger på Östergatan 9a i Malmö. Vi arbetar kontinuerligt för att förbättra tillgängligheten både av våra lokaler, hemsidan och våra aktiviteter. <br />\r\nGalleriet har öppet vid övriga arrangemang eller enligt överenskommelse.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about/518"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=518"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "date": "2015-08-17T15:41:19",
+    "date_gmt": "2015-08-17T13:41:19",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-about&#038;p=130"
+    },
+    "modified": "2022-03-08T12:51:17",
+    "modified_gmt": "2022-03-08T11:51:17",
+    "slug": "grafik",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://skane.konstframjandet.se/om/grafik/",
+    "title": {
+      "rendered": "Grafik"
+    },
+    "content": {
+      "rendered": "<p>Förutom kontinuerliga utställningar i vårt galleri S:t Gertrud har Konstfrämjandet Skåne även en stor grafikbank där över 400 konstnärer finns representerade. Bland annat har vi grafik av Kersti Rågfelt Strandberg, Catarina Warme-Hellström, Lotta Backman, Maria Borgström, K G Nilson och Håkan Berg för att nämna några.</p>\n<p>Intresserad av att köpa grafik? Kontakta gärna oss!</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 2,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "layout": [
+        {
+          "acf_fc_layout": "intro",
+          "text": ""
+        },
+        {
+          "acf_fc_layout": "p_with_image",
+          "sub_headline": "",
+          "text": "<p>Nu ger vi nytt liv åt det arkiv av grafiska verk som organisationen har till förfogande. I arkivet ryms hundratals olika konstnärer och deras grafiska verk. Det stora arkiv av grafiska blad som finns hos Konstfrämjandet Skåne är nu helt inventerad och digitaliserad.</p>\n<p>Gå in och titta och köp grafiska verk ur vår grafikbank, <a href=\"https://grafikbanken-skane.myshopify.com\">https://grafikbanken-skane.myshopify.com</a></p>\n<p>Har du en anhörig, en vän eller vet en organisation som är intresserad av grafiken? Sprid gärna vidare!</p>\n",
+          "image": false,
+          "caption": "",
+          "qoute": ""
+        }
+      ],
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about/130"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=130"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "date": "2015-06-18T14:52:45",
+    "date_gmt": "2015-06-18T12:52:45",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-about&#038;p=109"
+    },
+    "modified": "2022-03-02T17:13:01",
+    "modified_gmt": "2022-03-02T16:13:01",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://skane.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<p><strong>Ordförande<br />\n</strong>Ýrr Jónasdóttir, Konstmuseichef</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Vice ordförande<br />\n</strong>Åsa Sandström, ABF Malmö</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Ledamöter<br />\n</strong>Christian Koponen Wikström, Malmö Folkhögskola<br />\nEmma Philipson, Malmö Folkhögskola<br />\nFelix Kugelberg, Kommunal<br />\nFredrik Egefur, ABF Malmö</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Revisorer<br />\n</strong>Claes Carlsson<br />\nLove Flygren, Socialdemokraterna Skåne<br />\nHelen Persson, suppleant</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Valberedning<br />\n</strong>Bo Carlqvist, sammankallande<br />\nLisa Nyberg<br />\nGreta Burman</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 6,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "layout": [
+        {
+          "acf_fc_layout": "p_with_image",
+          "sub_headline": "Konstfrämjandet Skånes styrelse",
+          "text": "<ul>\n<li><strong>Ordförande</strong></li>\n<li>Susanne Simonsson LO/ Skåne</li>\n<li></li>\n<li><strong>Vice ordförande</strong></li>\n<li>Bengt Skånhamre HSB</li>\n<li></li>\n<li><strong>Kassör</strong></li>\n<li>Mikael Widéen LO/Skåne</li>\n<li></li>\n<li><strong>Ledamöter</strong></li>\n<li>Rickard Stenberg</li>\n<li>Stig Hellemarck</li>\n<li>Åsa Petersson</li>\n<li>Ingrid Alqvist</li>\n<li>Gudrun Bartles KRO-representant</li>\n<li>Charlotte Strömberg Eliasson KRO-representant</li>\n<li></li>\n</ul>\n",
+          "image": false,
+          "caption": "",
+          "qoute": ""
+        }
+      ],
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about/109"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=109"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "date": "2015-06-18T14:51:09",
+    "date_gmt": "2015-06-18T12:51:09",
+    "guid": {
+      "rendered": "http://skane.konstframjandet.se/?post_type=kf-about&#038;p=108"
+    },
+    "modified": "2022-05-30T14:41:28",
+    "modified_gmt": "2022-05-30T12:41:28",
+    "slug": "medlemmar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://skane.konstframjandet.se/om/medlemmar/",
+    "title": {
+      "rendered": "Medlemmar"
+    },
+    "content": {
+      "rendered": "<p>bla</p>\n<p>bla</p>\n<p>bla</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 5,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Skånes medlemmar",
+      "layout": [
+        {
+          "acf_fc_layout": "p_with_image",
+          "sub_headline": "Konstfrämjandet Skånes medlemmar",
+          "text": "<ul>\n<li>ABF Malmö</li>\n<li>ABF Skåne</li>\n<li>Byggnads Södra Skåne</li>\n<li>Folkets Hus i Malmö</li>\n<li>HRF Skåneavdelningen (Hotell- och restaurang)</li>\n<li>IF Metall Sydvästra Skåne</li>\n<li>LO-distriktet i Skåne  (finns på Folkets hus i Malmö)</li>\n<li>Malmö Folkhögskola</li>\n<li>PRO Kultur</li>\n<li>SAP Skåne-distrikt</li>\n<li>Studieförbundet Vuxenskolans Skåne-distrikt</li>\n<li>Svenska Kommunalarbetareförbundet avdelning Skåne län</li>\n<li></li>\n<li>Intresserad av att bli medlem? Kontakta gärna oss på skane@konstframjandet.se</li>\n</ul>\n",
+          "image": "http://skane.konstframjandet.se/wp-content/uploads/sites/4/2015/06/MonetSad.jpg",
+          "caption": "",
+          "qoute": ""
+        }
+      ],
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about/108"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://skane.konstframjandet.se/wp-json/wp/v2/media?parent=108"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "item": {
+      "createdAt": "2018-04-29T14:29:37",
+      "intro": "Intresseanmälan – Konstutställning på stranden\nVill du ställa ut din konst i en annorlunda miljö? \nMalmö stad söker lokalt knutna konstnärer till sommararrangemang. Varmt välkomna att skicka in er intresseanmälan!",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Malmö stad arrangerar sommarlovsaktiviteter på Ribersborgsstranden. Här planeras kulturuttryck och spännande prova-på upplevelser för hela familjen. Evenemanget är öppet och kommer att äga rum utomhus. Vi efterfrågar nu yrkesverksamma konstnärer som är intresserade av att ställa ut sin konst på stranden under sommaren, under en eller flera veckor. Här finns möjligheten att nå en ny publik i ett annorlunda och roligt sammanhang. Ambitionen är att sänka eventuella trösklar in i konstrummet, att skapa nya möten och inspirera. Både färdiga konstverk, work in progress och workshops är av intresse.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Konsten kan vara i vilket material som helst så länge det går att genomföra utomhus och de fysiska möjligheterna finns. Möjlighet att ställa ut inne i öppen container eller ute på stranden finns.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Anmäl ditt intresse genom att kortfattat beskriva din idé samt vilka praktiska förutsättningar som krävs (önskad yta, material och utformning, antal önskade dagar att finnas på plats, eventuella workshops/aktiviteter knutna till utställningen).",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Genomförande vid ett eller flera tillfällen (under perioden 16/6-5/8) enligt överenskommelse med uppdragsgivaren Malmö Stad. Områdets öppettider är 11.00-19.00 måndag till söndag, efter stängning finns viss möjlighet att låsa in material. Utställningsersättning utgår och möjlighet till viss ersättning för materialkostnader finns.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "E-posta din intresseanmälan till karin.backmanberg@malmo.se",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "”Under sommarmånaderna arrangerar Malmö Stads arrangemangsenhet Urban Beach vid T-bryggan på Ribbersborgsstranden. Arrangemanget pågår under 51 dagar, 16/6 – 5/8. Bland annat erbjuds världens längsta vattenhinderbana, som förra året lockade över 20.000 besökare, mängder med fysiska aktiviteter och utmaningar, mat och dryck, pyssel och självklart skönt strandhäng.”",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "487",
+      "district": "133470821"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "intro": "Intresseanmälan – Konstutställning på stranden\nVill du ställa ut din konst i en annorlunda miljö? \nMalmö stad söker lokalt knutna konstnärer till sommararrangemang. Varmt välkomna att skicka in er intresseanmälan!",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Malmö stad arrangerar sommarlovsaktiviteter på Ribersborgsstranden. Här planeras kulturuttryck och spännande prova-på upplevelser för hela familjen. Evenemanget är öppet och kommer att äga rum utomhus. Vi efterfrågar nu yrkesverksamma konstnärer som är intresserade av att ställa ut sin konst på stranden under sommaren, under en eller flera veckor. Här finns möjligheten att nå en ny publik i ett annorlunda och roligt sammanhang. Ambitionen är att sänka eventuella trösklar in i konstrummet, att skapa nya möten och inspirera. Både färdiga konstverk, work in progress och workshops är av intresse.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Konsten kan vara i vilket material som helst så länge det går att genomföra utomhus och de fysiska möjligheterna finns. Möjlighet att ställa ut inne i öppen container eller ute på stranden finns.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Anmäl ditt intresse genom att kortfattat beskriva din idé samt vilka praktiska förutsättningar som krävs (önskad yta, material och utformning, antal önskade dagar att finnas på plats, eventuella workshops/aktiviteter knutna till utställningen).",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Genomförande vid ett eller flera tillfällen (under perioden 16/6-5/8) enligt överenskommelse med uppdragsgivaren Malmö Stad. Områdets öppettider är 11.00-19.00 måndag till söndag, efter stängning finns viss möjlighet att låsa in material. Utställningsersättning utgår och möjlighet till viss ersättning för materialkostnader finns.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "E-posta din intresseanmälan till karin.backmanberg@malmo.se",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "”Under sommarmånaderna arrangerar Malmö Stads arrangemangsenhet Urban Beach vid T-bryggan på Ribbersborgsstranden. Arrangemanget pågår under 51 dagar, 16/6 – 5/8. Bland annat erbjuds världens längsta vattenhinderbana, som förra året lockade över 20.000 besökare, mängder med fysiska aktiviteter och utmaningar, mat och dryck, pyssel och självklart skönt strandhäng.”",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "487",
+              "district": "133470821"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd6a9ebdb397373-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:42:03 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "0ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "54",
+          "x-request-id": "cbaa1530-200b-42f7-a904-6bb6074acc75",
+          "x-runtime": "0.075177",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "2c7008",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "title",
+                  "field_id": "7565568",
+                  "field_label": "Titel",
+                  "field_type": "string",
+                  "code": "VALIDATION_REQUIRED",
+                  "options": {}
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 0)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2016-12-09T14:20:29",
+      "image": {
+        "upload_id": "52864521"
+      },
+      "intro": "Lördag och söndag den 10-11 december, kl. 10-16 är det julmarknad i kulturkvarteret S:t Gertrud, hela kvarteret glimmar av julstämning och Konstfrämjandet Skånes Galleri S:t Gertrud håller öppet samma tider.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Lördag och söndag den 10-11 december, kl. 10-16 är det julmarknad i kulturkvarteret S:t Gertrud, hela kvarteret glimmar av julstämning och Konstfrämjandet Skånes Galleri S:t Gertrud håller öppet samma tider. Passa på att fynda julklappar på julmarknaden eller såklart hos oss! Vi har grafik, keramik och multiplar till försäljning samt denna helgen även möjlighet att köpa verk ur textil/glaskonstnär Dyveke Zadigs produktion.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "address": "Östergatan 9a, Malmö",
+      "date": "10-11 december",
+      "time": "Kl. 10-16",
+      "slug": "335",
+      "district": "133470821"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52864521"
+              },
+              "intro": "Lördag och söndag den 10-11 december, kl. 10-16 är det julmarknad i kulturkvarteret S:t Gertrud, hela kvarteret glimmar av julstämning och Konstfrämjandet Skånes Galleri S:t Gertrud håller öppet samma tider.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Lördag och söndag den 10-11 december, kl. 10-16 är det julmarknad i kulturkvarteret S:t Gertrud, hela kvarteret glimmar av julstämning och Konstfrämjandet Skånes Galleri S:t Gertrud håller öppet samma tider. Passa på att fynda julklappar på julmarknaden eller såklart hos oss! Vi har grafik, keramik och multiplar till försäljning samt denna helgen även möjlighet att köpa verk ur textil/glaskonstnär Dyveke Zadigs produktion.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "address": "Östergatan 9a, Malmö",
+              "date": "10-11 december",
+              "time": "Kl. 10-16",
+              "slug": "335",
+              "district": "133470821"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd6aa2aba24736b-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:42:13 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "8ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "35",
+          "x-request-id": "33393a04-10ff-4f45-be3f-ba788c1f4eac",
+          "x-runtime": "0.027678",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "2c7008",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "title",
+                  "field_id": "7565568",
+                  "field_label": "Titel",
+                  "field_type": "string",
+                  "code": "VALIDATION_REQUIRED",
+                  "options": {}
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 29)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  }
+]

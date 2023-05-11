@@ -1,0 +1,234 @@
+[
+  {
+    "id": 872,
+    "date": "2022-10-14T09:45:05",
+    "date_gmt": "2022-10-14T07:45:05",
+    "guid": {
+      "rendered": "http://gavleborg.konstframjandet.se/?post_type=kf-about&#038;p=872"
+    },
+    "modified": "2022-10-14T09:46:39",
+    "modified_gmt": "2022-10-14T07:46:39",
+    "slug": "nyhetsbrev-gavleborg",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://gavleborg.konstframjandet.se/om/nyhetsbrev-gavleborg/",
+    "title": {
+      "rendered": "Nyhetsbrev: Gävleborg"
+    },
+    "content": {
+      "rendered": "<p><img loading=\"lazy\" width=\"300\" height=\"300\" src=\"http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-300x300.jpg\" alt=\"\" class=\"alignright size-medium wp-image-130\" srcset=\"http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-300x300.jpg 300w, http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-150x150.jpg 150w, http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-1024x1024.jpg 1024w, http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-640x640.jpg 640w, http://gavleborg.konstframjandet.se/wp-content/uploads/sites/7/2015/08/KF_LOGO_gavle_square-125x125.jpg 125w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><br />\nSkriv upp dig <a href=\"http://eepurl.com/gIuD9z\" rel=\"noopener\" target=\"_blank\"><strong>HÄR</strong></a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Skriv upp dig på vårt nyhetsbrev för Gävleborgsdistriktet!",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about/872"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/media?parent=872"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 469,
+    "date": "2018-10-24T14:26:00",
+    "date_gmt": "2018-10-24T12:26:00",
+    "guid": {
+      "rendered": "http://gavleborg.konstframjandet.se/?post_type=kf-about&#038;p=469"
+    },
+    "modified": "2018-10-24T14:26:00",
+    "modified_gmt": "2018-10-24T12:26:00",
+    "slug": "tillganglighet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://gavleborg.konstframjandet.se/om/tillganglighet/",
+    "title": {
+      "rendered": "Tillgänglighet"
+    },
+    "content": {
+      "rendered": "<p>Har du frågor kring tillgänglighet vid våra arrangemang?</p>\n<p>Maila: gavleborg@konstframjandet.se</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Gävleborg har ingen fast lokal eller eget kontor. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about/469"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/media?parent=469"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "date": "2015-08-31T12:53:37",
+    "date_gmt": "2015-08-31T10:53:37",
+    "guid": {
+      "rendered": "http://gavleborg.konstframjandet.se/?post_type=kf-about&#038;p=115"
+    },
+    "modified": "2020-05-08T12:48:33",
+    "modified_gmt": "2020-05-08T10:48:33",
+    "slug": "styrelsen",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://gavleborg.konstframjandet.se/om/styrelsen/",
+    "title": {
+      "rendered": "Styrelsen"
+    },
+    "content": {
+      "rendered": "<p><strong>Styrelsen 2020</strong></p>\n<p>Karin Bäckström, Ordförande</p>\n<p>Jessika Eklund, Kassör</p>\n<p>Hanna Norling, Ledamot</p>\n<p>Maria Forsling Jenke, Ledamot</p>\n<p>Johanna Syrén, Ledamot</p>\n<p>Jonas Westlund, Ledamot</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about/115"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/media?parent=115"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "date": "2015-08-07T09:06:38",
+    "date_gmt": "2015-08-07T07:06:38",
+    "guid": {
+      "rendered": "http://gavleborg.konstframjandet.se/?post_type=kf-about&#038;p=91"
+    },
+    "modified": "2021-02-10T10:47:55",
+    "modified_gmt": "2021-02-10T09:47:55",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://gavleborg.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Gävleborg"
+    },
+    "content": {
+      "rendered": "<p><span style=\"font-weight: 400\">Konstfrämjandet Gävleborgs målsättning är att främja möten med samtidskonst i länet, men också att skapa möjligheter för konstnärer att arbeta med i regionen. Konstfrämjandet Gävleborg fokuserar på att genom sina medlemmar skapa ett nätverk för samtida konst och konstprojekt som verkar utanför centralorterna. I linje med hur konst- och kulturproduktion de senaste åren har utvecklats, är Konstfrämjandets ambition att skapa en större delaktighet i samtida konstnärliga processer. Konstfrämjandet som helhet är en ideell organisation som arbetar i syfte att främja konstintresset genom konstbildning.</span></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstfrämjandet Gävleborg har inget fast kontor.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Postadress: </strong></p>\n<p>c/o Perman<br />\nHyttgatan 9C<br />\n81130 Sandviken</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Det nya Konstfrämjandet Gävleborg startades våren 2015.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about/91"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://gavleborg.konstframjandet.se/wp-json/wp/v2/media?parent=91"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

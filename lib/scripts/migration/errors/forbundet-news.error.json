@@ -1,0 +1,3949 @@
+[
+  {
+    "item": {
+      "createdAt": "2018-02-05T14:26:06",
+      "image": {
+        "upload_id": "52862256"
+      },
+      "title": "Konstfrämjande böcker: Folksamhuset",
+      "subtitle": "Arkitekturen, konsten och interiören",
+      "intro": "Folksamhuset - arkitekturen, konsten och interiören är en rundvandring i byggnaden, där personporträtt varvas med historiska händelser och reflektioner kring estetiska uttryck.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "254309861",
+                        "url": "https://vimeo.com/254309861",
+                        "width": 640,
+                        "height": 480,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/254309861_1280x720.jpg",
+                        "title": "vimeo 254309861"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Folksamhuset – Arkitekturen, konsten och interiören",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Folksamhuset – Arkitekturen, konsten och interiören",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ". Redaktör Niklas Östholm (2017), 180 kr exkl porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Genom den tidigare Folksam-medarbetaren Stig Karels berättas om husets arkitektur, konst och interiör. Boken är upplagd som en av Stig Karels visningar av huset, där personporträtt varvas med historiska händelser och reflektioner kring konst och estetiska uttryck.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-folksamhuset",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862256"
+              },
+              "title": "Konstfrämjande böcker: Folksamhuset",
+              "subtitle": "Arkitekturen, konsten och interiören",
+              "intro": "Folksamhuset - arkitekturen, konsten och interiören är en rundvandring i byggnaden, där personporträtt varvas med historiska händelser och reflektioner kring estetiska uttryck.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "254309861",
+                                "url": "https://vimeo.com/254309861",
+                                "width": 640,
+                                "height": 480,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/254309861_1280x720.jpg",
+                                "title": "vimeo 254309861"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Folksamhuset – Arkitekturen, konsten och interiören",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Folksamhuset – Arkitekturen, konsten och interiören",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ". Redaktör Niklas Östholm (2017), 180 kr exkl porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Genom den tidigare Folksam-medarbetaren Stig Karels berättas om husets arkitektur, konst och interiör. Boken är upplagd som en av Stig Karels visningar av huset, där personporträtt varvas med historiska händelser och reflektioner kring konst och estetiska uttryck.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-folksamhuset",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68a5c8fb5abd2-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:30 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "1ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "23",
+          "x-request-id": "f2c3ee3f-ce3c-4ac9-928e-f12055d4c6ec",
+          "x-runtime": "0.055404",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "ee2b6c",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581628",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Folksamhuset – Arkitekturen, konsten och interiören"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Folksamhuset – Arkitekturen, konsten och interiören"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": ". Redaktör Niklas Östholm (2017), 180 kr exkl porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Genom den tidigare Folksam-medarbetaren Stig Karels berättas om husets arkitektur, konst och interiör. Boken är upplagd som en av Stig Karels visningar av huset, där personporträtt varvas med historiska händelser och reflektioner kring konst och estetiska uttryck."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 10)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2018-01-31T13:11:58",
+      "image": {
+        "upload_id": "52862242"
+      },
+      "title": "Konstfrämjande böcker: Glas är massa i rörelse",
+      "intro": "Vad innebär det att gå från industrisamhälle till postindustriell kunskapsekonomi? Från levande landsbygd till glesbygd? Massa i rörelse är en konstnärlig undersökning av en plats i förändring. 6 konstnärer ger skilda perspektiv på olika sidor av det småländska Glasriket.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "253593089",
+                        "url": "https://vimeo.com/253593089",
+                        "width": 640,
+                        "height": 360,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/253593089_1280x720.jpg",
+                        "title": "vimeo 253593089"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Glas är massa i rörelse",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": " ",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Glas är massa i rörelse ",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "(2017)",
+                          "type": "span"
+                        },
+                        {
+                          "value": ", ",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "Eva Arnqvist, Johanna Gustafsson Fürst, Ingela Johansson, Åsa Jungnelius, Caroline Mårtensson, Malin Pettersson Öberg, Axel Andersson (red.)",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Vad innebär det att gå från industrisamhälle till postindustriell kunskapsekonomi? Från levande landsbygd till glesbygd? Massa i rörelse är en konstnärlig undersökning av en plats i förändring. 6 konstnärer ger skilda perspektiv på olika sidor av det småländska Glasriket. Vilken roll har glaset spelat – som bruksvara, konstverk, teknologi, hantverk, objekt, idé och gemenskap – historiskt och var befinner det sig i dag? En plats som är både bild och materia.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se. 1",
+                          "type": "span"
+                        },
+                        {
+                          "value": "6",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "0 kr exkl porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-glas-ar-massa-i-rorelse",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862242"
+              },
+              "title": "Konstfrämjande böcker: Glas är massa i rörelse",
+              "intro": "Vad innebär det att gå från industrisamhälle till postindustriell kunskapsekonomi? Från levande landsbygd till glesbygd? Massa i rörelse är en konstnärlig undersökning av en plats i förändring. 6 konstnärer ger skilda perspektiv på olika sidor av det småländska Glasriket.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "253593089",
+                                "url": "https://vimeo.com/253593089",
+                                "width": 640,
+                                "height": 360,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/253593089_1280x720.jpg",
+                                "title": "vimeo 253593089"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Glas är massa i rörelse",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": " ",
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "Glas är massa i rörelse ",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "(2017)",
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ", ",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "Eva Arnqvist, Johanna Gustafsson Fürst, Ingela Johansson, Åsa Jungnelius, Caroline Mårtensson, Malin Pettersson Öberg, Axel Andersson (red.)",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Vad innebär det att gå från industrisamhälle till postindustriell kunskapsekonomi? Från levande landsbygd till glesbygd? Massa i rörelse är en konstnärlig undersökning av en plats i förändring. 6 konstnärer ger skilda perspektiv på olika sidor av det småländska Glasriket. Vilken roll har glaset spelat – som bruksvara, konstverk, teknologi, hantverk, objekt, idé och gemenskap – historiskt och var befinner det sig i dag? En plats som är både bild och materia.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se. 1",
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "6",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "0 kr exkl porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-glas-ar-massa-i-rorelse",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68a5ddb28abd5-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:31 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "0ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "12",
+          "x-request-id": "0c031f4e-9b52-4f37-a497-f1b77367bf21",
+          "x-runtime": "0.061825",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "da0e5c",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581630",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Glas är massa i rörelse"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": " "
+                                    },
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Glas är massa i rörelse "
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "(2017)"
+                                    },
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": ", "
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "Eva Arnqvist, Johanna Gustafsson Fürst, Ingela Johansson, Åsa Jungnelius, Caroline Mårtensson, Malin Pettersson Öberg, Axel Andersson (red.)"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Vad innebär det att gå från industrisamhälle till postindustriell kunskapsekonomi? Från levande landsbygd till glesbygd? Massa i rörelse är en konstnärlig undersökning av en plats i förändring. 6 konstnärer ger skilda perspektiv på olika sidor av det småländska Glasriket. Vilken roll har glaset spelat – som bruksvara, konstverk, teknologi, hantverk, objekt, idé och gemenskap – historiskt och var befinner det sig i dag? En plats som är både bild och materia."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se. 1"
+                                    },
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "6"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "0 kr exkl porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 11)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2018-01-19T09:55:59",
+      "image": {
+        "upload_id": "52862269"
+      },
+      "title": "Konstfrämjande böcker: Den fria leken",
+      "intro": "Den fria leken. Modellen, Ballongen och konsten som aktion är en av många böcker som Konstfrämjandet gav ut 2017\\. Redaktör Katrin Ingelstedt med form av Aron Kullander-Östling.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "251777755",
+                        "url": "https://vimeo.com/251777755",
+                        "width": 640,
+                        "height": 480,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/251777755_1280x720.jpg",
+                        "title": "vimeo 251777755"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Den fria leken. Modellen, Ballongen och konsten som aktion",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Den fria leken. Modellen, Ballongen och konsten som aktion",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ". Redaktör Katrin Ingelstedt (2017), 140 kr exkl porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "I boken diskuteras den fria leken som en metod att skapa ett aktivt samhälle av och för medborgaren. Bokens texter rör sig fram och tillbaka mellan en nutid och sent 1960-tal, och tecknar en bild av en rörelse som använder konstaktionen som metod för att skapa samhällsförändring. Leken är en unik frizon i gränslandet mellan ett pedagogiskt instrument för anpassning och en radikal modell för frigörelse.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken ges ut av Folkrörelsernas Konstfrämjande i samarbete med Västerås konstmuseum, Konstfack och Västmanlands läns museum.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-den-fria-leken",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862269"
+              },
+              "title": "Konstfrämjande böcker: Den fria leken",
+              "intro": "Den fria leken. Modellen, Ballongen och konsten som aktion är en av många böcker som Konstfrämjandet gav ut 2017\\. Redaktör Katrin Ingelstedt med form av Aron Kullander-Östling.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "251777755",
+                                "url": "https://vimeo.com/251777755",
+                                "width": 640,
+                                "height": 480,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/251777755_1280x720.jpg",
+                                "title": "vimeo 251777755"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Den fria leken. Modellen, Ballongen och konsten som aktion",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Den fria leken. Modellen, Ballongen och konsten som aktion",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ". Redaktör Katrin Ingelstedt (2017), 140 kr exkl porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "I boken diskuteras den fria leken som en metod att skapa ett aktivt samhälle av och för medborgaren. Bokens texter rör sig fram och tillbaka mellan en nutid och sent 1960-tal, och tecknar en bild av en rörelse som använder konstaktionen som metod för att skapa samhällsförändring. Leken är en unik frizon i gränslandet mellan ett pedagogiskt instrument för anpassning och en radikal modell för frigörelse.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken ges ut av Folkrörelsernas Konstfrämjande i samarbete med Västerås konstmuseum, Konstfack och Västmanlands läns museum.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-den-fria-leken",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68aab68e9abe4-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:43 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "7ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "47",
+          "x-request-id": "59ee2ccf-2731-446f-b813-8b9b3716e3d4",
+          "x-runtime": "0.045949",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "a05114",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581645",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Den fria leken. Modellen, Ballongen och konsten som aktion"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Den fria leken. Modellen, Ballongen och konsten som aktion"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": ". Redaktör Katrin Ingelstedt (2017), 140 kr exkl porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "I boken diskuteras den fria leken som en metod att skapa ett aktivt samhälle av och för medborgaren. Bokens texter rör sig fram och tillbaka mellan en nutid och sent 1960-tal, och tecknar en bild av en rörelse som använder konstaktionen som metod för att skapa samhällsförändring. Leken är en unik frizon i gränslandet mellan ett pedagogiskt instrument för anpassning och en radikal modell för frigörelse."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken ges ut av Folkrörelsernas Konstfrämjande i samarbete med Västerås konstmuseum, Konstfack och Västmanlands läns museum."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 13)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2017-12-20T15:14:52",
+      "image": {
+        "upload_id": "52862270"
+      },
+      "title": "Konstfrämjande böcker: Side-Show",
+      "intro": "Side-Show - Konsten som deltagande samhällsaktör sammanfattar projektet som under 2016 nyproducerade en serie temporära och performativa konstprojekt som ägde rum i Nässjö, Eksjö, Vetlanda och Gislaved. Boken diskuterar även projektets kärnfrågor tillsammans med andra aktörer i samtidskonstfältet.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "248156344",
+                        "url": "https://vimeo.com/248156344",
+                        "width": 700,
+                        "height": 480,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/248156344_1280x720.jpg",
+                        "title": "vimeo 248156344"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "value": "Side-Show",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Side-Show: Konsten som deltagande samhällsaktör",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ",  redaktörer Therese Kellner och Nina Øverli (2017), 120 kr exkl. porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Vad är det som håller oss samman och vad är det som skapar ett samhälle?",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Det är frågor som konstnärerna i Side-Show har engagerat lokalbefolkning Nässjö, Vetlanda, Eksjö och Gislaved med. Till 4 kommuner i Jönköpings län har curatorerna Therese Kellner och Nina Øverli bjudit in 4 konstnärsgrupper: Osynliga teatern, Poste Restante, The Non Existent Center och Wochenklausur.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Vid sidan av konstens traditionella vägar fann de nya möjligheter att skapa möten och delaktighet mitt i några småländska samhällens sociala skeenden.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-side-show",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862270"
+              },
+              "title": "Konstfrämjande böcker: Side-Show",
+              "intro": "Side-Show - Konsten som deltagande samhällsaktör sammanfattar projektet som under 2016 nyproducerade en serie temporära och performativa konstprojekt som ägde rum i Nässjö, Eksjö, Vetlanda och Gislaved. Boken diskuterar även projektets kärnfrågor tillsammans med andra aktörer i samtidskonstfältet.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "248156344",
+                                "url": "https://vimeo.com/248156344",
+                                "width": 700,
+                                "height": 480,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/248156344_1280x720.jpg",
+                                "title": "vimeo 248156344"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Side-Show",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Side-Show: Konsten som deltagande samhällsaktör",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ",  redaktörer Therese Kellner och Nina Øverli (2017), 120 kr exkl. porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Vad är det som håller oss samman och vad är det som skapar ett samhälle?",
+                                  "marks": [
+                                    "strong"
+                                  ],
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Det är frågor som konstnärerna i Side-Show har engagerat lokalbefolkning Nässjö, Vetlanda, Eksjö och Gislaved med. Till 4 kommuner i Jönköpings län har curatorerna Therese Kellner och Nina Øverli bjudit in 4 konstnärsgrupper: Osynliga teatern, Poste Restante, The Non Existent Center och Wochenklausur.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Vid sidan av konstens traditionella vägar fann de nya möjligheter att skapa möten och delaktighet mitt i några småländska samhällens sociala skeenden.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-side-show",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68a98dc90abe4-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:40 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "0ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "57",
+          "x-request-id": "c90d44bf-f888-45a6-936a-824a4b4967d7",
+          "x-runtime": "0.093442",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "8ba282",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581641",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "\n"
+                            },
+                            {
+                              "type": "span",
+                              "value": "\n"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Side-Show"
+                            },
+                            {
+                              "type": "span",
+                              "value": "\n"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Side-Show: Konsten som deltagande samhällsaktör"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": ",  redaktörer Therese Kellner och Nina Øverli (2017), 120 kr exkl. porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "strong"
+                                      ],
+                                      "type": "span",
+                                      "value": "Vad är det som håller oss samman och vad är det som skapar ett samhälle?"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Det är frågor som konstnärerna i Side-Show har engagerat lokalbefolkning Nässjö, Vetlanda, Eksjö och Gislaved med. Till 4 kommuner i Jönköpings län har curatorerna Therese Kellner och Nina Øverli bjudit in 4 konstnärsgrupper: Osynliga teatern, Poste Restante, The Non Existent Center och Wochenklausur."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Vid sidan av konstens traditionella vägar fann de nya möjligheter att skapa möten och delaktighet mitt i några småländska samhällens sociala skeenden."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 16)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2017-12-18T11:39:03",
+      "image": {
+        "upload_id": "52862240"
+      },
+      "title": "Konstfrämjande böcker: Konstfrämjandet 70 år",
+      "intro": "Jubileumsantologin Konstfrämjandet 70 år är en av många böcker som Konstfrämjandet producerat under året. I ljuset av historien tecknas, utifrån olika teman, konturerna av var Konstfrämjandet befinner sig just nu.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "247771954",
+                        "url": "https://vimeo.com/247771954",
+                        "width": 700,
+                        "height": 480,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/247771954_1280x720.jpg",
+                        "title": "vimeo 247771954"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Konstfrämjandet 70 år",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Jubileumsantologi: Konstfrämjandet 70 år",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ", redaktör Niklas Östholm (2017), 170 kr exkl. porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Om svensk konst och kulturpolitik. En spännande resa från ett dunkelt mötesrum 1945 och drömmar om grafik för alla, till deltagarbaserade aktiviteter i offentliga rum idag. I ljuset av historien tecknas, utifrån olika teman, konturerna av var Konstfrämjandet befinner sig just nu.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Fyra inbjudna skribenter och fyra teman. Annika Gunnarsson om grafiken, Martin Gustavsson om ekonomin, Karin Faxén Sporrong om konstombuden, Maria Carlgren om konstbildningen. Och redaktören Niklas Östholm om organisationen Konstfrämjandet.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-konstframjandet-70-ar",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862240"
+              },
+              "title": "Konstfrämjande böcker: Konstfrämjandet 70 år",
+              "intro": "Jubileumsantologin Konstfrämjandet 70 år är en av många böcker som Konstfrämjandet producerat under året. I ljuset av historien tecknas, utifrån olika teman, konturerna av var Konstfrämjandet befinner sig just nu.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "247771954",
+                                "url": "https://vimeo.com/247771954",
+                                "width": 700,
+                                "height": 480,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/247771954_1280x720.jpg",
+                                "title": "vimeo 247771954"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Konstfrämjandet 70 år",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Jubileumsantologi: Konstfrämjandet 70 år",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ", redaktör Niklas Östholm (2017), 170 kr exkl. porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Om svensk konst och kulturpolitik. En spännande resa från ett dunkelt mötesrum 1945 och drömmar om grafik för alla, till deltagarbaserade aktiviteter i offentliga rum idag. I ljuset av historien tecknas, utifrån olika teman, konturerna av var Konstfrämjandet befinner sig just nu.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Fyra inbjudna skribenter och fyra teman. Annika Gunnarsson om grafiken, Martin Gustavsson om ekonomin, Karin Faxén Sporrong om konstombuden, Maria Carlgren om konstbildningen. Och redaktören Niklas Östholm om organisationen Konstfrämjandet.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-konstframjandet-70-ar",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68a4d39feabc6-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:28 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "2ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "34",
+          "x-request-id": "30b17a5d-c3fe-478b-8e6b-81385ddbdece",
+          "x-runtime": "0.063640",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "104148",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581610",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Konstfrämjandet 70 år"
+                            },
+                            {
+                              "type": "span",
+                              "value": "\n"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Jubileumsantologi: Konstfrämjandet 70 år"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": ", redaktör Niklas Östholm (2017), 170 kr exkl. porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Om svensk konst och kulturpolitik. En spännande resa från ett dunkelt mötesrum 1945 och drömmar om grafik för alla, till deltagarbaserade aktiviteter i offentliga rum idag. I ljuset av historien tecknas, utifrån olika teman, konturerna av var Konstfrämjandet befinner sig just nu."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Fyra inbjudna skribenter och fyra teman. Annika Gunnarsson om grafiken, Martin Gustavsson om ekonomin, Karin Faxén Sporrong om konstombuden, Maria Carlgren om konstbildningen. Och redaktören Niklas Östholm om organisationen Konstfrämjandet."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 17)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2017-12-12T10:57:59",
+      "image": {
+        "upload_id": "52862249"
+      },
+      "title": "Konstfrämjande böcker: Plats till plats",
+      "intro": "Konstfrämjandet har producerat och varit med och producerat en rad böcker i år som vi har till försäljning på vårt kansli på Swedenborgsgatan 1 i Stockholm och genom beställning. I Plats till plats berättar 9 konstnärer om sitt arbete med konst på en plats. Och hur konsten både blir till och blir en del av en plats.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "246941565",
+                        "url": "https://vimeo.com/246941565",
+                        "width": 640,
+                        "height": 480,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/246941565_1280x720.jpg",
+                        "title": "vimeo 246941565"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Plats till plats / Place to place",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Plats till plats",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": " finns både i en svensk och i en engelsk version – ",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Place to Place",
+                          "marks": [
+                            "emphasis"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": ". Redaktör Lisa Torell m fl, (2017), 120 kr exkl porto.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Med konstnärerna Kajsa Dahlberg, Henrik Andersson, Annika Eriksson, Martin Tebus, Magnus Thierfelder, Johanna Gustafsson Fürst, Hans Rosenström och Eva Arnqvist.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "I boken berättar 9 konstnärer om sitt arbete med konst på en plats. Och hur konsten både blir till och blir en del av en plats. Främst på platser utanför etablerade konstrum. Det handlar inte om offentlig konst som vi vanligtvis känner den. Boken visar upp ett spektrum av konstnärliga metoder att arbeta med plats.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "9 artists artist about their work with art in one specific place. And how the art both becomes a place and becomes part of a place. Mainly in places outside established artrooms. It’s not about public art as we usually know it. The book shows a range of artistic methods to work with place.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://konstframjandet.se/om/bocker/",
+                          "children": [
+                            {
+                              "value": "här",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener noreferrer"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": ".",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "konstframjande-bocker-plats-till-plats",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862249"
+              },
+              "title": "Konstfrämjande böcker: Plats till plats",
+              "intro": "Konstfrämjandet har producerat och varit med och producerat en rad böcker i år som vi har till försäljning på vårt kansli på Swedenborgsgatan 1 i Stockholm och genom beställning. I Plats till plats berättar 9 konstnärer om sitt arbete med konst på en plats. Och hur konsten både blir till och blir en del av en plats.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "246941565",
+                                "url": "https://vimeo.com/246941565",
+                                "width": 640,
+                                "height": 480,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/246941565_1280x720.jpg",
+                                "title": "vimeo 246941565"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Plats till plats / Place to place",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Plats till plats",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": " finns både i en svensk och i en engelsk version – ",
+                                  "type": "span"
+                                },
+                                {
+                                  "value": "Place to Place",
+                                  "marks": [
+                                    "emphasis"
+                                  ],
+                                  "type": "span"
+                                },
+                                {
+                                  "value": ". Redaktör Lisa Torell m fl, (2017), 120 kr exkl porto.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Med konstnärerna Kajsa Dahlberg, Henrik Andersson, Annika Eriksson, Martin Tebus, Magnus Thierfelder, Johanna Gustafsson Fürst, Hans Rosenström och Eva Arnqvist.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "I boken berättar 9 konstnärer om sitt arbete med konst på en plats. Och hur konsten både blir till och blir en del av en plats. Främst på platser utanför etablerade konstrum. Det handlar inte om offentlig konst som vi vanligtvis känner den. Boken visar upp ett spektrum av konstnärliga metoder att arbeta med plats.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "9 artists artist about their work with art in one specific place. And how the art both becomes a place and becomes part of a place. Mainly in places outside established artrooms. It’s not about public art as we usually know it. The book shows a range of artistic methods to work with place.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året ",
+                                  "type": "span"
+                                },
+                                {
+                                  "url": "http://konstframjandet.se/om/bocker/",
+                                  "children": [
+                                    {
+                                      "value": "här",
+                                      "type": "span"
+                                    }
+                                  ],
+                                  "meta": [
+                                    {
+                                      "id": "target",
+                                      "value": "_blank"
+                                    },
+                                    {
+                                      "id": "rel",
+                                      "value": "noopener noreferrer"
+                                    }
+                                  ],
+                                  "type": "link"
+                                },
+                                {
+                                  "value": ".",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "konstframjande-bocker-plats-till-plats",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68a5908801d22-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:30 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "1ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "47",
+          "x-request-id": "b212f3c2-5098-4fd4-9e08-683b88b0884c",
+          "x-runtime": "0.075397",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "a79896",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/0: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "item": "142581622",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "marks": [
+                                "strong"
+                              ],
+                              "type": "span",
+                              "value": "Plats till plats / Place to place"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Plats till plats"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": " finns både i en svensk och i en engelsk version – "
+                                    },
+                                    {
+                                      "marks": [
+                                        "emphasis"
+                                      ],
+                                      "type": "span",
+                                      "value": "Place to Place"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": ". Redaktör Lisa Torell m fl, (2017), 120 kr exkl porto."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Boken finns till försäljning på vårt kansli på Swedenborgsgatan 1 och kan även beställas från info@konstframjandet.se"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Med konstnärerna Kajsa Dahlberg, Henrik Andersson, Annika Eriksson, Martin Tebus, Magnus Thierfelder, Johanna Gustafsson Fürst, Hans Rosenström och Eva Arnqvist."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "I boken berättar 9 konstnärer om sitt arbete med konst på en plats. Och hur konsten både blir till och blir en del av en plats. Främst på platser utanför etablerade konstrum. Det handlar inte om offentlig konst som vi vanligtvis känner den. Boken visar upp ett spektrum av konstnärliga metoder att arbeta med plats."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "9 artists artist about their work with art in one specific place. And how the art both becomes a place and becomes part of a place. Mainly in places outside established artrooms. It’s not about public art as we usually know it. The book shows a range of artistic methods to work with place."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Läs mer om övriga böcker som Konstfrämjandet gett ut under året "
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "type": "span",
+                                          "value": "här"
+                                        }
+                                      ],
+                                      "meta": [
+                                        {
+                                          "id": "target",
+                                          "value": "_blank"
+                                        },
+                                        {
+                                          "id": "rel",
+                                          "value": "noopener noreferrer"
+                                        }
+                                      ],
+                                      "type": "link",
+                                      "url": "http://konstframjandet.se/om/bocker/"
+                                    },
+                                    {
+                                      "type": "span",
+                                      "value": "."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 20)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2017-04-27T08:46:37",
+      "image": {
+        "upload_id": "52862281"
+      },
+      "title": "Save the date! Samtidskonstdagarna är tillbaka",
+      "intro": "Folkrörelsernas Konstfrämjandet har tagit över arrangemanget av Samtidskonstdagarna från Riksutställningar och i samarbete med Kalmar Konstmuseum och Konstfrämjandet Öland/Kalmar sker aktiviteter under två dagar i Kalmar och på Öland, 5 - 6 oktober 2017\\.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Från Avsides, Bruksort, Calmarna och Diamanter till Åker, Äng och Ö vill Samtidskonstdagarna 2017 diskutera mötet mellan konstnärliga processer och lokal kunskap med samtidskonsten som kompass. Föreläsningar, workshops och studiebesök varvas med konstupplevelser och erfarenhetsutbyten.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Samtidskonstdagarna, 5-6 oktober 2017 i Kalmar och på Öland.",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                },
+                {
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "value": "Mer information om program och anmälan inom kort.",
+                          "type": "span"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "listItem"
+                }
+              ],
+              "style": "bulleted",
+              "type": "list"
+            },
+            {
+              "children": [
+                {
+                  "value": "För första gången har Samtidskonstdagarna fokus på landsbygden och kommer bland annat att återbesöka projektet New Horse Culture som tog plats på Öland 2016 i samarbete mellan Konstfrämjandet Öland/Kalmar, Studiefrämjandet och Kalmar konstmuseum.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "item": {
+                    "type": "item",
+                    "attributes": {
+                      "video": {
+                        "provider": "vimeo",
+                        "provider_uid": "214911573",
+                        "url": "https://vimeo.com/214911573",
+                        "width": 900,
+                        "height": 600,
+                        "thumbnail_url": "https://i.vimeocdn.com/video/214911573_1280x720.jpg",
+                        "title": "vimeo 214911573"
+                      }
+                    },
+                    "relationships": {
+                      "item_type": {
+                        "data": {
+                          "id": "1564471",
+                          "type": "item_type"
+                        }
+                      }
+                    }
+                  },
+                  "type": "block"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Dokumentationsfilm av Sameh Jamal",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "slug": "save-the-date-2",
+      "district": "122564749"
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52862281"
+              },
+              "title": "Save the date! Samtidskonstdagarna är tillbaka",
+              "intro": "Folkrörelsernas Konstfrämjandet har tagit över arrangemanget av Samtidskonstdagarna från Riksutställningar och i samarbete med Kalmar Konstmuseum och Konstfrämjandet Öland/Kalmar sker aktiviteter under två dagar i Kalmar och på Öland, 5 - 6 oktober 2017\\.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Från Avsides, Bruksort, Calmarna och Diamanter till Åker, Äng och Ö vill Samtidskonstdagarna 2017 diskutera mötet mellan konstnärliga processer och lokal kunskap med samtidskonsten som kompass. Föreläsningar, workshops och studiebesök varvas med konstupplevelser och erfarenhetsutbyten.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Samtidskonstdagarna, 5-6 oktober 2017 i Kalmar och på Öland.",
+                                  "marks": [
+                                    "strong"
+                                  ],
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "value": "Mer information om program och anmälan inom kort.",
+                                  "type": "span"
+                                }
+                              ]
+                            }
+                          ],
+                          "type": "listItem"
+                        }
+                      ],
+                      "style": "bulleted",
+                      "type": "list"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "För första gången har Samtidskonstdagarna fokus på landsbygden och kommer bland annat att återbesöka projektet New Horse Culture som tog plats på Öland 2016 i samarbete mellan Konstfrämjandet Öland/Kalmar, Studiefrämjandet och Kalmar konstmuseum.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "item": {
+                            "type": "item",
+                            "attributes": {
+                              "video": {
+                                "provider": "vimeo",
+                                "provider_uid": "214911573",
+                                "url": "https://vimeo.com/214911573",
+                                "width": 900,
+                                "height": 600,
+                                "thumbnail_url": "https://i.vimeocdn.com/video/214911573_1280x720.jpg",
+                                "title": "vimeo 214911573"
+                              }
+                            },
+                            "relationships": {
+                              "item_type": {
+                                "data": {
+                                  "id": "1564471",
+                                  "type": "item_type"
+                                }
+                              }
+                            }
+                          },
+                          "type": "block"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Dokumentationsfilm av Sameh Jamal",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "slug": "save-the-date-2",
+              "district": "122564749"
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452565",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd68ae34d06be51-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:20:52 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "4ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "20",
+          "x-request-id": "ad81ec1f-f099-4f16-84a2-baad67e4ea0d",
+          "x-runtime": "0.075346",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "99c5b8",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "content",
+                  "field_id": "8133065",
+                  "field_label": "Innehåll",
+                  "field_type": "structured_text",
+                  "errors": [
+                    "#/children/3: failed schema #/definitions/Root/properties/children/items: No subschema in \"anyOf\" matched."
+                  ],
+                  "code": "INVALID_FORMAT",
+                  "message": "Value not acceptable for this field type",
+                  "failing_value": {
+                    "schema": "dast",
+                    "document": {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Från Avsides, Bruksort, Calmarna och Diamanter till Åker, Äng och Ö vill Samtidskonstdagarna 2017 diskutera mötet mellan konstnärliga processer och lokal kunskap med samtidskonsten som kompass. Föreläsningar, workshops och studiebesök varvas med konstupplevelser och erfarenhetsutbyten."
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "marks": [
+                                        "strong"
+                                      ],
+                                      "type": "span",
+                                      "value": "Samtidskonstdagarna, 5-6 oktober 2017 i Kalmar och på Öland."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "value": "Mer information om program och anmälan inom kort."
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              ],
+                              "type": "listItem"
+                            }
+                          ],
+                          "style": "bulleted",
+                          "type": "list"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "För första gången har Samtidskonstdagarna fokus på landsbygden och kommer bland annat att återbesöka projektet New Horse Culture som tog plats på Öland 2016 i samarbete mellan Konstfrämjandet Öland/Kalmar, Studiefrämjandet och Kalmar konstmuseum."
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "item": "142581663",
+                              "type": "block"
+                            }
+                          ],
+                          "type": "paragraph"
+                        },
+                        {
+                          "children": [
+                            {
+                              "type": "span",
+                              "value": "Dokumentationsfilm av Sameh Jamal"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      ],
+                      "type": "root"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Promise.allSettled (index 5)\n    at migrateNews (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/news.ts:83:19)\n    at async Promise.allSettled (index 1)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  }
+]

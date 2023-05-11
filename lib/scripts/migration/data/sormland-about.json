@@ -1,0 +1,408 @@
+[
+  {
+    "id": 135,
+    "date": "2016-09-22T14:23:19",
+    "date_gmt": "2016-09-22T12:23:19",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=135"
+    },
+    "modified": "2019-10-24T13:56:36",
+    "modified_gmt": "2019-10-24T11:56:36",
+    "slug": "konst-som-klapp",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/konst-som-klapp/",
+    "title": {
+      "rendered": "Konst som klapp"
+    },
+    "content": {
+      "rendered": "<p>Varje år arrangerar vi vår julutställning Konst som klapp. Med utställningen vill vi visa att konst och konsthantverk kan vara bra presenter i juletid och att det inte behöver gräva stora hål i plånboken. Vernissage sker vanligen runt första advent och bjuder på mängder av olika konstformer till julklappsvänliga priser. Utställningen pågår över hela december och en liten bit in i januari det efterföljande året.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Det spelar ingen roll om du är ute efter måleri, grafik, textil, skulptur, glas, trä, luffarslöjd eller något annat; på Konst som klapp kan alla hitta sin egen favorit. På Konst som klapp kan du även få med dig det du handlar på en gång till skillnad från våra vanliga utställningar. Personalen kan ofta hjälpa till med inslagning.</p>\n<hr />\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Vill du som konstnär ställa ut på Konst som klapp?</strong></p>\n<p>Kontakta Konstfrämjandet Sörmlands personal i augusti/september för information, regler och datum. (Urval mellan konstnärer förekommer)</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 6,
+    "template": "",
+    "acf": {
+      "intro": "Årlig populär julutställning med perfekta konstklappar.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/135"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=135"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "date": "2016-09-22T14:00:30",
+    "date_gmt": "2016-09-22T12:00:30",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=134"
+    },
+    "modified": "2022-02-24T15:37:42",
+    "modified_gmt": "2022-02-24T14:37:42",
+    "slug": "vill-du-stalla-ut-hos-oss",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/vill-du-stalla-ut-hos-oss/",
+    "title": {
+      "rendered": "Vill du ställa ut hos oss?"
+    },
+    "content": {
+      "rendered": "<p>Du kan närsomhelst under årets gång skicka in en utställningsansökan till Konstfrämjandet Sörmland. När den är mottagen kommer den att sparas tills det är dags för vår styrelse att planera in kommande säsonger. Då vi får in fler ansökningar än vad vi har plats med under ett år sker ett visst urval. Vi har lång framförhållning i planeringen så var beredd på att ha lite tålamod i väntan på definitivt svar. Mål är att alla så småningom ska få veta vad som händer med sin ansökan.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Det vi vill se i din ansökan är lite kort om dig själv, vem du är och var du kommer ifrån. Vi vill gärna se ett konstnärs-CV med dina eventuella utbildningar och utställningserfarenheter. Vi vill också se bilder på vad du gör. Du kan också hänvisa till egen hemsida om du har en.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Det går bra att lämna in en utställningsansökan via e-post:</p>\n<ul>\n<li>Maila den till <a href=\"mailto:kfr.sormland@telia.com\">kfr.sormland@telia.com</a></li>\n</ul>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 8,
+    "template": "",
+    "acf": {
+      "intro": "Information till dig som önskar en utställning.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/134"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 133,
+    "date": "2016-09-22T13:39:35",
+    "date_gmt": "2016-09-22T11:39:35",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=133"
+    },
+    "modified": "2017-09-26T10:22:42",
+    "modified_gmt": "2017-09-26T08:22:42",
+    "slug": "konstklubb",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/konstklubb/",
+    "title": {
+      "rendered": "Konstklubb"
+    },
+    "content": {
+      "rendered": "<p>Som medlem i konstklubben får man förhandsinformation inför kommande utställningar samt halvårsbrev i januari och augusti med information om vad som händer under säsongen. Du får också 10% rabatt på allt du handlar i galleriet som når och överstiger 600 kronor.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Årsavgiften är 180 kronor. Alla medlemmar som betalat sin medlemsavgift för innevarande år deltar automatiskt i det årliga konstlotteriet som äger rum antingen på försommaren eller sensommaren. Det kan också komma erbjudanden om små resor med konst- och kultur-tema.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Om du vill bli medlem i vår konstklubb skickar du in medlemsavgiften (f n 180 kronor) till bg 5553-6106. Uppgift om ditt namn, adress och gärna e-postadress måste framgå tydligt. Du kan också Swisha din betalning till nummer 123 369 94 69.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ange din mest aktuella e-postadress när du går med i klubben så får du snabbt och enkelt nyttig och relevant information från Konstfrämjandet Sörmland under årets gång.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Om du flyttar, byter telefonnummer eller byter e-postadress, glöm inte att meddela det till vårt kontor.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Vill du <b>enbart</b> få ett digitalt vernissagekort, hör av dig till kontoret med en e-postadress så lägger vi till dig i vår e-postlista.</p>\n<hr />\n<p class=\"blank\">&nbsp;</p>\n<p><strong>SENASTE DRAGNINGEN</strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Dragning i vårt årliga konstlotteri genomfördes offentligt i galleriet lördagen den 23 september 2017 och dragningslistan finns på galleriet i Munktellstaden på Verkstadsgatan 8, Eskilstuna.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Gratulerar till alla vinnare!<br />\n1. Ann-Sofie Wågström<br />\n2. Maire Dahlman<br />\n3. Torbjörn Johansson<br />\n4. Margareta Åberg<br />\n5. Ulla Claesgård<br />\n6. Else-Britt Munthe Lund<br />\n7. Erika Rask<br />\n8. Grazyna Filar Helgesson</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Alla vinnare har underrättats.</p>\n<p><b>Nästa dragning sker 2018.</b></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 7,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/133"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=133"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 123,
+    "date": "2016-09-21T11:46:46",
+    "date_gmt": "2016-09-21T09:46:46",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=123"
+    },
+    "modified": "2020-03-31T10:01:31",
+    "modified_gmt": "2020-03-31T08:01:31",
+    "slug": "arets-sormlandskonstnar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/arets-sormlandskonstnar/",
+    "title": {
+      "rendered": "Årets Sörmlandskonstnär"
+    },
+    "content": {
+      "rendered": "<p>Måleri, grafik skulptur, glas, fotografi, textil och alla kombinationer däremellan&#8230; alla slags konstformer uppmärksammas i denna tradition. Konstnären är förstås bosatt och verksam i Sörmland för att kunna utses.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Och vem det blir är ofta en hemlighet in i det sista.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstnären avslöjas någon gång under januari/februari varpå vi bjuder in till presskonferens, gärna i konstnärens egen studio eller ateljé, för en presentation och en intervju.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Förutom äran att utses erbjuds Sörmlandskonstnären en fyra veckor lång utställning i Konstfrämjandets galleri under våren. I många år kunde Konstfrämjandet även dela ut ett stipendium till den utsedde konstnären men då ekonomin idag är betydligt osäkrare än förut har just denna del av traditionen lagts på is.</p>\n<p class=\"blank\">&nbsp;</p>\n<hr />\n<p><strong>TIDIGARE SÖRMLANDSKONSTNÄRER</strong></p>\n<p>1984<br />\nGun Kessle</p>\n<p>1985<br />\nKelvin Sommer</p>\n<p>1986<br />\nBirgitta Hagnell Linden</p>\n<p>1987<br />\nGeorg Källkvist</p>\n<p>1988<br />\nKnut H Larsen</p>\n<p>1989<br />\nPalle Jensen</p>\n<p>1990<br />\nCalle Jonzon</p>\n<p>1991<br />\nSven Hellqvist</p>\n<p>1992<br />\n&#8212;&#8212;&#8212;&#8212;-</p>\n<p>1993<br />\nUta Jacobs</p>\n<p>1994<br />\nPeter Dewoon</p>\n<p>1995<br />\nTheo Jansson</p>\n<p>1996<br />\nBengt Reinholtz</p>\n<p>1997<br />\nKerstin Hedman</p>\n<p>1998<br />\nAnn-Margret Johansson</p>\n<p>1999<br />\nBo Lindholm</p>\n<p>2000<br />\n&#8212;&#8212;&#8212;&#8212;&#8211;</p>\n<p>2001<br />\nChristina Lindblom</p>\n<p>2002<br />\nInger Hahn-Redin</p>\n<p>2003<br />\nNeringa Stjernman</p>\n<p>2004<br />\nGun Haglund</p>\n<p>2005<br />\nMia Jarnsjö</p>\n<p>2006<br />\nBrittMarie Järnström</p>\n<p>2007<br />\nOlle Qvennerstedt</p>\n<p>2008<br />\nIngela Svensson</p>\n<p>2009<br />\nClara Waller</p>\n<p>2010<br />\nNiklas Mulari</p>\n<p>2011<br />\nNils-Bertil Malmberg</p>\n<p>2012<br />\nKaarin Bonde Jensen</p>\n<p>2013<br />\nGunilla Lifvergren</p>\n<p>2014<br />\nInger Linnéa Carlsson</p>\n<p>2015<br />\nLars-Göran Yeudakimchikov-Malmqvist</p>\n<p>2016<br />\nUlf Rehnholm</p>\n<p>2017<br />\nThomas Wahlström</p>\n<p>2018</p>\n<p>Gunnar Carl Nilsson</p>\n<p>2019</p>\n<p>Karin Ögren</p>\n<p>2020</p>\n<p>Carina Marklund</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 5,
+    "template": "",
+    "acf": {
+      "intro": "Varje år i mer än 30 år har Konstfrämjandet Sörmland i Eskilstuna utsett en konstnär som utmärkt sig särskilt i sitt fält eller på konst- och kulturscenen under det senaste året; en så kallad “Årets Sörmlandskonstnär”. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/123"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=123"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "date": "2016-09-21T09:25:17",
+    "date_gmt": "2016-09-21T07:25:17",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=107"
+    },
+    "modified": "2019-10-24T13:57:28",
+    "modified_gmt": "2019-10-24T11:57:28",
+    "slug": "medlemmar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/medlemmar/",
+    "title": {
+      "rendered": "Medlemmar"
+    },
+    "content": {
+      "rendered": "<ul>\n<li>ABF Sörmland, Eskilstuna</li>\n<li>HSB Södermanland</li>\n<li>IF Metall Mälardalen</li>\n<li>Kommunal Öst</li>\n<li>LO-distriktet Mellansverige</li>\n<li>NBV Mälardalen</li>\n<li>Riksbyggens lokalförening</li>\n<li>Socialdemokraterna i Eskilstuna</li>\n<li>Studiefrämjandet Eskilstuna</li>\n</ul>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 3,
+    "template": "",
+    "acf": {
+      "intro": "Medlemsorganisationer i Konstfrämjandet Sörmland:",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/107"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=107"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "date": "2016-09-21T09:24:44",
+    "date_gmt": "2016-09-21T07:24:44",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=106"
+    },
+    "modified": "2021-09-12T13:33:32",
+    "modified_gmt": "2021-09-12T11:33:32",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<ul>\n<li>Kristina Eriksson, ordf</li>\n<li>Helena Lord, vice ordf.</li>\n<li>Göran Johansson, kassör</li>\n<li>Eeva Lengstrand ekonomiassistent</li>\n<li>Sven-Olov Larsson</li>\n<li>Arja Claesson</li>\n<li>Eila Carlsson</li>\n<li>Marija Vrbec</li>\n<li>Lilian Sundholm</li>\n</ul>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 2,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/106"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=106"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "date": "2016-09-21T09:08:49",
+    "date_gmt": "2016-09-21T07:08:49",
+    "guid": {
+      "rendered": "http://sormland.konstframjandet.se/?post_type=kf-about&#038;p=105"
+    },
+    "modified": "2016-09-21T12:37:43",
+    "modified_gmt": "2016-09-21T10:37:43",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://sormland.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Sörmland"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet är en bildningsorganisation för spridande av kvalitetskonst. Grafiken är den konstform som möjliggör uppdraget att nå ut med konst till många människor samtidigt som priset kan hållas på en rimlig nivå.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ett sätt att nå ut är via utställningsverksamhet och utlåning av konst till på olika arbetsplatser. Här behöver vi många fler konstombud så att vi på ett bättre sätt än idag kan täcka in hela länet. Ett annat sätt är utställningen i vår egen lokal. Här har vi tagit en utställningspolicy som innebär att vi ska visa kända och etablerade konstnärer likaväl de som är på väg att bli kända. Unga, nyutbildade och någon riktig &#8221;kioskvältare&#8221; behöver vi också. Därutöver vill vi visa att Sverige är ett mångkulturellt land genom att ha konstnärer som är födda i ett annat land.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstresor arbetar vi med, både kortare och längre. Den senaste resan i mars 2009 gick till Istanbul. Bilder finns under &#8221;verksamheten&#8221;. Under våren 2010 genomfördes en resa till Minsk. Under 2013 gick resan till New York.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>&#8221;Årets Sörmlandskonstnär&#8221; är en uppskattad utmärkelse som vi kan dela ut tack vare bidrag från våra medlemsorganisationer. Ulf Rehnholm från Eskilstuna blev utsedd till Årets Sörmlandskonstnär 2016.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet är en ideell förening vars uppgift är att visa, sälja och sprida konst från okända och kända konstnärer. Vi i Sörmland säljer grafiska blad på kommission samt konstkort, keramik och konstböcker. Vi har också försäljningsutställningar ca 12-14 gånger per år. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about/105"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://sormland.konstframjandet.se/wp-json/wp/v2/media?parent=105"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

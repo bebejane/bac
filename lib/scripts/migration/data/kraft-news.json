@@ -1,0 +1,1488 @@
+[
+  {
+    "id": 257,
+    "date": "2023-03-27T16:47:33",
+    "date_gmt": "2023-03-27T14:47:33",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=257"
+    },
+    "modified": "2023-04-13T16:58:39",
+    "modified_gmt": "2023-04-13T14:58:39",
+    "slug": "forst-var-det-morkt",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/forst-var-det-morkt/",
+    "title": {
+      "rendered": "Först var det mörkt"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "konst, återbruk och odling som motstånd",
+      "image": {
+        "ID": 253,
+        "id": 253,
+        "title": "Momi_porträtt2",
+        "filename": "Momi_portratt2.jpeg",
+        "filesize": 603683,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2.jpeg",
+        "link": "http://kraft.konstframjandet.se/?attachment_id=253",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "momi_portratt2",
+        "status": "inherit",
+        "uploaded_to": 251,
+        "date": "2023-03-27 13:41:14",
+        "modified": "2023-03-27 13:41:14",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1280,
+        "height": 960,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-300x225.jpeg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-768x576.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-1024x768.jpeg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2.jpeg",
+          "1536x1536-width": 1280,
+          "1536x1536-height": 960,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2.jpeg",
+          "2048x2048-width": 1280,
+          "2048x2048-height": 960,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/03/Momi_portratt2-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "© Takao Momiyama",
+      "excerpt": "Den 17 juni öppnar vi utställningen Först så var det mörkt med Takao Momiyama, Gunnel Pettersson och Nisse Bergman som pågår ända in på hösten. Workshops/kurser kommer att hållas  under perioden. Mer info kommer under våren. <br />\r\n",
+      "text": "",
+      "extra_text": "",
+      "place": "ETC Solpark i Katrineholm",
+      "address": " Energikullen 1",
+      "date": "17 juli-30 september 2023",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/257"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=257"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=257"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 244,
+    "date": "2023-02-18T13:53:24",
+    "date_gmt": "2023-02-18T12:53:24",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=244"
+    },
+    "modified": "2023-04-13T16:54:56",
+    "modified_gmt": "2023-04-13T14:54:56",
+    "slug": "kraft-pa-folk-kultur",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/kraft-pa-folk-kultur/",
+    "title": {
+      "rendered": "Kraft på Folk &amp; Kultur 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "KONST &amp; KLIMAT– visioner om framtiden ",
+      "image": {
+        "ID": 245,
+        "id": 245,
+        "title": "solparken–22",
+        "filename": "solparken–22-scaled.jpeg",
+        "filesize": 419583,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-scaled.jpeg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/kraft-pa-folk-kultur/solparken-22/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "solparken-22",
+        "status": "inherit",
+        "uploaded_to": 244,
+        "date": "2023-02-18 12:49:54",
+        "modified": "2023-02-18 12:49:54",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1440,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-300x169.jpeg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-768x432.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-1024x576.jpeg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-1536x864.jpeg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-2048x1152.jpeg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1152,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2023/02/solparken–22-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Bild: Två besökare prövar interaktiviteten i Tina Nykvists verk som vi visade 2022 i Solparken,Katrineholm",
+      "excerpt": "KONST &amp; KLIMAT– visioner om framtiden <br />\r\nVi finns på Folk &amp; kultur på Fredag 10/2 då vi deltar i ett modererat samtal i Region Sörmlands monter kl. 11.30-12.00:<br />\r\n",
+      "text": "<p>KONST &amp; KLIMAT– visioner om framtiden</p>\n<p>Vi finns på Folk &amp; kultur på Fredag 10/2 då vi deltar i ett modererat samtal i Region Sörmlands monter kl. 11.30-12.00:<br />\nHur kan konstfältet vara en drivande kraft i den gröna omställningen, och hur mycket får den påverka skapandet? Medverkande: Anna-Karin Wulgué, Katrineholms kommun, om hur en liten kommun kan ta tag i omställningen och om det regionala konst-och klimatnätverk som hon dragit igång. Hanna Stahle, konstnär, konstkonsult och ordförande i nystartade Konstfrämjandet Kraft, berättar om samarbetet med ETC Solpark, offentlig konst och hållbarhet. Åsa Elzén, konstnär, berättar om sitt arbete med projektet ”Skogen kallar” och skulpturparken på Nynäs slott.<br />\nFredag 10/2 kl. Kulturkluster Sörmlands After Work (OBS! På Scenkonst Sörmland)<br />\nUtifrån temat ”I Sörmland växer framtidens kulturskapare” bjuder vi in kulturpolitiker, tjänstepersoner och unga/nya kulturskapare från Sörmland till runda-bordssamtal och AW-mingel. Evenemanget är öppet för alla!</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": [
+        {
+          "meta_text": ""
+        }
+      ],
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/244"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=244"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=244"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "date": "2022-10-10T09:22:55",
+    "date_gmt": "2022-10-10T07:22:55",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=237"
+    },
+    "modified": "2023-01-08T12:55:25",
+    "modified_gmt": "2023-01-08T11:55:25",
+    "slug": "gunnel-pettersson-och-takao-momiyama-forelaser-i-katrineholm",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/gunnel-pettersson-och-takao-momiyama-forelaser-i-katrineholm/",
+    "title": {
+      "rendered": "Takao Momiyama och Gunnel Pettersson föreläser i Katrineholm"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 238,
+        "id": 238,
+        "title": "collage till hemsidan.001",
+        "filename": "collage-till-hemsidan.001.jpeg",
+        "filesize": 1033933,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001.jpeg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/gunnel-pettersson-och-takao-momiyama-forelaser-i-katrineholm/collage-till-hemsidan-001/",
+        "alt": "Gunnel Pettersson och Takao Momiyama",
+        "author": "57",
+        "description": "",
+        "caption": "Gunnel Pettersson och Takao Momiyama ",
+        "name": "collage-till-hemsidan-001",
+        "status": "inherit",
+        "uploaded_to": 237,
+        "date": "2022-10-10 06:47:32",
+        "modified": "2022-10-10 06:51:29",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 911,
+        "height": 757,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-300x249.jpeg",
+          "medium-width": 300,
+          "medium-height": 249,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-768x638.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 532,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001.jpeg",
+          "large-width": 640,
+          "large-height": 532,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001.jpeg",
+          "1536x1536-width": 911,
+          "1536x1536-height": 757,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001.jpeg",
+          "2048x2048-width": 911,
+          "2048x2048-height": 757,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/10/collage-till-hemsidan.001-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "© Gunnel Pettersson och Takao Momiyama",
+      "excerpt": "Den 19 oktober kl 13:00-14:30 har vi bjudit in Takao Momiyama och Gunnel Pettersson att berätta om sitt arbete som undersöker hållbara och cirkulära metoder.<br />\r\n",
+      "text": "<p>Katrineholms konsthall och Konstfrämjandet Kraft är glada att kunna välkomna till ett nytt Samtal för Konst och Klimat. De båda konstnärerna är också Konstfrämjandet Krafts utställare på Solparken under följande sommar.</p>\n<p>Efter föreläsningarna kommer följer ett av samtal för konstarrangörer om material, återbruk och cirkulära arbetssätt. Hur kan vi som konstarrangörer agera kring hur vi använder och återanvänder våra resurser och lära av konsten?</p>\n<p>Anmäl att du kommer senast 14 oktober genom att mejla gustav.person@katrineholm.se</p>\n<p>&nbsp;</p>\n",
+      "extra_text": "<p><strong>Takao Momiyama</strong> är född 1951 i Japan och växte upp i en japansk bondekultur innan konsumtionssamhället tog vid. Under 1970-talet flyttade han till Europa och på 90-talet utbildade han sig på Konstfack, textil i Stockholm och är sedan 16 år verksam som konstnär och budotränare utanför Simrishamn.</p>\n<p>Mottainai är huvudtemat för verksamheten. Det är ett japanskt uttryck som betyder ungefär &#8211; slösa inte. Begreppet ger namn åt en filosofi av sparsamhet. Det handlar om omsorg, återbruk och om att lappa och laga med hjälp av den japanska sömnadstekniken sashiko som är en traditionell lagningsteknik.</p>\n<p>Exempel på verksamhet:<br />\nUltvalt -18 och -21, Mottainai &#8211; Österlens Museum -20, Recyceling – Sörmlands museum -19, Boro &#8211; Östasiatiska Museet i Stockholm -21 och Vandalorum i Värnamo -22.<br />\nTvåårigt arbetsstipendium från Konstnärsnämnden 2016<br />\n<a href=\"http://www.instagram.com/momiyamatakao\">www.instagram.com/momiyamatakao</a><br />\n<a href=\"http://www.momiyama.com/\">www.momiyama.com</a></p>\n<p>&nbsp;</p>\n<p><strong>Gunnel Pettersson</strong> är utbildad på Konstfack, textil och vidareutbildad på Kungliga konsthögskolan inom nya media, och är verksam utanför Simrishamn med projektet Odlingen. Det är en konstnärlig praktik, som har blivit ett sätt att leva och experimentera utopin med utgångspunkt i ett intresse för samhällskritik och undersökande processer.</p>\n<p>Målet med denna praktik är att bidra till ett odlingslandskap med större mångfald genom kunskap om odling av bovete. Det är ofta ett relationellt arbete där exempelvis det lokala föreningslivet involveras, och interaktion uppstår som leder processen vidare. Det publika mötet sker såväl inom som utanför konstinstitutionen med odling, fältvandringar, performance, utställningar osv.</p>\n<p>Exempel på verksamhet:<br />\nVäxande historia -22 <a href=\"https://arna.nu/konsth%C3%A4ndelser/gunnel-pettersson\">https://arna.nu/konsth%C3%A4ndelser/gunnel-pettersson</a><br />\nLivets väv, installation i Klostret, Ystad -20, -21, Österlens museum -20, Passagen, Linköping -19, Ystad Konstmuseum -18, tvåårigt arbetsstipendium från Konstnärsnämnden 2020<br />\n<a href=\"http://www.instagram.com/gunnel_odlingen\">www.instagram.com/gunnel_odlingen</a><br />\n<a href=\"http://www.experimentutopier.org/\">www.experimentutopier.org</a><br />\n<a href=\"http://www.fiberartsweden.nu/artist/gunnel-pettersson\">www.fiberartsweden.nu/artist/gunnel-pettersson</a></p>\n",
+      "place": " Kulturhuset Ängeln",
+      "address": "Djulögatan 27",
+      "date": "",
+      "time": "13:00-14:30",
+      "price": "Fritt inträde",
+      "external_link": "",
+      "extra_meta": [
+        {
+          "meta_text": "Obs föranmälan till: gustav.person@katrineholm.se"
+        }
+      ],
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/237"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=237"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=237"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 226,
+    "date": "2022-09-05T14:04:17",
+    "date_gmt": "2022-09-05T12:04:17",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=226"
+    },
+    "modified": "2022-09-05T23:05:33",
+    "modified_gmt": "2022-09-05T21:05:33",
+    "slug": "finissage-och-oppen-animationsverkstad-24-sep",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/finissage-och-oppen-animationsverkstad-24-sep/",
+    "title": {
+      "rendered": "Extra utställningsdag och öppen animationsverkstad 24 september"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 230,
+        "id": 230,
+        "title": "24 sep.001.jpeg.001 (kopia)",
+        "filename": "24-sep.001-1.jpeg.001-kopia-1.jpeg",
+        "filesize": 698858,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1.jpeg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/finissage-och-oppen-animationsverkstad-24-sep/24-sep-001-jpeg-001-kopia-2/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "24-sep-001-jpeg-001-kopia-2",
+        "status": "inherit",
+        "uploaded_to": 226,
+        "date": "2022-09-05 21:00:56",
+        "modified": "2022-09-05 21:00:56",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1024,
+        "height": 681,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-300x200.jpeg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-768x511.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 426,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1.jpeg",
+          "large-width": 640,
+          "large-height": 426,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1.jpeg",
+          "1536x1536-width": 1024,
+          "1536x1536-height": 681,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1.jpeg",
+          "2048x2048-width": 1024,
+          "2048x2048-height": 681,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/09/24-sep.001-1.jpeg.001-kopia-1-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Ta sista chansen, ta med familj och vänner på ett besök på sommarens utställning i solparken!<br />\r\n",
+      "text": "<p>Den 24 september förlänger vi utställningen en extra dag med öppet kl 11:00-15:00<br />\nSamma dag håller vi också öppet animationslabbet för alla åldrar mellan kl 12:30-15:00.</p>\n",
+      "extra_text": "",
+      "place": "Solparken Katrineholm",
+      "address": "Energikullen 1",
+      "date": "24 sep",
+      "time": "11:00-15:00",
+      "price": "gratis",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/226"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=226"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=226"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "date": "2022-07-04T13:33:18",
+    "date_gmt": "2022-07-04T11:33:18",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=162"
+    },
+    "modified": "2022-08-11T21:41:44",
+    "modified_gmt": "2022-08-11T19:41:44",
+    "slug": "forflytta-berg",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/forflytta-berg/",
+    "title": {
+      "rendered": "Förflytta berg"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Utställning på ETC Solpark med Bigert &amp; Bergström, Hanna Ljung och Tina Nykvist",
+      "image": {
+        "ID": 181,
+        "id": 181,
+        "title": "Hanna Ljungh_I am mountain 16.57",
+        "filename": "Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "filesize": 335094,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/projekt/forflytta-berg/hanna-ljungh_i-am-mountain-16-57/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "hanna-ljungh_i-am-mountain-16-57",
+        "status": "inherit",
+        "uploaded_to": 166,
+        "date": "2022-02-14 13:42:47",
+        "modified": "2022-02-14 13:42:47",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1440,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-2048x1152.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1152,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Videostill ur I am mountain, to measure impermanence ©Hanna Ljungh",
+      "excerpt": "Den 2 juli - 20 september 2022 visar vi Förflytta Berg i ETC Solpark i Katrineholm. Konstnärerna Lars Bergström, Mats Bigert, Hanna Ljungh och Tina Nykvist visar verk rör sig kring solen, den globala uppvärmningen och vilka konsekvenser denna får för Kebnekaise – Sveriges högsta berg som de senaste decennierna minskat med tjugo meter i höjd.",
+      "text": "<p>Den 2 juli &#8211; 20 september 2022 visar vi utställningen <strong class=\"\"><em class=\"\">Förflytta Berg</em> ETC Solpark i Katrineholm. Utställningen innehåller verk av konstnärerna Lars Bergström, Mats Bigert, Hanna Ljungh och Tina Nykvist. Tematiken rör sig kring solen, den globala uppvärmningen och vilka konsekvenser denna får för Kebnekaise – Sveriges högsta berg som de senaste decennierna minskat med tjugo meter i höjd.</strong></p>\n<p class=\"\">I verket <em class=\"\">The Freeze, 2015 Rescue Blanket for Kebnekaise</em> beskrivs hur konstnärsduon Bigert &amp; Bergström täcker Kebnekaises södra topp med skyddsfiltar för att hindra att glaciären smälter bort, medan verket <em class=\"\">I Am Mountain, To Measure Impermanence</em> av Hanna Ljungh är en sex timmar lång tagning av samma plats. Filmerna speglar tid och materia där bergets långsamma sten står i kontrast till den mer flyktiga vätskan i glaciären. Det blir en undersökning av tid utifrån filmens, geologins, vetenskapens och samtidens förutsättningar. Båda verken spelades in under samma dag och de olika filmteamen hjälpte varandra. Bigert &amp; Bergström deltar även med verket <em class=\"\">CO2 Lock–In</em> som består av 300 kilo tunga fotbojor – motsvarigheten till vad en vanlig svensk släpper ut i koldioxid under tio dagar. Tina Nykvist deltar med verket <em class=\"\">Alpha Channel / Alfa kanal</em> som är ett interaktivt verk där betraktaren uppmanas att passera en ljusstråle – i skuggan framträder då andra bilder. Det är ett tekniskt avancerat verk med många bottnar, om de avtryck människan lämnar efter sig och allt som går att upptäcka i dem.</p>\n<p class=\"\">Utställningen är kuraterad av Nils Claesson och arrangeras av Konstfrämjandet Kraft med stöd av Katrineholms kommun och Statens kulturråd. Konstfrämjandet Kraft kommer under utställningsperioden att ordna publika visningar och även en animationsverkstad för barn och unga.</p>\n<p><em>Videostill ur I am mountain, to measure impermanence ©Hanna Ljungh</em></p>\n<hr />\n<p>&nbsp;</p>\n",
+      "extra_text": "<p>&nbsp;</p>\n<p><strong>Utställningen (och hela Solparken) är öppen:</strong></p>\n<p class=\"wp-block-getwid-advanced-heading__content\">Onsdag – fredag kl. 09:00–18:00.<br />\nLördag: 11.00-15.00</p>\n<p>&nbsp;</p>\n<p><strong>Tillgänglighet och besöksinfo:</strong></p>\n<p>Parkering finns utanför områdets grindar. Toaletter och ett enkelt café finns också på området. Utställningen visas i och utanför två av husen. Följ de röda pilarna ovanför caféet så hittar du rätt. Hela området är väldigt kuperat vilket kan orsaka hinder för att ta sig runt med rullstol. Den ena lokalen ligger i markplan medan den andra har ett högt trappsteg för att komma in.  Kontaktperson om en besökare vill ställa frågor om tillgänglighet: Hanna Stahle 0761144666, kraft@konstfrämjandet.se</p>\n<p>&nbsp;</p>\n<p class=\"wp-block-getwid-advanced-heading__content\">\n",
+      "place": "Solparken, Katrineholm",
+      "address": "Energikullen 1",
+      "date": "2 juli – 20 sep  2022",
+      "time": "",
+      "price": "Fritt inträde",
+      "external_link": "https://etcsolpark.se/hitta-hit/",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/162"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=162"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=162"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 206,
+    "date": "2022-07-03T22:43:28",
+    "date_gmt": "2022-07-03T20:43:28",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=206"
+    },
+    "modified": "2022-07-05T09:39:28",
+    "modified_gmt": "2022-07-05T07:39:28",
+    "slug": "sommarfest-emil-jensen-an-susar-skogen",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/sommarfest-emil-jensen-an-susar-skogen/",
+    "title": {
+      "rendered": "Sommarfest: Emil Jensen – Än susar skogen, och mycket annat"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 203,
+        "id": 203,
+        "title": "emildagenlayout.001",
+        "filename": "emildagenlayout.001.jpeg",
+        "filesize": 2438244,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001.jpeg",
+        "link": "http://kraft.konstframjandet.se/emildagenlayout-001/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "emildagenlayout-001",
+        "status": "inherit",
+        "uploaded_to": 0,
+        "date": "2022-06-12 20:31:18",
+        "modified": "2022-06-12 20:31:18",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 1920,
+        "height": 1080,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-300x169.jpeg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-768x432.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-1024x576.jpeg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-1536x864.jpeg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001.jpeg",
+          "2048x2048-width": 1920,
+          "2048x2048-height": 1080,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/06/emildagenlayout.001-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Artisten Emil Jensen är huvudnumret under en heldag för biologisk mångfald och klimat på Solparken.<br />\r\nEtt brett samarbete mellan Naturskyddsföreningen, ETC Solpark, United Stage och Konstfrämjandet Kraft och med stöd från Katrineholms kommun.<br />\r\n",
+      "text": "<p>Konstfrämjandet Kraft deltar i ett samarbete med Naturskyddsföreningen i Katrineholm och ETC Solpark där vi genomför vi en dag helt inriktad på klimatet och lösningar för både stora och små!<br />\nPoeten, musikern och miljöaktivisten Emil Jensen gör hela sin sommarturné per cykel som en manifestation för miljön, freden och klimatet, med trädplantering, närodlade gästartister och en ny föreställning med musik, poesi och komik om livet på jorden.</p>\n<p><strong>Konstfrämjandet Kraft håller under dagen öppet utställningen Förflytta berg samt håller några visningar av utställningen. Dessutom öppnar animationslabbet och visar vad som går att göra med Stop motion-tekniken, du kan också anmäla dig till en animationskurs!</strong></p>\n",
+      "extra_text": "",
+      "place": "ETC Solpark i Katrineholm",
+      "address": "Energikullen 1",
+      "date": "Onsdagen den 6 juli ",
+      "time": "Hela dagen från kl 11",
+      "price": "Biljett 350:-(0-16 år fri entré)",
+      "external_link": "https://varuhuset.etc.se/product.html?product_id=3899",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/206"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=206"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=206"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 207,
+    "date": "2022-06-13T07:24:55",
+    "date_gmt": "2022-06-13T05:24:55",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=207"
+    },
+    "modified": "2023-02-19T10:38:31",
+    "modified_gmt": "2023-02-19T09:38:31",
+    "slug": "vernissage-forflytta-berg",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/vernissage-forflytta-berg/",
+    "title": {
+      "rendered": "Vernissage"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "den 2 juli 2022 kl 14:00 öppnar utställningen Förflytta berg i Solparken",
+      "image": {
+        "ID": 181,
+        "id": 181,
+        "title": "Hanna Ljungh_I am mountain 16.57",
+        "filename": "Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "filesize": 335094,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/projekt/forflytta-berg/hanna-ljungh_i-am-mountain-16-57/",
+        "alt": "",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "hanna-ljungh_i-am-mountain-16-57",
+        "status": "inherit",
+        "uploaded_to": 166,
+        "date": "2022-02-14 13:42:47",
+        "modified": "2022-02-14 13:42:47",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1440,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-2048x1152.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1152,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Hanna-Ljungh_I-am-mountain-16.57-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Videostill ur I am mountain, to measure impermanence ©Hanna Ljungh",
+      "excerpt": "På Solparken i Katrineholm öppnar den 2 juli 2022 en utställningen med namnet Förflytta berg. Deltagande konstnärer: Bigert &amp; Bergström, Hanna Ljung och Tina Nykvist. ",
+      "text": "<p>Den 2 juli slår vi upp portarna till  <em>Förflytta berg,</em> en utställning om klimatförändringar, solen och berget Kebnekaise.<span class=\"Apple-converted-space\"> Kl 14 inviger Nils Claesson utställningen (men den har öppet hela dagen 11-17)</span></p>\n<p>Konstfrämjandet Kraft låter konsten ta plats i Solparken, en kulle i Katrineholm fyllt av solpaneler, vindkraftverk, soldrivna serverhallar, ekologisk arkitektur, växthus och en anläggning som gör biokol. Utställningen finansieras av Konstfrämjandet med stöd av med ETC El. Utställningen pågår 2 juli – 20 september 2022</p>\n<p><em>Videostill ur I am mountain, to measure impermanence ©Hanna Ljungh</em></p>\n",
+      "extra_text": "<p>Samma dag öppnar Bie Biennal i Bie utanför Katrineholm http://www.biebiennal.se  Det är två starka  anledningar för de mer långväga gästerna att besöka Katrineholm i sommar och särskilt den 2 juli.</p>\n",
+      "place": "Solparken, Katrineholm",
+      "address": "Energikullen 1,",
+      "date": "2 juli ",
+      "time": "14:00 – 17:00",
+      "price": "Fri entré",
+      "external_link": "https://varuhuset.etc.se/product.html?product_id=3899",
+      "extra_meta": [
+        {
+          "meta_text": ""
+        }
+      ],
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/207"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=207"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=207"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 161,
+    "date": "2022-02-11T13:25:22",
+    "date_gmt": "2022-02-11T12:25:22",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=161"
+    },
+    "modified": "2022-02-11T13:25:22",
+    "modified_gmt": "2022-02-11T12:25:22",
+    "slug": "decemberutflykt-till-skogen-kallar",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/decemberutflykt-till-skogen-kallar/",
+    "title": {
+      "rendered": "Decemberutflykt till Skogen kallar"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "",
+      "image": {
+        "ID": 158,
+        "id": 158,
+        "title": "skogenkallar",
+        "filename": "skogenkallar-1.jpg",
+        "filesize": 2977316,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1.jpg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/det-granslosa-vildsvinet/skogenkallar-2/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "skogenkallar-2",
+        "status": "inherit",
+        "uploaded_to": 151,
+        "date": "2022-02-11 12:19:08",
+        "modified": "2022-02-11 12:19:08",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2362,
+        "height": 994,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-300x126.jpg",
+          "medium-width": 300,
+          "medium-height": 126,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-768x323.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 269,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-1024x431.jpg",
+          "large-width": 640,
+          "large-height": 269,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-1536x646.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 646,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-2048x862.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 862,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/skogenkallar-1-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Tillsammans med Naturskyddsföreningen åkte Konstfrämjandet Kraft på skogsutflykt till Julita, där vi introducerades till platsen och projektet Skogen kallar – Ett oändligt kontaminerat samarbete eller Dansandet är en form av skogskunskap.",
+      "text": "<p>Det är konstnärerna Malin Arnell och Åsa Elzén som undersöker möjligheterna att ta en bit skogsmark ur produktion för att säkra dess fortlevnad i oändlig framtid. Åsa Elzén tog oss på en vandring i skogen där hon också berättade om projektet.<br />\n&nbsp;<br />\n<a href=\"https://statenskonstrad.se/konst/skogen-kallar/\">https://statenskonstrad.se/konst/skogen-kallar/</a></p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/161"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=161"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=161"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 146,
+    "date": "2022-02-09T12:54:51",
+    "date_gmt": "2022-02-09T11:54:51",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=146"
+    },
+    "modified": "2022-02-11T14:03:49",
+    "modified_gmt": "2022-02-11T13:03:49",
+    "slug": "kraft-nytt-distrikt-i-sormland-korsar-konst-med-natverkande-och-hallbarhet",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/kraft-nytt-distrikt-i-sormland-korsar-konst-med-natverkande-och-hallbarhet/",
+    "title": {
+      "rendered": "Kraft &#8211; Nytt distrikt i Sörmland korsar konst med nätverkande och hållbarhet"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Intervju med ordförande Hanna Stahle",
+      "image": {
+        "ID": 148,
+        "id": 148,
+        "title": "Kraftstyrelsen1",
+        "filename": "Kraftstyrelsen1-scaled.jpg",
+        "filesize": 1040759,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/kraft-nytt-distrikt-i-sormland-korsar-konst-med-natverkande-och-hallbarhet/kraftstyrelsen1/",
+        "alt": "",
+        "author": "55",
+        "description": "",
+        "caption": "",
+        "name": "kraftstyrelsen1",
+        "status": "inherit",
+        "uploaded_to": 146,
+        "date": "2022-02-09 12:57:59",
+        "modified": "2022-02-09 12:57:59",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1920,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-300x225.jpg",
+          "medium-width": 300,
+          "medium-height": 225,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-768x576.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 480,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-1024x768.jpg",
+          "large-width": 640,
+          "large-height": 480,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-1536x1152.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1152,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-2048x1536.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1536,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Kraftstyrelsen1-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "Styrelsen för Kraft Sörmland",
+      "excerpt": "Välkomna! Ert distrikt spänner över hela regionen Sörmland med platser som Katrineholm, Nyköping, Gnesta, Eskilstuna och Trosa. På vilket sätt skiljer sig Kraft från Sörmlandsdistriktet?<br />\r\nVi fokuserar på samtidskonst och vi har en uttalad tematisk inriktning på hållbarhet, energi och konstens kraft. ",
+      "text": "<p>Vi i styrelsen är alla yrkesverksamma konstnärer inom konst, konsthantverk och design med lång erfarenhet av att göra konst och stora projekt. Vi kommer att göra sommarutställningar i Solparken utanför Katrineholm men vill också utveckla verksamhet i på fler håll i länet. </p>\n<p><strong>Vad är Solparken?</strong><br />\nSolparken är en labyrintisk och experimentell plats som drivs av ETC-företagen på en kulle i utkanten av Katrineholm. Det är en plats där allt bygger på hållbarhet och kraft. Där finns solceller, biokolstillverkning, växthus, kursverksamheter och betande får. Plus experimenthus byggda med ny hållbar teknik i trä och solceller. Det finns en ström av besökare från när och fjärran som kollar solceller och handlar saker eller fikar i caféet. Det är en plats som går att utveckla för att visa konst till en ny publik. Kanske skapa en blandning av Tom Tits experiment, en modern konstverksamhet och en utomhusutställning om hållbarhet och överlevnad. Solparken i Katrineholm är en samarbetspartner och en plats där vi kommer att visa utställningar. Vi får tillgång till parken och flera stora rum där vi kan visa konst. Vi utvecklar en ny verksamhet och möts i arbetet för klimatomställning och en för hållbar utveckling. </p>\n<p><strong>Vad är det för lokal?</strong><br />\nDet är en lokal i Solparken som först byggdes för en folkhögskolekurs i solenergi, men nu är vårt galleri. Ett stort rum 10 x 10 meter som är 7 meter högt helt byggd i trä. Det finns också idéer om att bygga en stor konsthall från ETC:s sida. Där kan vi bidra med våra kunskaper om fungerande former för att visa samtidskonst som ju ibland kan bli mer intressant om den interagerar med annat, och med tanke på det så är ju Solparken idealisk med sin experimentella karaktär. Vi prövar oss fram i samarbetet med Solparken, men siktet är inställt på att producera mer omfattande utställningar. </p>\n<p><strong>Kan du säga något om Sörmland som konstlandskap?</strong><br />\nDet är splittrat. Kanske beror det på att det inte finns någon självklar central stad att samlas i.<br />\nInfrastrukturen som tåg och vägnät splittrar regionen i tårtbitar ut från Stockholm vilka har lite för lite kontakt sinsemellan. Vår målsättning är att aktivt jobba med att å ena sidan göra bra saker som väcker uppmärksamhet så folk reser hit från hela Mälardalen och å andra sidan utveckla en konstpedagogisk verksamhet som kan få helt nya grupper att kolla på konst.  Vi vill utnyttja dynamiken i ett landskap fyllt av jordbruk, natur, industrier men också feodal historia. Det är fortfarande några väldigt rika adelsfamiljer som äger stora delar av landskapet och som just nu kalhugger skog.</p>\n<p><strong>Vad finns det då?</strong><br />\nDet finns bra konstscener som Sörmlands museum i Nyköping, Katrineholms konsthall, Art Lab Gnesta, Ebelingmuseet och Eskilstuna konstmuseum. Här bor många konstnärer, men de flesta arbetar gentemot andra platser i landet. Unga konstnärer flyttar hit för att få lite större svängrum och för att de tröttnat på Stockholm med sin brist på bostäder och ateljéplats. Samtidskonsten behöver nätverkas regionalt för att bli en vital kraft. Det är därför vi finns.</p>\n<p><strong>Vilka är ni som startar?</strong><br />\nJag är skulptör och jobbar även som konstkonsult. Sedan är det Åsa Lockner, hon är smyckesformgivare och konstnär och bor i Mellösa utanför Flen.  Nils Claesson, konstnär och animatör bor i Stockholm. Han var en av de som startade ETC-tidningen och är därför lite vår väg in i det sammanhanget. Nils kommer att kuratera sommarens utställning. Sedan är det Linda Karlsson, keramiker i Stjärnhov och Anna Berglind, som bor i Jönåker och är konstnär samt Gustav Person i Julita, möbelformgivare som också jobbar på konsthallen i Katrineholm. Och Mårten Medbo, Katrineholm som är keramiker och konstnär.</p>\n<p><strong>Kan vi prata mer om hållbarhet och konst och det som kännetecknar Kraft?</strong><br />\nKlimatfrågan är en ödesfråga som vi människor måste göra något åt. Dystopierna får inte bli verklighet. Konsten kan kanske inte rädda världen, men den kan hjälpa oss att överleva som människor, mentalt. Klimatförändringarna är här men med hela sin komplexitet blir de ändå så abstrakta. Konsten kan hjälpa oss att ta in det på ett annat plan men också vara en plats för oväntade möten och samtal utanför politikens polariserade rum. Konsten kan gestalta visioner om framtiden och flytta våra medvetanden genom upplevelser.<br />\nVi vill sträcka oss utanför bildkonsten där gränserna mellan konst, teknik, arkitektur, sociala utopier och experiment suddas ut och blir en samlad manifestation för överlevnad och samtal om ett nytt hållbart samhälle. </p>\n<p><strong>Vad kommer närmast, har ni något på gång?</strong><br />\nVi har flera projekt på gång. Det första är ett nätverkande projekt som vi kallar för Kartläggning–Utveckling, där vi har fått stöd från Konstfrämjandet att under vårt första år bygga upp ett nätverk inom samtidskonsten i Sörmland. Vi startar upp med ett möte med Sörmlands konstkonsulent och avser sedan söka upp de institutioner, organisationer och personer som vi är nyfikna på. I ett möte kan vi få en inblick i varandras verksamheter, resurser och målsättningar och ha ett visionärt samtal om vad vi skulle kunna hitta på tillsammans. Allt avslutas med ett seminarium i höst. Vi har en stark tro på samarbete och att man kan göra mer tillsammans än som enskild liten grupp eller aktör.</p>\n<p>Det andra projektet är sommarens utställning i Solparken med titeln Förflytta berg som öppnar den 2 juli och pågår resten av sommaren. Det blir flera etablerade konstnärer, Bigert &#038; Bergström, Hanna Ljung och Tina Nykvist. Videoverk men också skulpturer och objekt som blandar sig i Solparken.</p>\n<p>Under året kommer vi också att göra en förstudie till ett mer mobilt projekt som heter Lerlabbet. Var man än gräver i Sörmland så finns det lera och landskapet är fullt av gamla tegelbruk och vi klurar nu på en idé om hur vi kan omsätta det till något kul.</p>\n<p><strong>Vad har Konstfrämjandet kunna bidra med och har du fått reaktioner på Krafts bildande?</strong><br />\nDet känns väldigt bra att ha Konstfrämjandet i ryggen. Det är en organisation som folk inom konsten känner till, vi sympatiserar med inriktningen och naturligtvis finns där också en ekonomisk förutsättning som gör att vi inte börjar på ruta noll, utan vi kan växla upp direkt och göra något större. När några av oss genomförde en första utställning på Solparken med ganska kort varsel förra sommaren och då fick stöd från Konstfrämjandet så fick vi också frågan om vi ville bilda ett Konstfrämjandet-distrikt. Det var inget vi funderat på men det var en chans som inte gick att motstå! </p>\n<p>För mig personligen betyder det också en del att kunna göra något nära där jag bor, vilket jag sällan gör annars. Aktörer inom konsten i Sörmland har över lag varit väldigt entusiastiska över att vi startar upp Kraft och ser fram emot samarbeten framöver, så potentialen finns, absolut!</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/146"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=146"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=146"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "date": "2022-02-04T15:14:03",
+    "date_gmt": "2022-02-04T14:14:03",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=134"
+    },
+    "modified": "2022-02-14T18:51:45",
+    "modified_gmt": "2022-02-14T17:51:45",
+    "slug": "kraft-sa-jobbar-vi",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/kraft-sa-jobbar-vi/",
+    "title": {
+      "rendered": "Kraft &#8211; Så jobbar vi"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Kommande och tidigare projekt ",
+      "image": {
+        "ID": 186,
+        "id": 186,
+        "title": "image",
+        "filename": "image.jpeg",
+        "filesize": 420120,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image.jpeg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/kraft-sa-jobbar-vi/image/",
+        "alt": "lera från solparken",
+        "author": "57",
+        "description": "",
+        "caption": "",
+        "name": "image",
+        "status": "inherit",
+        "uploaded_to": 134,
+        "date": "2022-02-14 17:49:26",
+        "modified": "2023-02-18 13:06:58",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 960,
+        "height": 1280,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-150x150.jpeg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-225x300.jpeg",
+          "medium-width": 225,
+          "medium-height": 300,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-768x1024.jpeg",
+          "medium_large-width": 640,
+          "medium_large-height": 853,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-768x1024.jpeg",
+          "large-width": 640,
+          "large-height": 853,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image.jpeg",
+          "1536x1536-width": 960,
+          "1536x1536-height": 1280,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image.jpeg",
+          "2048x2048-width": 960,
+          "2048x2048-height": 1280,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-480x360.jpeg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-640x640.jpeg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/image-125x125.jpeg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "Konstfrämjandet Krafts ändamål är att belysa teman som hållbarhet, energi och konstens kraft. Föreningen arbetar konstfrämjande inom ett brett samtidskonstfält som tematiskt upplagt distrikt i Sörmland och medlem i Folkrörelsernas Konstfrämjande.",
+      "text": "<p><strong>Förflytta berg</strong><br />\nPå Solparken i Katrineholm öppnar i juni 2022 en utställning med namnet Förflytta berg:<br />\nDeltagande konstnärer: Bigert &amp; Bergström, Hanna Ljung och Tina Nykvist.<br />\nKonstfrämjandet Kraft låter konsten ta plats i Solparken, en kulle i Katrineholm full av solpaneler, vindkraftverk, soldrivna serverhallar, ekologisk arkitektur, växthus och en anläggning som tillverkar biokol. Parken är öppet för allmänheten och där arbetar ett tiotal personer varje dag.<br />\nUtställningen finansieras av Solparken med stöd av ETC El.<br />\nMer info kommer inom kort!</p>\n<p><strong>Decemberutflykt till Skogen kallar</strong><br />\nTillsammans med Naturskyddsföreningen åkte Konstfrämjandet Kraft på skogsutflykt till Julita, där vi introducerades till platsen och projektet Skogen kallar – Ett oändligt kontaminerat samarbete eller Dansandet är en form av skogskunskap. Det är konstnärerna Malin Arnell och Åsa Elzén som undersöker möjligheterna att ta en bit skogsmark ur produktion för att säkra dess fortlevnad i oändlig framtid. Åsa Elzén tog oss på en vandring i skogen där hon också berättade om projektet. https://statenskonstrad.se/konst/skogen-kallar/</p>\n<p><strong>Det gränslösa vildsvinet</strong><br />\nUtställningen Det gränslösa vildsvinet av konstnärerna Carl-Johan Erikson och Karin Willén öppnade den 1 juli 2021 i Solparken. Den curerades av Nils Claesson och finansierades av Konstfrämjandet genom Sörmlandsdistriktet och Ideell Kulturallians. Under vernissagen spelade Dror Feiler svinaktig musik och det bjöds på en tipspromenad med oväntade priser. Det blev startskottet för bildandet av Konstfrämjandet Kraft och ett arbete med återkommande utställningar på Solparken.</p>\n<p>Utställningen handlar om de gränslösa svinen som har en enorm förmåga att försöka sig och äta upp och förstöra odlingar, mark och trädgårdar. Drönarfilmer, objekt och dokumentärt fotografi blandas med matlagning och viktiga samtal om hur svinen ska sättas på plats. Det gränslösa vildsvinet är en utställning som tar med oss till Danmark där den danska staten byggt en mur mot Tyskland för att stoppa de tyska vildsvinen från att komma in i landet. Den danska svinindustrin fruktar att de tyska svinen ska smitta ner de danska med afrikansk svinpest och slår vakt om sitt röda-vita bacon. Konstnärerna Willén och Erikson har sin utgångspunkt i de vilda svinens framfart och skapar en berättelse som handlar om vildsvinens totala förakt för gränser, kultur och privat egendom. Kanske också en sorts hyllning till de gränslösa svinens vitalitet. Det enda sättet att stoppa dem är i munnen.</p>\n",
+      "extra_text": "",
+      "place": "",
+      "address": "",
+      "date": "",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/134"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=134"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 151,
+    "date": "2021-07-01T13:22:46",
+    "date_gmt": "2021-07-01T11:22:46",
+    "guid": {
+      "rendered": "http://kraft.konstframjandet.se/?post_type=kf-news&#038;p=151"
+    },
+    "modified": "2022-02-11T13:28:07",
+    "modified_gmt": "2022-02-11T12:28:07",
+    "slug": "det-granslosa-vildsvinet",
+    "status": "publish",
+    "type": "kf-news",
+    "link": "http://kraft.konstframjandet.se/aktuellt/det-granslosa-vildsvinet/",
+    "title": {
+      "rendered": "Det gränslösa vildsvinet"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "acf": {
+      "subtitle": "Utställning i Solparken med Carl-Johan Erikson och Karin Willén",
+      "image": {
+        "ID": 153,
+        "id": 153,
+        "title": "Det gränslösa vildsvinet1small",
+        "filename": "Det-granslosa-vildsvinet1small-scaled.jpg",
+        "filesize": 934999,
+        "url": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-scaled.jpg",
+        "link": "http://kraft.konstframjandet.se/aktuellt/det-granslosa-vildsvinet/det-granslosa-vildsvinet1small/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "Dokumentation utställningen Det gränslösa vildsvinet, ETC solpark Katrineholm",
+        "name": "det-granslosa-vildsvinet1small",
+        "status": "inherit",
+        "uploaded_to": 151,
+        "date": "2022-02-11 12:17:48",
+        "modified": "2022-02-11 12:17:48",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://kraft.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1707,
+        "sizes": {
+          "thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-300x200.jpg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-768x512.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 427,
+          "large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-1024x683.jpg",
+          "large-width": 640,
+          "large-height": 427,
+          "1536x1536": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-1536x1024.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1024,
+          "2048x2048": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-2048x1365.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1365,
+          "kf-tip": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://kraft.konstframjandet.se/wp-content/uploads/sites/21/2022/02/Det-granslosa-vildsvinet1small-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "video": "",
+      "caption": "",
+      "excerpt": "",
+      "text": "<p>Utställningen <em>Det gränslösa vildsvinet</em> av konstnärerna Carl-Johan Erikson och Karin Willén öppnade den 1 juli 2021 i Solparken. Den curerades av <em>Nils Claesson</em> och finansierades av Konstfrämjandet genom Sörmlandsdistriktet och Ideell Kulturallians. Under vernissagen spelade Dror Feiler svinaktig musik och det bjöds på en tipspromenad med oväntade priser. Det blev startskottet för bildandet av Konstfrämjandet Kraft och ett arbete med återkommande utställningar på Solparken.<br />\n&nbsp;<br />\n<strong>Om Det gränslösa vildsvinet:</strong><br />\nUtställningen handlar om de gränslösa svinen som har en enorm förmåga att försöka sig och äta upp och förstöra odlingar, mark och trädgårdar. Drönarfilmer, objekt och dokumentärt fotografi blandas med matlagning och viktiga samtal om hur svinen ska sättas på plats. Det gränslösa vildsvinet är en utställning som tar med oss till Danmark där den danska staten byggt en mur mot Tyskland för att stoppa de tyska vildsvinen från att komma in i landet. Den danska svinindustrin fruktar att de tyska svinen ska smitta ner de danska med afrikansk svinpest och slår vakt om sitt röda-vita bacon. Konstnärerna Willén och Erikson har sin utgångspunkt i de vilda svinens framfart och skapar en berättelse som handlar om vildsvinens totala förakt för gränser, kultur och privat egendom. Kanske också en sorts hyllning till de gränslösa svinens vitalitet. Det enda sättet att stoppa dem är i munnen.</p>\n",
+      "extra_text": "",
+      "place": "Solparken",
+      "address": "",
+      "date": "Öppning 1 juli 2021",
+      "time": "",
+      "price": "",
+      "external_link": "",
+      "extra_meta": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news/151"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/kf-news"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/types/kf-news"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/comments?post=151"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://kraft.konstframjandet.se/wp-json/wp/v2/media?parent=151"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

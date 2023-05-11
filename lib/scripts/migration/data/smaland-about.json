@@ -1,0 +1,118 @@
+[
+  {
+    "id": 120,
+    "date": "2023-03-07T17:03:21",
+    "date_gmt": "2023-03-07T16:03:21",
+    "guid": {
+      "rendered": "http://smaland.konstframjandet.se/?post_type=kf-about&#038;p=120"
+    },
+    "modified": "2023-03-07T18:13:11",
+    "modified_gmt": "2023-03-07T17:13:11",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://smaland.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<p>Ordförande: Johanna Linder<br />\n&nbsp;<br />\nSekreterare: Sara Hemmingsson<br />\n&nbsp;<br />\nJusterare: Ragnhild Lekberg<br />\n&nbsp;<br />\nKassör: Carolina Jonsson</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 2,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Smålands styrelse består av:",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/kf-about/120"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/media?parent=120"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "date": "2021-11-08T12:06:23",
+    "date_gmt": "2021-11-08T11:06:23",
+    "guid": {
+      "rendered": "http://smaland.konstframjandet.se/?post_type=kf-about&#038;p=108"
+    },
+    "modified": "2023-03-08T10:40:46",
+    "modified_gmt": "2023-03-08T09:40:46",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://smaland.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Konstfrämjandet Småland"
+    },
+    "content": {
+      "rendered": "<p>Distriktet startades 2023 för att famna och främja det brokiga konstlandskapet Småland. Huvudsakligen arbetar vi genom Smålandstriennalen som samlar konstaktörer av olika storlekar och organisationsformer.<br />\n&nbsp;<br />\nDistriktet lägger stor vikt vid att facilitera det ickeformella, spontana och gräsrotsskapade. Vi jobbar med stor nyfikenhet på landsbygden, i småorter och städer.<br />\n&nbsp;<br />\nDär skapar vi sammanhang åt konstprojekt som kan belysa det småländska landskapet som geografisk och social sfär. På så vis når vi allt från jordmån och den gestaltade livsmiljön, hur det är att vara ung nu, sprängande klimatfrågor, till sådant som separerar människor från varandra &#8211; och inte minst &#8211; skiljer dem från konsten.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Småland är en ideell organisation utan formellt säte.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/kf-about/108"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://smaland.konstframjandet.se/wp-json/wp/v2/media?parent=108"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

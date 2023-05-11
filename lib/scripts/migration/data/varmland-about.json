@@ -1,0 +1,524 @@
+[
+  {
+    "id": 771,
+    "date": "2019-04-03T10:47:45",
+    "date_gmt": "2019-04-03T08:47:45",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=771"
+    },
+    "modified": "2019-04-18T09:49:19",
+    "modified_gmt": "2019-04-18T07:49:19",
+    "slug": "konstklubb",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/konstklubb/",
+    "title": {
+      "rendered": "KONSTKLUBB"
+    },
+    "content": {
+      "rendered": "<a href=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/konstklubb.jpg\"><img loading=\"lazy\" width=\"300\" height=\"213\" class=\"alignnone size-medium wp-image-772\" src=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/konstklubb-300x213.jpg\" alt=\"\" srcset=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/konstklubb-300x213.jpg 300w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/konstklubb.jpg 595w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a>\n<p><strong>Vi har gjort en omstart på vår Konstklubb! <i></i></strong><b><i><br />\n</i></b>Nu vill vi ha massor av förslag på aktiviteter som vi göra? Gör en förslagslista och eposta oss, alla stora och små förslag vill vi ha!</p>\n<p>E -posta till varmland@konstframjandet.se</p>\n<p><b>Grundnivå &#8211; 250 kronor/år<br />\n</b>Konstlotteri 1 gång per år (i samband med arrangemang)<br />\nFörtur och/eller gratis inträde vid arrangemang (vi definierar ej hur ofta)<br />\nRabatt på konstköp<br />\nRäntefri avbetalning<br />\nFritt inträde Alma Löv Museum</p>\n<p><b>Plusnivå &#8211; 500 kronor/år<br />\n</b>Allt ovan Årsblad/-print där vi samarbetar med konstnärerna.</p>\n<a href=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/Thåg-0032.jpg\"><img loading=\"lazy\" width=\"212\" height=\"300\" class=\"alignnone size-medium wp-image-773\" src=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/Thåg-0032-212x300.jpg\" alt=\"\" srcset=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/Thåg-0032-212x300.jpg 212w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/Thåg-0032.jpg 595w\" sizes=\"(max-width: 212px) 100vw, 212px\" /></a>\n<p><em>1.Digital print Akvarellpapper <strong>Henric Thåg</strong> &#8221;Bilhög&#8221; ca A4 /100 x</em></p>\n<a href=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2.jpg\"><img loading=\"lazy\" width=\"300\" height=\"300\" class=\"alignnone size-medium wp-image-789\" src=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-300x300.jpg\" alt=\"\" srcset=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-300x300.jpg 300w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-150x150.jpg 150w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-768x768.jpg 768w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-1024x1024.jpg 1024w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-640x640.jpg 640w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2-125x125.jpg 125w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2019/04/c2.jpg 2000w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a>\n<p><em>2. Digital print Akvarellpapper <strong>Cecilia Stigevik</strong> ca 20X20 cm /100 x</em></p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Betala din medlemsavg på vårt bankgiro 5808-6851 eller swish 123 08 020 09, texta din epostadress eller namn.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/771"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=771"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 707,
+    "date": "2018-10-24T12:14:23",
+    "date_gmt": "2018-10-24T10:14:23",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=707"
+    },
+    "modified": "2018-10-24T12:16:36",
+    "modified_gmt": "2018-10-24T10:16:36",
+    "slug": "oppettider",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/oppettider/",
+    "title": {
+      "rendered": "Öppettider"
+    },
+    "content": {
+      "rendered": "<p><strong>Galleri/kontor:</strong></p>\n<p>Bergslagsgatan 11 B Karlstad</p>\n<p>Öppet</p>\n<p>Onsdag 12-18<br />\nLördag 12-16</p>\n<p>Övrig tid efter överenskommelse<br />\nRing 070 6551785</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Fönstergalleriet:</strong></p>\n<p>Kyrkogatan 42, Kolonin Arvika</p>\n<p>Öppet<br />\ndygnet runt</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Alma Löv: </strong><br />\nÖstra Ämtervik, Sunne</p>\n<p>Sommaröppet</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/707"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=707"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 601,
+    "date": "2017-09-25T12:37:27",
+    "date_gmt": "2017-09-25T10:37:27",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=601"
+    },
+    "modified": "2022-08-26T14:32:12",
+    "modified_gmt": "2022-08-26T12:32:12",
+    "slug": "medlemsorganisationer",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/medlemsorganisationer/",
+    "title": {
+      "rendered": "Medlemsorganisationer"
+    },
+    "content": {
+      "rendered": "<section class=\"intro\"></section>\n<section class=\"\">Konstfrämjandets medlemmar består av distrikt och andra organisationer på riksnivå. I Karlstad har Konstfrämjandet egen utställningslokal och kontor. Vi bedriver verksamhet med bl a Alma Löv museum i Sunne, Kolonin i Arvika och en rad andra organisationer i distrikt. Distriktet drivs dels genom professionella konstvetare, konstnärer och förmedlare, dels genom frivilligarbete.Vi gillar samarbeten.</section>\n<section></section>\n<section class=\"\"></section>\n<section class=\"\"></section>\n<section class=\"\"></section>\n<section class=\"\"><strong>Medlemsavgiften har genom styrelsebeslut 2022  till 1000 kr/år per organisation.</strong></section>\n<section></section>\n<section class=\"\">Vi vill tillsammans med våra medlemmar skapa ett bättre samhälle. Våra medlemmar spänner från stora folkrörelser och stiftelser till idéburna företag och intresseorganisationer och rymmer tillsammans 5 miljoner medlemmar. Vi utgår från våra medlemmarnas kunskaper och problemställningar i våra samarbeten som ofta blir exempel på vad konsten och konstnärligt tänkande kan göra i samhället. Vi ser konsten som ett sätt att tänka OM samhället, att göra det omöjliga möjligt.</section>\n<section></section>\n<p><a href=\"mailto:varmland@konstframjandet.se\">Tag gärna kontakt med din organisation så berättar vi mer.</a></p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Medlemsorganistioner 2022</strong></p>\n<p>ABF Värmland</p>\n<p>Byggnads Örebro Värmland</p>\n<p>Handels avd 17</p>\n<p>HSB Centrala Värmland</p>\n<p>Hyresgästföreningen Region Mitt</p>\n<p>ICA Maxi Stormarknad Karlstad</p>\n<p>IF Metall Värmland avd 13</p>\n<p>KKV- Värmland</p>\n<p>Kommunal avd Västra Svealand</p>\n<p>Konsum Värmland</p>\n<p>Livsmedelarbetareförbundet Region Mitt</p>\n<p>OK Värmland Ekonomisk Förening</p>\n<p>Pappers Avdelning 36</p>\n<p>Riksbyggens Lokalförening i Värmland</p>\n<p>S:t Lukas i Värmland</p>\n<p>S-kvinnor Värmland</p>\n<p>Socialdemokraterna i Karlstad</p>\n<p>Socialdemokraterna Värmland</p>\n<p>SSU Värmland</p>\n<p>Studieförbundet Vuxenskolan Värmland</p>\n<p>Swedbank i Karlstad</p>\n<p>Transportarbetareförbundet avd 06</p>\n<p>Vänsterpartiet Karlstad</p>\n<p>Värmlands Bygdegårdsdistrikt</p>\n<p>KKV Värmland, Konstnärernas Kollektiv verkstad.</p>\n<p>Centerparitet, Värmland.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Sedan 1947 producerar och förmedlar Konstfrämjandet konst över hela Sverige, genom bl a vandringsutställningar, produktion av nya konstverk, försäljning av grafisk konst och kurser samt annan fördjupning i ämnet.<br />\r\n",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/601"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=601"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 321,
+    "date": "2015-09-15T10:53:35",
+    "date_gmt": "2015-09-15T08:53:35",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=321"
+    },
+    "modified": "2017-03-13T12:51:39",
+    "modified_gmt": "2017-03-13T11:51:39",
+    "slug": "konsthall-k",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/konsthall-k/",
+    "title": {
+      "rendered": "Konstfrämjandets galleri"
+    },
+    "content": {
+      "rendered": "<p class=\"blank\">&nbsp;</p>\n<p>Small room, big ideas..</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstfrämjandet Värmlands galleri är litet rum för att göra experiment utställningar. Vi finns nu på Bergslagsgatan 11 B på herrhagen i Karlstad.</p>\n<p>Har du/ni ideér för experiment, <a href=\"http://varmland.konstframjandet.se/kontakt/kontakta-oss/\">ta kontakt med oss</a>.</p>\n<p class=\"blank\">&nbsp;</p>\n<a href=\"http://varmland.konstframjandet.se/om/konsthall-k/entre/\" rel=\"attachment wp-att-540\"><img loading=\"lazy\" width=\"286\" height=\"300\" class=\"alignnone size-medium wp-image-540\" src=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2015/09/entre-286x300.jpg\" alt=\"\" srcset=\"http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2015/09/entre-286x300.jpg 286w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2015/09/entre-768x804.jpg 768w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2015/09/entre-978x1024.jpg 978w, http://varmland.konstframjandet.se/wp-content/uploads/sites/6/2015/09/entre.jpg 1458w\" sizes=\"(max-width: 286px) 100vw, 286px\" /></a>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 5,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/321"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=321"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 309,
+    "date": "2015-09-11T17:21:26",
+    "date_gmt": "2015-09-11T15:21:26",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=309"
+    },
+    "modified": "2022-08-26T14:37:54",
+    "modified_gmt": "2022-08-26T12:37:54",
+    "slug": "309-2",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/309-2/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<div class=\"teaser entry-summary\">\n<p><strong>Verksamhetens riktlinjer utgår ifrån styrelsens beslut.</strong></p>\n</div>\n<p class=\"blank\">&nbsp;</p>\n<div class=\"content entry-content\">\n<p><strong>Ordf. Beatrice Högå</strong></p>\n<p>V. ordf Marie Persson</p>\n<p><strong>Styrelseledamöter</strong></p>\n<ul>\n<li>Hellen Andersson</li>\n<li>Jennie Linzie</li>\n<li>Susanne <span style=\"font-family: Tiempos-Regular;font-size: 17px\">Kielba</span></li>\n<li>Helén Einarsson</li>\n</ul>\n<p><strong>Suppl.</strong></p>\n<div class=\"page\" title=\"Page 5\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<ul>\n<li>Monica Åhlén<br />\nMarina Eriksson<br />\nAnne Holmebakk<br />\nBjörn Molin</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<p><strong>Revisorer</strong></p>\n<ul>\n<li>\n<div class=\"page\" title=\"Page 6\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Gunilla Svantorp<br />\nThomas Bill</p>\n</div>\n</div>\n</div>\n</div>\n</li>\n</ul>\n<p><strong>Suppl.</strong></p>\n<ul>\n<li>Vakant</li>\n</ul>\n<p><strong>Valberedning</strong></p>\n<ul>\n<li>\n<div class=\"page\" title=\"Page 6\">\n<div class=\"section\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>Inga-Lill Röhr<br />\nBirgitta Ekelund<br />\nSabina Ostermark</p>\n</div>\n</div>\n</div>\n</div>\n</li>\n</ul>\n</div>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 6,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/309"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=309"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 272,
+    "date": "2015-09-10T15:51:33",
+    "date_gmt": "2015-09-10T13:51:33",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=272"
+    },
+    "modified": "2017-11-27T10:51:52",
+    "modified_gmt": "2017-11-27T09:51:52",
+    "slug": "nyhetsbrev",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/nyhetsbrev/",
+    "title": {
+      "rendered": "Nyhetsbrev"
+    },
+    "content": {
+      "rendered": "<p class=\"blank\">&nbsp;</p>\n<p><strong><a href=\"http://eepurl.com/vlHS9\">Anmäl dig till Konstklubbens nyhetsbrev</a></strong></p>\n<p class=\"blank\">&nbsp;</p>\n<ul>\n<li><a href=\"http://mailchi.mp/07f04c58e7a2/e38p8bhdr8-2822073\">December 2017</a></li>\n<li><a href=\"http://mailchi.mp/fa8ad79b81a0/e38p8bhdr8-2781445\">November 2017</a></li>\n<li><a href=\"http://mailchi.mp/12b1c4376bdc/e38p8bhdr8-2769381\">Oktober 2017</a></li>\n<li><a href=\"http://mailchi.mp/4e04c7dffc6a/e38p8bhdr8-2762289\">September 2017</a></li>\n<li><a href=\"http://mailchi.mp/e84aba862603/e38p8bhdr8-2754477\">Augusti 2017</a></li>\n<li><a href=\"http://mailchi.mp/2ce11b178c9b/e38p8bhdr8-2734929\">Juni 2017</a></li>\n<li><a href=\"http://mailchi.mp/bf5087581c51/e38p8bhdr8\">Maj 2017</a></li>\n<li><a href=\"http://eepurl.com/cI7Pyz\">April 2017</a></li>\n<li><a href=\"http://eepurl.com/cF7rFX\">Mars 2017</a></li>\n<li><a href=\"http://eepurl.com/cCUPtP\">Februari 2017</a></li>\n</ul>\n<ul>\n<li><a href=\"http://eepurl.com/cqdk0H\">December 2016</a></li>\n<li><a href=\"http://eepurl.com/cmpM6j\">November 2016</a></li>\n<li><a href=\"http://eepurl.com/cjjjK5\">Oktober 2016</a></li>\n<li><a href=\"http://eepurl.com/cduyUf\">September 2016</a></li>\n<li><a href=\"http://eepurl.com/cbemPz\">Augusti 2016</a></li>\n<li><a href=\"http://eepurl.com/b5aYEn\">Juni 2016</a></li>\n<li><a href=\"http://eepurl.com/b1uqW5\">Maj 2016</a></li>\n<li><a href=\"http://eepurl.com/bXPzv9\">April 2016</a></li>\n<li><a href=\"http://eepurl.com/bIzOdP\">December 2015</a></li>\n<li><a href=\"http://eepurl.com/bA5lMH\">Oktober 2015</a></li>\n<li><a href=\"http://eepurl.com/bynQ6z\">September 2015</a></li>\n<li><a href=\"http://eepurl.com/bqwO7D\">Juni 2015</a></li>\n<li><a href=\"http://eepurl.com/bm4Y8T\">Maj 2015</a></li>\n<li><a href=\"http://eepurl.com/bgRgob\">Mars 2015</a></li>\n</ul>\n<p class=\"blank\">&nbsp;</p>\n<ul>\n<li><a href=\"http://eepurl.com/6TXv1\">November 2014</a></li>\n<li><a href=\"http://eepurl.com/33Yqz\">September 2014</a></li>\n<li><a href=\"http://eepurl.com/WM4AP\">Juli 2014</a></li>\n<li><a href=\"http://eepurl.com/Taxqb\">April 2014</a></li>\n<li><a href=\"http://eepurl.com/OFSfH\">Februari 2014</a></li>\n<li><a href=\"http://eepurl.com/MPIsr\">Januari 2014</a></li>\n</ul>\n<p class=\"blank\">&nbsp;</p>\n<ul>\n<li><a href=\"http://eepurl.com/IARrb\">November 2013</a></li>\n<li><a href=\"http://eepurl.com/GasIf\">Oktober 2013</a></li>\n<li><a href=\"http://eepurl.com/Edvwj\">Augusti 2013</a></li>\n<li><a href=\"http://eepurl.com/yYv69\">Maj 2013</a></li>\n<li><a href=\"http://eepurl.com/xq00X\">Mars 2013</a></li>\n<li><a href=\"http://eepurl.com/vlrLb\">Februari 2013</a></li>\n</ul>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 10,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/272"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=272"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "date": "2015-06-24T20:39:08",
+    "date_gmt": "2015-06-24T18:39:08",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=121"
+    },
+    "modified": "2015-09-11T16:32:56",
+    "modified_gmt": "2015-09-11T14:32:56",
+    "slug": "historia",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/historia/",
+    "title": {
+      "rendered": "Historia Konstfrämjandet Värmland"
+    },
+    "content": {
+      "rendered": "<div class=\"content entry-content\">\n<p>Under de första verksamhetsåren saknades egen utställningslokal, vilket innebar att all utställningsverksamhet skedde ute på arbetsplatser och inom föreningslivet.</p>\n<p>1988 flyttade verksamheten in i nuvarande lokaler på Ö:a Torggatan 17 i Karlstad. Här bedrivs en kontinuerlig utställningsverksamhet i galleriet. Dessutom finns lager och expedition. Ö:a Torggatan 17, Karlstad.</p>\n<p>Konstombud har varit Konstfrämjandets idé sedan starten och att föra ut konsten till människor i deras vardag är ett av våra mål. Det kan vi göra med hjälp av konstombud, som är verksamma i våra medlemsorganisationer, på arbetsplatser, bostadsområden och i föreningslivet.</p>\n<p><span class=\"text1\">Idag finns 35 medlemsorganisationer anslutna till Konstfrämjandet och dessa utser styrelseledamöter.<br />\nVi anställer konstnärer för vissa projekt</span>.</p>\n<p class=\"text1\">Konstombud har varit Konstfrämjandets idé sedan starten och att föra ut konsten till människor i deras vardag är ett av våra mål. Det kan vi göra med hjälp av konstombud, som är verksamma i våra medlemsorganisationer, på arbetsplatser, bostadsområden och i föreningslivet.</p>\n<p class=\"text1\">Konstfrämjandets konstombud är en konstintresserad person, som vill förmedla något av sitt intresse till andra. Idag finns ca 60 ombud runt om i länet. Våra konstombud fyller en viktig uppgift och deras verksamhet kan ofta vara den enda kontakten med god konst för många människor.</p>\n<p class=\"text1\">Konstfrämjandet stödjer på alla sätt ombudens arbete med utställningar och konstbildningsaktiviteter. Vi håller lager, sköter ombudsrutiner, ger service genom kontinuerlig kontakt med ombudet. Vi har egna lokaler där vi kan arrangera träffar och informationsmöten.</p>\n<p class=\"text1\">Det krävs inga förkunskaper för att vara med. Intresset är viktigast. Ibland ordnas också konstresor inom Sverige eller till andra länder.</p>\n</div>\n<div class=\"content entry-content\">\n<p class=\"text1\"><a href=\"mailto:tina.konstframjandet@gmail.com\">Är du intresserad att bli konstombud, hör av dig</a></p>\n</div>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 4,
+    "template": "",
+    "acf": {
+      "intro": "I juni 1975 samlades representanter för en rad värmländska folkrörelseorganisationer till en diskussion om bildandet av en regionförening av Konstfrämjandet. Den 30 november 1976 togs ett beslut att bilda Konstfrämjandet i Värmland.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/121"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=121"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "date": "2015-04-24T11:27:48",
+    "date_gmt": "2015-04-24T09:27:48",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=98"
+    },
+    "modified": "2020-08-19T16:13:30",
+    "modified_gmt": "2020-08-19T14:13:30",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Konstfrämjandet Värmland"
+    },
+    "content": {
+      "rendered": "<p class=\"blank\">&nbsp;</p>\n<p><strong>P.G.A</strong></p>\n<p><strong> </strong></p>\n<p>Covid 19 omständigheter har vi andra öppet tider. Vi prövar oss fram och vad som framkomligt!<br />\nKolla gärna genom fönster, utställningen syns utmärkt!</p>\n<p>Skulle vilja köpa eller boka en tid, hör av till 070 6551785</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Öppettider på Konstfrämjandet Värmland",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/98"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=98"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "date": "2015-04-23T11:47:23",
+    "date_gmt": "2015-04-23T09:47:23",
+    "guid": {
+      "rendered": "http://varmland.konstframjandet.se/?post_type=kf-about&#038;p=204"
+    },
+    "modified": "2015-09-11T17:40:16",
+    "modified_gmt": "2015-09-11T15:40:16",
+    "slug": "konstframjande-verksamhet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://varmland.konstframjandet.se/om/konstframjande-verksamhet/",
+    "title": {
+      "rendered": "Om distriktet"
+    },
+    "content": {
+      "rendered": "<div class=\"row\">\n<article class=\"article detail hentry entry module\">\n<div class=\"content\">\n<div class=\"teaser entry-summary\">\n<p><strong>Konstfrämjandet Värmland är en idell förening vars syfte är att sprida intresset för och kring konst och stärka konstnärernas yrkesroll.</strong></p>\n</div>\n<div class=\"content entry-content\">\n<p>Konstfrämjandet Värmlands ändamål är</p>\n<ul>\n<li>Att främja intresset för konstupplevelser som leder till arbete med jämställdhet, mångfald, barn och unga, internationalisering, delaktighet och tillgänglighet.</li>\n<li>Att söka samarbete med syften att nå nya intressenter och därmed bredda verksamheten. Att skapa samarbeten med konstnärer och deras organisationer inom konst, konstpedagogik samt exponeringsmöjligheter för samtidskonst.</li>\n<li>Att verka genom nätverket medlemmar och medlemsorganisationer. Att ledordet är &#8221;samarbete&#8221; för vår verksamhet.</li>\n</ul>\n</div>\n</div>\n</article>\n</div>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 3,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about/204"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://varmland.konstframjandet.se/wp-json/wp/v2/media?parent=204"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

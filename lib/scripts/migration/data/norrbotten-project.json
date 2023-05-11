@@ -1,0 +1,1944 @@
+[
+  {
+    "id": 499,
+    "date": "2023-02-15T10:00:09",
+    "date_gmt": "2023-02-15T09:00:09",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=499"
+    },
+    "modified": "2023-04-17T16:01:30",
+    "modified_gmt": "2023-04-17T14:01:30",
+    "slug": "luleabiennalen-2024",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2024/",
+    "title": {
+      "rendered": "Luleåbiennalen 2024"
+    },
+    "content": {
+      "rendered": "<p>&#8221;Genom att förena konst, arkitektur, regionalt platsspecifika erfarenheter och tidigare generationers kunskaper ser vi Luleåbiennalen som ett utrymme för att utforska alternativ som växer fram ur ett föränderligt landskap.&#8221;<br />\n– Aude Christel Mgba och Bruno Alves de Almeida, konstnärliga ledare Luleåbiennalen 2024.<br />\n&nbsp;<br />\nLuleåbiennalen 2024 kommer att sträcka sig över den period då den mest dramatiska förändringen i det norrbottniska landskapet sker – från att vara täckt av is och snö blir den till barmark. Förutsättningarna har undersökts i tidigare upplagor av biennalen genom att växla mellan sommar- och vinterutställning perioder, men aldrig under en enda biennal. Skiftet verkar särskilt viktigt för en biennal som handlar om förhållandet mellan arkitektur och samtidskonst, och lyfter fram relaterade aspekter av det sociala livet i både den offentliga sfären och hemmet.<br />\n&nbsp;<br />\n<strong><a href=\"http://norrbotten.konstframjandet.se/aktuellt/konstnarliga-ledare-utsedda-for-luleabiennalen-2024/\">Här</a></strong> kan du läsa mer om dom konstnärliga ledarna.<br />\n<strong><a href=\"http://eepurl.com/h0Dyz9\">Här</a></strong> kan du skriva upp dig för Luleåbiennalens nyhetsbrev.<br />\n&nbsp;<br />\nMer information kommer snart!<br />\n&nbsp;<br />\nFoto: Aude Christel Mgba och Bruno Alveis de Almeida, av Marcel Köppe, 2023.<br />\n&nbsp;<br />\n<strong>Luleåbiennalen 2024 with the overarching theme of architecture and art will take place 2 March – 26 May 2024.</strong><br />\n&nbsp;<br />\n&#8221;Crossing-over art, architecture and the region’s situated and ancestral knowledges, we imagine Luleåbiennalen 2024 as a test-bed for such alternatives emerging from transient grounds.&#8221;<br />\n– Aude Christel Mgba and Bruno Alves de Almeida, Artistic Directors, Luleåbiennalen 2024.<br />\n&nbsp;<br />\nThe Luleåbiennalen 2024 will span over the period when the most dramatic shift in the North Bothnian landscape occurs – going from covered in ice and snow to bare ground. The conditions have been explored in earlier editions of the biennial by alternating between summer and winter exhibition periods, but never in a single biennial. The shift seems particularly important for a biennial that deals with the relationship between architecture and contemporary art, highlighting related aspects of social life in both the public sphere and the home.<br />\n&nbsp;<br />\nSubscribe to Luleåbiennalen´s newsletter <strong><a href=\"http://eepurl.com/h0Dyz9\">here.</a></strong><br />\nRead more about the artistic directors <strong><a href=\"http://norrbotten.konstframjandet.se/aktuellt/konstnarliga-ledare-utsedda-for-luleabiennalen-2024/\">here.</a></strong><br />\n&nbsp;<br />\nFurther details to be announced!<br />\n&nbsp;<br />\nPhoto: Aude Christel Mgba and Bruno Alveis de Almeida, by Marcel Köppe, 2023.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#9b9b9b",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 552,
+        "id": 552,
+        "title": "Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207",
+        "filename": "Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207.jpg",
+        "filesize": 470378,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2024/artistic-directors-lulea%cc%8abiennalen-2024_photo-marcel-ko%cc%88ppe_dsc4207-2/",
+        "alt": "",
+        "author": "71",
+        "description": "",
+        "caption": "",
+        "name": "artistic-directors-lulea%cc%8abiennalen-2024_photo-marcel-ko%cc%88ppe_dsc4207-2",
+        "status": "inherit",
+        "uploaded_to": 499,
+        "date": "2023-04-17 13:44:10",
+        "modified": "2023-04-17 13:44:10",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1333,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-300x200.jpg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-768x512.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 427,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-1024x682.jpg",
+          "large-width": 640,
+          "large-height": 426,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-1536x1024.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1024,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1333,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Artistic-Directors-Luleåbiennalen-2024_Photo-Marcel-Köppe_DSC4207-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Luleåbiennalen 2024 med det övergripande temat arkitektur och konst, äger rum mellan 2 mars–26 maj 2024. ",
+      "aside-images": false,
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/499"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=499"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 236,
+    "date": "2023-01-27T10:22:36",
+    "date_gmt": "2023-01-27T09:22:36",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=236"
+    },
+    "modified": "2023-03-31T14:19:11",
+    "modified_gmt": "2023-03-31T12:19:11",
+    "slug": "osjungen",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/osjungen/",
+    "title": {
+      "rendered": "Osjungen"
+    },
+    "content": {
+      "rendered": "<p>Kiruna, som alla städer, huserar ett antal mer eller mindre kända byggnader, torg, landmärken och gator, men även en myriad av klämda utrymmen som vi aldrig kanske riktigt fäster blicken vid. Dessa platser är självklara men ofta bortglömda delar av stadens arkitektur. När nedmonteringen av Kirunas gamla stadskärna inleds 2022 är det alltså inte bara de namngivna eller erkända platserna som kommer att försvinna utan även de gathörn, fasader, trottoarer och andra ytor som varit självklara delar av människors liv. Osjungen är ett konstverk som vill fästa våra blickar vid dessa blinda fläckar och mellanrum. Overaas verk erbjuder möjligheter till reflektion kring osjungna rum inom och omkring oss.<br />\n&nbsp;<br />\nUnder våren och sommaren 2022 har personer i Kiruna uppmuntrats att själva nominera platser till utmärkelsen Osjungen. Ett alternativt värderingssystem tillåts genom dessa utmärkelser ta plats i den gamla stadskärnan. När denna plats är borta, vad kommer vi att sakna, vad kommer vi att glömma bort?<br />\n&nbsp;</p>\n<div class=\"embed-container\"><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" scrolling=\"no\" src=\"https://heyzine.com/flip-book/86c5b80359.html#page/1#?secret=gq3fmaOW02\" data-secret=\"gq3fmaOW02\"></iframe></div>\n<p><strong><a href=\"https://heyzine.com/flip-book/86c5b80359.html#page/1\">Här</a></strong> kan du ta del av arkivet i originalformat.<br />\n&nbsp;<br />\nUtifrån egna erfarenheter och reflektioner kring olika former av värdesystem har Overaa närmat sig det förbisedda och osynliga. Händelser, tankar och känslor hämtade från konstnärens eget liv utgör en grund för verket, som sedan ger fler människor chansen att få syn på sin närmaste omgivning och de möjliga alternativa värden som går att finna där.<br />\n&nbsp;</p>\n<ul>\n<li><em>Som barn var gråsten hårdvaluta hos mig, jag samlade fickorna fulla och räknade stolt min förmögenhet. Det finns många värdesystem även om det ibland inte känns så. Långt in i jorden finns en relativt nyupptäckt mineral, jordens vanligaste mineral. Få har sett den, först 2014 då den kom till jorden i en meteorit fick den ett namn: bridgmanit. En gång spelade jag sten i en pjäs på teater. Jag har minnen av hur vi som spelade stenar var avundsjuka på dom som spelade buskar och träd (för att inte nämna dom få huvudrollerna). I verket Osjungen använder jag mig av erfarenheter av att bli tagen för given, missad eller inte uppmärksammad i den grad jag har bidragit. Det som inte märks, syns, känns, är svårt att sätta ord på.</em><br />\n&#8211; Anne Marte Overaa</li>\n<p>&nbsp;<br />\nOveraas verk syftar till att ge utrymme åt nya förståelser och omtolkningar av vad vi som individer, grupper och samhällen värderar samt hur våra värdeskapande processer fungerar. Alla människor bär i någon form och mån på erfarenheter av att ha undanhållits erkännande eller glömts bort, men även sina egna, personliga, perspektiv på vad som utgör värdefulla handlingar, objekt eller platser – hos sig själva och sin omgivning. Genom att fokusera på Kirunas gamla stadskärna som område fungerar Overaas verk för att eventuellt inspirera till en sista upplevelse eller reflektion om de osedda platser som länge bidragit till Kirunas stadsgeografi.  Ett känt gångstråk kan ses som värdefullt utifrån den funktion det fyller, men kanske inte fått erkännande för den specifika roll den spelade i en enskild människas livsberättelse. Om vi tittar noga kan de flesta platser omkring oss uppvisa värden som hittills varit osjungna.<br />\n&nbsp;<br />\nOsjungen tar fysisk form genom ett hundratal utmärkelser i olika färger som markerar platser som fram till nu inte synliggjorts nog. Utifrån nomineringar från allmänheten hänger runt om i Kirunas gamla stadskärna ett hundratal knutna noter som symboler för ett värdesystem som bygger på personliga upplevelser och erfarenheter. Utmärkelserna sitter kvar på sina platser fram till dess att dessa avvecklas. Hösten 2022 kommer ett arkiv över samtliga platser som tilldelats utmärkelsen göras tillgängligt här på vår hemsida.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Om konstnären</strong><br />\nAnne Marte Overaa (1980, Ålesund, Norge) har studerat fri konst på Listaháskólinn i Reykjavik, Malmö Art Academy och Kungliga konsthögskolan i Stockholm. Hon arbetar tvärdisciplinärt med en rad olika material och uttryck som video, text, måleri, offentliga interventioner och artists’ books. Overaa bor och verkar i Göteborg.<br />\nSe mer av konstnären på hennes <a href=\"http://www.annemarteoveraa.se\">hemsida</a> och <a href=\"https://www.instagram.com/annemarteoveraa/\">Instagram</a>.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Bakgrund</strong><br />\nDen förestående nedmonteringen av Kirunas gamla stadskärna har varit utgångspunkten för tre konstnärer att under våren 2022 skapa platsspecifika verk i det offentliga rummet. På olika sätt har Anne Marte Overaa, Lotta Lampa och Torbjörn Ömalm närmat sig den gamla och den nya staden.<br />\n&nbsp;<br />\nEn del av Kirunas fysiska närvaro och historia kommer inom kort att förändras. Lokalt förankrade historier och minnen från livet som tagit plats i och utanför husen tillsammans med arkitekturen och platsens geografiska förutsättningar har legat som grund för de tre nya verk som under september tar plats i den gamla stadskärnan.<br />\n&nbsp;<br />\nAtt ta tillvara på människors känslor, kunskap och tankar blir sätt att värna immateriella värden när den fysiska tillvaron förändras. Kombinationen av att avveckla historiska platser och bygga upp framtidstro väcker känslor tillsammans med frågor om det är möjligt att förändra och bevara på samma gång.<br />\n&nbsp;<br />\n<em>De tre verken skapas med stöd av Stadsliv Kiruna, Kiruna Kommun, Folkrörelsernas Konstfrämjande, Resurscentrum för konst, Statens Kulturråd, Region Norrbotten och Sparbanken Nord. Tack till Omya som bidragit med material till konstverket</em> Osjungen.<br />\n<img loading=\"lazy\" width=\"1023\" height=\"393\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png\" alt=\"\" class=\"alignleft size-full wp-image-410\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png 1023w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-300x115.png 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-768x295.png 768w\" sizes=\"(max-width: 1023px) 100vw, 1023px\" /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ddcece",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 486,
+        "id": 486,
+        "title": "DSCF7015 (kopia) WEBB",
+        "filename": "DSCF7015-kopia-WEBB.jpg",
+        "filesize": 2077233,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/osjungen/dscf7015-kopia-webb/",
+        "alt": "",
+        "author": "66",
+        "description": "",
+        "caption": "",
+        "name": "dscf7015-kopia-webb",
+        "status": "inherit",
+        "uploaded_to": 236,
+        "date": "2023-01-27 09:25:38",
+        "modified": "2023-01-27 09:25:38",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2488,
+        "height": 1400,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-2048x1152.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1152,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/DSCF7015-kopia-WEBB-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Utifrån allmänhetens engagemang har Anne Marte Overaa skapat ett verk som erbjuder nya sätt att se på staden och skapa samtal om vilka utrymmen som är viktiga och för vem. Nu kan du ta del av arkivet Osjungen digitalt! ",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/236"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=236"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 478,
+    "date": "2023-01-13T11:25:28",
+    "date_gmt": "2023-01-13T10:25:28",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=478"
+    },
+    "modified": "2023-03-07T10:49:24",
+    "modified_gmt": "2023-03-07T09:49:24",
+    "slug": "geografier",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/curera/geografier/",
+    "title": {
+      "rendered": "Geografier"
+    },
+    "content": {
+      "rendered": "<p>Residenset är inte produktionsbundet utan utformas istället som en möjlighet för curatorn att möta den konstnärliga och samhälleliga kontexten i regionen.<br />\n&nbsp;<br />\n<strong>Zeren Oruc</strong>, från Turiket, är den utvalda curatorn till residenset som utförs i maj 2023.<br />\n&nbsp;<br />\n<em>&#8221;Att jag aldrig varit i Sverige förut och aldrig varit så långt norrut spelade såklart in, men jag tror ändå att det var den här specifika regionen som lockade mest av allt. Till att börja med är jag medcurator till ett projekt med ekologifokus, där jag samarbetar med en samisk curator från Norge. Därför fanns redan en önskan om att lära känna landskapet och bekanta mig med de miljöfrågor som är specifika för regionen i stort, men jag tror att det också fanns ett mer personligt skäl.&#8221;</em><br />\n&nbsp;<br />\n&#8211; Zeren Oruc i intervju med Lucie Gottlieb, projektledare för Curera.<br />\n&nbsp;<br />\n<a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/03/Intervju-Zeren-Oruc_SV_-.pdf\">Här kan du läsa hela intervjun på svenska.</a> </a>\n\t\t<style type=\"text/css\">\n\t\t\t#gallery-1 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-1 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-1 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-1 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-1' class='gallery galleryid-478 gallery-columns-3 gallery-size-large'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"640\" height=\"640\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-1024x1024.jpg\" class=\"attachment-large size-large\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/ZEREN_INSTA_FB1080px.jpg 1080w\" sizes=\"(max-width: 640px) 100vw, 640px\" />\n\t\t\t</dt></dl>\n\t\t\t<br style='clear: both' />\n\t\t</div>\n</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 366,
+    "menu_order": 3,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#88aa85",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 465,
+        "id": 465,
+        "title": "Curera_rubrikbild_test2",
+        "filename": "Curera_rubrikbild_test2.jpg",
+        "filesize": 1392685,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/curera/curera_rubrikbild_test2/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "curera_rubrikbild_test2",
+        "status": "inherit",
+        "uploaded_to": 366,
+        "date": "2023-01-05 09:03:09",
+        "modified": "2023-01-05 09:03:09",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1125,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1125,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Det första residenset som genomförs för curatorer i Norrbotten. En curator ges möjlighet att utveckla en curatorisk idé i dialog med det specifika kulturella och geografiska landskapet. ",
+      "aside-images": false,
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/478"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/366"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=478"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 477,
+    "date": "2023-01-13T11:16:48",
+    "date_gmt": "2023-01-13T10:16:48",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=477"
+    },
+    "modified": "2023-03-14T15:40:53",
+    "modified_gmt": "2023-03-14T14:40:53",
+    "slug": "laranden",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/curera/laranden/",
+    "title": {
+      "rendered": "Läranden"
+    },
+    "content": {
+      "rendered": "<p>Samarbetet handlar om ett erbjuda en ny generation curatorer en praktisk möjlighet att öppna upp för nya idéer om yrkets möjligheter och förutsättningar på platser som Norrbotten.<br />\n&nbsp;<br />\nI dagsläget finns behov av att se en utveckling av intressen och metoder inom curatering som inte bara utformas utifrån metropolitiska förhållanden. Med Läranden, får studenterna möjlighet att uppleva arbetsvillkoren som tillkommer utanför storstadsområdena – något som annars är ovanligt inom curatorsutbildningar.<br />\n&nbsp;<br />\nI början av mars 2023 påbörjade studenterna från Stockholms Universitet deras samarbete och dialog med flera Norrbottensbaserade organisationer. De besökte bland annat  Silvermuseet i Arjeplog och Kiruna kommun, och startade sin resarch inför flera kommande projekt som kommer att utvecklas under våren och sommaren. <img loading=\"lazy\" width=\"1828\" height=\"2560\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--scaled.jpg\" alt=\"\" class=\"alignnone size-full wp-image-530\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--scaled.jpg 1828w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--214x300.jpg 214w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--731x1024.jpg 731w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--768x1075.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--1097x1536.jpg 1097w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Silver-museet-foto_Lucie-Gottlieb--1463x2048.jpg 1463w\" sizes=\"(max-width: 1828px) 100vw, 1828px\" /><br />\nNathalie Viruly, Jeanette Gunnarsson, Ester d’Avossa, Clara Donadoni vid Silvermuseet in Arjeplog. Foto: Lucie Gottlieb<br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"1920\" height=\"2560\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-scaled.jpeg\" alt=\"\" class=\"alignnone size-full wp-image-529\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-scaled.jpeg 1920w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-225x300.jpeg 225w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-768x1024.jpeg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-1152x1536.jpeg 1152w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/KIRUNA_foto_Victoria-McCarthy-1536x2048.jpeg 1536w\" sizes=\"(max-width: 1920px) 100vw, 1920px\" /><br />\nStudenterna kollar på en skulptur i Kiruna. Under våren kommer de att hjälpa till med att flytta den offentliga konsten till Kirunas nya centrum. Foto: Victoria McCarthy<br />\n&nbsp;<br />\n<a href=\"http://norrbotten.konstframjandet.se/projekt/curera/samverkan/\">Här</a> kan du ta del av hela programmet för Curera.<br />\n&nbsp;<br />\nFölj Curera på <a href=\"https://www.instagram.com/konstframjandetnorrbotten/\">våra sociala medier.</a> </p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 366,
+    "menu_order": 2,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#88aa85",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 535,
+        "id": 535,
+        "title": "läranden sv webb",
+        "filename": "läranden-sv-webb.jpg",
+        "filesize": 950984,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/curera/laranden/la%cc%88randen-sv-webb/",
+        "alt": "",
+        "author": "66",
+        "description": "",
+        "caption": "",
+        "name": "la%cc%88randen-sv-webb",
+        "status": "inherit",
+        "uploaded_to": 477,
+        "date": "2023-03-14 14:34:00",
+        "modified": "2023-03-14 14:34:00",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1125,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1125,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/läranden-sv-webb-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "En samverkan med studenter från Stockholm Universitets masterprogram i curating som under våren leder till konkreta projekt på olika platser i Norrbotten. ",
+      "aside-images": false,
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/477"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/366"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=477"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 469,
+    "date": "2023-01-10T17:43:39",
+    "date_gmt": "2023-01-10T16:43:39",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=469"
+    },
+    "modified": "2023-03-30T16:26:24",
+    "modified_gmt": "2023-03-30T14:26:24",
+    "slug": "samverkan",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/curera/samverkan/",
+    "title": {
+      "rendered": "Samverkan"
+    },
+    "content": {
+      "rendered": "<p>Alla samtal är öppna för allmänheten och går delvis att ta del av digitalt.<br />\n&nbsp;<br />\nSummering av program:<br />\n&nbsp;<br />\n<strong>Curatorer på plats </strong><br />\n30 januari, 13.00 &#8211; 14.00 Galleri Syster, Luleå<br />\n&nbsp;<br />\n<strong>Curera i glesbygd </strong><br />\n28 februari, 15:30 &#8211; 17:00, Norrbotten Museum, Luleå<br />\n&nbsp;<br />\n<strong>Med arkitektur som curatoriell byggsten</strong><br />\n23 mars, 17.00 &#8211; 18.00, Luleå konsthall, Luleå<br />\n&nbsp;<br />\n<strong>Förnyelse av curatoriella och organisatoriska arbetssätt</strong><br />\n18 april, 13:00 &#8211; 14:00, Moskosel Creative Lab, Moskosel.<br />\n&nbsp;<br />\n<strong>Att utforska curatoriella praktiker med ett urfolksperspektiv </strong><br />\n27 Maj, 13:00 &#8211; 14:00, Ájtte museet, Jokkmokk.<br />\n&nbsp;<br />\n<strong>Med engagemang för curatorer</strong><br />\n10 june, 13.00 &#8211; 14.00, Havremagasinet Länskonsthall Boden<br />\n&nbsp;<br />\nNedan kan du fördjupa dig i varje programpunkt:<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Curatorer på plats </strong><br />\n30 januari, 13.00 &#8211; 14.00 Galleri Syster, Luleå<br />\n&nbsp;<br />\nSamtal med Mariangela Méndez Prencke – chef, Havremagasinet Länskonsthall Boden och Anja Örn – ordförande och medgrundare, Galleri Syster, lett av Maria Ragnestam – verksamhetsledare, Konstfrämjandet Norrbotten.\n\t\t<style type=\"text/css\">\n\t\t\t#gallery-2 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-2 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-2 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-2 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-2' class='gallery galleryid-469 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Méndez-Prencke_1080px.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Insta-Anja-Örn_1080px.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl>\n\t\t\t<br style='clear: both' />\n\t\t</div>\nI den nyligen antagna kulturplanen för Norrbotten 2023 &#8211; 2026 inkluderas för första gången curatorerna som yrkeskår och vi tar därför tillfället i akt att prata om vad som krävs för att ge utrymme för en ofta förbisedd men viktig aktör i konst- och kulturvärlden. Under samtalet delas erfarenheter och tankar om hur det curatoriella arbetet kan ta plats i olika organisationer och bidra till att berika konstlivet i Norrbotten, för både utövar och besökare.<br />\n&nbsp;<br />\nOm deltagrana:<br />\nMariangela Méndez Prencke tillträdde som chef för Havremagasinet Länskonsthall i Boden 2020. Tidigare var Méndez Prencke intendent vid Röda Sten Konsthall i Göteborg och hon har arbetat som frilansande curator med uppdrag i bland annat Norge, Kanada och Brasilien. Hon har curerat utställningarna <em>The Mother’s Surface. Delcy Morelos</em>, South Alberta Art Gallery, Canada (2019) <em>Du som jag</em>, Havremagasinet (2016) och Sami Center for Contemporary Art, Karasjok, Norge (2017) <em>Shine on you Crazy Diamond</em>, ARTBO, Bogotás International Art Fair (2015). Mariangela Méndez Prencke är även engagerad i Svensk Curatorförening.<br />\n&nbsp;<br />\nAnja Örn driver Galleri Syster i Luleå sedan 2006 tillsammans med Sara Edström och Therese Engström. Örn ingår i det konstnärliga och kollektiva samarbetet Norrakollektivet, och har medverkat i flera utställningar i Sverige och internationellt. Naturen och landskapen har nästan alltid varit närvarande i Örns konst. Tidigare har hon utforskat relationen mellan naturen och sig själv, punkten där kropparna möts. Nu mer har hon koncentrerat arbetet i projekt som undersöker skärningspunkter där natur och industri möts med frågor om konsekvenserna av människans stora projekt i landskapet.<br />\n&nbsp;</p>\n<div class=\"embed-container\"><iframe loading=\"lazy\" title=\"Curatorer på plats/Curators on site (Talk in swedish)\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/Ur-wsRwZurg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n<p>Videoproduktion av Karl-Oskar Gustafsson.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Curera i glesbygd </strong><br />\n28 februari, 15:30 &#8211; 17:00, Norrbotten Museum, Luleå<br />\n&nbsp;<br />\nSamtal med Hanne Kirkegaard (GL) – curator, Nuuk Art Museum, Tinna Guðmundsdóttir (IS) – Project manager, Icelandic Art Center och Jan-Erik Lundström (SE) – frilansande curator, lett av Elias Kautsky (SE) – producent, Havremagasinet Länskonsthall Boden. \n\t\t<style type=\"text/css\">\n\t\t\t#gallery-3 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-3 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-3 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-3 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-3' class='gallery galleryid-469 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Hanne_INSTA-FB_1.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Tinna_IG_FB.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Jan-Erik-Lundström-_NSTA-FB_1080px-kopiera.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><br style=\"clear: both\" />\n\t\t</div>\nFörutsättningarna som råder och krävs för att arbeta curatoriskt i sparsamt befolkade områden är utgångspunkten för detta samtal. Vi diskuterar hur mål och strategier kan utformas för att ta tillvara på fördelar och parera utmaningar som kan uppstå för glesbygdsbaserade verksamheter. Utifrån platsspecifika kunskaper berörs varför detta curatoriska arbete aktivt behöver erkännas och stödjas. Samtalet sker på engelska.<br />\n&nbsp;<br />\nOm deltagarna:<br />\nTinna Guðmundsdóttir är bildkonstnär och kulturarbetare baserad på Island. Guðmundsdóttir är projektledare på Icelandic Art Center i Reykjavík och tidigare chef för Skaftfell – Centrum för visuell konst (2012-2018), det regionala centret för bildkonst för östra Island. Hennes praktik fokuserar på systematiska fel och existentiella kriser som uppstår i friktionen mellan människa och natur. Guðmundsdóttir har ställt ut inom den lokala konstscenen och även arbetat med olika kulturprojekt, som t.ex. dokumentären &#8221;Seeing Eye Dog&#8221; (2017), publikationen &#8221;The Living Art Museum 1978-2008”, (2010) och Sequences Real-Time Art Festival (2008).<br />\n&nbsp;<br />\nHanne Kirkegaard är curator på Nuuk Art Museum där hon undersöker och inriktar sig på områden och frågeställningar som är relevanta för Grönland och staden Nuuk. Genom sitt arbete stödjer Kirkegaard den grönländska kulturscenen samt grönländska framväxande eller underrepresenterade konstnärer. Hon och hennes kollegor arbetar just nu med KIMIK (Grönlands konstnärsförening) årliga utställning, en separatutställning med Julie Edel Hardenberg för Nuuk Nordic Culture Festival och en separatutställning med Isle Hessner.<br />\n&nbsp;<br />\nJan-Erik Lundström är frilansande curator, författare och konsthistoriker baserad i Norrbotten. Tidigare har Lundström varit chef för Sámi Dáiddaguovddáš / Samiskt centrum för samtidskonst i Karasjok (2011-2013), för Bildmuseet i Umeå (1999-2011), Fotografiska museet i Moderna Museet i Stockholm (1992-1999). Lundström har även drivit en rad oberoende internationella curatorprojekt bland annat flera biennaler. I sin curatorpraktik har han fördjupat sig i frågor som kretsar kring postkolonialism, dekoloniala processer och kritiska kartografier av samtiden som uppmärksammar den ständiga processen av sammanvävningen mellan det lokala och det globala.<br />\n&nbsp;<br />\nNorrbottens museum har som länsmuseum för Norrbottens län uppdrag att samla, förmedla och utveckla Norrbottens kulturarv. Museet verkar för kulturen i historia och samtid, för mångfald och det fria offentliga samtalet, och för dagens och morgondagens kunskap.<br />\n&nbsp;</p>\n<div class=\"embed-container\"><iframe loading=\"lazy\" title=\"Curera i glesbygd/Curating in sparsely populated areas (Talk in english)\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/WoEkyUJhqFM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n<p>Videoproduktion av Karl-Oskar Gustafsson.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Med arkitektur som curatoriell byggsten</strong><br />\n23 mars, 17.00 &#8211; 18.00, Luleå konsthall, Luleå<br />\n&nbsp;<br />\nPresentation med Aude Christel Mgba (CM/NL) &#8211; curator och konstvetare och Bruno Alves de Almeida (BR/NL) &#8211; curator och arkitekt – konstnärliga ledare för Luleåbiennalen 2024. Samtalet sker på engelska.\n\t\t<style type=\"text/css\">\n\t\t\t#gallery-4 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-4 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-4 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-4 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-4' class='gallery galleryid-469 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px--125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Aude_IG-FB_1080px-.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px--125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/BRUNO_INSTA-FB_1080px-.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl>\n\t\t\t<br style='clear: both' />\n\t\t</div>\nMöt de nyligt utsedda curatorerna för Luleåbiennalen 2024 i en presentation och ett samtal om hur curatoriella erfarenheter kan bidra till varierande perspektiv på återkommande geografiska platser och förutsättningar. Genom att kontinuerligt utforska gränserna för biennalens utformning lyfts frågor om vad som gör biennalformatet relevant utifrån lokala och internationella kontexter. Hur kan varierande curatoriska uttryck och praktiker bidra till att biennalens innehåll fysiskt tar plats i människors vardag och blir ett närvarande inslag i de frågeställningar som just nu påverkar livsmiljöer regionalt och globalt?<br />\n&nbsp;<br />\nOm curatorerna:<br />\nAude Christel Mgba är curator och konsthistoriker baserad i Kamerun och Nederländerna. Mgba engagerar sig i dekoloniala perspektiv genom forskningsprojekt och skapandet av plattformar för överföring, översättning och förkroppsligande av tidigare generationers kunskaper. I hennes curatoriska praktik ingår samarbeten som genom sina sammansättningar och utformningar ifrågasätter förhållningssätt kring att skapa och visa konst vilka traditionellt ofta centreras kring konstutövare och konstinstitutioner. Mgba är intresserad av samarbeten som sträcker sig bortom dessa rum, för att inkludera fler.<br />\n&nbsp;<br />\nBruno Alves de Almeida är curator och arkitekt baserad i Nederländerna, för närvarande curator för Jan van Eyck Academie, Maastricht, och lärare vid Designhögskolan i Eindhoven. Alves de Almeidas praktik är rotad i transdisciplinärt tänkande som tillsammans med plats- och kontextspecifika förutsättningar, resulterar i projekt som förhåller sig till dagsaktuella frågeställningar och utforskar alternativa former och utrymmen för konstnärliga upplevelser.<br />\n&nbsp;<br />\nLuleåbiennalen initierades 1991 och är Skandinaviens äldsta biennal. 2018 tog Konstfrämjandet  över som huvudman för biennalen med mål att skapa en hållbar biennal genom att engagera och uppmuntra till medskapande. Tillsammans med lokalt förankrade och internationellt aktiva utövare, med olika konstnärliga uttrycksformer, utgör Luleåbiennalen en samlingsplats med Norrbotten som geografiskt utgångspunkt.<br />\n&nbsp;<br />\nLuleå Konsthall öppnade 2007 och visar konst med stor variation när det gäller teknik, uttryck och ursprungsland. Oftast visar de samtida konst, som tolkar och utforskar tillvaron på ett spännande sätt. Förutom deras utställningar har de konstvisningar, workshops och andra arrangemang för en bred publik. Luleå Konsthall är en del av Kulturens Hus i Luleå.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Förnyelse av curatoriella och organisatoriska arbetssätt</strong><br />\n18 april, 13:00 &#8211; 14:00, Moskosel Creative Lab, Moskosel.<br />\n&nbsp;<br />\nSamtal med Jussi Koitela (FI) – curator och programansvarig, Frame Contemporary Art Finland och Northern Sustainable Futures (SE) och Gonçalo Marques – Northern Sustainable Futures (SE), lett av Lucie Gottlieb – projektledare, Konstfrämjandet Norrbotten.\n\t\t<style type=\"text/css\">\n\t\t\t#gallery-5 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-5 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-5 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-5 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-5' class='gallery galleryid-469 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080--125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Jussi-Koitela_INSTA_10801080-.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Gonçalo_jpg_10801080.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl>\n\t\t\t<br style='clear: both' />\n\t\t</div>\nI detta samtal diskuterar vi tillvägagångssätt för att omfördela curatoriell och kulturell makt och tittar närmare på organisationsformer som kan växa fram genom aktiva handlingar av decentralisation. Genom att utforska koncept som gästfrihet närmar vi oss olika handlingar som kan bidra till en mer hållbar konstnärlig framtid genom att exempelvis utveckla långvariga samarbeten och curatoriella praktiker med omsorg för olika professionella utövare och institutioner. Samtalet sker på engelska.<br />\n&nbsp;<br />\nOm deltagarna:<br />\nJussi Koitela arbetar för närvarande som programchef på Frame Contemporary Art Finland och curerar det publika programmet <em>Rehearsing Hospitalities</em> tillsammans med Yvonne Billimore. Koitela och Billmore curerar även just nu den finska paviljongen vid Venedigbiennalen 2024. Nyligen har Koitelas curatoriska arbete flätat samman konst, gestaltning av forskningsmetoder, urbana rumsliga sammanhang, samarbeten, gästfrihet praxis och materialitet i olika former av utställningar och kunskapsspridning.<br />\n&nbsp;<br />\nGonçalo Marques är en kreativ entreprenör och arbetar med projekt som syftar till att göra konstvärlden mer inkluderande och tillgänglig för alla. Som en av grundarna av Northern Sustainable Futures och Moskosel Creative Lab är Marques engagerad i att tillhandahålla en unik fysisk plats som erbjuder konstnärer en trygg bas för att uttrycka sin kreativitet i norra Sveriges gelsbygd. Marques är involverad i projektet iMKONSTHALL och håller för närvarande på att utveckla Art Clubcard.<br />\n&nbsp;<br />\nMoskosel Creative Lab är en kreativ mötesplats i Norrbottens inland med konstnärsateljéer, bostäder och utställningsmöjligheter.<br />\n&nbsp;<br />\nI samarbete med Resurscentrum för konst, Norrbotten fortsätter arbetet med ett regionalt curatoriellt nätverk som utifrån rådande förutsättningar i länet ska främja en professionalisering av det curatoriska arbete som pågår. Nätverkets andra träff genomförs på plats i Moskosel i anslutning till samtalet om förnyelse av curatoriella och organisatoriska arbetssätt.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Att utforska curatoriella praktiker med ett urfolksperspektiv </strong><br />\n27 Maj, 13:00 &#8211; 14:00, Ájtte museet, Jokkmokk.<br />\n&nbsp;<br />\nRundaborssamtal med Marija Griniuk (LT/NO) – chef, Sámi Dáiddaguovddáš (Samiskt center för samtidskonst) och deltagarna av utbildningen Educational Sámi Curator program. Samtalet sker på engelska.\n\t\t<style type=\"text/css\">\n\t\t\t#gallery-6 {\n\t\t\t\tmargin: auto;\n\t\t\t}\n\t\t\t#gallery-6 .gallery-item {\n\t\t\t\tfloat: left;\n\t\t\t\tmargin-top: 10px;\n\t\t\t\ttext-align: center;\n\t\t\t\twidth: 33%;\n\t\t\t}\n\t\t\t#gallery-6 img {\n\t\t\t\tborder: 2px solid #cfcfcf;\n\t\t\t}\n\t\t\t#gallery-6 .gallery-caption {\n\t\t\t\tmargin-left: 0;\n\t\t\t}\n\t\t\t/* see gallery_shortcode() in wp-includes/media.php */\n\t\t</style>\n\t\t<div id='gallery-6' class='gallery galleryid-469 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>\n\t\t\t<dt class='gallery-icon landscape'>\n\t\t\t\t<img width=\"150\" height=\"150\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-150x150.jpg 150w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-300x300.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-1024x1024.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-768x768.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-640x640.jpg 640w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080-125x125.jpg 125w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Marija_jpg_10801080.jpg 1080w\" sizes=\"(max-width: 150px) 100vw, 150px\" />\n\t\t\t</dt></dl>\n\t\t\t<br style='clear: both' />\n\t\t</div>\nVälkommen att delta i ett rundabordssamtal med deltagarna från utbildningen Educational Sámi Curator program. I ett format där varje deltagares röst ges samma status och vikt genomförs ett samtal om behovet av curatoriella praktiker som utvecklats med ett samiskt perspektiv. Hur bidrar curatorer med specifik förståelse för och kunskap om urfolk till att skapa trygga rum för utövare och nya sammanhang för besökarna? Krävs det egna utrymmen skapade av och för samiska utövare eller finns förutsättningar för samiska förhållningssätt att ta plats även i strukturer och institutioner präglade av en kolonial historia och vilken roll spelar curatorerna i dessa sammanhang? Samtalet sker på engelska.<br />\n&nbsp;<br />\nOm deltagarna:<br />\nMarija Griniuk är en litauisk konstnär, curator och forskare, för närvarande baserad i Sápmi. Griniuk är chef på Sámi dáiddaguovddáš (Samiskt center för samtidskonst) i Karasjok, Norge. Hennes forskning handlar om utveckling av en ny metodik för att curera urfolkskonst.<br />\n&nbsp;<br />\nDet curatoriska utbildningsprogrammet Educational Sámi Curator program är en tvåårig utbildning vid Sámi Dáiddaguovddáš, Samiskt center för samtidskonst i Karasjok. De som deltar i utbildningen går nu sitt andra år av programmet som består av workshops, praktiska curatoriella uppdrag och utvecklingen av ett manuskript för en bok som skildrar en mångfald av perspektiv kring curatoriella strategier vid arbete med samisk konst som kommer färdigställas under 2023. Deltagarna i programmet är: Ánndaris/Anders Rimpi, Anne Henriette Nilut, Kare R. Anti, Petra Laiti, Berit Kristine Andersen Guvsám, Laila Susanna Kuhmunen, Sandra Márjá West, och Sunna Nousuniemi.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Med engagemang för curatorer</strong><br />\n10 juni, 13.00 &#8211; 14.00, Havremagasinet Länskonsthall Boden<br />\n&nbsp;<br />\nFöreläsning med Svensk Curatorförening och Norsk Curatorförening, (mer information kommer snart!)<br />\n&nbsp;<br />\nVälkommen att delta i Cureras sista programpunkt. Vi avslutar denna föreläsningsserie tillsammans med två föreningar vars främsta syfte är att aktivt representera, skydda och främja curatorer. Vi fördjupar oss i betydelsefulla och innovativa curatoriella metoder och angelägenheter för att skapa utrymme för reflektion för en djupare förståelse av curatorsyrket i allmänheten. Fokus ligger på arbetsvillkoren i respektive land, och utmaningarna med att medverka i ett relativt avlägset (nordligt) sammanhang och hur man bygger upp hållbara relationer över de nordiska och baltiska länderna. Föreläsningen sker på engelska.<br />\n&nbsp;<br />\nOm deltagarna:<br />\nSvensk Curatorförening är en politiskt obunden ideell förening som bildades 2021. Föreningens syfte är att företräda, skydda och främja curatorers yrkesmässiga, ekonomiska och sociala position.<br />\n&nbsp;<br />\nNorsk Curatorförening är en nationell oberoende organisation, baserad i Oslo och grundades år 2011. Den arbetar för att öka förståelsen för curatorisk praktik i Norge och för att främja medlemmarnas juridiska och ekonomiska villkor gentemot offentliga beslutsfattare och kulturinstitutioner.<br />\n&nbsp;<br />\nHavremagasinet Länskonthall Boden, invigdes 2010 och är en av Sveriges största platser för samtidskonst. Initierat av konstnärskollektivet Kilen med en vision om att bli ett centrum för samtidskonst i Norrbotten, har det hittills presenterat över femtio utställningar och otaliga programpunkter och möten och är nu regionens länskonsthall.<br />\n&nbsp;<br />\n&nbsp;<br />\n<a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Curera_Sv_Bakgrund.pdf\">Här</a> kan du läsa mer om bakgrunden till projektet Curera.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 366,
+    "menu_order": 1,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#88aa85",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 465,
+        "id": 465,
+        "title": "Curera_rubrikbild_test2",
+        "filename": "Curera_rubrikbild_test2.jpg",
+        "filesize": 1392685,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/curera/curera_rubrikbild_test2/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "curera_rubrikbild_test2",
+        "status": "inherit",
+        "uploaded_to": 366,
+        "date": "2023-01-05 09:03:09",
+        "modified": "2023-01-05 09:03:09",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1125,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1125,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Föreläsningar och nätverksträffar på olika platser i Norrbotten som under våren skapar utrymme för dialog och kunskapsutbyten mellan curatorer, personal från kulturverksamheter, kulturpolitiker och personal vid ekonomiskt stödgivande organisationer. ",
+      "aside-images": false,
+      "is_archived": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/469"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/366"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=469"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 431,
+    "date": "2022-10-28T10:33:45",
+    "date_gmt": "2022-10-28T08:33:45",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=431"
+    },
+    "modified": "2023-01-30T11:26:49",
+    "modified_gmt": "2023-01-30T10:26:49",
+    "slug": "open-call-konstnarlig-ledare-till-luleabiennalen-2024",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/open-call-konstnarlig-ledare-till-luleabiennalen-2024/",
+    "title": {
+      "rendered": "Open Call: Konstnärlig ledare till Luleåbiennalen 2024"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet Norrbotten söker en eller flera konstnärliga ledare till Luleåbiennalen 2024 med uppdraget att gestalta och genomföra den kommande biennalen som kommer att ha den övergripande inriktningen <em>arkitektur och konst</em>.<br />\n&nbsp;<br />\n(English below)<br />\n&nbsp;<br />\n<strong>Om Luleåbiennalen</strong><br />\n&nbsp;<br />\nLuleåbiennalen initierades 1991 och är Skandinaviens äldsta biennal. Från 2013 låg biennalen vilande fram till 2018 då Konstfrämjandet tog över som huvudman.<br />\n&nbsp;<br />\nKonstfrämjandet Norrbottens mål är att skapa en biennal som bygger på långsiktighet och hållbarhet genom att engagera och uppmuntra till medskapande. Biennalen formar tillsammans med lokalt förankrade och internationellt aktiva utövare, inom en bredd av konstnärliga praktiker och uttrycksformer, en samlingspunkt med Norrbotten som grund.<br />\n&nbsp;<br />\nNorrbotten med dess rika och mångfaldiga kulturhistoria står inför ett skifte där stora samhällsomvandlingar gör frågor om kulturens, konstens och inte minst livsmiljöns förutsättningar mer angelägna än någonsin. Luleåbiennalen bereder plats åt dessa frågor i samband med målsättningen att visa det bästa inom samtidskonsten på flera platser i regionen. Ett nytt steg i utvecklingen av biennalen är att ytterligare uttrycksformer utöver samtidskonst har inkluderats. 2022 års biennal är inriktad på hantverk och utgår från en bredd av idétraditioner och praktiker som duodji, slöjd, hantverk och konsthantverk. År 2024 kommer biennalen att ställa arkitekturen i relation till samtidskonsten för att på så sätt rikta fokus mot det gemensamma livet i offentligheten, hemmet och arkitekturen som konstnärligt uttryck. Ambitionen är att lyfta de idéer som har satt sin prägel på regionen – allt ifrån nomadiska levnadsformer, glesbygdens förutsättningar, industriernas påverkan till klimatkrisens konsekvenser – och samtidigt föra in nya tankesätt och skapa länkar till andra platser.<br />\n&nbsp;<br />\n<strong>Om uppdraget</strong><br />\n&nbsp;<br />\nAnsökningar välkomnas från individer och grupper med erfarenhet i omfångsrika projekt och med viljan att sammanföra samtidskonst och arkitektur i vid bemärkelse. Sökanden ska visa på en god förståelse för platsens förutsättningar och att utifrån detta bidra med sin egen vision för hur en biennal med fokus på samtidskonst och arkitektur kan gestaltas. Tidigare referensprojekt som uppvisar ett okonventionellt sätt att förhålla sig till utställningar samt konst- och arkitekturteori tas i särskild beaktning. Konstfrämjandet är en ideell organisation som drivs av projektmedel och den konstnärliga ledaren förväntas vara aktiv i arbetet med att söka medel samt sätta ihop det team som tillsammans skapar biennalen.<br />\n&nbsp;<br />\nÅterkommande samverkansparter i Norrbotten har bl.a. inkluderat Norrbottens museum, Luleå konsthall, Galleri Syster, Havremagasinet Länskonsthall Boden, KKV Luleå, Region Norrbotten och Luleå kommun. Ytterligare lokala och internationella samarbeten utvecklas i samråd med Konstfrämjandet. En del av uppdraget går ut på att låta biennalen på ett innovativt sätt ta plats utanför utställningsrummen, med både det tillfälliga och det långsiktiga i åtanke.<br />\n&nbsp;<br />\nLuleåbiennalen med inriktning arkitektur och konst äger rum sommaren 2024. Efter att den konstnärliga ledaren har tillsatts i januari 2023 börjar förberedelserna inför biennalen med researchresor, idé- och budgetarbete under våren 2023. Under hösten utvecklas sedan en detaljerad utställningsplan samt program och längre projekt samt residens startas upp. Innan biennalen öppnar 2024 färdigställs textmaterial och underlag för mediering.<br />\n&nbsp;<br />\nBudget för genomförande av Luleåbiennalen 2024 är beroende av vilka projektmedel som beviljas. Som minst finns 1 000 000 sek inkl. moms att tillgå, tidigare års biennaler har haft en total budget på omkring 4 000 000 sek. Arvode konstnärlig ledare: 250 000 sek inkl moms.<br />\n&nbsp;<br />\n&nbsp;<br />\n<em>Bild: Herkulennerna av Laurent Reynes, Luleåbiennalen 2003. Foto: Dan Lestander</em><br />\n&nbsp;<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Open Call: Artistic Director for the Luleå Biennial 2024</strong><br />\n&nbsp;<br />\nKonstfrämjandet Norrbotten is looking for one or more artistic directors for the  Luleå Biennial 2024, to curate and manage the upcoming biennial, which will have the overarching theme <em>architecture and art.</em><br />\n&nbsp;<br />\n<strong>About the Luleå Biennial</strong><br />\n&nbsp;<br />\nThe first edition of the Luleå Biennial, which is the oldest biennial in Scandinavia, was held in 1991. The biennial was dormant from 2013 to 2018, when Konstfrämjandet took over its operation.<br />\nKonstfrämjandet Norrbotten’s ambition is to create a biennial that emphasises long-term sustainability by sparking engagement and encouraging creative participation. The biennial invites locally and internationally based practitioners from a wide range of artistic fields and expressions to form an assembly point in Norrbotten.<br />\n&nbsp;<br />\nNorrbotten, which has a rich and diverse cultural history, is currently facing a fundamental shift, in which large-scale social processes have made matters related to culture, art, and public spaces more urgent than ever before. The Luleå Biennial seeks to address these issues in the pursuit of its goal of exhibiting world-class contemporary art in several locations within the region. The inclusion of other forms of expression besides contemporary art represents a new phase in the biennial’s ongoing evolution. The 2022 edition of the biennial focuses on crafts, and highlights a diverse array of traditions and practices, including duodji, handicraft, and arts and crafts. In 2024, the biennial will examine the relationship between architecture and contemporary art, in order to highlight related aspects of social life in both the public sphere and the home, as well as architecture as artistic expression. The ambition will be to address phenomena that have already shaped the region, such as nomadism, climate change, conditions in sparsely populated areas, and the impact of industry, while also introducing new ideas and forming links to other places.<br />\n&nbsp;<br />\n<strong>About the Role</strong><br />\n&nbsp;<br />\nApplications are welcomed from individuals and groups with prior experience of managing large-scale projects and a particular interest in bringing contemporary art and architecture together. Applicants are expected to demonstrate a good familiarity with the conditions in the region, and express their vision for how these will be accounted for through the curation of a biennial emphasising contemporary art and architecture. Past reference projects demonstrating an unconventional approach to exhibitions and art and architecture theory will be given particular consideration. Konstfrämjandet is a non-profit organisation that is reliant on project funding, and the artistic director is expected to take an active role in both acquiring funding and recruiting the team that will produce the biennial together.<br />\n&nbsp;<br />\nRecurring partners in Norrbotten include Norrbottens museum, Luleå konsthall, Galleri Syster, Havremagasinet Länskonsthall Boden, KKV Luleå, the Norrbotten region, and Luleå municipality. Further local and international collaborations are to be developed in consultation with Konstfrämjandet. Part of the role involves finding innovative ways for the biennial to occupy spaces outside of the galleries, on both temporary and long-term bases.<br />\n&nbsp;<br />\nThis edition of the Luleå Biennial, which is themed around architecture and art, will take place during the summer of 2024. Once the artistic director has been appointed in January 2023, preparations for the biennial will begin. Research trips, concept development, and budgeting will all take place during the spring of 2023. During the following autumn, a detailed exhibition plan and programme will be produced, and longer projects and residencies will begin. Text materials and a plan for mediation are to be finalised before the opening of the biennial in 2024.<br />\n&nbsp;<br />\nThe production budget for the Luleå Biennial 2024 depends on the project funding that is granted. At a minimum, 1,000,000 SEK (VAT inclusive) will be available, and past editions of the biennial have had an overall budget of around 4,000,000 SEK. Renumeration for the artistic director: 250 000 SEK (VAT inclusive).<br />\n&nbsp;<br />\n<strong>Deadline 20 December 2022.</strong><br />\n&nbsp;<br />\n<em>Photo: Herkulennerna by Laurent Reynes, Luleå Biennial 2003. Photographer: Dan Lestander.</em></p>\n",
+      "protected": false
+    },
+    "featured_media": 436,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "anniversary": false,
+      "color": "#b9e5dc",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 436,
+        "id": 436,
+        "title": "laurent reynes web fler pixlar",
+        "filename": "laurent-reynes-web-fler-pixlar-scaled.jpg",
+        "filesize": 940816,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-scaled.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/open-call-konstnarlig-ledare-till-luleabiennalen-2024/laurent-reynes-web-fler-pixlar/",
+        "alt": "",
+        "author": "66",
+        "description": "",
+        "caption": "Herkulennerna av Laurent Reynes, Luleåbiennalen 2003. Foto: Dan Lestander",
+        "name": "laurent-reynes-web-fler-pixlar",
+        "status": "inherit",
+        "uploaded_to": 431,
+        "date": "2022-10-28 13:01:19",
+        "modified": "2022-10-28 13:02:35",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1828,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-300x214.jpg",
+          "medium-width": 300,
+          "medium-height": 214,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-768x548.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 457,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-1024x731.jpg",
+          "large-width": 640,
+          "large-height": 457,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-1536x1097.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1097,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-2048x1462.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1462,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/10/laurent-reynes-web-fler-pixlar-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Konstfrämjandet Norrbotten söker en eller flera konstnärliga ledare till Luleåbiennalen 2024 med uppdraget att gestalta och genomföra den kommande biennalen som kommer att ha den övergripande inriktningen arkitektur och konst.",
+      "aside-images": false,
+      "is_archived": true,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/431"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media/436"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=431"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 217,
+    "date": "2022-09-28T12:08:35",
+    "date_gmt": "2022-09-28T10:08:35",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=217"
+    },
+    "modified": "2023-01-30T11:26:23",
+    "modified_gmt": "2023-01-30T10:26:23",
+    "slug": "luleabiennalen-2022",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2022/",
+    "title": {
+      "rendered": "Luleåbiennalen 2022 &#8211; Hantverk &amp; Konst"
+    },
+    "content": {
+      "rendered": "<p><strong>15 oktober 2022 – 15 januari 2023</strong> pågår <strong><a href=\"http://luleabiennalen2022.konstframjandet.se\">Luleåbiennalen 2022 – Hantverk &amp; Konst</a></strong>. För tredje gången genomförs biennalen i Konstfrämjandets regi sedan återstarten 2018. De konstnärliga ledarna för 2022 års biennal, <strong>Onkar Kular</strong> och <strong>Christina Zetterlund</strong>, har skapat en biennal som utöver samtidskonst även inkluderar hantverk som exempelvis vävning, duodji, stickning, halmslöjd, mat- och bilhantverk. Den mångfald av uttryck som materialiseras vittnar om historiska strukturer och samtida skeenden, om görandets betydelse och om intrikata orsakssamband i det som benämnts som ödemarker. Efter ett år av intensivt umgänge med Norrbotten presenteras nu en biennal som låter oss se bekanta och tidigare ouppmärksammade omgivningar, människor och föremål ur nya perspektiv.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Under biennalen visas <strong>utställningar</strong> på <strong>Luleå konsthall, Norrbottens museum, Galleri Syster, Pontusbadet</strong> och <strong>Havremagasinet Länskonsthall</strong>. Utställningarna har utformats genom ett lyssnande och lärande i kontakt med Norrbottens historia och kreativa krafter. Lokala perspektiv och globala angelägenheter vävs samman med utgångspunkt i isen och dess förhållande till köldens politik, hantverk som en socialt hållbar aktivitet, och extraktivismens cirkulära historier.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Inbjudna utövare och organisationer som deltar i biennalen med installationer och aktiviteter är <strong>Berit Kristine Andersen Guvsam, Aunesgården, Berit Berin, Liu Chuang, Silje Figenschou Thoresen, Tekeste Solomon Gebremariam, Gunvor Guttorm, Karin Keisu &amp; Josse Thuresson, Korpilombolo Kulturförening, Laila Susanna Kuhmunen, MADAM Snickeri &amp; Restaurering, Olof Marsja, Elena Mazzi, Erika Nordvall Falck, Helmer Osslund, Katarina Pirak Sikku, Julia Rensberg, Johannes Samuelsson, Susan Schupli, Himali Singh Soin, Katarina Spik Skum, Søstrarna Susa, Post Workers Theatre, Rosa Taikon, Georg Tiller, Mikhail Tolmachev, Rosa Tolnov Clausen, Ida Isak Westberg, Doris Wiklund</strong> och <strong>Lena Ylipää.</strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p>Luleåbiennalen inleds med en festival <strong>15–16 oktober</strong>. Genom olika samarbeten kring utställningar, performances och workshops tecknas en karta över aktörer på olika platser i området. Festivalen sker i samverkan med verksamheter som <strong>Sameslöjdsstiftelsen Sámi Duodji i Jokkmokk, Berits halmslöjdsmuseum på Sörbyn Sundernäs hembygdsförening, Jukkasjärvi kyrka, Samiskt center för samtidskonst i Karasjok, Norge, Aunesgården i Övertorneå, Gällivare musem</strong> och <strong>Kiruna stadsbibliotek</strong> där verk ur <strong>Kiruna kommuns konstsamling</strong> visas. Under premiärhelgen inleds festivalen med ett program som innehåller skridskoåkning, vernissager, rundvisningar samt hantverks- och konstevenemang i Luleå, Boden och Kiruna.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Med utställningar, ett variationsrikt program och <strong>Läranderummet</strong> bidrar Luleåbiennalen 2022 – Hantverk &amp; Konst genom lokala och internationella utövare till det rika och aktiva konstlivet i och utanför Norrbotten. Läranderummet kommer via biennalens webbplats göra det möjligt för besökare att uppleva biennalen virtuellt. Förutom planerade filmvisningar kommer evenemangen i Läranderummet bland annat innefatta slöjdcirklar med <strong>Anna-Stina Svakko</strong> på Galleri Syster, en ungdomsworkshop som hålls i samarbete med <strong>KUBN</strong> i Haparanda, <strong>The Knowledge House for Craft</strong> som samarrangeras med <strong>Garland Magazine</strong> och <strong>Weaving Kiosk</strong> av <strong>Rosa Tolnov Clausen</strong>, som produceras i samarbete med <strong>Haparanda stads kulturenhet</strong>, <strong>Aine konstmuseum</strong> och <strong>Resurscentrum för konst Norrbotten</strong>. Läranderummet kommer även att ha fysiska scener hos Galleri Syster och Havremagasinet Länskonsthall, där live-evenemang kommer hållas och från vilka ett urval av festivalens aktiviteter kommer att sändas.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><em>De fullständiga aktivitetsprogrammen för festivalen och Läranderummet finns att ta del av på <a href=\"http://luleabiennalen2022.konstframjandet.se\">Luleåbiennalen 2022s egen webbplats</a>.</em><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2789\" height=\"1121\" class=\"alignleft size-full wp-image-415\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen.png\" alt=\"\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen.png 2789w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen-300x121.png 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen-1024x412.png 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen-768x309.png 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen-1536x617.png 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/09/loggor-luleabiennalen-2048x823.png 2048w\" sizes=\"(max-width: 2789px) 100vw, 2789px\" /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ff6a3d",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 419,
+        "id": 419,
+        "title": "LB22-pattern",
+        "filename": "LB22-pattern.jpg",
+        "filesize": 2107733,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2022/lb22-pattern/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "lb22-pattern",
+        "status": "inherit",
+        "uploaded_to": 217,
+        "date": "2022-10-06 10:55:29",
+        "modified": "2022-10-06 10:55:29",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 1400,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-300x175.jpg",
+          "medium-width": 300,
+          "medium-height": 175,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-768x448.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 373,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-1024x597.jpg",
+          "large-width": 640,
+          "large-height": 373,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-1536x896.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 896,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-2048x1195.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1195,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/09/LB22-pattern-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Till 2022 års upplaga har Luleåbiennalen utvidgats från att vara en samtidskonstbiennal till att även inkludera hantverk. Biennalen bygger 2022 på en bredd som innefattar duodji, konsthantverk och slöjd jämte mindre vanliga hantverk inom konstvärlden",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/217"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=217"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 379,
+    "date": "2022-08-12T12:07:56",
+    "date_gmt": "2022-08-12T10:07:56",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=379"
+    },
+    "modified": "2022-10-07T10:06:40",
+    "modified_gmt": "2022-10-07T08:06:40",
+    "slug": "fragment",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/fragment/",
+    "title": {
+      "rendered": "Fragment"
+    },
+    "content": {
+      "rendered": "<p><strong>Omvandlingarna som Kiruna genomgår under 2022, när den gamla stadskärnan avvecklas och den nya ska väckas till liv, utgör kontexten för en utställning som öppnar upp för tankar om maktstrukturer och uppmärksammar historier, traditioner och identiteter som inte alltid getts utrymme i beskrivningen av Kiruna som plats – i eller utanför staden. Nyskapade arbeten av konstnärer med rötter i närområdet visas i utställningen tillsammans med konstverk ur Kiruna kommuns samlingar.</strong><br />\n&nbsp;<br />\nVarje stad präglas av landmärken, händelser och personligheter som bidrar till att forma och befästa bilden av platsen. Svårigheten att förstå ett samhälles villkor kan skapa distans och ett utifrånperspektiv &#8211; som både accepteras och bidrar till motsättningar. Det finns en balansgång mellan att finnas representerad och att helt känna igen sig. När skildringar av våra omgivningar och dem vi delar dessa med upprepas betraktas de ofta som sanningar. En komplex verklighet ingår sällan i förmedling av attraktiva livsmiljöer och lockande besöksmål.<br />\n&nbsp;<br />\nBerättelserna vi delar med varandra utformas för att skapa förståelse för delar av en historia, snarare än att återge en övergripande helhet. Varje skildring speglar erfarenheter, föreställningar, önskningar och kunskaper hos den som berättar. En samling återger genom urval av verk historiska förutsättningar och vår egen samtid i de återgivningar som inte inkluderats eller synliggjorts. Innehållet påverkas av sammansättning, förvaltning och inte minst hur och i vilka sammanhang verk ur samlingen presenteras.<br />\n&nbsp;<br />\nVerken i utställningen närmar sig specifika och praktiska förutsättningar men också övergripande frågeställningar kring maktstrukturer och transformation. Konsten har genom sitt uttryck förmåga att underbygga ett önskat perspektiv och konstsamlingen som fenomen kan utgöra ett sätt att förstärka traditionella värderingar, skapa förståelse för och berättelser om en specifik plats. Samlingen kan utgöra ett levande arkiv över tid om invanda perspektiv tillåts att omvärderas.<br />\n&nbsp;<br />\nAtt arbeta inkluderande och nyskapande med en samling som ännu väger tungt i Kirunas identitetsskapande process är viktigt för att den inte enbart ska bli ett historiskt ställningstagande utan en aktiv del av stadens fortsatta utveckling. Beroende på vilka urval som görs och i vilka kontexter dessa presenteras kommer olika berättelser kunna växa fram och bättre representera den mångfald det geografiska området är uppbyggt av.<br />\n&nbsp;<br />\nGenom individuella konstnärliga praktiker och infallsvinklar tecknar de medverkande konstnärerna en skissartad karta över frågor, erfarenheter och fantasier som återfinns i staden idag. Här ryms historier som hamnat i skuggan av andra händelser och inifrånperspektiv på landskap som tidigare skildrats av utomstående. Alla berättar de sin egen historia om platsen.<br />\n&nbsp;<br />\n<em>Fragment</em> blir ytterligare en av berättelserna om Kiruna.<br />\n&nbsp;<br />\n<strong>Medverkande konstnärer</strong><br />\nKristina Bength, Emelie Demant-Hatt, Chenia Ekström, Åsa Lipka-Falk, Erling Johansson, Erica Juhl, Linnea Jörpeland, Matilda Kenttä, Lisa Kejonen Pauker, Barbro Nilsson, Sandra Wasara-Hammare, Rönn-Lisa Zakrisson Påve och Torbjörn Ömalm.<br />\n&nbsp;<br />\n<em>Utställningen cureras av Paulina Granat och Maria Ragnestam. Producerat av Konstfrämjandet Norrbotten i samarbete med Kiruna Konstgille. Med stöd av Region Norrbotten, Kiruna Kommun, Kulturrådet, Folkrörelsernas Konstfrämjande och Sparbanken Nord.</em><br />\n&nbsp;<br />\n<strong>Kiruna Konstgille</strong><br />\nKiruna Konstgille som varit med och producerat utställningen är en ideell förening som bildades 1944 och sedan dess arbetat aktivt för konstlivet i Kiruna. De presenterar årligen 6-8 konstutställningar, ett lotteri där cirka 20 konstverk lottas ut bland medlemmarna och arrangerar även föreläsningar, medlemsaktiviteter och workshops. I och med utställningen Fragment i september 2022 flyttar föreningen in i sina nya lokaler i Kulturhuset Aurora. Konstgillet är medlem i Sveriges Konstföreningars Riksförbund.<br />\nLäs mer på <a href=\"http://www.kirunakonstgille.se\">www.kirunakonstgille.se</a><br />\n&nbsp;<br />\nBild: Väv av Barbro Nilsson, detalj<br />\n&nbsp;<br />\n<strong>Utställningen gick att ta del av på Konsthallen i kulturhuset Aurora, Kiruna 1 – 30 september 2022. </strong><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"1023\" height=\"384\" class=\"alignleft size-full wp-image-409\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/sponsorer_fragment-1.png\" alt=\"\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/sponsorer_fragment-1.png 1023w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/sponsorer_fragment-1-300x113.png 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/sponsorer_fragment-1-768x288.png 768w\" sizes=\"(max-width: 1023px) 100vw, 1023px\" /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ffffff",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 391,
+        "id": 391,
+        "title": "barbro_krans_edit_kopia_header",
+        "filename": "barbro_krans_edit_kopia_header.jpg",
+        "filesize": 1755416,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/fragment/barbro_krans_edit_kopia_header/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "barbro_krans_edit_kopia_header",
+        "status": "inherit",
+        "uploaded_to": 379,
+        "date": "2022-08-22 16:01:26",
+        "modified": "2022-08-22 16:01:26",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1333,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-300x200.jpg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-768x512.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 427,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-1024x682.jpg",
+          "large-width": 640,
+          "large-height": 426,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-1536x1024.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1024,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1333,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/barbro_krans_edit_kopia_header-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "September 2022 invigde utställningen Fragment konsthallen i Kirunas nya kulturhus. Utifrån frågeställningar om hur det förflutna påverkar nya individuella och kollektiva berättelser om staden utforskas tankar om vad Kiruna är, har varit och kan bli.",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/379"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=379"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 320,
+    "date": "2022-08-12T10:43:54",
+    "date_gmt": "2022-08-12T08:43:54",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=320"
+    },
+    "modified": "2022-10-07T10:08:46",
+    "modified_gmt": "2022-10-07T08:08:46",
+    "slug": "hejda-raggen",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/hejda-raggen/",
+    "title": {
+      "rendered": "HEJDÅ RAGGEN"
+    },
+    "content": {
+      "rendered": "<p>Utifrån ett personligt engagemang i raggarkulturen blir Lotta Lampas verk ett avsked av Kirunas nuvarande raggarstråk lika mycket som ett synliggörande av en omdebatterad subkultur. Stadens nya centrum som växer fram tre kilometer österut har, i likhet med många andra samtida stadsplaner, utformats till förmån för andra än de bilburna. En vital del av raggarkulturen byggs bort och hur den kan anpassas till en ny stadsmiljö saknar ännu tydliga svar.<br />\n&nbsp;<br />\nInte sällan ger subkulturer upphov till missnöje hos övrig befolkning och motsättningar mellan invigda och utomstående. Livsstilsrörelser som den raggarkulturen ofta utgör är stark i lands- och glesbygdsområden i hela landet. Raggarkulturen har förändrats med tiden utifrån förutsättningar som förändrade perspektiv på miljömedvetenhet och stadsplanering, men kulturen väcker fortsatt intresse hos en yngre generation i form av exempelvis EPA-traktorer och dess förare.<br />\n&nbsp;<br />\nLampas verk uppmärksammar vikten av en samlingspunkt anpassad för subkulturens ändamål, även om formen kan anses okonventionell ur ett föreningsperspektiv genom att den delvis tar plats utanför fyra väggar. I HEJDÅ RAGGEN inspireras Lampa av en nystartad EPA-förening i Kiruna, som drivs med syfte att skapa en gemenskap och plats att samlas på för ungdomar som delar intresset för motorfordon. I intresset och mötesplatsen finns också en inbyggd önskan att utveckla kunskaper för att kunna tillvarata och reparera befintliga fordon. Värdegrunder som gör en subkultur som vanligtvis inte betraktas som miljövänlig till hållbar men ur ett annat perspektiv än att exempelvis premiera lokaltrafikens utrymme i det nya gatunätet. Ungdomar är ofta medvetna och engagerade i samhälleliga förändringar och beslut, men har färre möjligheter än vuxna att själva påverka utifrån sina egna kunskaper, önskningar eller perspektiv.<br />\n&nbsp;<br />\nI sitt slående visuella uttryck inkluderar Lotta Lampa igenkännbara kulturella attribut som doftgranar med omisskänlig syntetisk tallbarrsdoft och målgångsflaggans schackrutsmönster som signalerar både firande och avslut. Lampa skapar flaggor som placeras i den gamla stadskärnan längs gatorna där raggen genom åren rullat. Med ett symbolstarkt formspråk skapas i september 2022 en tydligt markerad paradgata där flaggorna på halvstång påminner om slutet av en era och samtidigt om en subkultur som fortsätter vara ett närvarande inslag i Kirunas stadsbild.<br />\n&nbsp;<br />\nHEJDÅ RAGGEN tog sig uttryck i en paradgata utsmyckad med flaggor, hundratals wunderbaums, en öppen workshop i flaggmakeri och slutligen en avskedsceremoni i form av ett raggartåg genom Kirunas gamla stadskärna. Drygt 70 bilar deltog i raggen.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Om konstnären</strong><br />\nLotta Lampa (1981, Kalix) är designer och konstnär utbildad vid Beckmans College of Design i Stockholm samt International Design Academy by Luxury Living Group i Forli, Italien. Med starka former, material och färgval skapar Lampa både bruksföremål till konstverk, med utgångspunkt i allt från stadens neon till landsbygdens garage.<br />\nSe mer av Lampa på hennes <a href=\"http://www.lottalampa.se/\">hemsida</a> och <a href=\"https://www.instagram.com/studiolottalampa/\">Instagram</a>.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Bakgrund</strong><br />\nDen förestående nedmonteringen av Kirunas gamla stadskärna har varit utgångspunkten för tre konstnärer att under våren 2022 skapa platsspecifika verk i det offentliga rummet. På olika sätt har Anne Marte Overaa, Lotta Lampa och Torbjörn Ömalm närmat sig den gamla och den nya staden.<br />\n&nbsp;<br />\nEn del av Kirunas fysiska närvaro och historia kommer inom kort att förändras. Lokalt förankrade historier och minnen från livet som tagit plats i och utanför husen tillsammans med arkitekturen och platsens geografiska förutsättningar har legat som grund för de tre nya verk som under september tar plats i den gamla stadskärnan.<br />\n&nbsp;<br />\nAtt ta tillvara på människors känslor, kunskap och tankar blir sätt att värna immateriella värden när den fysiska tillvaron förändras. Kombinationen av att avveckla historiska platser och bygga upp framtidstro väcker känslor tillsammans med frågor om det är möjligt att förändra och bevara på samma gång.<br />\n&nbsp;<br />\n<em>De tre verken skapas med stöd av Stadsliv Kiruna, Kiruna Kommun, Folkrörelsernas Konstfrämjande, Resurscentrum för konst, Statens Kulturråd, Region Norrbotten och Sparbanken Nord. Tack till Älsk Nu som sponsrat med material till HEJDÅ RAGGEN.</em><br />\n<img loading=\"lazy\" width=\"1023\" height=\"393\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png\" alt=\"\" class=\"alignleft size-full wp-image-410\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png 1023w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-300x115.png 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-768x295.png 768w\" sizes=\"(max-width: 1023px) 100vw, 1023px\" /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ff964f",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 376,
+        "id": 376,
+        "title": "LOTTA_PROJEKTSIDA_NY_AUG22",
+        "filename": "LOTTA_PROJEKTSIDA_NY_AUG22-scaled.jpg",
+        "filesize": 275179,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-scaled.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/hejda-raggen/lotta_projektsida_ny_aug22/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "lotta_projektsida_ny_aug22",
+        "status": "inherit",
+        "uploaded_to": 320,
+        "date": "2022-08-12 07:57:18",
+        "modified": "2022-08-12 07:57:18",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1111,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-300x130.jpg",
+          "medium-width": 300,
+          "medium-height": 130,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-768x333.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 278,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-1024x445.jpg",
+          "large-width": 640,
+          "large-height": 278,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-1536x667.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 667,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-2048x889.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 889,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/08/LOTTA_PROJEKTSIDA_NY_AUG22-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Lotta Lampas verk HEJDÅ RAGGEN är ett farväl, en begravningsceremoni och ett sista hurra för det raggarstråk som försvinner när Kirunas gamla stadskärna ersätts av ett nytt centrum. ",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/320"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=320"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 366,
+    "date": "2022-06-30T15:57:10",
+    "date_gmt": "2022-06-30T13:57:10",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=366"
+    },
+    "modified": "2023-03-30T16:22:17",
+    "modified_gmt": "2023-03-30T14:22:17",
+    "slug": "curera",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/curera/",
+    "title": {
+      "rendered": "Curera"
+    },
+    "content": {
+      "rendered": "<p>(English below)<br />\n&nbsp;<br />\nCurera består av tre överlappande och parallella delar. Samverkan; en serie föreläsningar, workshops och nätverksträffar, Läranden; ett samarbete med Stockholms Universitets masterprogram i curating och Geografier; ett curatorsresidens på plats i Norrbotten. Tillsammans verkar de olika delarna för att synliggöra curatorer som professionell yrkesgrupp, skapa dialog med potentiella uppdrags- och bidragsgivare i regionen och initiera publika aktiviteter på olika platser i länet.<br />\n&nbsp;<br />\nHär kan du läsa mer om varje del: <a href=\"http://norrbotten.konstframjandet.se/projekt/curera/laranden/\"><strong>Läranden</strong></a>, <a href=\"http://norrbotten.konstframjandet.se/projekt/curera/geografier/\"><strong>Geografier</strong>,</a> och ta del av programmet i <a href=\"http://norrbotten.konstframjandet.se/projekt/curera/samverkan/\"><strong>Samverkan.</strong></a><br />\n&nbsp;<br />\nDelar av programmet går även att ta del av digitalt. </p>\n<div class=\"embed-container\"><iframe loading=\"lazy\" title=\"Curatorer på plats/Curators on site (Talk in swedish)\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/Ur-wsRwZurg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n<div class=\"embed-container\"><iframe loading=\"lazy\" title=\"Curera i glesbygd/Curating in sparsely populated areas (Talk in english)\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/WoEkyUJhqFM?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n<p>&nbsp;<br />\nÄr du, din organisation eller verksamhet intresserade av projektet? Kontakta gärna oss ifall ni har frågor, vill veta mer eller är intresserade av att samarbeta med oss.<br />\n&nbsp;<br />\n<a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/01/Curera_Sv_Bakgrund.pdf\">Här kan du läsa mer om bakgrunden till projektet.</a><br />\n&nbsp;<br />\n<strong>Kontakt</strong><br />\nLucie Gottlieb, Projektledare för Curera<br />\n<a href=\"mailto:lucie.gottlieb@konstframjandet.se\">lucie.gottlieb@konstframjandet.se</a><br />\n&nbsp;<br />\nBild: Från serien Digitala Landskap av Erik Holmstedt.<br />\n&nbsp;<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>(Eng) </strong><br />\nCurera is divided into three overlapping and parallel parts. Collaboration; a series of lectures, workshops and network meetings, Learnings; a collaboration with the Master´s programme in Curating at Stockholm University and Geographies; a curator residency on site in Norrbotten. Together the parts contribute in different ways to act for curators as a profession, by creating dialogue with potential commissioners and funders, and initiating public activities at various locations in Norrbotten.<br />\n&nbsp;<br />\nYou can read more about every part here: <strong><a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/03/Curera-LEARNINGS-1.pdf\">Learnings,</a></a></strong> <strong><a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/03/CURERA-GEOGRAPHIES-1.pdf\">Geographies,</a></strong> and take part of the programme in <strong><a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/CURERA-COLLABORATION..pdf\">Collaboration.</a></a></strong><br />\n&nbsp;<br />\nParts of the programme can even be viewed digitally.<br />\n&nbsp;<br />\n<a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2023/02/Curera_Eng_Background..pdf\">Welcome to read more about the background to the project here.</a><br />\n&nbsp;<br />\nAre you, your organization or business interested in the project? Feel free to contact us if you have questions, want to know more or are interested in collaborating with us.<br />\n&nbsp;<br />\n<strong>Contact</strong><br />\nLucie Gottlieb, Project manager for Curera<br />\n<a href=\"mailto:lucie.gottlieb@konstframjandet.se\">lucie.gottlieb@konstframjandet.se</a><br />\n&nbsp;<br />\n&nbsp;<br />\nPhoto: From the series Digital Landskap by Erik Holmstedt.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#88aa85",
+      "show_on_startpage": true,
+      "image": {
+        "ID": 465,
+        "id": 465,
+        "title": "Curera_rubrikbild_test2",
+        "filename": "Curera_rubrikbild_test2.jpg",
+        "filesize": 1392685,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/curera/curera_rubrikbild_test2/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "curera_rubrikbild_test2",
+        "status": "inherit",
+        "uploaded_to": 366,
+        "date": "2023-01-05 09:03:09",
+        "modified": "2023-01-05 09:03:09",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2000,
+        "height": 1125,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-300x169.jpg",
+          "medium-width": 300,
+          "medium-height": 169,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-768x432.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 360,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1024x576.jpg",
+          "large-width": 640,
+          "large-height": 360,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-1536x864.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 864,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2.jpg",
+          "2048x2048-width": 2000,
+          "2048x2048-height": 1125,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/Curera_rubrikbild_test2-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Med fokus på curatorers villkor, situation och roll inom konstlivet - i Sverige generellt och Norrbotten specifikt genomförs projektet Curera på olika platser i Norrbotten under våren 2023.",
+      "aside-images": false,
+      "is_archived": false,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/366"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=366"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 331,
+    "date": "2022-06-16T15:51:33",
+    "date_gmt": "2022-06-16T13:51:33",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=331"
+    },
+    "modified": "2022-11-23T12:48:28",
+    "modified_gmt": "2022-11-23T11:48:28",
+    "slug": "vi-har-ju-fan-inget-val",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/vi-har-ju-fan-inget-val/",
+    "title": {
+      "rendered": "Vi har ju fan inget val"
+    },
+    "content": {
+      "rendered": "<p><strong>Vi har ju fan inget val</strong><br />\n<em>Vi har ju fan inget val</em> är ett musikaliskt konstverk som innefattar fältinspelningar, röster, instrumentala partier samt en bred blandning av olika musikgenrer som ömsom samverkar, ömsom krockar, med omgivningens ljud och de stämningar som rör sig i luften. Den 19 minuter långa verket har en cirkulär struktur där lyssnaren kan se slutet som en början eller början som ett avslut.<br />\n&nbsp;<br />\nInspelat i Pikkupalo och Kiruna under april – maj 2022.<br />\nAlla instrument spelas av Torbjörn Ömalm.<br />\nFältinspelningar av Torbjörn Ömalm.<br />\nMixning av Torbjörn Ömalm och Björn Pettersson Thuuri i Heart of Sound studio, Tuollavaara under maj 2022.<br />\nMastring av Jesper Dahlström i juni 2022.<br />\nOmslag av Torbjörn Ömalm.<br />\n&nbsp;<br />\nUnder september månad 2022 kunde verket höras på tre olika platser: utspritt på gatorna i Kirunas gamla stadskärna; i utställningen <em><a href=\"http://norrbotten.konstframjandet.se/projekt/fragment/\">Fragment</a></em> i konsthallen på Aurora Kultur &#038; Kongress i Kirunas nya centrum; samt i <em><a href=\"http://konstframjandet.se/projekt/ljud-i-porten/\">Ljud i porten</a></em> &#8211; ett ljudkonstgalleri i dörren till Folkrörelsernas Konstfrämjandes kansli på Swedenborgsgatan 1 i Stockholm.<br />\n&nbsp;<br />\n<a href=\"https://torbjornomalm.bandcamp.com/track/vi-har-ju-fan-inget-val\"><strong>Klicka här för att lyssna på verket via Bandcamp.</strong></a><br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Om konstnären</strong><br />\nTorbjörn Ömalm (1981, Gällivare) är gitarrist, kompositör och minoritetsspråksaktivist bosatt i Jukkasjärvi. Han doktorerar även inom konstnärlig forskning där han utforskar språk och ljud från en Meänkieli- och skogssamisk kulturmiljö. Ömalm har släppt en mängd skivor under eget namn och turnerar flitigt med Johan Airijoki &#038; Malmfältens Rockklubb.<br />\nLyssna på mer av Torbjörn Ömalm på <a href=\"https://open.spotify.com/artist/1dvlw1hRV4r97OE81jh4zv?si=eRLlBJ8RS7iXFekL-uOnlw&#038;utm_source=copy-link\">Spotify</a> och <a href=\"http://torbjornomalm.bandcamp.com/\">Bandcamp</a>.<br />\n&nbsp;<br />\n&nbsp;<br />\n<strong>Bakgrund</strong><br />\nDen förestående nedmonteringen av Kirunas gamla stadskärna har varit utgångspunkten för tre konstnärer att under våren 2022 skapa platsspecifika verk i det offentliga rummet. På olika sätt har Anne Marte Overaa, Lotta Lampa och Torbjörn Ömalm närmat sig den gamla och den nya staden.<br />\n&nbsp;<br />\nEn del av Kirunas fysiska närvaro och historia kommer inom kort att förändras. Lokalt förankrade historier och minnen från livet som tagit plats i och utanför husen tillsammans med arkitekturen och platsens geografiska förutsättningar har legat som grund för de tre nya verk som under september tar plats i den gamla stadskärnan.<br />\n&nbsp;<br />\nAtt ta tillvara på människors känslor, kunskap och tankar blir sätt att värna immateriella värden när den fysiska tillvaron förändras. Kombinationen av att avveckla historiska platser och bygga upp framtidstro väcker känslor tillsammans med frågor om det är möjligt att förändra och bevara på samma gång.<br />\n&nbsp;<br />\n<em>De tre verken skapas med stöd av Stadsliv Kiruna, Kiruna Kommun, Folkrörelsernas Konstfrämjande, Resurscentrum för konst, Statens Kulturråd, Region Norrbotten och Sparbanken Nord.</em><br />\n<img loading=\"lazy\" width=\"1023\" height=\"393\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png\" alt=\"\" class=\"alignleft size-full wp-image-410\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor.png 1023w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-300x115.png 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/sponsorer_tilldendetberor-768x295.png 768w\" sizes=\"(max-width: 1023px) 100vw, 1023px\" /></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#89ccca",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 386,
+        "id": 386,
+        "title": "TORBJÖRN_PROJEKTSIDA_NY_AUG22",
+        "filename": "TORBJORN_PROJEKTSIDA_NY_AUG22.jpg",
+        "filesize": 1811866,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/vi-har-ju-fan-inget-val/torbjorn_projektsida_ny_aug22/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "torbjorn_projektsida_ny_aug22",
+        "status": "inherit",
+        "uploaded_to": 331,
+        "date": "2022-08-12 10:36:58",
+        "modified": "2022-08-12 10:36:58",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 1042,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-300x130.jpg",
+          "medium-width": 300,
+          "medium-height": 130,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-768x333.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 278,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-1024x445.jpg",
+          "large-width": 640,
+          "large-height": 278,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-1536x667.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 667,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-2048x889.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 889,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/TORBJORN_PROJEKTSIDA_NY_AUG22-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "I ett musikverk skapat utifrån, inuti och om Kiruna stadsflytt gestaltar Torbjörn Ömalm en urban arktisk omgivning, den pågående byggprocessen och människors känslor och tankar om att leva i ett slags vakuum mellan förlust och det diffusa nya.",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/331"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=331"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 292,
+    "date": "2022-05-03T12:31:00",
+    "date_gmt": "2022-05-03T10:31:00",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=292"
+    },
+    "modified": "2022-06-16T15:44:36",
+    "modified_gmt": "2022-06-16T13:44:36",
+    "slug": "city-horses-i-boden",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/city-horses-i-boden/",
+    "title": {
+      "rendered": "City Horses i Boden"
+    },
+    "content": {
+      "rendered": "<p>Konstfrämjandet Norrbotten presenterar, i samverkan med Havremagasinet länskonsthall, duon Byström Källblads koreografiska verk <em>City Horses</em>. Verket går att ta del av i Boden den 4e juni 2022, som en del av Havremagasinets utställning <em>For All to See</em> (4 juni-25 september). Under 2022-2024 sätts City Horses upp på flera platser runtom i Europa som en del av en turné med Big Pulse Dance Alliance och Konstfrämjandet Norrbotten är glada att kunna vara med och stödja verkets resa till Norrbotten där det i häststaden Boden hör särskilt väl hemma.<br />\n&nbsp;<br />\n<em>I våra städer, från ryggen på hästar av brons, stirrar stolta kungar tyst ut över våra huvuden. Deras berättelser och synliga manliga dominans manifesteras dagligen och förmedlas till nya generationer. Var är kvinnorna och deras berättelser?</em><br />\n– Byström Källblad<br />\n&nbsp;<br />\nCity Horses behandlar frågeställningar om maktstrukturer och den kvinnliga kroppen i det offentliga rummet genom en koreografi i staden som utförs av tjugo kvinnliga dansare. Det är en galopp genom städer, ett levande monument i konstant rörelse, som firar kvinnligt mod och makt över alla åldrar.<br />\n&nbsp;<br />\n<strong>Om Byström Källblad</strong><br />\nDen svenska duon Byström Källblad skapar verk för scen, galleri och det offentliga rummet. Konstnären Helena Byström och koreografen Anna Källblad delar ett gemensamt behov av att berätta historier om och baserade i samarbete och utbyte med specifika platser och deras människor.<br />\n&nbsp;<br />\n<strong>Var kan verket ses?</strong><br />\nCity Horses i Boden startar vid tågstationen kl. 11 och rör sig sedan längs med Kungsgatan, förbi Kvarnängen för att sedan vika av mot Drottninggatan till Medborgarplatsen och Centrumtorget. Därifrån fortsätter dansarna ner mot Sveafälten för att sedan följa Norrbottensvägen upp till Havremagasinet, där de anländer kl. 12. Se karta med ungefärliga tider <a href=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/06/havre_city-horses.png\">här</a>.<br />\n&nbsp;<br />\n<strong>Medverkande dansare</strong><br />\nElinor Tolertz Bratteby, Julia Svensson, Katarina Eriksson, Lotta Salonen, Minna Mannelqvist, Nassim Meki, Sanna Söderholm, Tilda Seger, Torill Kolsrud, Thjerza Balaj, Hedvig Edvall Bons och Ellen Nylander.<br />\n&nbsp;<br />\nVisningen av City Horses i Boden stödjs av Konstfrämjandet Norrbotten, Havremagasinet Länskonsthall och Statens Kulturråd.<br />\n&nbsp;<br />\nLäs mer om Byström Källblad och City Horses <a href=\"https://cityhorses.se/\"><strong>här</strong></a>.<br />\n&nbsp;<br />\nFoto: Tina Axelsson</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#ffa93a",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 293,
+        "id": 293,
+        "title": "CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled",
+        "filename": "CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1.jpg",
+        "filesize": 881456,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/city-horses-i-boden/cityhorses-by-bystro%cc%88m-ka%cc%88llblad_photo_tina_axelsson_-scaled/",
+        "alt": "",
+        "author": "54",
+        "description": "",
+        "caption": "",
+        "name": "cityhorses-by-bystro%cc%88m-ka%cc%88llblad_photo_tina_axelsson_-scaled",
+        "status": "inherit",
+        "uploaded_to": 292,
+        "date": "2022-04-18 13:32:12",
+        "modified": "2022-04-18 13:32:12",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2560,
+        "height": 1707,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-300x200.jpg",
+          "medium-width": 300,
+          "medium-height": 200,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-768x512.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 427,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-1024x683.jpg",
+          "large-width": 640,
+          "large-height": 427,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-1536x1024.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1024,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-2048x1366.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1366,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2022/04/CityHorses-by-Byström-Källblad_photo_Tina_Axelsson_-scaled-1-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "I samverkan med Konstfrämjandet Norrbotten visas verket City Horses av duon Byström Källblad i Boden den 4:e juni 2022.",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/292"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=292"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "date": "2021-05-17T15:49:00",
+    "date_gmt": "2021-05-17T13:49:00",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=186"
+    },
+    "modified": "2022-12-14T16:45:16",
+    "modified_gmt": "2022-12-14T15:45:16",
+    "slug": "var-dags-led",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/var-dags-led/",
+    "title": {
+      "rendered": "Var Dags Led"
+    },
+    "content": {
+      "rendered": "<p>Var Dags Led är ett konstverk som hyllar vardagens handlingar och objekt. Verket består av flera delar i olika uttryck och material som uppmuntrar till nyfikenhet för människor och föremål vi möter.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Var Dags Led är ett deltagarbaserat verk i flera lager som utforskar det privata och offentliga och bjuder in till nya sätt att uppmärksamma den egna tillvaron. Utifrån promenader med sju Älvsbybor har en textil väv i flera delar skapats och monterats på tillfälligt utlånade vardagstextilier som sedan återlämnats till deltagarna. Ett textilt konstverk som bara kommer att vara komplett när deltagarna är tillsammans.</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<div class=\"wp-caption\"><img loading=\"lazy\" class=\"aligncenter\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-724x1024.jpg\" alt=\"Sju vävar liknande utsnitt från en karta i blått och dämpat gult utlagda på vardagliga textilobjekt: mössa, gardin, pläd, klänning och reflexväst. Över alla vävarna löper två färgstarka rosa streck.\" width=\"640\" height=\"905\" /></div>\n<p class=\"blank\">&nbsp;</p>\n<p>Genom att låta det alldagliga ta plats är Var Dags Led en hyllning till vardagens handlingar och artefakter. I en tid där våra vanor förändrats, isolering och ensamhet stundvis överväldigat och livsvillkoren skiftat har Ida Isak Westerberg skapat en konstnärlig gestaltning utifrån de textila vardagsobjekt vi omges av och promenaden som aktivitet.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>De textila materialen och promenaderna vävs tätt samman i ett mångsidigt verk i flera delar som sömlöst blandar det privata och allmänna. Det offentliga verkets förutsättningar och definitioner utforskas på samma sätt som Westerberg närmar sig traditionella textila teknikers begränsningar och möjligheter. Viljan att skapa ett offentligt verk som bidrar till att närma sig varandra i ett nedstängt samhälle löper som en rosa tråd från Ida Isak Westerbergs vävar och över i gestaltningar av gångstråk på en karta över de promenader sju Älvsbybor har delat med sig av.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Oavsett om det handlar om promenaden till affären för att handla, för att lämna och hämta på förskolan eller skogspromenaden för att lugna nerverna kan sträckorna som avverkas bitvis skänka en känsla av frihet och kontinuitet. I vår kroppsliga relation till omgivningen förhåller vi oss till den, men stundvis utan att egentligen registrera den eller de föremål vi omges av men emellanåt knappt tänker på.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>I Var Dags Led tillgängliggörs i vardagens promenadstråk olika utblickar på tillvaron. Utan att veta mer om deltagarnas specifika berättelser och bakgrunder tillåts ett utforskande av omgivningarna utifrån tankar om personen som vandrat där innan. Inbjuden att följa i någon annans fotspår kan de redan kända betongsprickorna, torrfurorna och fasadnyanserna plötsligt få en annan innebörd när den egna närmiljön återupptäcks genom en ny vy.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Westerberg har skapat ett verk där det lilla och det stora möts. Den enskildas upplevelse blir samtidigt en del av ett större sammanhang som bidrar till delaktighet och gemenskap.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Ida Isak Westerberg</strong><br />\n&nbsp;<br />\nDen påtagliga viljan att påverka och förändra är lika närvarande i Westerbergs konstnärliga praktik som det oförutsedda. Med vävstolens och garnets nyckfullhet utforskas traditionella metoder och tekniker för att skapa nya oväntade uttryck. Att skapa utrymmen som tillåter vila från vardagens normer och förtryck är tillsammans med speglingar av naturen återkommande i Westerbergs arbete.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Sedan några år tillbaka befinner sig Westerberg på platsen där tankarna under lång tid uppehållit sig och istället för att på distans gestalta en romantiserad bild av naturen används den som en tillgång i den konstnärliga processen – från inspiration för färgval till innehåll och biologisk bearbetning. I förståelsen av det textila arbetets kroppsliga utövande, tempot och vävningens krav på total närvaro har Westerberg i sin studio i Norrbotten hittat hem.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Ida Isak Westerberg, baserad i Älvsbyn, är textilkonstnär. Som en del av Galleri Systers projekt SamArtBete har Westerberg tillsammans med Anna Classon arbetat med projektet Våtmark. Westerberg är utbildad på Handarbetets vänner inom vävning och konstsömnad.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Var Dags Led är har producerats av konstnären <a href=\"https://idaisak.se/\" target=\"_blank\" rel=\"noopener\">Ida Isak Westerberg</a> tillsammans med Konstfrämjandet Norrbotten som en del av <a href=\"https://www.kvinnohistoriska.se/\" target=\"_blank\" rel=\"noopener\">Stockholms Kvinnohistoriskas</a> projekt <a href=\"http://norrbotten.konstframjandet.se/projekt/utom-husen/\" target=\"_blank\" rel=\"noopener\">Utom Husen</a>.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Utom Husen</strong><br />\n&nbsp;<br />\nI Utom Husen utforskas och utformas nya metoder för kulturinstitutioner och konstnärer att bedriva publik, konstnärlig och folkbildande verksamhet i det offentliga rummet.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Utom Husen är ett samverkansprojekt, initierat av Stockholms Kvinnohistoriska, som ska utforska och utforma nya metoder för kulturinstitutioner och konstnärer att bedriva publik, konstnärlig och folkbildande verksamhet i det offentliga rummet. Projektet genomförs i samarbete med Index Foundation, Konstfrämjandet Norrbotten och Konstmuseet i Skövde och konstnärerna Hanni Kamaly, Ida Isak Westerberg och Berith Stennabb.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Förlusten av de fysiska byggnaderna som mötesplats under corona-pandemin har tydliggjort att vi saknar alternativa modeller för kulturupplevelser. Samtidigt är allmänhetens behov av intryck, bildning och samhörighet större än någonsin. Med Utom Husen vill vi tänja på vad som är möjligt och verka för att publiken får uppleva, att konstnärer får skapa och att institutioner sprider kunskap – bortom det fysiska mötet och en permanent byggnad.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>På innovativa och banbrytande sätt utforskas i projektet hur kultur, historia och konst kan gestaltas i de offentliga och digitala rummen, med en förhoppning om att hitta metoder som även på längre sikt kan bryta isolering och främja deltagande, kunskap, konst- och kulturupplevelser och fri åsiktsbildning för de som inte söker sig till befintliga institutioner runt om i landet. Berättelserna från en samtidsdokumentation med kulturarbetare och fokusgrupper om tillgänglighet blir underlag för konstnärerna som sedan fritt får arbeta med att ta fram konstverk som ska ställas ut på tre platser i Sverige under 2021.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><a href=\"https://idaisak.se/\">Vill du veta mer om konstnären Ida Isak Westerberg, besök dens webbplats</a>.<br />\n&nbsp;<br />\n<em><small>Illustrationer &amp; kartor: <a href=\"http://www.emmawesterberg.se/\" target=\"_blank\" rel=\"noopener\">Emma Westerberg</a></small></em></p>\n",
+      "protected": false
+    },
+    "featured_media": 188,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#b7ddf1",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 188,
+        "id": 188,
+        "title": "Var Dags Led",
+        "filename": "2400px_VarDagsLed_IdaIsakWesterberg.jpg",
+        "filesize": 1683393,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/var-dags-led/var-dags-led/",
+        "alt": "Sju vävar liknande utsnitt från en karta i blått och dämpat gult utlagda på vardagliga textilobjekt: mössa, gardin, pläd, klänning och reflexväst. Över alla vävarna löper två färgstarka rosa streck.",
+        "author": "51",
+        "description": "",
+        "caption": "Var Dags Led är ett konstverk som hyllar vardagens handlingar och objekt. Utifrån promenader med sju Älvsbybor har Ida Isak Westerberg skapat en textil väv i flera delar som  monterats på tillfälligt utlånade vardagstextilier som sedan återlämnats till deltagarna. Ett textilt konstverk som bara kommer att vara komplett när deltagarna är tillsammans.Verket och promenaderna har dokumenterats och skildrats i en karta som förbipasserande har möjlighet att ta del av vid varje promenads startpunkt i Älvsbyn med omnejd.\n_\nIda Isak Westerberg, baserad i Älvsbyn, är textilkonstnär och utbildad på Handarbetets vänner inom vävning och konstsömnad.",
+        "name": "var-dags-led",
+        "status": "inherit",
+        "uploaded_to": 186,
+        "date": "2021-05-17 11:49:08",
+        "modified": "2021-05-17 11:53:44",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 3395,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-212x300.jpg",
+          "medium-width": 212,
+          "medium-height": 300,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-768x1086.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 905,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-724x1024.jpg",
+          "large-width": 640,
+          "large-height": 905,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg.jpg",
+          "1536x1536-width": 1086,
+          "1536x1536-height": 1536,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg.jpg",
+          "2048x2048-width": 1448,
+          "2048x2048-height": 2048,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2021/05/2400px_VarDagsLed_IdaIsakWesterberg-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Var Dags Led utforskar det privata och offentliga och bjuder in till nya sätt att uppmärksamma den egna tillvaron.  ",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/186"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media/188"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=186"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 142,
+    "date": "2020-10-14T10:05:29",
+    "date_gmt": "2020-10-14T08:05:29",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=142"
+    },
+    "modified": "2021-06-23T19:32:40",
+    "modified_gmt": "2021-06-23T17:32:40",
+    "slug": "luleabiennalen-2020-tiden-pa-jorden",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2020-tiden-pa-jorden/",
+    "title": {
+      "rendered": "Luleåbiennalen 2020 &#8211; Tiden på jorden"
+    },
+    "content": {
+      "rendered": "<p>Årets utställningar och program kommer att ta plats i Luleå, Boden, Malmberget, Arjeplog och Korpilombolo. Förutom ett 10-tal utställningar kommer 2020 års upplaga också att inkludera ett turnerande litteraturprogram, dramatik, radio och en journal.<br />\n&nbsp;<br />\nLuleåbiennalen 2020 tar grepp om den spekulativa frågan om vad ’realism’, som begrepp, uttryck och paradigm, skulle kunna betyda idag. De inbjudna konstnärerna berättar genom sina verk om verkligheter relaterade till samhälleliga system: byråkrati, massmediala logiker och industriell infrastruktur; men de föreslår också inbrott som utmanar och kastar omkull dessa rådande ordningar: strejken, magin och inte minst konsten själv med dess subversiva<br />\npotential.<br />\n&nbsp;<br />\nI en tid som brister i utopiska perspektiv, vad innehåller påståendet om att ett eller annat begär om en annan, mer jämlik värld, är ’orealistiskt’? Med konstens hjälp avtäcks det verkliga för konsten kan få oss att tänka annorlunda, och potentiellt återuppfinna föreställningar om vad som är realistiskt. Biennalen sätter dikotomier mellan det nyttigt nödvändiga och det kulturellt överflödiga ur spel. Hur kan vi istället förstå konsten som en rekreation, en grundbult i ett hälsosamt samhälle, nu mer betydande än någonsin?<br />\n&nbsp;<br />\n<strong>Arbetslaget för Luleåbiennalen 2020:</strong> Karin Bähler Lavér, Malin Hüber, Emily Fahlén, Asrin Haidari &amp; Olle Arbman.<br />\n&nbsp;<br />\n<strong>Medverkande konstnärer:</strong> Dimen Abdulla, Linnea Axelsson, Chto Delat?, Elisabete Finger &amp; Manuela Eichner, Giorgi Gago Gagoshidze, Aage Gaup, Beatrice Gibson, Apostolos Georgiou, Maria W Horn, Thomas Hämén, Susanna Jablonski, Ingela Johansson, Kapwani Kiwanga, Birgitta Linhart, Hanna Ljungh, Michele Masucci &amp; Karl Sjölund, Fathia Mohidin, Santiago Mostyn, Christian Nyampeta, Ingrid Ogenstedt, Didem Pekün with KHORA, Charlotte Posenenske, Sofia Restorp, Iris Smeds, Augusta Strömberg, Cara Tolmie, Isak Sundström, Erik Thörnqvist, Tommy Tommie, Danae Valenza, Ana Vaz, Mats Wikström, Peter Weiss &amp; Hans Nordenström, Måns Wrange, Markus Öhrn &amp; David Väyrynen.<br />\n&nbsp;<br />\n<strong>Luleåbiennalen 2020 görs i samarbete med:</strong> Konsthallen i Luleå, Norrbottens museum, Galleri Syster, KKV Luleå, Swedish Lapland Air, Havremagasinet, Silvermuseet, Korpilombolo Nattfestival, Gällivare museum och Statens konstråd.<br />\n&nbsp;<br />\n<strong>Luleåbiennalen 2020 genomförs med stöd av:</strong> Luleå Kommun, Region Norrbotten, Statens Kulturråd, Statens Konstråd, Konstnärsnämnden, Nordisk Kulturfond, Sparbanken Nord, SAHA Association Turkey.<br />\n&nbsp;<br />\n<strong>Öppningsvecka 19 november till 22 november. Officiell invigning i Luleå den 21 November.</strong><br />\n&nbsp;<br />\n<a href=\"http://www.luleabiennial.se/sv\">Läs mer om årets upplaga av Luleåbiennalen på biennalens egen webbplats</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#e8d95a",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 162,
+        "id": 162,
+        "title": "Från vänster till höger: Måns Wrange, The History of Goodness, 1991–1999. Beatrice Gibson, Deux Soeurs Qui Ne Sont Pas Soeurs (Two Sisters Who Are Not Sisters), 2019. Charlotte Posenenske, Serie D, 1967.",
+        "filename": "E-flux-LB20.jpg",
+        "filesize": 2081542,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2020-tiden-pa-jorden/e-flux-lb20/",
+        "alt": "Från vänster till höger: Måns Wrange, The History of Goodness, 1991–1999. Beatrice Gibson, Deux Soeurs Qui Ne Sont Pas Soeurs (Two Sisters Who Are Not Sisters), 2019. Charlotte Posenenske, Serie D, 1967.",
+        "author": "51",
+        "description": "Från vänster till höger: Måns Wrange, The History of Goodness, 1991–1999. Beatrice Gibson, Deux Soeurs Qui Ne Sont Pas Soeurs (Two Sisters Who Are Not Sisters), 2019. Charlotte Posenenske, Serie D, 1967.",
+        "caption": "Från vänster till höger: Måns Wrange, The History of Goodness, 1991–1999. Beatrice Gibson, Deux Soeurs Qui Ne Sont Pas Soeurs (Two Sisters Who Are Not Sisters), 2019. Charlotte Posenenske, Serie D, 1967.",
+        "name": "e-flux-lb20",
+        "status": "inherit",
+        "uploaded_to": 142,
+        "date": "2020-10-20 19:42:43",
+        "modified": "2020-10-23 11:43:05",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2294,
+        "height": 1000,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-300x131.jpg",
+          "medium-width": 300,
+          "medium-height": 131,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-768x335.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 279,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-1024x446.jpg",
+          "large-width": 640,
+          "large-height": 279,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 670,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 893,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/E-flux-LB20-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "2020 är det återigen dags för en av Sveriges största konsthändelser att inta Norrbotten! Luleåbiennalen är en internationell biennal för samtidskonst, i utställningarna möts globala och hyperlokala perspektiv.",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/142"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=142"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 139,
+    "date": "2020-10-14T10:03:49",
+    "date_gmt": "2020-10-14T08:03:49",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=139"
+    },
+    "modified": "2022-08-22T17:55:58",
+    "modified_gmt": "2022-08-22T15:55:58",
+    "slug": "korpela-land",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/korpela-land/",
+    "title": {
+      "rendered": "Korpela Land"
+    },
+    "content": {
+      "rendered": "<p>Dagens ovissa livsvillkor medför inte sällan en allt mer dystopisk framtidsbild som skapar en längtan efter övertygande och enkla lösningar. Kortlivade domedagssekter som Korpelarörelsen är inget unikt men fortsätter att förundra. I Tornedalen och Malmfälten var Korpelarörelsen under 1930-talet en lockelse, inte minst utifrån rykten om vad som pågick bakom stängda dörrar. Långt efter rörelsens aktiva period låg dessa ofta till grund för missvisande historieskrivningar och en stor skamfylld tystnad. Kvar fanns även efterdyningar av de övergrepp som begåtts under sektens verksamma år.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Att konstnärlig utforska ett historiskt skeende utifrån rådande normer och värdegrunder erbjuder sätt att närma sig skakande händelser och ett ännu känsligt ämne för många i Norrbotten. <em>Korpela Land</em> är ett konstnärligt koncept som närmar sig en väckelserörelse som genom generationer av förtegenhet fortsatt att intressera. Arkivmaterial om rörelsen från Norrbottniska arkiv och privatpersoners sparade material och berättelser tolkas genom olika samtidskonstnärliga uttryck. Besökare erbjuds utifrån <em>Korpela Land</em> och en samtida konstkontext att ta del av hur bilden av övertygelse, tro och fanatism skildrat Korpelarörelsen och påverkat människor och samhällen i Norrbotten.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><em>Korpela Land</em> är ett samverkansprojekt som presenteras av Konstfrämjandet Norrbotten och Institutet i Vitsaniemi. Projektet består av samtidskonstutställningen <em><a href=\"https://korpelaland.com/Det-ar-hemskt-nara-nu\">Det är hemskt nära nu</a></em>, det allomfattande performanceverket <em><a href=\"https://korpelaland.com/Vackelsen\">Väckelsen</a></em> och black metal-bandet <em><a href=\"https://korpelaland.com/Korpelarorelsen\">Korpelarörelsen</a></em>.</p>\n<p class=\"blank\">&nbsp;</p>\n<p><em>Korpela Land</em> tar huvudsakligen plats i Kiruna, intill Luossajärvisjön som var central inom Korpelarörelsen och idag är delvis tömd med anledning av den statliga gruvverksamheten. Projektets alla delar kommer vara möjliga att ta del av på plats i Kiruna. Bandet Korpelarörelsen kommer även att spela i Vitsaniemi.</p>\n<p><strong> </strong></p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Medverkande konstnärer:</strong> Andreas R. Andersson, Karin Drake, Hanna Kanto, Linn Hilda Lamberg, Pontus Lindvall, Tilda Lovell, Oskar Nilsson, Roland Persson, Benjamin Quigley, Anna Karin Rasmusson, Lena Ylipää.</p>\n<p><strong> </strong></p>\n<p><strong><em><small><br />\n</small></em></strong><small>_</small><strong><small></small><em><small><br />\n</small></em></strong><em><small>Foto: Alan Pedder</small></em></p>\n<p><b> </b><b> </b></p>\n<p><b> </b></p>\n<p class=\"blank\">&nbsp;</p>\n<p><b>Om utställningen <em>Det är hemskt nära nu</em></b></p>\n<p><span style=\"font-weight: 400\">För den som spenderat tid i glesbygdens mindre samhällen där anonymitet sällan blir mer än en teoretisk konstruktion, är viskningarna över kaffet ett återkommande inslag. Från de sänkta rösterna som tillsammans med ljudet av klirrande porslin sipprat in i barndomens lek under köksbordet till nyfikna frågor om de hemvändandes släktträd i kön till kassan på den lokala närbutiken. En konformism där sociala konstruktioner slagits fast generationer bakåt i tiden. Här finns både en trygghet och omsorg i att vara en del av ett sammanhang och en ofrånkomlighet i hur vassa tungors formuleringar kan bli en del av kollektivt vedertagna sanningar, svåra att undkomma. Att oavkortat tillskrivas ansvar för händelser som börjat i en annan tid och att aldrig helt ges frihet att forma sin egen berättelse utan att inbjuda till elakt skvaller blir grogrund för en allmänmänsklig drivkraft och längtan efter någonting annat. En katalysator för att omformulera tillvaron och förändra landskapet den inryms i.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">Alla platser har sina egna historier med delar som gärna återberättas och delar som faller i glömska. Sedan finns det berättelser som de om Korpelarörelsen. Sådana som oftare återgetts av andra än dem skildringarna handlat om. Som en självbevarelsedrift för att uthärda de egna och omgivningens åsikter uppstod en tystnad kring Korpelarörelsen. En tystnad som också blev en lockelse och ett tomrum möjligt att i stor utsträckning fylla med oemotsagda sanningar för den som önskade det.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">Det finns en avvägning mellan respekten att lämna saker orörda, att med tiden låta dem mattas av till vaga minnesbilder hos ett ständigt minskande antal människor, och behovet av att skapa förståelse för händelser som påverkat individer och samhällen under flera generationer. Det är inte alltid självklart när nog med tid passerat för att kunna närma sig ett ämne och problematisera det utifrån samtida perspektiv. Att konstnärligt utforska ett historiskt skeende utifrån rådande normer och värdegrunder erbjuder sätt att ta sig an ett ännu känsligt ämne för många i Norrbotten.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">Kortlivade domedagssekter är inget unikt fenomen varken historiskt eller i nutid. Sett i ett längre perspektiv ligger den stora skillnaden i hur budskap sprids och kommuniceras. Ordval och avsändare har alltid värderats med olika tyngd beroende på hur de relaterar till varandra och sin samtids sociala konstruktioner och värdegrunder. Hängivna anhängare och aktiva motståndare kan på kort tid nå stor spridning för att förmedla tankar och känslor oavsett om de är förankrade i fakta eller inte. Oavhängigt om traditionen är muntlig eller digital och kravet ökat på att källkritiskt kunna granska information som sprids finns det en återkommande dragningskraft till det förbjudna, det som förfasar och upprör. I Tornedalen och Malmfälten var Korpelarörelsen under 1930-talet en lockelse, inte minst utifrån rykten om vad som pågick bakom stängda dörrar. Långt efter rörelsens aktiva period låg dessa ofta till grund för missvisande historieskrivningar och en stor skamfylld tystnad.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">Som betraktare kan det ligga nära till hands att på betryggande avstånd döma och avfärda. Skildringar av händelser som kan känns svårförståeliga, snarast tramsiga och stundvis helt oförlåtliga hålls vid liv då de för en stund erbjuder en respit och ett alternativ till vardagens rutiner. Med ett empatiskt förhållningssätt blir detta utforskande mer än ett nyfiket voyeuristiskt kliv in i någon annans levda historia. Konsten har en förmåga att skapa en realitet som istället för att vika undan från verkligheten skildrar den utan att lämna entydiga svar. Genom att låta skapandet växa fritt utifrån varierande uttryck och material ges det oväntade utrymme i nyproducerade verk som förvaltar historiska, medmänskliga och personliga ingångar till väckelserörelsen. Med ett omsorgsfullt tillvägagångssätt söker konstnärerna och konsten i Det är hemskt nära nu efter olika sätt att förstå och skapa insikt. Utan att förringa, provocera eller skildra en samlad historisk återblick återges och problematiseras skeenden ur flera olika perspektiv som bjuder in till eftertanke och reflektion. Ett sensationslystet tolkningsföreträde får stå tillbaka för en önskan att lära känna sin samtid genom att betrakta sin historia.</span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><span style=\"font-weight: 400\">Genom olika konstnärliga utblickar på livet och den egna tillvaron gestaltas maktstrukturer, gruppdynamik och religiös övertygelse genom frigörelse och ofrånkomligt utebliven frälsning. Utifrån samtida kontexter berör konsten i utställningen hur de till synes mest avlägsna värderingar, både i tid och uttryck inte alltid ligger så långt bort. Korpelarörelsen är ingenting unikt men fortsätter att förundra och locka utifrån ovissa livsvillkor som inte sällan medför en allt mer dystopisk framtidsbild och en längtan efter övertygande och enkla lösningar.  </span></p>\n<p><span style=\"font-weight: 400\"> </span></p>\n<p><em><span style=\"font-weight: 400\">Curator Maria Ragnestam</span></em></p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<p><em><small>_<br />\nTiteln på utställningen är ett citat från en av Korpelarörelsens låttexter av David Väyrynen</small></em></p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Bildarkiv</strong><br />\n<img loading=\"lazy\" width=\"1024\" height=\"683\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/korpela-land-2.jpg\" alt=\"\" class=\"alignleft size-full wp-image-344\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/korpela-land-2.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/korpela-land-2-300x200.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/korpela-land-2-768x512.jpg 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><br />\n<small>Andreas R. Andersson, <em>När jordens rening uteblev</em>, 2020-21. Platsspecifik skulptur. Övergivna skogs- och jordbruksmaskinersom förstörts av skogsbränder, översvämningar och köld. Salt, kedjor, sprayfärg och gruvdamm. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"1903\" height=\"2560\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-351\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-scaled.jpg 1903w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-223x300.jpg 223w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-761x1024.jpg 761w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-768x1033.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-1142x1536.jpg 1142w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/karindrake_manifesting_abundance_feedback_loop-1523x2048.jpg 1523w\" sizes=\"(max-width: 1903px) 100vw, 1903px\" /><br />\n<small>Karin Drake, <em>Manifesting Abundance Feedback Loop</em>, 2021. Installation och video. Datorskärm, skrivbord, stol, högtalare, kamera. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2560\" height=\"1274\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-350\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-scaled.jpg 2560w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-300x149.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-1024x510.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-768x382.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-1536x765.jpg 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/hannakanto_Perkeleen_portot_helvettiin-2048x1019.jpg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" /><br />\n<small>Hanna Kanto, <em>Perkeleen portot helvettiin!</em>, 2021. Olja, tusch och akryl på duk. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2560\" height=\"1920\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-356\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-scaled.jpg 2560w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-300x225.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-1024x768.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-768x576.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-1536x1152.jpg 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-2048x1536.jpg 2048w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/pontuslindvall_korpela_land_shop_och_cafe-480x360.jpg 480w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" /><br />\n<small>Pontus Lindvall, <em>Shop &#038; Café Korpela Land</em>, 2021. Installation. Hörnskåp, skänk, bord, bänkar, keramik, skumgummi, trä, lysrör, knäckebröd. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"1000\" height=\"751\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/myren.jpg\" alt=\"\" class=\"alignleft size-full wp-image-354\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/myren.jpg 1000w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/myren-300x225.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/myren-768x577.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/myren-480x360.jpg 480w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" /><br />\n<small>Tilda Lovell, <em>Myren</em>, 2021. Skulptur med videoprojektion. Bord, naturmaterial, små objekt i blandteknik, animation. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2560\" height=\"1655\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-355\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-scaled.jpg 2560w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-300x194.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-1024x662.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-768x497.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-1536x993.jpg 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/oskarnilsson_altartavla_med_ljus-2048x1324.jpg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" /><br />\n<small>Oskar Nilsson, <em>Altartavla med ljus</em>, 2021. Triptyk. Olja på duk. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2560\" height=\"1707\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-357\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-scaled.jpg 2560w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-300x200.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-1024x683.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-768x512.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-1536x1024.jpg 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/rolandpersson_det_langa_nuet-2048x1365.jpg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" /><br />\n<small>Roland Persson, <em>Det långa nuet</em>, 2001-2021. Installation. Silikonavgjutningar, trä, bladsilver. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"2560\" height=\"1707\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-348\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-scaled.jpg 2560w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-300x200.jpg 300w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-1024x683.jpg 1024w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-768x512.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-1536x1024.jpg 1536w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/annakarinrasmusson_det_rena_barnet-2048x1366.jpg 2048w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" /><br />\n<small>Anna-Karin Rasmusson, <em>Det rena barnet</em>, 2021. Videoinstallation. Video, madrass. Foto: LKP</small><br />\n&nbsp;<br />\n<img loading=\"lazy\" width=\"1950\" height=\"2560\" src=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-scaled.jpg\" alt=\"\" class=\"alignleft size-full wp-image-352\" srcset=\"http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-scaled.jpg 1950w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-229x300.jpg 229w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-780x1024.jpg 780w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-768x1008.jpg 768w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-1170x1536.jpg 1170w, http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/lenaylipaa_arkivet1-1560x2048.jpg 1560w\" sizes=\"(max-width: 1950px) 100vw, 1950px\" /><br />\n<small>Lena Ylipää, <em>Arkivet &#8211; långsamhetens läsning</em>, 2021. Installation. Arkivskåp, teckningar, arkivmaterial. Foto: LKP</small></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "color": "#6e9ead",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 140,
+        "id": 140,
+        "title": "AfterlightImage 5 (1)",
+        "filename": "AfterlightImage-5-1.jpg",
+        "filesize": 2859347,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1.jpg",
+        "link": "http://norrbotten.konstframjandet.se/projekt/korpela-land/afterlightimage-5-1/",
+        "alt": "",
+        "author": "47",
+        "description": "",
+        "caption": "",
+        "name": "afterlightimage-5-1",
+        "status": "inherit",
+        "uploaded_to": 139,
+        "date": "2020-10-14 07:59:08",
+        "modified": "2020-10-14 07:59:08",
+        "menu_order": 0,
+        "mime_type": "image/jpeg",
+        "type": "image",
+        "subtype": "jpeg",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 4476,
+        "height": 4000,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-150x150.jpg",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-300x268.jpg",
+          "medium-width": 300,
+          "medium-height": 268,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-768x686.jpg",
+          "medium_large-width": 640,
+          "medium_large-height": 572,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-1024x915.jpg",
+          "large-width": 640,
+          "large-height": 572,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1.jpg",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1373,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1.jpg",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 1830,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-480x360.jpg",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-640x640.jpg",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2020/10/AfterlightImage-5-1-125x125.jpg",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "excerpt": "Korpela Land är ett tredelat koncept som utifrån ett samtida perspektiv närmar sig Korpelarörelsen – en väckelserörelse som påverkat generationer av Norrbottningar.",
+      "aside-images": false,
+      "is_archived": true,
+      "anniversary": false,
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/139"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=139"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 121,
+    "date": "2019-12-09T14:16:32",
+    "date_gmt": "2019-12-09T13:16:32",
+    "guid": {
+      "rendered": "http://norrbotten.konstframjandet.se/?post_type=kf-project&#038;p=121"
+    },
+    "modified": "2020-10-20T22:31:22",
+    "modified_gmt": "2020-10-20T20:31:22",
+    "slug": "luleabiennalen-2018-tidjord",
+    "status": "publish",
+    "type": "kf-project",
+    "link": "http://norrbotten.konstframjandet.se/projekt/luleabiennalen-2018-tidjord/",
+    "title": {
+      "rendered": "Luleåbiennalen 2018: Tidjord"
+    },
+    "content": {
+      "rendered": "<p><em>Aldrig visste man vilka<br />\nvillkor som skapats<br />\ni vintermörkret* </em><br />\n&nbsp;<br />\nUnder den mörka tiden på året, november–februari, är soltimmarna sex om dagen i Sveriges nordligaste region, Norrbotten. I samklang med perioden under vilken Luleåbiennalen 2018 infaller, tar vi fasta på mörkret i landskapet som en premiss att tänka utifrån och att arbeta med.<br />\n&nbsp;<br />\nTiteln på biennalen, Tidjord, är benämningen för den periodiska rörelsen av jordskorpan som uppstår p g a månen och solens gravitation, en rörelse parallell med tidvattnets. Ljus och mörker avlöser varandra rytmiskt i enlighet med den omgivande geografin.<br />\n&nbsp;<br />\nNorrbottens geografiska position, med sin närhet till Finland och Ryssland, har historiskt sett gjort området till en aktiv militär zon. En laddad och strategisk gränstrakt där bl a en hel stad, med fem fort, växt fram för att försvara landet från inkräktare. Landskapet är rikt på vatten, malm och skog. Utvinningen av dessa resurser har lämnat djupa sår. Tystade forsar, gapande gropar, en stad som kollapsar i jorden. Är mörkret en del av dessa berättelser?<br />\n&nbsp;<br />\nMörkret som begrepp är huvudsakligen laddat med negativa associationer, sammankopplat destruktivitet och fördärv. Biennalen väcker frågor om vad en mörk tid kan sägas innebära: att det sociala och politiska våldet liksom tiden är en periodisk rörelse? Eller att mörkret är en för alltid närvarande premiss att navigera i? I så fall – går dess ok att förhandla och samtidigt förstås som en potential för tänkande, drömmande och projektion? En position där sinnena skärps, ett rum där tid och plats kan upplösas och nya konturer uppenbara sig.<br />\n&nbsp;<br />\nMed avstamp i de norrbottniska landskapen och med stark inspiration från dess samtida poesi-scen, skapas en serie släckta utställningsrum i städerna Luleå, Boden, Jokkmokk, Kiruna och Korpilombolo. I verk om tystade vattenfall, den påhittade vildmarken och väntan på ett krig som aldrig kommer dras paralleller till besläktade historier i andra bergstrakter, vid andra flodbanker och hav. Men här finns också verk som frångår en faktisk geografi, som kopplas upp mot drömmen och lättar från marken. Landskapet förstås som en plats där kontroll utövas och övergrepp begås, men också som en plats från vilken vi kan lära oss något om oss själva. Finns motståndet i landskapet och i dess rytmer?<br />\n&nbsp;<br />\n<em>*Ur Linnea Axelssons diktepos Aednan (2018)</em><br />\n&nbsp;<br />\n<strong>Curatorer:</strong> Emily Fahlén, Asrin Haidari, Thomas Hämén<br />\n&nbsp;<br />\n<strong>Medverkande konstnärer:</strong> Francis Alÿs, Henrik Andersson, Marwa Arsanios, Monira Al Qadiri, Filippa César &amp; Louis Henderson, Anna Dacque, Vishal K Dar, Ingela Ihrman, Isak Hall, Louise Hendersson, Susanna Jablonski, Lap-See Lam, Hiwa K, Hanni Kamaly, Britta Marakatt-Labba, Nikos Markou, Olof Marsja, Didem Pekün, Katarina Pirak Sikku, Agnieszka Polska, Raqs Media Collective, Residence-in-Nature (Johanna Gustafsson Fürst, Ingvild Holm, Hans Isaksson, Åsa Jungnelius, Olof Marsja;Esko Männikö, Oscar Männikö, Gustaf Nordenskiöld, Lisa Torell, Markus Vallien), Neda Saeedi, Karl Sjölund, Zhou tao, Alexandros Tzannis, Ulla Wiggen, Susanne M. Winterling, Anja Örn<br />\n&nbsp;<br />\n<strong>Luleåbiennalen 2018 görs i samarbete med:</strong> Ájtte – Svenskt fjäll- och samemuseum Jokkmokk, Blackis &#8211; Folkets hus i Svartöstaden, Folkets Bio Luleå, Galleri Syster, Havremagasinet Boden, Iaspis, Kiruna Konstgille, Konstnärernas Kollektivverkstad, Luleå konsthall, Medborgarhuset Korpilombolo, Mjölkuddsberget Luleå, Norrbottens museum, Residence-in-Nature Marttigården hembygdsgård Lainio, Resurscentrum för Konst i Norrbotten, Rödbergsfortet Boden, Statens konstråd, Södra delen av centrumhalvön Luleå, TEG Publishing, Umeå konsthögskola<br />\n&nbsp;<br />\n<strong>Luleåbiennalen 2018 genomförs med stöd av:</strong> Luleå Kommun, Region Norrbotten, Kulturrådet, Svenska Postkodstiftelsen</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "meta": [],
+    "acf": {
+      "layout": [
+        {
+          "acf_fc_layout": "fullscreen_image",
+          "image": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/5.LAP-SEE.jpg",
+          "caption": "Lap-See Lam, Mother of Lightning, 2018, på Ájtte, Svenskt Fjäll- och Samemuseum"
+        },
+        {
+          "acf_fc_layout": "p_with_image",
+          "sub_headline": "17/11 2018–17/2 2019",
+          "text": "<p>Efter att ha legat i dvala i fem år återuppstår Skandinaviens äldsta konstbiennal med ett program som sträcker sig över ett vidsträckt geografiskt område med konsthändelser och utställningar i Luleå, Boden, Jokkmokk såväl som Kiruna och Korpilombolo. 37 konstnärer medverkar i årets upplaga, varav åtta konstnärer bidrar med nyproducerade verk.</p>\n<p>&nbsp;</p>\n<p>Biennalen kommer även att presentera performance, uppmärksamma offentliga verk och arrangera filmprogram. Därutöver kommer en internationell konferens om anti-fascistisk organisering bland aktivister, konstnärer och tänkare att äga rum mot slutet av utställningsperioden, 15–17 februari.</p>\n<p>&nbsp;</p>\n<p>Curatorer: Emily Fahlén, Asrin Haidari och Thomas Hämén<br />\nHuvudman: Konstfrämjandet</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>TIDJORD</p>\n<p>Aldrig visste man vilka<br />\nvillkor som skapats<br />\ni vintermörkret *</p>\n<p>&nbsp;</p>\n<p>Under den mörka tiden på året, november–februari, är soltimmarna sex om dagen i Sveriges nordligaste region, Norrbotten. I samklang med perioden under vilken Luleåbiennalen 2018 infaller, tar vi fasta på mörkret i landskapet som en premiss att tänka utifrån och att arbeta med.</p>\n<p>&nbsp;</p>\n<p>Titeln på biennalen, <em>Tidjord</em>, är benämningen för den periodiska rörelsen av jordskorpan som uppstår p g a månen och solens gravitation, en rörelse parallell med tidvattnets. Ljus och mörker avlöser varandra rytmiskt i enlighet med den omgivande geografin.</p>\n<p>&nbsp;</p>\n<p>Norrbottens geografiska position, med sin närhet till Finland och Ryssland, har historiskt sett gjort området till en aktiv militär zon. En laddad och strategisk gränstrakt där bl a en hel stad, med fem fort, växt fram för att försvara landet från inkräktare. Landskapet är rikt på vatten, malm och skog. Utvinningen av dessa resurser har lämnat djupa sår. Tystade forsar, gapande gropar, en stad som kollapsar i jorden. Är mörkret en del av dessa berättelser?</p>\n<p>&nbsp;</p>\n<p>Mörkret som begrepp är huvudsakligen laddat med negativa associationer, sammankopplat destruktivitet och fördärv. Biennalen väcker frågor om vad en mörk tid kan sägas innebära: att det sociala och politiska våldet liksom tiden är en periodisk rörelse? Eller att mörkret är en för alltid närvarande premiss att navigera i?  I så fall – går dess ok att förhandla och samtidigt förstås som en potential för tänkande, drömmande och projektion? En position där sinnena skärps, ett rum där tid och plats kan upplösas och nya konturer uppenbara sig.</p>\n<p>&nbsp;</p>\n<p>Med avstamp i de norrbottniska landskapen och med stark inspiration från dess samtida poesi-scen, skapas en serie släckta utställningsrum i städerna Luleå, Boden, Jokkmokk, Kiruna och Korpilombolo. I verk om tystade vattenfall, den påhittade vildmarken och väntan på ett krig som aldrig kommer dras paralleller till besläktade historier i andra bergstrakter, vid andra flodbanker och hav. Men här finns också verk som frångår en faktisk geografi, som kopplas upp mot drömmen och lättar från marken. Landskapet förstås som en plats där kontroll utövas och övergrepp begås, men också som en plats från vilken vi kan lära oss något om oss själva. Finns motståndet i landskapet och i dess rytmer?</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>*Ur Linnea Axelssons diktepos Aednan (2018)</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Medverkande konstnärer</strong></p>\n<p>Francis Alÿs<br />\nHenrik Andersson<br />\nMarwa Arsanios<br />\nMonira Al Qadiri<br />\nFilipa César &amp; Louis Henderson<br />\nAnna Dacqué<br />\nVishal K Dar<br />\nIngela Ihrman<br />\nIsak Hall<br />\nLouis Hendersson<br />\nSusanna Jablonski<br />\nLap-See Lam<br />\nHiwa K<br />\nHanni Kamaly<br />\nBritta Marakatt-Labba<br />\nNikos Markou<br />\nOlof Marsja<br />\nDidem Pekün<br />\nKatarina Pirak Sikku<br />\nAgnieszka Polska<br />\nRaqs Media Collective<br />\nResidence-in-Nature<br />\nNeda Saeedi<br />\nKarl Sjölund<br />\nZhou Tao<br />\nAlexandros Tzannis<br />\nUlla Wiggen<br />\nSusanne M. Winterling<br />\nAnja Örn</p>\n",
+          "image": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/10.-Galleri-Syster-installationsvy-1.jpg",
+          "caption": "Ingela Ihrman, Inre vind (2018)",
+          "qoute": ""
+        }
+      ],
+      "excerpt": "2018 återuppstår Skandinaviens äldsta konstbiennal med ett program som sträcker sig över ett vidsträckt geografiskt område med konsthändelser och utställningar i Luleå, Boden, Jokkmokk, Kiruna, Korpilombolo och Lainio.",
+      "anniversary": false,
+      "dropcap": true,
+      "color": "#6a9350",
+      "show_on_startpage": false,
+      "image": {
+        "ID": 119,
+        "id": 119,
+        "title": "karta-1024x1022",
+        "filename": "karta-1024x1022.png",
+        "filesize": 1147083,
+        "url": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022.png",
+        "link": "http://norrbotten.konstframjandet.se/karta-1024x1022/",
+        "alt": "",
+        "author": "39",
+        "description": "",
+        "caption": "",
+        "name": "karta-1024x1022",
+        "status": "inherit",
+        "uploaded_to": 0,
+        "date": "2019-12-09 12:44:34",
+        "modified": "2019-12-09 12:44:34",
+        "menu_order": 0,
+        "mime_type": "image/png",
+        "type": "image",
+        "subtype": "png",
+        "icon": "http://norrbotten.konstframjandet.se/wp-includes/images/media/default.png",
+        "width": 2400,
+        "height": 2395,
+        "sizes": {
+          "thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-150x150.png",
+          "thumbnail-width": 150,
+          "thumbnail-height": 150,
+          "medium": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-300x300.png",
+          "medium-width": 300,
+          "medium-height": 300,
+          "medium_large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-768x766.png",
+          "medium_large-width": 640,
+          "medium_large-height": 638,
+          "large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-1024x1022.png",
+          "large-width": 640,
+          "large-height": 639,
+          "1536x1536": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022.png",
+          "1536x1536-width": 1536,
+          "1536x1536-height": 1533,
+          "2048x2048": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022.png",
+          "2048x2048-width": 2048,
+          "2048x2048-height": 2044,
+          "kf-tip": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-480x360.png",
+          "kf-tip-width": 480,
+          "kf-tip-height": 360,
+          "square-large": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-640x640.png",
+          "square-large-width": 640,
+          "square-large-height": 640,
+          "post-thumbnail": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/karta-1024x1022-125x125.png",
+          "post-thumbnail-width": 125,
+          "post-thumbnail-height": 125
+        }
+      },
+      "aside-images": [
+        {
+          "image": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/5.LAP-SEE.jpg",
+          "caption": "Lap-See Lam, Mother of Lightning, 2018, på Ájtte, Svenskt Fjäll- och Samemuseum"
+        },
+        {
+          "image": "http://norrbotten.konstframjandet.se/wp-content/uploads/sites/19/2019/12/10.-Galleri-Syster-installationsvy-1.jpg",
+          "caption": "Ingela Ihrman, Inre vind, 2018, på Galleri Syster, Luleå"
+        }
+      ],
+      "is_archived": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project/121"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/kf-project"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/types/kf-project"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://norrbotten.konstframjandet.se/wp-json/wp/v2/media?parent=121"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

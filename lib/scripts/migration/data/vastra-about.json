@@ -1,0 +1,176 @@
+[
+  {
+    "id": 136,
+    "date": "2019-06-20T14:24:45",
+    "date_gmt": "2019-06-20T12:24:45",
+    "guid": {
+      "rendered": "http://vastra.konstframjandet.se/?post_type=kf-about&#038;p=136"
+    },
+    "modified": "2019-06-20T14:35:54",
+    "modified_gmt": "2019-06-20T12:35:54",
+    "slug": "medlemmar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vastra.konstframjandet.se/om/medlemmar/",
+    "title": {
+      "rendered": "Medlemmar"
+    },
+    "content": {
+      "rendered": "<div class=\"gmail_default\">\n<p>Qalam</p>\n</div>\n<div class=\"gmail_default\">\n<p><a href=\"https://www.facebook.com/dekolonialafeminister/\">Forum för Dekoloniala Feminister</a></p>\n</div>\n<div class=\"gmail_default\">\n<p><a href=\"http://gbgpoesifestival.se\">Göteborgs poesifestival</a></p>\n</div>\n<div class=\"gmail_default\">Mer Än Ord</div>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about/136"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/media?parent=136"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 135,
+    "date": "2019-06-20T14:23:06",
+    "date_gmt": "2019-06-20T12:23:06",
+    "guid": {
+      "rendered": "http://vastra.konstframjandet.se/?post_type=kf-about&#038;p=135"
+    },
+    "modified": "2019-06-20T14:36:18",
+    "modified_gmt": "2019-06-20T12:36:18",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vastra.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<div class=\"gmail_default\"><strong>Ordförande</strong></div>\n<div class=\"gmail_default\">Sam Venegas (Mer Än Ord)</div>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Kassör<br />\n</strong>Kim Einarsson (Folkrörelsernas Konstfrämjande)</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Sekreterare<br />\n</strong>Sabrin Jaja (Qalam, Forum för Dekoloniala Feminister)</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Ledamöter</strong></p>\n<p><em>Representanter från</em></p>\n<div class=\"gmail_default\">Qalam</div>\n<div class=\"gmail_default\">Forum för Dekoloniala Feminister</div>\n<div class=\"gmail_default\">Göteborgs poesifestival</div>\n<div class=\"gmail_default\">Mer Än Ord</div>\n<div class=\"gmail_default\"></div>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about/135"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/media?parent=135"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 134,
+    "date": "2019-06-20T14:21:33",
+    "date_gmt": "2019-06-20T12:21:33",
+    "guid": {
+      "rendered": "http://vastra.konstframjandet.se/?post_type=kf-about&#038;p=134"
+    },
+    "modified": "2019-06-20T14:37:22",
+    "modified_gmt": "2019-06-20T12:37:22",
+    "slug": "om-konstframjandet-goteborg",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vastra.konstframjandet.se/om/om-konstframjandet-goteborg/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Västra"
+    },
+    "content": {
+      "rendered": "<p>Efter många år med olika samarbetsprojekt i regionen startade Konstfrämjandet år 2019 upp ett distrikt i Göteborg. Distriktets verksamhet bygger vidare på den som bedrivits genom de tidigare projekten, och fokus ligger på delaktighet, självorganisering och postkoloniala perspektiv på konstscenen.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about/134"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vastra.konstframjandet.se/wp-json/wp/v2/media?parent=134"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

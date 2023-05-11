@@ -1,0 +1,1235 @@
+[
+  {
+    "item": {
+      "createdAt": "2021-02-01T14:44:03",
+      "image": {
+        "url": "http://vastmanland.konstframjandet.se/wp-content/uploads/sites/5/2021/02/sredIMG_9515.jpg",
+        "title": ""
+      },
+      "title": "Skogen mellan oss/En konsthall i skogens kant",
+      "intro": "Skogen mellan oss är en unik interregional konstsatsning. Sex av Konstfrämjandets distrikt i Mellansverige fångar in ett utbrett intresse för skogen som företeelse inom konsten.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "Skogen mellan oss är en unik interregional konstsatsning. Sex av Konstfrämjandets distrikt i Mellansverige fångar in ett utbrett intresse för skogen som företeelse inom konsten. Med en gemensam identitet skapas en serie utställningar och aktiviteter som i tid äger rum parallellt och överlappande. Ett förenat konstprogram knyter under 2021 samman närmare tjugo platser, byar och mindre orter. Tillsammans med konstnärer, föreningsliv, allmänheten, i offentliga rum och mellan generationer, bildas en viral svärm av konst som blir synlig lokalt och nationellt.",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "http://gavleborg.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Gävleborg",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "url": "http://dalarna.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Dalarna",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "url": "http://uppland.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Uppland",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "url": "http://vastmanland.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Västmanland",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "url": "http://bergslagen.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Bergslagen",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": "\n",
+                  "type": "span"
+                },
+                {
+                  "url": "http://varmland.konstframjandet.se/",
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Värmland",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "http://skogenmellanoss.se/?fbclid=IwAR2z7ib-xsILg1fkz4aFjPPhHtc_bimK4PYiYOLS6p6nrufUx1oTDfHqQTo",
+                  "children": [
+                    {
+                      "value": "Hemsida med program för Skogen mellan oss",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "https://www.instagram.com/skogenmellanoss/",
+                  "children": [
+                    {
+                      "value": "Följ Skogen mellan oss på Instagram",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Konstfrämjandet Västmanland genomför ditt delprojekt i Norberg genom projektet En konsthall i skogens kant – se längre ner.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Skogen mellan oss skapar konst och kultur på platser som sällan eller aldrig nås av samtida konst. I ett större geografiskt område knyts också dessa platser samman till en större gemenskap.",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": " Projektet lyfter fram likheter mellan skogsnära glesbygd, var de än finns, och ser detta som något som förenar istället för något som håller dem isär. Syftet är att bryta bilden av glesbygden som ett kluster av isolerade lokala öar, och samtidigt lyfta fram den periferi som uppstår i de geografiska utkanter ett centraliserat konstliv skapar. Det vill säga spänningsfältet mellan de urbana konstinstitutionerna och civilsamhällets aktörer i glesbygden. På så vis möjliggör vi nya kopplingar mellan människor på landsbygden och främjar en interregional organisering av mindre resurssvaga konstaktörer. Skogen som en grön kub, konceptuellt att jämföra med den vita utställningskuben, är ett sätt att utmana våra tankar om konstutställning på platser som helt saknar en infrastruktur för att visa konst. Skogen som tematik, och utställningarnas samtidighet i tid och utsträckning i geografin, skapar igenkänning och gemenskap. En gemenskap som även förenar publiken och projektens deltagare.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Under hösten 2019 har kulturpolitik och kulturens värde debatterats i media, som ett eko av ekonomiska nedskärningar och politikers ovilja att låta kulturen verka på en armlängds avstånd. Återigen talar Myndigheten för kulturanalys om att kulturen främst vänder sig till välmående stadsbor, och att detta förstärks med ekonomiska nedskärningar. Myndigheten har därför varnat för att det håller på att växa fram vita fläckar på Sverigekartan, där medborgarna inte nås av något som helst allmänfinansierad, professionell konst eller kultur. Glesbygd och landsort ryms inte längre på prioriteringslistan. Det är på de vita fläckarna som Skogen mellan oss breder ut sig. Nya kartor ritas över glesbygdens platser, av konstnärer i samverkan med enskilda personer och det civilsamhälle som bor och verkar där.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Konstfrämjandet ser sedan länge att det finns ett stort behov av att satsa på kulturens strukturer i glesbygd och att samtidskonstens inslag kan motverka den polarisering som växer mellan stad och landsbygd. Vi behöver uppfinna nya former för att stärka glesbygden som en arena för konst, utspridda platser som tillsammans kan stärka varandra. Former anpassade efter de förutsättningar och möjligheter som finns där, på varje plats.",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Skogen utgör ett betydande inslag i formandet av identiteten hos oss som bor i det här landet. Genom att bo här tvingas vi på något sätt ha en relation till skogen. Den är också omskriven genom landets historia. Vår identitet och vår konst- och kulturhistoria rymmer många föreställningar om skogen. Men den skog och natur som vi tänker oss som det naturligaste av natur, är också en konstruerad natur.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Skogen är med andra ord inte ett unikt tema. Inte för vår tid. Inte heller historiskt. Absolut inte i konsten. ",
+                  "type": "span"
+                },
+                {
+                  "value": "Den stora skalan i Skogen mellan oss är det som främst gör projektet unikt. Detta bidrar till att vi kan möjliggöra en mångfald av ingångar i skogen. Flera av vår tids mest angelägna frågor utgår därifrån. Äganderätt och allemansrätt. Skogsbruk och rekreation. Mystik och klimatförändringar. Industrihistoria och migration. Naturhistoria och näringslära. Jakt och naturskydd. Kulturhistoria. Material, hantverk… ",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                },
+                {
+                  "value": "Alltifrån trä, papper, lera, lin till kol och biobränsle har sitt ursprung i skogen, förutom de mindre förädlade svamparna och bären. Och mycket mer. Projektet kommer aldrig göra anspråk på att vara heltäckande. Men vi vill berika projektet med så många olika perspektiv som det finns möjlighet att iscensätta – och det kan anslå en mångfald som pekar på att skogen som källa är närmast outtömlig. Vi vill belysa konstens betydelse för enskilda och samhället. Parallellt med distriktens olika konstprojekt låter vi såväl skribenter, författare och en fotograf följa arbetet ute i distrikten. Det blir en fotodokumentation av varje delprojekt. Och i en cirkelrörelse materialiseras de konstnärliga i arbetena från skogen i en bok, en bok av papper från skogens träd.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Skogen mellan oss kan ses som inledningen på en långsiktig satsning på en enhetlig strukturell arena för konst på landet, en immateriell infrastruktursatsning på den landsbygd som ligger inbäddad i den svenska skogen. Och genom de delprojekt som genomförs ger Skogen mellan oss nya bilder och nya upplevelser av det stora, djupa och vidsträckta gröna.",
+                  "marks": [
+                    "strong"
+                  ],
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "https://www.instagram.com/skogenmellanoss/",
+                  "children": [
+                    {
+                      "value": "Följ Skogen mellan oss på Instagram",
+                      "type": "span"
+                    }
+                  ],
+                  "meta": [
+                    {
+                      "id": "target",
+                      "value": "_blank"
+                    },
+                    {
+                      "id": "rel",
+                      "value": "noopener"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "http://skogenmellanoss.se/?fbclid=IwAR2z7ib-xsILg1fkz4aFjPPhHtc_bimK4PYiYOLS6p6nrufUx1oTDfHqQTo",
+                  "children": [
+                    {
+                      "value": "Hemsida med program för Skogen mellan oss",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "link"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "value": "Konstfrämjandet Västmanland genomför ditt delprojekt i Norberg genom projektet En konsthall i skogens kant.",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            },
+            {
+              "children": [
+                {
+                  "url": "https://us10.list-manage.com/contact-form?u=636d7e6e6110b38f1d19d7801&form_id=7275ce3a85eb797be87af7c126087fd0",
+                  "children": [
+                    {
+                      "value": "Anmäl dig",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "link"
+                },
+                {
+                  "value": " till vårt nyhetsbrev",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "dropcap": true,
+      "color": {
+        "red": 95,
+        "green": 165,
+        "blue": 51,
+        "alpha": 255
+      },
+      "completed": true,
+      "slug": "skogen-mellan-oss",
+      "district": "122565546",
+      "subprojects": [
+        {
+          "createdAt": "2021-02-19T15:09:37",
+          "image": {
+            "url": "http://vastmanland.konstframjandet.se/wp-content/uploads/sites/5/2021/02/smallred.jpg",
+            "title": "En konsthall i skogens kant /Picknickfilten"
+          },
+          "title": "En konsthall i skogens kant",
+          "content": {
+            "schema": "dast",
+            "document": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "value": "Med utgångspunkt från Tingshusparken genomförs konstprogrammet En konsthall i skogens kant, som undersöker vad en temporär konsthall i Norberg kan vara. Genom konsthallen erbjuds ett flertal utställningar, workshops, diskussioner, residens och en inbjudan att låna konsthallen.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "url": "http://skogenmellanoss.se/?fbclid=IwAR2z7ib-xsILg1fkz4aFjPPhHtc_bimK4PYiYOLS6p6nrufUx1oTDfHqQTo",
+                      "children": [
+                        {
+                          "value": "Hemsida med program för Skogen mellan oss",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "link"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Picknickfilten som en mobil konsthall har kommit till genom en konstnärlig samverkan och en kollektiv undersökning av vad en konsthall kan vara. Filten, som här blir golv, förhåller sig specifikt till Norberg, en plats där det finns många historiska men även outnyttjade ytor som skulle kunna användas för konstutställningar och konstprojekt. Konsthallen som filtar (8 st) bär vi med oss, breder ut, sätter oss på, spiller på och diskuterar ifrån. Den blir en yta vi fyller med konst, kroppar, erfarenheter och upplevelser under dess rörelse genom Norberg tillsammans med publiken.",
+                      "type": "span"
+                    },
+                    {
+                      "value": " ",
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": " ",
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Med inspiration från Norbergs historia och en vävd Norbergsduk har gruppen utvecklat de estetiska och konceptuella ramarna för konsthallen. Konsthallen mobilitet möjliggör ett möte mellan konst och kontext som kan lyfta nya perspektiv och diskussioner i en komplex samtid. Medverkande konstnärer för framtagning av En konsthall i skogens kant är Malin Lobell, Åsa Norman, Jenny Berntsson och skådespelaren Klas Olsson.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Konsthallen kommer ta oss till vad som skulle kunna vara exempel på konsthallar; Åsa Normans konstverk  Till alla er som tvättat här, i Klackberget – en konsthall utan väggar. Till Jenny Berntssons verk Pinnverket i Nordansjö vid NOK-stugan – en konsthall i en bortglömd ruin. Till Tingshuset – en konsthall med väggar och historia, som genom Malin Lobells verk Jag håller en skog i mina händer aktiveras. Filten som konsthall  kommer även samla till konstpolitiska diskussioner, så kallade Skogstorg, till konstpodden Open Calls och även till andra kulturarrangemang i Norberg, i samarbete med kommunen och andra arrangörer.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Se http://skogenmellanoss.se/distrikt/vastmanland/",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Kanske vill du skapa en utställning? Bjuda in till en performance? Göra en poesiuppläsning, konstyoga eller syjunta? Eller vill du undersöka en plats, skapa en mötesplats, en diskussion? Då kan du som invånare eller organisation i Norberg hämta En konsthall i skogens kant (picknickfilten) på Tingshuset och själv skapa en tillfällig utställning någonstans i Norberg.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Kontakt för att hämta En konsthall i skogens kant: jenny.berntsson@konstframjandet.se, tfn. 0708-152732",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Användning av konsthallen är gratis – men vi efterfrågar ödmjukt dokumentation från händelsen och att konsthallen återlämnas i gott skick.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Se det uppdaterade programmet genom program/arrangemang!",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "root"
+            }
+          },
+          "dropcap": true,
+          "slug": "projekt-i-skogen-mellan-oss",
+          "district": "122565546"
+        }
+      ]
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52864843"
+              },
+              "title": "Skogen mellan oss/En konsthall i skogens kant",
+              "intro": "Skogen mellan oss är en unik interregional konstsatsning. Sex av Konstfrämjandets distrikt i Mellansverige fångar in ett utbrett intresse för skogen som företeelse inom konsten.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "Skogen mellan oss är en unik interregional konstsatsning. Sex av Konstfrämjandets distrikt i Mellansverige fångar in ett utbrett intresse för skogen som företeelse inom konsten. Med en gemensam identitet skapas en serie utställningar och aktiviteter som i tid äger rum parallellt och överlappande. Ett förenat konstprogram knyter under 2021 samman närmare tjugo platser, byar och mindre orter. Tillsammans med konstnärer, föreningsliv, allmänheten, i offentliga rum och mellan generationer, bildas en viral svärm av konst som blir synlig lokalt och nationellt.",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "http://gavleborg.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Gävleborg",
+                              "type": "span"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://dalarna.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Dalarna",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://uppland.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Uppland",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://vastmanland.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Västmanland",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://bergslagen.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Bergslagen",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": "\n",
+                          "type": "span"
+                        },
+                        {
+                          "url": "http://varmland.konstframjandet.se/",
+                          "children": [
+                            {
+                              "value": "Konstfrämjandet Värmland",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "http://skogenmellanoss.se/?fbclid=IwAR2z7ib-xsILg1fkz4aFjPPhHtc_bimK4PYiYOLS6p6nrufUx1oTDfHqQTo",
+                          "children": [
+                            {
+                              "value": "Hemsida med program för Skogen mellan oss",
+                              "type": "span"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "https://www.instagram.com/skogenmellanoss/",
+                          "children": [
+                            {
+                              "value": "Följ Skogen mellan oss på Instagram",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Konstfrämjandet Västmanland genomför ditt delprojekt i Norberg genom projektet En konsthall i skogens kant – se längre ner.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Skogen mellan oss skapar konst och kultur på platser som sällan eller aldrig nås av samtida konst. I ett större geografiskt område knyts också dessa platser samman till en större gemenskap.",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": " Projektet lyfter fram likheter mellan skogsnära glesbygd, var de än finns, och ser detta som något som förenar istället för något som håller dem isär. Syftet är att bryta bilden av glesbygden som ett kluster av isolerade lokala öar, och samtidigt lyfta fram den periferi som uppstår i de geografiska utkanter ett centraliserat konstliv skapar. Det vill säga spänningsfältet mellan de urbana konstinstitutionerna och civilsamhällets aktörer i glesbygden. På så vis möjliggör vi nya kopplingar mellan människor på landsbygden och främjar en interregional organisering av mindre resurssvaga konstaktörer. Skogen som en grön kub, konceptuellt att jämföra med den vita utställningskuben, är ett sätt att utmana våra tankar om konstutställning på platser som helt saknar en infrastruktur för att visa konst. Skogen som tematik, och utställningarnas samtidighet i tid och utsträckning i geografin, skapar igenkänning och gemenskap. En gemenskap som även förenar publiken och projektens deltagare.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Under hösten 2019 har kulturpolitik och kulturens värde debatterats i media, som ett eko av ekonomiska nedskärningar och politikers ovilja att låta kulturen verka på en armlängds avstånd. Återigen talar Myndigheten för kulturanalys om att kulturen främst vänder sig till välmående stadsbor, och att detta förstärks med ekonomiska nedskärningar. Myndigheten har därför varnat för att det håller på att växa fram vita fläckar på Sverigekartan, där medborgarna inte nås av något som helst allmänfinansierad, professionell konst eller kultur. Glesbygd och landsort ryms inte längre på prioriteringslistan. Det är på de vita fläckarna som Skogen mellan oss breder ut sig. Nya kartor ritas över glesbygdens platser, av konstnärer i samverkan med enskilda personer och det civilsamhälle som bor och verkar där.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Konstfrämjandet ser sedan länge att det finns ett stort behov av att satsa på kulturens strukturer i glesbygd och att samtidskonstens inslag kan motverka den polarisering som växer mellan stad och landsbygd. Vi behöver uppfinna nya former för att stärka glesbygden som en arena för konst, utspridda platser som tillsammans kan stärka varandra. Former anpassade efter de förutsättningar och möjligheter som finns där, på varje plats.",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Skogen utgör ett betydande inslag i formandet av identiteten hos oss som bor i det här landet. Genom att bo här tvingas vi på något sätt ha en relation till skogen. Den är också omskriven genom landets historia. Vår identitet och vår konst- och kulturhistoria rymmer många föreställningar om skogen. Men den skog och natur som vi tänker oss som det naturligaste av natur, är också en konstruerad natur.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Skogen är med andra ord inte ett unikt tema. Inte för vår tid. Inte heller historiskt. Absolut inte i konsten. ",
+                          "type": "span"
+                        },
+                        {
+                          "value": "Den stora skalan i Skogen mellan oss är det som främst gör projektet unikt. Detta bidrar till att vi kan möjliggöra en mångfald av ingångar i skogen. Flera av vår tids mest angelägna frågor utgår därifrån. Äganderätt och allemansrätt. Skogsbruk och rekreation. Mystik och klimatförändringar. Industrihistoria och migration. Naturhistoria och näringslära. Jakt och naturskydd. Kulturhistoria. Material, hantverk… ",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        },
+                        {
+                          "value": "Alltifrån trä, papper, lera, lin till kol och biobränsle har sitt ursprung i skogen, förutom de mindre förädlade svamparna och bären. Och mycket mer. Projektet kommer aldrig göra anspråk på att vara heltäckande. Men vi vill berika projektet med så många olika perspektiv som det finns möjlighet att iscensätta – och det kan anslå en mångfald som pekar på att skogen som källa är närmast outtömlig. Vi vill belysa konstens betydelse för enskilda och samhället. Parallellt med distriktens olika konstprojekt låter vi såväl skribenter, författare och en fotograf följa arbetet ute i distrikten. Det blir en fotodokumentation av varje delprojekt. Och i en cirkelrörelse materialiseras de konstnärliga i arbetena från skogen i en bok, en bok av papper från skogens träd.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Skogen mellan oss kan ses som inledningen på en långsiktig satsning på en enhetlig strukturell arena för konst på landet, en immateriell infrastruktursatsning på den landsbygd som ligger inbäddad i den svenska skogen. Och genom de delprojekt som genomförs ger Skogen mellan oss nya bilder och nya upplevelser av det stora, djupa och vidsträckta gröna.",
+                          "marks": [
+                            "strong"
+                          ],
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "https://www.instagram.com/skogenmellanoss/",
+                          "children": [
+                            {
+                              "value": "Följ Skogen mellan oss på Instagram",
+                              "type": "span"
+                            }
+                          ],
+                          "meta": [
+                            {
+                              "id": "target",
+                              "value": "_blank"
+                            },
+                            {
+                              "id": "rel",
+                              "value": "noopener"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "http://skogenmellanoss.se/?fbclid=IwAR2z7ib-xsILg1fkz4aFjPPhHtc_bimK4PYiYOLS6p6nrufUx1oTDfHqQTo",
+                          "children": [
+                            {
+                              "value": "Hemsida med program för Skogen mellan oss",
+                              "type": "span"
+                            }
+                          ],
+                          "type": "link"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "value": "Konstfrämjandet Västmanland genomför ditt delprojekt i Norberg genom projektet En konsthall i skogens kant.",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    },
+                    {
+                      "children": [
+                        {
+                          "url": "https://us10.list-manage.com/contact-form?u=636d7e6e6110b38f1d19d7801&form_id=7275ce3a85eb797be87af7c126087fd0",
+                          "children": [
+                            {
+                              "value": "Anmäl dig",
+                              "type": "span"
+                            }
+                          ],
+                          "type": "link"
+                        },
+                        {
+                          "value": " till vårt nyhetsbrev",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "dropcap": true,
+              "color": {
+                "red": 95,
+                "green": 165,
+                "blue": 51,
+                "alpha": 255
+              },
+              "completed": true,
+              "slug": "skogen-mellan-oss",
+              "district": "122565546",
+              "subpage": [
+                "142588865"
+              ]
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452646",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd6bd609ebe10c5-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:55:20 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "7ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "58",
+          "x-request-id": "5226e4bb-dd28-4cc2-a13f-c664d9fbcfe0",
+          "x-runtime": "0.042675",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "3017da",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "slug",
+                  "field_id": "7577568",
+                  "field_label": "Permalänk",
+                  "field_type": "slug",
+                  "code": "VALIDATION_UNIQUE",
+                  "options": {}
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at migrateProjects (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/projects.ts:122:9)\n    at async Promise.allSettled (index 2)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  },
+  {
+    "item": {
+      "createdAt": "2019-07-24T11:40:49",
+      "image": {
+        "url": "http://vastmanland.konstframjandet.se/wp-content/uploads/sites/5/2019/07/urskurRGBbanner-1.jpg",
+        "title": ""
+      },
+      "title": "Konsthall Ur & Skur",
+      "intro": "En konstnärsdriven lekplats för barn, unga, vuxna och äldre under bar himmel.",
+      "content": {
+        "schema": "dast",
+        "document": {
+          "children": [
+            {
+              "children": [
+                {
+                  "value": "***Konsthall i ur och skur – återkomsten 2021***",
+                  "type": "span"
+                }
+              ],
+              "type": "paragraph"
+            }
+          ],
+          "type": "root"
+        }
+      },
+      "color": {
+        "red": 105,
+        "green": 149,
+        "blue": 191,
+        "alpha": 255
+      },
+      "slug": "682-2",
+      "district": "122565546",
+      "subprojects": [
+        {
+          "createdAt": "2021-04-12T14:54:04",
+          "title": "Konsthall Ur & Skur 2019",
+          "content": {
+            "schema": "dast",
+            "document": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "value": "Konsthall Ur och Skur – i skala 1:1 på Råby",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Konstfrämjandet Västmanland i samarbete med Västerås konstmuseum startar i slutet av juli Konsthall Ur och Skur på Råby, en konstnärsdriven lekplats för barn, unga, vuxna och äldre under bar himmel. Arbetet är en stadsdelslek för alla åldrar där makthavare, allmänheten, näringslivet och föreningslivet bjuds in att leka med tanken på vad ett rum för kultur är och kan vara. I en ännu outnyttjad del av lekparken mellan Tornsvalegatan och Lövsångargatan skapas under sommaren en mötesplats för workshops, stadsdelsmöten, knytkalas och odling i parken. I mitten av konsthallen har det 10 meter långa Råbybordet byggts efter ett koncept av formgivaren Vidar Hertov som i samarbetet med Konstfrämjandet Västmanland tagit fram en ritning och en manual till ett kollektivt stadsdelsbord, enkelt att bygga själv. Runt bordet startas successivt odlingslådor upp som grannar, konstnärer och gäster bjuds in att forma och sköta om. På så vis bildar bordet interiören och odlingslådorna bildar väggarna på konsthallen.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Till Konsthall Ur och Skur har konstnären Linnea Hansander bjudits in för att skapa ett konstverk tillsammans med barn på Fredriksbergsskolans sommarlovsfritids och andra som vill vara med.",
+                      "type": "span"
+                    },
+                    {
+                      "value": "\n",
+                      "type": "span"
+                    },
+                    {
+                      "value": "I Linneas arbete Leken kommer hon att med barnen undersöka sociala gränser och markörer för vad lek är, kan och får vara. De kommer under sommaren dyka upp på oväntade platser på Råby där de bjuder in till de lekar som de har uppfunnit.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Den 31 augusti kl 15.00-20.00 avslutas sommarens konstnärliga arbete med en utställning på Konsthall Ur och Skur. Det blir en gårdsfest med mat och en scen med musikern och poeten Jonas Filling som (z)scenmästare, en presentation av Linnea Hansanders verk Leken som gjorts tillsammans med barnen från Fredriksbergskolan/sommarlovsaktiviteterna, en presentation av konstnären Fikret Atay med visning av ett urval av hans filmer och en screening i samverkan med Västerås konstmuseum. Detaljerat programblad kommer i början av augusti.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Att använda lek som huvudingrediens i ett konstnärligt skapande har en lång tradition på Råby med den historiska startpunkten Ballongen 1969 (Nielsen, Sohlman) som var ett tidigt konstprojekt där barnets kreativitet gavs en framskjuten plats i samtalet om hur vi bygger ett solidariskt samhälle tillsammans. De senaste 5 åren har Konstfrämjandet Västmanland och Västerås konstmuseum årligen skapat konst på Råby (Dungen/Wätte, Törrönen, Wid, Beutler/Råby Planet, Billing m.fl.). Konstfrämjandet Västmanland och Västerås Konstmuseum vill med den här satsningen väcka tanken på långsiktighet kring konst på Råby och ser arbetet som starten på en hållbar modell som samlar in all den kunskap kring kreativitet, lek och konst som gjorts på Råby med barn, unga, vuxna och äldre genom åren. En helt egen Råbymodell att vara stolt över och att sprida.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Arbetet sker i samarbetet med Bostads Mimer AB / Gröna Mimer, Hyresgästföreningen, Folkrörelsernas Konstfrämjande, Urban utveckling och Lyktan.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Konsthall Ur och Skur och sommarlovsaktiviteterna på Fredriksbergsskolan görs med stöd av Västerås Stad.",
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "value": "Illustration av: Marcus Ivarsson",
+                      "marks": [
+                        "emphasis"
+                      ],
+                      "type": "span"
+                    }
+                  ],
+                  "type": "paragraph"
+                },
+                {
+                  "children": [
+                    {
+                      "url": "https://www.datocms-assets.com/94618/1682427224-poster-konsthall-ur-och-skur.pdf",
+                      "children": [
+                        {
+                          "value": "Flyer med program",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "link"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              ],
+              "type": "root"
+            }
+          },
+          "dropcap": true,
+          "slug": "konsthall-ur-skur-2019",
+          "district": "122565546"
+        }
+      ]
+    },
+    "error": {
+      "request": {
+        "url": "https://site-api.datocms.com/items",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "accept": "application/json",
+          "authorization": "Bearer 10dfb3953f46f2d30a0a9a52f476a2",
+          "user-agent": "@datocms/cma-client v1.2.9",
+          "x-include-drafts": "true",
+          "x-environment": "migration",
+          "x-api-version": "3"
+        },
+        "body": {
+          "data": {
+            "type": "item",
+            "attributes": {
+              "image": {
+                "upload_id": "52864846"
+              },
+              "title": "Konsthall Ur & Skur",
+              "intro": "En konstnärsdriven lekplats för barn, unga, vuxna och äldre under bar himmel.",
+              "content": {
+                "schema": "dast",
+                "document": {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "value": "***Konsthall i ur och skur – återkomsten 2021***",
+                          "type": "span"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  ],
+                  "type": "root"
+                }
+              },
+              "color": {
+                "red": 105,
+                "green": 149,
+                "blue": 191,
+                "alpha": 255
+              },
+              "slug": "682-2",
+              "district": "122565546",
+              "subpage": [
+                "142588881"
+              ]
+            },
+            "relationships": {
+              "item_type": {
+                "data": {
+                  "id": "1452646",
+                  "type": "item_type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "response": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "headers": {
+          "access-control-allow-credentials": "true",
+          "access-control-allow-headers": "authorization, content-type, x-environment, x-organization, x-site-domain, x-api-version, user-agent, x-session-id, x-include-drafts, x-exclude-invalid",
+          "access-control-allow-methods": "GET, POST, PUT, OPTIONS, DELETE",
+          "access-control-allow-origin": "*",
+          "access-control-expose-headers": "x-ratelimit-limit, x-ratelimit-remaining, x-ratelimit-reset",
+          "access-control-max-age": "1728000",
+          "cache-control": "no-cache",
+          "cf-cache-status": "DYNAMIC",
+          "cf-ray": "7bd6bded0bc010c5-CPH",
+          "connection": "keep-alive",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=utf-8",
+          "date": "Tue, 25 Apr 2023 12:55:42 GMT",
+          "referrer-policy": "strict-origin-when-cross-origin",
+          "server": "cloudflare",
+          "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+          "transfer-encoding": "chunked",
+          "vary": "Accept,Accept-Encoding",
+          "via": "1.1 vegur",
+          "x-api-version": "3",
+          "x-content-type-options": "nosniff",
+          "x-download-options": "noopen",
+          "x-environment": "migration",
+          "x-frame-options": "SAMEORIGIN",
+          "x-permitted-cross-domain-policies": "none",
+          "x-queue-time": "6ms",
+          "x-ratelimit-limit": "60",
+          "x-ratelimit-remaining": "58",
+          "x-request-id": "427ca7bb-fc25-4969-a17f-92c398053457",
+          "x-runtime": "0.035336",
+          "x-xss-protection": "1; mode=block"
+        },
+        "body": {
+          "data": [
+            {
+              "id": "3017da",
+              "type": "api_error",
+              "attributes": {
+                "code": "INVALID_FIELD",
+                "details": {
+                  "field": "slug",
+                  "field_id": "7577568",
+                  "field_label": "Permalänk",
+                  "field_type": "slug",
+                  "code": "VALIDATION_UNIQUE",
+                  "options": {}
+                }
+              }
+            }
+          ]
+        }
+      },
+      "preCallStack": "Error\n    at Client.Client2.request (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/Client.js:130:225)\n    at Item2.Item2.rawCreate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:298:28)\n    at Item2.Item2.create (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/node_modules/.pnpm/@datocms+cma-client@1.2.9/node_modules/@datocms/cma-client/dist/cjs/generated/resources/Item.js:281:21)\n    at insertRecord (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/index.ts:223:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at migrateProjects (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/projects.ts:122:9)\n    at async Promise.allSettled (index 2)\n    at migrate (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:18:3)\n    at migrateAll (/Users/bebejane/Work/konstochteknik/konstframjandet/konstframjandet-website/lib/scripts/migration/all.ts:10:5)"
+    }
+  }
+]

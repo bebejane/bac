@@ -1,0 +1,350 @@
+[
+  {
+    "id": 386,
+    "date": "2019-09-19T12:18:18",
+    "date_gmt": "2019-09-19T10:18:18",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=386"
+    },
+    "modified": "2021-08-19T15:04:49",
+    "modified_gmt": "2021-08-19T13:04:49",
+    "slug": "tillganglight",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/tillganglight/",
+    "title": {
+      "rendered": "Tillgänglighet"
+    },
+    "content": {
+      "rendered": "<p class=\"p1\"><span class=\"s1\">Är du rullstolsburen är du välkommen in till vår lokal via huvudentrén. Behöver du ta dig till andra våningen finns en hiss i husets bortre gavel. Vid samtliga evenemang finns personal till hands för att hjälpa besökare till rätta. </span><span class=\"s1\">Efter förfrågan kan även syntolkning eller teckentolkning erbjudas. Parkeringsplatser finns i direkt anslutning till vår lokal.</span></p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"p1\"><span class=\"s1\">Har du frågor, kontakta oss gärna på tel: 070 534 68 77</span></p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"p1\"><span class=\"s1\">Uppdaterad: 2021.08.19</span></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/386"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=386"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "date": "2016-12-02T15:36:25",
+    "date_gmt": "2016-12-02T14:36:25",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=303"
+    },
+    "modified": "2016-12-02T15:44:16",
+    "modified_gmt": "2016-12-02T14:44:16",
+    "slug": "kulturkompis",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/kulturkompis/",
+    "title": {
+      "rendered": "Kulturkompis"
+    },
+    "content": {
+      "rendered": "<p>Så här fungerar det:<br />\nKulturkompisgrupper går gratis på tre kulturaktiviteter som erbjuds av kulturaktörer i Umeå. Ni i gruppen bestämmer vad ni ska gå på (av de aktiviteter som erbjuds inom Kulturkompis) och när det passar er bäst. Efter kulturaktiviteten ses gruppen och samtalar kring tre korta frågor om vad ni upplevt, gärna över en kaffe. Detta kallas för &#8221;eftersnack på svenska&#8221;. En kulturkompisgrupp behöver bestå av två nyanlända/asylsökande och två etablerade svenskar. Studieförbundet Bilda sätter ihop grupper utifrån anmälningar som kommer in.</p>\n<p>&nbsp;<br />\nBoka kulturkompisaktivitet på Konstfrämjandet Västerbotten genom clarissa.siimes@konstframjandet.se. Vi erbjuder utställningsvisningar, föreläsningar, workshops mm.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Läs mer och anmäl dig som kulturkompis på<br />\nwww.kulturkompis.nu/umea</p>\n<p class=\"blank\">&nbsp;</p>\n<p class=\"blank\">&nbsp;</p>\n<div class=\"wp-caption\"><img loading=\"lazy\" width=\"300\" height=\"203\" class=\"alignnone size-medium wp-image-304\" src=\"http://vasterbotten.konstframjandet.se/wp-content/uploads/sites/9/2016/12/Kulturkompis-2-rader_med-undertext_svart-300x203.jpg\" alt=\"kulturkompis-2-rader_med-undertext_svart\" srcset=\"http://vasterbotten.konstframjandet.se/wp-content/uploads/sites/9/2016/12/Kulturkompis-2-rader_med-undertext_svart-300x203.jpg 300w, http://vasterbotten.konstframjandet.se/wp-content/uploads/sites/9/2016/12/Kulturkompis-2-rader_med-undertext_svart-1024x693.jpg 1024w, http://vasterbotten.konstframjandet.se/wp-content/uploads/sites/9/2016/12/Kulturkompis-2-rader_med-undertext_svart.jpg 1048w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 6,
+    "template": "",
+    "acf": {
+      "intro": "Kulturkompis- Make Friends Through Culture, ger nyanlända och etablerade svenskar möjligheten att gå på kulturaktiviteter tillsammans – konsert, bio, museum eller liknande – utan kostnad. Projektet är del av Studieförbundet Bildas arbete med nyanlända och asylsökande.<br />\r\n",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/303"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=303"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 251,
+    "date": "2016-03-23T16:30:08",
+    "date_gmt": "2016-03-23T15:30:08",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=251"
+    },
+    "modified": "2018-01-26T11:30:50",
+    "modified_gmt": "2018-01-26T10:30:50",
+    "slug": "konstkonsulent",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/konstkonsulent/",
+    "title": {
+      "rendered": "Konstkonsulent"
+    },
+    "content": {
+      "rendered": "<p>Konstkonsulenterna i Västerbotten bedriver ett långsiktigt och strategiskt arbete för att stärka samtidskonsten i länet. Verksamhetens huvudmål är att skapa bättre förutsättningar för länets yrkesverksamma konstnärer, främja barn- och ungas möjligheter att skapa och uppleva konst samt bredda allmänhetens kunskap och intresse för bild- och formområdet.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>I konstkonsulenternas uppdrag ingår att öka kontaktytorna mellan allmänheten, uppdragsgivare, konstnärer och länets barn och unga genom att stödja verksamheter och initiera projekt. Att möjliggöra barns och ungas egna skapande är en viktig del i konstkonsulentens verksamhet och därför förs en kontinuerlig dialog med länets övriga kulturkonsulenter kring frågor som rör barn och ungas inflytande och delaktighet. Särskilt viktiga samarbetspartners är föreningsliv, skolor och de av länets utställningsarrangörer som arbetar med barn och unga som målgrupper.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstkonsulenterna ingår även i det nationella nätverket Konstkonsulenterna i Sverige som samarbetar kring frågor som berör konstnärernas produktionsvillkor och överlevnad.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>I Västerbotten startades konstkonsulentverksamheten 1998. Sedan 2015 fördelas uppdraget mellan de två nya huvudmännen Konstfrämjandet Västerbotten och Museum Anna Nordlander. Verksamheterna finansieras av Statens kulturråd och Region Västerbotten.</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Från 2015 finns två nya huvudmän för Region Västerbottens konstkonsulentverksamhet: Konstfrämjandet Västerbotten och Museum Anna Nordlander. Tillsammans arbetar vi med uppdraget att främja, stärka och utveckla konstområdet i Västerbotten. Verksamheterna riktas mot yrkesverksamma bild- och formkonstnärer, barn och unga samt allmänheten.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/251"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=251"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 173,
+    "date": "2015-09-09T16:32:17",
+    "date_gmt": "2015-09-09T14:32:17",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=173"
+    },
+    "modified": "2022-12-07T13:01:24",
+    "modified_gmt": "2022-12-07T12:01:24",
+    "slug": "medlemmar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/medlemmar/",
+    "title": {
+      "rendered": "Medlemskap"
+    },
+    "content": {
+      "rendered": "<div class=\"teaser entry-summary\">\n<p>ABF Mitt i Lappland<br />\nABF Umeåregionen<br />\nSocialdemokraterna i Västerbotten<br />\nUmeå Folkets Hus<br />\nIF Metall S Västerbotten<br />\nKommunal Västerbotten<br />\nFolkparken Skellefteå Folkets Hus<br />\nHandelsanställdas förbund, avd 29</p>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Som medlem i Konstfrämjandet Västerbotten ges:</strong></p>\n<p class=\"blank\">&nbsp;</p>\n</div>\n<div class=\"teaser entry-summary\">\n<ul>\n<li>&#8211; möjlighet till utveckling av samarbetsprojekt mellan Konstfrämjandet och den egna organisationen, t ex föreläsningar av konstnärer eller utställningar på arbetsplatsen</li>\n<li></li>\n<li>&#8211; erbjudanden och inbjudningar via nyhetsbrev till vernissager, föreläsningar, seminarier, workshops, konstresor etc.</li>\n<li></li>\n<li>&#8211; tillgång till vårt nätverk av yrkesverksamma bild- och formkonstnärer, utställningsarrangörer, pedagoger, konstvetare, konsthistoriker, studieförbund, kulturföreningar samt branschorganisationer som KRO/KIF och KC Nord</li>\n<li>&#8211; delaktighet i en unik och stolt historia av att möjliggöra “en konst för alla” som arbetar i enlighet med konventionen om de mänskliga rättigheterna, artikel 27 om allas rätt till upplevelse av kultur: &#8221;Var och en har rätt att fritt delta i samhällets kulturella liv, att njuta av konst samt att få ta del av vetenskapens framsteg och dess förmåner.&#8221;</li>\n<li></li>\n<li>&#8211; årsavgiften kostar 2 000 kr för större organisationer och 350 kr för föreningslivet</li>\n</ul>\n<p class=\"blank\">&nbsp;</p>\n<p><strong>Vill du stödja oss och bli medlem, maila vasterbotten@konstframjandet.se.</strong></p>\n</div>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet är en medlemsorganisation med medlemmar spridda över hela Västerbottens län. Medlemmarna består av andra föreningar, organisationer utbildningsväsendet och fack snarare än enskilda personer. Totalt har vi 8 medlemsorganisationer idag.",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/173"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=173"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 94,
+    "date": "2015-08-10T13:35:53",
+    "date_gmt": "2015-08-10T11:35:53",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=94"
+    },
+    "modified": "2023-03-31T12:29:41",
+    "modified_gmt": "2023-03-31T10:29:41",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<p class=\"leadin\"><strong>Styrelsen består av:</strong></p>\n<p>Thomas Hartman, styrelseordförande, SAP Västerbotten<br />\nVeronika Berg, vice styrelseordförande, Norra kvarkenrådet<br />\nKurt-Åke Sjöström, kassör, ABF Umeåregionen<br />\nCarina Eriksson, styrelseledamot, SWEDO<br />\nVeronica Hultman, styrelseledamot, ABF Umeåregionen<br />\nElin Båve, styrelseledamot, Konstnär<br />\nÅsa Jansson Lindberg, styrelseledamot, Kommunal<br />\n&nbsp;<br />\n<strong>Adjungerade:</strong><br />\nClarissa Siimes, verksamhetsledare, Konstfrämjandet Västerbotten (föräldraledig t.o.m. 31 jan 2024)<br />\nMadelen Eliasson, vik. verksamhetsledare, Konstfrämjandet Västerbotten<br />\nFanny Carinasdotter, konstkonsulent, Konstfrämjandet Västerbotten<br />\nMaja Qvarnström, projektledare, Konstfrämjandet Västerbotten<br />\nMaria Ragnestam, verksamhetsutvecklare, Folkrörelsernas Konstfrämjande</p>\n<p class=\"blank\">&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Styrelsen består av representanter från våra medlemmar. Verksamhetsledaren, konstkonsulenten och verksamhetsutvecklaren är kontinuerligt adjungerade.",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/94"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=94"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 91,
+    "date": "2015-08-10T13:29:23",
+    "date_gmt": "2015-08-10T11:29:23",
+    "guid": {
+      "rendered": "http://vasterbotten.konstframjandet.se/?post_type=kf-about&#038;p=91"
+    },
+    "modified": "2022-04-06T14:21:51",
+    "modified_gmt": "2022-04-06T12:21:51",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://vasterbotten.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Västerbotten"
+    },
+    "content": {
+      "rendered": "<p class=\"blank\">&nbsp;</p>\n<p>Konstfrämjandet Västerbotten är en partipolitiskt obunden organisation för samtida konst. Vi utvecklar konstnärliga plattformar för upplevelse, reflektion och diskussion där existentiella, filosofiska och politiska frågor lyfts fram. Konstfrämjandet består av totalt 11 distrikt med ett riksförbund i Stockholm. Vi är det näst nordligaste distriktet i Sverige med Västerbottens län som vårt verksamhetsområde.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Sedan starten 1978 har konstbildningen varit vårt huvuduppdrag. Genom projekt, utställningar, publika arrangemang, workshops etc. arbetar vi enligt devisen konst för alla! Vi samverkar med våra medlemsorganisationer för att främja konsten i hela samhället. Konstintresset ökar och medlemsorganisationerna har de senaste åren fördubblats, till att idag rymma ca 5 miljoner enskilda medlemmar. Konstfrämjandet samverkar också med andra konstfrämjare, allt från enskilda konstnärer till länskonstkonsulenter och myndigheter.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstfrämjandet Västerbotten drivs med verksamhetsstöd av Region Västerbotten och Umeå kommun samt bidrag från våra medlemsorganisationer liksom samverkan med vårt riksförbund.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Uppdraget ”konst för alla”, har följt distriktet Västerbotten sedan det bildades 1978. Uppdraget bygger på en övertygelse om bildningens och konstens frigörande roll och allas tillgång till konst och bildning i ett jämlikt samhälle. ",
+      "dropcap": true
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about/91"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://vasterbotten.konstframjandet.se/wp-json/wp/v2/media?parent=91"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

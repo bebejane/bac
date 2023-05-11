@@ -1,0 +1,176 @@
+[
+  {
+    "id": 35,
+    "date": "2015-12-04T09:42:12",
+    "date_gmt": "2015-12-04T08:42:12",
+    "guid": {
+      "rendered": "http://stockholm.konstframjandet.se/?post_type=kf-about&#038;p=35"
+    },
+    "modified": "2021-06-22T19:37:44",
+    "modified_gmt": "2021-06-22T17:37:44",
+    "slug": "medlemmar",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://stockholm.konstframjandet.se/om/medlemmar/",
+    "title": {
+      "rendered": "Medlemmar"
+    },
+    "content": {
+      "rendered": "<p><strong>Följande är medlemmar i Konstfrämjandet Stockholm:</strong><br />\n&nbsp;<br />\n<a href=\"https://abfstockholm.se\">ABF Stockholm</a><br />\n<a href=\"http://www.allartnow.com\">All Art Now</a><br />\n<a href=\"https://www.artlabgnesta.se\">Art Lab Gnesta</a><br />\n<a href=\"https://bjorkokonstnod.se/\">Björkö Konstnod</a><br />\n<a href=\"https://botkyrkakonsthall.se\">Botkyrka Konsthall</a><br />\n<a href=\"https://www.darramusikochdans.se\">Darra Musik och Dans</a><br />\n<a href=\"https://dokument.org\">Dokument Press</a><br />\n<a href=\"https://www.fisksatramuseum.se\">Föreningen Fisksätra Museum</a><br />\n<a href=\"https://www.fiberartsweden.nu\">Fiber Art Sweden (FAS)</a><br />\n<a href=\"http://medborgarhuset.se\">Hägerstensåsens Medborgarhus</a><br />\n<a href=\"http://www.eggeby.se\">Järva Folkets Park</a><br />\n<a href=\"https://www.konsthallc.se\">Konsthall C</a><br />\n<a href=\"https://kultwatch.se\">Kultwatch</a><br />\n<a href=\"https://kvinnocentertensta-hjulsta.org/kok/om-oss/\">KÖK &#8211; Kvinnor Önskar Kollektivitet</a><br />\n<a href=\"https://marabouparken.se\">Marabouparken</a><br />\n<a href=\"http://www.antoniefrank.se/1480-2/\">Native Moving Images</a><br />\n<a href=\"http://settings.se\">SETTINGS</a><br />\n<a href=\"https://www.skadebananstockholm.se\">Skådebanan Stockholms Län</a><br />\n<a href=\"https://www.folketshusochparker.se/arrangor/ostberga-folkets-hus/\">Östberga Folkets Hus</a><br />\n&nbsp;<br />\n<strong>Intresserad av att bli medlem?</strong><br />\nKontakta oss på <a href=\"mailto:stockholm@konstframjandet.se\">stockholm@konstframjandet.se</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about/35"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/media?parent=35"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "date": "2015-11-30T09:17:20",
+    "date_gmt": "2015-11-30T08:17:20",
+    "guid": {
+      "rendered": "http://stockholm.konstframjandet.se/?post_type=kf-about&#038;p=13"
+    },
+    "modified": "2022-10-26T10:38:11",
+    "modified_gmt": "2022-10-26T08:38:11",
+    "slug": "styrelse",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://stockholm.konstframjandet.se/om/styrelse/",
+    "title": {
+      "rendered": "Styrelse"
+    },
+    "content": {
+      "rendered": "<p><strong>Ordförande<br />\n</strong>Anneli Bäckman, Botkyrka Konsthall<br />\n&nbsp;<br />\n<strong>Vice ordförande</strong><br />\nMacarena Dusant<br />\n&nbsp;<br />\n<strong>Kassör:</strong><br />\nHelen Runting<br />\n&nbsp;<br />\n<strong>Sekreterare</strong><br />\nSteven Cuzner<br />\n&nbsp;<br />\n<strong>Ledamöter</strong><br />\nJenny Richards<br />\nMar Fjäll<br />\nIngela Johansson<br />\nLars Gogman<br />\nMarie Silkesberg</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about/13"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/media?parent=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "date": "2015-11-30T08:54:52",
+    "date_gmt": "2015-11-30T07:54:52",
+    "guid": {
+      "rendered": "http://stockholm.konstframjandet.se/?post_type=kf-about&#038;p=6"
+    },
+    "modified": "2015-12-11T10:57:13",
+    "modified_gmt": "2015-12-11T09:57:13",
+    "slug": "om-konstframjandet",
+    "status": "publish",
+    "type": "kf-about",
+    "link": "http://stockholm.konstframjandet.se/om/om-konstframjandet/",
+    "title": {
+      "rendered": "Om Konstfrämjandet Stockholm"
+    },
+    "content": {
+      "rendered": "<p>En ny styrelse utsågs i maj 2015 och verksamheten inriktas inledningsvis på att utveckla relationer i regionen, finna nya medlemmar och etablera distriktet som en betydande aktör inom samtidskonsten.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Genom den nytillsatta styrelsen utvecklar vi nya samarbeten som bygger på bildningens och konstens frigörande roll och att alla ska ha tillgång till konst och bildning i ett jämlikt samhälle.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Distriktet samverkar redan med flera projekt, och arbetar kontinuerligt med att utforma nya. Arbetet med projekten är processinriktat, samhällstillvänt och ska involvera de människor som bor i hela Stockholmsregionen.</p>\n<p class=\"blank\">&nbsp;</p>\n<p>Konstfrämjandet Stockholm sträcker sig över hela länet och erbjuder en bredd, där konsten kan verka i city såväl som i förort, och nå dem som ofta inte har förutsättningar att uppleva eller delta i konsten.</p>\n",
+      "protected": false
+    },
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "template": "",
+    "acf": {
+      "intro": "Konstfrämjandet Stockholm har nyligen genomgått en förändringsfas och ser nu fram emot att skapa spännande möten mellan konsten och Stockholms invånare.",
+      "dropcap": false
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/kf-about"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/types/kf-about"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "http://stockholm.konstframjandet.se/wp-json/wp/v2/media?parent=6"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
