@@ -16,29 +16,23 @@ import getVideoId from 'get-video-id';
 
 export { default as striptags } from 'striptags'
 export { decodeHTMLEntities, ApiError }
-export const DATOCMS_ENVIRONMENT = 'main'
+
+
+export const DATOCMS_ENVIRONMENT = 'migration'
 export const client = buildClient({ apiToken: process.env.DATOCMS_API_TOKEN, environment: DATOCMS_ENVIRONMENT, extraHeaders: { 'X-Include-Drafts': 'true' } })
 export const toMarkdown = new NodeHtmlMarkdown()
-export const baseDomain = 'konstframjandet.se/wp-json'
-export const noImage = undefined //{ url: 'https://www.datocms-assets.com/94618/1680937798-no-photo-available.png', title: undefined }
+export const baseDomain = 'balticartcenter.com/wp-json'
+export const noImage = undefined
 
-export const buildWpApi = (subdomain: string | undefined) => {
+export const buildWpApi = () => {
 
-	subdomain = subdomain === 'forbundet' ? undefined : subdomain
-
-	console.log(`http://${subdomain ? subdomain + '.' : ''}${baseDomain}`)
 	const wpapi = new WPAPI({
-		endpoint: `http://${subdomain ? subdomain + '.' : ''}${baseDomain}`,
+		endpoint: `https://www.balticartcenter.com/wp-json`,
 		username: process.env.WP_USERNAME,
 		password: process.env.WP_PASSWORD,
-		auth: true
+		//@ts-ignore
+		auth: false
 	});
-
-	wpapi.news = wpapi.registerRoute('wp/v2', '/kf-news/(?P<id>)');
-	wpapi.project = wpapi.registerRoute('wp/v2', '/kf-project/(?P<id>)');
-	wpapi.about = wpapi.registerRoute('wp/v2', '/kf-about/(?P<id>)');
-	wpapi.contact = wpapi.registerRoute('wp/v2', '/kf-contact/(?P<id>)');
-	wpapi.subdomain = subdomain
 	return wpapi
 }
 
@@ -53,6 +47,10 @@ export const allBlockIds = async () => {
 	}
 }
 
+export const allCategories = async (wpapi: WPAPI, lang = 'sv') => {
+	return await wpapi.categories().perPage(100).param({ lang })
+}
+
 export const writeErrors = (errors: any[], subdomain: string, type: string) => {
 	if (errors.length) {
 		fs.writeFileSync(`./lib/scripts/migration/errors/${subdomain}-${type}.error.json`, JSON.stringify(errors, null, 2), { encoding: 'utf8' })
@@ -60,10 +58,7 @@ export const writeErrors = (errors: any[], subdomain: string, type: string) => {
 	}
 }
 
-export const allPages = async (wpapi, type: string, opt = { perPage: 100 }) => {
-
-	if (fs.existsSync(`./lib/scripts/migration/data/${wpapi.subdomain}-${type}.json`))
-		return JSON.parse(fs.readFileSync(`./lib/scripts/migration/data/${wpapi.subdomain}-${type}.json`, { encoding: 'utf8' }))
+export const allPages = async (wpapi, type: string, opt = { perPage: 100, lang: 'sv' }) => {
 
 	const items = []
 	let page = 0;
@@ -71,7 +66,7 @@ export const allPages = async (wpapi, type: string, opt = { perPage: 100 }) => {
 
 	while (true) {
 		try {
-			const res = await wpapi[type]().page(++page).perPage(opt.perPage).param({ status: 'publish' })
+			const res = await wpapi.posts().page(++page).perPage(opt.perPage).param({ status: 'publish', lang: opt.lang })
 			if (res.length === 0 || Object.keys(res).length === 0) break
 			items.push.apply(items, res)
 		} catch (err) {
@@ -130,14 +125,19 @@ export const uploadMedia = async (image, tags: string[] = []) => {
 		tags,
 		default_field_metadata: {
 			en: {
-				title: image.title || null,
+				title: image.title.en || null,
+				alt: null,
+				custom_data: {}
+			},
+			sv: {
+				title: image.title.sv ?? image.title.en ?? null,
 				alt: null,
 				custom_data: {}
 			}
 		},
 	});
 
-	return upload
+	return { upload_id: upload.id }
 }
 
 
@@ -178,28 +178,6 @@ export default async function findOrCreateUploadWithUrl(
 }
 
 
-export async function allDistricts() {
-	const graphQLClient = new GraphQLClient("https://graphql.datocms.com", {
-		headers: {
-			Authorization: process.env.GRAPHQL_API_TOKEN,
-			"X-Environment": DATOCMS_ENVIRONMENT,
-			"X-Exclude-Invalid": 'true',
-		},
-	});
-
-	const { districts } = await graphQLClient.request(gql`
-		{
-			districts: allDistricts(first: 100) {
-				id
-				name
-				subdomain
-				email
-			}
-		}
-	`);
-	return districts;
-}
-
 export const chunkArray = (array: any[], chunkSize: number) => {
 	const newArr = []
 	for (let i = 0; i < array.length; i += chunkSize)
@@ -207,7 +185,7 @@ export const chunkArray = (array: any[], chunkSize: number) => {
 	return newArr
 }
 
-export const insertRecord = async (el: any, itemTypeId: string, tags: string[] = []) => {
+export const insertRecord = async (el: any, itemTypeId: string, tags = []) => {
 
 	if (el.image) {
 		try {
@@ -221,7 +199,12 @@ export const insertRecord = async (el: any, itemTypeId: string, tags: string[] =
 	}
 	try {
 
-		let item = await client.items.create({ item_type: { type: 'item_type', id: itemTypeId }, ...el, createdAt: undefined })
+		let item = await client.items.create({
+			item_type: {
+				type: 'item_type',
+				id: itemTypeId
+			}, ...el, createdAt: undefined
+		})
 
 		if (el.createdAt)
 			item = await client.items.update(item.id, { meta: { created_at: el.createdAt, first_published_at: el.createdAt } })

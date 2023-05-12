@@ -2,6 +2,8 @@ import routes from './routes'
 import { locales, defaultLocale } from '/next.config.mjs'
 export { locales, defaultLocale }
 
+export { default as routes } from './routes'
+
 export const pageSlugs = (id: SectionId, slugs?: PageSlug[]): PageSlug[] => {
 
   return locales.map((locale) => ({

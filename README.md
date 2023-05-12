@@ -1,3 +1,3 @@
-## Luleåbiennalen
+## Baltic Art Center
 
 Website
