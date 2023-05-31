@@ -28,7 +28,7 @@ function App({ Component, pageProps, router }) {
 
   return (
     <>
-      <DefaultDatoSEO siteTitle={siteTitle} site={pageProps.site} />
+      <DefaultDatoSEO siteTitle={siteTitle} site={pageProps.site} path={asPath} />
       <NextIntlProvider messages={pageProps.messages} onError={onMessageError} getMessageFallback={getMessageFallback}>
         <PageProvider value={{ ...page, isHome }}>
           <Layout title={siteTitle} menu={pageProps.menu || []} footer={pageProps.footer}>

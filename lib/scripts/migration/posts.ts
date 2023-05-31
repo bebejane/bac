@@ -20,48 +20,70 @@ import { project_map, event_map } from './maps'
 export const migrateProjects = async () => {
 
   console.time(`import-projects`)
-
+  console.log('Importing posts...')
   const errors = []
 
   try {
 
     const wpapi = buildWpApi()
     const lang = 'en'
-    const itemTypeId = (await itemTypeToId('project'))?.id
+    const projectTypeId = (await itemTypeToId('project'))?.id
+    const eventTypeId = (await itemTypeToId('event'))?.id
     const metaInfoBlockId = (await itemTypeToId('meta_info'))?.id
     const cvBlockId = (await itemTypeToId('cv'))?.id
     const categories = await allCategories(wpapi, lang)
+
     const allPosts = (await allPages(wpapi, 'project', { perPage: 100, lang }))
       .filter(p => p.status === 'publish')
-      .filter(p => p.categories.find(id => categories.find(c => ['projects', 'event', 'projekt', 'evenemang'].includes(c.slug) && c.id === id)))
+      .filter(p => p.categories.find(id => categories.find(c => ['projects', 'projekt', 'events', 'evenemang'].includes(c.slug) && c.id === id)))
 
     fs.writeFileSync(`./lib/scripts/migration/data/posts.json`, JSON.stringify(allPosts, null, 2))
 
-    const posts = []
-    const projects = allPosts
-      .filter(p => p.categories.find(id => categories.find(c => ['projects', 'projekt'].includes(c.slug) && c.id === id)))
+    const projects = allPosts.filter(p => p.categories.find(id => categories.find(c => ['projects', 'projekt'].includes(c.slug) && c.id === id)))
+    const events = allPosts.filter(p => p.categories.find(id => categories.find(c => ['events', 'evenemang'].includes(c.slug) && c.id === id)))
+    const all = projects.concat(events)
+
+    console.log(`Parsing ${all.length} posts...`)
+
+    for (let i = 0; i < all.length; i++) {
+      const post = all[i];
+      if (!post) continue
 
 
-    console.log(`Inserting ${projects.length} projects...`)
+      const type = post.categories.find(id => categories.find(c => ['projects', 'projekt'].includes(c.slug) && c?.id === id)) ? 'project' : 'event'
+      const lang = post.categories.find(id => categories.find(c => (c.slug === 'projects' || c.slug === 'events') && c?.id === id)) ? 'en' : 'sv'
 
-    for (let i = 0; i < projects.length; i++) {
+      const altLang = lang === 'en' ? 'sv' : 'en'
+      const altPostIndex = (type === 'project' ? projects : events).findIndex(p => p?.id === mapWpId(post?.id, type, lang))
+      const altPost = altPostIndex > -1 ? (type === 'project' ? projects : events)[altPostIndex] : null
 
-      const post = projects[i];
-
-      const lang = post.categories.find(id => categories.find(c => (c.slug === 'projects' || c.slug === 'event') && c.id === id)) ? 'en' : 'sv'
       const gallery = post.acf.image_gallery ? await Promise.all(post.acf.image_gallery.map(id => wpapi.media().id(id))) : null;
+      const altGallery = altPost?.acf.image_gallery ? await Promise.all(altPost.acf.image_gallery.map(id => wpapi.media().id(id))) : null;
       const image = post.acf.image ? await wpapi.media().id(post.acf.image) : gallery ? gallery[0] : null;
+      const altImage = altPost?.acf.image ? await wpapi.media().id(altPost.acf.image) : altGallery ? altGallery[0] : null;
 
       const cv = post.acf.cv && post.acf.cv.length ? post.acf.cv.map(({ headline, text }) => buildBlockRecord({
         item_type: { id: cvBlockId, type: 'item_type' },
         headline,
-        text
+        text: htmlToMarkdown(text)
       })) : null
 
       const meta_info = post.acf.meta && post.acf.meta.length ? post.acf.meta.map(({ headline, text }) => buildBlockRecord({
         item_type: { id: metaInfoBlockId, type: 'item_type' },
         headline,
-        text
+        text: htmlToMarkdown(text)
+      })) : null
+
+      const alt_cv = altPost?.acf.cv && altPost.acf.cv.length ? altPost.acf.cv.map(({ headline, text }) => buildBlockRecord({
+        item_type: { id: cvBlockId, type: 'item_type' },
+        headline,
+        text: htmlToMarkdown(text)
+      })) : null
+
+      const alt_meta_info = altPost?.acf.meta && altPost.acf.meta.length ? altPost.acf.meta.map(({ headline, text }) => buildBlockRecord({
+        item_type: { id: metaInfoBlockId, type: 'item_type' },
+        headline,
+        text: htmlToMarkdown(text)
       })) : null
 
       const data = cleanObject({
@@ -70,29 +92,41 @@ export const migrateProjects = async () => {
         wpid: post.id,
         title: {
           [lang]: decodeHTMLEntities(post.title.rendered || post.acf.artistname),
+          [altLang]: altPost ? decodeHTMLEntities(altPost.title.rendered || altPost.acf.artistname) : null,
         },
         subtitle: {
           [lang]: decodeHTMLEntities(!post.title.rendered && post.acf.artistname ? undefined : post.acf.artistname),
+          [altLang]: altPost ? decodeHTMLEntities(!altPost.title.rendered && altPost.acf.artistname ? undefined : altPost.acf.artistname) : null,
         },
         slug: {
-          [lang]: post.slug
+          [lang]: post.slug,
+          [altLang]: altPost ? altPost.slug : null
         },
         intro_headline: {
-          [lang]: post.acf.sub_title
+          [lang]: post.acf.sub_title,
+          [altLang]: altPost ? post.acf.sub_title : null
         },
         intro: {
-          [lang]: htmlToMarkdown(post.acf.intro_text)
+          [lang]: htmlToMarkdown(post.acf.intro_text),
+          [altLang]: altPost ? htmlToMarkdown(altPost.acf.intro_text) : null
         },
         content: {
-          [lang]: (await htmlToStructuredContent(post.content.rendered)) || null
+          [lang]: (await htmlToStructuredContent(post.content.rendered)) || null,
+          [altLang]: altPost ? (await htmlToStructuredContent(altPost.content.rendered)) || null : null
         },
         image: image ? await uploadMedia({
           url: image.source_url,
-          title: { [lang]: image.title.rendered }
+          title: {
+            [lang]: image.title.rendered,
+            [altLang]: altImage?.title.rendered || image.title.rendered,
+          }
         }) : null,
-        gallery: gallery ? await Promise.all(gallery.map(image => uploadMedia({
+        gallery: gallery ? await Promise.all(gallery.map((image, idx) => uploadMedia({
           url: image.source_url,
-          title: { [lang]: image.title.rendered }
+          title: {
+            [lang]: image.title.rendered,
+            [altLang]: altGallery?.[idx]?.title.rendered || null,
+          }
         }))) : null,
         video: post.acf.movie && !isNaN(post.acf.movie) ? {
           url: `https://vimeo.com/${post.acf.movie}`,
@@ -103,80 +137,53 @@ export const migrateProjects = async () => {
           thumbnail_url: post.acf.movie_image ? (await wpapi.media().id(post.acf.movie_image)).source_url : null,
           title: post.acf.movie_caption || null,
         } : null,
-        cv: cv ? { [lang]: cv } : null,
-        meta_info: meta_info ? { [lang]: meta_info } : null
+        cv: cv ? {
+          [lang]: cv,
+          [altLang]: alt_cv
+        } : null,
+        meta_info: meta_info ? {
+          [lang]: meta_info,
+          [altLang]: alt_meta_info
+        } : null
       })
 
-      posts.push(data)
-      process.stdout.write(`.`)
-    }
+      const created_at = data._createdAt
 
+      delete data._categories
+      delete data._createdAt
 
-    const projects_en = posts.filter(p => p._categories.find(id => categories.find(c => c.slug === 'projects' && c.id === id)))
-    const projects_sv = posts.filter(p => p._categories.find(id => categories.find(c => c.slug === 'projekt' && c.id === id)))
-
-    /*
-    
-    const projects = projects_en.concat(projects_sv);
-
-    const events_en = posts.filter(p => p._categories.find(id => categories.find(c => c.slug === 'events' && c.id === id)))
-    const events_sv = posts.filter(p => p._categories.find(id => categories.find(c => c.slug === 'evenemang' && c.id === id)))
-    const events = events_en.concat(events_sv);
-
-    const projects_csv = projects_en.concat(projects_sv).map(p => `${p.title}\t${p.subtitle ?? ''}\t${p.id}`).join('\n')
-    const events_csv = events.map(p => `${p.title}\t${p.subtitle ?? ''}\t${p.id}`).join('\n')
-
-    fs.writeFileSync(`./lib/scripts/migration/data/projects.csv`, projects_csv)
-    fs.writeFileSync(`./lib/scripts/migration/data/events.csv`, events_csv)
-    fs.writeFileSync(`./lib/scripts/migration/data/projects-parsed.json`, JSON.stringify(projects, null, 2))
-    fs.writeFileSync(`./lib/scripts/migration/data/events-parsed.json`, JSON.stringify(events, null, 2))
-    */
-
-
-
-    console.log('creating projects...')
-
-    for (let i = 0; i < projects_en.length; i++) {
-      const project = projects_en[i];
-      const created_at = project._createdAt
-
-      delete project._categories
-      delete project._createdAt
-
-      const projectSv = projects_sv.find(p => p.wpid === mapWpId(project.wpid, 'project'))
-
-      if (projectSv) {
-        Object.keys(project).forEach(key => {
-          if (project[key]?.en)
-            project[key].sv = projectSv[key]?.sv
-        })
-      }
-
-      let item = await client.items.create({
+      await client.items.create({
         item_type: {
           type: 'item_type',
-          id: itemTypeId
+          id: type === 'project' ? projectTypeId : eventTypeId
         },
-        ...project,
+        ...data,
         meta: {
           created_at,
           first_published_at: created_at,
         }
       })
-      process.stdout.write(`#`)
+
+      if (altPost)
+        all[altPostIndex] = null
+
+      process.stdout.cursorTo(0)
+      process.stdout.write(`${i + 1}/${all.length}`)
+
     }
 
   } catch (err) {
     console.log(err)
+    console.log('----------------')
     console.log(parseDatoError(err))
   }
   console.timeEnd(`import-projects`)
 }
 
-const mapWpId = (wpid: number, type = 'project') => {
+const mapWpId = (wpid: number, type = 'project', lang = 'en') => {
 
   const m = type === 'project' ? project_map : event_map
-  const mId = m.find(ids => ids[0] === wpid && ids[1])?.[1]
+  const mId = m.find(ids => ids[lang === 'en' ? 0 : 1] === wpid && ids[lang === 'en' ? 1 : 0])?.[lang === 'en' ? 1 : 0]
   return mId
 
 }
