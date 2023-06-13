@@ -12,7 +12,7 @@ export type Props = {
 
 
 export default function Projects({ projects }: Props) {
-	console.log(projects)
+
 	return (
 		<div className={s.container}>
 			<CardContainer>
