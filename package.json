@@ -15,7 +15,10 @@
 		"barrel:watch": "watch 'node ./lib/scripts/barrel' ./components",
 		"postbuild": "next-sitemap",
 		"test": "tsx --tsconfig ./tsconfig.json ./lib/scripts/test.tsx",
+		"migrate:all": "npm run migrate:clean && npm run migrate:posts && npm run migrate:anniversary && npm run migrate:archive",
+		"migrate:anniversary": "tsx ./lib/scripts/migration/anniversary.ts",
 		"migrate:posts": "tsx ./lib/scripts/migration/posts.ts",
+		"migrate:archive": "tsx ./lib/scripts/migration/archive.ts",
 		"migrate:clean": "datocms environments:destroy migration ; datocms environments:fork main migration"
 	},
 	"exports": {
@@ -94,6 +97,7 @@
 		"entities": "^4.5.0",
 		"eslint": "^8.26.0",
 		"eslint-config-next": "^12.3.1",
+		"get-video-id": "^3.6.5",
 		"hex2rgb": "^2.2.0",
 		"html-entities": "^2.3.3",
 		"node-html-markdown": "^1.3.0",

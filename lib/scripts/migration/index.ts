@@ -24,10 +24,10 @@ export const toMarkdown = new NodeHtmlMarkdown()
 export const baseDomain = 'balticartcenter.com/wp-json'
 export const noImage = undefined
 
-export const buildWpApi = () => {
+export const buildWpApi = (url: string = 'https://www.balticartcenter.com') => {
 
 	const wpapi = new WPAPI({
-		endpoint: `https://www.balticartcenter.com/wp-json`,
+		endpoint: `${url}/wp-json`,
 		username: process.env.WP_USERNAME,
 		password: process.env.WP_PASSWORD,
 		//@ts-ignore
@@ -119,25 +119,27 @@ export const uploadMedia = async (image, tags: string[] = []) => {
 	if (!image?.url)
 		throw 'no image'
 
+	console.log('\nupload file:', image.url)
+
 	const upload = await client.uploads.createFromUrl({
 		url: image.url,
 		skipCreationIfAlreadyExists: true,
 		tags,
 		default_field_metadata: {
 			en: {
-				title: image.title.en || null,
+				title: image.title?.en || null,
 				alt: null,
 				custom_data: {}
 			},
 			sv: {
-				title: image.title.sv ?? image.title.en ?? null,
+				title: image.title?.sv ?? image.title?.en ?? null,
 				alt: null,
 				custom_data: {}
 			}
 		},
 	});
 
-	return { upload_id: upload.id }
+	return upload
 }
 
 
@@ -332,12 +334,14 @@ export const htmlToStructuredContent = async (html: string, blocks: BlockIds = {
 					return;
 
 				let { src: url, srcSet } = node.properties;
+
 				if (srcSet)
 					url = srcSet.sort((a, b) => parseInt(a.split(' ')[1]) > parseInt(b.split(' ')[1]) ? -1 : 1)[0].split(' ')[0]
 
-				if (!url)
+				if (!url || url.startsWith('data:') || (!url.startsWith('http://') && !url.startsWith('https://'))) {
+					console.log('invalid image url', url)
 					return null
-
+				}
 				const upload = await uploadMedia({ url }, tags);
 
 				return createNode('block', {
@@ -364,10 +368,11 @@ export const htmlToStructuredContent = async (html: string, blocks: BlockIds = {
 				const fileEnding = node.type === 'element' ? node.properties?.href?.toLowerCase().split('.').at(-1) : null
 				const { href: url } = node.properties;
 
-				if (!url.toLowerCase().includes('konstframjandet.se/wp-content/uploads') || !fileTypes.includes(fileEnding))
+				if (!url)
 					return context.defaultHandlers.a(createNode, node, context)
 
-				console.log('upload file:', url, 'as', fileEnding)
+				if (!url.toLowerCase().includes('balticartcenter.com/wp-content/uploads') || !fileTypes.includes(fileEnding))
+					return context.defaultHandlers.a(createNode, node, context)
 
 				const upload = await uploadMedia({ url }, tags);
 				node.properties.href = upload.url

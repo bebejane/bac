@@ -1,0 +1,242 @@
+[
+  {
+    "id": 5,
+    "count": 7,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/about-contact/",
+    "name": "About &amp; Contact",
+    "slug": "about-contact",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/5"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=5"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "count": 116,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/archive/",
+    "name": "Archive",
+    "slug": "archive",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/6"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=6"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 1,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/okategoriserade/",
+    "name": "BAC",
+    "slug": "okategoriserade",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "count": 5,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/events-projects/",
+    "name": "Events &amp; Projects",
+    "slug": "events-projects",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/4"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=4"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "count": 0,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/mailing-list/",
+    "name": "Mailing list",
+    "slug": "mailing-list",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/16"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "count": 5,
+    "description": "",
+    "link": "http://archive.balticartcenter.com/index/residency-production/",
+    "name": "Residency &amp; Production",
+    "slug": "residency-production",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories/3"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "http://archive.balticartcenter.com/wp-json/wp/v2/posts?categories=3"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -15,7 +15,7 @@ import {
   uploadMedia
 } from './'
 
-import { project_map, event_map } from './maps'
+import { project_map, event_map, anniversary_map } from './maps'
 
 export const migrateProjects = async () => {
 
@@ -27,22 +27,20 @@ export const migrateProjects = async () => {
 
     const wpapi = buildWpApi()
     const lang = 'en'
-    const projectTypeId = (await itemTypeToId('project'))?.id
-    const eventTypeId = (await itemTypeToId('event'))?.id
+    const anniversaryPageTypeId = (await itemTypeToId('anniversary_page'))?.id
     const imageBlockTypeId = (await itemTypeToId('image'))?.id
     const metaInfoBlockId = (await itemTypeToId('meta_info'))?.id
     const cvBlockId = (await itemTypeToId('cv'))?.id
     const categories = await allCategories(wpapi, lang)
 
-    const allPosts = (await allPages(wpapi, 'project', { perPage: 100, lang }))
+
+    const allPosts = (await allPages(wpapi, 'anniversary', { perPage: 100, lang }))
       .filter(p => p.status === 'publish')
-      .filter(p => p.categories.find(id => categories.find(c => ['projects', 'projekt', 'events', 'evenemang'].includes(c.slug) && c.id === id)))
+      .filter(p => p.categories.length === 1 && (p.categories[0] === 1 || p.categories[0] === 37))
 
-    fs.writeFileSync(`./lib/scripts/migration/data/posts.json`, JSON.stringify(allPosts, null, 2))
+    fs.writeFileSync(`./lib/scripts/migration/data/anniversary.json`, JSON.stringify(allPosts, null, 2))
 
-    const projects = allPosts.filter(p => p.categories.find(id => categories.find(c => ['projects', 'projekt'].includes(c.slug) && c.id === id)))
-    const events = allPosts.filter(p => p.categories.find(id => categories.find(c => ['events', 'evenemang'].includes(c.slug) && c.id === id)))
-    const all = projects.concat(events)
+    const all = allPosts
 
     console.log(`Parsing ${all.length} posts...`)
 
@@ -51,12 +49,11 @@ export const migrateProjects = async () => {
 
       if (!post) continue
 
-      const type = post.categories.find(id => categories.find(c => ['projects', 'projekt'].includes(c.slug) && c?.id === id)) ? 'project' : 'event'
-      const lang = post.categories.find(id => categories.find(c => (c.slug === 'projects' || c.slug === 'events') && c?.id === id)) ? 'en' : 'sv'
+      const lang = anniversary_map.find(m => m[0] === post.id) ? 'en' : 'sv'
 
       const altLang = lang === 'en' ? 'sv' : 'en'
-      const altPostIndex = (type === 'project' ? projects : events).findIndex(p => p?.id === mapWpId(post?.id, type, lang))
-      const altPost = altPostIndex > -1 ? (type === 'project' ? projects : events)[altPostIndex] : null
+      const altPostIndex = all.findIndex(p => p?.id === mapWpId(post?.id, 'anniversary', lang))
+      const altPost = altPostIndex > -1 ? all[altPostIndex] : null
 
       const gallery = post.acf.image_gallery ? await Promise.all(post.acf.image_gallery.map(id => wpapi.media().id(id))) : null;
       const altGallery = altPost?.acf.image_gallery ? await Promise.all(altPost.acf.image_gallery.map(id => wpapi.media().id(id))) : null;
@@ -140,6 +137,15 @@ export const migrateProjects = async () => {
           thumbnail_url: post.acf.movie_image ? (await wpapi.media().id(post.acf.movie_image)).source_url : null,
           title: post.acf.movie_caption || null,
         } : null,
+        video_caption: {
+          [lang]: post.acf.movie_caption || null,
+          [altLang]: altPost ? post.acf.movie_caption || null : null
+        },
+        video_poster: post.acf.movie_image ? {
+          upload_id: (await uploadMedia({
+            url: (await wpapi.media().id(post.acf.movie_image)).source_url
+          }))?.id ?? null
+        } : null,
         cv: cv ? {
           [lang]: cv,
           [altLang]: alt_cv
@@ -158,7 +164,7 @@ export const migrateProjects = async () => {
       await client.items.create({
         item_type: {
           type: 'item_type',
-          id: type === 'project' ? projectTypeId : eventTypeId
+          id: anniversaryPageTypeId
         },
         ...data,
         meta: {
@@ -185,7 +191,7 @@ export const migrateProjects = async () => {
 
 const mapWpId = (wpid: number, type = 'project', lang = 'en') => {
 
-  const m = type === 'project' ? project_map : event_map
+  const m = type === 'project' ? project_map : type === 'anniversary' ? anniversary_map : event_map
   const mId = m.find(ids => ids[lang === 'en' ? 0 : 1] === wpid && ids[lang === 'en' ? 1 : 0])?.[lang === 'en' ? 1 : 0]
   return mId
 
