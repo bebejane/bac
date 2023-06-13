@@ -1,0 +1,6 @@
+fragment AboutFragmentLight on AboutRecord {
+	__typename
+	id
+	title
+	slug
+}

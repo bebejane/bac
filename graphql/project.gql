@@ -1,0 +1,14 @@
+query AllProjects($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale) {
+	projects: allProjects(locale: $locale, first: $first, skip: $skip) {
+		...ProjectFragment
+	}
+	pagination: _allProjectsMeta {
+		count
+	}
+}
+
+query Project($slug: String!, $locale: SiteLocale) {
+	project(filter: { slug: { eq: $slug } }, locale: $locale) {
+		...ProjectFragment
+	}
+}

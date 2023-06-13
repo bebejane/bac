@@ -1,0 +1,11 @@
+fragment ProjectFragmentLight on ProjectRecord {
+	__typename
+	id
+	title
+	subtitle
+	introHeadline
+	image {
+		...ImageFragment
+	}
+	slug
+}

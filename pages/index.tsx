@@ -5,18 +5,17 @@ import { StartDocument } from "/graphql";
 import { Block } from "/components";
 import { pageSlugs } from "/lib/i18n";
 
+
 export type Props = {
 	start: StartRecord
 }
-
-const fullBlocks = ['StartFullscreenImageRecord', 'StartFullBleedImageRecord', 'StartFullscreenVideoRecord']
 
 export default function Home({ start }: Props) {
 
 	return (
 		<div className={s.container}>
 			BAC
-			{start?.content.map((block, idx) =>
+			{start?.content?.map((block, idx) =>
 				<section key={idx}>
 					<Block
 						data={block}
@@ -27,7 +26,6 @@ export default function Home({ start }: Props) {
 		</div>
 	);
 }
-
 
 export const getStaticProps = withGlobalProps({ queries: [StartDocument] }, async ({ props, revalidate, context }: any) => {
 

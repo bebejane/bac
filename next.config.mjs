@@ -1,7 +1,7 @@
 import routes from "./lib/i18n/routes.js";
 
-export const locales = ["sv", "en"];
-export const defaultLocale = "sv";
+export const locales = ["en", "sv"];
+export const defaultLocale = "en";
 
 const sassOptions = {
 	includePaths: ["./components", "./pages"],
@@ -17,8 +17,8 @@ const i18Rewrites = async () => {
 
 	Object.keys(routes).forEach((k) =>
 		rewrites.push({
-			destination: `/en/${routes[k].sv}/:path*`,
-			source: `/en/${routes[k].en}/:path*`,
+			destination: `/sv/${routes[k].sv}/:path*`,
+			source: `/sv/${routes[k].sv}/:path*`,
 			locale: false,
 		})
 	);

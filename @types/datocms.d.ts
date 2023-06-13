@@ -16,14 +16,76 @@ type Scalars = {
   FloatType: any;
   IntType: any;
   ItemId: any;
+  JsonField: any;
   MetaTagAttributes: any;
   UploadId: any;
 };
 
+type AboutModelContentField = {
+  __typename?: 'AboutModelContentField';
+  blocks: Array<ImageRecord>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type AboutModelContentFieldMultiLocaleField = {
+  __typename?: 'AboutModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<AboutModelContentField>;
+};
+
+type AboutModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<AboutModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<AboutModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  content?: InputMaybe<StructuredTextFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  position?: InputMaybe<PositionFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+enum AboutModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  position_ASC = 'position_ASC',
+  position_DESC = 'position_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC'
+}
+
 /** Record of type About (about) */
 type AboutRecord = RecordInterface & {
   __typename?: 'AboutRecord';
+  _allContentLocales?: Maybe<Array<AboutModelContentFieldMultiLocaleField>>;
+  _allSlugLocales?: Maybe<Array<StringNonNullMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringNonNullMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -34,10 +96,29 @@ type AboutRecord = RecordInterface & {
   _status: ItemStatus;
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
-  board?: Maybe<Scalars['String']>;
+  content?: Maybe<AboutModelContentField>;
   id: Scalars['ItemId'];
-  mission?: Maybe<Scalars['String']>;
-  partners?: Maybe<Scalars['String']>;
+  position?: Maybe<Scalars['IntType']>;
+  slug: Scalars['String'];
+  title: Scalars['String'];
+};
+
+
+/** Record of type About (about) */
+type AboutRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type About (about) */
+type AboutRecord_allSlugLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type About (about) */
+type AboutRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
 };
 
 
@@ -48,26 +129,391 @@ type AboutRecord_seoMetaTagsArgs = {
 
 
 /** Record of type About (about) */
-type AboutRecordboardArgs = {
-  markdown?: InputMaybe<Scalars['Boolean']>;
+type AboutRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
 /** Record of type About (about) */
-type AboutRecordmissionArgs = {
-  markdown?: InputMaybe<Scalars['Boolean']>;
+type AboutRecordslugArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
 /** Record of type About (about) */
-type AboutRecordpartnersArgs = {
-  markdown?: InputMaybe<Scalars['Boolean']>;
+type AboutRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
-/** Record of type Archive (archive) */
-type ArchiveRecord = RecordInterface & {
-  __typename?: 'ArchiveRecord';
+type AnniversaryModelContentField = {
+  __typename?: 'AnniversaryModelContentField';
+  blocks: Array<Scalars['String']>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type AnniversaryModelContentFieldMultiLocaleField = {
+  __typename?: 'AnniversaryModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<AnniversaryModelContentField>;
+};
+
+type AnniversaryPageModelContentField = {
+  __typename?: 'AnniversaryPageModelContentField';
+  blocks: Array<ImageRecord>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type AnniversaryPageModelContentFieldMultiLocaleField = {
+  __typename?: 'AnniversaryPageModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<AnniversaryPageModelContentField>;
+};
+
+type AnniversaryPageModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<AnniversaryPageModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<AnniversaryPageModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  content?: InputMaybe<StructuredTextFilter>;
+  gallery?: InputMaybe<GalleryFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  image?: InputMaybe<FileFilter>;
+  intro?: InputMaybe<TextFilter>;
+  introHeadline?: InputMaybe<StringFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  subtitle?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  video?: InputMaybe<VideoFilter>;
+  videoCaption?: InputMaybe<StringFilter>;
+  videoPoster?: InputMaybe<FileFilter>;
+  wpid?: InputMaybe<IntegerFilter>;
+};
+
+enum AnniversaryPageModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  introHeadline_ASC = 'introHeadline_ASC',
+  introHeadline_DESC = 'introHeadline_DESC',
+  subtitle_ASC = 'subtitle_ASC',
+  subtitle_DESC = 'subtitle_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC',
+  videoCaption_ASC = 'videoCaption_ASC',
+  videoCaption_DESC = 'videoCaption_DESC',
+  wpid_ASC = 'wpid_ASC',
+  wpid_DESC = 'wpid_DESC'
+}
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord = RecordInterface & {
+  __typename?: 'AnniversaryPageRecord';
+  _allContentLocales?: Maybe<Array<AnniversaryPageModelContentFieldMultiLocaleField>>;
+  _allCvLocales?: Maybe<Array<CvRecordListListNonNullMultiLocaleField>>;
+  _allIntroHeadlineLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allIntroLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allMetaInfoLocales?: Maybe<Array<MetaInfoRecordListListNonNullMultiLocaleField>>;
+  _allSlugLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allSubtitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allVideoCaptionLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  content?: Maybe<AnniversaryPageModelContentField>;
+  cv: Array<CvRecord>;
+  gallery: Array<ImageFileField>;
+  id: Scalars['ItemId'];
+  image?: Maybe<ImageFileField>;
+  intro?: Maybe<Scalars['String']>;
+  introHeadline?: Maybe<Scalars['String']>;
+  metaInfo: Array<MetaInfoRecord>;
+  slug?: Maybe<Scalars['String']>;
+  subtitle?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  video?: Maybe<VideoField>;
+  videoCaption?: Maybe<Scalars['String']>;
+  videoPoster?: Maybe<FileField>;
+  wpid?: Maybe<Scalars['IntType']>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allCvLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allIntroHeadlineLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allIntroLocalesArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allMetaInfoLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allSlugLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allSubtitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_allVideoCaptionLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordcvArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordintroArgs = {
+  locale?: InputMaybe<SiteLocale>;
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordintroHeadlineArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordmetaInfoArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordslugArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordsubtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Anniversary page (anniversary_page) */
+type AnniversaryPageRecordvideoCaptionArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecord = RecordInterface & {
+  __typename?: 'AnniversaryRecord';
+  _allContentLocales?: Maybe<Array<AnniversaryModelContentFieldMultiLocaleField>>;
+  _allIntroLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  content?: Maybe<AnniversaryModelContentField>;
+  id: Scalars['ItemId'];
+  intro?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecord_allIntroLocalesArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecordintroArgs = {
+  locale?: InputMaybe<SiteLocale>;
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type BAC 20th Anniversary (anniversary) */
+type AnniversaryRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+type ArchiveCategoryModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<ArchiveCategoryModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<ArchiveCategoryModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  name?: InputMaybe<StringFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  wpid?: InputMaybe<IntegerFilter>;
+};
+
+enum ArchiveCategoryModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  name_ASC = 'name_ASC',
+  name_DESC = 'name_DESC',
+  wpid_ASC = 'wpid_ASC',
+  wpid_DESC = 'wpid_DESC'
+}
+
+/** Record of type Archive category (archive_category) */
+type ArchiveCategoryRecord = RecordInterface & {
+  __typename?: 'ArchiveCategoryRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -79,11 +525,211 @@ type ArchiveRecord = RecordInterface & {
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
   id: Scalars['ItemId'];
+  name: Scalars['String'];
+  slug?: Maybe<Scalars['String']>;
+  wpid?: Maybe<Scalars['IntType']>;
+};
+
+
+/** Record of type Archive category (archive_category) */
+type ArchiveCategoryRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+type ArchiveIntroModelContentField = {
+  __typename?: 'ArchiveIntroModelContentField';
+  blocks: Array<Scalars['String']>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type ArchiveIntroModelContentFieldMultiLocaleField = {
+  __typename?: 'ArchiveIntroModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<ArchiveIntroModelContentField>;
+};
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecord = RecordInterface & {
+  __typename?: 'ArchiveIntroRecord';
+  _allContentLocales?: Maybe<Array<ArchiveIntroModelContentFieldMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  content?: Maybe<ArchiveIntroModelContentField>;
+  id: Scalars['ItemId'];
+  title?: Maybe<Scalars['String']>;
+};
+
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Archive intro (archive_intro) */
+type ArchiveIntroRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+type ArchiveModelContentField = {
+  __typename?: 'ArchiveModelContentField';
+  blocks: Array<ImageRecord>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type ArchiveModelContentFieldMultiLocaleField = {
+  __typename?: 'ArchiveModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<ArchiveModelContentField>;
+};
+
+type ArchiveModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<ArchiveModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<ArchiveModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  category?: InputMaybe<LinksFilter>;
+  content?: InputMaybe<StructuredTextFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  title?: InputMaybe<StringFilter>;
+  wpid?: InputMaybe<IntegerFilter>;
+};
+
+enum ArchiveModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC',
+  wpid_ASC = 'wpid_ASC',
+  wpid_DESC = 'wpid_DESC'
+}
+
+/** Record of type Archive (archive) */
+type ArchiveRecord = RecordInterface & {
+  __typename?: 'ArchiveRecord';
+  _allContentLocales?: Maybe<Array<ArchiveModelContentFieldMultiLocaleField>>;
+  _allSlugLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  category: Array<ArchiveCategoryRecord>;
+  content?: Maybe<ArchiveModelContentField>;
+  id: Scalars['ItemId'];
+  slug?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  wpid?: Maybe<Scalars['IntType']>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecord_allSlugLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
 };
 
 
 /** Record of type Archive (archive) */
 type ArchiveRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecordslugArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Archive (archive) */
+type ArchiveRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -127,6 +773,8 @@ type ColorField = {
 type ContactRecord = RecordInterface & {
   __typename?: 'ContactRecord';
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -150,12 +798,6 @@ type ContactRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
-
-/** Record of type Contact (contact) */
-type ContactRecordmailingAddressArgs = {
-  markdown?: InputMaybe<Scalars['Boolean']>;
-};
-
 /** Specifies how to filter by creation datetime */
 type CreatedAtFilter = {
   /** Filter records with a value that's within the specified minute range. Seconds and milliseconds are truncated from the argument. */
@@ -174,6 +816,58 @@ type CreatedAtFilter = {
   neq?: InputMaybe<Scalars['DateTime']>;
 };
 
+/** Block of type CV (cv) */
+type CvRecord = RecordInterface & {
+  __typename?: 'CvRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  headline?: Maybe<Scalars['String']>;
+  id: Scalars['ItemId'];
+  text?: Maybe<Scalars['String']>;
+};
+
+
+/** Block of type CV (cv) */
+type CvRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Block of type CV (cv) */
+type CvRecordtextArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+type CvRecordListListNonNullMultiLocaleField = {
+  __typename?: 'CvRecordListListNonNullMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value: Array<CvRecord>;
+};
+
+type EventModelContentField = {
+  __typename?: 'EventModelContentField';
+  blocks: Array<ImageRecord>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type EventModelContentFieldMultiLocaleField = {
+  __typename?: 'EventModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<EventModelContentField>;
+};
+
 type EventModelFilter = {
   AND?: InputMaybe<Array<InputMaybe<EventModelFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<EventModelFilter>>>;
@@ -185,7 +879,18 @@ type EventModelFilter = {
   _status?: InputMaybe<StatusFilter>;
   _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
   _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  content?: InputMaybe<StructuredTextFilter>;
+  gallery?: InputMaybe<GalleryFilter>;
   id?: InputMaybe<ItemIdFilter>;
+  image?: InputMaybe<FileFilter>;
+  intro?: InputMaybe<TextFilter>;
+  introHeadline?: InputMaybe<StringFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  subtitle?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  video?: InputMaybe<VideoFilter>;
+  videoCaption?: InputMaybe<StringFilter>;
+  wpid?: InputMaybe<IntegerFilter>;
 };
 
 enum EventModelOrderBy {
@@ -206,13 +911,230 @@ enum EventModelOrderBy {
   _updatedAt_ASC = '_updatedAt_ASC',
   _updatedAt_DESC = '_updatedAt_DESC',
   id_ASC = 'id_ASC',
-  id_DESC = 'id_DESC'
+  id_DESC = 'id_DESC',
+  introHeadline_ASC = 'introHeadline_ASC',
+  introHeadline_DESC = 'introHeadline_DESC',
+  subtitle_ASC = 'subtitle_ASC',
+  subtitle_DESC = 'subtitle_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC',
+  videoCaption_ASC = 'videoCaption_ASC',
+  videoCaption_DESC = 'videoCaption_DESC',
+  wpid_ASC = 'wpid_ASC',
+  wpid_DESC = 'wpid_DESC'
 }
 
 /** Record of type Event (event) */
 type EventRecord = RecordInterface & {
   __typename?: 'EventRecord';
+  _allContentLocales?: Maybe<Array<EventModelContentFieldMultiLocaleField>>;
+  _allCvLocales?: Maybe<Array<CvRecordListListNonNullMultiLocaleField>>;
+  _allIntroHeadlineLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allIntroLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allMetaInfoLocales?: Maybe<Array<MetaInfoRecordListListNonNullMultiLocaleField>>;
+  _allSlugLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allSubtitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allVideoCaptionLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  content?: Maybe<EventModelContentField>;
+  cv: Array<CvRecord>;
+  gallery: Array<ImageFileField>;
+  id: Scalars['ItemId'];
+  image?: Maybe<ImageFileField>;
+  intro?: Maybe<Scalars['String']>;
+  introHeadline?: Maybe<Scalars['String']>;
+  metaInfo: Array<MetaInfoRecord>;
+  slug?: Maybe<Scalars['String']>;
+  subtitle?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  video?: Maybe<VideoField>;
+  videoCaption?: Maybe<Scalars['String']>;
+  wpid?: Maybe<Scalars['IntType']>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allCvLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allIntroHeadlineLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allIntroLocalesArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allMetaInfoLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allSlugLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allSubtitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_allVideoCaptionLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordcvArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordintroArgs = {
+  locale?: InputMaybe<SiteLocale>;
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordintroHeadlineArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordmetaInfoArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordslugArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordsubtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Event (event) */
+type EventRecordvideoCaptionArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+type ExternalLinkModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<ExternalLinkModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<ExternalLinkModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  title?: InputMaybe<StringFilter>;
+  url?: InputMaybe<StringFilter>;
+};
+
+enum ExternalLinkModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC',
+  url_ASC = 'url_ASC',
+  url_DESC = 'url_DESC'
+}
+
+/** Record of type External link (external_link) */
+type ExternalLinkRecord = RecordInterface & {
+  __typename?: 'ExternalLinkRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -224,11 +1146,13 @@ type EventRecord = RecordInterface & {
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
   id: Scalars['ItemId'];
+  title: Scalars['String'];
+  url: Scalars['String'];
 };
 
 
-/** Record of type Event (event) */
-type EventRecord_seoMetaTagsArgs = {
+/** Record of type External link (external_link) */
+type ExternalLinkRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -241,6 +1165,8 @@ enum FaviconType {
 type FileField = FileFieldInterface & {
   __typename?: 'FileField';
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _updatedAt: Scalars['DateTime'];
   alt?: Maybe<Scalars['String']>;
   author?: Maybe<Scalars['String']>;
@@ -317,6 +1243,8 @@ type FileFieldurlArgs = {
 
 type FileFieldInterface = {
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _updatedAt: Scalars['DateTime'];
   alt?: Maybe<Scalars['String']>;
   author?: Maybe<Scalars['String']>;
@@ -391,6 +1319,34 @@ type FileFieldInterfaceurlArgs = {
   imgixParams?: InputMaybe<ImgixParams>;
 };
 
+/** Specifies how to filter Single-file/image fields */
+type FileFilter = {
+  /** Search for records with an exact match. The specified value must be an Upload ID */
+  eq?: InputMaybe<Scalars['UploadId']>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records that have one of the specified uploads */
+  in?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+  /** Exclude records with an exact match. The specified value must be an Upload ID */
+  neq?: InputMaybe<Scalars['UploadId']>;
+  /** Filter records that do not have one of the specified uploads */
+  notIn?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+};
+
+/** Specifies how to filter Multiple files/images field */
+type GalleryFilter = {
+  /** Filter records that have all of the specified uploads. The specified values must be Upload IDs */
+  allIn?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+  /** Filter records that have one of the specified uploads. The specified values must be Upload IDs */
+  anyIn?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+  /** Search for records with an exact match. The specified values must be Upload IDs */
+  eq?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records that do not have any of the specified uploads. The specified values must be Upload IDs */
+  notIn?: InputMaybe<Array<InputMaybe<Scalars['UploadId']>>>;
+};
+
 type GlobalSeoField = {
   __typename?: 'GlobalSeoField';
   facebookPageUrl?: Maybe<Scalars['String']>;
@@ -398,6 +1354,112 @@ type GlobalSeoField = {
   siteName?: Maybe<Scalars['String']>;
   titleSuffix?: Maybe<Scalars['String']>;
   twitterAccount?: Maybe<Scalars['String']>;
+};
+
+type ImageFileField = FileFieldInterface & {
+  __typename?: 'ImageFileField';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _updatedAt: Scalars['DateTime'];
+  alt?: Maybe<Scalars['String']>;
+  author?: Maybe<Scalars['String']>;
+  basename: Scalars['String'];
+  blurUpThumb?: Maybe<Scalars['String']>;
+  blurhash?: Maybe<Scalars['String']>;
+  colors: Array<ColorField>;
+  copyright?: Maybe<Scalars['String']>;
+  customData: Scalars['CustomData'];
+  exifInfo: Scalars['CustomData'];
+  filename: Scalars['String'];
+  focalPoint: focalPoint;
+  format: Scalars['String'];
+  height: Scalars['IntType'];
+  id: Scalars['UploadId'];
+  md5: Scalars['String'];
+  mimeType: Scalars['String'];
+  notes?: Maybe<Scalars['String']>;
+  responsiveImage: ResponsiveImage;
+  size: Scalars['IntType'];
+  smartTags: Array<Scalars['String']>;
+  tags: Array<Scalars['String']>;
+  thumbhash?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  url: Scalars['String'];
+  video?: Maybe<UploadVideoField>;
+  width: Scalars['IntType'];
+};
+
+
+type ImageFileFieldaltArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+type ImageFileFieldblurUpThumbArgs = {
+  imgixParams?: InputMaybe<ImgixParams>;
+  punch?: Scalars['Float'];
+  quality?: Scalars['Int'];
+  size?: Scalars['Int'];
+};
+
+
+type ImageFileFieldcustomDataArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+type ImageFileFieldfocalPointArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+type ImageFileFieldresponsiveImageArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  imgixParams?: InputMaybe<ImgixParams>;
+  locale?: InputMaybe<SiteLocale>;
+  sizes?: InputMaybe<Scalars['String']>;
+};
+
+
+type ImageFileFieldtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+type ImageFileFieldurlArgs = {
+  imgixParams?: InputMaybe<ImgixParams>;
+};
+
+/** Block of type Image (image) */
+type ImageRecord = RecordInterface & {
+  __typename?: 'ImageRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  id: Scalars['ItemId'];
+  image?: Maybe<ImageFileField>;
+  layout?: Maybe<Scalars['String']>;
+};
+
+
+/** Block of type Image (image) */
+type ImageRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
 };
 
 type ImgixParams = {
@@ -1820,6 +2882,90 @@ type InUseFilter = {
   eq?: InputMaybe<Scalars['BooleanType']>;
 };
 
+/** Specifies how to filter Integer fields */
+type IntegerFilter = {
+  /** Search for records with an exact match */
+  eq?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with a value that's strictly greater than the one specified */
+  gt?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's greater than or equal to the one specified */
+  gte?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's less than the one specified */
+  lt?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's less or equal than the one specified */
+  lte?: InputMaybe<Scalars['IntType']>;
+  /** Exclude records with an exact match */
+  neq?: InputMaybe<Scalars['IntType']>;
+};
+
+type InternalLinkModelFilter = {
+  AND?: InputMaybe<Array<InputMaybe<InternalLinkModelFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<InternalLinkModelFilter>>>;
+  _createdAt?: InputMaybe<CreatedAtFilter>;
+  _firstPublishedAt?: InputMaybe<PublishedAtFilter>;
+  _isValid?: InputMaybe<BooleanFilter>;
+  _publicationScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _publishedAt?: InputMaybe<PublishedAtFilter>;
+  _status?: InputMaybe<StatusFilter>;
+  _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
+  _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  id?: InputMaybe<ItemIdFilter>;
+  link?: InputMaybe<LinkFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+enum InternalLinkModelOrderBy {
+  _createdAt_ASC = '_createdAt_ASC',
+  _createdAt_DESC = '_createdAt_DESC',
+  _firstPublishedAt_ASC = '_firstPublishedAt_ASC',
+  _firstPublishedAt_DESC = '_firstPublishedAt_DESC',
+  _isValid_ASC = '_isValid_ASC',
+  _isValid_DESC = '_isValid_DESC',
+  _publicationScheduledAt_ASC = '_publicationScheduledAt_ASC',
+  _publicationScheduledAt_DESC = '_publicationScheduledAt_DESC',
+  _publishedAt_ASC = '_publishedAt_ASC',
+  _publishedAt_DESC = '_publishedAt_DESC',
+  _status_ASC = '_status_ASC',
+  _status_DESC = '_status_DESC',
+  _unpublishingScheduledAt_ASC = '_unpublishingScheduledAt_ASC',
+  _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
+  _updatedAt_ASC = '_updatedAt_ASC',
+  _updatedAt_DESC = '_updatedAt_DESC',
+  id_ASC = 'id_ASC',
+  id_DESC = 'id_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC'
+}
+
+/** Record of type Internal link (internal_link) */
+type InternalLinkRecord = RecordInterface & {
+  __typename?: 'InternalLinkRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  id: Scalars['ItemId'];
+  link: ProjectRecord;
+  title: Scalars['String'];
+};
+
+
+/** Record of type Internal link (internal_link) */
+type InternalLinkRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
 /** Specifies how to filter by ID */
 type ItemIdFilter = {
   /** Search the record with the specified ID */
@@ -1837,6 +2983,73 @@ enum ItemStatus {
   published = 'published',
   updated = 'updated'
 }
+
+/** Specifies how to filter Single-link fields */
+type LinkFilter = {
+  /** Search for records with an exact match. The specified value must be a Record ID */
+  eq?: InputMaybe<Scalars['ItemId']>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records linked to one of the specified records */
+  in?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+  /** Exclude records with an exact match. The specified value must be a Record ID */
+  neq?: InputMaybe<Scalars['ItemId']>;
+  /** Filter records not linked to one of the specified records */
+  notIn?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+};
+
+/** Specifies how to filter Multiple-links fields */
+type LinksFilter = {
+  /** Filter records linked to all of the specified records. The specified values must be Record IDs */
+  allIn?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+  /** Filter records linked to at least one of the specified records. The specified values must be Record IDs */
+  anyIn?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+  /** Search for records with an exact match. The specified values must be Record IDs */
+  eq?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records not linked to any of the specified records. The specified values must be Record IDs */
+  notIn?: InputMaybe<Array<InputMaybe<Scalars['ItemId']>>>;
+};
+
+/** Block of type Meta info (meta_info) */
+type MetaInfoRecord = RecordInterface & {
+  __typename?: 'MetaInfoRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  headline?: Maybe<Scalars['String']>;
+  id: Scalars['ItemId'];
+  text?: Maybe<Scalars['String']>;
+};
+
+
+/** Block of type Meta info (meta_info) */
+type MetaInfoRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Block of type Meta info (meta_info) */
+type MetaInfoRecordtextArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+type MetaInfoRecordListListNonNullMultiLocaleField = {
+  __typename?: 'MetaInfoRecordListListNonNullMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value: Array<MetaInfoRecord>;
+};
 
 enum MuxThumbnailFormatType {
   gif = 'gif',
@@ -1867,6 +3080,7 @@ type PersonModelFilter = {
   firstName?: InputMaybe<StringFilter>;
   id?: InputMaybe<ItemIdFilter>;
   lastName?: InputMaybe<StringFilter>;
+  location?: InputMaybe<StringFilter>;
   phone?: InputMaybe<StringFilter>;
   role?: InputMaybe<StringFilter>;
 };
@@ -1896,6 +3110,8 @@ enum PersonModelOrderBy {
   id_DESC = 'id_DESC',
   lastName_ASC = 'lastName_ASC',
   lastName_DESC = 'lastName_DESC',
+  location_ASC = 'location_ASC',
+  location_DESC = 'location_DESC',
   phone_ASC = 'phone_ASC',
   phone_DESC = 'phone_DESC',
   role_ASC = 'role_ASC',
@@ -1905,7 +3121,11 @@ enum PersonModelOrderBy {
 /** Record of type Person (person) */
 type PersonRecord = RecordInterface & {
   __typename?: 'PersonRecord';
+  _allLocationLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allRoleLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -1920,14 +3140,70 @@ type PersonRecord = RecordInterface & {
   firstName?: Maybe<Scalars['String']>;
   id: Scalars['ItemId'];
   lastName?: Maybe<Scalars['String']>;
+  location?: Maybe<Scalars['String']>;
   phone?: Maybe<Scalars['String']>;
   role?: Maybe<Scalars['String']>;
 };
 
 
 /** Record of type Person (person) */
+type PersonRecord_allLocationLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Person (person) */
+type PersonRecord_allRoleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Person (person) */
 type PersonRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Person (person) */
+type PersonRecordlocationArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Person (person) */
+type PersonRecordroleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+/** Specifies how to filter by position (sorted and tree-like collections) */
+type PositionFilter = {
+  /** Search for records with an exact match */
+  eq?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's strictly greater than the one specified */
+  gt?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's greater than or equal to the one specified */
+  gte?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's less than the one specified */
+  lt?: InputMaybe<Scalars['IntType']>;
+  /** Filter records with a value that's less or equal than the one specified */
+  lte?: InputMaybe<Scalars['IntType']>;
+  /** Exclude records with an exact match */
+  neq?: InputMaybe<Scalars['IntType']>;
+};
+
+type ProjectModelContentField = {
+  __typename?: 'ProjectModelContentField';
+  blocks: Array<ImageRecord>;
+  links: Array<Scalars['String']>;
+  value: Scalars['JsonField'];
+};
+
+type ProjectModelContentFieldMultiLocaleField = {
+  __typename?: 'ProjectModelContentFieldMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<ProjectModelContentField>;
 };
 
 type ProjectModelFilter = {
@@ -1941,7 +3217,18 @@ type ProjectModelFilter = {
   _status?: InputMaybe<StatusFilter>;
   _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
   _updatedAt?: InputMaybe<UpdatedAtFilter>;
+  content?: InputMaybe<StructuredTextFilter>;
+  gallery?: InputMaybe<GalleryFilter>;
   id?: InputMaybe<ItemIdFilter>;
+  image?: InputMaybe<FileFilter>;
+  intro?: InputMaybe<TextFilter>;
+  introHeadline?: InputMaybe<StringFilter>;
+  slug?: InputMaybe<SlugFilter>;
+  subtitle?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  video?: InputMaybe<VideoFilter>;
+  videoCaption?: InputMaybe<StringFilter>;
+  wpid?: InputMaybe<IntegerFilter>;
 };
 
 enum ProjectModelOrderBy {
@@ -1962,13 +3249,34 @@ enum ProjectModelOrderBy {
   _updatedAt_ASC = '_updatedAt_ASC',
   _updatedAt_DESC = '_updatedAt_DESC',
   id_ASC = 'id_ASC',
-  id_DESC = 'id_DESC'
+  id_DESC = 'id_DESC',
+  introHeadline_ASC = 'introHeadline_ASC',
+  introHeadline_DESC = 'introHeadline_DESC',
+  subtitle_ASC = 'subtitle_ASC',
+  subtitle_DESC = 'subtitle_DESC',
+  title_ASC = 'title_ASC',
+  title_DESC = 'title_DESC',
+  videoCaption_ASC = 'videoCaption_ASC',
+  videoCaption_DESC = 'videoCaption_DESC',
+  wpid_ASC = 'wpid_ASC',
+  wpid_DESC = 'wpid_DESC'
 }
 
 /** Record of type Project (project) */
 type ProjectRecord = RecordInterface & {
   __typename?: 'ProjectRecord';
+  _allContentLocales?: Maybe<Array<ProjectModelContentFieldMultiLocaleField>>;
+  _allCvLocales?: Maybe<Array<CvRecordListListNonNullMultiLocaleField>>;
+  _allIntroHeadlineLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allIntroLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allMetaInfoLocales?: Maybe<Array<MetaInfoRecordListListNonNullMultiLocaleField>>;
+  _allSlugLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allSubtitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
+  _allVideoCaptionLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -1979,12 +3287,142 @@ type ProjectRecord = RecordInterface & {
   _status: ItemStatus;
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
+  content?: Maybe<ProjectModelContentField>;
+  cv: Array<CvRecord>;
+  gallery: Array<ImageFileField>;
   id: Scalars['ItemId'];
+  image?: Maybe<ImageFileField>;
+  intro?: Maybe<Scalars['String']>;
+  introHeadline?: Maybe<Scalars['String']>;
+  metaInfo: Array<MetaInfoRecord>;
+  slug?: Maybe<Scalars['String']>;
+  subtitle?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  video?: Maybe<VideoField>;
+  videoCaption?: Maybe<Scalars['String']>;
+  wpid?: Maybe<Scalars['IntType']>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allCvLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allIntroHeadlineLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allIntroLocalesArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allMetaInfoLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allSlugLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allSubtitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allTitleLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecord_allVideoCaptionLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
 };
 
 
 /** Record of type Project (project) */
 type ProjectRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordcvArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordintroArgs = {
+  locale?: InputMaybe<SiteLocale>;
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordintroHeadlineArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordmetaInfoArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordslugArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordsubtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordtitleArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Record of type Project (project) */
+type ProjectRecordvideoCaptionArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -2010,7 +3448,19 @@ type PublishedAtFilter = {
 type Query = {
   __typename?: 'Query';
   /** Returns meta information regarding a record collection */
+  _allAboutsMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
+  _allAnniversaryPagesMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
+  _allArchiveCategoriesMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
+  _allArchivesMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
   _allEventsMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
+  _allExternalLinksMeta: CollectionMetadata;
+  /** Returns meta information regarding a record collection */
+  _allInternalLinksMeta: CollectionMetadata;
   /** Returns meta information regarding a record collection */
   _allPeopleMeta: CollectionMetadata;
   /** Returns meta information regarding a record collection */
@@ -2019,10 +3469,22 @@ type Query = {
   _allUploadsMeta: CollectionMetadata;
   /** Returns the single instance record */
   _site: Site;
-  /** Returns the single instance record */
+  /** Returns a specific record */
   about?: Maybe<AboutRecord>;
   /** Returns a collection of records */
+  allAbouts: Array<AboutRecord>;
+  /** Returns a collection of records */
+  allAnniversaryPages: Array<AnniversaryPageRecord>;
+  /** Returns a collection of records */
+  allArchiveCategories: Array<ArchiveCategoryRecord>;
+  /** Returns a collection of records */
+  allArchives: Array<ArchiveRecord>;
+  /** Returns a collection of records */
   allEvents: Array<EventRecord>;
+  /** Returns a collection of records */
+  allExternalLinks: Array<ExternalLinkRecord>;
+  /** Returns a collection of records */
+  allInternalLinks: Array<InternalLinkRecord>;
   /** Returns a collection of records */
   allPeople: Array<PersonRecord>;
   /** Returns a collection of records */
@@ -2030,11 +3492,23 @@ type Query = {
   /** Returns a collection of assets */
   allUploads: Array<FileField>;
   /** Returns the single instance record */
+  anniversary?: Maybe<AnniversaryRecord>;
+  /** Returns a specific record */
+  anniversaryPage?: Maybe<AnniversaryPageRecord>;
+  /** Returns a specific record */
   archive?: Maybe<ArchiveRecord>;
+  /** Returns a specific record */
+  archiveCategory?: Maybe<ArchiveCategoryRecord>;
+  /** Returns the single instance record */
+  archiveIntro?: Maybe<ArchiveIntroRecord>;
   /** Returns the single instance record */
   contact?: Maybe<ContactRecord>;
   /** Returns a specific record */
   event?: Maybe<EventRecord>;
+  /** Returns a specific record */
+  externalLink?: Maybe<ExternalLinkRecord>;
+  /** Returns a specific record */
+  internalLink?: Maybe<InternalLinkRecord>;
   /** Returns a specific record */
   person?: Maybe<PersonRecord>;
   /** Returns a specific record */
@@ -2047,8 +3521,50 @@ type Query = {
 
 
 /** The query root for this schema */
+type Query_allAboutsMetaArgs = {
+  filter?: InputMaybe<AboutModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type Query_allAnniversaryPagesMetaArgs = {
+  filter?: InputMaybe<AnniversaryPageModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type Query_allArchiveCategoriesMetaArgs = {
+  filter?: InputMaybe<ArchiveCategoryModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type Query_allArchivesMetaArgs = {
+  filter?: InputMaybe<ArchiveModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
 type Query_allEventsMetaArgs = {
   filter?: InputMaybe<EventModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type Query_allExternalLinksMetaArgs = {
+  filter?: InputMaybe<ExternalLinkModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type Query_allInternalLinksMetaArgs = {
+  filter?: InputMaybe<InternalLinkModelFilter>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -2084,7 +3600,53 @@ type Query_siteArgs = {
 /** The query root for this schema */
 type QueryaboutArgs = {
   fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<AboutModelFilter>;
   locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<AboutModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
+type QueryallAboutsArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<AboutModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<AboutModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
+};
+
+
+/** The query root for this schema */
+type QueryallAnniversaryPagesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<AnniversaryPageModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<AnniversaryPageModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
+};
+
+
+/** The query root for this schema */
+type QueryallArchiveCategoriesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ArchiveCategoryModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ArchiveCategoryModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
+};
+
+
+/** The query root for this schema */
+type QueryallArchivesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ArchiveModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ArchiveModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
 };
 
 
@@ -2095,6 +3657,28 @@ type QueryallEventsArgs = {
   first?: InputMaybe<Scalars['IntType']>;
   locale?: InputMaybe<SiteLocale>;
   orderBy?: InputMaybe<Array<InputMaybe<EventModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
+};
+
+
+/** The query root for this schema */
+type QueryallExternalLinksArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ExternalLinkModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ExternalLinkModelOrderBy>>>;
+  skip?: InputMaybe<Scalars['IntType']>;
+};
+
+
+/** The query root for this schema */
+type QueryallInternalLinksArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<InternalLinkModelFilter>;
+  first?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<InternalLinkModelOrderBy>>>;
   skip?: InputMaybe<Scalars['IntType']>;
 };
 
@@ -2133,7 +3717,41 @@ type QueryallUploadsArgs = {
 
 
 /** The query root for this schema */
+type QueryanniversaryArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** The query root for this schema */
+type QueryanniversaryPageArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<AnniversaryPageModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<AnniversaryPageModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
 type QueryarchiveArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ArchiveModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ArchiveModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
+type QueryarchiveCategoryArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ArchiveCategoryModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ArchiveCategoryModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
+type QueryarchiveIntroArgs = {
   fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   locale?: InputMaybe<SiteLocale>;
 };
@@ -2152,6 +3770,24 @@ type QueryeventArgs = {
   filter?: InputMaybe<EventModelFilter>;
   locale?: InputMaybe<SiteLocale>;
   orderBy?: InputMaybe<Array<InputMaybe<EventModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
+type QueryexternalLinkArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<ExternalLinkModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<ExternalLinkModelOrderBy>>>;
+};
+
+
+/** The query root for this schema */
+type QueryinternalLinkArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  filter?: InputMaybe<InternalLinkModelFilter>;
+  locale?: InputMaybe<SiteLocale>;
+  orderBy?: InputMaybe<Array<InputMaybe<InternalLinkModelOrderBy>>>;
 };
 
 
@@ -2190,6 +3826,8 @@ type QueryuploadArgs = {
 
 type RecordInterface = {
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -2274,10 +3912,24 @@ enum SiteLocale {
   sv = 'sv'
 }
 
+/** Specifies how to filter Slug fields */
+type SlugFilter = {
+  /** Search for records with an exact match */
+  eq?: InputMaybe<Scalars['String']>;
+  /** Filter records that have one of the specified slugs */
+  in?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
+  /** Exclude records with an exact match */
+  neq?: InputMaybe<Scalars['String']>;
+  /** Filter records that do have one of the specified slugs */
+  notIn?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
+};
+
 /** Record of type Start (start) */
 type StartRecord = RecordInterface & {
   __typename?: 'StartRecord';
   _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
   _modelApiKey: Scalars['String'];
@@ -2338,11 +3990,51 @@ type StringMatchesFilter = {
   regexp?: InputMaybe<Scalars['BooleanType']>;
 };
 
+type StringMultiLocaleField = {
+  __typename?: 'StringMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value?: Maybe<Scalars['String']>;
+};
+
+type StringNonNullMultiLocaleField = {
+  __typename?: 'StringNonNullMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value: Scalars['String'];
+};
+
+/** Specifies how to filter Structured Text fields */
+type StructuredTextFilter = {
+  /** Filter records with the specified field defined (i.e. with any value) or not [DEPRECATED] */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with the specified field set as blank (null or single empty paragraph) */
+  isBlank?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with the specified field present (neither null, nor empty string) */
+  isPresent?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records based on a regular expression */
+  matches?: InputMaybe<StringMatchesFilter>;
+  /** Exclude records based on a regular expression */
+  notMatches?: InputMaybe<StringMatchesFilter>;
+};
+
 type Tag = {
   __typename?: 'Tag';
   attributes?: Maybe<Scalars['MetaTagAttributes']>;
   content?: Maybe<Scalars['String']>;
   tag: Scalars['String'];
+};
+
+/** Specifies how to filter text fields */
+type TextFilter = {
+  /** Filter records with the specified field defined (i.e. with any value) or not [DEPRECATED] */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with the specified field set as blank (null or empty string) */
+  isBlank?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with the specified field present (neither null, nor empty string) */
+  isPresent?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records based on a regular expression */
+  matches?: InputMaybe<StringMatchesFilter>;
+  /** Exclude records based on a regular expression */
+  notMatches?: InputMaybe<StringMatchesFilter>;
 };
 
 /** Specifies how to filter by upload type */
@@ -2705,6 +4397,23 @@ type UploadWidthFilter = {
   neq?: InputMaybe<Scalars['IntType']>;
 };
 
+type VideoField = {
+  __typename?: 'VideoField';
+  height: Scalars['IntType'];
+  provider: Scalars['String'];
+  providerUid: Scalars['String'];
+  thumbnailUrl: Scalars['String'];
+  title: Scalars['String'];
+  url: Scalars['String'];
+  width: Scalars['IntType'];
+};
+
+/** Specifies how to filter Video fields */
+type VideoFilter = {
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+};
+
 enum VideoMp4Res {
   high = 'high',
   low = 'low',
@@ -2717,20 +4426,83 @@ type focalPoint = {
   y: Scalars['FloatType'];
 };
 
-type ImageFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null };
+type AllAboutsQueryVariables = Exact<{
+  first?: InputMaybe<Scalars['IntType']>;
+  skip?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AllAboutsQuery = { __typename?: 'Query', abouts: Array<{ __typename: 'AboutRecord', id: any, title: string, slug: string }>, pagination: { __typename?: 'CollectionMetadata', count: any } };
+
+type AboutQueryVariables = Exact<{
+  slug: Scalars['String'];
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AboutQuery = { __typename?: 'Query', about?: { __typename: 'AboutRecord', _modelApiKey: string, id: any, title: string, slug: string, content?: { __typename?: 'AboutModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord' }> } | null, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> } | null };
+
+type AllEventsQueryVariables = Exact<{
+  first?: InputMaybe<Scalars['IntType']>;
+  skip?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AllEventsQuery = { __typename?: 'Query', events: Array<{ __typename: 'EventRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'EventModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> }>, pagination: { __typename?: 'CollectionMetadata', count: any } };
+
+type EventQueryVariables = Exact<{
+  slug: Scalars['String'];
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type EventQuery = { __typename?: 'Query', event?: { __typename: 'EventRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'EventModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> } | null };
+
+type AboutFragment = { __typename: 'AboutRecord', _modelApiKey: string, id: any, title: string, slug: string, content?: { __typename?: 'AboutModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord' }> } | null, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> };
+
+type AboutFragmentLightFragment = { __typename: 'AboutRecord', id: any, title: string, slug: string };
+
+type EventFragment = { __typename: 'EventRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'EventModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> };
+
+type ImageFragment = { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } };
 
 type ImageMediumFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null };
 
 type ImageThumbnailFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } | null };
 
+type ProjectFragment = { __typename: 'ProjectRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'ProjectModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> };
+
+type ProjectFragmentLightFragment = { __typename: 'ProjectRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null };
+
+type SeoMetaTagsFragment = { __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string };
+
 type SiteFragment = { __typename?: 'Site', favicon: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }>, globalSeo?: { __typename?: 'GlobalSeoField', facebookPageUrl?: string | null, siteName?: string | null, titleSuffix?: string | null, twitterAccount?: string | null, fallbackSeo?: { __typename?: 'SeoField', description?: string | null, title?: string | null, twitterCard?: string | null, image?: { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null } | null } | null } | null };
 
-type VideoFragment = { __typename?: 'FileField', id: any, alt?: string | null, basename: string, format: string, mimeType: string, size: any, title?: string | null, url: string, width?: any | null, height?: any | null, video?: { __typename?: 'UploadVideoField', thumbnailUrl: string, streamingUrl: string, framerate?: number | null, duration?: number | null, mp4high?: string | null, mp4med?: string | null, mp4low?: string | null } | null };
+type VideoFragment = { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any };
 
 type GlobalQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 type GlobalQuery = { __typename?: 'Query', site: { __typename?: 'Site', favicon: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }>, globalSeo?: { __typename?: 'GlobalSeoField', facebookPageUrl?: string | null, siteName?: string | null, titleSuffix?: string | null, twitterAccount?: string | null, fallbackSeo?: { __typename?: 'SeoField', description?: string | null, title?: string | null, twitterCard?: string | null, image?: { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null } | null } | null } | null } };
+
+type AllProjectsQueryVariables = Exact<{
+  first?: InputMaybe<Scalars['IntType']>;
+  skip?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AllProjectsQuery = { __typename?: 'Query', projects: Array<{ __typename: 'ProjectRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'ProjectModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> }>, pagination: { __typename?: 'CollectionMetadata', count: any } };
+
+type ProjectQueryVariables = Exact<{
+  slug: Scalars['String'];
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type ProjectQuery = { __typename?: 'Query', project?: { __typename: 'ProjectRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'ProjectModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> } | null };
 
 type SiteSearchQueryVariables = Exact<{
   locale?: InputMaybe<SiteLocale>;

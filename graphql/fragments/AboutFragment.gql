@@ -1,0 +1,22 @@
+#import "./ImageFragment.gql"
+#import "./VideoFragment.gql"
+
+fragment AboutFragment on AboutRecord {
+	__typename
+	_modelApiKey
+	id
+	title
+	slug
+	content {
+		value
+		blocks {
+			__typename
+			... on ImageRecord {
+				__typename
+			}
+		}
+	}
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}

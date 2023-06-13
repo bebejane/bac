@@ -1,0 +1,42 @@
+fragment ProjectFragment on ProjectRecord {
+	__typename
+	id
+	title
+	subtitle
+	introHeadline
+	content {
+		value
+		blocks {
+			... on ImageRecord {
+				__typename
+				id
+				image {
+					...ImageFragment
+				}
+			}
+		}
+	}
+	image {
+		...ImageFragment
+	}
+	gallery {
+		...ImageFragment
+	}
+	video {
+		...VideoFragment
+	}
+	videoCaption
+	metaInfo {
+		__typename
+		id
+		headline
+		text
+	}
+	cv {
+		__typename
+		id
+		headline
+		text
+	}
+	slug
+}

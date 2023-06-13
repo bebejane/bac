@@ -56,26 +56,26 @@ export const recordToSlug = (record: any): string => {
     const { __typename, slug } = record
 
     switch (__typename) {
+      case 'StartRecord':
+        url = `/`
+        break;
       case 'AboutRecord':
-        url = `/om/${slug}`
+        url = `/about/${slug}`
         break;
-      case 'ParticipantRecord':
-        url = `/medverkande/${slug}`
+      case 'ProjectRecord':
+        url = `/projects/${slug}`
         break;
-      case 'ProgramRecord':
-        url = `/program/${slug}`
+      case 'EventRecord':
+        url = `/events/${slug}`
         break;
-      case 'ExhibitionRecord':
-        url = `/utstallningar/${slug}`
+      case 'ContactRecord':
+        url = `/contact`
         break;
-      case 'NewsRecord':
-        url = `/nyheter/${slug}`
+      case 'ArchiveRecord':
+        url = `/archive`
         break;
-      case 'LocationRecord':
-        url = `/platser/${slug}`
-        break;
-      case 'PartnerRecord':
-        url = `/partners/${slug}`
+      case 'ArchivePageRecord':
+        url = `/archive/${slug}`
         break;
       default:
         throw Error(`${__typename} is unknown record slug!`)

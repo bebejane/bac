@@ -8,7 +8,7 @@ import { remark } from 'remark'
 import strip from 'strip-markdown'
 
 export type Props = {
-  image?: FileField
+  image?: ImageFileField
   slug: string
   title: string
   titleLength?: number
