@@ -40,4 +40,8 @@ fragment ProjectFragment on ProjectRecord {
 		text
 	}
 	slug
+	_allSlugLocales {
+		locale
+		value
+	}
 }

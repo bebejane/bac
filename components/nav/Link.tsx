@@ -9,9 +9,10 @@ export type Props = {
   className?: string
   prefetch?: boolean
   transformHref?: boolean
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void
 }
 
-export default function Link({ href, className, children, prefetch, transformHref = true }: Props) {
+export default function Link({ href, className, children, prefetch, transformHref = true, onClick }: Props) {
 
   const { locale, defaultLocale } = useRouter()
   const translatedHref = transformHref ? translatePath(href, locale, defaultLocale) : href
@@ -22,6 +23,7 @@ export default function Link({ href, className, children, prefetch, transformHre
       prefetch={prefetch}
       className={className}
       scroll={true}
+      onClick={onClick}
     >
       {children}
     </NextLink>

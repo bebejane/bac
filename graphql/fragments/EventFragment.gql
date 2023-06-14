@@ -40,4 +40,8 @@ fragment EventFragment on EventRecord {
 		text
 	}
 	slug
+	_allSlugLocales {
+		locale
+		value
+	}
 }

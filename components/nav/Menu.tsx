@@ -37,7 +37,7 @@ export default function Menu({ items }: MenuProps) {
 				selected = item
 			else if (item.sub) {
 				item.sub.forEach((subItem) => {
-					if (translatePath(subItem.slug, locale, defaultLocale) === path)
+					if (translatePath(subItem.slug, locale, defaultLocale).replace(`/${locale}/`, '/') === path)
 						selected = item
 				})
 			}
@@ -48,7 +48,7 @@ export default function Menu({ items }: MenuProps) {
 
 	useEffect(() => {
 		const handleRouteChangeComplete = (path: string) => setShowMenu(false)
-		const handleRouteChangeStart = (path: string) => setSelectedByPath(path)
+		const handleRouteChangeStart = (path: string) => { }//setSelectedByPath(path)
 
 		router.events.on('routeChangeStart', handleRouteChangeStart)
 		router.events.on('routeChangeComplete', handleRouteChangeComplete)
@@ -77,7 +77,7 @@ export default function Menu({ items }: MenuProps) {
 									<ul className={cn(selected?.id === item.id && s.show)}>
 										{item.sub.map((subItem, index) =>
 											<li key={index} className={cn(asPath === subItem.slug && s.selected)}>
-												<Link href={subItem.slug}>{subItem.label}</Link>
+												<Link href={subItem.slug} onClick={(e) => e.stopPropagation()}>{subItem.label}</Link>
 											</li>
 										)}
 									</ul>

@@ -51,7 +51,7 @@ export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, r
 			archive,
 			page: {
 				section: 'archive',
-				slugs: pageSlugs('archive'),
+				slugs: pageSlugs('archive', archive._allSlugLocales),
 			} as PageProps
 		},
 		revalidate
