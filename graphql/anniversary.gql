@@ -1,0 +1,33 @@
+query Anniversary($locale: SiteLocale!) {
+	anniversary(locale: $locale) {
+		id
+		title
+		intro(markdown: false)
+		content {
+			value
+			blocks
+		}
+	}
+}
+
+query AllAnniversaryPages($locale: SiteLocale!) {
+	anniversaryPages: allAnniversaryPages(locale: $locale, first: 100) {
+		__typename
+		id
+		title
+		subtitle
+		introHeadline
+		intro(markdown: false)
+		slug
+		_allSlugLocales {
+			locale
+			value
+		}
+	}
+}
+
+query AnniversaryPage($slug: String!, $locale: SiteLocale) {
+	anniversaryPage(filter: { slug: { eq: $slug } }, locale: $locale) {
+		...AnniversaryPageFragment
+	}
+}

@@ -1,0 +1,24 @@
+fragment ArchiveFragment on ArchiveRecord {
+	__typename
+	_createdAt
+	id
+	title
+	content {
+		value
+		blocks {
+			__typename
+			id
+			... on ImageRecord {
+				__typename
+				image {
+					...ImageFragment
+				}
+				layout
+			}
+		}
+	}
+	slug
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}

@@ -1,6 +1,6 @@
 import s from './Layout.module.scss'
 import React, { useEffect, useState } from 'react'
-import { Content, Footer, Grid, Menu, Language, FullscreenGallery } from '/components'
+import { Content, Footer, Grid, Menu, Logo, FullscreenGallery } from '/components'
 import type { MenuItem } from '/lib/menu'
 import { buildMenu } from '/lib/menu'
 import { useRouter } from 'next/router'
@@ -28,14 +28,14 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 
 	return (
 		<>
-
+			<Logo />
+			<Menu items={menu} />
 			<div className={s.layout}>
 				<Content menu={menu}>
 					{children}
 				</Content>
 			</div>
-			<Menu items={menu} />
-			<Language menu={menu} />
+
 			<Footer menu={menu} />
 			<FullscreenGallery
 				index={images?.findIndex((image) => image?.id === imageId)}

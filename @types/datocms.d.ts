@@ -269,7 +269,7 @@ type AnniversaryPageRecord = RecordInterface & {
   title?: Maybe<Scalars['String']>;
   video?: Maybe<VideoField>;
   videoCaption?: Maybe<Scalars['String']>;
-  videoPoster?: Maybe<FileField>;
+  videoPoster?: Maybe<ImageFileField>;
   wpid?: Maybe<Scalars['IntType']>;
 };
 
@@ -611,12 +611,6 @@ type ArchiveModelContentField = {
   value: Scalars['JsonField'];
 };
 
-type ArchiveModelContentFieldMultiLocaleField = {
-  __typename?: 'ArchiveModelContentFieldMultiLocaleField';
-  locale?: Maybe<SiteLocale>;
-  value?: Maybe<ArchiveModelContentField>;
-};
-
 type ArchiveModelFilter = {
   AND?: InputMaybe<Array<InputMaybe<ArchiveModelFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<ArchiveModelFilter>>>;
@@ -664,9 +658,6 @@ enum ArchiveModelOrderBy {
 /** Record of type Archive (archive) */
 type ArchiveRecord = RecordInterface & {
   __typename?: 'ArchiveRecord';
-  _allContentLocales?: Maybe<Array<ArchiveModelContentFieldMultiLocaleField>>;
-  _allSlugLocales?: Maybe<Array<StringMultiLocaleField>>;
-  _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
   /** Editing URL */
   _editingUrl?: Maybe<Scalars['String']>;
@@ -690,46 +681,7 @@ type ArchiveRecord = RecordInterface & {
 
 
 /** Record of type Archive (archive) */
-type ArchiveRecord_allContentLocalesArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
-};
-
-
-/** Record of type Archive (archive) */
-type ArchiveRecord_allSlugLocalesArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
-};
-
-
-/** Record of type Archive (archive) */
-type ArchiveRecord_allTitleLocalesArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
-};
-
-
-/** Record of type Archive (archive) */
 type ArchiveRecord_seoMetaTagsArgs = {
-  locale?: InputMaybe<SiteLocale>;
-};
-
-
-/** Record of type Archive (archive) */
-type ArchiveRecordcontentArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
-  locale?: InputMaybe<SiteLocale>;
-};
-
-
-/** Record of type Archive (archive) */
-type ArchiveRecordslugArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
-  locale?: InputMaybe<SiteLocale>;
-};
-
-
-/** Record of type Archive (archive) */
-type ArchiveRecordtitleArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -4443,6 +4395,59 @@ type AboutQueryVariables = Exact<{
 
 type AboutQuery = { __typename?: 'Query', about?: { __typename: 'AboutRecord', _modelApiKey: string, id: any, title: string, slug: string, content?: { __typename?: 'AboutModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord' }> } | null, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> } | null };
 
+type AnniversaryQueryVariables = Exact<{
+  locale: SiteLocale;
+}>;
+
+
+type AnniversaryQuery = { __typename?: 'Query', anniversary?: { __typename?: 'AnniversaryRecord', id: any, title?: string | null, intro?: string | null, content?: { __typename?: 'AnniversaryModelContentField', value: any, blocks: Array<string> } | null } | null };
+
+type AllAnniversaryPagesQueryVariables = Exact<{
+  locale: SiteLocale;
+}>;
+
+
+type AllAnniversaryPagesQuery = { __typename?: 'Query', anniversaryPages: Array<{ __typename: 'AnniversaryPageRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, _allSlugLocales?: Array<{ __typename?: 'StringMultiLocaleField', locale?: SiteLocale | null, value?: string | null }> | null }> };
+
+type AnniversaryPageQueryVariables = Exact<{
+  slug: Scalars['String'];
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AnniversaryPageQuery = { __typename?: 'Query', anniversaryPage?: { __typename: 'AnniversaryPageRecord', _modelApiKey: string, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'AnniversaryPageModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord' }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, videoPoster?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }>, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> } | null };
+
+type AllArchivesQueryVariables = Exact<{
+  first?: InputMaybe<Scalars['IntType']>;
+  skip?: InputMaybe<Scalars['IntType']>;
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type AllArchivesQuery = { __typename?: 'Query', archives: Array<{ __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null }>, pagination: { __typename?: 'CollectionMetadata', count: any } };
+
+type ArchiveQueryVariables = Exact<{
+  slug: Scalars['String'];
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type ArchiveQuery = { __typename?: 'Query', archive?: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null, content?: { __typename?: 'ArchiveModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', layout?: string | null, id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> } | null };
+
+type ArchiveIntroQueryVariables = Exact<{
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type ArchiveIntroQuery = { __typename?: 'Query', archiveIntro?: { __typename?: 'ArchiveIntroRecord', title?: string | null, content?: { __typename?: 'ArchiveIntroModelContentField', value: any, blocks: Array<string> } | null } | null };
+
+type ContactQueryVariables = Exact<{
+  locale?: InputMaybe<SiteLocale>;
+}>;
+
+
+type ContactQuery = { __typename?: 'Query', contact?: { __typename?: 'ContactRecord', mailingAddress?: string | null, email?: string | null, instagram?: string | null, people: Array<{ __typename: 'PersonRecord', id: any, firstName?: string | null, lastName?: string | null, email?: string | null, location?: string | null, phone?: string | null, role?: string | null }> } | null };
+
 type AllEventsQueryVariables = Exact<{
   first?: InputMaybe<Scalars['IntType']>;
   skip?: InputMaybe<Scalars['IntType']>;
@@ -4464,6 +4469,12 @@ type AboutFragment = { __typename: 'AboutRecord', _modelApiKey: string, id: any,
 
 type AboutFragmentLightFragment = { __typename: 'AboutRecord', id: any, title: string, slug: string };
 
+type AnniversaryPageFragment = { __typename: 'AnniversaryPageRecord', _modelApiKey: string, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'AnniversaryPageModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord' }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, videoPoster?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }>, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> };
+
+type ArchiveFragment = { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null, content?: { __typename?: 'ArchiveModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', layout?: string | null, id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, _seoMetaTags: Array<{ __typename?: 'Tag', attributes?: any | null, content?: string | null, tag: string }> };
+
+type ArchiveFragmentLightFragment = { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null };
+
 type EventFragment = { __typename: 'EventRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'EventModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> };
 
 type ImageFragment = { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } };
@@ -4471,6 +4482,8 @@ type ImageFragment = { __typename?: 'ImageFileField', id: any, mimeType: string,
 type ImageMediumFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } | null };
 
 type ImageThumbnailFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height?: any | null, width?: any | null, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } | null };
+
+type PersonFragment = { __typename: 'PersonRecord', id: any, firstName?: string | null, lastName?: string | null, email?: string | null, location?: string | null, phone?: string | null, role?: string | null };
 
 type ProjectFragment = { __typename: 'ProjectRecord', id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'ProjectModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }> };
 

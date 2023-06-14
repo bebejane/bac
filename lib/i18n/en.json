@@ -2,9 +2,9 @@
 	"Menu": {
 		"home": "Home",
 		"about": "About",
-		"projects": "Projects",
-		"events": "Events",
-		"back20Years": "BAC 20 Years",
+		"project": "Projects",
+		"event": "Events",
+		"anniversary": "BAC 20 Years",
 		"archive": "Archive",
 		"contact": "Contact"
 	}

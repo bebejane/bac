@@ -2,10 +2,17 @@
 	--black: #161616;
 	--white: #fcfcfc;
 	--red: #bf0000;
-	--outer-margin: 4vw;
-
+	--outer-margin: 2vw;
+	--navbar-height: 100px;
+	--grid-unit: calc(((100vw - (2 * var(--outer-margin))) / 12));
 	--background: var(--white);
 	--foreground: var(--black);
+
+	--line: 4px solid var(--black);
+
+	--z-logo: 1000;
+	--z-menu: 1100;
+	--z-hamburger: 1200;
 
 	@include mq($from: tablet) {}
 

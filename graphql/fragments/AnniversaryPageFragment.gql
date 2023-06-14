@@ -1,0 +1,48 @@
+fragment AnniversaryPageFragment on AnniversaryPageRecord {
+	__typename
+	_modelApiKey
+	id
+	title
+	subtitle
+	introHeadline
+	intro(markdown: false)
+	content {
+		value
+		blocks {
+			__typename
+			... on ImageRecord {
+				__typename
+			}
+		}
+	}
+	image {
+		...ImageFragment
+	}
+	gallery {
+		...ImageFragment
+	}
+	video {
+		...VideoFragment
+	}
+	videoPoster {
+		...ImageFragment
+	}
+	videoCaption
+
+	metaInfo {
+		__typename
+		id
+		headline
+		text
+	}
+	cv {
+		__typename
+		id
+		headline
+		text
+	}
+	slug
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}

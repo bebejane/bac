@@ -1,10 +1,10 @@
 {
 	"Menu": {
 		"home": "Start",
-		"about": "om BAC",
-		"projects": "Projekt",
-		"events": "Evenemang",
-		"back20Years": "BAC 20 år",
+		"about": "Om",
+		"project": "Projekt",
+		"event": "Evenemang",
+		"anniversary": "BAC 20 år",
 		"archive": "Arkiv",
 		"contact": "Kontakt"
 	}

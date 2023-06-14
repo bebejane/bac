@@ -8,17 +8,22 @@ const base: Menu = [
   { id: 'project', label: 'Projects', slug: '/projects' },
   { id: 'event', label: 'Events', slug: '/events' },
   { id: 'anniversary', label: 'BAC 20 Years', slug: '/bac-20-year-anniversary' },
+  { id: 'archive', label: 'Archive', slug: '/archive' },
+  { id: 'contact', label: 'Contact', slug: '/contact' },
 ]
 
 export const buildMenu = async (locale: string) => {
 
+  const messages = (await import(`./i18n/${locale}.json`)).default
   const altLocale = locales.find(l => locale != l)
   const res: MenuQueryResponse = await apiQuery(MenuDocument, { variables: { locale, altLocale } });
 
   const menu = base.map(item => {
 
     let sub: MenuItem[];
+
     if (item.slug) {
+      item.label = messages.Menu[item.id]
       item.slug = `/${routes[item.id][locale]}`
       item.altSlug = `/${routes[item.id][altLocale]}`
     }
@@ -32,8 +37,6 @@ export const buildMenu = async (locale: string) => {
           slug: `/${routes.about[locale]}/${el.slug}`,
           altSlug: `/${routes.about[altLocale]}/${el.altSlug}`
         }))
-
-
         break;
       default:
         break;

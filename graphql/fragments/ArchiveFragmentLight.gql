@@ -1,0 +1,7 @@
+fragment ArchiveFragmentLight on ArchiveRecord {
+	__typename
+	_createdAt
+	id
+	title
+	slug
+}

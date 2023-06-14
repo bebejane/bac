@@ -13,7 +13,6 @@ export default function Home({ start }: Props) {
 
 	return (
 		<div className={s.container}>
-			BAC
 			{start?.content?.map((block, idx) =>
 				<section key={idx}>
 					<Block
@@ -22,9 +21,7 @@ export default function Home({ start }: Props) {
 					/>
 				</section>
 			)}
-			<br />
-			<Link href="/projects">Projects</Link><br />
-			<Link href="/events">Events</Link>
+			start content
 		</div>
 	);
 }

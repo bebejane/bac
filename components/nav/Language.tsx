@@ -17,19 +17,16 @@ export default function Language({ menu }: Props) {
 	const { slugs } = usePage()
 
 	if (locales.length <= 1) return null
+	const slug = slugs.find((item) => item.locale !== locale)
 
 	return (
-		<nav className={s.language}>
-			{slugs.map((item, idx) =>
-				<Link
-					key={idx}
-					href={item.value}
-					locale={item.locale}
-					className={cn(locale === item.locale && s.selected)}
-				>
-					{capitalize(item.locale)}
-				</Link>
-			)}
-		</nav>
+
+		<Link
+			href={slug.value}
+			locale={slug.locale}
+		>
+			{slug.locale === 'en' ? 'English' : 'Svenska'}
+		</Link>
+
 	)
 }

@@ -14,7 +14,7 @@ export type Props = {
 export default function Projects({ projects }: Props) {
 
 	return (
-		<div className={s.container}>
+		<section className={s.container}>
 			<CardContainer>
 				{projects.map(({ title, image, slug }, r, idx) =>
 					<Card>
@@ -22,7 +22,7 @@ export default function Projects({ projects }: Props) {
 					</Card>
 				)}
 			</CardContainer>
-		</div>
+		</section>
 	);
 }
 

@@ -1,0 +1,24 @@
+query AllArchives($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale = en) {
+	archives: allArchives(first: $first, skip: $skip, locale: $locale, orderBy: _createdAt_DESC) {
+		...ArchiveFragmentLight
+	}
+	pagination: _allArchivesMeta {
+		count
+	}
+}
+
+query Archive($slug: String!, $locale: SiteLocale = en) {
+	archive(filter: { slug: { eq: $slug } }, locale: $locale) {
+		...ArchiveFragment
+	}
+}
+
+query ArchiveIntro($locale: SiteLocale) {
+	archiveIntro(locale: $locale) {
+		title
+		content {
+			value
+			blocks
+		}
+	}
+}

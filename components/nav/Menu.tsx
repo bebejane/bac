@@ -10,7 +10,8 @@ import useStore from '/lib/store'
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { useWindowSize } from 'usehooks-ts'
 import useDevice from '/lib/hooks/useDevice'
-import { Link } from '/components'
+import { Link, Language } from '/components'
+import { set } from 'date-fns'
 
 export type MenuProps = { items: Menu }
 
@@ -18,24 +19,49 @@ export default function Menu({ items }: MenuProps) {
 
 	const t = useTranslations('Menu')
 	const router = useRouter()
-	const { locale, defaultLocale } = router
+	const { asPath, locale, defaultLocale } = router
 	const menuRef = useRef<HTMLUListElement | null>(null);
 	const [showMenu, setShowMenu, searchQuery, setSearchQuery] = useStore((state) => [state.showMenu, state.setShowMenu, state.searchQuery, state.setSearchQuery])
+
 	const [selected, setSelected] = useState<MenuItem | undefined>()
 	const { scrolledPosition, documentHeight, viewportHeight } = useScrollInfo()
 	const { width, height } = useWindowSize()
 	const { isDesktop, isMobile } = useDevice()
 
+	useEffect(() => {
+		const handleRouteChangeComplete = (path: string) => {
+			setShowMenu(false)
+		}
+		router.events.on('routeChangeComplete', handleRouteChangeComplete)
+		return () => router.events.off('routeChangeComplete', handleRouteChangeComplete)
+	}, [])
+
 	return (
 		<>
 			<Hamburger />
-			<nav className={cn(s.menu, !showMenu && s.hide)}>
-				<ul ref={menuRef}>
+			<nav className={cn(s.menu)}>
+				<ul ref={menuRef} className={cn(showMenu && s.show)}>
 					{items.map((item, index) =>
-						<li key={index}	>
-							<Link href={item.slug}>{item.label}</Link>
+						<li key={index} className={cn(asPath === item.slug && s.selected)}>
+							{!item.sub ?
+								<Link href={item.slug}>{item.label}</Link>
+								:
+								<span onClick={() => setSelected(selected?.id === item.id ? undefined : item)}>
+									{item.label}
+									<ul className={cn(selected?.id === item.id && s.show)}>
+										{item.sub.map((subItem, index) =>
+											<li key={index} className={cn(asPath === subItem.slug && s.selected)}>
+												<Link href={subItem.slug}>{subItem.label}</Link>
+											</li>
+										)}
+									</ul>
+								</span>
+							}
 						</li>
 					)}
+					<li>
+						<Language menu={items} />
+					</li>
 				</ul>
 			</nav>
 		</>
