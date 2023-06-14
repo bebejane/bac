@@ -25,14 +25,14 @@ export async function getStaticPaths() {
 export default function AnniversaryPage({ anniversaryPage: { title, content }, anniversaryPage }: Props) {
 
 	return (
-		<div className={s.container}>
+		<section className={s.container}>
 			<h1>{title}</h1>
 			<StructuredContent
 				id={anniversaryPage.id}
 				record={anniversaryPage}
 				content={content}
 			/>
-		</div>
+		</section>
 	);
 }
 

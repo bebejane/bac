@@ -29,10 +29,10 @@ export default function Projects({ projects }: Props) {
 
 export const getStaticProps = withGlobalProps({ queries: [AllProjectsDocument] }, async ({ props, revalidate, context }: any) => {
 
-
 	return {
 		props: {
 			...props,
+			projects: props.projects.filter((p: ProjectRecord) => p.slug),
 			page: {
 				section: 'project',
 				slugs: pageSlugs('project'),

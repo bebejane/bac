@@ -4,8 +4,6 @@ import React, { useState } from 'react'
 import { Image } from 'react-datocms/image'
 import Link from '/components/nav/Link'
 import { truncateWords } from '/lib/utils'
-import { remark } from 'remark'
-import strip from 'strip-markdown'
 
 export type Props = {
   image?: ImageFileField

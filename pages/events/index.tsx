@@ -13,7 +13,7 @@ export type Props = {
 export default function Events({ events }: Props) {
 
 	return (
-		<div className={s.container}>
+		<section className={s.container}>
 			<CardContainer>
 				{events.map(({ title, subtitle, image, slug }, idx) =>
 					<Card key={idx} >
@@ -21,7 +21,7 @@ export default function Events({ events }: Props) {
 					</Card>
 				)}
 			</CardContainer>
-		</div >
+		</section >
 	);
 }
 
@@ -32,6 +32,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllEventsDocument] }, 
 	return {
 		props: {
 			...props,
+			events: props.events.filter((e: EventRecord) => e.slug),
 			page: {
 				section: 'event',
 				slugs: pageSlugs('event'),
