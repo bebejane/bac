@@ -18,13 +18,13 @@ export default withWebPreviewsEdge(async ({ item, itemType, locale }) => {
       path = `/`
       break;
     case 'project':
-      path = `/projects/${slug}`
+      path = slug ? `/projects/${slug}` : null
       break;
     case 'event':
-      path = `/events/${slug}`
+      path = slug ? `/events/${slug}` : null
       break;
     case 'about':
-      path = `/about/${slug}`
+      path = slug ? `/about/${slug}` : null
       break;
     case 'contact':
       path = `/contact`
@@ -33,13 +33,13 @@ export default withWebPreviewsEdge(async ({ item, itemType, locale }) => {
       path = `/contact`
       break;
     case 'archive':
-      path = `/archive`
+      path = slug ? `/archive/${slug}` : null
       break;
     case 'anniversary':
       path = `/bac-20-year-anniversary`
       break;
     case 'anniversary_page':
-      path = `/bac-20-year-anniversary/${slug}`
+      path = slug ? `/bac-20-year-anniversary/${slug}` : null
       break;
     default:
       break;

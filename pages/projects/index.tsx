@@ -1,28 +1,53 @@
 import s from "./[project].module.scss";
-import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { Thumbnail, CardContainer, Card } from "/components";
-import { recordToSlug } from "/lib/utils";
 
 export type Props = {
 	projects: ProjectRecord[]
 }
 
+export type ProjectsByYear = {
+	projects: ProjectRecord[]
+	year: number
+}[]
 
 export default function Projects({ projects }: Props) {
+
+	const projectsByYear = projects.reduce((acc, project) => {
+		const year = new Date(project._createdAt).getFullYear();
+		const yearProject = acc.find((el) => el.year === year);
+		if (yearProject)
+			yearProject.projects.push(project);
+		else
+			acc.push({ year, projects: [project] });
+		return acc;
+	}, [] as ProjectsByYear).sort((a, b) => a.year > b.year ? -1 : 1);
+
 
 	return (
 		<section className={s.container}>
 			<CardContainer>
-				{projects.map(({ title, subtitle, image, slug }, r, idx) =>
-					<Card>
-						<Thumbnail title={title} subtitle={subtitle} image={image} slug={`/projects/${slug}`} />
-					</Card>
-				)}
+				{projectsByYear.map(({ projects, year }, i) => {
+					return (
+						<>
+							{projects.map(({ title, subtitle, image, slug, _createdAt }, idx) =>
+								<Card key={idx}>
+									<Thumbnail
+										year={idx === 0 ? year : null}
+										title={title}
+										subtitle={subtitle}
+										image={image}
+										slug={`/projects/${slug}`}
+									/>
+								</Card >
+							)}
+						</>
+					)
+				})}
 			</CardContainer>
-		</section>
+		</section >
 	);
 }
 

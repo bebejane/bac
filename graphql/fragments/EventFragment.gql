@@ -1,5 +1,6 @@
 fragment EventFragment on EventRecord {
 	__typename
+	_createdAt
 	id
 	title
 	subtitle

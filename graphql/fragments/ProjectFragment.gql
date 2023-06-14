@@ -1,5 +1,6 @@
 fragment ProjectFragment on ProjectRecord {
 	__typename
+	_createdAt
 	id
 	title
 	subtitle

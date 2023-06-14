@@ -10,15 +10,17 @@ export type Props = {
   slug: string
   title: string
   subtitle?: string
+  year?: number
   transformHref?: boolean
 }
 
-export default function Thumbnail({ image, slug, title, subtitle, transformHref = true }: Props) {
+export default function Thumbnail({ image, slug, title, subtitle, year, transformHref = true }: Props) {
 
   const [loaded, setLoaded] = useState(false);
 
   return (
     <Link href={slug} transformHref={transformHref} className={s.thumbnail}>
+      {year && <h2 className={s.year}>{year}</h2>}
       {image &&
         <figure className={s.figure}>
           <>

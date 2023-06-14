@@ -28,7 +28,7 @@ h1 {
   padding-bottom: var(--space);
   line-height: 1.25;
   font-family: $headline-font;
-  text-align: center;
+
   @include mq($until: tablet) {
     padding-left: var(--outer-margin);
     padding-right: var(--outer-margin);
@@ -43,7 +43,7 @@ h2 {
 h3 {
   font-size: 0.85rem;
   font-family: $headline-font;
-  text-align: center;
+
   padding-bottom: 1em;
 }
 
@@ -71,7 +71,7 @@ p.intro,
     padding-right: 0.5em;
   }
 
-  > p {
+  >p {
     padding: 0;
   }
 }
@@ -85,6 +85,7 @@ figcaption,
   font-family: $headline-font;
   font-size: 0.75rem;
   text-align: center;
+
   @include mq($from: wide) {
     font-size: 0.7rem;
   }
@@ -127,6 +128,7 @@ article {
     padding-left: var(--outer-margin);
     padding-right: var(--outer-margin);
     text-align: left;
+
     @include mq($from: tablet) {
       padding-left: var(--grid-unit);
       padding-right: var(--grid-unit);
@@ -134,13 +136,13 @@ article {
   }
 
   ul p {
-    padding-left: 0;  
+    padding-left: 0;
   }
 
-  p + h3,
-  ul + h3,
-  ul + h2,
-  p + h2 {
+  p+h3,
+  ul+h3,
+  ul+h2,
+  p+h2 {
     padding-top: 1rem;
   }
 
