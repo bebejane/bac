@@ -10,7 +10,7 @@ export default withWebPreviewsEdge(async ({ item, itemType, locale }) => {
 
   let path = null;
 
-  const { slug } = item.attributes
+  const slug = typeof item.attributes.slug ? item.attributes.slug[locale] : item.attributes.slug
 
   switch (itemType.attributes.api_key) {
 
