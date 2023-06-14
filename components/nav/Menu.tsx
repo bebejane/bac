@@ -28,16 +28,38 @@ export default function Menu({ items }: MenuProps) {
 	const { width, height } = useWindowSize()
 	const { isDesktop, isMobile } = useDevice()
 
-	useEffect(() => {
-		const handleRouteChangeComplete = (path: string) => {
-			setShowMenu(false)
-		}
-		router.events.on('routeChangeComplete', handleRouteChangeComplete)
-		return () => router.events.off('routeChangeComplete', handleRouteChangeComplete)
-	}, [])
+	const setSelectedByPath = (path: string) => {
+
+		let selected = null;
+
+		items.forEach((item) => {
+			if (translatePath(item.slug, locale, defaultLocale) === path)
+				selected = item
+			else if (item.sub) {
+				item.sub.forEach((subItem) => {
+					if (translatePath(subItem.slug, locale, defaultLocale) === path)
+						selected = item
+				})
+			}
+		})
+
+		setSelected(selected)
+	}
 
 	useEffect(() => {
-		setSelected(items.find((item) => translatePath(item.slug, locale, defaultLocale) === asPath))
+		const handleRouteChangeComplete = (path: string) => setShowMenu(false)
+		const handleRouteChangeStart = (path: string) => setSelectedByPath(path)
+
+		router.events.on('routeChangeStart', handleRouteChangeStart)
+		router.events.on('routeChangeComplete', handleRouteChangeComplete)
+		return () => {
+			router.events.off('routeChangeComplete', handleRouteChangeComplete)
+			router.events.off('routeChangeStart', handleRouteChangeStart)
+		}
+	}, [locale, defaultLocale])
+
+	useEffect(() => {
+		setSelectedByPath(asPath)
 	}, [asPath, locale, defaultLocale])
 
 	return (

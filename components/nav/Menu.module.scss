@@ -26,11 +26,15 @@
     list-style: none;
     font-weight: bold;
 
-    >li {
+    li {
 
       &.selected {
         text-decoration: underline;
       }
+    }
+
+    >li {
+
 
       span {
         cursor: pointer;
