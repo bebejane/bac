@@ -1,17 +1,48 @@
 import { apiQuery } from 'dato-nextjs-utils/api';
 import { MenuDocument } from "/graphql";
-import { locales } from '/lib/i18n'
-import routes from '/lib/i18n/routes'
+import { locales, routes } from '/lib/i18n'
 
 const base: Menu = [
-  { id: 'home', label: 'Hem', slug: '/', general: true },
+  { id: 'home', label: 'Home', slug: '/' },
+  { id: 'about', label: 'About', slug: '/about', sub: [] },
+  { id: 'project', label: 'Projects', slug: '/projects' },
+  { id: 'event', label: 'Events', slug: '/events' },
+  { id: 'anniversary', label: 'BAC 20 Years', slug: '/bac-20-year-anniversary' },
 ]
 
 export const buildMenu = async (locale: string) => {
 
-  const messages = (await import(`./i18n/${locale}.json`)).default
   const altLocale = locales.find(l => locale != l)
-  const menu = []
+  const res: MenuQueryResponse = await apiQuery(MenuDocument, { variables: { locale, altLocale } });
+
+  const menu = base.map(item => {
+
+    let sub: MenuItem[];
+    if (item.slug) {
+      item.slug = `/${routes[item.id][locale]}`
+      item.altSlug = `/${routes[item.id][altLocale]}`
+    }
+
+    switch (item.id) {
+      case 'about':
+        //@ts-ignore
+        sub = res.abouts.map(el => ({
+          id: `about-${el.slug}`,
+          label: el.title,
+          slug: `/${routes.about[locale]}/${el.slug}`,
+          altSlug: `/${routes.about[altLocale]}/${el.altSlug}`
+        }))
+
+
+        break;
+      default:
+        break;
+    }
+    return {
+      ...item,
+      sub: sub || item.sub || null,
+    }
+  })
 
   return menu
 }
@@ -25,4 +56,8 @@ export type MenuItem = {
   altSlug?: string
   sub?: MenuItem[]
   general?: boolean
+}
+
+export type MenuQueryResponse = {
+  abouts: (AboutRecord & { altSlug: string })[]
 }

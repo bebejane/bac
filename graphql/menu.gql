@@ -1,0 +1,8 @@
+query Menu($locale: SiteLocale, $altLocale: SiteLocale) {
+	abouts: allAbouts(locale: $locale, first: 100) {
+		id
+		title
+		slug
+		altSlug: slug(locale: $altLocale)
+	}
+}

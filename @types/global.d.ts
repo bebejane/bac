@@ -12,7 +12,7 @@ type PageProps = {
   section: SectionId
 }
 
-type SectionId = 'home' | 'contact' | 'project' | 'event' | 'about'
+type SectionId = 'home' | 'contact' | 'project' | 'event' | 'about' | 'anniversary'
 
 type ThumbnailImage = {
   thumb: FileField

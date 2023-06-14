@@ -3,13 +3,14 @@ import cn from 'classnames'
 import { useRouter } from 'next/router'
 import { useState, useRef, useEffect } from 'react'
 import type { Menu, MenuItem } from '/lib/menu'
-import Link from 'next/link'
+
 import { useTranslations } from 'next-intl'
 import { Hamburger } from '/components'
 import useStore from '/lib/store'
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { useWindowSize } from 'usehooks-ts'
 import useDevice from '/lib/hooks/useDevice'
+import { Link } from '/components'
 
 export type MenuProps = { items: Menu }
 
@@ -29,7 +30,13 @@ export default function Menu({ items }: MenuProps) {
 		<>
 			<Hamburger />
 			<nav className={cn(s.menu, !showMenu && s.hide)}>
-				Menu
+				<ul ref={menuRef}>
+					{items.map((item, index) =>
+						<li key={index}	>
+							<Link href={item.slug}>{item.label}</Link>
+						</li>
+					)}
+				</ul>
 			</nav>
 		</>
 	)

@@ -17,11 +17,12 @@ const i18Rewrites = async () => {
 
 	Object.keys(routes).forEach((k) =>
 		rewrites.push({
-			destination: `/sv/${routes[k].sv}/:path*`,
+			destination: `/sv/${routes[k].en}/:path*`,
 			source: `/sv/${routes[k].sv}/:path*`,
 			locale: false,
 		})
 	);
+
 	return rewrites;
 };
 

@@ -2,9 +2,8 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { StartDocument } from "/graphql";
-import { Block } from "/components";
+import { Block, Link } from "/components";
 import { pageSlugs } from "/lib/i18n";
-
 
 export type Props = {
 	start: StartRecord
@@ -23,6 +22,9 @@ export default function Home({ start }: Props) {
 					/>
 				</section>
 			)}
+			<br />
+			<Link href="/projects">Projects</Link><br />
+			<Link href="/events">Events</Link>
 		</div>
 	);
 }
