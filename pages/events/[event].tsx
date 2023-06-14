@@ -25,14 +25,14 @@ export async function getStaticPaths() {
 export default function Event({ event: { title, content }, event }: Props) {
 
 	return (
-		<div className={s.container}>
+		<section className={s.container}>
 			<h1>{title}</h1>
 			<StructuredContent
 				id={event.id}
 				record={event}
 				content={content}
 			/>
-		</div>
+		</section>
 	);
 }
 

@@ -9,23 +9,42 @@ export default withRevalidate(async (record, revalidate) => {
   const slugs = typeof slug === 'object' ? slug : { [defaultLocale]: slug }
   const paths = []
 
-  console.log('revalidate', apiKey)
-
   Object.keys(slugs).forEach((locale) => {
     const slug = slugs[locale]
     const localePaths = []
     switch (apiKey) {
       case 'start':
-        localePaths.push('/')
+        localePaths.push(`/`)
+        break;
+      case 'project':
+        localePaths.push(`/projects/${slug}`)
+        break;
+      case 'event':
+        localePaths.push(`/events/${slug}`)
         break;
       case 'about':
-        localePaths.push(`/om/${slug}`)
+        localePaths.push(`/about/${slug}`)
+        break;
+      case 'contact':
+        localePaths.push(`/contact`)
+        break;
+      case 'person':
+        localePaths.push(`/contact`)
+        break;
+      case 'archive':
+        localePaths.push(`/archive`)
+        break;
+      case 'anniversary':
+        localePaths.push(`/bac-20-year-anniversary`)
+        break;
+      case 'anniversary_page':
+        localePaths.push(`/bac-20-year-anniversary/${slug}`)
         break;
       default:
         break;
     }
     localePaths.forEach(p => paths.push(translatePath(p, locale, defaultLocale)))
   })
-  console.log(paths)
+
   revalidate(paths)
 })
