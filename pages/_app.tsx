@@ -19,6 +19,7 @@ function App({ Component, pageProps, router }) {
 
   const siteTitle = 'Baltic Art Center'
   const page = pageProps.page || {} as PageProps
+
   const { asPath } = useRouter()
   const isHome = asPath === '/' || locales.find(l => asPath === `/${l}`) !== undefined
   const errorCode = parseInt(router.pathname.replace('/', ''))
@@ -31,7 +32,7 @@ function App({ Component, pageProps, router }) {
       <DefaultDatoSEO siteTitle={siteTitle} site={pageProps.site} path={asPath} />
       <NextIntlProvider messages={pageProps.messages} onError={onMessageError} getMessageFallback={getMessageFallback}>
         <PageProvider value={{ ...page, isHome }}>
-          <Layout title={siteTitle} menu={pageProps.menu || []} footer={pageProps.footer}>
+          <Layout title={siteTitle} menu={pageProps.menu || []} contact={pageProps.contact}>
             <Component {...pageProps} />
           </Layout>
         </PageProvider>

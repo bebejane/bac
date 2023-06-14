@@ -10,19 +10,18 @@ export type Props = {
 	events: EventRecord[]
 }
 
-
 export default function Events({ events }: Props) {
-	console.log(events)
+
 	return (
 		<div className={s.container}>
 			<CardContainer>
-				{events.map(({ title, image, slug }, r, idx) =>
-					<Card>
-						<Thumbnail title={title} image={image} slug={`/events/${slug}`} />
+				{events.map(({ title, subtitle, image, slug }, idx) =>
+					<Card key={idx} >
+						<Thumbnail title={title} subtitle={subtitle} image={image} slug={`/events/${slug}`} />
 					</Card>
 				)}
 			</CardContainer>
-		</div>
+		</div >
 	);
 }
 

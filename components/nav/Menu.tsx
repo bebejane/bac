@@ -11,7 +11,7 @@ import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { useWindowSize } from 'usehooks-ts'
 import useDevice from '/lib/hooks/useDevice'
 import { Link, Language } from '/components'
-import { set } from 'date-fns'
+import { translatePath } from '/lib/utils'
 
 export type MenuProps = { items: Menu }
 
@@ -35,6 +35,10 @@ export default function Menu({ items }: MenuProps) {
 		router.events.on('routeChangeComplete', handleRouteChangeComplete)
 		return () => router.events.off('routeChangeComplete', handleRouteChangeComplete)
 	}, [])
+
+	useEffect(() => {
+		setSelected(items.find((item) => translatePath(item.slug, locale, defaultLocale) === asPath))
+	}, [asPath, locale, defaultLocale])
 
 	return (
 		<>

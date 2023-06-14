@@ -11,27 +11,18 @@ export type Props = {
   image?: ImageFileField
   slug: string
   title: string
-  titleLength?: number
-  titleRows?: number
-  intro?: string
-  meta?: string
+  subtitle?: string
   transformHref?: boolean
 }
 
-export default function Thumbnail({ image, slug, intro, title, titleLength, titleRows = 3, meta, transformHref = true }: Props) {
+export default function Thumbnail({ image, slug, title, subtitle, transformHref = true }: Props) {
 
-  const strippedIntro = truncateWords(remark().use(strip).processSync(intro).value as string, 500)
   const [loaded, setLoaded] = useState(false);
 
   return (
     <Link href={slug} transformHref={transformHref} className={s.thumbnail}>
-      <h3 className={cn(s[`rows-${titleRows}`])}>
-        <span>
-          {titleLength ? truncateWords(title, titleLength) : title}
-        </span>
-      </h3>
       {image &&
-        <div className={s.imageWrap}>
+        <figure className={s.figure}>
           <>
             <Image
               data={image.responsiveImage}
@@ -40,16 +31,10 @@ export default function Thumbnail({ image, slug, intro, title, titleLength, titl
               onLoad={() => setLoaded(true)}
             />
           </>
-        </div>
+        </figure>
       }
-      {strippedIntro &&
-        <div className="thumb-intro">
-          <p>
-            {meta && <strong>{meta}</strong>}
-            {strippedIntro}
-          </p>
-        </div>
-      }
+      <h3>{title}</h3>
+      {subtitle && <p>{subtitle}</p>}
     </Link>
   )
 }

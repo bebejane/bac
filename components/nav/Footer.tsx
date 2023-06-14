@@ -6,17 +6,20 @@ import { useTranslations } from 'next-intl'
 import { usePage } from '/lib/context/page'
 
 export type FooterProps = {
-	menu: MenuItem[]
+	contact: ContactRecord
 
 }
 
-export default function Footer({ menu }: FooterProps) {
-	const t = useTranslations('Footer')
+export default function Footer({ contact: { email, instagram, mailingAddress } }: FooterProps) {
+
 	const { isHome } = usePage()
 
 	return (
 		<footer className={cn(s.footer)} id="footer">
-			footer
+			<span>Baltic Art Center</span>
+			<span>{mailingAddress}</span>
+			<span><a href={`mailto:${email}`}>{email}</a></span>
+			<span><a href={instagram}>Instagram</a></span>
 		</footer>
 	)
 }

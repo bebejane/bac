@@ -16,9 +16,9 @@ export default function Projects({ projects }: Props) {
 	return (
 		<section className={s.container}>
 			<CardContainer>
-				{projects.map(({ title, image, slug }, r, idx) =>
+				{projects.map(({ title, subtitle, image, slug }, r, idx) =>
 					<Card>
-						<Thumbnail title={title} image={image} slug={`/projects/${slug}`} />
+						<Thumbnail title={title} subtitle={subtitle} image={image} slug={`/projects/${slug}`} />
 					</Card>
 				)}
 			</CardContainer>

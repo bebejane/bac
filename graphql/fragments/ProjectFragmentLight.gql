@@ -5,7 +5,7 @@ fragment ProjectFragmentLight on ProjectRecord {
 	subtitle
 	introHeadline
 	image {
-		...ImageFragment
+		...ImageThumbnailFragment
 	}
 	slug
 }

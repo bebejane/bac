@@ -10,11 +10,11 @@ import { usePage } from '/lib/context/page'
 export type LayoutProps = {
 	children: React.ReactNode,
 	menu: MenuItem[],
-	footer: any
+	contact: ContactRecord
 	title: string
 }
 
-export default function Layout({ children, menu: menuFromProps, footer, title }: LayoutProps) {
+export default function Layout({ children, menu: menuFromProps, contact, title }: LayoutProps) {
 
 	const router = useRouter()
 	const { section } = usePage()
@@ -36,7 +36,7 @@ export default function Layout({ children, menu: menuFromProps, footer, title }:
 				</Content>
 			</div>
 
-			<Footer menu={menu} />
+			<Footer contact={contact} />
 			<FullscreenGallery
 				index={images?.findIndex((image) => image?.id === imageId)}
 				images={images}

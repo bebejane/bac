@@ -13,42 +13,8 @@
   }
 
   h3 {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
     width: 100%;
-    height: 5rem;
-
-    span {
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    &.rows-1 {
-      height: 3rem;
-
-      span {
-        -webkit-line-clamp: 1;
-      }
-    }
-
-    &.rows-2 {
-      height: 4rem;
-
-      span {
-        -webkit-line-clamp: 2;
-      }
-    }
-
-    &.rows-3 {
-      height: 4rem;
-
-      span {
-        -webkit-line-clamp: 3;
-      }
-    }
+    text-align: left;
   }
 
   p {
@@ -58,7 +24,7 @@
     overflow: hidden;
   }
 
-  .imageWrap {
+  .figure {
     position: relative;
 
     .border {
@@ -102,7 +68,7 @@
       min-width: calc(100% - 2em) !important;
 
       margin-bottom: 0.8em;
-      aspect-ratio: 8 / 5;
+      aspect-ratio: 4 / 3;
       transition: all 0.3s ease-in-out;
 
       img {

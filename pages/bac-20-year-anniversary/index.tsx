@@ -15,7 +15,6 @@ export type Props = {
 
 export default function Anniversary({ anniversary, anniversaryPages }: Props) {
 
-	console.log(anniversaryPages)
 	return (
 		<section>
 			<h1>Anniversary</h1>
