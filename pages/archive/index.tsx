@@ -7,6 +7,7 @@ import { Article, StructuredContent } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 import Link from "next/link";
 import { ar } from "date-fns/locale";
+import React from "react";
 
 export type Props = {
 	archiveIntro: ArchiveIntroRecord
@@ -23,15 +24,11 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 	const archivesByYear = archives.reduce((acc, archive) => {
 		const year = new Date(archive._createdAt).getFullYear();
 		const yearArchives = acc.find(el => el.year === year);
-		if (yearArchives) {
+		if (yearArchives)
 			yearArchives.archives.push(archive);
-		} else {
+		else
+			acc.push({ year, archives: [archive] });
 
-			acc.push({
-				year,
-				archives: [archive]
-			});
-		}
 		return acc;
 	}, [] as ArchivesByYear).sort((a, b) => a.year < b.year ? 1 : -1);
 
@@ -42,7 +39,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			intro={text}
 		>
 			{archivesByYear.map(({ archives, year }, idx) =>
-				<>
+				<React.Fragment key={idx}>
 					<h3>{year}</h3>
 					<ul key={idx}>
 						{archives.map(({ title, _createdAt, slug }, index) =>
@@ -51,7 +48,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 							</Link>
 						)}
 					</ul>
-				</>
+				</React.Fragment>
 			)}
 		</Article>
 	);

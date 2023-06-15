@@ -3,13 +3,12 @@ import cn from 'classnames'
 import { useRouter } from 'next/router'
 import { useState, useRef, useEffect } from 'react'
 import type { Menu, MenuItem } from '/lib/menu'
-
 import { useTranslations } from 'next-intl'
 import { Hamburger } from '/components'
 import useStore from '/lib/store'
+import useDevice from '/lib/hooks/useDevice'
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { useWindowSize } from 'usehooks-ts'
-import useDevice from '/lib/hooks/useDevice'
 import { Link, Language } from '/components'
 import { translatePath } from '/lib/utils'
 
@@ -24,30 +23,41 @@ export default function Menu({ items }: MenuProps) {
 	const [showMenu, setShowMenu, searchQuery, setSearchQuery] = useStore((state) => [state.showMenu, state.setShowMenu, state.searchQuery, state.setSearchQuery])
 
 	const [selected, setSelected] = useState<MenuItem | undefined>()
+	const [subSelected, setSubSelected] = useState<MenuItem | undefined>()
 	const { scrolledPosition, documentHeight, viewportHeight } = useScrollInfo()
 	const { width, height } = useWindowSize()
 	const { isDesktop, isMobile } = useDevice()
 
 	const setSelectedByPath = (path: string) => {
 
-		let selected = null;
+		let selected = null
+		const localePath = `${locale !== defaultLocale ? `/${locale}` : ''}${path}`
 
 		items.forEach((item) => {
-			if (translatePath(item.slug, locale, defaultLocale) === path)
+			if (translatePath(item.slug, locale, defaultLocale) === localePath)
 				selected = item
 			else if (item.sub) {
 				item.sub.forEach((subItem) => {
-					if (translatePath(subItem.slug, locale, defaultLocale).replace(`/${locale}/`, '/') === path)
-						selected = item
+					if (translatePath(subItem.slug, locale, defaultLocale) === localePath) {
+						selected = subItem
+					}
 				})
 			}
 		})
+
+		if (!selected) { // Check base path
+			const baseUrl = path.split('/').slice(0, path.split('/').length - 1).join('/')
+			selected = items.find((item) => translatePath(item.slug, locale, defaultLocale) === baseUrl)
+		}
 
 		setSelected(selected)
 	}
 
 	useEffect(() => {
-		const handleRouteChangeComplete = (path: string) => setShowMenu(false)
+		const handleRouteChangeComplete = (path: string) => {
+			setSubSelected(undefined)
+			setShowMenu(false)
+		}
 		const handleRouteChangeStart = (path: string) => { }//setSelectedByPath(path)
 
 		router.events.on('routeChangeStart', handleRouteChangeStart)
@@ -68,15 +78,15 @@ export default function Menu({ items }: MenuProps) {
 			<nav className={cn(s.menu)}>
 				<ul ref={menuRef} className={cn(showMenu && s.show)}>
 					{items.map((item, index) =>
-						<li key={index} className={cn(asPath === item.slug && s.selected)}>
+						<li key={index} className={cn(selected?.id === item.id && s.selected)}>
 							{!item.sub ?
 								<Link href={item.slug}>{item.label}</Link>
 								:
-								<span onClick={() => setSelected(selected?.id === item.id ? undefined : item)}>
+								<span onClick={() => setSubSelected(subSelected?.id === item.id ? undefined : item)}>
 									{item.label}
-									<ul className={cn(selected?.id === item.id && s.show)}>
+									<ul className={cn((subSelected?.id === item.id || item.sub.find(el => el.id === selected?.id)) && s.show)}>
 										{item.sub.map((subItem, index) =>
-											<li key={index} className={cn(asPath === subItem.slug && s.selected)}>
+											<li key={index} className={cn(selected?.id === subItem.id && s.selected)}>
 												<Link href={subItem.slug} onClick={(e) => e.stopPropagation()}>{subItem.label}</Link>
 											</li>
 										)}
@@ -85,11 +95,11 @@ export default function Menu({ items }: MenuProps) {
 							}
 						</li>
 					)}
-					<li>
+					<li className={s.language}>
 						<Language menu={items} />
 					</li>
-				</ul>
-			</nav>
+				</ul >
+			</nav >
 		</>
 	)
 }

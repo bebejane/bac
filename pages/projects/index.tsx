@@ -3,6 +3,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { Thumbnail, CardContainer, Card, Article } from "/components";
+import React from "react";
 
 export type Props = {
 	projects: ProjectRecord[]
@@ -35,7 +36,7 @@ export default function Projects({ projects }: Props) {
 			<CardContainer>
 				{projectsByYear.map(({ projects, year }, i) => {
 					return (
-						<>
+						<React.Fragment key={i}>
 							{projects.map(({ title, subtitle, image, slug, _createdAt }, idx) =>
 								<Card key={idx}>
 									<Thumbnail
@@ -47,7 +48,7 @@ export default function Projects({ projects }: Props) {
 									/>
 								</Card >
 							)}
-						</>
+						</React.Fragment>
 					)
 				})}
 			</CardContainer>

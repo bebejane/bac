@@ -13,7 +13,7 @@ export default function StartSelectedEvent({ data: { events } }: Props) {
 		<section className={s.section}>
 			<ul>
 				{events.map(({ title, subtitle, intro, image, slug }, idx) =>
-					<Link href={`/events/${slug}`}>
+					<Link href={`/events/${slug}`} key={idx}>
 						<li>
 							<p>
 								<h3>{title}</h3>

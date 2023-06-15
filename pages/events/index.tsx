@@ -3,6 +3,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AllEventsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { Thumbnail, CardContainer, Card, Article } from "/components";
+import React from "react";
 
 export type Props = {
 	events: EventRecord[]
@@ -36,7 +37,7 @@ export default function Events({ events }: Props) {
 			<CardContainer>
 				{eventsByYear.map(({ events, year }, i) => {
 					return (
-						<>
+						<React.Fragment key={i}>
 							{events.map(({ title, subtitle, image, slug, _createdAt }, idx) =>
 								<Card key={idx}>
 									<Thumbnail
@@ -48,7 +49,7 @@ export default function Events({ events }: Props) {
 									/>
 								</Card>
 							)}
-						</>
+						</React.Fragment>
 					)
 				})}
 			</CardContainer>

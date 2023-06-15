@@ -194,7 +194,7 @@ export const translatePath = (href: string, locale: string, defaultLocale: strin
   const basePath = href.split('/')[1]
   const slug = href.split('/').slice(2).join('/')
   const key = Object.keys(routes).find(k => [routes[k].sv, routes[k].en].includes(basePath))
-  const translatedPath = (!basePath || !key) ? '/' : `/${routes[key][locale]}/${slug}`
+  const translatedPath = (!basePath || !key) ? '/' : `/${routes[key][locale]}${slug ? `/${slug}` : ''}`
 
   const fullPath = translatedPath ? `${locale !== defaultLocale ? `/${locale}` : ''}${translatedPath}` : undefined
   return fullPath;

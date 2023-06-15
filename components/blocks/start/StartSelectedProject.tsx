@@ -13,7 +13,7 @@ export default function StartSelectedProject({ data: { projects } }: Props) {
 		<section className={s.section}>
 			<ul>
 				{projects.map(({ title, subtitle, intro, image, slug }, idx) =>
-					<Link href={`/projects/${slug}`}>
+					<Link href={`/projects/${slug}`} key={idx}>
 						<li>
 							<p>
 								<h3>{title}</h3>
