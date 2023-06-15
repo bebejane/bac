@@ -31,6 +31,7 @@ export default function Projects({ projects }: Props) {
 			id={'projects'}
 			title={'Projects'}
 		>
+
 			<CardContainer>
 				{projectsByYear.map(({ projects, year }, i) => {
 					return (

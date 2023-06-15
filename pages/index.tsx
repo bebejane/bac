@@ -21,7 +21,6 @@ export default function Home({ start }: Props) {
 					/>
 				</section>
 			)}
-			start content
 		</Article>
 	);
 }

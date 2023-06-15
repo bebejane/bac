@@ -1,5 +1,19 @@
 query Start($locale: SiteLocale) {
 	start(locale: $locale) {
 		id
+		content {
+			... on StartSelectedEventRecord {
+				__typename
+				events {
+					...EventFragmentLight
+				}
+			}
+			... on StartSelectedProjectRecord {
+				__typename
+				projects {
+					...ProjectFragmentLight
+				}
+			}
+		}
 	}
 }
