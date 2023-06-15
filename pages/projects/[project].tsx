@@ -1,11 +1,8 @@
-import s from "./[project].module.scss";
-import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { ProjectDocument, AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { apiQuery } from "dato-nextjs-utils/api";
-import { StructuredContent } from "/components";
-import { apiQueryAll } from "dato-nextjs-utils/api";
+import { apiQuery, apiQueryAll } from "dato-nextjs-utils/api";
+import { Article } from "/components";
 
 export type Props = {
 	project: ProjectRecord
@@ -22,17 +19,18 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Project({ project: { title, content }, project }: Props) {
+export default function Project({ project: { title, subtitle, content, image, video }, project }: Props) {
 
 	return (
-		<section className={s.container}>
-			<h1>{title}</h1>
-			<StructuredContent
-				id={project.id}
-				record={project}
-				content={content}
-			/>
-		</section>
+		<Article
+			id={project.id}
+			title={subtitle}
+			subtitle={title}
+			image={image}
+			video={video}
+			content={content}
+			metaInfo={project.metaInfo}
+		/>
 	);
 }
 

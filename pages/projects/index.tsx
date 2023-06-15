@@ -2,7 +2,7 @@ import s from "./[project].module.scss";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { Thumbnail, CardContainer, Card } from "/components";
+import { Thumbnail, CardContainer, Card, Article } from "/components";
 
 export type Props = {
 	projects: ProjectRecord[]
@@ -27,7 +27,10 @@ export default function Projects({ projects }: Props) {
 
 
 	return (
-		<section className={s.container}>
+		<Article
+			id={'projects'}
+			title={'Projects'}
+		>
 			<CardContainer>
 				{projectsByYear.map(({ projects, year }, i) => {
 					return (
@@ -47,7 +50,7 @@ export default function Projects({ projects }: Props) {
 					)
 				})}
 			</CardContainer>
-		</section >
+		</Article>
 	);
 }
 

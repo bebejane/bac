@@ -12,7 +12,8 @@ import {
   decodeHTMLEntities,
   parseDatoError,
   allCategories,
-  uploadMedia
+  uploadMedia,
+  striptags
 } from './'
 
 import { project_map, event_map } from './maps'
@@ -119,16 +120,16 @@ export const migrateProjects = async () => {
           upload_id: (await uploadMedia({
             url: image.source_url,
             title: {
-              [lang]: image.title.rendered,
-              [altLang]: altImage?.title.rendered || image.title.rendered,
+              [lang]: post.acf.caption,
+              [altLang]: altPost?.acf.caption ?? null,
             }
           }))?.id ?? null
         } : null,
-        gallery: gallery ? (await Promise.all(gallery.map((image, idx) => uploadMedia({
+        gallery: gallery ? (await Promise.all(gallery.map((image, idx) => wpapi.media().id(image.id)).map(async ({ source_url, caption }, idx) => uploadMedia({
           url: image.source_url,
           title: {
-            [lang]: image.title.rendered,
-            [altLang]: altGallery?.[idx]?.title.rendered || null,
+            [lang]: caption?.rendered ? striptags(caption?.rendered) : null,
+            [altLang]: altGallery?.[idx] ? striptags((await wpapi.media().id(altGallery?.[idx]?.id))?.caption?.rendered ?? null) : null,
           }
         })))).map(({ id }) => ({ upload_id: id })) : null,
         video: post.acf.movie && !isNaN(post.acf.movie) ? {

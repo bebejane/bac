@@ -9,11 +9,14 @@ const config = {
 	skipDocumentsValidation: false,
 };
 
+console.log(`Loading graphql.config.js with env: ${process.env.DATOCMS_ENVIRONMENT}`);
+
 module.exports = {
 	schema: {
 		"https://graphql.datocms.com": {
 			headers: {
 				Authorization: process.env.GRAPHQL_API_TOKEN,
+				"X-Environment": process.env.DATOCMS_ENVIRONMENT || "main",
 				"X-Exclude-Invalid": true,
 			},
 		},

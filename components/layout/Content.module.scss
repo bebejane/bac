@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   flex: 1 1;
-  margin-top: var(--navbar-height);
+
   margin-left: calc(2 * var(--grid-unit));
 
   @include mq($from: tablet) {}
@@ -16,9 +16,7 @@
 
   article {
 
-    section {
-      border-top: var(--line);
-    }
+    section {}
 
   }
 }

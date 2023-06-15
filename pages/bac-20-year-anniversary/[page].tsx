@@ -4,7 +4,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryPageDocument, AllAnniversaryPagesDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
-import { StructuredContent } from "/components";
+import { Article, StructuredContent } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 
 export type Props = {
@@ -22,17 +22,16 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function AnniversaryPage({ anniversaryPage: { title, content }, anniversaryPage }: Props) {
+export default function AnniversaryPage({ anniversaryPage: { id, title, image, gallery, content }, anniversaryPage }: Props) {
 
 	return (
-		<section className={s.container}>
-			<h1>{title}</h1>
-			<StructuredContent
-				id={anniversaryPage.id}
-				record={anniversaryPage}
-				content={content}
-			/>
-		</section>
+		<Article
+			id={id}
+			title={title}
+			image={image}
+			gallery={gallery}
+			content={content}
+		/>
 	);
 }
 

@@ -61,16 +61,10 @@ export const migrateProjects = async () => {
       const created_at = p.date
       const data = cleanObject({
         wpid: p.id,
-        title: {
-          en: decodeHTMLEntities(p.title.rendered)
-        },
-        content: {
-          en: (await htmlToStructuredContent(p.content.rendered, { image: imageBlockTypeId })) || null,
-        },
+        title: decodeHTMLEntities(p.title.rendered),
+        content: (await htmlToStructuredContent(p.content.rendered, { image: imageBlockTypeId })) || null,
         category: datoCategories.filter(c => p.categories.includes(c.wpid)).map(c => c.id),
-        slug: {
-          en: p.slug
-        }
+        slug: p.slug
       })
 
       await client.items.create({

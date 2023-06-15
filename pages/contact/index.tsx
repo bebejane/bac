@@ -4,6 +4,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { ContactDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { DatoMarkdown as Markdown } from "dato-nextjs-utils/components";
+import { Article } from "/components";
 export type Props = {
 	contact: ContactRecord
 }
@@ -13,12 +14,14 @@ export type ContactsByYear = {
 	contacts: ContactRecord[]
 }[]
 
-export default function Contact({ contact: { mailingAddress, email, instagram, people } }: Props) {
+export default function Contact({ contact: { id, mailingAddress, email, instagram, people } }: Props) {
 
 
 	return (
-		<section>
-			<h1>Contact</h1>
+		<Article
+			id={'contact'}
+			title={'Contact'}
+		>
 			<p>
 				{mailingAddress}
 			</p>
@@ -32,7 +35,7 @@ export default function Contact({ contact: { mailingAddress, email, instagram, p
 					</li>
 				)}
 			</ul>
-		</section>
+		</Article>
 	);
 }
 

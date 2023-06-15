@@ -4,7 +4,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { EventDocument, AllEventsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
-import { StructuredContent } from "/components";
+import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 
 export type Props = {
@@ -22,17 +22,18 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Event({ event: { title, content }, event }: Props) {
+export default function Event({ event: { id, title, subtitle, image, gallery, metaInfo, content }, event }: Props) {
 
 	return (
-		<section className={s.container}>
-			<h1>{title}</h1>
-			<StructuredContent
-				id={event.id}
-				record={event}
-				content={content}
-			/>
-		</section>
+		<Article
+			id={id}
+			title={subtitle}
+			subtitle={title}
+			image={image}
+			gallery={gallery}
+			content={content}
+			metaInfo={metaInfo}
+		/>
 	);
 }
 

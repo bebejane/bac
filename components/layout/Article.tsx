@@ -8,7 +8,6 @@ import { DatoSEO } from 'dato-nextjs-utils/components';
 import Link from '/components/nav/Link'
 import useStore from '/lib/store';
 import format from 'date-fns/format';
-import { useRouter } from 'next/router';
 import { useTranslations } from 'next-intl';
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import useDevice from '/lib/hooks/useDevice';
@@ -17,21 +16,22 @@ import BalanceText from 'react-balance-text'
 export type ArticleProps = {
   id: string
   children?: React.ReactNode | React.ReactNode[] | undefined
+  aside?: React.ReactNode | React.ReactNode[] | undefined
   title?: string
   subtitle?: string
   intro?: string
-  image?: FileField
+  image?: ImageFileField
+  video?: VideoField
+  gallery?: ImageFileField[]
   imageSize?: 'small' | 'medium' | 'large'
   content?: any
+  metaInfo?: MetaInfoRecord[]
   onClick?: (id: string) => void
   record?: any
-  date?: string
-  partner?: PartnerRecord[]
 }
 
-export default function Article({ id, children, title, content, image, imageSize, intro, partner, date, onClick, record }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, video, onClick, record }: ArticleProps) {
 
-  const { asPath } = useRouter()
   const t = useTranslations()
   const [setImageId, setImages] = useStore((state) => [state.setImageId, state.setImages])
   const { scrolledPosition, viewportHeight } = useScrollInfo()
@@ -50,15 +50,11 @@ export default function Article({ id, children, title, content, image, imageSize
     setImages(images.filter(el => el))
   }, [])
 
-  useEffect(() => {
-    setOffset(captionRef?.current?.offsetTop ?? 0)
-  }, [asPath, viewportHeight])
-
   return (
     <>
       <DatoSEO title={title} />
       <div className={cn(s.article, 'article')}>
-        <h1><BalanceText>{title}</BalanceText></h1>
+        <h1>{title}</h1>
         {image &&
           <figure
             className={cn(s.mainImage, imageSize && s[imageSize], image.height > image.width && s.portrait)}
@@ -67,48 +63,39 @@ export default function Article({ id, children, title, content, image, imageSize
           >
             <Image
               data={image.responsiveImage}
+              className={s.image}
               pictureClassName={s.picture}
-              style={{ transform: `scale(${1 - (ratio * 0.3)})` }}
             />
-            <figcaption ref={captionRef} style={{ opacity: 1 - ratio }}>
-              {image.title}
-            </figcaption>
           </figure>
         }
-        <section className="intro">
-          {date &&
-            <div className={s.date}>
-              <span className="small">{format(new Date(date), 'MMM').replace('.', '')}</span>
-              <span>{format(new Date(date), 'dd').replace('.', '')}</span>
-            </div>
-          }
-          <Markdown className={s.intro}>{intro}</Markdown>
-        </section>
-        {content &&
-          <>
-            <div className="structured">
+        <div className={s.wrapper}>
+          <section className={s.content}>
+            {subtitle && <h3>{subtitle}</h3>}
+            <Markdown className={s.intro}>{intro}</Markdown>
+            {content &&
               <StructuredContent
                 id={id}
                 record={record}
                 content={content}
                 onClick={(imageId) => setImageId(imageId)}
               />
-            </div>
-          </>
-        }
-        {children}
-        {partner?.length > 0 &&
-          <p className="small-body">
-            {t('General.inCooperationWith')} {partner.map(({ id, title, slug }, idx) =>
-              <React.Fragment key={id}>
-                <Link href={`/partners/${slug}`}>
-                  {title}
-                </Link>
-                {partner.length - 1 > idx && ', '}
-              </React.Fragment>
-            )}
-          </p>
-        }
+            }
+            {children}
+          </section>
+          {metaInfo &&
+            <aside>
+              {image?.title &&
+                <p>{image?.title}</p>
+              }
+              {metaInfo?.map(({ headline, text }, idx) =>
+                <React.Fragment key={idx}>
+                  <h3>{headline}</h3>
+                  <Markdown>{text}</Markdown>
+                </React.Fragment>
+              )}
+            </aside>
+          }
+        </div>
       </div>
     </>
   )

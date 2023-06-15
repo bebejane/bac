@@ -4,6 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "npm run dev:watch",
+		"dev:migrate": "DATOCMS_ENVIRONMENT=migration npm run dev:watch",
 		"dev:watch": "LOG_GRAPHQL=false next dev & npm run barrel:watch & graphql-codegen --watch",
 		"dev:emails": "npx mailing",
 		"build": "next build && next-sitemap",
@@ -19,7 +20,7 @@
 		"migrate:anniversary": "tsx ./lib/scripts/migration/anniversary.ts",
 		"migrate:posts": "tsx ./lib/scripts/migration/posts.ts",
 		"migrate:archive": "tsx ./lib/scripts/migration/archive.ts",
-		"migrate:clean": "datocms environments:destroy migration ; datocms environments:fork main migration"
+		"migrate:clean": "datocms environments:destroy migration ; datocms environments:fork template migration"
 	},
 	"exports": {
 		"lib/*": "./lib",

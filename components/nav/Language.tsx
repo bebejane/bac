@@ -13,18 +13,15 @@ export type Props = {
 
 export default function Language({ menu }: Props) {
 
-	const { locale } = useRouter()
+	const { locale, defaultLocale } = useRouter()
 	const { slugs } = usePage()
 
 	if (locales.length <= 1) return null
-	const slug = slugs.find((item) => item.locale !== locale)
+	const slug = slugs?.find((item) => item.locale !== locale) ?? { value: '/', locale: locale === 'en' ? 'sv' : 'en' }
 
 	return (
 
-		<Link
-			href={slug.value}
-			locale={slug.locale}
-		>
+		<Link href={slug.value} locale={slug.locale}>
 			{slug.locale === 'en' ? 'English' : 'Svenska'}
 		</Link>
 

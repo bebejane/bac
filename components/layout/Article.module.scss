@@ -1,13 +1,10 @@
 .article {
   position: relative;
-  //padding-top: var(--header-height);
 
-  &.noBottom {
-    padding-bottom: 0;
-  }
-
-  a:hover {
-    color: var(--beige-dark) !important;
+  h1 {
+    display: flex;
+    align-items: center;
+    height: var(--navbar-height);
   }
 
   figure {
@@ -17,27 +14,21 @@
     align-items: center;
 
     &.mainImage {
-      padding-bottom: var(--space);
       cursor: pointer;
     }
 
-    &.small {
-      padding-left: calc(2 * var(--grid-unit));
-      padding-right: calc(2 * var(--grid-unit));
-    }
+    &.small {}
 
     &.medium {}
 
     &.large {}
 
-    &.portrait {
-      padding-left: calc(3 * var(--grid-unit));
-      padding-right: calc(3 * var(--grid-unit));
+    &.portrait {}
 
-      @include mq($from: tablet) {
-        padding-left: calc(2 * var(--grid-unit));
-        padding-right: calc(2 * var(--grid-unit));
-      }
+    .image,
+    .picture {
+      width: 100%;
+      object-fit: contain;
     }
   }
 
@@ -76,8 +67,22 @@
     }
   }
 
-  .intro>p {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
 
-    padding: 0;
+    section {
+      flex: 1 1 auto;
+    }
+
+    aside {
+      flex: 0 0 calc(var(--grid-unit) * 4)
+    }
+
+    .intro>p {
+      padding: 0;
+    }
+
   }
+
 }

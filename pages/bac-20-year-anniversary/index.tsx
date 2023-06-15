@@ -4,7 +4,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { DatoMarkdown as Markdown } from "dato-nextjs-utils/components";
-import { Link } from "/components";
+import { Article, Link } from "/components";
 
 export type Props = {
 	anniversary: AnniversaryRecord
@@ -16,18 +16,20 @@ export type Props = {
 export default function Anniversary({ anniversary, anniversaryPages }: Props) {
 
 	return (
-		<section>
-			<h1>Anniversary</h1>
+		<Article
+			id={'anniversary'}
+			title={'Anniversary'}
+		>
 			<ul>
 				{anniversaryPages.map(({ title, slug }, idx) =>
-					<li>
+					<li key={idx}>
 						<Link href={`/bac-20-year-anniversary/${slug}`}>
 							{title}
 						</Link>
 					</li>
 				)}
 			</ul>
-		</section>
+		</Article>
 	);
 }
 

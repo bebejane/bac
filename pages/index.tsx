@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { StartDocument } from "/graphql";
-import { Block, Link } from "/components";
+import { Article, Block, Link } from "/components";
 import { pageSlugs } from "/lib/i18n";
 
 export type Props = {
@@ -12,7 +12,7 @@ export type Props = {
 export default function Home({ start }: Props) {
 
 	return (
-		<div className={s.container}>
+		<Article id={'home'}>
 			{start?.content?.map((block, idx) =>
 				<section key={idx}>
 					<Block
@@ -22,7 +22,7 @@ export default function Home({ start }: Props) {
 				</section>
 			)}
 			start content
-		</div>
+		</Article>
 	);
 }
 

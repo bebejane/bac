@@ -3,7 +3,7 @@ import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { StructuredContent } from "/components";
+import { Article, StructuredContent } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 import Link from "next/link";
 import { ar } from "date-fns/locale";
@@ -18,7 +18,7 @@ export type ArchivesByYear = {
 	archives: ArchiveRecord[]
 }[]
 
-export default function Archive({ archives, archiveIntro: { title, content }, archiveIntro }: Props) {
+export default function Archive({ archives, archiveIntro: { title, text }, archiveIntro }: Props) {
 
 	const archivesByYear = archives.reduce((acc, archive) => {
 		const year = new Date(archive._createdAt).getFullYear();
@@ -36,13 +36,11 @@ export default function Archive({ archives, archiveIntro: { title, content }, ar
 	}, [] as ArchivesByYear).sort((a, b) => a.year < b.year ? 1 : -1);
 
 	return (
-		<section>
-			<h1>{title}</h1>
-			<StructuredContent
-				id={archiveIntro.id}
-				record={archiveIntro}
-				content={content}
-			/>
+		<Article
+			id={'archive'}
+			title={title}
+			intro={text}
+		>
 			{archivesByYear.map(({ archives, year }, idx) =>
 				<>
 					<h3>{year}</h3>
@@ -54,10 +52,8 @@ export default function Archive({ archives, archiveIntro: { title, content }, ar
 						)}
 					</ul>
 				</>
-
 			)}
-
-		</section>
+		</Article>
 	);
 }
 

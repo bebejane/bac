@@ -536,23 +536,10 @@ type ArchiveCategoryRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
-type ArchiveIntroModelContentField = {
-  __typename?: 'ArchiveIntroModelContentField';
-  blocks: Array<Scalars['String']>;
-  links: Array<Scalars['String']>;
-  value: Scalars['JsonField'];
-};
-
-type ArchiveIntroModelContentFieldMultiLocaleField = {
-  __typename?: 'ArchiveIntroModelContentFieldMultiLocaleField';
-  locale?: Maybe<SiteLocale>;
-  value?: Maybe<ArchiveIntroModelContentField>;
-};
-
 /** Record of type Archive intro (archive_intro) */
 type ArchiveIntroRecord = RecordInterface & {
   __typename?: 'ArchiveIntroRecord';
-  _allContentLocales?: Maybe<Array<ArchiveIntroModelContentFieldMultiLocaleField>>;
+  _allTextLocales?: Maybe<Array<StringMultiLocaleField>>;
   _allTitleLocales?: Maybe<Array<StringMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
   /** Editing URL */
@@ -567,15 +554,15 @@ type ArchiveIntroRecord = RecordInterface & {
   _status: ItemStatus;
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
-  content?: Maybe<ArchiveIntroModelContentField>;
   id: Scalars['ItemId'];
+  text?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
 };
 
 
 /** Record of type Archive intro (archive_intro) */
-type ArchiveIntroRecord_allContentLocalesArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+type ArchiveIntroRecord_allTextLocalesArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
 };
 
 
@@ -592,9 +579,9 @@ type ArchiveIntroRecord_seoMetaTagsArgs = {
 
 
 /** Record of type Archive intro (archive_intro) */
-type ArchiveIntroRecordcontentArgs = {
-  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+type ArchiveIntroRecordtextArgs = {
   locale?: InputMaybe<SiteLocale>;
+  markdown?: InputMaybe<Scalars['Boolean']>;
 };
 
 
@@ -4439,7 +4426,7 @@ type ArchiveIntroQueryVariables = Exact<{
 }>;
 
 
-type ArchiveIntroQuery = { __typename?: 'Query', archiveIntro?: { __typename?: 'ArchiveIntroRecord', title?: string | null, content?: { __typename?: 'ArchiveIntroModelContentField', value: any, blocks: Array<string> } | null } | null };
+type ArchiveIntroQuery = { __typename?: 'Query', archiveIntro?: { __typename?: 'ArchiveIntroRecord', title?: string | null, text?: string | null } | null };
 
 type ContactQueryVariables = Exact<{
   locale?: InputMaybe<SiteLocale>;

@@ -13,6 +13,8 @@
 	--z-logo: 1000;
 	--z-menu: 1100;
 	--z-hamburger: 1200;
+	--z-fullscreen-gallery: 1300;
+	--z-fullscreen-gallery-close: 1301;
 
 	@include mq($from: tablet) {}
 

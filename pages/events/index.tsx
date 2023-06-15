@@ -2,7 +2,7 @@ import s from "./[event].module.scss";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllEventsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { Thumbnail, CardContainer, Card } from "/components";
+import { Thumbnail, CardContainer, Card, Article } from "/components";
 
 export type Props = {
 	events: EventRecord[]
@@ -28,7 +28,11 @@ export default function Events({ events }: Props) {
 
 
 	return (
-		<section className={s.container}>
+
+		<Article
+			id={'events'}
+			title={'Events'}
+		>
 			<CardContainer>
 				{eventsByYear.map(({ events, year }, i) => {
 					return (
@@ -48,7 +52,8 @@ export default function Events({ events }: Props) {
 					)
 				})}
 			</CardContainer>
-		</section>
+		</Article>
+
 	);
 }
 
