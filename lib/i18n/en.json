@@ -7,5 +7,10 @@
 		"anniversary": "BAC 20 Years",
 		"archive": "Archive",
 		"contact": "Contact"
+	},
+	"FilterBar": {
+		"sortBy": "Sort by",
+		"year": "Year",
+		"artistName": "Artist name"
 	}
 }

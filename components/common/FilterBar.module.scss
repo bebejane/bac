@@ -1,0 +1,27 @@
+.filter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
+  height: calc(var(--navbar-height) - var(--outer-margin));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  span {
+    margin-left: 0.3em;
+    cursor: pointer;
+
+    &.selected {
+      text-decoration: underline;
+    }
+
+    @include mq($until: tablet) {
+      &:nth-child(1) {
+        display: none;
+      }
+    }
+  }
+}

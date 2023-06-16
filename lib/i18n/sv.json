@@ -7,5 +7,10 @@
 		"anniversary": "BAC 20 år",
 		"archive": "Arkiv",
 		"contact": "Kontakt"
+	},
+	"FilterBar": {
+		"sortBy": "Sorera på",
+		"year": "År",
+		"artistName": "Konstnärsnamn"
 	}
 }

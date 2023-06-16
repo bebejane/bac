@@ -2,45 +2,68 @@ import s from "./[project].module.scss";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { Thumbnail, CardContainer, Card, Article } from "/components";
+import { Thumbnail, CardContainer, Card, Article, FilterBar } from "/components";
+import { useTranslations } from "next-intl";
+import { sortSwedish } from 'dato-nextjs-utils/utils';
+
 import React from "react";
 
 export type Props = {
 	projects: ProjectRecord[]
 }
 
-export type ProjectsByYear = {
+export type ProjectsByType = {
 	projects: ProjectRecord[]
-	year: number
+	typeTitle: string
 }[]
+
 
 export default function Projects({ projects }: Props) {
 
+	const t = useTranslations()
+
+	const [filter, setFilter] = React.useState<'year' | 'artistName'>('year')
+
 	const projectsByYear = projects.reduce((acc, project) => {
-		const year = new Date(project._createdAt).getFullYear();
-		const yearProject = acc.find((el) => el.year === year);
+		const year = new Date(project._createdAt).getFullYear().toString();
+		const yearProject = acc.find((el) => el.typeTitle === year);
 		if (yearProject)
 			yearProject.projects.push(project);
 		else
-			acc.push({ year, projects: [project] });
+			acc.push({ typeTitle: year, projects: [project] });
 		return acc;
-	}, [] as ProjectsByYear).sort((a, b) => a.year > b.year ? -1 : 1);
+	}, [] as ProjectsByType).sort((a, b) => a.typeTitle > b.typeTitle ? -1 : 1);
 
+	const projectsByArtistName = sortSwedish(projects.reduce((acc, project) => {
+		const letter = project.subtitle[0]?.toUpperCase();
+		const letterProject = acc.find((el) => el.typeTitle === letter);
+
+		if (letterProject)
+			letterProject.projects.push(project);
+		else
+			acc.push({ typeTitle: letter, projects: [project] });
+		return acc;
+	}, [] as ProjectsByType), 'typeTitle') as ProjectsByType
+
+	const projectsByType = filter === 'year' ? projectsByYear : projectsByArtistName;
 
 	return (
 		<Article
 			id={'projects'}
 			title={'Projects'}
 		>
-
-			<CardContainer>
-				{projectsByYear.map(({ projects, year }, i) => {
+			<FilterBar
+				options={[{ id: 'year', label: t('FilterBar.year') }, { id: 'artistName', label: t('FilterBar.artistName') }]}
+				onChange={(value) => setFilter(value as 'year' | 'artistName')}
+			/>
+			<CardContainer key={filter}>
+				{projectsByType.map(({ projects, typeTitle }, i) => {
 					return (
 						<React.Fragment key={i}>
-							{projects.map(({ title, subtitle, image, slug, _createdAt }, idx) =>
+							{projects.map(({ title, subtitle, image, slug }, idx) =>
 								<Card key={idx}>
 									<Thumbnail
-										year={idx === 0 ? year : null}
+										typeTitle={idx === 0 ? typeTitle : null}
 										title={title}
 										subtitle={subtitle}
 										image={image}

@@ -11,7 +11,7 @@
     }
   }
 
-  .year {
+  .typeTitle {
     position: absolute;
     top: -0.1em;
     left: -0.3em;
@@ -88,6 +88,7 @@
     height: 70%;
     mix-blend-mode: screen;
     transition: opacity 0.25s ease-out;
+
     &:hover {
       opacity: 0;
     }
