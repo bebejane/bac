@@ -122,11 +122,16 @@ export const migrateProjects = async () => {
             }
           }))?.id ?? null
         } : null,
-        gallery: gallery ? (await Promise.all(gallery.map((image, idx) => wpapi.media().id(image.id)).map(async ({ source_url, caption }, idx) => uploadMedia({
-          url: image.source_url,
-          [lang]: caption?.rendered ? striptags(caption?.rendered) : null,
-          [altLang]: altGallery?.[idx] ? striptags((await wpapi.media().id(altGallery?.[idx]?.id))?.caption?.rendered ?? null) : null,
-        })))).map(({ id }) => ({ upload_id: id })) : null,
+        gallery: gallery && gallery.length ?
+          (await Promise.all((await Promise.all(gallery.map((image, idx) => wpapi.media().id(image.id))))
+            .map(async ({ source_url, caption }, idx) => uploadMedia({
+              url: source_url,
+              title: {
+                [lang]: caption?.rendered ? striptags(caption?.rendered) : null,
+                [altLang]: altGallery?.[idx] ? striptags((await wpapi.media().id(altGallery?.[idx]?.id))?.caption?.rendered ?? null) : null,
+              }
+            })
+            ))).map(({ id }) => ({ upload_id: id })) : null,
         video: post.acf.movie && !isNaN(post.acf.movie) ? {
           url: `https://vimeo.com/${post.acf.movie}`,
           provider_uid: post.acf.movie,

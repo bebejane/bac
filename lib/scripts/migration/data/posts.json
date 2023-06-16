@@ -302,8 +302,8 @@
     "guid": {
       "rendered": "https://www.balticartcenter.com/?p=5489"
     },
-    "modified": "2023-05-25T15:43:14",
-    "modified_gmt": "2023-05-25T15:43:14",
+    "modified": "2023-06-16T12:03:01",
+    "modified_gmt": "2023-06-16T12:03:01",
     "slug": "thelanguagesandlandscapesofmobilisation",
     "status": "publish",
     "type": "post",
@@ -363,7 +363,7 @@
         },
         {
           "headline": "",
-          "text": "<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/05/EN_Co-funded.jpg\" alt=\"Co-funded by the European Union \" /></p>\n"
+          "text": "<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/05/EN_Co-funded.jpg\" alt=\"Co-funded by the European Union \" /></p>\n<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/06/Flanders_logo2.jpg\" alt=\"\" /></p>\n"
         }
       ]
     },
@@ -397,14 +397,14 @@
       ],
       "version-history": [
         {
-          "count": 49,
+          "count": 50,
           "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5489/revisions"
         }
       ],
       "predecessor-version": [
         {
-          "id": 5658,
-          "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5489/revisions/5658"
+          "id": 5663,
+          "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5489/revisions/5663"
         }
       ],
       "wp:featuredmedia": [
@@ -446,8 +446,8 @@
     "guid": {
       "rendered": "https://www.balticartcenter.com/?p=5470"
     },
-    "modified": "2023-05-25T15:42:26",
-    "modified_gmt": "2023-05-25T15:42:26",
+    "modified": "2023-06-16T12:04:27",
+    "modified_gmt": "2023-06-16T12:04:27",
     "slug": "thelanguagesandlandscapesofmobilisation2",
     "status": "publish",
     "type": "post",
@@ -506,7 +506,7 @@
         },
         {
           "headline": "",
-          "text": "<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/05/EN_Co-funded-1.jpg\" alt=\"Samfinansierad av Europeiska unionen \" /></p>\n"
+          "text": "<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/05/EN_Co-funded-1.jpg\" alt=\"Samfinansierad av Europeiska unionen \" /></p>\n<p><img src=\"https://www.balticartcenter.com/wp-content/uploads/2023/06/Flanders_logo2.jpg\" alt=\"\" /></p>\n"
         }
       ],
       "english_translation": false
@@ -541,14 +541,14 @@
       ],
       "version-history": [
         {
-          "count": 42,
+          "count": 43,
           "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5470/revisions"
         }
       ],
       "predecessor-version": [
         {
-          "id": 5657,
-          "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5470/revisions/5657"
+          "id": 5665,
+          "href": "https://www.balticartcenter.com/wp-json/wp/v2/posts/5470/revisions/5665"
         }
       ],
       "wp:featuredmedia": [

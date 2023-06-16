@@ -12,6 +12,16 @@
     }
   }
 
+  main {
+    display: flex;
+    flex-direction: row;
+
+    .slide {
+      width: 100%;
+
+    }
+  }
+
   main figure {
     margin-bottom: var(--space);
     display: flex;
@@ -26,6 +36,16 @@
       cursor: pointer;
     }
 
+    .placeholder,
+    .image,
+    .picture {
+      width: 100% !important;
+      height: 100% !important;
+      left: 0 !important;
+      top: 0 !important;
+      object-fit: contain;
+    }
+
     &.small {}
 
     &.medium {}
@@ -34,11 +54,6 @@
 
     &.portrait {}
 
-    .image,
-    .picture {
-      width: 100%;
-      object-fit: contain;
-    }
   }
 
   .date {

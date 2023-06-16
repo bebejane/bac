@@ -12,6 +12,13 @@ import { useTranslations } from 'next-intl';
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import useDevice from '/lib/hooks/useDevice';
 import BalanceText from 'react-balance-text'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade, EffectCards, Navigation } from 'swiper'
+import SwiperCore from 'swiper'
+import type { Swiper as SwiperType } from 'swiper'
+
+SwiperCore.use([EffectFade, EffectCards, Navigation]);
+
 
 export type ArticleProps = {
   id: string
@@ -32,44 +39,68 @@ export type ArticleProps = {
   backLink?: string
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, cv, video, onClick, record, backLink }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, onClick, record, backLink }: ArticleProps) {
 
   const t = useTranslations()
-  const [setImageId, setImages] = useStore((state) => [state.setImageId, state.setImages])
-  const { scrolledPosition, viewportHeight } = useScrollInfo()
-  const captionRef = useRef<HTMLElement | null>(null)
-  const figureRef = useRef<HTMLElement | null>(null)
+  const [index, setIndex] = useState(0)
+  const [loaded, setLoaded] = useState<any>({})
+  const [caption, setCaption] = useState<string>(gallery?.[0]?.title || image?.title)
   const [offset, setOffset] = useState(0)
+  const { scrolledPosition, viewportHeight } = useScrollInfo()
   const { isDesktop } = useDevice()
   const ratio = !isDesktop ? 0 : offset ? Math.max(0, Math.min(1, ((scrolledPosition - (offset > viewportHeight ? offset - viewportHeight + 100 : 0)) / viewportHeight))) : 0
+  const figureRef = useRef<HTMLElement | null>(null)
+  const swiperRef = useRef<SwiperType | undefined>()
 
   useEffect(() => {
-    const images = [image]
-    content?.blocks.forEach(el => {
-      el.__typename === 'ImageRecord' && images.push(el.image)
-      el.__typename === 'ImageGalleryRecord' && images.push.apply(images, el.images)
-    })
-    setImages(images.filter(el => el))
-  }, [])
+    setCaption(gallery?.[index]?.title || image?.title)
+  }, [index])
+
+  console.log(caption)
 
   return (
     <>
       <DatoSEO title={title} />
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
-        {image &&
+        {(image || gallery?.length > 0) &&
           <main>
-            <figure
-              className={cn(s.mainImage, imageSize && s[imageSize], image.height > image.width && s.portrait)}
-              onClick={() => setImageId(image?.id)}
-              ref={figureRef}
+            <Swiper
+              id={`main-gallery`}
+              loop={gallery?.length > 1}
+              //effect={'fade'}
+              slidesPerView={1}
+              spaceBetween={0}
+              centeredSlides={true}
+              simulateTouch={true}
+              initialSlide={0}
+              onSlideChange={({ realIndex }) => {
+                setIndex(realIndex)
+                setCaption(gallery?.[realIndex]?.title || gallery?.[realIndex]?.alt)
+              }}
+              onSwiper={(swiper) => swiperRef.current = swiper}
             >
-              <Image
-                data={image.responsiveImage}
-                className={s.image}
-                pictureClassName={s.picture}
-              />
-            </figure>
+              {(gallery?.length ? gallery : image ? [image] : null)?.map((img, idx) =>
+                <SwiperSlide key={idx} className={cn(s.slide)}>
+                  <figure
+                    className={cn(s.mainImage, imageSize && s[imageSize], img.height > img.width && s.portrait)}
+                    onClick={() => swiperRef.current?.slideNext()}
+                    ref={figureRef}
+                  >
+                    <Image
+                      data={img.responsiveImage}
+                      className={s.image}
+                      lazyLoad={false}
+                      pictureClassName={s.picture}
+                    />
+                  </figure>
+                  {/*!loaded[image.id] && initLoaded &&
+                  <div className={s.loading}><Loader /></div>
+                */}
+                </SwiperSlide>
+              )}
+            </Swiper>
+
           </main>
         }
         <div className={s.wrapper}>
@@ -81,7 +112,7 @@ export default function Article({ id, children, title, subtitle, content, image,
                 id={id}
                 record={record}
                 content={content}
-                onClick={(imageId) => setImageId(imageId)}
+              //onClick={(imageId) => setImageId(imageId)}
               />
             }
             {cv?.map(({ headline, text }, idx) =>
@@ -98,8 +129,8 @@ export default function Article({ id, children, title, subtitle, content, image,
           </section>
           {metaInfo &&
             <aside>
-              {image?.title &&
-                <p>{image?.title}</p>
+              {caption &&
+                <p>{caption}</p>
               }
               {metaInfo?.map(({ headline, text }, idx) =>
                 <React.Fragment key={idx}>

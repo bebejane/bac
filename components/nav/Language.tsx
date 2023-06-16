@@ -15,7 +15,7 @@ export default function Language({ menu }: Props) {
 
 	const { locale } = useRouter()
 	const { slugs } = usePage()
-	console.log(slugs)
+
 	if (locales.length <= 1) return null
 	const slug = slugs?.find((item) => item.locale !== locale) ?? { value: '/', locale: locale === 'en' ? 'sv' : 'en' }
 

@@ -38,12 +38,6 @@ export default function Layout({ children, menu: menuFromProps, contact, title }
 			</div>
 
 			<Footer contact={contact} />
-			<FullscreenGallery
-				index={images?.findIndex((image) => image?.id === imageId)}
-				images={images}
-				show={imageId !== undefined}
-				onClose={() => setImageId(undefined)}
-			/>
 			<Grid />
 		</>
 	)
