@@ -4,38 +4,34 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryPageDocument, AllAnniversaryPagesDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
-import { Article, StructuredContent, Link } from "/components";
-import { apiQueryAll } from "dato-nextjs-utils/api";
+import { Article, Link } from "/components";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export type Props = {
 	anniversaryPage: AnniversaryPageRecord
 	anniversaryPages: AnniversaryPageRecord[]
 }
 
-export async function getStaticPaths() {
-	const { anniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { variables: { locale: 'en' } })
-	const paths = anniversaryPages.map(({ slug }) => ({ params: { page: slug }, locale: 'sv' }))
-	paths.forEach(el => paths.push({ ...el, locale: 'en' }))
+export default function AnniversaryPage({ anniversaryPage: { id, title, image, gallery, content, color }, anniversaryPage, anniversaryPages }: Props) {
 
-	return {
-		paths,
-		fallback: 'blocking'
-	}
-}
-
-export default function AnniversaryPage({ anniversaryPage: { id, title, image, gallery, content }, anniversaryPage, anniversaryPages }: Props) {
+	useEffect(() => {
+		document.body.style.setProperty('--background-fade-color', color.hex)
+		return () => document.body.style.setProperty('--background-fade-color', 'var(--white)')
+	}, [color])
 
 	return (
-		<Article
-			id={id}
-			title={title}
-			image={image}
-			gallery={gallery}
-			content={content}
-		>
-			<AnniversaryPagination pages={anniversaryPages} />
-		</Article>
+		<>
+			<Article
+				id={id}
+				title={title}
+				image={image}
+				gallery={gallery}
+				content={content}
+			>
+				<AnniversaryPagination pages={anniversaryPages} />
+			</Article>
+		</>
 	);
 }
 
@@ -49,7 +45,7 @@ export const AnniversaryPagination = ({ pages }: { pages: AnniversaryPageRecord[
 	const next = pages[nextIndex] ?? pages[0]
 
 	return (
-		<nav className={s.pagination}>
+		<nav className={cn(s.pagination, 'background-palette-animation')}>
 			<Link href={`/bac-20-year-anniversary/${prev.slug}`}>
 				Föregående
 			</Link>
@@ -64,6 +60,16 @@ export const AnniversaryPagination = ({ pages }: { pages: AnniversaryPageRecord[
 	)
 }
 
+export async function getStaticPaths() {
+	const { anniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { variables: { locale: 'en' } })
+	const paths = anniversaryPages.map(({ slug }) => ({ params: { page: slug }, locale: 'sv' }))
+	paths.forEach(el => paths.push({ ...el, locale: 'en' }))
+
+	return {
+		paths,
+		fallback: 'blocking'
+	}
+}
 
 export const getStaticProps = withGlobalProps({ queries: [AllAnniversaryPagesDocument] }, async ({ props, revalidate, context }: any) => {
 

@@ -1,4 +1,15 @@
-.container {}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 200vh;
+  margin-left: calc(-1 * var(--grid-unit));
+  pointer-events: none;
+  display: none;
+
+}
 
 .pagination {
   display: flex;

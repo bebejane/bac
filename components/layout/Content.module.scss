@@ -3,11 +3,9 @@
   display: flex;
   flex-direction: column;
   flex: 1 1;
-
   margin-left: calc(1 * var(--grid-unit));
 
-  @include mq($from: tablet) {
-  }
+  @include mq($from: tablet) {}
 
   @include mq($until: tablet) {
     margin-left: 0;
@@ -15,7 +13,6 @@
   }
 
   article {
-    section {
-    }
+    section {}
   }
 }

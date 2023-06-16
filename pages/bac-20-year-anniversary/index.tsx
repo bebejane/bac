@@ -15,12 +15,9 @@ export type Props = {
 
 export default function Anniversary({ anniversary: { id, title, intro, content }, anniversary, anniversaryPages }: Props) {
 
-
 	useEffect(() => {
-		document.body.classList.add('anniversary-background')
-		return () => {
-			document.body.classList.remove('anniversary-background')
-		}
+		document.body.classList.add('background-palette-animation')
+		return () => document.body.classList.remove('background-palette-animation')
 	}, [])
 
 	return (
