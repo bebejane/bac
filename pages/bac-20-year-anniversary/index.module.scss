@@ -1,9 +1,30 @@
+.logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: var(--outer-margin);
+  z-index: 0;
+
+  img {
+    height: calc(100vh - calc(2 * var(--outer-margin)));
+    width: auto;
+  }
+}
+
 .introWrap {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
   height: calc(100vh - var(--navbar-height) - var(--outer-margin));
+
+  @include mq($until: tablet) {
+    height: auto;
+  }
 }
 
 .pages {
@@ -13,13 +34,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-
   li {
     flex: 0 0 50%;
 
     a {
       width: 100%;
-
 
       figure {
         position: relative;
@@ -48,7 +67,7 @@
         }
 
         .image {
-          width: calc(var(--grid-unit) * 2);
+          width: 75%;
         }
 
         .picture {
