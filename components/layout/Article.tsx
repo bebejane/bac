@@ -81,6 +81,11 @@ export default function Article({ id, children, title, subtitle, content, image,
                 onClick={(imageId) => setImageId(imageId)}
               />
             }
+            {cv?.map(({ headline, text }, idx) =>
+              <React.Fragment key={idx}>
+                <Markdown className={s.cv}>{`**${headline}** ${text}`}</Markdown>
+              </React.Fragment>
+            )}
             {children}
           </section>
           {metaInfo &&

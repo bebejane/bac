@@ -4,14 +4,13 @@
   left: 0;
   margin: var(--outer-margin);
   margin-top: calc(var(--navbar-height));
-  width: calc(2 * var(--grid-unit));
   z-index: var(--z-menu);
 
   @include mq($until: tablet) {
     position: relative;
     width: auto;
 
-    > ul {
+    >ul {
       display: none;
 
       &.show {
@@ -20,13 +19,14 @@
     }
   }
 
-  > ul {
+  >ul {
     list-style: none;
     font-weight: bold;
 
     li {
       padding-bottom: 0.5em;
-      &.selected > a {
+
+      &.selected>a {
         text-decoration: underline;
       }
 
@@ -35,11 +35,11 @@
       }
     }
 
-    > li {
+    >li {
       span {
         cursor: pointer;
 
-        > ul {
+        >ul {
           display: none;
           list-style: none;
           flex-direction: column;
@@ -48,10 +48,10 @@
             display: flex;
           }
 
-          > li {
+          >li {
             margin-left: 1em;
 
-            &.selected > a {
+            &.selected>a {
               text-decoration: underline;
             }
           }
