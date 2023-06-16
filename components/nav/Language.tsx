@@ -13,7 +13,7 @@ export type Props = {
 
 export default function Language({ menu }: Props) {
 
-	const { locale, defaultLocale } = useRouter()
+	const { locale } = useRouter()
 	const { slugs } = usePage()
 
 	if (locales.length <= 1) return null

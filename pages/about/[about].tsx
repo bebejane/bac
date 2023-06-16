@@ -4,7 +4,7 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { AboutDocument, AllAboutsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
-import { StructuredContent, Article } from "/components";
+import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 
 export type Props = {
@@ -13,7 +13,7 @@ export type Props = {
 
 export async function getStaticPaths() {
 	const { abouts } = await apiQueryAll(AllAboutsDocument)
-	const paths = abouts.map(({ slug }) => ({ params: { about: slug }, locale: 'sv' }))
+	const paths = abouts.filter(el => el.slug).map(({ slug }) => ({ params: { about: slug }, locale: 'sv' }))
 	paths.forEach(el => paths.push({ ...el, locale: 'en' }))
 
 	return {

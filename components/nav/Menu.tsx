@@ -70,7 +70,8 @@ export default function Menu({ items }: MenuProps) {
 
 	useEffect(() => {
 		setSelectedByPath(asPath)
-	}, [asPath, locale, defaultLocale])
+
+	}, [items, locale, defaultLocale, asPath])
 
 	return (
 		<>

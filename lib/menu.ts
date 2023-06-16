@@ -4,7 +4,7 @@ import { locales, routes } from '/lib/i18n'
 
 const base: Menu = [
   { id: 'home', label: 'Home', slug: '/' },
-  { id: 'about', label: 'About', slug: '/about', sub: [] },
+  { id: 'about', label: 'About', slug: null, sub: [] },
   { id: 'project', label: 'Projects', slug: '/projects' },
   { id: 'event', label: 'Events', slug: '/events' },
   { id: 'anniversary', label: 'BAC 20 Years', slug: '/bac-20-year-anniversary' },
