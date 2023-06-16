@@ -2,11 +2,12 @@
   position: fixed;
   z-index: var(--z-logo);
   top: 0;
-  left: 0;
-  margin: var(--outer-margin);
-
+  left: -0.3em;
+  margin-left: var(--outer-margin);
+  height: var(--topbar-height);
+  display: flex;
+  align-items: center;
   h1 {
-    font-size: 2rem;
+    margin-top: -0.1em;
   }
-
 }
