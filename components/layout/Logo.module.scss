@@ -7,7 +7,7 @@
   height: var(--topbar-height);
   display: flex;
   align-items: center;
-  h1 {
+  padding-top: var(--line-top) h1 {
     margin-top: -0.1em;
   }
 }

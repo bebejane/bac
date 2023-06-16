@@ -89,6 +89,7 @@ export default function Article({ id, children, title, subtitle, content, image,
               </React.Fragment>
             )}
             {children}
+            <button>Tillbaka till översikt</button>
           </section>
           {metaInfo &&
             <aside>

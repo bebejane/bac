@@ -25,9 +25,14 @@ h2 {
 }
 
 h3 {
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-family: $headline-font;
   padding-bottom: 1em;
+}
+
+aside h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -88,7 +93,7 @@ button,
 .mid input,
 .mid select {
   font-family: $headline-font;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
 }
 
 strong,
@@ -136,7 +141,7 @@ article {
   p strong,
   p b {
     font-weight: normal !important;
-    font-family: $headline-font-medium;
+    font-family: $headline-font;
   }
 
   p.center {

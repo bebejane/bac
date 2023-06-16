@@ -9,8 +9,9 @@
 	--background: var(--white);
 	--foreground: var(--black);
 	--line: 4px solid var(--black);
-	--line-thick: 0.3vw solid var(--black);
-	--line-thin: 0.1vw solid var(--black);
+	--line-thick: 0.4vw solid var(--black);
+	--line-thin: max(1px, 0.1vw) solid var(--black);
+	--line-top: 0.5vw;
 	--logosize: 4rem;
 	--topbar-height: calc(1.5rem + var(--logosize) + 1.5rem);
 	--navbar-height: var(--topbar-height);
@@ -103,11 +104,8 @@ article p a {
 }
 
 button {
-	margin-top: var(--big-space);
-	margin-bottom: var(--space);
-	margin-left: var(--outer-margin);
-	margin-right: var(--outer-margin);
-	padding-left: 1.5em;
+	margin-top: var(--space);
+	//padding-left: 1.5em;
 	padding-right: 1.5em;
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
@@ -115,7 +113,7 @@ button {
 
 	color: var(--foreground);
 	border: 0;
-	border-top: 1px solid var(--foreground);
+	border-top: var(--line-thick);
 	border-bottom: 1px solid var(--foreground);
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -123,13 +121,11 @@ button {
 	cursor: pointer;
 
 	@include mq($from: tablet) {
-		margin-left: var(--grid-unit);
-		margin-right: var(--grid-unit);
 		padding-bottom: 1em;
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out;
+	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out, padding 0.5s;
 
 	&.back {
 		width: var(--body-width);
@@ -142,6 +138,7 @@ button {
 	&:hover {
 		background-color: var(--foreground);
 		color: var(--white);
+		padding-left: 1.5em;
 	}
 }
 

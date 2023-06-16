@@ -35,7 +35,7 @@ export default function Thumbnail({ image, slug, title, subtitle, year, transfor
         </figure>
       }
       <h3>{title}</h3>
-      {subtitle && <p className="mid">{subtitle}</p>}
+      {subtitle && <p>{subtitle}</p>}
     </Link>
   )
 }
