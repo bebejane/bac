@@ -16,7 +16,7 @@ export type Props = {
 export default function AnniversaryPage({ anniversaryPage: { id, title, image, gallery, content, color }, anniversaryPage, anniversaryPages }: Props) {
 
 	useEffect(() => {
-		if (color?.hex) return
+		if (!color?.hex) return
 
 		document.body.style.setProperty('--background-fade-color', color.hex)
 		return () => document.body.style.setProperty('--background-fade-color', 'var(--white)')
