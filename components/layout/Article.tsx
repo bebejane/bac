@@ -89,9 +89,11 @@ export default function Article({ id, children, title, subtitle, content, image,
                   >
                     <Image
                       data={img.responsiveImage}
+                      lazyLoad={idx === index ? true : false}
                       className={s.image}
-                      lazyLoad={false}
                       pictureClassName={s.picture}
+                      placeholderClassName={s.placeholder}
+
                     />
                   </figure>
                   {/*!loaded[image.id] && initLoaded &&
