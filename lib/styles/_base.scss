@@ -23,11 +23,9 @@
 	--space: 3rem;
 	--gradien: linear-gradient(to top, rgba(255, 220, 180, 0), var--yellow);
 
-	@include mq($from: tablet) {
-	}
+	@include mq($from: tablet) {}
 
-	@include mq($until: tablet) {
-	}
+	@include mq($until: tablet) {}
 }
 
 body {
@@ -40,6 +38,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-feature-settings: "liga", "kern";
 	overflow-x: hidden;
+
+
 }
 
 html {
@@ -49,6 +49,33 @@ html {
 html,
 body {
 	//height: 100%;
+}
+
+.anniversary-background {
+	animation: backgroundColorPalette 50s infinite;
+
+	@keyframes backgroundColorPalette {
+		0% {
+			background: #ee6055;
+		}
+
+		25% {
+			background: #609ad6;
+		}
+
+		50% {
+			background: #60d394;
+		}
+
+		75% {
+			background: #ffd97d;
+		}
+
+		100% {
+			background: #ffaa85;
+		}
+	}
+
 }
 
 ::-webkit-scrollbar {
@@ -129,7 +156,8 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out;
+	transition: color 0.2s ease-in-out,
+	background-color 0.3s ease-in-out;
 
 	&.back {
 		width: var(--body-width);

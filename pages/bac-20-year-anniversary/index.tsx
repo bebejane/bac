@@ -6,6 +6,7 @@ import { pageSlugs } from "/lib/i18n";
 import { DatoMarkdown as Markdown, DatoSEO } from "dato-nextjs-utils/components";
 import { Article, Link, StructuredContent } from "/components";
 import { Image } from "react-datocms";
+import { useEffect } from "react";
 
 export type Props = {
 	anniversary: AnniversaryRecord
@@ -14,10 +15,22 @@ export type Props = {
 
 export default function Anniversary({ anniversary: { id, title, intro, content }, anniversary, anniversaryPages }: Props) {
 
+
+	useEffect(() => {
+		document.body.classList.add('anniversary-background')
+		return () => {
+			document.body.classList.remove('anniversary-background')
+		}
+	}, [])
+
 	return (
 		<>
 			<DatoSEO title={title} />
+			<div className={s.logo}>
+				<img src="/images/anniversary-logo.svg" />
+			</div>
 			<Article id={id}>
+
 				<div className={s.introWrap}>
 					<h1>{title}</h1>
 					<Markdown className={s.intro}>{intro}</Markdown>
