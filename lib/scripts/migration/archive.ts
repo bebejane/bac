@@ -64,7 +64,7 @@ export const migrateProjects = async () => {
         title: decodeHTMLEntities(p.title.rendered),
         content: (await htmlToStructuredContent(p.content.rendered, { image: imageBlockTypeId })) || null,
         category: datoCategories.filter(c => p.categories.includes(c.wpid)).map(c => c.id),
-        slug: p.slug
+        slug: decodeURIComponent(p.slug)
       })
 
       await client.items.create({

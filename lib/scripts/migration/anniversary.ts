@@ -98,8 +98,8 @@ export const migrateProjects = async () => {
           [altLang]: altPost ? decodeHTMLEntities(!altPost.title.rendered && altPost.acf.artistname ? undefined : altPost.acf.artistname) : null,
         },
         slug: {
-          [lang]: post.slug,
-          [altLang]: altPost ? altPost.slug : null
+          [lang]: decodeURIComponent(post.slug),
+          [altLang]: altPost ? decodeURIComponent(altPost.slug) : null
         },
         intro_headline: {
           [lang]: post.acf.sub_title,
