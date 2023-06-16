@@ -122,7 +122,7 @@ dependencies:
     specifier: ^7.14.1
     version: 7.14.1(react-dom@18.2.0)(react@18.2.0)
   sass:
-    specifier: ^1.58.1
+    specifier: ^1.63.4
     version: 1.63.4
   strip-markdown:
     specifier: ^5.0.0
