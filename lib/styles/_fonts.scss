@@ -1,12 +1,32 @@
 // FONT EMBEDDING & TYPO VARIABLES
-$body-font: Sans-Serif;
-$headline-font: Sans-Serif;
+$body-font: "StyreneB-Regular", Sans-Serif;
+$headline-font: "StyreneA-Black", Sans-Serif;
 $headline-font-medium: Sans-Serif;
-/*
+
 @font-face {
-    font-family: "Remix";
-    src: url("../../public/fonts/RemixA-Regular.woff2") format("woff2");
+    font-family: "Logo1";
+    src: url("../../public/fonts/bac-01-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
-*/
+
+@font-face {
+    font-family: "Logo2";
+    src: url("../../public/fonts/bac-02-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "StyreneB-Regular";
+    src: url("../../public/fonts/StyreneB-Regular-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "StyreneA-Black";
+    src: url("../../public/fonts/StyreneA-Black-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}

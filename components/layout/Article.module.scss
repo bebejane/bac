@@ -1,13 +1,18 @@
 .article {
   position: relative;
+  margin-right: var(--outer-margin);
 
-  h1 {
+  header {
     display: flex;
     align-items: center;
-    height: var(--navbar-height);
+    height: calc(var(--topbar-height) + 0.4rem);
+    h1 {
+      margin-top: -0.2em;
+    }
   }
 
   figure {
+    margin-bottom: var(--space);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -17,13 +22,17 @@
       cursor: pointer;
     }
 
-    &.small {}
+    &.small {
+    }
 
-    &.medium {}
+    &.medium {
+    }
 
-    &.large {}
+    &.large {
+    }
 
-    &.portrait {}
+    &.portrait {
+    }
 
     .image,
     .picture {
@@ -76,13 +85,12 @@
     }
 
     aside {
-      flex: 0 0 calc(var(--grid-unit) * 4)
+      flex: 0 0 calc(var(--grid-unit) * 1);
+      margin-left: var(--gutter);
     }
 
-    .intro>p {
+    .intro > p {
       padding: 0;
     }
-
   }
-
 }

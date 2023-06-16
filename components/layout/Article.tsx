@@ -54,7 +54,7 @@ export default function Article({ id, children, title, subtitle, content, image,
     <>
       <DatoSEO title={title} />
       <div className={cn(s.article, 'article')}>
-        <h1>{title}</h1>
+        <header><h1>{title}</h1></header>
         {image &&
           <figure
             className={cn(s.mainImage, imageSize && s[imageSize], image.height > image.width && s.portrait)}

@@ -15,7 +15,7 @@ export default function Logo({ }: LayoutProps) {
 		<>
 			<Link href="/">
 				<header className={s.logo}>
-					<h1>{!isHome ? 'BAC' : 'BALTIC ART CENTER'}</h1>
+					<h1 className="logo">{!isHome ? 'BAC' : 'BALTIC ART CENTER'}</h1>
 				</header>
 			</Link>
 		</>

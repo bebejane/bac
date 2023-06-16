@@ -12,27 +12,11 @@ body {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  strong {
-    //font-weight: normal;
-  }
-}
-
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: bold;
-  padding-bottom: var(--space);
   line-height: 1.25;
   font-family: $headline-font;
-
-  @include mq($until: tablet) {
-    padding-left: var(--outer-margin);
-    padding-right: var(--outer-margin);
-  }
 }
 
 h2 {
@@ -43,8 +27,13 @@ h2 {
 h3 {
   font-size: 0.85rem;
   font-family: $headline-font;
-
   padding-bottom: 1em;
+}
+
+.logo {
+  font-family: "Logo2";
+  font-size: var(--logosize) !important;
+  font-weight: normal;
 }
 
 p {
@@ -71,7 +60,7 @@ p.intro,
     padding-right: 0.5em;
   }
 
-  >p {
+  > p {
     padding: 0;
   }
 }
@@ -81,14 +70,16 @@ p.intro,
 footer,
 footer nav,
 figcaption,
-.caption label {
+.caption label,
+aside p {
   font-family: $headline-font;
-  font-size: 0.75rem;
+  font-size: 0.75rem !important;
   text-align: center;
+}
 
-  @include mq($from: wide) {
-    font-size: 0.7rem;
-  }
+aside p {
+  font-family: $body-font;
+  font-weight: normal;
 }
 
 nav,
@@ -127,17 +118,18 @@ article {
   ul {
     text-align: left;
 
-    @include mq($from: tablet) {}
+    @include mq($from: tablet) {
+    }
   }
 
   ul p {
     padding-left: 0;
   }
 
-  p+h3,
-  ul+h3,
-  ul+h2,
-  p+h2 {
+  p + h3,
+  ul + h3,
+  ul + h2,
+  p + h2 {
     padding-top: 1rem;
   }
 
