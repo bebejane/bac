@@ -10,10 +10,10 @@ export default withWebPreviewsEdge(async ({ item, itemType, locale }) => {
 
   let path = null;
 
-  const slug = typeof item.attributes.slug ? item.attributes.slug[locale] : item.attributes.slug
+  const slug = typeof item.attributes.slug === 'object' ? item.attributes.slug[locale] : item.attributes.slug
+  const { api_key } = itemType.attributes
 
-  switch (itemType.attributes.api_key) {
-
+  switch (api_key) {
     case 'start':
       path = `/`
       break;
