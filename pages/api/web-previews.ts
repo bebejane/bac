@@ -35,6 +35,12 @@ export default withWebPreviewsEdge(async ({ item, itemType, locale }) => {
     case 'archive':
       path = slug ? `/archive/${slug}` : null
       break;
+    case 'archive_intro':
+      path = `/archive`
+      break;
+    case 'archive_category':
+      path = `/archive`
+      break;
     case 'anniversary':
       path = `/bac-20-year-anniversary`
       break;

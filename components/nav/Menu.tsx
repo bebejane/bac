@@ -46,8 +46,9 @@ export default function Menu({ items }: MenuProps) {
 		})
 
 		if (!selected) { // Check base path
-			const baseUrl = path.split('/').slice(0, path.split('/').length - 1).join('/')
-			selected = items.find((item) => translatePath(item.slug, locale, defaultLocale) === baseUrl)
+			const parentPath = `${localePath.split('/').slice(0, localePath.split('/').length - 1).join('/')}`
+
+			selected = items.find((item) => translatePath(item.slug, locale, defaultLocale) === parentPath)
 		}
 
 		setSelected(selected)

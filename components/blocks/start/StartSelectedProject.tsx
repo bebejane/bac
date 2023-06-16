@@ -15,11 +15,11 @@ export default function StartSelectedProject({ data: { projects } }: Props) {
 				{projects.map(({ title, subtitle, intro, image, slug }, idx) =>
 					<Link href={`/projects/${slug}`} key={idx}>
 						<li>
-							<p>
+							<div>
 								<h3>{title}</h3>
 								<span>{subtitle}</span>
 								<Markdown>{intro}</Markdown>
-							</p>
+							</div>
 							<figure>
 								{image && <Image data={image.responsiveImage} className={s.image} pictureClassName={s.picture} />}
 							</figure>

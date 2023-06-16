@@ -34,6 +34,12 @@ export default withRevalidate(async (record, revalidate) => {
       case 'archive':
         localePaths.push(`/archive`)
         break;
+      case 'archive_intro':
+        localePaths.push(`/archive`)
+        break;
+      case 'archive_category':
+        localePaths.push(`/archive`)
+        break;
       case 'anniversary':
         localePaths.push(`/bac-20-year-anniversary`)
         break;
