@@ -31,10 +31,11 @@ export default function Thumbnail({ image, slug, title, subtitle, year, transfor
               onLoad={() => setLoaded(true)}
             />
           </>
+          <div className={s.cover}></div>
         </figure>
       }
       <h3>{title}</h3>
-      {subtitle && <p>{subtitle}</p>}
+      {subtitle && <p className="mid">{subtitle}</p>}
     </Link>
   )
 }

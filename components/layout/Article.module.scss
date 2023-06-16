@@ -11,12 +11,15 @@
     }
   }
 
-  figure {
+  main figure {
     margin-bottom: var(--space);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    max-height: calc(100vh - var(--topbar-height) - 7rem);
+    border-left: var(--line-thick);
+    border-right: var(--line-thin);
 
     &.mainImage {
       cursor: pointer;

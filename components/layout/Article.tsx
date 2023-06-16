@@ -56,17 +56,19 @@ export default function Article({ id, children, title, subtitle, content, image,
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
         {image &&
-          <figure
-            className={cn(s.mainImage, imageSize && s[imageSize], image.height > image.width && s.portrait)}
-            onClick={() => setImageId(image?.id)}
-            ref={figureRef}
-          >
-            <Image
-              data={image.responsiveImage}
-              className={s.image}
-              pictureClassName={s.picture}
-            />
-          </figure>
+          <main>
+            <figure
+              className={cn(s.mainImage, imageSize && s[imageSize], image.height > image.width && s.portrait)}
+              onClick={() => setImageId(image?.id)}
+              ref={figureRef}
+            >
+              <Image
+                data={image.responsiveImage}
+                className={s.image}
+                pictureClassName={s.picture}
+              />
+            </figure>
+          </main>
         }
         <div className={s.wrapper}>
           <section className={s.content}>

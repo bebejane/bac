@@ -20,8 +20,8 @@
     color: var(--black) !important;
   }
 
-  > li {
-    border-right: 1px solid var(--beige-mid);
+  li {
+    overflow: visible;
   }
 
   &.two > li {

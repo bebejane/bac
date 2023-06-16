@@ -28,6 +28,7 @@ export default function Layout({ children, menu: menuFromProps, contact, title }
 
 	return (
 		<>
+			<div className={s.topline}></div>
 			<Logo />
 			<Menu items={menu} />
 			<div className={s.layout}>

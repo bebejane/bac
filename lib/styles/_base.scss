@@ -2,12 +2,15 @@
 	--black: #161616;
 	--white: #fcfcfc;
 	--red: #bf0000;
+	--yellow: #ffdcb4;
 	--outer-margin: 4vw;
 	--grid-unit: calc(((100vw - (2 * var(--outer-margin))) / 4));
-	--gutter: 3https://www.balticartcenter.com/projekt/ur-himlen-ner-i-jorden/vw;
+	--gutter: 4vw;
 	--background: var(--white);
 	--foreground: var(--black);
 	--line: 4px solid var(--black);
+	--line-thick: 0.3vw solid var(--black);
+	--line-thin: 0.1vw solid var(--black);
 	--logosize: 4rem;
 	--topbar-height: calc(1.5rem + var(--logosize) + 1.5rem);
 	--navbar-height: var(--topbar-height);
@@ -18,6 +21,7 @@
 	--z-fullscreen-gallery: 1300;
 	--z-fullscreen-gallery-close: 1301;
 	--space: 3rem;
+	--gradien: linear-gradient(to top, rgba(255, 220, 180, 0), var--yellow);
 
 	@include mq($from: tablet) {
 	}

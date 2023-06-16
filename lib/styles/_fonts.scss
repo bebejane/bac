@@ -25,6 +25,13 @@ $headline-font-medium: Sans-Serif;
 }
 
 @font-face {
+    font-family: "StyreneB-Regular";
+    src: url("../../public/fonts/StyreneB-RegularItalic-Web.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
     font-family: "StyreneA-Black";
     src: url("../../public/fonts/StyreneA-Black-Web.woff") format("woff");
     font-weight: normal;
