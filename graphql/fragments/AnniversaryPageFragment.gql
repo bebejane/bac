@@ -41,6 +41,9 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 		headline
 		text
 	}
+	color {
+		hex
+	}
 	slug
 	_seoMetaTags {
 		...SeoMetaTagsFragment
