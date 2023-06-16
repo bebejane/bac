@@ -29,9 +29,10 @@ export type ArticleProps = {
   cv?: CvRecord[]
   onClick?: (id: string) => void
   record?: any
+  backLink?: string
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, cv, video, onClick, record }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, cv, video, onClick, record, backLink }: ArticleProps) {
 
   const t = useTranslations()
   const [setImageId, setImages] = useStore((state) => [state.setImageId, state.setImages])
@@ -89,7 +90,11 @@ export default function Article({ id, children, title, subtitle, content, image,
               </React.Fragment>
             )}
             {children}
-            <button>Tillbaka till översikt</button>
+            {backLink &&
+              <Link href={backLink}>
+                <button>{t('General.backToOverview')}</button>
+              </Link>
+            }
           </section>
           {metaInfo &&
             <aside>

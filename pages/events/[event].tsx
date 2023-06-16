@@ -34,6 +34,7 @@ export default function Event({ event: { id, title, subtitle, image, gallery, me
 			content={content}
 			metaInfo={metaInfo}
 			cv={cv}
+			backLink={'/events'}
 		/>
 	);
 }

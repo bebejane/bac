@@ -1,10 +1,8 @@
-import s from "./[archive].module.scss";
-import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { ArchiveDocument, AllArchivesDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
-import { Article, StructuredContent } from "/components";
+import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 
 export type Props = {
@@ -29,6 +27,7 @@ export default function Archive({ archive: { id, title, content }, archive }: Pr
 			id={id}
 			title={title}
 			content={content}
+			backLink={'/archive'}
 		/>
 	);
 }

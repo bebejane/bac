@@ -31,7 +31,7 @@ export const buildMenu = async (locale: string) => {
     switch (item.id) {
       case 'about':
         //@ts-ignore
-        sub = res.abouts.map(el => ({
+        sub = res.abouts.filter(el => el.slug).map(el => ({
           id: `about-${el.slug}`,
           label: el.title,
           slug: `/${routes.about[locale]}/${el.slug}`,

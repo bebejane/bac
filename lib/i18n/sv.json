@@ -12,5 +12,8 @@
 		"sortBy": "Sorera på",
 		"year": "År",
 		"artistName": "Konstnärsnamn"
+	},
+	"General": {
+		"backToOverview": "Tillbaka till översikten"
 	}
 }

@@ -24,11 +24,9 @@
 	--space: 3rem;
 	--gradien: linear-gradient(to top, rgba(255, 220, 180, 0), var--yellow);
 
-	@include mq($from: tablet) {
-	}
+	@include mq($from: tablet) {}
 
-	@include mq($until: tablet) {
-	}
+	@include mq($until: tablet) {}
 }
 
 body {
@@ -151,7 +149,9 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out, padding 0.5s;
+	transition: color 0.2s ease-in-out,
+	background-color 0.3s ease-in-out,
+	padding 0.5s;
 
 	&.back {
 		width: var(--body-width);

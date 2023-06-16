@@ -11,7 +11,7 @@
     position: relative;
     width: auto;
 
-    > ul {
+    >ul {
       display: none;
 
       &.show {
@@ -20,14 +20,14 @@
     }
   }
 
-  > ul {
+  >ul {
     list-style: none;
     font-weight: bold;
 
     li {
       padding-bottom: 0.5em;
 
-      &.selected > a {
+      &.selected>a {
         text-decoration: underline;
       }
 
@@ -36,24 +36,30 @@
       }
     }
 
-    > li {
+    >li {
       span {
         cursor: pointer;
 
-        > ul {
+        >ul {
           display: none;
           list-style: none;
           flex-direction: column;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
 
           &.show {
             display: flex;
           }
 
-          > li {
+          >li {
             margin-left: 1em;
 
-            &.selected > a {
+            &.selected>a {
               text-decoration: underline;
+            }
+
+            &:last-child {
+              padding-bottom: 0;
             }
           }
         }

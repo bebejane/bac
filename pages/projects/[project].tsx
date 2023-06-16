@@ -31,6 +31,7 @@ export default function Project({ project: { title, subtitle, content, image, vi
 			content={content}
 			metaInfo={project.metaInfo}
 			cv={project.cv}
+			backLink={'/projects'}
 		/>
 	);
 }

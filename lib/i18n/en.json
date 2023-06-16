@@ -12,5 +12,8 @@
 		"sortBy": "Sort by",
 		"year": "Year",
 		"artistName": "Artist name"
+	},
+	"General": {
+		"backToOverview": "Back to overview"
 	}
 }
