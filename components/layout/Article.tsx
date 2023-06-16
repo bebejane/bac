@@ -74,11 +74,11 @@ export default function Article({ id, children, title, subtitle, content, image,
               centeredSlides={true}
               simulateTouch={true}
               initialSlide={0}
+              onSwiper={(swiper) => swiperRef.current = swiper}
               onSlideChange={({ realIndex }) => {
                 setIndex(realIndex)
                 setCaption(gallery?.[realIndex]?.title || gallery?.[realIndex]?.alt)
               }}
-              onSwiper={(swiper) => swiperRef.current = swiper}
             >
               {(gallery?.length ? gallery : image ? [image] : null)?.map((img, idx) =>
                 <SwiperSlide key={idx} className={cn(s.slide)}>
