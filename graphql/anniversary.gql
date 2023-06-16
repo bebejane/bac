@@ -12,17 +12,7 @@ query Anniversary($locale: SiteLocale!) {
 
 query AllAnniversaryPages($locale: SiteLocale!) {
 	anniversaryPages: allAnniversaryPages(locale: $locale, first: 100) {
-		__typename
-		id
-		title
-		subtitle
-		introHeadline
-		intro(markdown: false)
-		slug
-		_allSlugLocales {
-			locale
-			value
-		}
+		...AnniversaryPageFragment
 	}
 }
 

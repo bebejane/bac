@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     height: calc(var(--topbar-height) + 0.4rem);
+
     h1 {
       margin-top: -0.2em;
     }
@@ -25,17 +26,13 @@
       cursor: pointer;
     }
 
-    &.small {
-    }
+    &.small {}
 
-    &.medium {
-    }
+    &.medium {}
 
-    &.large {
-    }
+    &.large {}
 
-    &.portrait {
-    }
+    &.portrait {}
 
     .image,
     .picture {
@@ -92,8 +89,12 @@
       margin-left: var(--gutter);
     }
 
-    .intro > p {
+    .intro>p {
       padding: 0;
+    }
+
+    .cv>p>strong {
+      font-weight: bold !important;
     }
   }
 }

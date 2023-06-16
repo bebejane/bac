@@ -30,6 +30,7 @@ export default function Project({ project: { title, subtitle, content, image, vi
 			video={video}
 			content={content}
 			metaInfo={project.metaInfo}
+			cv={project.cv}
 		/>
 	);
 }
