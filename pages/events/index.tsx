@@ -41,7 +41,7 @@ export default function Events({ events }: Props) {
 							{events.map(({ title, subtitle, image, slug, _createdAt }, idx) =>
 								<Card key={idx}>
 									<Thumbnail
-										year={idx === 0 ? year : null}
+										typeTitle={idx === 0 ? year.toString() : null}
 										title={title}
 										subtitle={subtitle}
 										image={image}

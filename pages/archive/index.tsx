@@ -64,8 +64,8 @@ export const getStaticProps = withGlobalProps({ queries: [ArchiveIntroDocument] 
 			...props,
 			archives,
 			page: {
-				section: 'event',
-				slugs: pageSlugs('event'),
+				section: 'archive',
+				slugs: pageSlugs('archive'),
 			} as PageProps
 		},
 		revalidate
