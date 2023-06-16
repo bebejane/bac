@@ -8,8 +8,7 @@ import setDefaultOptions from 'date-fns/setDefaultOptions';
 import { useRouter } from 'next/router';
 import { locales } from '/lib/i18n'
 
-setDefaultOptions({ locale: sv })
-
+setDefaultOptions({ locale: en })
 function onMessageError() { }
 function getMessageFallback({ namespace, key, error }) { return '' }
 

@@ -26,11 +26,12 @@ export type ArticleProps = {
   imageSize?: 'small' | 'medium' | 'large'
   content?: any
   metaInfo?: MetaInfoRecord[]
+  cv?: CvRecord[]
   onClick?: (id: string) => void
   record?: any
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, video, onClick, record }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, intro, metaInfo, cv, video, onClick, record }: ArticleProps) {
 
   const t = useTranslations()
   const [setImageId, setImages] = useStore((state) => [state.setImageId, state.setImages])
