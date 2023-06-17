@@ -27,7 +27,9 @@
 
 	@include mq($from: tablet) {}
 
-	@include mq($until: tablet) {}
+	@include mq($until: tablet) {
+		--logosize: 2rem;
+	}
 }
 
 body {

@@ -13,17 +13,91 @@
   }
 
   main {
+    position: relative;
+    margin-bottom: var(--space);
     display: flex;
+    align-items: center;
     flex-direction: row;
+    width: 100%;
 
     .slide {
-      width: 100%;
 
+      &.solo {
+        pointer-events: none;
+      }
+    }
+
+    .pagination {
+      @include mq($from: tablet) {
+        display: none;
+      }
+
+      position: absolute;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      color: var(--white);
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      margin-bottom: 2rem;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        font-size: 0.7rem;
+
+        &.selected {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .next,
+    .prev {
+      @include mq($until: tablet) {
+        display: none;
+      }
+
+      all: unset;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      top: 0;
+      margin: var(--outer-margin);
+      height: calc(100% - var(--outer-margin) * 2);
+      width: var(--outer-margin);
+      z-index: 2;
+      color: var(--black);
+      font-size: 2rem;
+      line-height: 1;
+      background: transparent;
+      border: 0;
+    }
+
+    .next {
+      right: 0;
+      text-align: center;
+    }
+
+    .prev {
+      left: 0;
     }
   }
 
+
   main figure {
-    margin-bottom: var(--space);
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -39,7 +113,7 @@
     .placeholder,
     .image,
     .picture {
-      width: 100% !important;
+      //width: 100% !important;
       height: 100% !important;
       left: 0 !important;
       top: 0 !important;
@@ -54,41 +128,6 @@
 
     &.portrait {}
 
-  }
-
-  .date {
-    font-family: $headline-font;
-    border: 1px solid var(--black);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-    @include mq($until: tablet) {
-      width: 14vw;
-      float: right;
-      margin-left: var(--outer-margin);
-    }
-
-    @include mq($from: tablet) {
-      position: absolute;
-      right: 0;
-      width: calc(var(--grid-unit) - var(--gutter));
-    }
-
-    span {
-      display: block;
-
-      &:first-of-type {
-        text-transform: uppercase;
-        padding-bottom: 0.5em;
-      }
-
-      &:last-of-type {
-        font-size: 2.3rem;
-        padding-bottom: 0.5em;
-      }
-    }
   }
 
   .wrapper {
@@ -112,4 +151,5 @@
       font-weight: bold !important;
     }
   }
+
 }

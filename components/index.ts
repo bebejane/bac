@@ -7,6 +7,7 @@ export { default as StartSelectedProject } from './blocks/start/StartSelectedPro
 export { default as Video } from './blocks/Video'
 export { default as Card } from './common/Card'
 export { default as CardContainer } from './common/CardContainer'
+export { default as ExternalVideo } from './common/ExternalVideo'
 export { default as FilterBar } from './common/FilterBar'
 export { default as FullscreenGallery } from './common/FullscreenGallery'
 export { default as Loader } from './common/Loader'

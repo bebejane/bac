@@ -1,23 +1,21 @@
 import s from './Article.module.scss'
+import "swiper/css/effect-fade";
 import cn from 'classnames'
 import React, { useEffect, useRef, useState } from 'react'
-import { StructuredContent } from "/components";
+import { StructuredContent, ExternalVideo } from "/components";
 import { Image } from 'react-datocms';
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { DatoSEO } from 'dato-nextjs-utils/components';
 import Link from '/components/nav/Link'
-import useStore from '/lib/store';
-import format from 'date-fns/format';
 import { useTranslations } from 'next-intl';
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import useDevice from '/lib/hooks/useDevice';
-import BalanceText from 'react-balance-text'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, EffectCards, Navigation } from 'swiper'
 import SwiperCore from 'swiper'
 import type { Swiper as SwiperType } from 'swiper'
 
-SwiperCore.use([EffectFade, EffectCards, Navigation]);
+SwiperCore.use([EffectFade, EffectCards]);
 
 
 export type ArticleProps = {
@@ -51,19 +49,19 @@ export default function Article({ id, children, title, subtitle, content, image,
   const ratio = !isDesktop ? 0 : offset ? Math.max(0, Math.min(1, ((scrolledPosition - (offset > viewportHeight ? offset - viewportHeight + 100 : 0)) / viewportHeight))) : 0
   const figureRef = useRef<HTMLElement | null>(null)
   const swiperRef = useRef<SwiperType | undefined>()
+  //@ts-ignore
+  const slides: (ImageFileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
 
   useEffect(() => {
     setCaption(gallery?.[index]?.title || image?.title)
   }, [index])
-
-  console.log(caption)
-
+  console.log(slides)
   return (
     <>
       <DatoSEO title={title} />
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
-        {(image || gallery?.length > 0) &&
+        {slides.length > 0 &&
           <main>
             <Swiper
               id={`main-gallery`}
@@ -80,29 +78,46 @@ export default function Article({ id, children, title, subtitle, content, image,
                 setCaption(gallery?.[realIndex]?.title || gallery?.[realIndex]?.alt)
               }}
             >
-              {(gallery?.length ? gallery : image ? [image] : null)?.map((img, idx) =>
-                <SwiperSlide key={idx} className={cn(s.slide)}>
-                  <figure
-                    className={cn(s.mainImage, imageSize && s[imageSize], img.height > img.width && s.portrait)}
-                    onClick={() => swiperRef.current?.slideNext()}
-                    ref={figureRef}
-                  >
-                    <Image
-                      data={img.responsiveImage}
-                      lazyLoad={idx === index ? true : false}
-                      className={s.image}
-                      pictureClassName={s.picture}
-                      placeholderClassName={s.placeholder}
+              {slides?.map((slide, idx) =>
+                <SwiperSlide key={idx} className={cn(s.slide, slides.length === 1 && s.solo)}>
+                  {slide.__typename === 'ImageFileField' ?
+                    <figure
+                      className={cn(s.mainImage, imageSize && s[imageSize], slide.height > slide.width && s.portrait)}
+                      onClick={() => swiperRef.current?.slideNext()}
+                      ref={figureRef}
+                    >
+                      <Image
+                        data={slide.responsiveImage}
+                        lazyLoad={idx === index ? true : false}
+                        className={s.image}
+                        pictureClassName={s.picture}
+                        placeholderClassName={s.placeholder}
 
-                    />
-                  </figure>
-                  {/*!loaded[image.id] && initLoaded &&
-                  <div className={s.loading}><Loader /></div>
-                */}
+                      />
+                    </figure>
+                    : slide.__typename === 'VideoField' ?
+                      <ExternalVideo data={slide} />
+                      : null}
                 </SwiperSlide>
               )}
             </Swiper>
-
+            {slides?.length > 1 &&
+              <>
+                <ul className={s.pagination}>
+                  {slides.map((image, i) =>
+                    <li
+                      key={i}
+                      className={cn(i === index && s.selected)}
+                      onClick={() => swiperRef.current.slideTo(i + 1)}
+                    >
+                      <span>•</span>
+                    </li>
+                  )}
+                </ul>
+                <button className={s.next} onClick={() => swiperRef.current?.slideNext()} >›</button>
+                <button className={s.prev} onClick={() => swiperRef.current?.slidePrev()} >‹</button>
+              </>
+            }
           </main>
         }
         <div className={s.wrapper}>
@@ -114,7 +129,6 @@ export default function Article({ id, children, title, subtitle, content, image,
                 id={id}
                 record={record}
                 content={content}
-              //onClick={(imageId) => setImageId(imageId)}
               />
             }
             {cv?.map(({ headline, text }, idx) =>
@@ -147,3 +161,4 @@ export default function Article({ id, children, title, subtitle, content, image,
     </>
   )
 }
+
