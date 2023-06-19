@@ -3,6 +3,7 @@ import cn from 'classnames'
 import React from 'react'
 import { Menu } from '/lib/menu'
 import useStore from '/lib/store'
+import { useRouter } from 'next/router'
 
 export type ContentProps = {
 	children: React.ReactNode,
@@ -11,10 +12,11 @@ export type ContentProps = {
 
 export default function Content({ children, menu }: ContentProps) {
 
+	const { asPath } = useRouter()
 	const [showMenu] = useStore((state) => [state.showMenu])
 
 	return (
-		<main id="content" className={cn(s.content, !showMenu && s.full)}>
+		<main id="content" className={cn(s.content, !showMenu && s.full)} key={asPath}>
 			<article>
 				{children}
 			</article>

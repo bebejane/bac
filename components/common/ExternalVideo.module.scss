@@ -1,11 +1,9 @@
 .video {
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
+  //flex: 1 1 100%;
   height: 100%;
   width: 100%;
-
-  @include mq($from: tablet) {}
 
   .player {
     width: 100%;
@@ -19,7 +17,5 @@
 
   .caption {
     margin-top: 1rem;
-
-    @include mq($until: tablet) {}
   }
 }
