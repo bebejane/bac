@@ -41,14 +41,18 @@
         cursor: pointer;
 
         >ul {
-          display: none;
+          display: flex;
           list-style: none;
           flex-direction: column;
-          margin-top: 0.5em;
-          margin-bottom: 0.5em;
+          max-height: 0;
+          overflow: hidden;
+          transition: all 0.2s ease-out;
 
           &.show {
             display: flex;
+            max-height: 100px;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
           }
 
           >li {

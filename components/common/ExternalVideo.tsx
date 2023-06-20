@@ -10,7 +10,10 @@ export default function ExternalVideo({ data }) {
 	const [height, setHeight] = useState(360);
 	const { innerWidth, innerHeight } = useWindowSize()
 
-	useEffect(() => setHeight((ref.current?.clientWidth / 16) * 9), [innerWidth, innerHeight, data, ref]) // Set to 16:9
+	useEffect(() => {
+		setTimeout(() => setHeight((ref.current?.clientWidth / 16) * 9), 100)
+	}, [innerWidth, innerHeight, data, ref]) // Set to 16:9
+
 
 	if (!data) return null
 

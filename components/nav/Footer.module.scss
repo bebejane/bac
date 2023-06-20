@@ -9,13 +9,28 @@
   z-index: var(--z-footer);
   margin-top: var(--space);
 
+
+
   span {
     display: inline-block;
     padding-top: 2rem;
     padding-right: 0.5em;
 
+
     &:first-of-type {
       width: calc(var(--grid-unit) - var(--outer-margin));
+    }
+  }
+
+  @include mq($until: tablet) {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--outer-margin);
+
+    span {
+      padding: 0em;
+      line-height: 1.7;
+      white-space: nowrap;
     }
   }
 }

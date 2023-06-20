@@ -2,6 +2,11 @@
   position: relative;
   margin-right: var(--outer-margin);
 
+  @include mq($until: tablet) {
+    padding-right: var(--outer-margin);
+    padding-left: var(--outer-margin);
+  }
+
   header {
     display: flex;
     align-items: center;
@@ -12,7 +17,7 @@
     }
   }
 
-  main {
+  .gallery {
     position: relative;
     margin-bottom: var(--space);
     display: flex;
@@ -25,39 +30,39 @@
       &.solo {
         pointer-events: none;
       }
-    }
 
-    .pagination {
-      @include mq($from: tablet) {
-        display: none;
-      }
+      figure {
 
-      position: absolute;
-      list-style: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      color: var(--white);
-      left: 0;
-      bottom: 0;
-      z-index: 2;
-      margin-bottom: 2rem;
-
-      li {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        width: 2rem;
-        height: 2rem;
-        cursor: pointer;
-        font-size: 0.7rem;
+        max-height: calc(100vh - var(--topbar-height) - 7rem);
+        border-left: var(--line-thick);
+        border-right: var(--line-thin);
 
-        &.selected {
-          font-size: 1rem;
+        &.mainImage {
+          cursor: pointer;
         }
+
+        .placeholder,
+        .image,
+        .picture {
+          //width: 100% !important;
+          height: 100% !important;
+          left: 0 !important;
+          top: 0 !important;
+          object-fit: contain;
+        }
+
+        &.small {}
+
+        &.medium {}
+
+        &.large {}
+
+        &.portrait {}
+
       }
     }
 
@@ -93,46 +98,54 @@
     .prev {
       left: 0;
     }
-  }
+
+    .pagination {
+      @include mq($from: tablet) {
+        display: none;
+      }
+
+      position: absolute;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      color: var(--white);
+      top:0;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      margin-bottom: 2rem;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        cursor: pointer;
+        font-size: 0.7rem;
+
+        &.selected {
+          font-size: 1rem;
+        }
 
 
-  main figure {
+      }
 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    max-height: calc(100vh - var(--topbar-height) - 7rem);
-    border-left: var(--line-thick);
-    border-right: var(--line-thin);
 
-    &.mainImage {
-      cursor: pointer;
     }
-
-    .placeholder,
-    .image,
-    .picture {
-      //width: 100% !important;
-      height: 100% !important;
-      left: 0 !important;
-      top: 0 !important;
-      object-fit: contain;
-    }
-
-    &.small {}
-
-    &.medium {}
-
-    &.large {}
-
-    &.portrait {}
-
   }
 
   .wrapper {
     display: flex;
     flex-direction: row;
+
+    @include mq($until: tablet) {
+      flex-direction: column;
+    }
 
     section {
       flex: 1 1 auto;
@@ -141,6 +154,11 @@
     aside {
       flex: 0 0 calc(var(--grid-unit) * 1);
       margin-left: var(--gutter);
+
+      @include mq($until: tablet) {
+        margin-left: 0;
+
+      }
     }
 
     .intro>p {

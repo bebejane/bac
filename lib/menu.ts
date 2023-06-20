@@ -22,12 +22,9 @@ export const buildMenu = async (locale: string) => {
 
     let sub: MenuItem[];
 
-    //if (item.slug) {
-    console.log(messages.Menu[item.id])
     item.label = messages.Menu[item.id]
     item.slug = `/${routes[item.id][locale]}`
     item.altSlug = `/${routes[item.id][altLocale]}`
-    //}
 
     switch (item.id) {
       case 'about':

@@ -55,17 +55,18 @@ export default function Article({ id, children, title, subtitle, content, image,
   useEffect(() => {
     setCaption(gallery?.[index]?.title || image?.title)
   }, [index])
-  console.log(slides)
+
   return (
     <>
       <DatoSEO title={title} />
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
         {slides.length > 0 &&
-          <main>
+          <div className={s.gallery}>
             <Swiper
               id={`main-gallery`}
               loop={gallery?.length > 1}
+              className={s.swiper}
               //effect={'fade'}
               slidesPerView={1}
               spaceBetween={0}
@@ -118,7 +119,7 @@ export default function Article({ id, children, title, subtitle, content, image,
                 <button className={s.prev} onClick={() => swiperRef.current?.slidePrev()} >‹</button>
               </>
             }
-          </main>
+          </div>
         }
         <div className={s.wrapper}>
           <section className={s.content}>
@@ -137,11 +138,7 @@ export default function Article({ id, children, title, subtitle, content, image,
               </React.Fragment>
             )}
             {children}
-            {backLink &&
-              <Link href={backLink}>
-                <button>{t('General.backToOverview')}</button>
-              </Link>
-            }
+
           </section>
           {metaInfo &&
             <aside>
@@ -156,7 +153,13 @@ export default function Article({ id, children, title, subtitle, content, image,
               )}
             </aside>
           }
+
         </div>
+        {backLink &&
+          <Link href={backLink}>
+            <button>{t('General.backToOverview')}</button>
+          </Link>
+        }
       </div>
     </>
   )
