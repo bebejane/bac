@@ -12,16 +12,11 @@ export type Props = {
 export default function Home({ start }: Props) {
 
 	return (
-		<Article id={'home'}>
+		<div className={s.container}>
 			{start?.content?.map((block, idx) =>
-				<section key={idx}>
-					<Block
-						data={block}
-						record={start}
-					/>
-				</section>
+				<Block key={idx} data={block} record={start} />
 			)}
-		</Article>
+		</div>
 	);
 }
 

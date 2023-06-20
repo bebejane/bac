@@ -1,1 +1,11 @@
-.container {}
+.container {
+  @include mq($from: tablet) {
+    padding-top: var(--navbar-height);
+    padding-right: var(--outer-margin);
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}

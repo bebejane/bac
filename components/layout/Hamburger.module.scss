@@ -1,9 +1,12 @@
 .hamburger {
   position: fixed;
+  display: flex;
+  align-items: center;
   z-index: var(--z-hamburger);
   top: 0;
   right: 0;
-  margin: var(--outer-margin);
+  height: var(--navbar-height);
+  padding: var(--outer-margin);
 
   @include mq($from: tablet) {
     display: none;
