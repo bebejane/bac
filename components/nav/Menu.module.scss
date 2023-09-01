@@ -11,7 +11,7 @@
     position: relative;
     width: auto;
 
-    >ul {
+    > ul {
       display: none;
 
       &.show {
@@ -20,30 +20,31 @@
     }
   }
 
-  >ul {
+  > ul {
     list-style: none;
     font-weight: bold;
 
     li {
       padding-bottom: 0.5em;
 
-      &.selected>a {
+      &.selected > a {
         text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: var(--underline-pos);
       }
 
       &.language {
         @include mq($from: tablet) {
           margin-top: 1em;
         }
-
       }
     }
 
-    >li {
+    > li {
       span {
         cursor: pointer;
 
-        >ul {
+        > ul {
           display: flex;
           list-style: none;
           flex-direction: column;
@@ -58,10 +59,10 @@
             margin-bottom: 0.5em;
           }
 
-          >li {
+          > li {
             margin-left: 1em;
 
-            &.selected>a {
+            &.selected > a {
               text-decoration: underline;
             }
 
