@@ -25,22 +25,20 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    border-left: var(--line-thick);
+    border-right: var(--line-thin);
 
     .slide {
-
       &.solo {
         pointer-events: none;
       }
 
       figure {
-
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         max-height: calc(100vh - var(--topbar-height) - 7rem);
-        border-left: var(--line-thick);
-        border-right: var(--line-thin);
 
         &.mainImage {
           cursor: pointer;
@@ -56,14 +54,17 @@
           object-fit: contain;
         }
 
-        &.small {}
+        &.small {
+        }
 
-        &.medium {}
+        &.medium {
+        }
 
-        &.large {}
+        &.large {
+        }
 
-        &.portrait {}
-
+        &.portrait {
+        }
       }
     }
 
@@ -113,7 +114,7 @@
       align-items: center;
       width: 100%;
       color: var(--white);
-      top:0;
+      top: 0;
       left: 0;
       bottom: 0;
       z-index: 2;
@@ -132,11 +133,7 @@
         &.selected {
           font-size: 1rem;
         }
-
-
       }
-
-
     }
   }
 
@@ -158,17 +155,15 @@
 
       @include mq($until: tablet) {
         margin-left: 0;
-
       }
     }
 
-    .intro>p {
+    .intro > p {
       padding: 0;
     }
 
-    .cv>p>strong {
+    .cv > p > strong {
       font-weight: bold !important;
     }
   }
-
 }

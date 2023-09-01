@@ -12,3 +12,12 @@
   position: fixed;
   z-index: 1000;
 }
+
+.bottomline {
+  width: 100%;
+  background-color: var(--black);
+  border-top: var(--line);
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+}

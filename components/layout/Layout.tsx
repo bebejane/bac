@@ -39,6 +39,8 @@ export default function Layout({ children, menu: menuFromProps, contact, title }
 
 			<Footer contact={contact} />
 			<Grid />
+			<div className={s.bottomline}></div>
+
 		</>
 	)
 }

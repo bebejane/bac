@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 0.5em;
 
   @include mq($until: tablet) {
     //margin-left: calc(-1 * var(--outer-margin));
@@ -61,7 +62,7 @@
   }
 
   &.three > li {
-    width: 33.333%;
+    width: 25%;
 
     @include mq($from: tablet) {
       &:nth-of-type(3n) {

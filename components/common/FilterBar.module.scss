@@ -4,18 +4,20 @@
   right: 0;
   width: 100%;
   text-align: right;
-  height: calc(var(--topbar-height) - var(--outer-margin));
+  height: calc(var(--topbar-height));
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
 
   span {
-    margin-left: 0.3em;
+    margin-left: 0.8em;
     cursor: pointer;
 
     &.selected {
       text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: var(--underline-pos);
     }
 
     @include mq($until: tablet) {

@@ -27,7 +27,8 @@
     li {
       padding-bottom: 0.5em;
 
-      &.selected > a {
+      &.selected > a,
+      a:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: var(--underline-pos);
@@ -64,6 +65,8 @@
 
             &.selected > a {
               text-decoration: underline;
+              text-decoration-thickness: 1px;
+              text-underline-offset: var(--underline-pos);
             }
 
             &:last-child {

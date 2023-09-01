@@ -3,7 +3,7 @@
 	--white: #fcfcfc;
 	--red: #bf0000;
 	--yellow: #ffdcb4;
-	--outer-margin: 4vw;
+	--outer-margin: 5vw;
 	--grid-unit: calc(((100vw - (2 * var(--outer-margin))) / 4));
 	--gutter: 4vw;
 	--background: var(--white);
@@ -14,7 +14,7 @@
 	--line-thin: max(1px, 0.1vw) solid var(--black);
 	--line-top: 0.5vw;
 	--logosize: 3.6rem;
-	--topbar-height: calc(1.5rem + var(--logosize) + 1.5rem);
+	--topbar-height: calc(2rem + var(--logosize) + 2rem);
 	--navbar-height: var(--topbar-height);
 	--line-height: 1.5em;
 	--z-logo: 1000;
