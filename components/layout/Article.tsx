@@ -36,9 +36,10 @@ export type ArticleProps = {
   record?: any
   backLink?: string
   medium?: boolean
+  noImages?: boolean
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, onClick, record, backLink, medium }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, onClick, record, backLink, medium, noImages }: ArticleProps) {
 
   const t = useTranslations()
   const [index, setIndex] = useState(0)
@@ -131,6 +132,7 @@ export default function Article({ id, children, title, subtitle, content, image,
                 id={id}
                 record={record}
                 content={content}
+                noImages={noImages}
               />
             }
             {cv?.map(({ headline, text }, idx) =>
