@@ -10,9 +10,7 @@ export type LayoutProps = {
 export default function Logo({ }: LayoutProps) {
 
 	const { isHome } = usePage()
-
 	const fonts = [s.f1, s.f2, s.f3, s.f4].sort(() => Math.random() - 0.5 > 0 ? 1 : -1)
-
 
 	return (
 		<>

@@ -26,7 +26,7 @@ export default function Archive({ archive: { id, title, content, _createdAt }, a
 		<Article
 			id={id}
 			title={`${title}, ${new Date(_createdAt).getFullYear()}`}
-
+			medium={true}
 			content={content}
 			backLink={'/archive'}
 		/>

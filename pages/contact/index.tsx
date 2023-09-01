@@ -21,6 +21,7 @@ export default function Contact({ contact: { id, mailingAddress, email, instagra
 		<Article
 			id={'contact'}
 			title={'Contact'}
+			medium={true}
 		>
 			<p>
 				{mailingAddress}

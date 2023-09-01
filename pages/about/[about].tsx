@@ -29,6 +29,7 @@ export default function About({ about: { id, title, content }, about }: Props) {
 			id={id}
 			title={title}
 			content={content}
+			medium={true}
 		/>
 	);
 }
