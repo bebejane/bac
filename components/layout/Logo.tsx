@@ -15,11 +15,22 @@ export default function Logo({ }: LayoutProps) {
 		<>
 			<Link href="/">
 				<header className={s.logo}>
-					<h1 className="logo">{'BALTIC ART CENTER'.split('').map((c, i) =>
-						<span key={i} className={cn(isHome && s.home)}>
-							{c}
-						</span>
-					)}
+					<h1 className="logo">
+						{'BALTIC '.split('').map((c, i) =>
+							<span key={i} className={cn(isHome && s.home, s.logofont1)}>
+								{c}
+							</span>
+						)}
+						{'ART '.split('').map((c, i) =>
+							<span key={i} className={cn(isHome && s.home, s.logofont2)}>
+								{c}
+							</span>
+						)}
+						{'CENTER '.split('').map((c, i) =>
+							<span key={i} className={cn(isHome && s.home, s.logofont3)}>
+								{c}
+							</span>
+						)}
 					</h1>
 				</header>
 			</Link>

@@ -19,13 +19,25 @@
     font-size: 0rem;
     opacity: 0;
 
-
     &.home {
       @include mq($from: tablet) {
         font-size: var(--logosize);
         opacity: 1;
       }
     }
+
+    &.logofont1 {
+      font-family: bac1;
+    }
+
+    &.logofont2 {
+      font-family: bac2;
+    }
+
+    &.logofont3 {
+      font-family: bac3;
+    }
+
 
     &:nth-child(1),
     &:nth-child(8),
