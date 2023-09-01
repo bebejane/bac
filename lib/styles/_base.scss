@@ -25,6 +25,7 @@
 	--space: 3rem;
 	--gradien: linear-gradient(to top, rgba(255, 220, 180, 0), var--yellow);
 	--underline-pos: 0.15em;
+	--text-shadow: 1px 1px 5px #00000021;
 
 	@include mq($from: tablet) {
 	}

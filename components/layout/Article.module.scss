@@ -28,6 +28,17 @@
     border-left: var(--line-thick);
     border-right: var(--line-thin);
 
+    &:hover {
+      .next,
+      .prev {
+        display: flex !important;
+      }
+    }
+
+    .swiper > div {
+      align-items: center;
+    }
+
     .slide {
       &.solo {
         pointer-events: none;
@@ -74,22 +85,24 @@
         display: none;
       }
 
+      display: none !important;
       all: unset;
       position: absolute;
-      display: flex;
+      //display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
       top: 0;
-      margin: var(--outer-margin);
-      height: calc(100% - var(--outer-margin) * 2);
+      margin: calc(var(--outer-margin) / 4);
+      height: calc(100% - 5rem);
       width: var(--outer-margin);
       z-index: 2;
       color: var(--black);
-      font-size: 2rem;
+      font-size: 5rem;
       line-height: 1;
       background: transparent;
       border: 0;
+      text-shadow: 1px 1px 5px #ffffff;
     }
 
     .next {
@@ -99,6 +112,7 @@
 
     .prev {
       left: 0;
+      text-align: center;
     }
 
     .pagination {
@@ -107,14 +121,14 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      align-items: center;
+      align-items: flex-end;
       width: 100%;
       color: var(--white);
       top: 0;
       left: 0;
       bottom: 0;
       z-index: 2;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
 
       li {
         display: flex;
@@ -125,7 +139,9 @@
         height: 1rem;
         font-size: 1rem;
         cursor: pointer;
-        color: gray;
+        color: white;
+        text-shadow: var(--text-shadow);
+        //border: 1px solid var(--black);
 
         &.selected {
           font-size: 1rem;
