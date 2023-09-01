@@ -6,10 +6,11 @@ export type Props = {
   id: string
   content: any
   record: any
+  noImages?: boolean
   onClick?: (imageId: string) => void
 }
 
-export default function StructuredContent({ record, content, onClick }: Props) {
+export default function StructuredContent({ record, content, onClick, noImages }: Props) {
 
   if (!content)
     return null
@@ -18,6 +19,7 @@ export default function StructuredContent({ record, content, onClick }: Props) {
     <StructuredText
       data={content}
       renderBlock={({ record: block }) => {
+        if (noImages && block.__typename === 'ImageRecord') return null
         return <Block data={block} record={record} onClick={(id) => onClick?.(id)} />
       }}
       renderInlineRecord={({ record }) => {

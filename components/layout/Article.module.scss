@@ -8,6 +8,13 @@
     margin-right: 0;
   }
 
+  @include mq($from: tablet) {
+    &.medium {
+      max-width: 75%;
+    }
+  }
+
+
   header {
     display: flex;
     align-items: center;
@@ -65,17 +72,13 @@
           object-fit: contain;
         }
 
-        &.small {
-        }
+        &.small {}
 
-        &.medium {
-        }
+        &.medium {}
 
-        &.large {
-        }
+        &.large {}
 
-        &.portrait {
-        }
+        &.portrait {}
       }
     }
 
@@ -172,11 +175,11 @@
       }
     }
 
-    .intro > p {
+    .intro>p {
       padding: 0;
     }
 
-    .cv > p > strong {
+    .cv>p>strong {
       font-weight: bold !important;
     }
   }
