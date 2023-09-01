@@ -26,18 +26,21 @@
       }
     }
 
-    &.logofont1 {
-      font-family: bac1;
+    &.f1 {
+      font-family: Logo1;
     }
 
-    &.logofont2 {
-      font-family: bac2;
+    &.f2 {
+      font-family: Logo2;
     }
 
-    &.logofont3 {
-      font-family: bac3;
+    &.f3 {
+      font-family: Logo3;
     }
 
+    &.f4 {
+      font-family: Logo4;
+    }
 
     &:nth-child(1),
     &:nth-child(8),
