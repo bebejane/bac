@@ -5,6 +5,7 @@ fragment ProjectFragmentLight on ProjectRecord {
 	title
 	subtitle
 	introHeadline
+	intro(markdown: false)
 	image {
 		...ImageThumbnailFragment
 	}

@@ -20,12 +20,13 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Archive({ archive: { id, title, content }, archive }: Props) {
+export default function Archive({ archive: { id, title, content, _createdAt }, archive }: Props) {
 
 	return (
 		<Article
 			id={id}
-			title={title}
+			title={`${title}, ${new Date(_createdAt).getFullYear()}`}
+
 			content={content}
 			backLink={'/archive'}
 		/>
