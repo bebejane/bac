@@ -18,6 +18,20 @@ $headline-font-medium: Sans-Serif;
 }
 
 @font-face {
+    font-family: "Logo3";
+    src: url("../../public/fonts/bac-03-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Logo4";
+    src: url("../../public/fonts/bac-04-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "StyreneB-Regular";
     src: url("../../public/fonts/StyreneB-Regular-Web.woff") format("woff");
     font-weight: normal;
