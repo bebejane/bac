@@ -15,15 +15,28 @@
   }
 
   h1 span {
+    display: inline-block;
     transition: all 0.6s cubic-bezier(0.65, 0.05, 0.36, 1);
-    font-size: 0rem;
-    opacity: 0;
+    overflow: hidden;
+    max-width: 0px;
+    transform: scaleX(0.0);
 
     &.home {
       @include mq($from: tablet) {
         font-size: var(--logosize);
         opacity: 1;
+        transform: scaleX(1);
+        max-width: 100px;
       }
+    }
+
+    &:nth-child(1),
+    &:nth-child(8),
+    &:nth-child(12) {
+      font-size: var(--logosize) !important;
+      transform: scaleX(1);
+      opacity: 1;
+      max-width: 100px;
     }
 
     &.f1 {
@@ -42,11 +55,6 @@
       font-family: Logo4;
     }
 
-    &:nth-child(1),
-    &:nth-child(8),
-    &:nth-child(12) {
-      font-size: var(--logosize) !important;
-      opacity: 1;
-    }
+
   }
 }

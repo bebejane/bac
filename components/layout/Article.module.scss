@@ -25,6 +25,8 @@
     }
   }
 
+
+
   .gallery {
     position: relative;
     margin-bottom: var(--space);
@@ -35,14 +37,10 @@
     border-left: var(--line-thick);
     border-right: var(--line-thin);
 
-    &:hover {
-      .next,
-      .prev {
-        display: flex !important;
-      }
-    }
 
-    .swiper > div {
+
+
+    .swiper>div {
       align-items: center;
     }
 
@@ -65,7 +63,7 @@
         .placeholder,
         .image,
         .picture {
-          //width: 100% !important;
+          width: 100% !important;
           height: 100% !important;
           left: 0 !important;
           top: 0 !important;
@@ -82,16 +80,27 @@
       }
     }
 
+    &:hover {
+
+      .next,
+      .prev {
+        display: flex !important;
+      }
+    }
+
     .next,
     .prev {
       @include mq($until: tablet) {
         display: none;
       }
 
-      display: none !important;
+      &:hover {
+        display: flex;
+      }
+
       all: unset;
+      display: none;
       position: absolute;
-      //display: flex;
       align-items: center;
       justify-content: center;
       cursor: pointer;
@@ -99,9 +108,10 @@
       margin: calc(var(--outer-margin) / 4);
       height: calc(100% - 5rem);
       width: var(--outer-margin);
-      z-index: 2;
+      z-index: 3;
       color: var(--black);
       font-size: 5rem;
+      text-align: center;
       line-height: 1;
       background: transparent;
       border: 0;
@@ -110,12 +120,10 @@
 
     .next {
       right: 0;
-      text-align: center;
     }
 
     .prev {
       left: 0;
-      text-align: center;
     }
 
     .pagination {

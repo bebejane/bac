@@ -95,7 +95,6 @@ export default function Article({ id, children, title, subtitle, content, image,
                         className={s.image}
                         pictureClassName={s.picture}
                         placeholderClassName={s.placeholder}
-
                       />
                     </figure>
                     : slide.__typename === 'VideoField' ?
