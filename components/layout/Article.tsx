@@ -69,7 +69,6 @@ export default function Article({ id, children, title, subtitle, content, image,
               id={`main-gallery`}
               loop={gallery?.length > 1}
               className={s.swiper}
-              //effect={'fade'}
               slidesPerView={1}
               spaceBetween={0}
               centeredSlides={true}

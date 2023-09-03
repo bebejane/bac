@@ -14,18 +14,15 @@
     }
   }
 
-
   header {
     display: flex;
     align-items: center;
-    height: calc(var(--topbar-height) + 0.4rem);
+    height: var(--topbar-height);
 
     h1 {
       margin-top: -0.2em;
     }
   }
-
-
 
   .gallery {
     position: relative;
@@ -135,7 +132,6 @@
       align-items: flex-end;
       width: 100%;
       color: var(--white);
-      top: 0;
       left: 0;
       bottom: 0;
       z-index: 2;

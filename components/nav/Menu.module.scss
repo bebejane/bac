@@ -3,8 +3,7 @@
   top: 0;
   left: 0;
   margin: var(--outer-margin);
-  margin-top: calc(var(--navbar-height));
-  //width: calc(1 * var(--grid-unit));
+  margin-top: calc(var(--topbar-height) + var(--line-top));
   z-index: var(--z-menu);
 
   @include mq($until: tablet) {
