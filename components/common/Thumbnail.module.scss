@@ -9,6 +9,7 @@
     .imageWrap .border {
       border-width: 5px;
     }
+
     figure {
       z-index: 10000;
     }
@@ -36,6 +37,10 @@
     line-height: 1.3;
     padding-bottom: 0;
     text-align: left;
+
+    &.noimage {
+      padding-top: 4rem;
+    }
   }
 
   p {

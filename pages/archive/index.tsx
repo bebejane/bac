@@ -1,4 +1,4 @@
-import s from "./[archive].module.scss";
+import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
@@ -37,9 +37,9 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			title={title}
 			intro={text}
 		>
-			<CardContainer>
-				{archivesByYear.map(({ archives, year }, i) => {
-					return (
+			{archivesByYear.map(({ archives, year }, i) => {
+				return (
+					<CardContainer>
 						<React.Fragment key={i}>
 							{archives.map(({ title, slug, _createdAt }, idx) =>
 								<Card key={idx}>
@@ -51,9 +51,10 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 								</Card>
 							)}
 						</React.Fragment>
-					)
-				})}
-			</CardContainer>
+					</CardContainer>
+				)
+			})}
+
 		</Article>
 
 	);
