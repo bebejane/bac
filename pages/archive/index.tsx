@@ -40,7 +40,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			{archivesByYear.map(({ archives, year }, i) => {
 				return (
 					<CardContainer>
-						<React.Fragment key={year}>
+						<React.Fragment key={i}>
 							{archives.map(({ title, slug, _createdAt }, idx) =>
 								<Card key={idx}>
 									<Thumbnail
@@ -59,7 +59,6 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 
 	);
 }
-
 
 export const getStaticProps = withGlobalProps({ queries: [ArchiveIntroDocument] }, async ({ props, revalidate, context }: any) => {
 
