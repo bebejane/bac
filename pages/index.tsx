@@ -12,6 +12,7 @@ export type Props = {
 }
 
 export default function Home({ start }: Props) {
+
 	const t = useTranslations('Home');
 	const containerRef = useRef<HTMLDivElement>(null);
 	const lineSizes = [1, 2, 3, 4]
