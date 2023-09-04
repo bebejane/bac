@@ -31,6 +31,36 @@ query Start($locale: SiteLocale) {
 					}
 				}
 			}
+			... on StartImagesDoubleRecord {
+				id
+				images {
+					image {
+						...ImageFragment
+					}
+					title
+					section
+					text(markdown: false)
+					link {
+						... on InternalLinkRecord {
+							__typename
+							title
+							record {
+								... on EventRecord {
+									...EventFragmentLight
+								}
+								... on ProjectRecord {
+									...ProjectFragmentLight
+								}
+							}
+						}
+						... on ExternalLinkRecord {
+							__typename
+							title
+							url
+						}
+					}
+				}
+			}
 			... on StartTextRecord {
 				id
 				title

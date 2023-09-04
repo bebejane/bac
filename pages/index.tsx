@@ -14,12 +14,13 @@ export type Props = {
 export default function Home({ start }: Props) {
 	const t = useTranslations('Home');
 	const containerRef = useRef<HTMLDivElement>(null);
+	const lineSizes = [1, 2, 3, 4]
 
 	useEffect(() => {
-		const sections = containerRef.current?.querySelectorAll('hr');
-		sections?.forEach((section, idx) => {
-			const w = Math.floor(Math.random() * 4) + 1;
-			section.style.setProperty('height', `${w}px`);
+		const hrs = containerRef.current?.querySelectorAll('hr');
+		hrs?.forEach(hr => {
+			const i = Math.floor(Math.random() * lineSizes.length);
+			hr.style.setProperty('height', `${lineSizes[i]}px`);
 		})
 	}, [])
 

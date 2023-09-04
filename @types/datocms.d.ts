@@ -3877,6 +3877,44 @@ type SlugFilter = {
   notIn?: InputMaybe<Array<InputMaybe<Scalars['String']>>>;
 };
 
+type StartImageBlockModelLinkField = ExternalLinkRecord | InternalLinkRecord;
+
+/** Block of type Image block (start_image_block) */
+type StartImageBlockRecord = RecordInterface & {
+  __typename?: 'StartImageBlockRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  id: Scalars['ItemId'];
+  image?: Maybe<ImageFileField>;
+  link: StartImageBlockModelLinkField;
+  section?: Maybe<Scalars['String']>;
+  text?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+};
+
+
+/** Block of type Image block (start_image_block) */
+type StartImageBlockRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Block of type Image block (start_image_block) */
+type StartImageBlockRecordtextArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
 type StartImageModelLinkField = ExternalLinkRecord | InternalLinkRecord;
 
 /** Block of type Start image (start_image) */
@@ -3916,7 +3954,33 @@ type StartImageRecordtextArgs = {
   markdown?: InputMaybe<Scalars['Boolean']>;
 };
 
-type StartModelContentField = StartImageRecord | StartTextRecord;
+/** Block of type Start Images (double) (start_images_double) */
+type StartImagesDoubleRecord = RecordInterface & {
+  __typename?: 'StartImagesDoubleRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  id: Scalars['ItemId'];
+  images: Array<StartImageBlockRecord>;
+};
+
+
+/** Block of type Start Images (double) (start_images_double) */
+type StartImagesDoubleRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+type StartModelContentField = StartImageRecord | StartImagesDoubleRecord | StartTextRecord;
 
 /** Record of type Start (start) */
 type StartRecord = RecordInterface & {
@@ -4678,4 +4742,4 @@ type StartQueryVariables = Exact<{
 }>;
 
 
-type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, about?: string | null, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | null };
+type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, about?: string | null, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartImagesDoubleRecord', id: any, images: Array<{ __typename?: 'StartImageBlockRecord', title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | null };
