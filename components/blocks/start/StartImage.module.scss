@@ -5,6 +5,12 @@
   margin-bottom: var(--space);
   padding-top: var(--space);
 
+  &:hover {
+    span {
+      margin-left: 0em !important;
+    }
+  }
+
   .left,
   .right {
     display: flex;
@@ -45,6 +51,14 @@
     h1 {
       padding-bottom: 0.3em;
     }
+
+    div {
+      overflow: hidden;
+      span {
+        margin-left: -0.6em;
+        transition: all 0.5s;
+      }
+    }
   }
 
   &.big {
@@ -65,6 +79,7 @@
 
     .left {
       width: 50%;
+      padding-right: var(--gutter);
     }
   }
 

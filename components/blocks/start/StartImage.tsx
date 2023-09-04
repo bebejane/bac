@@ -19,7 +19,9 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 				<DatoLink link={link}>
 					<h1>{title}</h1>
 					<Markdown className="mid">{text}</Markdown>
-					<span><strong className="nav">› Read more</strong></span>
+					<div>
+						<strong className="nav"><span>›</span> Read more</strong>
+					</div>
 				</DatoLink>
 			</div>
 			<DatoLink link={link} className={s.right}>

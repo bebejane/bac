@@ -17,8 +17,11 @@ export default function StartImagesDouble({ data: { images } }: Props) {
 							{section}
 						</h2>
 						<DatoLink link={link}>
-							<h1>{title}</h1>
+							<h3>{title}</h3>
 							<Markdown className="mid">{text}</Markdown>
+							<div>
+								<strong className="nav"><span>›</span> Read more</strong>
+							</div>
 						</DatoLink>
 					</div>
 					<DatoLink link={link} className={s.right}>
