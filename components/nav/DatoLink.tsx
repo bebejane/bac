@@ -13,7 +13,6 @@ export default function DatoLink({ link, className, children }: Props) {
     return <a className={className}>{children}</a>
 
   const slug = link.__typename === 'ExternalLinkRecord' ? link.url : recordToSlug(link.record)
-  const transformHref = link.__typename === 'InternalLinkRecord' ? false : true
   const { title } = link
 
   return (

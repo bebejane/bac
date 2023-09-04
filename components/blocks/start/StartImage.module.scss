@@ -1,0 +1,35 @@
+.imageBlock {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 100%;
+
+  .left,
+  .right {
+    flex: 0 0 50%;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      flex: 1 1 auto;
+    }
+  }
+
+  &.big {}
+
+  &.medium {}
+
+  &.small {
+    flex: 0 0 50%;
+  }
+
+  figure {
+
+    .image,
+    .picture {
+      width: 100%;
+    }
+  }
+}
