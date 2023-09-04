@@ -44,45 +44,38 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: var(--space);
+  padding-left: 0;
 
   li {
     flex: 0 0 50%;
+    margin-bottom: var(--space);
 
     a {
-      width: 100%;
+      display: flex;
+
+      figure,
+      figcaption {
+        flex: 0 0 50%;
+        text-align: left;
+      }
 
       figure {
-        position: relative;
-        height: 100%;
+        filter: grayscale(100%);
+        mix-blend-mode: multiply;
+      }
 
-        figcaption {
-          position: absolute;
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          top: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          z-index: 2;
-          padding: var(--outer-margin);
+      figcaption {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
-          div {
-            flex: 1 1 100%;
-          }
-
-          h3,
-          h2 {
-            flex: 0 1;
-          }
+        h3 {
+          padding-bottom: 0.3em;
         }
 
-        .image {
-          width: 75%;
-        }
-
-        .picture {
-          height: 40vh;
+        p {
+          text-align: left;
         }
       }
     }

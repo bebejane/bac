@@ -36,6 +36,14 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 					{anniversaryPages.map(({ title, subtitle, image, slug }, idx) =>
 						<li key={idx}>
 							<Link href={`/bac-20-year-anniversary/${slug}`}>
+								<figcaption>
+									<h2>Nedslag i arkivet</h2>
+									<div>
+										<h3>{subtitle}</h3>
+										<p className="mid">{title}</p>
+									</div>
+								</figcaption>
+
 								<figure>
 									{image &&
 										<Image
@@ -44,11 +52,6 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 											pictureClassName={s.picture}
 										/>
 									}
-									<figcaption>
-										<div>Nedslag i arkivet</div>
-										<h3>{subtitle}</h3>
-										<h2>{title}</h2>
-									</figcaption>
 								</figure>
 							</Link>
 						</li>
