@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body style={{ background: page.section === 'archive' ? 'var(--archive)' : 'var(--background)' }}>
+        <body style={{ background: page?.section === 'archive' ? 'var(--archive)' : 'var(--background)' }}>
           <Main />
           <NextScript />
         </body>

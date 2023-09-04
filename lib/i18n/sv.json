@@ -15,5 +15,8 @@
 	},
 	"General": {
 		"backToOverview": "Tillbaka till översikten"
+	},
+	"Home": {
+		"about": "Om"
 	}
 }

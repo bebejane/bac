@@ -4,12 +4,14 @@ import { StartDocument } from "/graphql";
 import { Block } from "/components";
 import { pageSlugs } from "/lib/i18n";
 import { DatoMarkdown as MarkDown } from "dato-nextjs-utils/components";
+import { useTranslations } from "next-intl";
 
 export type Props = {
 	start: StartRecord
 }
 
 export default function Home({ start }: Props) {
+	const t = useTranslations('Home');
 
 	return (
 		<div className={s.container}>
@@ -17,6 +19,7 @@ export default function Home({ start }: Props) {
 				<Block key={idx} data={block} record={start} />
 			)}
 			<section className={s.about}>
+				<h2>{t('about')}</h2>
 				<MarkDown>{start.about}</MarkDown>
 			</section>
 		</div>
