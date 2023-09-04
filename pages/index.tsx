@@ -1,9 +1,9 @@
 import s from "./index.module.scss";
-import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { StartDocument } from "/graphql";
-import { Article, Block, Link } from "/components";
+import { Block } from "/components";
 import { pageSlugs } from "/lib/i18n";
+import { DatoMarkdown as MarkDown } from "dato-nextjs-utils/components";
 
 export type Props = {
 	start: StartRecord
@@ -16,6 +16,9 @@ export default function Home({ start }: Props) {
 			{start?.content?.map((block, idx) =>
 				<Block key={idx} data={block} record={start} />
 			)}
+			<section className={s.about}>
+				<MarkDown>{start.about}</MarkDown>
+			</section>
 		</div>
 	);
 }

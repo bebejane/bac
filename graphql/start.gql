@@ -2,18 +2,62 @@ query Start($locale: SiteLocale) {
 	start(locale: $locale) {
 		id
 		content {
-			... on StartSelectedEventRecord {
-				__typename
-				events {
-					...EventFragmentLight
+			... on StartImageRecord {
+				id
+				layout
+				image {
+					...ImageFragment
+				}
+				title
+				section
+				text(markdown: false)
+				link {
+					... on InternalLinkRecord {
+						__typename
+						title
+						record {
+							... on EventRecord {
+								...EventFragmentLight
+							}
+							... on ProjectRecord {
+								...ProjectFragmentLight
+							}
+						}
+					}
+					... on ExternalLinkRecord {
+						__typename
+						title
+						url
+					}
 				}
 			}
-			... on StartSelectedProjectRecord {
-				__typename
-				projects {
-					...ProjectFragmentLight
+			... on StartTextRecord {
+				id
+				title
+				layout
+				section
+				text(markdown: false)
+				link {
+					... on InternalLinkRecord {
+						__typename
+						title
+						record {
+							... on EventRecord {
+								...EventFragmentLight
+							}
+							... on ProjectRecord {
+								...ProjectFragmentLight
+							}
+						}
+					}
+					... on ExternalLinkRecord {
+						__typename
+						title
+						url
+					}
 				}
 			}
 		}
+		about(markdown: false)
 	}
 }
