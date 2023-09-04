@@ -9,6 +9,9 @@
     .imageWrap .border {
       border-width: 5px;
     }
+    figure {
+      z-index: 10000;
+    }
   }
 
   .typeTitle {

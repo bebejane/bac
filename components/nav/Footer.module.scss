@@ -8,18 +8,17 @@
   text-align: left;
   z-index: var(--z-footer);
   margin-top: var(--space);
-
-
+  display: flex;
+  justify-content: space-between;
 
   span {
     display: inline-block;
     padding-top: 2rem;
     padding-right: 0.5em;
+  }
 
-
-    &:first-of-type {
-      width: calc(var(--grid-unit) - var(--outer-margin));
-    }
+  div:first-of-type span:first-of-type {
+    width: calc(var(--grid-unit) - var(--outer-margin));
   }
 
   @include mq($until: tablet) {
