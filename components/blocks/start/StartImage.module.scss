@@ -68,20 +68,6 @@
     }
   }
 
-  &.small {
-    flex: 0 0 50%;
-    align-items: stretch;
-    padding-right: calc(var(--gutter) / 2);
-
-    .right {
-      width: 50%;
-    }
-
-    .left {
-      width: 50%;
-    }
-  }
-
   figure {
     .image,
     .picture {

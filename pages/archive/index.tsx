@@ -3,9 +3,10 @@ import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { Article, CardContainer, Card, Thumbnail } from "/components";
+import { Article, CardContainer, Card } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
-import Link from "next/link";
+import { randomInt } from "/lib/utils";
+import Link from '/components/nav/Link'
 import React from "react";
 
 export type Props = {
@@ -40,17 +41,22 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			{archivesByYear.map(({ archives, year }, i) => {
 				return (
 					<CardContainer>
-						<React.Fragment key={i}>
-							{archives.map(({ title, slug, _createdAt }, idx) =>
-								<Card key={idx}>
-									<Thumbnail
-										typeTitle={idx === 0 ? year.toString() : null}
-										title={title}
-										slug={`/archive/${slug}`}
-									/>
+						{archives.map(({ title, slug, _createdAt }, idx) =>
+							<React.Fragment key={idx}>
+								{idx === 0 &&
+									<Card>
+										<h2 className={s.year} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
+											{year.toString()}
+										</h2>
+									</Card>
+								}
+								<Card>
+									<Link href={`/archive/${slug}`} transformHref={false} className={s.thumbnail}>
+										<h3 className={s.title}>{title}</h3>
+									</Link>
 								</Card>
-							)}
-						</React.Fragment>
+							</React.Fragment>
+						)}
 					</CardContainer>
 				)
 			})}
