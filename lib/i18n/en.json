@@ -17,6 +17,9 @@
 		"backToOverview": "Back to overview"
 	},
 	"Home": {
-		"about": "About"
+		"about": "About",
+		"project": "Project",
+		"archive": "Archive",
+		"event": "Event"
 	}
 }

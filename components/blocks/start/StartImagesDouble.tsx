@@ -3,18 +3,23 @@ import React from 'react'
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import { DatoLink } from '/components'
 import { Image } from 'react-datocms/image'
+import { useTranslations } from 'next-intl'
 
 export type Props = { data: StartImagesDoubleRecord, onClick: Function }
 
 export default function StartImagesDouble({ data: { images } }: Props) {
 
+	const t = useTranslations('Home');
+
 	return (
 		<section className={s.images}>
 			{images.map(({ image, section, text, title, link }, idx) =>
-				<div className={s.block}>
+				<div className={s.block} key={idx}>
 					<div className={s.left}>
 						<h2 className={s.section}>
-							{section}
+							{//@ts-ignore 
+								t(section.toLowerCase())
+							}
 						</h2>
 						<DatoLink link={link}>
 							<h1>{title}</h1>
