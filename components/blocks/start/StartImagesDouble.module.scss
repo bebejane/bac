@@ -8,12 +8,15 @@
   .block {
     display: flex;
     flex-direction: row;
-    flex: 0 0 50%;
+
 
     .left,
     .right {
       display: flex;
+      width: 50%;
       flex: 0 0 50%;
+      align-items: stretch;
+      padding-right: calc(var(--gutter) / 2);
     }
 
     .right {
@@ -50,41 +53,6 @@
 
       h1 {
         padding-bottom: 0.3em;
-      }
-    }
-
-    &.big {
-      .right {
-        width: 75%;
-        padding-left: var(--gutter);
-      }
-
-      .left {
-        width: 25%;
-      }
-    }
-
-    &.medium {
-      .right {
-        width: 50%;
-      }
-
-      .left {
-        width: 50%;
-      }
-    }
-
-    &.small {
-      flex: 0 0 50%;
-      align-items: stretch;
-      padding-right: calc(var(--gutter) / 2);
-
-      .right {
-        width: 50%;
-      }
-
-      .left {
-        width: 50%;
       }
     }
 
