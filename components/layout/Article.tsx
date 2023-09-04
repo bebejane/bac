@@ -135,7 +135,7 @@ export default function Article({ id, children, title, subtitle, content, image,
             }
             {cv?.map(({ headline, text }, idx) =>
               <React.Fragment key={idx}>
-                <Markdown className={cn("mid", s.cv)}>{`**${headline}** ${text}`}</Markdown>
+                <Markdown className={cn("mid", s.cv)}>{`**${headline?.trim()}** ${text}`}</Markdown>
               </React.Fragment>
             )}
             {children}

@@ -7,6 +7,7 @@ import { sv, enGB as en } from 'date-fns/locale'
 import setDefaultOptions from 'date-fns/setDefaultOptions';
 import { useRouter } from 'next/router';
 import { locales } from '/lib/i18n'
+import { useEffect } from 'react';
 
 setDefaultOptions({ locale: en })
 function onMessageError() { }
@@ -23,6 +24,10 @@ function App({ Component, pageProps, router }) {
   const isHome = asPath === '/' || locales.find(l => asPath === `/${l}`) !== undefined
   const errorCode = parseInt(router.pathname.replace('/', ''))
   const isError = (!isNaN(errorCode) && (errorCode > 400 && errorCode < 600)) || router.pathname.replace('/', '') === '_error'
+
+  useEffect(() => {
+    document.body.style.background = page.section === 'archive' ? 'var(--archive)' : 'var(--background)'
+  }, [page])
 
   if (isError) return <Component {...pageProps} />
 
