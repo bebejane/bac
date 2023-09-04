@@ -13,12 +13,12 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 	return (
 		<div className={cn(s.imageBlock, s[layout])}>
 			<div className={s.left}>
-				<h3 className={s.section}>
+				<h2 className={s.section}>
 					{section}
-				</h3>
+				</h2>
 				<DatoLink link={link}>
 					<h1>{title}</h1>
-					<Markdown>{text}</Markdown>
+					<Markdown className="mid">{text}</Markdown>
 				</DatoLink>
 			</div>
 			<DatoLink link={link} className={s.right}>

@@ -2,31 +2,57 @@
   display: flex;
   flex-direction: row;
   flex: 0 0 100%;
+  margin-bottom: var(--space);
 
   .left,
   .right {
-    flex: 0 0 50%;
+    display: flex;
   }
 
   .left {
     display: flex;
     flex-direction: column;
 
-    h3 {
+    h2 {
       flex: 1 1 auto;
+      padding-bottom: 0.5em;
+    }
+
+    h1 {
+      padding-bottom: 0.5em;
     }
   }
 
-  &.big {}
+  &.big {
+    .right {
+      width: 75%;
+      padding-left: var(--gutter);
+    }
+    .left {
+      width: 25%;
+    }
+  }
 
-  &.medium {}
+  &.medium {
+    .right {
+      width: 50%;
+    }
+    .left {
+      width: 50%;
+    }
+  }
 
   &.small {
     flex: 0 0 50%;
+    .right {
+      width: 50%;
+    }
+    .left {
+      width: 50%;
+    }
   }
 
   figure {
-
     .image,
     .picture {
       width: 100%;
