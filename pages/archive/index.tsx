@@ -32,29 +32,32 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 	}, [] as ArchivesByYear).sort((a, b) => a.year < b.year ? 1 : -1);
 
 	return (
-		<Article
-			id={'archive'}
-			title={title}
-			intro={text}
-		>
-			<CardContainer>
-				{archivesByYear.map(({ archives, year }, i) => {
-					return (
-						<React.Fragment key={i}>
-							{archives.map(({ title, slug, _createdAt }, idx) =>
-								<Card key={idx}>
-									<Thumbnail
-										typeTitle={idx === 0 ? year.toString() : null}
-										title={title}
-										slug={`/archive/${slug}`}
-									/>
-								</Card>
-							)}
-						</React.Fragment>
-					)
-				})}
-			</CardContainer>
-		</Article>
+		<div className={s.container}>
+			<Article
+				id={'archive'}
+				title={title}
+				intro={text}
+				className={s.intro}
+			>
+				<CardContainer>
+					{archivesByYear.map(({ archives, year }, i) => {
+						return (
+							<React.Fragment key={i}>
+								{archives.map(({ title, slug, _createdAt }, idx) =>
+									<Card key={idx}>
+										<Thumbnail
+											typeTitle={idx === 0 ? year.toString() : null}
+											title={title}
+											slug={`/archive/${slug}`}
+										/>
+									</Card>
+								)}
+							</React.Fragment>
+						)
+					})}
+				</CardContainer>
+			</Article>
+		</div>
 
 	);
 }
