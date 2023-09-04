@@ -54,7 +54,9 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 						</li>
 					)}
 				</ul>
-				<StructuredContent id={id} record={anniversary} content={content} />
+				<section className={cn("mid", s.text)}>
+					<StructuredContent id={id} record={anniversary} content={content} />
+				</section>
 			</Article >
 		</>
 

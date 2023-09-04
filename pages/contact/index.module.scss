@@ -1,1 +1,6 @@
-.container {}
+.people {
+  columns: 2;
+  list-style: none;
+  line-height: var(--line-height);
+  padding-left: 0;
+}

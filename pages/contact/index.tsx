@@ -1,4 +1,4 @@
-import s from "./[event].module.scss";
+import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { ContactDocument } from "/graphql";
@@ -26,11 +26,12 @@ export default function Contact({ contact: { id, mailingAddress, email, instagra
 			<p>
 				{mailingAddress}
 			</p>
-			<ul>
+			<ul className={s.people}>
 				{people.map(({ firstName, lastName, role, email, phone }, idx) =>
 					<li key={idx}>
+						<strong>
+							{firstName} {lastName}</strong><br />
 						{role}<br />
-						{firstName} {lastName}<br />
 						{phone && <><a href={`tel://${phone}`}>{phone}</a><br /></>}
 						{email && <><a href={`mailto:${email}`}>{email}</a></>}
 					</li>

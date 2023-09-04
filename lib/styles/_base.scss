@@ -58,7 +58,7 @@ body {
 }
 
 .background-palette-animation {
-	animation: backgroundColorPalette 50s infinite;
+	animation: backgroundColorPalette 50s infinite alternate;
 
 	@keyframes backgroundColorPalette {
 		0% {

@@ -135,7 +135,7 @@ export default function Article({ id, children, title, subtitle, content, image,
             }
             {cv?.map(({ headline, text }, idx) =>
               <React.Fragment key={idx}>
-                <Markdown className={s.cv}>{`**${headline}** ${text}`}</Markdown>
+                <Markdown className={cn("mid", s.cv)}>{`**${headline}** ${text}`}</Markdown>
               </React.Fragment>
             )}
             {children}
@@ -161,7 +161,7 @@ export default function Article({ id, children, title, subtitle, content, image,
             <button>{t('General.backToOverview')}</button>
           </Link>
         }
-      </div>
+      </div >
     </>
   )
 }

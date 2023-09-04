@@ -100,14 +100,18 @@ nav,
 button,
 .mid input,
 .mid select {
-  font-family: $headline-font;
   font-size: 0.85rem;
+}
+
+button,
+nav {
   letter-spacing: -0.01em;
+  font-family: $headline-font;
 }
 
 strong,
 b {
-  font-weight: bold;
+  font-family: $headline-font;
 }
 
 // För Article

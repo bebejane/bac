@@ -7,6 +7,7 @@
   left: 0;
   width: 100%;
   margin-top: var(--outer-margin);
+  padding-right: var(--outer-margin);
   z-index: 0;
 
   img {
@@ -20,10 +21,19 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
-  height: calc(100vh - var(--navbar-height) - var(--outer-margin));
+  height: calc(100vh - var(--navbar-height));
+  border-bottom: var(--line);
 
   @include mq($until: tablet) {
     height: auto;
+  }
+
+  h1 {
+    padding-bottom: 1em;
+  }
+
+  p {
+    padding-bottom: 2rem;
   }
 }
 
@@ -33,6 +43,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: var(--space);
 
   li {
     flex: 0 0 50%;
@@ -74,7 +85,14 @@
           height: 40vh;
         }
       }
-
     }
+  }
+}
+.text {
+  margin-top: var(--space);
+  border-top: var(--line-thick);
+  padding-top: var(--space);
+  @include mq($from: tablet) {
+    columns: 2;
   }
 }
