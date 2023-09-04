@@ -49,12 +49,12 @@
 
   &.big {
     .right {
-      width: 75%;
+      width: 65%;
       padding-left: var(--gutter);
     }
 
     .left {
-      width: 25%;
+      width: 35%;
     }
   }
 
@@ -83,7 +83,6 @@
   }
 
   figure {
-
     .image,
     .picture {
       width: 100%;

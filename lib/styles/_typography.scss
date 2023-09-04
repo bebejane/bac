@@ -101,13 +101,15 @@ nav,
 button,
 .mid input,
 .mid select {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
 }
 
 button,
-nav {
+nav,
+.nav {
   letter-spacing: -0.01em;
   font-family: $headline-font;
+  font-size: 0.82rem;
 }
 
 strong,
