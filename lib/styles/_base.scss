@@ -3,7 +3,7 @@
 	--white: #fcfcfc;
 	--red: #bf0000;
 	--yellow: #ffdcb4;
-	--archive: #d9d9d9;
+	--archive: linear-gradient(Gainsboro, silver);
 	--outer-margin: 5vw;
 	--grid-unit: calc(((100vw - (2 * var(--outer-margin))) / 4));
 	--gutter: 4vw;
@@ -28,7 +28,8 @@
 	--underline-pos: 0.15em;
 	--text-shadow: 1px 1px 5px #00000021;
 
-	@include mq($from: tablet) {}
+	@include mq($from: tablet) {
+	}
 
 	@include mq($until: tablet) {
 		--logosize: 2rem;
@@ -156,9 +157,7 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out,
-	background-color 0.3s ease-in-out,
-	padding 0.5s;
+	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out, padding 0.5s;
 
 	&.back {
 		width: var(--body-width);
