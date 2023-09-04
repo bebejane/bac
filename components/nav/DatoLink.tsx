@@ -1,4 +1,4 @@
-import Link from './Link'
+import Link from 'next/link'
 import { recordToSlug } from '/lib/utils'
 
 export type Props = {
@@ -13,14 +13,14 @@ export default function DatoLink({ link, className, children }: Props) {
     return <a className={className}>{children}</a>
 
   const slug = link.__typename === 'ExternalLinkRecord' ? link.url : recordToSlug(link.record)
-  const transformHref = link.__typename === 'InternalLinkRecord' && link.record?.__typename === 'NewsRecord' ? false : true
+  const transformHref = link.__typename === 'InternalLinkRecord' ? false : true
   const { title } = link
 
   return (
     link.__typename === 'ExternalLinkRecord' ?
       <a href={slug}>{children ?? title}</a>
       :
-      <Link href={slug} transformHref={transformHref} className={className}>{children ?? title}</Link>
+      <Link href={slug} className={className}>{children ?? title}</Link>
   )
 
 }
