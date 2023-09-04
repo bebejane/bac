@@ -40,7 +40,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			{archivesByYear.map(({ archives, year }, i) => {
 				return (
 					<CardContainer>
-						<React.Fragment key={i}>
+						<React.Fragment key={year}>
 							{archives.map(({ title, slug, _createdAt }, idx) =>
 								<Card key={idx}>
 									<Thumbnail

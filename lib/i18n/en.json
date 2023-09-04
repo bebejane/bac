@@ -15,5 +15,8 @@
 	},
 	"General": {
 		"backToOverview": "Back to overview"
+	},
+	"Home": {
+		"about": "About"
 	}
 }
