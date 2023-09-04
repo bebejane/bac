@@ -24,11 +24,14 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 			<DatoLink link={link} className={s.right}>
 				<figure>
 					{image &&
-						<Image
-							data={image.responsiveImage}
-							className={s.image}
-							pictureClassName={s.picture}
-						/>
+						<>
+							<div className={s.cover}></div>
+							<Image
+								data={image.responsiveImage}
+								className={s.image}
+								pictureClassName={s.picture}
+							/>
+						</>
 					}
 				</figure>
 			</DatoLink >
