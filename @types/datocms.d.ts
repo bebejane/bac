@@ -3982,14 +3982,22 @@ type StartImagesDoubleRecord_seoMetaTagsArgs = {
 
 type StartModelContentField = StartImageRecord | StartImagesDoubleRecord | StartTextRecord;
 
+type StartModelContentFieldListListNonNullMultiLocaleField = {
+  __typename?: 'StartModelContentFieldListListNonNullMultiLocaleField';
+  locale?: Maybe<SiteLocale>;
+  value: Array<StartModelContentField>;
+};
+
 /** Record of type Start (start) */
 type StartRecord = RecordInterface & {
   __typename?: 'StartRecord';
+  _allContentLocales?: Maybe<Array<StartModelContentFieldListListNonNullMultiLocaleField>>;
   _createdAt: Scalars['DateTime'];
   /** Editing URL */
   _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
+  _locales: Array<SiteLocale>;
   _modelApiKey: Scalars['String'];
   _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
   _publishedAt?: Maybe<Scalars['DateTime']>;
@@ -3998,9 +4006,14 @@ type StartRecord = RecordInterface & {
   _status: ItemStatus;
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
-  about?: Maybe<Scalars['String']>;
   content: Array<StartModelContentField>;
   id: Scalars['ItemId'];
+};
+
+
+/** Record of type Start (start) */
+type StartRecord_allContentLocalesArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
 };
 
 
@@ -4011,8 +4024,9 @@ type StartRecord_seoMetaTagsArgs = {
 
 
 /** Record of type Start (start) */
-type StartRecordaboutArgs = {
-  markdown?: InputMaybe<Scalars['Boolean']>;
+type StartRecordcontentArgs = {
+  fallbackLocales?: InputMaybe<Array<SiteLocale>>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 /** Block of type Selected events (start_selected_event) */
@@ -4742,4 +4756,4 @@ type StartQueryVariables = Exact<{
 }>;
 
 
-type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, about?: string | null, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartImagesDoubleRecord', id: any, images: Array<{ __typename?: 'StartImageBlockRecord', title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | null };
+type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartImagesDoubleRecord', id: any, images: Array<{ __typename?: 'StartImageBlockRecord', title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | null };

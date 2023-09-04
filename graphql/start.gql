@@ -88,6 +88,5 @@ query Start($locale: SiteLocale) {
 				}
 			}
 		}
-		about(markdown: false)
 	}
 }

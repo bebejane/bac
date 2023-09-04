@@ -33,11 +33,6 @@ export default function Home({ start }: Props) {
 					<Block data={block} record={start} />
 				</React.Fragment>
 			)}
-			<hr />
-			<section className={s.about}>
-				<h2>{t('about')}</h2>
-				<MarkDown>{start.about}</MarkDown>
-			</section>
 		</div>
 	);
 }
