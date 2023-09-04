@@ -11,7 +11,7 @@ export type Props = { data: StartImageRecord, onClick: Function }
 export default function StartImage({ data: { id, image, layout, section, text, title, link } }: Props) {
 
 	return (
-		<div className={cn(s.imageBlock, s[layout])}>
+		<section className={cn(s.imageBlock, s[layout])}>
 			<div className={s.left}>
 				<h2 className={s.section}>
 					{section}
@@ -35,6 +35,6 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 					}
 				</figure>
 			</DatoLink >
-		</div >
+		</section >
 	)
 }

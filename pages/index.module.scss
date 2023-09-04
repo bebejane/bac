@@ -8,8 +8,14 @@
     padding-right: var(--outer-margin);
   }
 
+  hr {
+    flex: 0 0 100%;
+    height: 1px;
+    background-color: var(--black);
+    width: 100%;
+  }
+
   .about {
     padding-top: var(--space);
-    border-top: var(--line-thin);
   }
 }

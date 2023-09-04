@@ -9,11 +9,11 @@ export type Props = { data: StartTextRecord, onClick: Function }
 export default function StartText({ data: { id, text, layout, section, title, link } }: Props) {
 
 	return (
-		<div className={cn(s.section, s[layout])}>
+		<section className={cn(s.section, s[layout])}>
 			<DatoLink link={link}>
 				<h3>{title}</h3>
 				<Markdown>{text}</Markdown>
 			</DatoLink>
-		</div>
+		</section>
 	)
 }

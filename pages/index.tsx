@@ -5,6 +5,7 @@ import { Block } from "/components";
 import { pageSlugs } from "/lib/i18n";
 import { DatoMarkdown as MarkDown } from "dato-nextjs-utils/components";
 import { useTranslations } from "next-intl";
+import React, { useEffect, useRef } from "react";
 
 export type Props = {
 	start: StartRecord
@@ -12,12 +13,25 @@ export type Props = {
 
 export default function Home({ start }: Props) {
 	const t = useTranslations('Home');
+	const containerRef = useRef<HTMLDivElement>(null);
+
+	useEffect(() => {
+		const sections = containerRef.current?.querySelectorAll('hr');
+		sections?.forEach((section, idx) => {
+			const w = Math.floor(Math.random() * 4) + 1;
+			section.style.setProperty('height', `${w}px`);
+		})
+	}, [])
 
 	return (
-		<div className={s.container}>
+		<div className={s.container} ref={containerRef}>
 			{start?.content?.map((block, idx) =>
-				<Block key={idx} data={block} record={start} />
+				<React.Fragment key={idx}>
+					<hr />
+					<Block data={block} record={start} />
+				</React.Fragment>
 			)}
+			<hr />
 			<section className={s.about}>
 				<h2>{t('about')}</h2>
 				<MarkDown>{start.about}</MarkDown>
