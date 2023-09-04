@@ -45,16 +45,14 @@
         cursor: pointer;
 
         >ul {
-          display: flex;
+          display: none;
           list-style: none;
           flex-direction: column;
-          max-height: 0;
           overflow: hidden;
-          transition: all 0.2s ease-out;
+          transition: all 0s ease-out;
 
           &.show {
             display: flex;
-            max-height: 140px;
             margin-top: 0.5em;
             margin-bottom: 0.5em;
           }
