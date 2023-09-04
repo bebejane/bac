@@ -24,7 +24,7 @@ export default function Project({ project: { title, subtitle, content, image, ga
 	return (
 		<Article
 			id={project.id}
-			title={`${subtitle}, ${new Date(_createdAt).getFullYear()}`}
+			title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
 			subtitle={title}
 			image={image}
 			gallery={gallery}
