@@ -14,16 +14,17 @@ export default function Logo({ }: LayoutProps) {
 	const router = useRouter()
 	const { isHome } = usePage()
 	const [fonts, setFonts] = useState<string[]>([])
+	const [hover, setHover] = useState(false)
 
 	useEffect(() => {
 		setFonts([s.f1, s.f2, s.f3, s.f4].sort(() => Math.random() - 0.5 > 0 ? 1 : -1))
-	}, [router.asPath])
+	}, [router.asPath, hover])
 
 	return (
 		<>
 			<Link href="/">
 				<header className={s.logo}>
-					<h1 className="logo">
+					<h1 className="logo" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
 						{'BALTIC'.split('').map((c, i) =>
 							<span key={i} className={cn(isHome && s.home, fonts[0])}>
 								{c}

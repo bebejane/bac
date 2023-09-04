@@ -1,12 +1,11 @@
-import s from "./[event].module.scss";
+import s from "./[archive].module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
-import { Article, StructuredContent } from "/components";
+import { Article, CardContainer, Card, Thumbnail } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 import Link from "next/link";
-import { ar } from "date-fns/locale";
 import React from "react";
 
 export type Props = {
@@ -38,19 +37,25 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			title={title}
 			intro={text}
 		>
-			{archivesByYear.map(({ archives, year }, idx) =>
-				<React.Fragment key={idx}>
-					<h3>{year}</h3>
-					<ul key={idx}>
-						{archives.map(({ title, _createdAt, slug }, index) =>
-							<Link key={index} href={`/archive/${slug}`} locale="en">
-								<li>{title}</li>
-							</Link>
-						)}
-					</ul>
-				</React.Fragment>
-			)}
+			<CardContainer>
+				{archivesByYear.map(({ archives, year }, i) => {
+					return (
+						<React.Fragment key={i}>
+							{archives.map(({ title, slug, _createdAt }, idx) =>
+								<Card key={idx}>
+									<Thumbnail
+										typeTitle={idx === 0 ? year.toString() : null}
+										title={title}
+										slug={`/archive/${slug}`}
+									/>
+								</Card>
+							)}
+						</React.Fragment>
+					)
+				})}
+			</CardContainer>
 		</Article>
+
 	);
 }
 

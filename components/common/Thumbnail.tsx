@@ -3,7 +3,7 @@ import cn from 'classnames'
 import React, { useState } from 'react'
 import { Image } from 'react-datocms/image'
 import Link from '/components/nav/Link'
-import { truncateWords, randomInt } from '/lib/utils'
+import { randomInt } from '/lib/utils'
 
 export type Props = {
   image?: ImageFileField
@@ -21,10 +21,9 @@ export default function Thumbnail({ image, slug, title, subtitle, typeTitle, tra
   return (
     <Link href={slug} transformHref={transformHref} className={s.thumbnail}>
       {typeTitle &&
-        <h2
-          className={s.typeTitle}
-          style={{ fontFamily: `Logo${randomInt(1, 4)}` }}
-        >{typeTitle}</h2>
+        <h2 className={s.typeTitle} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
+          {typeTitle}
+        </h2>
       }
       {image &&
         <figure className={s.figure}>
