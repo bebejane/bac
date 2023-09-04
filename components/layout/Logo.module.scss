@@ -1,29 +1,38 @@
 .logo {
   position: fixed;
+  display: flex;
+  align-items: center;
   z-index: var(--z-logo);
   top: 0;
   left: -0.3em;
   margin-left: var(--outer-margin);
-  height: var(--topbar-height);
-  display: flex;
-  align-items: center;
-
+  height: calc(var(--topbar-height) + var(--line-top));
   padding-top: var(--line-top);
+
 
   h1 {
     margin-top: -0.1em;
   }
 
   h1 span {
+    display: inline-block;
+    overflow: hidden;
+    max-width: 0px;
+    transform: scaleX(0.0);
     transition: all 0.6s cubic-bezier(0.65, 0.05, 0.36, 1);
-    font-size: 0rem;
-    opacity: 0;
 
     &.home {
       @include mq($from: tablet) {
-        font-size: var(--logosize);
-        opacity: 1;
+        transform: scaleX(1);
+        max-width: 100px;
       }
+    }
+
+    &:nth-child(1),
+    &:nth-child(8),
+    &:nth-child(12) {
+      transform: scaleX(1);
+      max-width: 100px;
     }
 
     &.f1 {
@@ -40,13 +49,6 @@
 
     &.f4 {
       font-family: Logo4;
-    }
-
-    &:nth-child(1),
-    &:nth-child(8),
-    &:nth-child(12) {
-      font-size: var(--logosize) !important;
-      opacity: 1;
     }
   }
 }
