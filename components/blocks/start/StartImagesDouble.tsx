@@ -28,7 +28,7 @@ export default function StartImagesDouble({ data: { images } }: Props) {
 							<h3>{title}</h3>
 							<Markdown className="mid">{text}</Markdown>
 							<div>
-								<strong className="nav"><span>›</span> Read more</strong>
+								<strong className="nav"><span>›</span> {t('readMore')}</strong>
 							</div>
 						</DatoLink>
 					</div>

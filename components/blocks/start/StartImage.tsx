@@ -27,7 +27,7 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 					<h1>{title}</h1>
 					<Markdown className="mid">{text}</Markdown>
 					<div>
-						<strong className="nav"><span>›</span> Read more</strong>
+						<strong className="nav"><span>›</span> {t('readMore')}</strong>
 					</div>
 				</DatoLink>
 			</div>
