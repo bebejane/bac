@@ -85,6 +85,24 @@ export const recordToSlug = (record: any): string => {
   return url
 }
 
+export const sectionToSlug = (section: string): string => {
+  const s = section.toLowerCase();
+  switch (s) {
+    case 'about':
+      return '/about'
+    case 'project':
+      return '/projects'
+    case 'event':
+      return '/events'
+    case 'contact':
+      return '/contact'
+    case 'archive':
+      return '/archive'
+    default:
+      throw Error(`${section} is unknown section slug!`)
+  }
+}
+
 export const isEmail = (string: string): boolean => {
   if (!string) return false
   const matcher = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;

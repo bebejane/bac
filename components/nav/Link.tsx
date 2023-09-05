@@ -8,18 +8,18 @@ export type Props = {
   children: React.ReactNode | React.ReactNode[]
   className?: string
   prefetch?: boolean
-  transformHref?: boolean
+  translate?: boolean
   onClick?: (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void
 }
 
-export default function Link({ href, className, children, prefetch, transformHref = true, onClick }: Props) {
+export default function Link({ href, className, children, prefetch, translate = true, onClick }: Props) {
 
   const { locale, defaultLocale } = useRouter()
-  const translatedHref = transformHref ? translatePath(href, locale, defaultLocale) : href
+  const h = translate ? translatePath(href, locale, defaultLocale) : href
 
   return (
     <NextLink
-      href={translatedHref}
+      href={h}
       prefetch={prefetch}
       className={className}
       scroll={true}

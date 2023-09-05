@@ -51,7 +51,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 									</Card>
 								}
 								<Card>
-									<Link href={`/archive/${slug}`} transformHref={false} className={s.thumbnail}>
+									<Link href={`/archive/${slug}`} translate={false} className={s.thumbnail}>
 										<h3 className={s.title}>{title}</h3>
 									</Link>
 								</Card>
