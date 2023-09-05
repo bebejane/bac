@@ -6,14 +6,12 @@ import { DatoLink } from '/components'
 
 export type Props = { data: StartTextRecord, onClick: Function }
 
-export default function StartText({ data: { id, text, layout, section, title, link } }: Props) {
+export default function StartText({ data: { id, text, layout, section, title } }: Props) {
 
 	return (
 		<section className={cn(s.section, s[layout])}>
-			<DatoLink link={link}>
-				<h3>{title}</h3>
-				<Markdown>{text}</Markdown>
-			</DatoLink>
+			<h3>{title}</h3>
+			<Markdown>{text}</Markdown>
 		</section>
 	)
 }

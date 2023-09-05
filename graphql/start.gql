@@ -22,6 +22,9 @@ query Start($locale: SiteLocale) {
 							... on ProjectRecord {
 								...ProjectFragmentLight
 							}
+							... on ArchiveRecord {
+								...ArchiveFragmentLight
+							}
 						}
 					}
 					... on ExternalLinkRecord {
@@ -51,6 +54,9 @@ query Start($locale: SiteLocale) {
 								... on ProjectRecord {
 									...ProjectFragmentLight
 								}
+								... on ArchiveRecord {
+									...ArchiveFragmentLight
+								}
 							}
 						}
 						... on ExternalLinkRecord {
@@ -67,25 +73,6 @@ query Start($locale: SiteLocale) {
 				layout
 				section
 				text(markdown: false)
-				link {
-					... on InternalLinkRecord {
-						__typename
-						title
-						record {
-							... on EventRecord {
-								...EventFragmentLight
-							}
-							... on ProjectRecord {
-								...ProjectFragmentLight
-							}
-						}
-					}
-					... on ExternalLinkRecord {
-						__typename
-						title
-						url
-					}
-				}
 			}
 		}
 	}

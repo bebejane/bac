@@ -17,6 +17,10 @@
 		"backToOverview": "Tillbaka till översikten"
 	},
 	"Home": {
-		"about": "Om"
+		"about": "Om",
+		"project": "Projekt",
+		"archive": "Arkiv",
+		"event": "Evenemang",
+		"readMore": "Läs mer"
 	}
 }
