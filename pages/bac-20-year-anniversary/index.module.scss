@@ -50,8 +50,20 @@
     flex: 0 0 50%;
     margin-bottom: var(--space);
 
+    &:nth-child(even) {
+      padding-left: calc(var(--gutter) / 2);
+    }
+
+    &:nth-child(odd) {
+      padding-right: calc(var(--gutter) / 2);
+    }
+
     a {
       display: flex;
+
+      &:hover figure {
+        filter: grayscale(0%);
+      }
 
       figure,
       figcaption {
@@ -62,6 +74,7 @@
       figure {
         filter: grayscale(100%);
         mix-blend-mode: multiply;
+        transition: all 0.5s;
       }
 
       figcaption {
