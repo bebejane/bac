@@ -61,7 +61,7 @@ export default function Article({ id, children, title, subtitle, content, image,
   return (
     <>
       <DatoSEO title={title} />
-      <div className={cn(s.article, medium && s.medium, 'article')}>
+      <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
         {slides.length > 0 &&
           <div className={s.gallery}>
@@ -121,7 +121,7 @@ export default function Article({ id, children, title, subtitle, content, image,
             }
           </div>
         }
-        <div className={s.wrapper}>
+        <div className={cn(s.wrapper, medium && s.medium)}>
           <section className={s.content}>
             {subtitle && <h3>{subtitle}</h3>}
             <Markdown className={cn(s.intro)}>{intro}</Markdown>
@@ -132,7 +132,6 @@ export default function Article({ id, children, title, subtitle, content, image,
                   record={record}
                   content={content}
                   noImages={noImages}
-                  className="mid"
                 />
               </section>
             }

@@ -13,7 +13,7 @@ export type Props = {
 	anniversaryPages: AnniversaryPageRecord[]
 }
 
-export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, image, gallery, video, videoCaption, content, color }, anniversaryPage, anniversaryPages }: Props) {
+export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, image, gallery, video, videoCaption, content, cv, metaInfo, color }, anniversaryPage, anniversaryPages }: Props) {
 
 	useEffect(() => {
 		if (!color?.hex) return
@@ -33,9 +33,11 @@ export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle
 				video={video}
 				gallery={gallery}
 				content={content}
+				metaInfo={metaInfo}
+				cv={cv}
 			>
-				<AnniversaryPagination pages={anniversaryPages} />
 			</Article>
+			<AnniversaryPagination pages={anniversaryPages} />
 		</>
 	);
 }

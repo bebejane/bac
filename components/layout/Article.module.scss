@@ -8,12 +8,6 @@
     margin-right: 0;
   }
 
-  @include mq($from: tablet) {
-    &.medium {
-      max-width: 65%;
-    }
-  }
-
   header {
     display: flex;
     align-items: center;
@@ -34,7 +28,7 @@
     border-left: var(--line-thick);
     border-right: var(--line-thin);
 
-    .swiper > div {
+    .swiper>div {
       align-items: center;
     }
 
@@ -64,21 +58,18 @@
           object-fit: contain;
         }
 
-        &.small {
-        }
+        &.small {}
 
-        &.medium {
-        }
+        &.medium {}
 
-        &.large {
-        }
+        &.large {}
 
-        &.portrait {
-        }
+        &.portrait {}
       }
     }
 
     &:hover {
+
       .next,
       .prev {
         display: flex !important;
@@ -166,6 +157,12 @@
       flex-direction: column;
     }
 
+    @include mq($from: tablet) {
+      &.medium {
+        max-width: 65%;
+      }
+    }
+
     section {
       flex: 1 1 auto;
     }
@@ -179,11 +176,11 @@
       }
     }
 
-    .intro > p {
+    .intro>p {
       padding: 0;
     }
 
-    .cv > p > strong {
+    .cv>p>strong {
       font-weight: bold !important;
     }
   }
