@@ -7,7 +7,6 @@ import { pageSlugs } from "/lib/i18n";
 import { randomLogoFonts } from "/lib/utils";
 import { Thumbnail, CardContainer, Card, Article } from "/components";
 
-
 export type Props = {
 	events: EventRecord[]
 	randomFonts: string[]
@@ -30,12 +29,6 @@ export default function Events({ events, randomFonts }: Props) {
 
 		return acc;
 	}, [] as EventsByYear).sort((a, b) => a.year > b.year ? -1 : 1);
-
-	const [logoFonts, setLogoFonts] = React.useState<string[]>([])
-
-	useEffect(() => {
-		setLogoFonts(randomLogoFonts(eventsByYear.reduce((acc, { events }) => acc + events.length, 0)))
-	}, [])
 
 	return (
 
