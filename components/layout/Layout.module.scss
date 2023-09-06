@@ -10,7 +10,7 @@
   background-color: var(--black);
   height: var(--line-top);
   position: fixed;
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .bottomline {
@@ -18,6 +18,6 @@
   background-color: var(--black);
   border-top: var(--line);
   position: fixed;
-  z-index: 1000;
+  z-index: 10000;
   bottom: 0;
 }

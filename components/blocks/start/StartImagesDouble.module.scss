@@ -15,6 +15,9 @@
       span {
         margin-left: 0em !important;
       }
+      .cover {
+        opacity: 0 !important;
+      }
     }
 
     .left,
@@ -40,6 +43,7 @@
         top: 0px;
         height: 100%;
         mix-blend-mode: screen;
+        transition: all 0.5s;
       }
     }
 
@@ -61,6 +65,7 @@
 
       h3 {
         padding-bottom: 0.3em;
+        line-height: 1.4;
       }
 
       div {
@@ -74,7 +79,6 @@
     }
 
     figure {
-
       .image,
       .picture {
         width: 100%;

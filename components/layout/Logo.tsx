@@ -23,7 +23,7 @@ export default function Logo({ }: LayoutProps) {
 	return (
 		<>
 			<Link href="/">
-				<header className={s.logo}>
+				<header className={cn(isHome && s.home, s.logo)}>
 					<h1 className="logo" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
 						{'BALTIC'.split('').map((c, i) =>
 							<span key={i} className={cn(isHome && s.home, fonts[0])}>
@@ -44,7 +44,7 @@ export default function Logo({ }: LayoutProps) {
 						)}
 					</h1>
 				</header>
-			</Link>
+			</Link >
 		</>
 	)
 }

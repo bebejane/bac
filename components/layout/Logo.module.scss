@@ -9,6 +9,11 @@
   height: calc(var(--topbar-height) + var(--line-top));
   padding-top: var(--line-top);
 
+  &.home {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
+    width: 100%;
+  }
+
   h1 {
     margin-top: -0.1em;
     line-height: 1;

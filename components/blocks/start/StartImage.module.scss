@@ -9,6 +9,9 @@
     span {
       margin-left: 0em !important;
     }
+    .cover {
+      opacity: 0 !important;
+    }
   }
 
   .left,
@@ -32,6 +35,7 @@
       top: 0px;
       height: 100%;
       mix-blend-mode: screen;
+      transition: all 0.5s;
     }
   }
 
