@@ -3997,7 +3997,6 @@ type StartRecord = RecordInterface & {
   _editingUrl?: Maybe<Scalars['String']>;
   _firstPublishedAt?: Maybe<Scalars['DateTime']>;
   _isValid: Scalars['BooleanType'];
-  _locales: Array<SiteLocale>;
   _modelApiKey: Scalars['String'];
   _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
   _publishedAt?: Maybe<Scalars['DateTime']>;
