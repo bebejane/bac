@@ -55,6 +55,8 @@ export const recordToSlug = (record: any): string => {
   else {
     const { __typename, slug } = record
 
+    if (!slug) return undefined
+
     switch (__typename) {
       case 'StartRecord':
         url = `/`
