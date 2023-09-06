@@ -5,13 +5,14 @@ import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { Article, CardContainer, Card } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
-import { randomInt } from "/lib/utils";
+import { randomInt, randomLogoFonts } from "/lib/utils";
 import Link from '/components/nav/Link'
 import React from "react";
 
 export type Props = {
 	archiveIntro: ArchiveIntroRecord
 	archives: ArchiveRecord[]
+	randomFonts: string[]
 }
 
 export type ArchivesByYear = {
@@ -19,7 +20,7 @@ export type ArchivesByYear = {
 	archives: ArchiveRecord[]
 }[]
 
-export default function Archive({ archives, archiveIntro: { title, text }, archiveIntro }: Props) {
+export default function Archive({ archives, archiveIntro: { title, text }, randomFonts }: Props) {
 
 	const archivesByYear = archives.reduce((acc, archive) => {
 		const year = new Date(archive._createdAt).getFullYear();
@@ -46,7 +47,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 								<React.Fragment key={idx}>
 									{idx === 0 &&
 										<Card>
-											<h2 className={s.year} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
+											<h2 className={s.year} style={{ fontFamily: randomFonts[i] }}>
 												{year.toString()}
 											</h2>
 										</Card>
@@ -74,6 +75,7 @@ export const getStaticProps = withGlobalProps({ queries: [ArchiveIntroDocument] 
 		props: {
 			...props,
 			archives,
+			randomFonts: randomLogoFonts(archives.length),
 			page: {
 				section: 'archive',
 				slugs: pageSlugs('archive'),

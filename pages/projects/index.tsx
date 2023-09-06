@@ -7,7 +7,6 @@ import { Thumbnail, CardContainer, Card, Article, FilterBar } from "/components"
 import { useTranslations } from "next-intl";
 import { sortSwedish } from 'dato-nextjs-utils/utils';
 import { randomLogoFonts } from "/lib/utils";
-import useRandomFont from "/lib/hooks/useRandomFont";
 
 export type Props = {
 	projects: ProjectRecord[]
