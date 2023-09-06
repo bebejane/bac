@@ -17,6 +17,21 @@ export type ProjectsByType = {
 	typeTitle: string
 }[]
 
+const randomLogoFonts = (count: number) => {
+	const fonts = ['Logo1', 'Logo2', 'Logo3', 'Logo4']
+	const items = []
+
+	for (let i = 0; i < count; i++) {
+		const f = fonts[Math.floor(Math.random() * fonts.length)]
+		if (items.slice(-1)[0] === f) {
+			i--
+			continue
+		}
+		else
+			items.push(f)
+	}
+	return items
+}
 
 export default function Projects({ projects }: Props) {
 
@@ -46,6 +61,7 @@ export default function Projects({ projects }: Props) {
 	}, [] as ProjectsByType), 'typeTitle') as ProjectsByType
 
 	const projectsByType = filter === 'year' ? projectsByYear : projectsByArtistName;
+	const logoFonts = randomLogoFonts(projectsByType.reduce((acc, { projects }) => acc + projects.length, 0))
 
 	return (
 		<Article
@@ -64,6 +80,7 @@ export default function Projects({ projects }: Props) {
 								<Card key={idx}>
 									<Thumbnail
 										typeTitle={idx === 0 ? typeTitle : null}
+										typeFont={logoFonts.splice(0, 1)[0]}
 										title={title}
 										subtitle={subtitle}
 										image={image}
