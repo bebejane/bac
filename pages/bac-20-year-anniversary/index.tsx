@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { DatoMarkdown as Markdown, DatoSEO } from "dato-nextjs-utils/components";
 import { Article, Link, StructuredContent } from "/components";
 import { Image } from "react-datocms";
@@ -72,10 +72,7 @@ export const getStaticProps = withGlobalProps({ queries: [AnniversaryDocument, A
 	return {
 		props: {
 			...props,
-			page: {
-				section: 'anniversary',
-				slugs: pageSlugs('anniversary'),
-			} as PageProps
+			page: pageProps('anniversary')
 		},
 		revalidate
 	}

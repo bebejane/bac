@@ -3,7 +3,7 @@ import React from "react";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllEventsDocument } from "/graphql";
 import { useEffect } from "react";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { randomLogoFonts } from "/lib/utils";
 import { Thumbnail, CardContainer, Card, Article } from "/components";
 
@@ -69,10 +69,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllEventsDocument] }, 
 			...props,
 			events: props.events.filter((p: EventRecord) => p.slug),
 			randomFonts: randomLogoFonts(props.events.length),
-			page: {
-				section: 'event',
-				slugs: pageSlugs('event'),
-			} as PageProps
+			page: pageProps('event')
 		},
 		revalidate
 	}

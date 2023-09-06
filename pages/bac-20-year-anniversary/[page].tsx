@@ -2,7 +2,7 @@ import s from "./[page].module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryPageDocument, AllAnniversaryPagesDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
 import { Article, Link } from "/components";
 import { useRouter } from "next/router";
@@ -90,10 +90,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllAnniversaryPagesDoc
 		props: {
 			...props,
 			anniversaryPage,
-			page: {
-				section: 'anniversary',
-				slugs: pageSlugs('anniversary', anniversaryPage._allSlugLocales),
-			} as PageProps
+			page: pageProps('anniversary', anniversaryPage._allSlugLocales)
 		},
 		revalidate
 	}

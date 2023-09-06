@@ -2,7 +2,7 @@ import s from "./[about].module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AboutDocument, AllAboutsDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
 import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
@@ -47,10 +47,7 @@ export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, r
 		props: {
 			...props,
 			about,
-			page: {
-				section: 'about',
-				slugs: pageSlugs('about', about._allSlugLocales),
-			} as PageProps
+			page: pageProps('about', about._allSlugLocales)
 		},
 		revalidate
 	}

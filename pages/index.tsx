@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import withGlobalProps from "/lib/withGlobalProps";
 import { StartDocument } from "/graphql";
 import { Block } from "/components";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { DatoMarkdown as MarkDown } from "dato-nextjs-utils/components";
 import { useTranslations } from "next-intl";
 import React, { useEffect, useRef } from "react";
@@ -42,10 +42,7 @@ export const getStaticProps = withGlobalProps({ queries: [StartDocument] }, asyn
 	return {
 		props: {
 			...props,
-			page: {
-				section: 'home',
-				slugs: pageSlugs('home'),
-			} as PageProps
+			page: pageProps('home')
 		},
 		revalidate
 	}
