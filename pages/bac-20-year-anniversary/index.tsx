@@ -33,13 +33,13 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 					<Markdown className={s.intro}>{intro}</Markdown>
 				</div>
 				<ul className={s.pages}>
-					{anniversaryPages.map(({ title, subtitle, image, slug }, idx) =>
+					{anniversaryPages.map(({ title, image, slug }, idx) =>
 						<li key={idx}>
 							<Link href={`/bac-20-year-anniversary/${slug}`}>
 								<figcaption>
 									<h2>Nedslag i arkivet</h2>
 									<div>
-										<h3>{subtitle}</h3>
+										<h3>{title}</h3>
 										<p className="mid">{title}</p>
 									</div>
 								</figcaption>

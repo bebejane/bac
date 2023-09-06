@@ -12,8 +12,6 @@ export type FooterProps = {
 
 export default function Footer({ contact: { email, instagram, mailingAddress } }: FooterProps) {
 
-	const { isHome } = usePage()
-
 	return (
 		<footer className={cn(s.footer)} id="footer">
 			<div>
