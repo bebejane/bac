@@ -11,15 +11,15 @@ export type Props = {
   title: string
   subtitle?: string
   typeTitle?: string
-  transformHref?: boolean
+  translate?: boolean
 }
 
-export default function Thumbnail({ image, slug, title, subtitle, typeTitle, transformHref = true }: Props) {
+export default function Thumbnail({ image, slug, title, subtitle, typeTitle, translate = true }: Props) {
 
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <Link href={slug} transformHref={transformHref} className={s.thumbnail}>
+    <Link href={slug} translate={translate} className={s.thumbnail}>
       {typeTitle &&
         <h2 className={s.typeTitle} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
           {typeTitle}

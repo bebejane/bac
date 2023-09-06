@@ -2,9 +2,10 @@ import s from './StartImage.module.scss'
 import cn from 'classnames'
 import React from 'react'
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
-import { DatoLink } from '/components'
+import { DatoLink, Link } from '/components'
 import { Image } from 'react-datocms/image'
 import { useTranslations } from 'next-intl'
+import { sectionToSlug } from '/lib/utils'
 
 export type Props = { data: StartImageRecord, onClick: Function }
 
@@ -15,16 +16,18 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 	return (
 		<section className={cn(s.imageBlock, s[layout])}>
 			<div className={s.left}>
-				<h2 className={s.section}>
-					{//@ts-ignore 
-						t(section.toLowerCase())
-					}
-				</h2>
+				<Link href={sectionToSlug(section)} translate={true}>
+					<h2 className={s.section}>
+						{//@ts-ignore 
+							t(section.toLowerCase())
+						}
+					</h2>
+				</Link>
 				<DatoLink link={link}>
 					<h1>{title}</h1>
 					<Markdown>{text}</Markdown>
 					<div>
-						<strong className="nav"><span>›</span> Read more</strong>
+						<strong className="nav"><span>›</span> {t('readMore')}</strong>
 					</div>
 				</DatoLink>
 			</div>

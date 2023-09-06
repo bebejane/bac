@@ -56,12 +56,18 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 											<h3 className={s.title}>{title}</h3>
 										</Link>
 									</Card>
+								}
+									<Card>
+										<Link href={`/archive/${slug}`} translate={false} className={s.thumbnail}>
+											<h3 className={s.title}>{title}</h3>
+										</Link>
+									</Card>
 								</React.Fragment>
 							)}
 						</CardContainer>
 					)
 				})}
-			</div>
+
 		</Article>
 
 	);
