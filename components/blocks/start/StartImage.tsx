@@ -22,7 +22,7 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 				</h2>
 				<DatoLink link={link}>
 					<h1>{title}</h1>
-					<Markdown className="mid">{text}</Markdown>
+					<Markdown>{text}</Markdown>
 					<div>
 						<strong className="nav"><span>›</span> Read more</strong>
 					</div>

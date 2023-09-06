@@ -1,6 +1,19 @@
-.year {
-  font-size: var(--logosize);
-  font-weight: normal;
-}
+.list {
+  margin-top: var(--space);
+  border-top: var(--line-thin);
+  padding-top: var(--space);
 
-.title {}
+  ul {
+    padding-top: 1rem;
+  }
+
+  li {
+    padding-bottom: 2em;
+    .year {
+      font-size: var(--logosize);
+      font-weight: normal;
+      padding-top: 0.25em;
+      margin-left: -0.3em;
+    }
+  }
+}

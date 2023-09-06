@@ -4,7 +4,7 @@ body {
   font-weight: normal;
 
   @include mq($from: tablet) {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   @include mq($from: wide) {
@@ -87,7 +87,7 @@ footer nav,
 .caption label,
 aside p {
   font-family: $headline-font;
-  font-size: 0.8rem !important;
+  font-size: 0.82rem !important;
   text-align: center;
 }
 
@@ -100,8 +100,14 @@ nav,
 .mid,
 button,
 .mid input,
-.mid select {
+.mid select,
+.structured p {
   font-size: 0.88rem;
+}
+
+.mid strong {
+  text-transform: uppercase;
+  font-size: 0.75rem;
 }
 
 button,
@@ -130,6 +136,10 @@ article {
     & li:last-child p {
       margin-bottom: 1em;
     }
+  }
+
+  p strong {
+    font-size: 0.95em;
   }
 
   p,

@@ -38,29 +38,30 @@ export default function Archive({ archives, archiveIntro: { title, text }, archi
 			title={title}
 			intro={text}
 		>
-			{archivesByYear.map(({ archives, year }, i) => {
-				return (
-					<CardContainer key={i}>
-						{archives.map(({ title, slug, _createdAt }, idx) =>
-							<React.Fragment key={idx}>
-								{idx === 0 &&
+			<div className={s.list}>
+				{archivesByYear.map(({ archives, year }, i) => {
+					return (
+						<CardContainer key={i}>
+							{archives.map(({ title, slug, _createdAt }, idx) =>
+								<React.Fragment key={idx}>
+									{idx === 0 &&
+										<Card>
+											<h2 className={s.year} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
+												{year.toString()}
+											</h2>
+										</Card>
+									}
 									<Card>
-										<h2 className={s.year} style={{ fontFamily: `Logo${randomInt(1, 4)}` }}>
-											{year.toString()}
-										</h2>
+										<Link href={`/archive/${slug}`} transformHref={false} className={s.thumbnail}>
+											<h3 className={s.title}>{title}</h3>
+										</Link>
 									</Card>
-								}
-								<Card>
-									<Link href={`/archive/${slug}`} transformHref={false} className={s.thumbnail}>
-										<h3 className={s.title}>{title}</h3>
-									</Link>
-								</Card>
-							</React.Fragment>
-						)}
-					</CardContainer>
-				)
-			})}
-
+								</React.Fragment>
+							)}
+						</CardContainer>
+					)
+				})}
+			</div>
 		</Article>
 
 	);

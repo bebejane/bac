@@ -124,14 +124,17 @@ export default function Article({ id, children, title, subtitle, content, image,
         <div className={s.wrapper}>
           <section className={s.content}>
             {subtitle && <h3>{subtitle}</h3>}
-            <Markdown className={s.intro}>{intro}</Markdown>
+            <Markdown className={cn(s.intro)}>{intro}</Markdown>
             {content &&
-              <StructuredContent
-                id={id}
-                record={record}
-                content={content}
-                noImages={noImages}
-              />
+              <section className="structured">
+                <StructuredContent
+                  id={id}
+                  record={record}
+                  content={content}
+                  noImages={noImages}
+                  className="mid"
+                />
+              </section>
             }
             {cv?.map(({ headline, text }, idx) =>
               <React.Fragment key={idx}>
