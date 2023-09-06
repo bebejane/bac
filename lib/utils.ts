@@ -72,9 +72,6 @@ export const recordToSlug = (record: any): string => {
         url = `/contact`
         break;
       case 'ArchiveRecord':
-        url = `/archive`
-        break;
-      case 'ArchivePageRecord':
         url = `/archive/${slug}`
         break;
       default:
