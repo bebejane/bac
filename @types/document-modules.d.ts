@@ -140,6 +140,15 @@ declare module '*/ImageThumbnailFragment.gql' {
 }
     
 
+declare module '*/InternalVideoFragment.gql' {
+  import { DocumentNode } from 'graphql';
+  const defaultDocument: DocumentNode;
+  export const InternalVideoFragment: DocumentNode;
+
+  export default defaultDocument;
+}
+    
+
 declare module '*/PersonFragment.gql' {
   import { DocumentNode } from 'graphql';
   const defaultDocument: DocumentNode;

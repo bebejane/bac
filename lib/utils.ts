@@ -262,3 +262,19 @@ export const truncateWords = (text: string, minLength: number): string => {
   }
   return truncatedText + '...';
 }
+
+export const randomLogoFonts = (count: number): string[] => {
+  const fonts = ['Logo1', 'Logo2', 'Logo3', 'Logo4']
+  const items = []
+
+  for (let i = 0; i < count; i++) {
+    const f = fonts[Math.floor(Math.random() * fonts.length)]
+    if (items.slice(-1)[0] === f) {
+      i--;
+      continue;
+    }
+    else
+      items.push(f)
+  }
+  return items
+}

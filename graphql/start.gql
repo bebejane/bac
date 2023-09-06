@@ -74,6 +74,37 @@ query Start($locale: SiteLocale) {
 				section
 				text(markdown: false)
 			}
+			... on StartVideoRecord {
+				id
+				title
+				section
+				text(markdown: false)
+				video {
+					...InternalVideoFragment
+				}
+				link {
+					... on InternalLinkRecord {
+						__typename
+						title
+						record {
+							... on EventRecord {
+								...EventFragmentLight
+							}
+							... on ProjectRecord {
+								...ProjectFragmentLight
+							}
+							... on ArchiveRecord {
+								...ArchiveFragmentLight
+							}
+						}
+					}
+					... on ExternalLinkRecord {
+						__typename
+						title
+						url
+					}
+				}
+			}
 		}
 	}
 }

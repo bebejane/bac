@@ -1,15 +1,17 @@
 import s from "./[project].module.scss";
+import React, { useEffect } from "react";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
 import { pageSlugs } from "/lib/i18n";
 import { Thumbnail, CardContainer, Card, Article, FilterBar } from "/components";
 import { useTranslations } from "next-intl";
 import { sortSwedish } from 'dato-nextjs-utils/utils';
-
-import React from "react";
+import { randomLogoFonts } from "/lib/utils";
+import useRandomFont from "/lib/hooks/useRandomFont";
 
 export type Props = {
 	projects: ProjectRecord[]
+	randomFonts: string[]
 }
 
 export type ProjectsByType = {
@@ -17,23 +19,7 @@ export type ProjectsByType = {
 	typeTitle: string
 }[]
 
-const randomLogoFonts = (count: number) => {
-	const fonts = ['Logo1', 'Logo2', 'Logo3', 'Logo4']
-	const items = []
-
-	for (let i = 0; i < count; i++) {
-		const f = fonts[Math.floor(Math.random() * fonts.length)]
-		if (items.slice(-1)[0] === f) {
-			i--
-			continue
-		}
-		else
-			items.push(f)
-	}
-	return items
-}
-
-export default function Projects({ projects }: Props) {
+export default function Projects({ projects, randomFonts }: Props) {
 
 	const t = useTranslations()
 
@@ -61,7 +47,6 @@ export default function Projects({ projects }: Props) {
 	}, [] as ProjectsByType), 'typeTitle') as ProjectsByType
 
 	const projectsByType = filter === 'year' ? projectsByYear : projectsByArtistName;
-	const logoFonts = randomLogoFonts(projectsByType.reduce((acc, { projects }) => acc + projects.length, 0))
 
 	return (
 		<Article
@@ -80,7 +65,7 @@ export default function Projects({ projects }: Props) {
 								<Card key={idx}>
 									<Thumbnail
 										typeTitle={idx === 0 ? typeTitle : null}
-										typeFont={logoFonts.splice(0, 1)[0]}
+										typeFont={idx === 0 ? randomFonts[i] : null}
 										title={title}
 										subtitle={subtitle}
 										image={image}
@@ -103,6 +88,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllProjectsDocument] }
 		props: {
 			...props,
 			projects: props.projects.filter((p: ProjectRecord) => p.slug),
+			randomFonts: randomLogoFonts(props.projects.length),
 			page: {
 				section: 'project',
 				slugs: pageSlugs('project'),

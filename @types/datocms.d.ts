@@ -199,7 +199,6 @@ type AnniversaryPageModelFilter = {
   video?: InputMaybe<VideoFilter>;
   videoCaption?: InputMaybe<StringFilter>;
   videoPoster?: InputMaybe<FileFilter>;
-  wpid?: InputMaybe<IntegerFilter>;
 };
 
 enum AnniversaryPageModelOrderBy {
@@ -230,9 +229,7 @@ enum AnniversaryPageModelOrderBy {
   title_ASC = 'title_ASC',
   title_DESC = 'title_DESC',
   videoCaption_ASC = 'videoCaption_ASC',
-  videoCaption_DESC = 'videoCaption_DESC',
-  wpid_ASC = 'wpid_ASC',
-  wpid_DESC = 'wpid_DESC'
+  videoCaption_DESC = 'videoCaption_DESC'
 }
 
 /** Record of type Anniversary page (anniversary_page) */
@@ -276,7 +273,6 @@ type AnniversaryPageRecord = RecordInterface & {
   video?: Maybe<VideoField>;
   videoCaption?: Maybe<Scalars['String']>;
   videoPoster?: Maybe<ImageFileField>;
-  wpid?: Maybe<Scalars['IntType']>;
 };
 
 
@@ -3181,7 +3177,6 @@ type ProjectModelFilter = {
   title?: InputMaybe<StringFilter>;
   video?: InputMaybe<VideoFilter>;
   videoCaption?: InputMaybe<StringFilter>;
-  wpid?: InputMaybe<IntegerFilter>;
 };
 
 enum ProjectModelOrderBy {
@@ -3210,9 +3205,7 @@ enum ProjectModelOrderBy {
   title_ASC = 'title_ASC',
   title_DESC = 'title_DESC',
   videoCaption_ASC = 'videoCaption_ASC',
-  videoCaption_DESC = 'videoCaption_DESC',
-  wpid_ASC = 'wpid_ASC',
-  wpid_DESC = 'wpid_DESC'
+  videoCaption_DESC = 'videoCaption_DESC'
 }
 
 /** Record of type Project (project) */
@@ -3253,7 +3246,6 @@ type ProjectRecord = RecordInterface & {
   title?: Maybe<Scalars['String']>;
   video?: Maybe<VideoField>;
   videoCaption?: Maybe<Scalars['String']>;
-  wpid?: Maybe<Scalars['IntType']>;
 };
 
 
@@ -3980,7 +3972,7 @@ type StartImagesDoubleRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
-type StartModelContentField = StartImageRecord | StartImagesDoubleRecord | StartTextRecord;
+type StartModelContentField = StartImageRecord | StartImagesDoubleRecord | StartTextRecord | StartVideoRecord;
 
 type StartModelContentFieldListListNonNullMultiLocaleField = {
   __typename?: 'StartModelContentFieldListListNonNullMultiLocaleField';
@@ -4112,6 +4104,44 @@ type StartTextRecord_seoMetaTagsArgs = {
 
 /** Block of type Start text (start_text) */
 type StartTextRecordtextArgs = {
+  markdown?: InputMaybe<Scalars['Boolean']>;
+};
+
+type StartVideoModelLinkField = ExternalLinkRecord | InternalLinkRecord;
+
+/** Block of type Start video (start_video) */
+type StartVideoRecord = RecordInterface & {
+  __typename?: 'StartVideoRecord';
+  _createdAt: Scalars['DateTime'];
+  /** Editing URL */
+  _editingUrl?: Maybe<Scalars['String']>;
+  _firstPublishedAt?: Maybe<Scalars['DateTime']>;
+  _isValid: Scalars['BooleanType'];
+  _modelApiKey: Scalars['String'];
+  _publicationScheduledAt?: Maybe<Scalars['DateTime']>;
+  _publishedAt?: Maybe<Scalars['DateTime']>;
+  /** SEO meta tags */
+  _seoMetaTags: Array<Tag>;
+  _status: ItemStatus;
+  _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
+  _updatedAt: Scalars['DateTime'];
+  id: Scalars['ItemId'];
+  link: StartVideoModelLinkField;
+  section?: Maybe<Scalars['String']>;
+  text?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  video?: Maybe<FileField>;
+};
+
+
+/** Block of type Start video (start_video) */
+type StartVideoRecord_seoMetaTagsArgs = {
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+/** Block of type Start video (start_video) */
+type StartVideoRecordtextArgs = {
   markdown?: InputMaybe<Scalars['Boolean']>;
 };
 
@@ -4698,6 +4728,8 @@ type ImageMediumFragment = { __typename?: 'FileField', id: any, mimeType: string
 
 type ImageThumbnailFragment = { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } };
 
+type InternalVideoFragment = { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, customData: any, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, base64?: string | null, sizes: string } | null, video?: { __typename?: 'UploadVideoField', thumbnailUrl: string, streamingUrl: string, framerate?: number | null, duration?: number | null, mp4high?: string | null, mp4med?: string | null, mp4low?: string | null } | null };
+
 type PersonFragment = { __typename: 'PersonRecord', id: any, firstName?: string | null, lastName?: string | null, email?: string | null, location?: string | null, phone?: string | null, role?: string | null };
 
 type ProjectFragment = { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, intro?: string | null, introHeadline?: string | null, videoCaption?: string | null, slug?: string | null, content?: { __typename?: 'ProjectModelContentField', value: any, blocks: Array<{ __typename: 'ImageRecord', id: any, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null }> } | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, gallery: Array<{ __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } }>, video?: { __typename: 'VideoField', provider: string, providerUid: string, thumbnailUrl: string, height: any, title: string, url: string, width: any } | null, metaInfo: Array<{ __typename: 'MetaInfoRecord', id: any, headline?: string | null, text?: string | null }>, cv: Array<{ __typename: 'CvRecord', id: any, headline?: string | null, text?: string | null }>, _allSlugLocales?: Array<{ __typename?: 'StringMultiLocaleField', locale?: SiteLocale | null, value?: string | null }> | null };
@@ -4752,4 +4784,4 @@ type StartQueryVariables = Exact<{
 }>;
 
 
-type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null } | { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartImagesDoubleRecord', id: any, images: Array<{ __typename?: 'StartImageBlockRecord', title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null } | { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null }> } | null };
+type StartQuery = { __typename?: 'Query', start?: { __typename?: 'StartRecord', id: any, content: Array<{ __typename?: 'StartImageRecord', id: any, layout?: string | null, title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null } | { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } } | { __typename?: 'StartImagesDoubleRecord', id: any, images: Array<{ __typename?: 'StartImageBlockRecord', title?: string | null, section?: string | null, text?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null } | { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | { __typename?: 'StartTextRecord', id: any, title?: string | null, layout?: string | null, section?: string | null, text?: string | null } | { __typename?: 'StartVideoRecord', id: any, title?: string | null, section?: string | null, text?: string | null, video?: { __typename?: 'FileField', id: any, mimeType: string, url: string, title?: string | null, customData: any, responsiveImage?: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, base64?: string | null, sizes: string } | null, video?: { __typename?: 'UploadVideoField', thumbnailUrl: string, streamingUrl: string, framerate?: number | null, duration?: number | null, mp4high?: string | null, mp4med?: string | null, mp4low?: string | null } | null } | null, link: { __typename: 'ExternalLinkRecord', title: string, url: string } | { __typename: 'InternalLinkRecord', title: string, record: { __typename: 'ArchiveRecord', _createdAt: any, id: any, title?: string | null, slug?: string | null } | { __typename: 'EventRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } | { __typename: 'ProjectRecord', _createdAt: any, id: any, title?: string | null, subtitle?: string | null, introHeadline?: string | null, intro?: string | null, slug?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null } } | null } } }> } | null };
