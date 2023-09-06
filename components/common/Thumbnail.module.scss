@@ -3,7 +3,7 @@
   display: block;
   height: 100%;
   text-overflow: ellipsis;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 
   &:hover {
     .imageWrap .border {
@@ -12,6 +12,16 @@
 
     figure {
       z-index: 10000;
+    }
+
+    h3 {
+      overflow: visible;
+      span {
+        opacity: 1;
+      }
+      div {
+        margin-left: -0.6em;
+      }
     }
   }
 
@@ -29,7 +39,7 @@
 
   h3,
   p {
-    font-size: 0.85em;
+    //font-size: 0.85em;
   }
 
   h3 {
@@ -40,6 +50,18 @@
 
     &.noimage {
       padding-top: 4rem;
+    }
+
+    span {
+      transition: all 0.5s;
+      overflow: hidden;
+      opacity: 0;
+
+      div {
+        display: inline;
+        position: absolute;
+        transition: all 0.5s;
+      }
     }
   }
 

@@ -39,7 +39,7 @@ export default function Thumbnail({ image, slug, title, subtitle, typeTitle, typ
           <div className={s.cover}></div>
         </figure>
       }
-      <h3 className={cn(!image && s.noimage)}>{title}</h3>
+      <h3 className={cn(!image && s.noimage)}><span><div>› </div></span>{title}</h3>
       {subtitle && <p>{subtitle}</p>}
     </Link>
   )

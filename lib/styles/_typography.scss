@@ -101,7 +101,8 @@ nav,
 button,
 .mid input,
 .mid select,
-.structured p {
+.structured p,
+.structured li {
   font-size: 0.88rem;
 }
 
@@ -138,7 +139,8 @@ article {
     }
   }
 
-  p strong {
+  p strong,
+  .structured strong {
     font-size: 0.95em;
   }
 

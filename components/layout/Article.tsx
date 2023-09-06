@@ -160,7 +160,7 @@ export default function Article({ id, children, title, subtitle, content, image,
         </div>
         {backLink &&
           <Link href={backLink}>
-            <button>{t('General.backToOverview')}</button>
+            <button><span>‹ </span>{t('General.backToOverview')}</button>
           </Link>
         }
       </div >
