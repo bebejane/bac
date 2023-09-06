@@ -1,12 +1,16 @@
 import s from "./[event].module.scss";
+import React from "react";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllEventsDocument } from "/graphql";
+import { useEffect } from "react";
 import { pageSlugs } from "/lib/i18n";
+import { randomLogoFonts } from "/lib/utils";
 import { Thumbnail, CardContainer, Card, Article } from "/components";
-import React from "react";
+
 
 export type Props = {
 	events: EventRecord[]
+	randomFonts: string[]
 }
 
 export type EventsByYear = {
@@ -14,7 +18,7 @@ export type EventsByYear = {
 	year: number
 }[]
 
-export default function Events({ events }: Props) {
+export default function Events({ events, randomFonts }: Props) {
 
 	const eventsByYear = events.reduce((acc, event) => {
 		const year = new Date(event._createdAt).getFullYear();
@@ -27,6 +31,11 @@ export default function Events({ events }: Props) {
 		return acc;
 	}, [] as EventsByYear).sort((a, b) => a.year > b.year ? -1 : 1);
 
+	const [logoFonts, setLogoFonts] = React.useState<string[]>([])
+
+	useEffect(() => {
+		setLogoFonts(randomLogoFonts(eventsByYear.reduce((acc, { events }) => acc + events.length, 0)))
+	}, [])
 
 	return (
 
@@ -42,6 +51,7 @@ export default function Events({ events }: Props) {
 								<Card key={idx}>
 									<Thumbnail
 										typeTitle={idx === 0 ? year.toString() : null}
+										typeFont={idx === 0 ? randomFonts[i] : null}
 										title={title}
 										subtitle={subtitle}
 										image={image}
@@ -65,6 +75,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllEventsDocument] }, 
 		props: {
 			...props,
 			events: props.events.filter((p: EventRecord) => p.slug),
+			randomFonts: randomLogoFonts(props.events.length),
 			page: {
 				section: 'event',
 				slugs: pageSlugs('event'),
