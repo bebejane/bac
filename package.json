@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "npm run dev:watch",
 		"dev:migrate": "DATOCMS_ENVIRONMENT=migration npm run dev:watch",
-		"dev:watch": "LOG_GRAPHQL=false next dev & npm run barrel:watch & graphql-codegen --watch",
+		"dev:watch": "LOG_GRAPHQL=true next dev & npm run barrel:watch & graphql-codegen --watch",
 		"dev:emails": "npx mailing",
 		"build": "next build && next-sitemap",
 		"codegen": "graphql-codegen",
