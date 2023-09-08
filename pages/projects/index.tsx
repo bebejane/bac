@@ -2,7 +2,7 @@ import s from "./[project].module.scss";
 import React, { useEffect } from "react";
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllProjectsDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { Thumbnail, CardContainer, Card, Article, FilterBar } from "/components";
 import { useTranslations } from "next-intl";
 import { sortSwedish } from 'dato-nextjs-utils/utils';
@@ -88,10 +88,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllProjectsDocument] }
 			...props,
 			projects: props.projects.filter((p: ProjectRecord) => p.slug),
 			randomFonts: randomLogoFonts(props.projects.length),
-			page: {
-				section: 'project',
-				slugs: pageSlugs('project'),
-			} as PageProps
+			page: pageProps('project')
 		},
 		revalidate
 	}

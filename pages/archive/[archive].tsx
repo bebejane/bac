@@ -1,6 +1,6 @@
 import withGlobalProps from "/lib/withGlobalProps";
 import { ArchiveDocument, AllArchivesDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
 import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
@@ -47,10 +47,7 @@ export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, r
 		props: {
 			...props,
 			archive,
-			page: {
-				section: 'archive',
-				slugs: pageSlugs('archive', archive._allSlugLocales),
-			} as PageProps
+			page: pageProps('archive', archive._allSlugLocales)
 		},
 		revalidate
 	}

@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AllArchivesDocument, ArchiveIntroDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { Article, CardContainer, Card } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
 import { randomInt, randomLogoFonts } from "/lib/utils";
@@ -76,10 +76,7 @@ export const getStaticProps = withGlobalProps({ queries: [ArchiveIntroDocument] 
 			...props,
 			archives,
 			randomFonts: randomLogoFonts(archives.length),
-			page: {
-				section: 'archive',
-				slugs: pageSlugs('archive'),
-			} as PageProps
+			page: pageProps('archive')
 		},
 		revalidate
 	}

@@ -2,7 +2,7 @@ import s from "./[event].module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { EventDocument, AllEventsDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
 import { Article } from "/components";
 import { apiQueryAll } from "dato-nextjs-utils/api";
@@ -53,10 +53,7 @@ export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, r
 		props: {
 			...props,
 			event,
-			page: {
-				section: 'event',
-				slugs: pageSlugs('event', event._allSlugLocales),
-			} as PageProps
+			page: pageProps('event', event._allSlugLocales)
 		},
 		revalidate
 	}

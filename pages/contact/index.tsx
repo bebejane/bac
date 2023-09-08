@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { ContactDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { DatoMarkdown as Markdown } from "dato-nextjs-utils/components";
 import { Article } from "/components";
 export type Props = {
@@ -49,10 +49,7 @@ export const getStaticProps = withGlobalProps({ queries: [ContactDocument] }, as
 	return {
 		props: {
 			...props,
-			page: {
-				section: 'contact',
-				slugs: pageSlugs('contact'),
-			} as PageProps
+			page: pageProps('contact')
 		},
 		revalidate
 	}

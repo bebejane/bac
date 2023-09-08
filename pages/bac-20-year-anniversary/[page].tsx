@@ -2,7 +2,7 @@ import s from "./[page].module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryPageDocument, AllAnniversaryPagesDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { apiQuery } from "dato-nextjs-utils/api";
 import { Article, Link } from "/components";
 import { useRouter } from "next/router";
@@ -13,11 +13,10 @@ export type Props = {
 	anniversaryPages: AnniversaryPageRecord[]
 }
 
-export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, image, gallery, video, videoCaption, content, cv, metaInfo, color }, anniversaryPage, anniversaryPages }: Props) {
+export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, introHeadline, image, gallery, video, videoCaption, content, cv, metaInfo, color }, anniversaryPage, anniversaryPages }: Props) {
 
 	useEffect(() => {
 		if (!color?.hex) return
-
 		document.body.style.setProperty('--background-fade-color', color.hex)
 		return () => document.body.style.setProperty('--background-fade-color', 'var(--white)')
 	}, [color])
@@ -27,7 +26,7 @@ export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle
 			<Article
 				id={id}
 				subtitle={title}
-				title={subtitle}
+				title={introHeadline}
 				intro={intro}
 				image={image}
 				video={video}
@@ -90,10 +89,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllAnniversaryPagesDoc
 		props: {
 			...props,
 			anniversaryPage,
-			page: {
-				section: 'anniversary',
-				slugs: pageSlugs('anniversary', anniversaryPage._allSlugLocales),
-			} as PageProps
+			page: pageProps('anniversary', anniversaryPage._allSlugLocales)
 		},
 		revalidate
 	}

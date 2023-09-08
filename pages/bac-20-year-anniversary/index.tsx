@@ -2,7 +2,7 @@ import s from "./index.module.scss";
 import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from "/graphql";
-import { pageSlugs } from "/lib/i18n";
+import { pageProps } from "/lib/i18n";
 import { DatoMarkdown as Markdown, DatoSEO } from "dato-nextjs-utils/components";
 import { Article, Link, StructuredContent } from "/components";
 import { Image } from "react-datocms";
@@ -33,14 +33,14 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 					<Markdown className={s.intro}>{intro}</Markdown>
 				</div>
 				<ul className={s.pages}>
-					{anniversaryPages.map(({ title, image, slug }, idx) =>
+					{anniversaryPages.map(({ title, introHeadline, image, slug }, idx) =>
 						<li key={idx}>
 							<Link href={`/bac-20-year-anniversary/${slug}`}>
 								<figcaption>
 									<h2>Nedslag i arkivet</h2>
 									<div>
 										<h3>{title}</h3>
-										<p className="mid">{title}</p>
+										<p className="mid">{introHeadline}</p>
 									</div>
 								</figcaption>
 
@@ -72,10 +72,7 @@ export const getStaticProps = withGlobalProps({ queries: [AnniversaryDocument, A
 	return {
 		props: {
 			...props,
-			page: {
-				section: 'anniversary',
-				slugs: pageSlugs('anniversary'),
-			} as PageProps
+			page: pageProps('anniversary')
 		},
 		revalidate
 	}

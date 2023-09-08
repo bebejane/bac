@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { recordToSlug } from '/lib/utils'
-import { CSSProperties } from 'react'
 
 export type Props = {
   link: ExternalLinkRecord | InternalLinkRecord | any
@@ -18,7 +17,7 @@ export default function DatoLink({ link, className, children }: Props) {
   const { title } = link
 
   if (!slug)
-    return <span className={className} style={{ pointerEvents: 'none', cursor: 'default', textDecoration: 'line-through' }}>{children ?? title}</span>
+    return <span className={className} title="Link not valid..." style={{ cursor: 'not-allowed' }}>{children ?? title}</span>
 
   return (
     link.__typename === 'ExternalLinkRecord' ?

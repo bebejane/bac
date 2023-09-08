@@ -1,13 +1,20 @@
 .video {
   padding-top: var(--space);
   padding-bottom: var(--space);
-
   display: flex;
+  cursor: pointer;
+
+  &:hover {
+    .readmore span {
+      margin-left: 0em !important;
+    }
+  }
 
   .left {
     width: 65%;
     padding-right: var(--gutter);
   }
+
   .right {
     width: 35%;
     display: flex;
@@ -16,6 +23,17 @@
 
     h1 {
       padding-bottom: 0.5em;
+    }
+  }
+
+  .content {
+    .readmore {
+      overflow: hidden;
+
+      span {
+        margin-left: -0.6em;
+        transition: all 0.5s;
+      }
     }
   }
 }
