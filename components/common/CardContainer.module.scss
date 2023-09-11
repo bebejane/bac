@@ -75,6 +75,7 @@
 
       &:nth-of-type(odd) {
         padding-right: calc(0.5 * var(--outer-margin));
+        //padding-right: 0;
       }
 
       &:nth-of-type(even) {

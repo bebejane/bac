@@ -189,11 +189,13 @@
 
       .caption {
         span {
-          display: inline-block;
-          margin-left: -0.7em;
-          transform: rotate(90deg);
-          margin-right: 0.3em;
-          padding-left: 0.1em;
+          display: none;
+          @include mq($from: tablet) {
+            display: inline-block;
+            transform: rotate(90deg);
+            margin-right: 0.3em;
+            padding-left: 0.1em;
+          }
         }
       }
 

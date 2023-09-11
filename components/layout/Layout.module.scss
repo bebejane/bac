@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: var(--line-top);
+  @include mq($from: tablet) {
+    padding-top: var(--line-top);
+  }
 }
 
 .topline {

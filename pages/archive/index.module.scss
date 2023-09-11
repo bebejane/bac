@@ -13,7 +13,9 @@
       font-size: var(--logosize);
       font-weight: normal;
       padding-top: 0.25em;
-      margin-left: -0.3em;
+      @include mq($from: tablet) {
+        margin-left: -0.3em;
+      }
     }
   }
 }
