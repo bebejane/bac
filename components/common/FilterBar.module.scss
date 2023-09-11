@@ -20,7 +20,7 @@
       text-underline-offset: var(--underline-pos);
     }
 
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       display: none;
       &:nth-child(1) {
         display: none;

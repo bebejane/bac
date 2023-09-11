@@ -144,6 +144,11 @@ article {
     font-size: 0.95em;
   }
 
+  .structured strong {
+    display: inline-block;
+    padding-bottom: 1em;
+  }
+
   p,
   .intro,
   h2,

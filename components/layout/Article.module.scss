@@ -2,7 +2,7 @@
   position: relative;
   margin-right: var(--outer-margin);
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     padding-right: var(--outer-margin);
     padding-left: var(--outer-margin);
     margin-right: 0;
@@ -35,7 +35,7 @@
     border-left: var(--line-thick);
     border-right: var(--line-thin);
 
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       margin-bottom: var(--space);
     }
 
@@ -94,7 +94,7 @@
 
     .next,
     .prev {
-      @include mq($until: tablet) {
+      @include mq($until: desktop) {
         display: none;
       }
 
@@ -169,11 +169,11 @@
     display: flex;
     flex-direction: row;
 
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       flex-direction: column;
     }
 
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       &.medium {
         max-width: 65%;
       }
@@ -197,7 +197,7 @@
         }
       }
 
-      @include mq($until: tablet) {
+      @include mq($until: desktop) {
         margin-left: 0;
       }
     }

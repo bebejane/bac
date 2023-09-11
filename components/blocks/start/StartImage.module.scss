@@ -4,7 +4,7 @@
   flex: 0 0 100%;
   margin-bottom: var(--space);
   padding-top: var(--space);
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     flex-direction: column-reverse;
   }
 
@@ -23,7 +23,7 @@
   }
 
   .right {
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       padding-bottom: 2rem;
     }
 
@@ -74,7 +74,7 @@
   }
 
   &.big {
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       .right {
         width: 65%;
         padding-left: var(--gutter);
@@ -87,7 +87,7 @@
   }
 
   &.medium {
-    @include mq($from: tablet) {
+    @include mq($from: desktop) {
       .right {
         width: 50%;
       }

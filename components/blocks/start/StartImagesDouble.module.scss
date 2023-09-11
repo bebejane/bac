@@ -6,7 +6,7 @@
   padding-top: var(--space);
   justify-content: space-between;
 
-  @include mq($from: tablet) {
+  @include mq($from: desktop) {
     flex-direction: row;
   }
 
@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
 
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       &:first-of-type {
         margin-bottom: var(--space);
         border-bottom: 1px solid var(--black);

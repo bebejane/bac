@@ -18,13 +18,13 @@
   }
 
   div:first-of-type span:first-of-type {
-    @include mq($until: tablet) {
+    @include mq($until: desktop) {
       display: none;
     }
     width: calc(var(--grid-unit) - var(--outer-margin));
   }
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     display: none;
     flex-direction: column;
     padding-top: var(--outer-margin);

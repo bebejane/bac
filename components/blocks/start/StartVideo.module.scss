@@ -4,7 +4,7 @@
   display: flex;
   cursor: pointer;
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     flex-direction: column;
   }
 

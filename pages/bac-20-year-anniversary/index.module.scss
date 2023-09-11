@@ -6,12 +6,21 @@
   top: 0;
   left: 0;
   width: 100%;
-  margin-top: var(--outer-margin);
   padding-right: var(--outer-margin);
   z-index: 0;
 
+  @include mq($from: tablet) {
+    margin-top: var(--outer-margin);
+  }
+
+  @include mq($until: desktop) {
+    padding-left: var(--outer-margin);
+  }
+
   img {
-    height: calc(100vh - calc(2 * var(--outer-margin)));
+    @include mq($from: desktop) {
+      height: calc(100vh - calc(2 * var(--outer-margin)));
+    }
     width: auto;
   }
 }
