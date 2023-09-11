@@ -20,9 +20,10 @@
   height: 3rem;
   width: calc(100% - var(--outer-margin));
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     width: calc(100% - (2 * var(--outer-margin)));
     margin-left: var(--outer-margin);
+    margin-bottom: var(--space);
   }
 
   div,

@@ -24,7 +24,7 @@
   height: calc(100vh - var(--navbar-height));
   border-bottom: var(--line);
 
-  @include mq($until: tablet) {
+  @include mq($until: desktop) {
     height: auto;
   }
 
@@ -47,19 +47,26 @@
   padding-left: 0;
 
   li {
-    flex: 0 0 50%;
-    margin-bottom: var(--space);
+    display: flex;
 
-    &:nth-child(even) {
-      padding-left: calc(var(--gutter) / 2);
-    }
+    @include mq($from: desktop) {
+      flex: 0 0 50%;
+      margin-bottom: var(--space);
 
-    &:nth-child(odd) {
-      padding-right: calc(var(--gutter) / 2);
+      &:nth-child(even) {
+        padding-left: calc(var(--gutter) / 2);
+      }
+
+      &:nth-child(odd) {
+        padding-right: calc(var(--gutter) / 2);
+      }
     }
 
     a {
       display: flex;
+      @include mq($until: desktop) {
+        flex-direction: column;
+      }
 
       &:hover figure {
         filter: grayscale(0%);
@@ -67,14 +74,20 @@
 
       figure,
       figcaption {
-        flex: 0 0 50%;
-        text-align: left;
+        @include mq($from: desktop) {
+          flex: 0 0 50%;
+          text-align: left;
+        }
       }
 
       figure {
         filter: grayscale(100%);
         mix-blend-mode: multiply;
         transition: all 0.5s;
+        @include mq($until: desktop) {
+          padding-bottom: 3rem;
+          padding-top: 2rem;
+        }
       }
 
       figcaption {
@@ -82,7 +95,10 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-right: calc(var(--gutter) / 2);
+        padding-left: 0;
+        @include mq($from: desktop) {
+          padding-right: calc(var(--gutter) / 2);
+        }
 
         h3 {
           padding-bottom: 0.3em;
@@ -98,10 +114,11 @@
   }
 }
 .text {
-  margin-top: var(--space);
   border-top: var(--line-thick);
   padding-top: var(--space);
-  @include mq($from: tablet) {
+  margin-bottom: var(--space);
+  @include mq($from: desktop) {
+    margin-top: var(--space);
     columns: 2;
   }
 }

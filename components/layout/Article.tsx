@@ -146,7 +146,7 @@ export default function Article({ id, children, title, subtitle, content, image,
           {metaInfo &&
             <aside>
               {caption &&
-                <p>{caption}</p>
+                <p className={s.caption}><span>‹ </span>{caption}</p>
               }
               {metaInfo?.map(({ headline, text }, idx) =>
                 <React.Fragment key={idx}>

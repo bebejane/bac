@@ -187,6 +187,16 @@
       flex: 0 0 calc(var(--grid-unit) * 1);
       margin-left: var(--gutter);
 
+      .caption {
+        span {
+          display: inline-block;
+          margin-left: -0.7em;
+          transform: rotate(90deg);
+          margin-right: 0.3em;
+          padding-left: 0.1em;
+        }
+      }
+
       @include mq($until: tablet) {
         margin-left: 0;
       }
