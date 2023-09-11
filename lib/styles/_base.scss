@@ -33,7 +33,9 @@
 	}
 
 	@include mq($until: tablet) {
-		--logosize: 2rem;
+		--logosize: 4.5rem;
+		--topbar-height: calc(1rem + var(--logosize) + 1rem);
+		--line-top: 4px;
 	}
 }
 
@@ -158,12 +160,19 @@ button {
 		transition: all 0.5s;
 	}
 
+	@include mq($until: desktop) {
+		padding-bottom: 2rem;
+	}
+
 	@include mq($from: tablet) {
 		padding-bottom: 1em;
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out, padding 0.5s;
+	transition:
+		color 0.2s ease-in-out,
+		background-color 0.3s ease-in-out,
+		padding 0.5s;
 
 	&:hover {
 		span {

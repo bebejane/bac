@@ -734,6 +734,7 @@ type ContactRecord = RecordInterface & {
   _updatedAt: Scalars['DateTime'];
   email?: Maybe<Scalars['String']>;
   id: Scalars['ItemId'];
+  image?: Maybe<FileField>;
   instagram?: Maybe<Scalars['String']>;
   mailingAddress?: Maybe<Scalars['String']>;
   people: Array<PersonRecord>;

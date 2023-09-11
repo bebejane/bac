@@ -4,6 +4,9 @@
   flex: 0 0 100%;
   margin-bottom: var(--space);
   padding-top: var(--space);
+  @include mq($until: tablet) {
+    flex-direction: column-reverse;
+  }
 
   &:hover {
     span {
@@ -20,6 +23,10 @@
   }
 
   .right {
+    @include mq($until: tablet) {
+      padding-bottom: 2rem;
+    }
+
     figure {
       position: relative;
     }
@@ -67,24 +74,28 @@
   }
 
   &.big {
-    .right {
-      width: 65%;
-      padding-left: var(--gutter);
-    }
+    @include mq($from: tablet) {
+      .right {
+        width: 65%;
+        padding-left: var(--gutter);
+      }
 
-    .left {
-      width: 35%;
+      .left {
+        width: 35%;
+      }
     }
   }
 
   &.medium {
-    .right {
-      width: 50%;
-    }
+    @include mq($from: tablet) {
+      .right {
+        width: 50%;
+      }
 
-    .left {
-      width: 50%;
-      padding-right: var(--gutter);
+      .left {
+        width: 50%;
+        padding-right: var(--gutter);
+      }
     }
   }
 

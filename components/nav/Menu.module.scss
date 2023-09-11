@@ -8,9 +8,12 @@
 
   @include mq($until: tablet) {
     position: relative;
-    width: auto;
+    width: calc(100vw + var(--outer-margin));
+    margin-left: calc(-1 * var(--outer-margin));
+    margin-right: calc(-1 * var(--outer-margin));
+    font-size: 1rem;
 
-    >ul {
+    > ul {
       display: none;
 
       &.show {
@@ -19,14 +22,14 @@
     }
   }
 
-  >ul {
+  > ul {
     list-style: none;
     font-weight: bold;
 
     li {
       padding-bottom: 0.5em;
 
-      &.selected>a,
+      &.selected > a,
       a:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
@@ -40,11 +43,11 @@
       }
     }
 
-    >li {
+    > li {
       span {
         cursor: pointer;
 
-        >ul {
+        > ul {
           display: none;
           list-style: none;
           flex-direction: column;
@@ -57,10 +60,10 @@
             margin-bottom: 0.5em;
           }
 
-          >li {
+          > li {
             margin-left: 1em;
 
-            &.selected>a {
+            &.selected > a {
               text-decoration: underline;
               text-decoration-thickness: 1px;
               text-underline-offset: var(--underline-pos);
@@ -78,6 +81,8 @@
         color: var(--white);
         line-height: 2;
         border-bottom: 1px solid var(--white);
+        padding: var(--outer-margin);
+        padding-left: calc(2 * var(--outer-margin));
 
         &:last-child {
           border-bottom: 0;

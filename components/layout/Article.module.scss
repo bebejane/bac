@@ -11,7 +11,14 @@
   header {
     display: flex;
     align-items: center;
-    height: var(--topbar-height);
+
+    @include mq($until: tablet) {
+      padding-bottom: 2rem;
+    }
+
+    @include mq($from: tablet) {
+      height: var(--topbar-height);
+    }
 
     h1 {
       margin-top: -0.2em;
@@ -20,7 +27,7 @@
 
   .gallery {
     position: relative;
-    margin-bottom: var(--space);
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -28,7 +35,11 @@
     border-left: var(--line-thick);
     border-right: var(--line-thin);
 
-    .swiper>div {
+    @include mq($from: tablet) {
+      margin-bottom: var(--space);
+    }
+
+    .swiper > div {
       align-items: center;
     }
 
@@ -58,21 +69,26 @@
           object-fit: contain;
         }
 
-        &.small {}
+        &.small {
+        }
 
-        &.medium {}
+        &.medium {
+        }
 
-        &.large {}
+        &.large {
+        }
 
-        &.portrait {}
+        &.portrait {
+        }
       }
     }
 
     &:hover {
-
-      .next,
-      .prev {
-        display: flex !important;
+      @include mq($from: desktop) {
+        .next,
+        .prev {
+          display: flex !important;
+        }
       }
     }
 
@@ -176,11 +192,11 @@
       }
     }
 
-    .intro>p {
+    .intro > p {
       padding: 0;
     }
 
-    .cv>p>strong {
+    .cv > p > strong {
       font-weight: bold !important;
     }
   }

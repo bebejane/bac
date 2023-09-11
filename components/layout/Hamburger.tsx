@@ -14,7 +14,9 @@ export default function Hamburger() {
 
   return (
     <div className={s.hamburger} onClick={handleClick}>
-      Menu
+      <strong>
+        Menu
+      </strong>
     </div>
   )
 }

@@ -10,8 +10,10 @@
   padding-top: var(--line-top);
 
   &.home {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
-    width: 100%;
+    @include mq($from: tablet) {
+      background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
+      width: 100%;
+    }
   }
 
   h1 {
