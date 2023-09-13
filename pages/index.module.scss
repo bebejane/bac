@@ -4,6 +4,7 @@
   flex-wrap: wrap;
 
   @include mq($until: tablet) {
+    padding-top: calc(var(--navbar-height) + var(--outer-margin));
     margin-left: var(--outer-margin);
     margin-right: var(--outer-margin);
   }

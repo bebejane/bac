@@ -7,29 +7,52 @@
   z-index: var(--z-menu);
 
   @include mq($until: tablet) {
-    position: relative;
+
     width: calc(100vw + var(--outer-margin));
     margin-left: calc(-1 * var(--outer-margin));
     margin-right: calc(-1 * var(--outer-margin));
     font-size: 1rem;
 
-    > ul {
+    >ul {
       display: none;
 
       &.show {
         display: block;
+
+
+        @include mq($until: tablet) {
+          padding-top: var(--navbar-height);
+          margin-top: calc(-1 * var(--navbar-height));
+          background-color: var(--white);
+
+        }
+
+        >li {
+          display: block;
+
+          @include mq($until: tablet) {
+            opacity: 0;
+            animation: show 0.5s steps(1, start) forwards;
+
+            @keyframes show {
+              to {
+                opacity: 1;
+              }
+            }
+          }
+        }
       }
     }
   }
 
-  > ul {
+  >ul {
     list-style: none;
     font-weight: bold;
 
     li {
       padding-bottom: 0.5em;
 
-      &.selected > a,
+      &.selected>a,
       a:hover {
         text-decoration: underline;
         text-decoration-thickness: 1px;
@@ -43,11 +66,11 @@
       }
     }
 
-    > li {
+    >li {
       span {
         cursor: pointer;
 
-        > ul {
+        >ul {
           display: none;
           list-style: none;
           flex-direction: column;
@@ -60,10 +83,10 @@
             margin-bottom: 0.5em;
           }
 
-          > li {
+          >li {
             margin-left: 1em;
 
-            &.selected > a {
+            &.selected>a {
               text-decoration: underline;
               text-decoration-thickness: 1px;
               text-underline-offset: var(--underline-pos);

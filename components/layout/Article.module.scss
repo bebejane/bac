@@ -3,6 +3,7 @@
   margin-right: var(--outer-margin);
 
   @include mq($until: desktop) {
+    padding-top: calc(var(--navbar-height) + var(--outer-margin));
     padding-right: var(--outer-margin);
     padding-left: var(--outer-margin);
     margin-right: 0;

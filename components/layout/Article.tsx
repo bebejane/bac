@@ -55,7 +55,7 @@ export default function Article({ id, children, title, subtitle, content, image,
   const slides: (ImageFileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
 
   useEffect(() => {
-    const c = (gallery?.[index]?.title || image?.title).replaceAll('<br>', '\n')
+    const c = (gallery?.[index]?.title || image?.title)?.replaceAll('<br>', '\n')
     setCaption(c)
   }, [index])
 

@@ -79,7 +79,7 @@ export default function Menu({ items }: MenuProps) {
 			<nav className={cn(s.menu)}>
 				<ul ref={menuRef} className={cn(showMenu && s.show)}>
 					{items.map((item, index) =>
-						<li key={index} className={cn(selected?.id === item.id && s.selected)}>
+						<li key={index} className={cn(selected?.id === item.id && s.selected)} style={{ animationDelay: `${index * 50}ms` }}>
 							{!item.sub ?
 								<Link href={item.slug}>{item.label}</Link>
 								:
@@ -96,7 +96,7 @@ export default function Menu({ items }: MenuProps) {
 							}
 						</li>
 					)}
-					<li className={s.language}>
+					<li className={s.language} style={{ animationDelay: `${items.length * 50}ms` }}>
 						<Language menu={items} />
 					</li>
 				</ul >

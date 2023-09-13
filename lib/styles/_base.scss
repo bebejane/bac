@@ -19,11 +19,13 @@
 	--topbar-height: calc(2rem + var(--logosize) + 2rem);
 	--navbar-height: var(--topbar-height);
 	--line-height: 1.5em;
-	--z-logo: 1000;
+
+	--z-logo: 1200;
 	--z-menu: 1100;
 	--z-hamburger: 1200;
 	--z-fullscreen-gallery: 1300;
 	--z-fullscreen-gallery-close: 1301;
+
 	--space: 3rem;
 	--gradien: linear-gradient(to top, rgba(255, 220, 180, 0), var--yellow);
 	--underline-pos: 0.15em;
@@ -170,10 +172,9 @@ button {
 		padding-top: 1em;
 	}
 
-	transition:
-		color 0.2s ease-in-out,
-		background-color 0.3s ease-in-out,
-		padding 0.5s;
+	transition: color 0.2s ease-in-out,
+	background-color 0.3s ease-in-out,
+	padding 0.5s;
 
 	&:hover {
 		span {
