@@ -24,7 +24,7 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 	video {
 		...VideoFragment
 	}
-	videoPoster {
+	videoImage {
 		...ImageFragment
 	}
 	videoCaption

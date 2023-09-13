@@ -27,6 +27,7 @@ export type ArticleProps = {
   intro?: string
   image?: ImageFileField
   video?: VideoField
+  videoImage?: ImageFileField
   gallery?: ImageFileField[]
   imageSize?: 'small' | 'medium' | 'large'
   content?: any
@@ -39,7 +40,7 @@ export type ArticleProps = {
   noImages?: boolean
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, onClick, record, backLink, medium, noImages }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, videoImage, onClick, record, backLink, medium, noImages }: ArticleProps) {
 
   const t = useTranslations()
   const [index, setIndex] = useState(0)
@@ -98,7 +99,7 @@ export default function Article({ id, children, title, subtitle, content, image,
                       />
                     </figure>
                     : slide.__typename === 'VideoField' ?
-                      <ExternalVideo data={slide} />
+                      <ExternalVideo data={slide} image={videoImage} />
                       : null}
                 </SwiperSlide>
               )}

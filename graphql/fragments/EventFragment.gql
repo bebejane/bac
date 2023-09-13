@@ -27,6 +27,9 @@ fragment EventFragment on EventRecord {
 	video {
 		...VideoFragment
 	}
+	videoImage {
+		...ImageFragment
+	}
 	videoCaption
 	metaInfo {
 		__typename

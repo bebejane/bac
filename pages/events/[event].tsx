@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Event({ event: { id, title, subtitle, image, gallery, metaInfo, cv, intro, content, _createdAt }, event }: Props) {
+export default function Event({ event: { id, title, subtitle, image, video, videoImage, gallery, metaInfo, cv, intro, content, _createdAt }, event }: Props) {
 
 	return (
 		<Article
@@ -31,6 +31,8 @@ export default function Event({ event: { id, title, subtitle, image, gallery, me
 			subtitle={title}
 			image={image}
 			gallery={gallery}
+			video={video}
+			videoImage={videoImage}
 			intro={intro}
 			content={content}
 			metaInfo={metaInfo}
