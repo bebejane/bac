@@ -70,7 +70,6 @@ query Start($locale: SiteLocale) {
 			... on StartTextRecord {
 				id
 				title
-				layout
 				section
 				text(markdown: false)
 			}

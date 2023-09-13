@@ -6,10 +6,10 @@ import { DatoLink } from '/components'
 
 export type Props = { data: StartTextRecord, onClick: Function }
 
-export default function StartText({ data: { id, text, layout, section, title } }: Props) {
+export default function StartText({ data: { id, text, section, title } }: Props) {
 
 	return (
-		<section className={cn(s.section, s[layout])}>
+		<section className={s.section}>
 			<h3>{title}</h3>
 			<Markdown>{text}</Markdown>
 		</section>

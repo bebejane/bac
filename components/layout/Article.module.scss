@@ -39,7 +39,7 @@
       margin-bottom: var(--space);
     }
 
-    .swiper > div {
+    .swiper>div {
       align-items: center;
     }
 
@@ -69,22 +69,19 @@
           object-fit: contain;
         }
 
-        &.small {
-        }
+        &.small {}
 
-        &.medium {
-        }
+        &.medium {}
 
-        &.large {
-        }
+        &.large {}
 
-        &.portrait {
-        }
+        &.portrait {}
       }
     }
 
     &:hover {
       @include mq($from: desktop) {
+
         .next,
         .prev {
           display: flex !important;
@@ -165,6 +162,17 @@
     }
   }
 
+  .captionMobile {
+    display: none;
+
+    @include mq($until: desktop) {
+      display: block;
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+  }
+
   .wrapper {
     display: flex;
     flex-direction: row;
@@ -190,6 +198,7 @@
       .caption {
         span {
           display: none;
+
           @include mq($from: tablet) {
             display: inline-block;
             transform: rotate(90deg);
@@ -204,11 +213,11 @@
       }
     }
 
-    .intro > p {
+    .intro>p {
       padding: 0;
     }
 
-    .cv > p > strong {
+    .cv>p>strong {
       font-weight: bold !important;
     }
   }

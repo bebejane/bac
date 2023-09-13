@@ -121,6 +121,7 @@ export default function Article({ id, children, title, subtitle, content, image,
             }
           </div>
         }
+        <p className={s.captionMobile}>{caption}</p>
         <div className={cn(s.wrapper, medium && s.medium)}>
           <section className={s.content}>
             {subtitle && <h3>{subtitle}</h3>}
