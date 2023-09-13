@@ -5,6 +5,9 @@ fragment AboutFragment on AboutRecord {
 	__typename
 	_modelApiKey
 	id
+	image {
+		...ImageFragment
+	}
 	title
 	slug
 	content {

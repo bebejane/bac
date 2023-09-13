@@ -22,12 +22,13 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function About({ about: { id, title, content }, about }: Props) {
+export default function About({ about: { id, title, content, image }, about }: Props) {
 
 	return (
 		<Article
 			id={id}
 			title={title}
+			image={image}
 			content={content}
 			medium={true}
 		/>
