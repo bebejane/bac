@@ -7,6 +7,7 @@ import { apiQuery } from "dato-nextjs-utils/api";
 import { Article, Link } from "/components";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 export type Props = {
 	anniversaryPage: AnniversaryPageRecord
@@ -44,6 +45,7 @@ export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle
 export const AnniversaryPagination = ({ pages }: { pages: AnniversaryPageRecord[] }) => {
 
 	const { asPath } = useRouter()
+	const t = useTranslations('Anniversary')
 	const currentSlug = asPath.split('/').at(-1)
 	const prevIndex = pages.findIndex(({ slug }) => slug === currentSlug) - 1
 	const nextIndex = pages.findIndex(({ slug }) => slug === currentSlug) + 1
@@ -53,14 +55,14 @@ export const AnniversaryPagination = ({ pages }: { pages: AnniversaryPageRecord[
 	return (
 		<nav className={cn(s.pagination, 'background-palette-animation')}>
 			<Link href={`/bac-20-year-anniversary/${prev.slug}`}>
-				Föregående
+				{t('previous')}
 			</Link>
 			<Link href={`/bac-20-year-anniversary`} className={s.logo}>
 				<img src="/images/anniversary-logo-20.svg" alt="BAC Logo" />
 				<span>Översikt</span>
 			</Link>
 			<Link href={`/bac-20-year-anniversary/${next.slug}`}>
-				Nästa
+				{t('next')}
 			</Link>
 		</nav>
 	)

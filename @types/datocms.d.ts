@@ -734,7 +734,7 @@ type ContactRecord = RecordInterface & {
   _updatedAt: Scalars['DateTime'];
   email?: Maybe<Scalars['String']>;
   id: Scalars['ItemId'];
-  image?: Maybe<FileField>;
+  image?: Maybe<ImageFileField>;
   instagram?: Maybe<Scalars['String']>;
   mailingAddress?: Maybe<Scalars['String']>;
   people: Array<PersonRecord>;
@@ -4689,7 +4689,7 @@ type ContactQueryVariables = Exact<{
 }>;
 
 
-type ContactQuery = { __typename?: 'Query', contact?: { __typename?: 'ContactRecord', mailingAddress?: string | null, email?: string | null, instagram?: string | null, people: Array<{ __typename: 'PersonRecord', id: any, firstName?: string | null, lastName?: string | null, email?: string | null, location?: string | null, phone?: string | null, role?: string | null }> } | null };
+type ContactQuery = { __typename?: 'Query', contact?: { __typename?: 'ContactRecord', mailingAddress?: string | null, email?: string | null, instagram?: string | null, image?: { __typename?: 'ImageFileField', id: any, mimeType: string, url: string, title?: string | null, alt?: string | null, height: any, width: any, responsiveImage: { __typename?: 'ResponsiveImage', src: string, width: any, height: any, alt?: string | null, title?: string | null, base64?: string | null, sizes: string } } | null, people: Array<{ __typename: 'PersonRecord', id: any, firstName?: string | null, lastName?: string | null, email?: string | null, location?: string | null, phone?: string | null, role?: string | null }> } | null };
 
 type AllEventsQueryVariables = Exact<{
   first?: InputMaybe<Scalars['IntType']>;

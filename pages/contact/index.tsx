@@ -5,6 +5,8 @@ import { ContactDocument } from "/graphql";
 import { pageProps } from "/lib/i18n";
 import { DatoMarkdown as Markdown } from "dato-nextjs-utils/components";
 import { Article } from "/components";
+import { Image } from "react-datocms";
+
 export type Props = {
 	contact: ContactRecord
 }
@@ -14,7 +16,7 @@ export type ContactsByYear = {
 	contacts: ContactRecord[]
 }[]
 
-export default function Contact({ contact: { id, mailingAddress, email, instagram, people } }: Props) {
+export default function Contact({ contact: { id, image, mailingAddress, email, instagram, people } }: Props) {
 
 
 	return (
@@ -23,6 +25,15 @@ export default function Contact({ contact: { id, mailingAddress, email, instagra
 			title={'Contact'}
 			medium={true}
 		>
+			{image &&
+				<figure className={s.figure}>
+					<Image
+						data={image.responsiveImage}
+						className={s.image}
+						pictureClassName={s.picture}
+					/>
+				</figure>
+			}
 			<div className="structured">
 				<p>
 					{mailingAddress}

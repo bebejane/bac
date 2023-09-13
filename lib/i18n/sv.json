@@ -6,7 +6,8 @@
 		"event": "Evenemang",
 		"anniversary": "BAC 20 år",
 		"archive": "Arkiv",
-		"contact": "Kontakt"
+		"contact": "Kontakt",
+		"menu": "Meny"
 	},
 	"FilterBar": {
 		"sortBy": "Sorera på",
@@ -22,5 +23,9 @@
 		"archive": "Arkiv",
 		"event": "Evenemang",
 		"readMore": "Läs mer"
+	},
+	"Anniversary": {
+		"previous": "Föregående",
+		"next": "Nästa"
 	}
 }

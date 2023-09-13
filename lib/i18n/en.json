@@ -6,7 +6,8 @@
 		"event": "Events",
 		"anniversary": "BAC 20 Years",
 		"archive": "Archive",
-		"contact": "Contact"
+		"contact": "Contact",
+		"menu": "Menu"
 	},
 	"FilterBar": {
 		"sortBy": "Sort by",
@@ -22,5 +23,9 @@
 		"archive": "Archive",
 		"event": "Event",
 		"readMore": "Read more"
+	},
+	"Anniversary": {
+		"previous": "Previous",
+		"next": "Next"
 	}
 }

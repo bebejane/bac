@@ -55,7 +55,8 @@ export default function Article({ id, children, title, subtitle, content, image,
   const slides: (ImageFileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
 
   useEffect(() => {
-    setCaption(gallery?.[index]?.title || image?.title)
+    const c = (gallery?.[index]?.title || image?.title).replaceAll('<br>', '\n')
+    setCaption(c)
   }, [index])
 
   return (
@@ -147,7 +148,7 @@ export default function Article({ id, children, title, subtitle, content, image,
           {metaInfo &&
             <aside>
               {caption &&
-                <p className={s.caption}><span>‹ </span>{caption}</p>
+                <Markdown className={s.caption}>{caption}</Markdown>
               }
               {metaInfo?.map(({ headline, text }, idx) =>
                 <React.Fragment key={idx}>
