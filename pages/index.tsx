@@ -3,8 +3,6 @@ import withGlobalProps from "/lib/withGlobalProps";
 import { StartDocument } from "/graphql";
 import { Block } from "/components";
 import { pageProps } from "/lib/i18n";
-import { DatoMarkdown as MarkDown } from "dato-nextjs-utils/components";
-import { useTranslations } from "next-intl";
 import React, { useEffect, useRef } from "react";
 
 export type Props = {
@@ -13,11 +11,10 @@ export type Props = {
 
 export default function Home({ start }: Props) {
 
-	const t = useTranslations('Home');
 	const containerRef = useRef<HTMLDivElement>(null);
 	const lineSizes = [1, 2, 3, 4]
 
-	useEffect(() => {
+	useEffect(() => { // Randomize line sizes
 		const hrs = containerRef.current?.querySelectorAll('hr');
 		hrs?.forEach(hr => {
 			const i = Math.floor(Math.random() * lineSizes.length);
