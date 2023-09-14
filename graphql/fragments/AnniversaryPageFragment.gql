@@ -5,7 +5,10 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 	title
 	subtitle
 	introHeadline
-	intro(markdown: false)
+	intro {
+		value
+		blocks
+	}
 	content {
 		value
 		blocks {

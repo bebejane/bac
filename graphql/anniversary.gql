@@ -2,7 +2,10 @@ query Anniversary($locale: SiteLocale!) {
 	anniversary(locale: $locale) {
 		id
 		title
-		intro(markdown: false)
+		intro {
+			value
+			blocks
+		}
 		content {
 			value
 			blocks

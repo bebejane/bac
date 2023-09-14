@@ -3,7 +3,7 @@ import "swiper/css/effect-fade";
 import cn from 'classnames'
 import React, { useEffect, useRef, useState } from 'react'
 import { StructuredContent, ExternalVideo } from "/components";
-import { Image } from 'react-datocms';
+import { Image, StructuredTextDocument } from 'react-datocms';
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { DatoSEO } from 'dato-nextjs-utils/components';
 import Link from '/components/nav/Link'
@@ -24,7 +24,7 @@ export type ArticleProps = {
   aside?: React.ReactNode | React.ReactNode[] | undefined
   title?: string
   subtitle?: string
-  intro?: string
+  intro?: StructuredTextDocument
   image?: ImageFileField
   video?: VideoField
   videoImage?: ImageFileField
@@ -127,7 +127,11 @@ export default function Article({ id, children, title, subtitle, content, image,
         <div className={cn(s.wrapper, medium && s.medium)}>
           <section className={s.content}>
             {subtitle && <h3>{subtitle}</h3>}
-            <Markdown className={cn(s.intro)}>{intro}</Markdown>
+            <StructuredContent
+              id={id}
+              record={record}
+              content={intro}
+            />
             {content &&
               <section className="structured">
                 <StructuredContent

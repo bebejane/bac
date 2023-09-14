@@ -4,7 +4,10 @@ fragment ProjectFragment on ProjectRecord {
 	id
 	title
 	subtitle
-	intro(markdown: false)
+	intro {
+		value
+		blocks
+	}
 	introHeadline
 	content {
 		value
