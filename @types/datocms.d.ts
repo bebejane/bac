@@ -3221,6 +3221,7 @@ type ProjectModelFilter = {
   image?: InputMaybe<FileFilter>;
   intro?: InputMaybe<StructuredTextFilter>;
   introHeadline?: InputMaybe<StringFilter>;
+  ongoing?: InputMaybe<BooleanFilter>;
   slug?: InputMaybe<SlugFilter>;
   subtitle?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
@@ -3263,6 +3264,8 @@ enum ProjectModelOrderBy {
   id_DESC = 'id_DESC',
   introHeadline_ASC = 'introHeadline_ASC',
   introHeadline_DESC = 'introHeadline_DESC',
+  ongoing_ASC = 'ongoing_ASC',
+  ongoing_DESC = 'ongoing_DESC',
   subtitle_ASC = 'subtitle_ASC',
   subtitle_DESC = 'subtitle_DESC',
   title_ASC = 'title_ASC',
@@ -3304,6 +3307,7 @@ type ProjectRecord = RecordInterface & {
   intro?: Maybe<ProjectModelIntroField>;
   introHeadline?: Maybe<Scalars['String']>;
   metaInfo: Array<MetaInfoRecord>;
+  ongoing?: Maybe<Scalars['BooleanType']>;
   slug?: Maybe<Scalars['String']>;
   subtitle?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;

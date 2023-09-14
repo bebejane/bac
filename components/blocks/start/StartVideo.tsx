@@ -13,12 +13,18 @@ export default function StartVideo({ data: { id, video, title, section, text, li
 	const ref = useRef()
 	const t = useTranslations('Home');
 
-
 	return (
 		<section className={s.video} ref={ref}>
 			<div className={s.left}>
 				<DatoLink link={link} className={s.videoWrap}>
-					<VideoPlayer data={video} />
+					<video
+						src={data.video?.video['mp4high']}
+						playsInline
+						loop={true}
+						autoPlay={true}
+						muted={true}
+						disablePictureInPicture={true}
+					/>
 				</DatoLink>
 			</div>
 			<div className={s.right}>

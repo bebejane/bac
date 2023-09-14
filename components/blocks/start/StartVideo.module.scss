@@ -23,6 +23,11 @@
       width: 65%;
       padding-right: var(--gutter);
     }
+
+    video {
+      width: 100%;
+      object-fit: contain;
+    }
   }
 
   .right {
