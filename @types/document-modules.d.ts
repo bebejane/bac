@@ -113,6 +113,15 @@ declare module '*/EventFragmentLight.gql' {
 }
     
 
+declare module '*/GalleryFragment.gql' {
+  import { DocumentNode } from 'graphql';
+  const defaultDocument: DocumentNode;
+  export const GalleryFragment: DocumentNode;
+
+  export default defaultDocument;
+}
+    
+
 declare module '*/ImageFragment.gql' {
   import { DocumentNode } from 'graphql';
   const defaultDocument: DocumentNode;

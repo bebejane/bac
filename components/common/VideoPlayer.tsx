@@ -1,48 +1,45 @@
-import styles from './VideoPlayer.module.scss'
+import s from "./VideoPlayer.module.scss"
 import cn from 'classnames'
-import { useEffect, useState, useRef, useCallback } from 'react'
-import { useWindowSize } from 'usehooks-ts'
-import { useInView } from 'react-intersection-observer'
+import { useEffect, useRef, useState } from "react";
+import { Image } from 'react-datocms'
+import { Modal, ExternalVideoPlayer, InternalVideoPlayer } from '/components'
 
-export type VideoPlayerProps = { data: VideoFileField, className?: string }
+export default function VideoPlayer({ data, image }) {
 
-export default function VideoPlayer({ data, className }: VideoPlayerProps) {
+	const ref = useRef<HTMLDivElement | null>(null)
+	const [show, setShow] = useState(false);
+	const isInternalVideo = data?.video !== undefined
 
-	const [inViewRef, inView] = useInView();
-	const videoRef = useRef<HTMLVideoElement | null>(null);
-	const [active, setActive] = useState(false)
-	const [quality, setQuality] = useState<String | null>(null)
-	const { width } = useWindowSize()
-
-	const setRefs = useCallback((node) => {
-		videoRef.current = node;
-		inViewRef(node);
-	}, [inViewRef]);
-
-	useEffect(() => {
-		//if(process.env.NODE_ENV === 'development') return console.log('video disabled in dev')
-
-		if (!videoRef.current) return
-		if (active)
-			videoRef.current.play().catch((err) => { })
-		else
-			videoRef.current.pause();
-	}, [active, quality])
-
-	useEffect(() => { setActive(inView) }, [inView])
-	useEffect(() => { setQuality(width ? width < 480 ? 'low' : width < 767 ? 'med' : 'high' : null) }, [width])
+	if (!data) return null
 
 	return (
-		<video
-			className={cn(styles.video, className)}
-			src={quality ? data.video[`mp4${quality}`] : undefined}
-			ref={setRefs}
-			playsInline
-			muted
-			loop={true}
-			autoPlay={false}
-			disablePictureInPicture={true}
-			poster={data.video?.thumbnailUrl}
-		/>
+		<div className={s.video} ref={ref} >
+			<Modal>
+				<div className={cn(s.modal, show && s.show)}>
+					<img src="/images/close.svg" className={s.close} onClick={() => setShow(false)} />
+
+					{isInternalVideo ?
+						<InternalVideoPlayer data={data} />
+						:
+						<ExternalVideoPlayer data={data} image={image} />
+					}
+				</div>
+			</Modal>
+
+			<figure>
+				{!isInternalVideo && image ?
+					<Image
+						data={image.responsiveImage}
+						className={s.image}
+						pictureClassName={s.picture}
+						placeholderClassName={s.placeholder}
+					/>
+					: isInternalVideo ?
+						<img src={data.video.thumbnailUrl} className={s.image} />
+						: null
+				}
+				<img src="/images/play.svg" className={s.play} onClick={() => setShow(true)} />
+			</figure>
+		</div>
 	)
 }

@@ -1,5 +1,75 @@
 .video {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   width: 100%;
-  object-fit: contain;
+
+  .caption {
+    margin-top: 1rem;
+  }
+
+  figure {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .image,
+    .picture,
+    .placeholder {
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .play {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 3rem;
+      cursor: pointer;
+      pointer-events: all;
+    }
+  }
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  z-index: var(--z-close-video);
+  opacity: 0;
+  pointer-events: none;
+  padding: var(--outer-margin);
+
+  &.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .player {
+    width: 100%;
+    height: 100%;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .close {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    margin: 2rem;
+    cursor: pointer;
+    height: 3rem;
+  }
 }

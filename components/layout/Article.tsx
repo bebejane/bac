@@ -2,7 +2,7 @@ import s from './Article.module.scss'
 import "swiper/css/effect-fade";
 import cn from 'classnames'
 import React, { useEffect, useRef, useState } from 'react'
-import { StructuredContent, ExternalVideo } from "/components";
+import { StructuredContent, VideoPlayer } from "/components";
 import { Image, StructuredTextDocument } from 'react-datocms';
 import { useScrollInfo } from 'dato-nextjs-utils/hooks'
 import { DatoSEO } from 'dato-nextjs-utils/components';
@@ -28,7 +28,7 @@ export type ArticleProps = {
   image?: ImageFileField
   video?: VideoField
   videoImage?: ImageFileField
-  gallery?: ImageFileField[]
+  gallery?: FileField[] | VideoField[]
   imageSize?: 'small' | 'medium' | 'large'
   content?: any
   metaInfo?: MetaInfoRecord[]
@@ -53,7 +53,7 @@ export default function Article({ id, children, title, subtitle, content, image,
   const figureRef = useRef<HTMLElement | null>(null)
   const swiperRef = useRef<SwiperType | undefined>()
   //@ts-ignore
-  const slides: (ImageFileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
+  const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
 
   useEffect(() => {
     const c = (gallery?.[index]?.title || image?.title)?.replaceAll('<br>', '\n')
@@ -79,12 +79,13 @@ export default function Article({ id, children, title, subtitle, content, image,
               onSwiper={(swiper) => swiperRef.current = swiper}
               onSlideChange={({ realIndex }) => {
                 setIndex(realIndex)
+                //@ts-ignore
                 setCaption(gallery?.[realIndex]?.title || gallery?.[realIndex]?.alt)
               }}
             >
               {slides?.map((slide, idx) =>
                 <SwiperSlide key={idx} className={cn(s.slide, slides.length === 1 && s.solo)}>
-                  {slide.__typename === 'ImageFileField' ?
+                  {slide.__typename == 'ImageFileField' || (slide.__typename == 'FileField' && slide.responsiveImage) ?
                     <figure
                       className={cn(s.mainImage, imageSize && s[imageSize], slide.height > slide.width && s.portrait)}
                       onClick={() => swiperRef.current?.slideNext()}
@@ -98,9 +99,8 @@ export default function Article({ id, children, title, subtitle, content, image,
                         placeholderClassName={s.placeholder}
                       />
                     </figure>
-                    : slide.__typename === 'VideoField' ?
-                      <ExternalVideo data={slide} image={videoImage} />
-                      : null}
+                    : <VideoPlayer data={slide} image={videoImage} />
+                  }
                 </SwiperSlide>
               )}
             </Swiper>

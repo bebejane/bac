@@ -1,5 +1,5 @@
 query AllEvents($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale) {
-	events: allEvents(locale: $locale, first: $first, skip: $skip, orderBy: _createdAt_ASC) {
+	events: allEvents(locale: $locale, first: $first, skip: $skip, orderBy: _createdAt_DESC) {
 		...EventFragmentLight
 	}
 	pagination: _allEventsMeta {

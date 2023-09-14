@@ -25,7 +25,7 @@ fragment ProjectFragment on ProjectRecord {
 		...ImageFragment
 	}
 	gallery {
-		...ImageFragment
+		...GalleryFragment
 	}
 	video {
 		...VideoFragment
