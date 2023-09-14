@@ -12,7 +12,7 @@ export type Props = {
 export default function Home({ start }: Props) {
 
 	const containerRef = useRef<HTMLDivElement>(null);
-	const lineSizes = [1, 2, 3, 4]
+	const lineSizes = [1, 4, 6]
 
 	useEffect(() => { // Randomize line sizes
 		const hrs = containerRef.current?.querySelectorAll('hr');
