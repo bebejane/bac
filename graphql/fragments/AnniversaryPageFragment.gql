@@ -22,7 +22,7 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 		...ImageFragment
 	}
 	gallery {
-		...ImageFragment
+		...GalleryFragment
 	}
 	video {
 		...VideoFragment
