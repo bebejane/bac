@@ -1,14 +1,14 @@
 import s from './StartImagesDouble.module.scss'
 import React from 'react'
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
-import { DatoLink, Link } from '/components'
+import { DatoLink, Link, StructuredContent } from '/components'
 import { Image } from 'react-datocms/image'
 import { useTranslations } from 'next-intl'
 import { sectionToSlug } from '/lib/utils'
 
 export type Props = { data: StartImagesDoubleRecord, onClick: Function }
 
-export default function StartImagesDouble({ data: { images } }: Props) {
+export default function StartImagesDouble({ data: { id, images }, data }: Props) {
 
 	const t = useTranslations('Home');
 
@@ -26,7 +26,7 @@ export default function StartImagesDouble({ data: { images } }: Props) {
 						</Link>
 						<DatoLink link={link}>
 							<h3>{title}</h3>
-							<Markdown className="mid">{text}</Markdown>
+							<StructuredContent id={id} record={data} content={text} />
 							<div>
 								<strong className="nav"><span>›</span> {t('readMore')}</strong>
 							</div>

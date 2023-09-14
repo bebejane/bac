@@ -1,6 +1,6 @@
 import s from './StartVideo.module.scss'
 import React from 'react'
-import { DatoLink, VideoPlayer, Link } from '/components'
+import { DatoLink, VideoPlayer, Link, StructuredContent } from '/components'
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import { useRef } from 'react'
 import { useTranslations } from 'next-intl'
@@ -8,7 +8,7 @@ import { sectionToSlug } from '/lib/utils'
 
 export type Props = { data: StartVideoRecord }
 
-export default function StartVideo({ data: { video, title, section, text, link } }: Props) {
+export default function StartVideo({ data: { id, video, title, section, text, link }, data }: Props) {
 
 	const ref = useRef()
 	const t = useTranslations('Home');
@@ -33,7 +33,9 @@ export default function StartVideo({ data: { video, title, section, text, link }
 				<div className={s.content}>
 					<DatoLink link={link} className={s.title}>
 						<h1>{title}</h1>
-						<Markdown className={s.text}>{text}</Markdown>
+						<div className={s.text}>
+							<StructuredContent id={id} record={data} content={text} />
+						</div>
 						<div className={s.readmore}>
 							<strong className="nav"><span>›</span> {t('readMore')}</strong>
 						</div>
