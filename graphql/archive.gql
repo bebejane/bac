@@ -16,6 +16,9 @@ query Archive($slug: String!, $locale: SiteLocale = en) {
 query ArchiveIntro($locale: SiteLocale) {
 	archiveIntro(locale: $locale) {
 		title
-		text(markdown: false)
+		text {
+			value
+			blocks
+		}
 	}
 }

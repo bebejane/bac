@@ -24,7 +24,7 @@ export type ArticleProps = {
   aside?: React.ReactNode | React.ReactNode[] | undefined
   title?: string
   subtitle?: string
-  intro?: StructuredTextDocument
+  intro?: any
   image?: ImageFileField
   video?: VideoField
   videoImage?: ImageFileField
