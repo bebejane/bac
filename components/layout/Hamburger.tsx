@@ -17,7 +17,7 @@ export default function Hamburger() {
   return (
     <div className={s.hamburger} onClick={handleClick}>
       <strong>
-        {t('menu')}
+        {!showMenu ? t('menu') : t('close')}
       </strong>
     </div>
   )

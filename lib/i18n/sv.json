@@ -7,7 +7,8 @@
 		"anniversary": "BAC 20 år",
 		"archive": "Arkiv",
 		"contact": "Kontakt",
-		"menu": "Meny"
+		"menu": "Meny",
+		"close": "Stäng"
 	},
 	"FilterBar": {
 		"sortBy": "Sorera på",

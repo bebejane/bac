@@ -12,6 +12,7 @@ type Scalars = {
   Float: number;
   BooleanType: any;
   CustomData: any;
+  Date: any;
   DateTime: any;
   FloatType: any;
   IntType: any;
@@ -838,6 +839,24 @@ type CvRecordListListNonNullMultiLocaleField = {
   __typename?: 'CvRecordListListNonNullMultiLocaleField';
   locale?: Maybe<SiteLocale>;
   value: Array<CvRecord>;
+};
+
+/** Specifies how to filter Date fields */
+type DateFilter = {
+  /** Search for records with an exact match */
+  eq?: InputMaybe<Scalars['Date']>;
+  /** Filter records with the specified field defined (i.e. with any value) or not */
+  exists?: InputMaybe<Scalars['BooleanType']>;
+  /** Filter records with a value that's strictly greater than the one specified */
+  gt?: InputMaybe<Scalars['Date']>;
+  /** Filter records with a value that's greater than or equal to the one specified */
+  gte?: InputMaybe<Scalars['Date']>;
+  /** Filter records with a value that's less than the one specified */
+  lt?: InputMaybe<Scalars['Date']>;
+  /** Filter records with a value that's less or equal than the one specified */
+  lte?: InputMaybe<Scalars['Date']>;
+  /** Exclude records with an exact match */
+  neq?: InputMaybe<Scalars['Date']>;
 };
 
 type EventModelContentField = {
@@ -3216,12 +3235,12 @@ type ProjectModelFilter = {
   _unpublishingScheduledAt?: InputMaybe<PublishedAtFilter>;
   _updatedAt?: InputMaybe<UpdatedAtFilter>;
   content?: InputMaybe<StructuredTextFilter>;
+  endDate?: InputMaybe<DateFilter>;
   gallery?: InputMaybe<GalleryFilter>;
   id?: InputMaybe<ItemIdFilter>;
   image?: InputMaybe<FileFilter>;
   intro?: InputMaybe<StructuredTextFilter>;
   introHeadline?: InputMaybe<StringFilter>;
-  ongoing?: InputMaybe<BooleanFilter>;
   slug?: InputMaybe<SlugFilter>;
   subtitle?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
@@ -3260,12 +3279,12 @@ enum ProjectModelOrderBy {
   _unpublishingScheduledAt_DESC = '_unpublishingScheduledAt_DESC',
   _updatedAt_ASC = '_updatedAt_ASC',
   _updatedAt_DESC = '_updatedAt_DESC',
+  endDate_ASC = 'endDate_ASC',
+  endDate_DESC = 'endDate_DESC',
   id_ASC = 'id_ASC',
   id_DESC = 'id_DESC',
   introHeadline_ASC = 'introHeadline_ASC',
   introHeadline_DESC = 'introHeadline_DESC',
-  ongoing_ASC = 'ongoing_ASC',
-  ongoing_DESC = 'ongoing_DESC',
   subtitle_ASC = 'subtitle_ASC',
   subtitle_DESC = 'subtitle_DESC',
   title_ASC = 'title_ASC',
@@ -3301,13 +3320,13 @@ type ProjectRecord = RecordInterface & {
   _updatedAt: Scalars['DateTime'];
   content?: Maybe<ProjectModelContentField>;
   cv: Array<CvRecord>;
+  endDate?: Maybe<Scalars['Date']>;
   gallery: Array<FileField>;
   id: Scalars['ItemId'];
   image?: Maybe<ImageFileField>;
   intro?: Maybe<ProjectModelIntroField>;
   introHeadline?: Maybe<Scalars['String']>;
   metaInfo: Array<MetaInfoRecord>;
-  ongoing?: Maybe<Scalars['BooleanType']>;
   slug?: Maybe<Scalars['String']>;
   subtitle?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
