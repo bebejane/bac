@@ -100,6 +100,7 @@ export default function Menu({ items }: MenuProps) {
 						<Language menu={items} />
 					</li>
 				</ul >
+				<div className={cn(s.background, showMenu && s.show)}></div>
 			</nav >
 		</>
 	)

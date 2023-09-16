@@ -44,12 +44,7 @@ export default function Article({ id, children, title, subtitle, content, image,
 
   const t = useTranslations()
   const [index, setIndex] = useState(0)
-  const [loaded, setLoaded] = useState<any>({})
   const [caption, setCaption] = useState<string>(gallery?.[0]?.title || image?.title)
-  const [offset, setOffset] = useState(0)
-  const { scrolledPosition, viewportHeight } = useScrollInfo()
-  const { isDesktop } = useDevice()
-  const ratio = !isDesktop ? 0 : offset ? Math.max(0, Math.min(1, ((scrolledPosition - (offset > viewportHeight ? offset - viewportHeight + 100 : 0)) / viewportHeight))) : 0
   const figureRef = useRef<HTMLElement | null>(null)
   const swiperRef = useRef<SwiperType | undefined>()
   //@ts-ignore
@@ -143,9 +138,14 @@ export default function Article({ id, children, title, subtitle, content, image,
               </section>
             }
             {cv?.map(({ headline, text }, idx) =>
-              <React.Fragment key={idx}>
-                <Markdown className={cn("mid", s.cv)}>{`**${headline?.trim()}** ${text}`}</Markdown>
-              </React.Fragment>
+              <div className={cn("mid", s.cv)} key={idx}>
+                <i>{headline?.trim()}</i>
+                <StructuredContent
+                  id={id}
+                  record={record}
+                  content={text}
+                />
+              </div>
             )}
             {children}
 
@@ -158,7 +158,11 @@ export default function Article({ id, children, title, subtitle, content, image,
               {metaInfo?.map(({ headline, text }, idx) =>
                 <React.Fragment key={idx}>
                   <h3>{headline}</h3>
-                  <Markdown>{text}</Markdown>
+                  <StructuredContent
+                    id={id}
+                    record={record}
+                    content={text}
+                  />
                 </React.Fragment>
               )}
             </aside>

@@ -38,13 +38,19 @@ fragment ProjectFragment on ProjectRecord {
 		__typename
 		id
 		headline
-		text
+		text {
+			blocks
+			value
+		}
 	}
 	cv {
 		__typename
 		id
 		headline
-		text
+		text {
+			blocks
+			value
+		}
 	}
 	slug
 	_allSlugLocales {
