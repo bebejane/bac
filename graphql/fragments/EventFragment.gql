@@ -39,6 +39,7 @@ fragment EventFragment on EventRecord {
 		id
 		headline
 		text {
+			__typename
 			blocks
 			value
 		}
@@ -48,6 +49,7 @@ fragment EventFragment on EventRecord {
 		id
 		headline
 		text {
+			__typename
 			blocks
 			value
 		}

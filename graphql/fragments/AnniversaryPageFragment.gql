@@ -37,6 +37,7 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 		id
 		headline
 		text {
+			__typename
 			blocks
 			value
 		}
@@ -46,6 +47,7 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 		id
 		headline
 		text {
+			__typename
 			blocks
 			value
 		}
