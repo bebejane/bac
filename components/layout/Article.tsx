@@ -55,6 +55,7 @@ export default function Article({ id, children, title, subtitle, content, image,
     setCaption(c)
   }, [index])
 
+  console.log(cv)
   return (
     <>
       <DatoSEO title={title} />
@@ -137,18 +138,19 @@ export default function Article({ id, children, title, subtitle, content, image,
                 />
               </section>
             }
-            {cv?.map(({ headline, text }, idx) =>
-              <div className={cn("mid", s.cv)} key={idx}>
-                <i>{headline?.trim()}</i>
-                <StructuredContent
-                  id={id}
-                  record={record}
-                  content={text}
-                />
-              </div>
-            )}
+            {cv?.map(({ headline, text }, idx) => {
+              return (
+                <div className={cn("mid", s.cv)} key={idx}>
+                  <strong>{headline?.trim()} </strong>
+                  <StructuredContent
+                    id={id}
+                    record={record}
+                    content={text}
+                  />
+                </div>
+              )
+            })}
             {children}
-
           </section>
           {metaInfo &&
             <aside>
