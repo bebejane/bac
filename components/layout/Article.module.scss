@@ -40,7 +40,7 @@
       margin-bottom: var(--space);
     }
 
-    .swiper>div {
+    .swiper > div {
       align-items: center;
     }
 
@@ -70,19 +70,22 @@
           object-fit: contain;
         }
 
-        &.small {}
+        &.small {
+        }
 
-        &.medium {}
+        &.medium {
+        }
 
-        &.large {}
+        &.large {
+        }
 
-        &.portrait {}
+        &.portrait {
+        }
       }
     }
 
     &:hover {
       @include mq($from: desktop) {
-
         .next,
         .prev {
           display: flex !important;
@@ -168,9 +171,9 @@
 
     @include mq($until: desktop) {
       display: block;
-      margin-top: 1rem;
+      margin-top: -1rem;
+      margin-bottom: 1rem;
       font-size: 0.8rem;
-      text-align: center;
     }
   }
 
@@ -214,11 +217,11 @@
       }
     }
 
-    .intro>p {
+    .intro > p {
       padding: 0;
     }
 
-    .cv>p>strong {
+    .cv > p > strong {
       font-weight: bold !important;
     }
   }

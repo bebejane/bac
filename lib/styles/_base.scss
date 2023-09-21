@@ -1,6 +1,6 @@
 :root {
 	--black: #161616;
-	--white: #fcfcfc;
+	--white: #ffffff;
 	--red: #bf0000;
 	--yellow: #ffdcb4;
 	--archive: linear-gradient(Gainsboro, silver);
@@ -13,13 +13,12 @@
 	--line: 4px solid var(--black);
 	--line-thick: 0.4vw solid var(--black);
 	--line-thin: max(1px, 0.1vw) solid var(--black);
-	--line-top: 0.5vw;
+	--line-top: 10px;
 	--line-random: 4px solid var(--black);
 	--logosize: 4.2rem;
 	--topbar-height: calc(2rem + var(--logosize) + 2rem);
 	--navbar-height: var(--topbar-height);
 	--line-height: 1.5em;
-
 
 	--z-menu: 1100;
 	--z-logo: 1200;
@@ -174,9 +173,10 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out,
-	background-color 0.3s ease-in-out,
-	padding 0.5s;
+	transition:
+		color 0.2s ease-in-out,
+		background-color 0.3s ease-in-out,
+		padding 0.5s;
 
 	&:hover {
 		span {
