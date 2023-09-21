@@ -30,7 +30,9 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 
 				<div className={s.introWrap}>
 					<h1>{title}</h1>
-					<Markdown className={s.intro}>{intro}</Markdown>
+					<div className={s.intro}>
+						<StructuredContent id={id} record={anniversary} content={intro} />
+					</div>
 				</div>
 				<ul className={s.pages}>
 					{anniversaryPages.map(({ title, introHeadline, image, slug }, idx) =>
