@@ -4163,6 +4163,8 @@ type StartSelectedProjectRecord_seoMetaTagsArgs = {
   locale?: InputMaybe<SiteLocale>;
 };
 
+type StartTextModelLinkField = ExternalLinkRecord | InternalLinkRecord;
+
 type StartTextModelTextField = {
   __typename?: 'StartTextModelTextField';
   blocks: Array<Scalars['String']>;
@@ -4187,6 +4189,7 @@ type StartTextRecord = RecordInterface & {
   _unpublishingScheduledAt?: Maybe<Scalars['DateTime']>;
   _updatedAt: Scalars['DateTime'];
   id: Scalars['ItemId'];
+  link: StartTextModelLinkField;
   section?: Maybe<Scalars['String']>;
   text?: Maybe<StartTextModelTextField>;
   title?: Maybe<Scalars['String']>;
