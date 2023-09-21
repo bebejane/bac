@@ -81,6 +81,28 @@ query Start($locale: SiteLocale) {
 					value
 					blocks
 				}
+				link {
+					... on InternalLinkRecord {
+						__typename
+						title
+						record {
+							... on EventRecord {
+								...EventFragmentLight
+							}
+							... on ProjectRecord {
+								...ProjectFragmentLight
+							}
+							... on ArchiveRecord {
+								...ArchiveFragmentLight
+							}
+						}
+					}
+					... on ExternalLinkRecord {
+						__typename
+						title
+						url
+					}
+				}
 			}
 			... on StartVideoRecord {
 				id
