@@ -27,6 +27,7 @@
 	},
 	"Anniversary": {
 		"previous": "Föregående",
-		"next": "Nästa"
+		"next": "Nästa",
+		"archive_visit": "Nedslag i arkivet"
 	}
 }

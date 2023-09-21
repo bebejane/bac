@@ -9,11 +9,14 @@ import * as parse5 from 'parse5';
 const client = buildClient({ apiToken: process.env.DATOCMS_API_TOKEN });
 
 (async () => {
+  const types = ['anniversary_page', 'event', 'project']
+  const langs = ['en', 'sv']
+
   const type = 'anniversary_page'
   //const type = 'event'
   //const type = 'project'
 
-  const langs = ['en', 'sv']
+
 
   for await (const record of client.items.listPagedIterator({ filter: { type }, nested: true })) {
 
@@ -46,7 +49,7 @@ const client = buildClient({ apiToken: process.env.DATOCMS_API_TOKEN });
 
     }
     await client.items.update(record.id, record);
-    //console.log(record.cv.sv)
+    //console.log(JSON.stringify(record, null, 2))
     process.stdout.write('.')
   }
   console.log('done')

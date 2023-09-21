@@ -27,6 +27,7 @@
 	},
 	"Anniversary": {
 		"previous": "Previous",
-		"next": "Next"
+		"next": "Next",
+		"archive_visit": "Visit to the archive"
 	}
 }
