@@ -34,6 +34,7 @@ export default function Thumbnail({ image, slug, title, subtitle, typeTitle, typ
               className={s.image}
               pictureClassName={s.picture}
               onLoad={() => setLoaded(true)}
+              intersectionMargin="0px 0px 200% 0px"
             />
           </>
           <div className={s.cover}></div>

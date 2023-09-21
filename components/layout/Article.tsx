@@ -3,15 +3,13 @@ import "swiper/css/effect-fade";
 import cn from 'classnames'
 import React, { useEffect, useRef, useState } from 'react'
 import { StructuredContent, VideoPlayer } from "/components";
-import { Image, StructuredTextDocument } from 'react-datocms';
-import { useScrollInfo } from 'dato-nextjs-utils/hooks'
+import { Image } from 'react-datocms';
 import { DatoSEO } from 'dato-nextjs-utils/components';
 import Link from '/components/nav/Link'
 import { useTranslations } from 'next-intl';
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
-import useDevice from '/lib/hooks/useDevice';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectFade, EffectCards, Navigation } from 'swiper'
+import { EffectFade, EffectCards } from 'swiper'
 import SwiperCore from 'swiper'
 import type { Swiper as SwiperType } from 'swiper'
 
@@ -55,7 +53,6 @@ export default function Article({ id, children, title, subtitle, content, image,
     setCaption(c)
   }, [index])
 
-  console.log(cv)
   return (
     <>
       <DatoSEO title={title} />
