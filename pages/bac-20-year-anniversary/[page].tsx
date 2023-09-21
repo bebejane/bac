@@ -27,7 +27,7 @@ export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle
 			<Article
 				id={id}
 				subtitle={title}
-				title={introHeadline}
+				title={subtitle}
 				intro={intro}
 				image={image}
 				video={video}

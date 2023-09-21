@@ -7,6 +7,7 @@ import { DatoMarkdown as Markdown, DatoSEO } from "dato-nextjs-utils/components"
 import { Article, Link, StructuredContent } from "/components";
 import { Image } from "react-datocms";
 import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
 export type Props = {
 	anniversary: AnniversaryRecord
@@ -14,6 +15,8 @@ export type Props = {
 }
 
 export default function Anniversary({ anniversary: { id, title, intro, content }, anniversary, anniversaryPages }: Props) {
+
+	const t = useTranslations('Anniversary')
 
 	useEffect(() => {
 		document.body.classList.add('background-palette-animation')
@@ -39,7 +42,7 @@ export default function Anniversary({ anniversary: { id, title, intro, content }
 						<li key={idx}>
 							<Link href={`/bac-20-year-anniversary/${slug}`}>
 								<figcaption>
-									<h2>Nedslag i arkivet</h2>
+									<h2>{t("archive_visit")}</h2>
 									<div>
 										<h3>{title}</h3>
 										<p className="mid">{introHeadline}</p>
