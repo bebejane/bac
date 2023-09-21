@@ -21,7 +21,7 @@
 
         @include mq($until: tablet) {
           background-color: var(--white);
-          max-height: 100vh;
+          max-height: calc(100vh - var(--navbar-height));
           overflow-y: scroll;
           scrollbar-width: none;
 
