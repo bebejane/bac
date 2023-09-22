@@ -88,6 +88,7 @@ export default function Article({ id, children, title, subtitle, content, image,
                         data={slide.responsiveImage}
                         lazyLoad={idx === index ? true : false}
                         className={s.image}
+                        fadeInDuration={0}
                         pictureClassName={s.picture}
                         placeholderClassName={s.placeholder}
                       />
