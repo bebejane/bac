@@ -18,9 +18,11 @@ export default withRevalidate(async (record, revalidate) => {
         break;
       case 'project':
         localePaths.push(`/projects/${slug}`)
+        localePaths.push(`/`)
         break;
       case 'event':
         localePaths.push(`/events/${slug}`)
+        localePaths.push(`/`)
         break;
       case 'about':
         localePaths.push(`/about/${slug}`)
