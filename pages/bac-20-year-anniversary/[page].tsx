@@ -17,9 +17,14 @@ export type Props = {
 export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, introHeadline, image, gallery, video, videoImage, videoCaption, content, cv, metaInfo, color }, anniversaryPage, anniversaryPages }: Props) {
 
 	useEffect(() => {
+
 		if (!color?.hex) return
 		document.body.style.setProperty('--background-fade-color', color.hex)
-		return () => document.body.style.setProperty('--background-fade-color', 'var(--white)')
+		document.body.classList.add('gradient-background')
+		return () => {
+			document.body.style.setProperty('--background-fade-color', 'var(--white)')
+			document.body.classList.remove('gradient-background')
+		}
 	}, [color])
 
 	return (
