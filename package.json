@@ -43,6 +43,7 @@
     "date-fns": "^2.29.3",
     "dato-nextjs-utils": "github:bebejane/dato-nextjs-utils",
     "datocms-listen": "0.1.14",
+    "datocms-structured-text-to-plain-text": "^2.0.4",
     "datocms-structured-text-utils": "^2.0.4",
     "dotenv": "^16.0.0",
     "graphql": "^16.8.0",

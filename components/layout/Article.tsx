@@ -10,11 +10,11 @@ import { useTranslations } from 'next-intl';
 import { DatoMarkdown as Markdown } from 'dato-nextjs-utils/components'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, EffectCards } from 'swiper'
+import { render } from 'datocms-structured-text-to-plain-text'
 import SwiperCore from 'swiper'
 import type { Swiper as SwiperType } from 'swiper'
 
 SwiperCore.use([EffectFade, EffectCards]);
-
 
 export type ArticleProps = {
   id: string
@@ -42,20 +42,21 @@ export default function Article({ id, children, title, subtitle, content, image,
 
   const t = useTranslations()
   const [index, setIndex] = useState(0)
-  const [caption, setCaption] = useState<string>(gallery?.[0]?.title || image?.title)
   const figureRef = useRef<HTMLElement | null>(null)
   const swiperRef = useRef<SwiperType | undefined>()
   //@ts-ignore
   const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
 
+  const [caption, setCaption] = useState<string | undefined>(slides?.[index]?.title)
+
   useEffect(() => {
-    const c = (gallery?.[index]?.title || image?.title)?.replaceAll('<br>', '\n')
-    setCaption(c)
+    setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'))
   }, [index])
+
 
   return (
     <>
-      <DatoSEO title={title} />
+      <DatoSEO title={title} description={render(intro)?.split('\n')[0]} />
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
         {slides.length > 0 &&
@@ -70,11 +71,7 @@ export default function Article({ id, children, title, subtitle, content, image,
               simulateTouch={true}
               initialSlide={0}
               onSwiper={(swiper) => swiperRef.current = swiper}
-              onSlideChange={({ realIndex }) => {
-                setIndex(realIndex)
-                //@ts-ignore
-                setCaption(gallery?.[realIndex]?.title || gallery?.[realIndex]?.alt)
-              }}
+              onSlideChange={({ realIndex }) => setIndex(realIndex)}
             >
               {slides?.map((slide, idx) =>
                 <SwiperSlide key={idx} className={cn(s.slide, slides.length === 1 && s.solo)}>
