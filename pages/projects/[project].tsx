@@ -19,13 +19,13 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Project({ project: { title, subtitle, content, image, gallery, video, videoImage, intro, _createdAt }, project }: Props) {
+export default function Project({ project: { title, subtitle, introHeadline, content, image, gallery, video, videoImage, intro, _createdAt }, project }: Props) {
 
 	return (
 		<Article
 			id={project.id}
 			title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
-			subtitle={title}
+			subtitle={introHeadline}
 			image={image}
 			gallery={gallery}
 			video={video}
