@@ -53,7 +53,7 @@
     "in-view": "^0.6.1",
     "markdown-truncate": "^1.0.4",
     "marked": "^9.0.0",
-    "next": "13.5.6",
+    "next": "14.0.0",
     "next-compose-plugins": "^2.2.1",
     "next-intl": "^2.10.4",
     "next-plugin-graphql": "^0.0.2",
