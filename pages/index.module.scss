@@ -25,4 +25,8 @@
   .about {
     padding-top: var(--space);
   }
+
+  section:last-of-type {
+    margin-bottom: 0 !important;
+  }
 }
