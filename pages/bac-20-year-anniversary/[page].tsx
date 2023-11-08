@@ -91,7 +91,7 @@ export const getStaticProps = withGlobalProps({ queries: [AllAnniversaryPagesDoc
 	const { anniversaryPage } = await apiQuery(AnniversaryPageDocument, { variables: { slug, locale: context.locale }, preview: context.preview })
 
 	if (!anniversaryPage)
-		return { notFound: true }
+		return { notFound: true, revalidate }
 
 	return {
 		props: {

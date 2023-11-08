@@ -41,7 +41,7 @@ export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, r
 	const { archive } = await apiQuery(ArchiveDocument, { variables: { slug, locale: context.locale }, preview: context.preview })
 
 	if (!archive)
-		return { notFound: true }
+		return { notFound: true, revalidate }
 
 	return {
 		props: {
