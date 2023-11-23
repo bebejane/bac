@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import s from './InternalVideoPlayer.module.scss'
 import cn from 'classnames'
 
