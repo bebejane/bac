@@ -18,9 +18,9 @@ export default function VideoPlayer({ data, image }) {
 				<div className={cn(s.modal, show && s.show)}>
 					<img src="/images/close.svg" className={s.close} onClick={() => setShow(false)} />
 
-					{isInternalVideo ?
+					{show && isInternalVideo ?
 						<InternalVideoPlayer data={data} />
-						:
+						: show &&
 						<ExternalVideoPlayer data={data} image={image} />
 					}
 				</div>
