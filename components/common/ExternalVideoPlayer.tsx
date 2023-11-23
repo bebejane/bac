@@ -29,7 +29,7 @@ export default function ExternalVideoPlayer({ data, image }) {
 				<Youtube
 					opts={{
 						playerVars: {
-							autoplay: false,
+							autoplay: true,
 							controls: 0,
 							rel: 0
 						}
