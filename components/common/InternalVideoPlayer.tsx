@@ -9,11 +9,9 @@ export default function InternalVideoPlayer({ data, className }: VideoPlayerProp
 		<video
 			className={cn(s.video, className)}
 			src={data.video[`mp4high`]}
-			playsInline
-			loop={true}
-			autoPlay={false}
+			muted={true}
+			autoPlay={true}
 			controls
-			disablePictureInPicture={true}
 			poster={data.video?.thumbnailUrl}
 		/>
 	)

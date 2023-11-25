@@ -21,6 +21,12 @@
       object-fit: contain;
     }
 
+    .video {
+      height: 100%;
+      object-fit: cover;
+    }
+
+
     .play {
       position: absolute;
       z-index: 2;
@@ -70,5 +76,6 @@
     margin: 2rem;
     cursor: pointer;
     height: 3rem;
+    z-index: 2;
   }
 }
