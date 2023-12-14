@@ -59,4 +59,7 @@ fragment ProjectFragment on ProjectRecord {
 		locale
 		value
 	}
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
 }

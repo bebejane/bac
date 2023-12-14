@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Event({ event: { id, title, subtitle, image, introHeadline, video, videoImage, gallery, metaInfo, cv, intro, content, _createdAt }, event }: Props) {
+export default function Event({ event: { id, title, subtitle, image, introHeadline, video, videoImage, gallery, metaInfo, cv, intro, content, _createdAt, _seoMetaTags }, event }: Props) {
 
 	return (
 		<Article
@@ -37,6 +37,7 @@ export default function Event({ event: { id, title, subtitle, image, introHeadli
 			content={content}
 			metaInfo={metaInfo}
 			cv={cv}
+			seo={_seoMetaTags}
 			backLink={'/events'}
 		/>
 	);

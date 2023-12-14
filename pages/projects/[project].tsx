@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function Project({ project: { title, subtitle, introHeadline, content, image, gallery, video, videoImage, intro, _createdAt }, project }: Props) {
+export default function Project({ project: { title, subtitle, introHeadline, content, image, gallery, video, videoImage, intro, _createdAt, _seoMetaTags }, project }: Props) {
 
 	return (
 		<Article
@@ -34,6 +34,7 @@ export default function Project({ project: { title, subtitle, introHeadline, con
 			content={content}
 			metaInfo={project.metaInfo}
 			cv={project.cv}
+			seo={_seoMetaTags}
 			backLink={'/projects'}
 		/>
 	);

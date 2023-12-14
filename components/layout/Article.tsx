@@ -36,9 +36,10 @@ export type ArticleProps = {
   backLink?: string
   medium?: boolean
   noImages?: boolean
+  seo?: Tag[]
 }
 
-export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, videoImage, onClick, record, backLink, medium, noImages }: ArticleProps) {
+export default function Article({ id, children, title, subtitle, content, image, imageSize, gallery, intro, metaInfo, cv, video, videoImage, onClick, record, backLink, medium, noImages, seo }: ArticleProps) {
 
   const t = useTranslations()
   const [index, setIndex] = useState(0)
@@ -56,7 +57,7 @@ export default function Article({ id, children, title, subtitle, content, image,
 
   return (
     <>
-      <DatoSEO title={title} description={render(intro)?.split('\n')[0]} />
+      <DatoSEO title={title} description={render(intro)?.split('\n')[0]} seo={seo} />
       <div className={cn(s.article, 'article')}>
         <header><h1>{title}</h1></header>
         {slides.length > 0 &&

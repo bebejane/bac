@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 	}
 }
 
-export default function About({ about: { id, title, content, image }, about }: Props) {
+export default function About({ about: { id, title, content, image, _seoMetaTags } }: Props) {
 
 	return (
 		<Article
@@ -31,6 +31,7 @@ export default function About({ about: { id, title, content, image }, about }: P
 			image={image}
 			content={content}
 			medium={true}
+			seo={_seoMetaTags}
 		/>
 	);
 }

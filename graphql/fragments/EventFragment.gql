@@ -59,4 +59,7 @@ fragment EventFragment on EventRecord {
 		locale
 		value
 	}
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
 }

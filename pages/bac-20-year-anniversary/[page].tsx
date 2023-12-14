@@ -14,18 +14,34 @@ export type Props = {
 	anniversaryPages: AnniversaryPageRecord[]
 }
 
-export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle, intro, introHeadline, image, gallery, video, videoImage, videoCaption, content, cv, metaInfo, color }, anniversaryPage, anniversaryPages }: Props) {
-
+export default function AnniversaryPage({
+	anniversaryPage: {
+		id,
+		title,
+		subtitle,
+		intro,
+		introHeadline,
+		image,
+		gallery,
+		video,
+		videoImage,
+		content,
+		cv,
+		metaInfo,
+		color,
+		_seoMetaTags
+	},
+	anniversaryPages,
+}: Props) {
 	useEffect(() => {
-
-		if (!color?.hex) return
-		document.body.style.setProperty('--background-fade-color', color.hex)
-		document.body.classList.add('gradient-background')
+		if (!color?.hex) return;
+		document.body.style.setProperty("--background-fade-color", color.hex);
+		document.body.classList.add("gradient-background");
 		return () => {
-			document.body.style.setProperty('--background-fade-color', 'var(--white)')
-			document.body.classList.remove('gradient-background')
-		}
-	}, [color])
+			document.body.style.setProperty("--background-fade-color", "var(--white)");
+			document.body.classList.remove("gradient-background");
+		};
+	}, [color]);
 
 	return (
 		<>
@@ -41,8 +57,8 @@ export default function AnniversaryPage({ anniversaryPage: { id, title, subtitle
 				content={content}
 				metaInfo={metaInfo}
 				cv={cv}
-			>
-			</Article>
+				seo={_seoMetaTags}
+			></Article>
 			<AnniversaryPagination pages={anniversaryPages} />
 		</>
 	);
