@@ -3,6 +3,7 @@ fragment ProjectFragmentLight on ProjectRecord {
 	_createdAt
 	id
 	title
+	endDate
 	subtitle
 	introHeadline
 	intro {

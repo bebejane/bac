@@ -3,6 +3,7 @@ fragment ProjectFragment on ProjectRecord {
 	_createdAt
 	id
 	title
+	endDate
 	subtitle
 	intro {
 		value

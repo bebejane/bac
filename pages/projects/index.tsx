@@ -25,7 +25,8 @@ export default function Projects({ projects, randomFonts }: Props) {
 	const [filter, setFilter] = React.useState<'year' | 'artistName'>('year')
 
 	const projectsByYear = projects.reduce((acc, project) => {
-		const year = new Date(project._createdAt).getFullYear().toString();
+
+		const year = new Date(project.endDate ?? project._createdAt).getFullYear().toString();
 		const yearProject = acc.find((el) => el.typeTitle === year);
 		if (yearProject)
 			yearProject.projects.push(project);
