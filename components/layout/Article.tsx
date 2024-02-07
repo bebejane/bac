@@ -47,8 +47,8 @@ export default function Article({ id, children, title, subtitle, content, image,
   const swiperRef = useRef<SwiperType | undefined>()
   //@ts-ignore
   const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [video].concat(gallery?.length ? gallery : [image]).filter(el => el)
-
   const [caption, setCaption] = useState<string | undefined>(slides?.[index]?.title)
+  const haveAside = metaInfo || caption
 
   useEffect(() => {
     setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'))
@@ -116,7 +116,7 @@ export default function Article({ id, children, title, subtitle, content, image,
           </div>
         }
         <p className={s.captionMobile}>{caption}</p>
-        <div className={cn(s.wrapper, medium && s.medium)}>
+        <div className={cn(s.wrapper, (medium && !haveAside) && s.medium)}>
           <section className={s.content}>
             {subtitle && <h3>{subtitle}</h3>}
             <StructuredContent
@@ -148,24 +148,23 @@ export default function Article({ id, children, title, subtitle, content, image,
             })}
             {children}
           </section>
-
-          <aside>
-            {caption &&
-              <Markdown className={s.caption}>{caption}</Markdown>
-            }
-            {metaInfo?.map(({ headline, text }, idx) =>
-              <React.Fragment key={idx}>
-                <h3>{headline}</h3>
-                <StructuredContent
-                  id={id}
-                  record={record}
-                  content={text}
-                />
-              </React.Fragment>
-            )}
-          </aside>
-
-
+          {haveAside &&
+            <aside>
+              {caption &&
+                <Markdown className={s.caption}>{caption}</Markdown>
+              }
+              {metaInfo?.map(({ headline, text }, idx) =>
+                <React.Fragment key={idx}>
+                  <h3>{headline}</h3>
+                  <StructuredContent
+                    id={id}
+                    record={record}
+                    content={text}
+                  />
+                </React.Fragment>
+              )}
+            </aside>
+          }
         </div>
         {backLink &&
           <Link href={backLink}>
