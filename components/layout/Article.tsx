@@ -148,23 +148,23 @@ export default function Article({ id, children, title, subtitle, content, image,
             })}
             {children}
           </section>
-          {metaInfo &&
-            <aside>
-              {caption &&
-                <Markdown className={s.caption}>{caption}</Markdown>
-              }
-              {metaInfo?.map(({ headline, text }, idx) =>
-                <React.Fragment key={idx}>
-                  <h3>{headline}</h3>
-                  <StructuredContent
-                    id={id}
-                    record={record}
-                    content={text}
-                  />
-                </React.Fragment>
-              )}
-            </aside>
-          }
+
+          <aside>
+            {caption &&
+              <Markdown className={s.caption}>{caption}</Markdown>
+            }
+            {metaInfo?.map(({ headline, text }, idx) =>
+              <React.Fragment key={idx}>
+                <h3>{headline}</h3>
+                <StructuredContent
+                  id={id}
+                  record={record}
+                  content={text}
+                />
+              </React.Fragment>
+            )}
+          </aside>
+
 
         </div>
         {backLink &&

@@ -30,7 +30,6 @@ export default function About({ about: { id, title, content, image, _seoMetaTags
 			title={title}
 			image={image}
 			content={content}
-			medium={true}
 			seo={_seoMetaTags}
 		/>
 	);
