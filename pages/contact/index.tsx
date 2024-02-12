@@ -24,16 +24,8 @@ export default function Contact({ contact: { id, image, mailingAddress, email, i
 			id={'contact'}
 			title={'Contact'}
 			medium={true}
+			image={image}
 		>
-			{image &&
-				<figure className={s.figure}>
-					<Image
-						data={image.responsiveImage}
-						className={s.image}
-						pictureClassName={s.picture}
-					/>
-				</figure>
-			}
 			<div className="structured">
 				<p>
 					{mailingAddress}
