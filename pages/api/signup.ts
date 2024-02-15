@@ -22,7 +22,7 @@ export default async function signup(req: NextRequest) {
 
     const apiEndpoint = 'https://api.createsend.com/api/v3.3'
     const signupEndpoint = `${apiEndpoint}/subscribers/${process.env[`CAMPAIGN_MONITOR_LIST_ID_${locale.toUpperCase()}`]}.json`
-    const basicAuth = atob(`${process.env.CAMPAIGN_MONITOR_API_KEY}:`)
+    const basicAuth = btoa(`${process.env.CAMPAIGN_MONITOR_API_KEY}:`)
 
     console.log('subscribe', email, locale)
 
@@ -55,7 +55,7 @@ export default async function signup(req: NextRequest) {
     })
 
   } catch (error) {
-
+    console.log(error)
     return new Response(JSON.stringify({ success: false, message: error.message }), {
       status: 500,
       headers: { 'content-type': 'application/json' }

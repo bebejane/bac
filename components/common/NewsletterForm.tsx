@@ -3,6 +3,7 @@ import cn from 'classnames'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import Loader from './Loader'
 
 export type Props = {
   className?: string
@@ -53,13 +54,14 @@ export default function NewsletterForm({ }: Props) {
       {success ?
         <p className={s.success}>{t('success')}</p>
         :
-        <form className={cn(s.form, loading && s.loading)} onSubmit={handleSubmit}>
+        <form className={cn(s.form, loading && s.submitting)} onSubmit={handleSubmit}>
           <input type="hidden" name="locale" value={locale} />
           <input type="email" name="email" placeholder={`${t('email')}...`} /><br />
           <button type="submit">{t('submit')}</button>
         </form>
       }
       {error && <p className={s.error}>{error}</p>}
+      {loading && <div className={s.loading}><Loader className={s.loader} /></div>}
     </div>
   )
 }
