@@ -29,5 +29,12 @@
 		"previous": "Previous",
 		"next": "Next",
 		"archive_visit": "Visit to the archive"
+	},
+	"NewsletterForm": {
+		"subscribe": "Subscribe to our newsletter",
+		"email": "Email",
+		"submit": "Subscribe",
+		"success": "You have successfully subscribed to our newsletter!",
+		"error": "An error occurred while subscribing to our newsletter"
 	}
 }

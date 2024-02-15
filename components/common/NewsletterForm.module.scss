@@ -1,0 +1,18 @@
+.newsletter {
+  .form {
+
+    &.loading {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    button {
+      margin: 0;
+
+    }
+  }
+
+  .error {
+    color: var(--red);
+  }
+}

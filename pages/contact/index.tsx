@@ -1,11 +1,8 @@
 import s from "./index.module.scss";
-import cn from 'classnames'
 import withGlobalProps from "/lib/withGlobalProps";
 import { ContactDocument } from "/graphql";
 import { pageProps } from "/lib/i18n";
-import { DatoMarkdown as Markdown } from "dato-nextjs-utils/components";
-import { Article } from "/components";
-import { Image } from "react-datocms";
+import { Article, NewsletterForm } from "/components";
 
 export type Props = {
 	contact: ContactRecord
@@ -42,6 +39,7 @@ export default function Contact({ contact: { id, image, mailingAddress, email, i
 					)}
 				</ul>
 			</div>
+			<NewsletterForm />
 		</Article>
 	);
 }

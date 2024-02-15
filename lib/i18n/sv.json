@@ -29,5 +29,12 @@
 		"previous": "Föregående",
 		"next": "Nästa",
 		"archive_visit": "Nedslag i arkivet"
+	},
+	"NewsletterForm": {
+		"subscribe": "Prenumerera på vårt nyhetsbrev",
+		"email": "E-post",
+		"submit": "Prenumerera",
+		"success": "Tack för att du prenumererar på vårt nyhetsbrev!",
+		"error": "Något gick fel, försök igen senare"
 	}
 }
