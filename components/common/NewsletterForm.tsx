@@ -50,7 +50,7 @@ export default function NewsletterForm({ }: Props) {
 
   return (
     <div className={s.newsletter}>
-      <p>{t('subscribe')}</p>
+      <p className="mid"><strong>{t('subscribe')}</strong></p>
       {success ?
         <p className={s.success}>{t('success')}</p>
         :

@@ -1,8 +1,14 @@
 .newsletter {
   position: relative;
+  margin-top: 1rem;
 
   .form {
     position: relative;
+
+    input {
+      border: 1px solid;
+      font-family: $body-font;
+    }
 
     button {
       margin: 0;
@@ -24,6 +30,5 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.5);
-
   }
 }
