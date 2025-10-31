@@ -2,6 +2,7 @@ query Start($locale: SiteLocale) {
 	start(locale: $locale) {
 		id
 		content {
+			__typename
 			... on StartImageRecord {
 				id
 				layout

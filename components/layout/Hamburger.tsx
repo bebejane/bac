@@ -2,12 +2,12 @@
 import s from './Hamburger.module.scss';
 import cn from 'classnames';
 import React, { useState, useEffect, useRef } from 'react';
-import useStore from '@/lib/store';
+import useStore, { useShallow } from '@/lib/store';
 import { useTranslations } from 'next-intl';
 
 export default function Hamburger() {
 	const t = useTranslations('Menu');
-	const [showMenu, setShowMenu] = useStore((state) => [state.showMenu, state.setShowMenu]);
+	const [showMenu, setShowMenu] = useStore(useShallow((state) => [state.showMenu, state.setShowMenu]));
 
 	const handleClick = (e) => {
 		setShowMenu(!showMenu);

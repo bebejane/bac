@@ -26,5 +26,4 @@ export { default as Logo } from './layout/Logo';
 export { default as Modal } from './layout/Modal';
 export { default as DatoLink } from './nav/DatoLink';
 export { default as Language } from './nav/Language';
-export { default as Link } from './nav/Link';
 export { default as Menu } from './nav/Menu';

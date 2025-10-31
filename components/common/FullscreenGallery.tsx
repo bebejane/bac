@@ -74,7 +74,7 @@ export default function FullscreenGallery({ images, onClose, index = 0, show }: 
 						{images.map((image, idx) => (
 							<SwiperSlide key={idx} className={cn(s.slide)}>
 								<Image
-									pictureClassName={cn(s.image)}
+									imgClassname={cn(s.image)}
 									data={image.responsiveImage}
 									lazyLoad={false}
 									usePlaceholder={false}

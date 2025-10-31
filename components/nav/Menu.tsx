@@ -6,10 +6,10 @@ import { useState, useRef, useEffect } from 'react';
 import type { Menu, MenuItem } from '@/lib/menu';
 import { useLocale, useTranslations } from 'next-intl';
 import { Hamburger } from '@/components';
-import useStore from '@/lib/store';
-import { Link, Language } from '@/components';
+import useStore, { useShallow } from '@/lib/store';
+import { Language } from '@/components';
 import { usePathname } from 'next/navigation';
-import { defaultLocale } from '@/i18n/routing';
+import { defaultLocale, Link } from '@/i18n/routing';
 
 export type MenuProps = { items: Menu };
 
@@ -19,15 +19,11 @@ export default function Menu({ items }: MenuProps) {
 	const pathname = usePathname();
 
 	const menuRef = useRef<HTMLUListElement | null>(null);
-	const [showMenu, setShowMenu, searchQuery, setSearchQuery] = useStore((state) => [
-		state.showMenu,
-		state.setShowMenu,
-		state.searchQuery,
-		state.setSearchQuery,
-	]);
+	const [showMenu, setShowMenu] = useStore(useShallow((state) => [state.showMenu, state.setShowMenu]));
 
 	const [selected, setSelected] = useState<MenuItem | undefined>();
 	const [subSelected, setSubSelected] = useState<MenuItem | undefined>();
+
 	const setSelectedByPath = (path: string) => {
 		let selected = null;
 		const localePath = `${locale !== defaultLocale ? `/${locale}` : ''}${path}`;
@@ -71,7 +67,7 @@ export default function Menu({ items }: MenuProps) {
 	}, [pathname]);
 
 	useEffect(() => {
-		setSelectedByPath(pathname);
+		//setSelectedByPath(pathname);
 	}, [items, locale, defaultLocale, pathname]);
 
 	return (
@@ -86,7 +82,9 @@ export default function Menu({ items }: MenuProps) {
 							style={{ animationDelay: `${index * 50}ms` }}
 						>
 							{!item.sub ? (
-								<Link href={item.slug}>{item.label}</Link>
+								<Link href={item.href} locale={locale}>
+									{item.label}
+								</Link>
 							) : (
 								<span onClick={() => setSubSelected(subSelected?.id === item.id ? undefined : item)}>
 									{item.label}
@@ -97,7 +95,7 @@ export default function Menu({ items }: MenuProps) {
 									>
 										{item.sub.map((subItem, index) => (
 											<li key={index} className={cn(selected?.id === subItem.id && s.selected)}>
-												<Link href={subItem.slug} onClick={(e) => e.stopPropagation()}>
+												<Link href={subItem.href} locale={locale} onClick={(e) => e.stopPropagation()}>
 													{subItem.label}
 												</Link>
 											</li>

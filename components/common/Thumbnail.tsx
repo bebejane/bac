@@ -1,8 +1,8 @@
 import s from './Thumbnail.module.scss';
 import cn from 'classnames';
+import Link from 'next/link';
 import React from 'react';
 import { Image } from 'react-datocms/image';
-import Link from '@/components/nav/Link';
 
 export type Props = {
 	image?: ImageFileField;
@@ -16,7 +16,7 @@ export type Props = {
 
 export default function Thumbnail({ image, slug, title, subtitle, typeTitle, typeFont, translate = true }: Props) {
 	return (
-		<Link href={slug} translate={translate} className={s.thumbnail}>
+		<Link href={slug} className={s.thumbnail}>
 			{typeTitle && (
 				<h2 className={s.typeTitle} style={{ fontFamily: typeFont ?? `Logo1` }}>
 					{typeTitle}
@@ -28,8 +28,7 @@ export default function Thumbnail({ image, slug, title, subtitle, typeTitle, typ
 						<Image
 							data={image.responsiveImage}
 							className={s.image}
-							pictureClassName={s.picture}
-							onLoad={() => setLoaded(true)}
+							imgClassName={s.picture}
 							intersectionMargin='0px 0px 200% 0px'
 						/>
 					</>

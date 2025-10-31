@@ -1,8 +1,9 @@
 import s from './StartVideo.module.scss';
 import React from 'react';
-import { DatoLink, Link, StructuredContent } from '@/components';
+import { DatoLink, StructuredContent } from '@/components';
 import { useTranslations } from 'next-intl';
 import { sectionToSlug } from '@/lib/utils';
+import Link from 'next/link';
 
 export type Props = { data: StartVideoRecord };
 
@@ -24,7 +25,7 @@ export default function StartVideo({ data: { id, title, section, text, link }, d
 				</DatoLink>
 			</div>
 			<div className={s.right}>
-				<Link href={sectionToSlug(section)} translate={true}>
+				<Link href={sectionToSlug(section)}>
 					<h2 className={s.section}>
 						{
 							//@ts-ignore

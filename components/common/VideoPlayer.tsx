@@ -32,7 +32,7 @@ export default function VideoPlayer({ data, image }) {
 					<Image
 						data={image.responsiveImage}
 						className={s.image}
-						pictureClassName={s.picture}
+						imgClassname={s.picture}
 						placeholderClassName={s.placeholder}
 					/>
 				) : isInternalVideo ? (

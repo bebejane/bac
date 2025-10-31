@@ -20,7 +20,7 @@ export default async function Home({ params }: PageProps) {
 	setRequestLocale(locale);
 
 	const { start, draftUrl } = await apiQuery(StartDocument, { variables: { locale: locale as SiteLocale } });
-	console.log(start);
+
 	if (!start) return notFound();
 
 	/*

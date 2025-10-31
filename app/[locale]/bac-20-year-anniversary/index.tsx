@@ -52,7 +52,7 @@ export default function Anniversary({
 								</figcaption>
 
 								<figure>
-									{image && <Image data={image.responsiveImage} className={s.image} pictureClassName={s.picture} />}
+									{image && <Image data={image.responsiveImage} className={s.image} imgClassName={s.picture} />}
 								</figure>
 							</Link>
 						</li>

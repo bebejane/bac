@@ -6,7 +6,6 @@ import cn from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
 import { StructuredContent, VideoPlayer } from '@/components';
 import { Image } from 'react-datocms';
-import Link from '@/components/nav/Link';
 import { useTranslations } from 'next-intl';
 import { Markdown } from 'next-dato-utils/components';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,6 +13,7 @@ import { EffectFade, EffectCards } from 'swiper';
 import { render } from 'datocms-structured-text-to-plain-text';
 import SwiperCore from 'swiper';
 import type { Swiper as SwiperType } from 'swiper';
+import { Link } from '@/i18n/routing';
 
 SwiperCore.use([EffectFade, EffectCards]);
 
@@ -109,7 +109,7 @@ export default function Article({
 												data={slide.responsiveImage}
 												className={s.image}
 												fadeInDuration={0}
-												pictureClassName={s.picture}
+												imgClassname={s.picture}
 												placeholderClassName={s.placeholder}
 											/>
 										</figure>

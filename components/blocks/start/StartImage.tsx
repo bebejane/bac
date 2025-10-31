@@ -1,13 +1,12 @@
-'use client';
-
 import s from './StartImage.module.scss';
 import cn from 'classnames';
 import React from 'react';
 import { StructuredContent } from '@/components';
-import { DatoLink, Link } from '@/components';
+import { DatoLink } from '@/components';
 import { Image } from 'react-datocms/image';
 import { useTranslations } from 'next-intl';
 import { sectionToSlug } from '@/lib/utils';
+import Link from 'next/link';
 
 export type Props = { data: StartImageRecord; onClick: Function };
 
@@ -17,7 +16,7 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 	return (
 		<section className={cn(s.imageBlock, s[layout])}>
 			<div className={s.left}>
-				<Link href={sectionToSlug(section)} translate={true}>
+				<Link href={sectionToSlug(section)}>
 					<h2 className={s.section}>
 						{
 							//@ts-ignore
@@ -40,7 +39,7 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 					{image && (
 						<>
 							<div className={s.cover}></div>
-							<Image data={image.responsiveImage} className={s.image} pictureClassName={s.picture} />
+							<Image data={image.responsiveImage} className={s.image} imgClassname={s.picture} />
 						</>
 					)}
 				</figure>
