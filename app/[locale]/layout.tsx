@@ -3,32 +3,47 @@ import s from './layout.module.scss';
 import { apiQuery } from 'next-dato-utils/api';
 import { ContactDocument, GlobalDocument } from '@/graphql';
 import { Metadata } from 'next';
-import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
+import { Icon } from 'next/dist@/lib/metadata/types/metadata-types';
 import { Content, Footer, Logo, Menu } from '@/components';
 import { buildMenu } from '@/lib/menu';
 import { setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
 import { locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 
 export default async function RootLayout({ children, params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
+
 	setRequestLocale(locale);
 
 	const { contact } = await apiQuery(ContactDocument);
 	const menu = await buildMenu(locale);
+	console.log(JSON.stringify(menu, null, 2));
 	return (
 		<>
-			<div className={s.topline}></div>
-			<Logo />
-			<Menu items={menu} />
-			<div className={s.layout}>
-				<Content menu={menu}>{children}</Content>
-			</div>
-			<Footer contact={contact} />
-			<div className={s.bottomline}></div>
+			<html lang={locale === 'sv' ? 'se-SE' : 'en-US'}>
+				<body id='root'>
+					<NextIntlClientProvider locale={locale}>
+						<main>
+							<div className={s.topline}></div>
+							<Logo />
+							<Menu items={menu} />
+							<div className={s.layout}>
+								<Content menu={menu}>{children}</Content>
+							</div>
+							<Footer contact={contact} />
+							<div className={s.bottomline}></div>
+						</main>
+					</NextIntlClientProvider>
+				</body>
+			</html>
 		</>
 	);
+}
+
+export function generateStaticParams() {
+	return locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata(): Promise<Metadata> {

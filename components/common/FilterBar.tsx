@@ -2,47 +2,37 @@
 
 import s from './FilterBar.module.scss';
 import cn from 'classnames';
-import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { use, useEffect, useState } from 'react';
+import { useLocale, useTranslations } from 'next-intl';
+import { usePathname, Link, AppPathnames } from '@/i18n/routing';
 
 export type FilterOption = {
-	id: string;
+	value: string;
 	label: string;
 };
 
 export type Props = {
 	options: FilterOption[];
-	multi?: boolean;
-	onChange: (value: string[] | string) => void;
+	value: string;
 };
 
-export default function FilterBar({ options = [], onChange, multi = false }: Props) {
+export default function FilterBar({ options = [], value }: Props) {
 	const t = useTranslations('FilterBar');
-	const [selected, setSelected] = useState<FilterOption[]>([options[0]]);
-
-	useEffect(() => {
-		onChange(multi ? selected.map(({ id }) => id) : selected[0]?.id);
-	}, [selected]);
+	const pathname = usePathname();
+	const locale = useLocale();
 
 	return (
 		<nav className={s.filter}>
 			<span>{t('sortBy')}:</span>
 			{options.map((opt, idx) => (
-				<span
+				<Link
 					key={idx}
-					onClick={() =>
-						setSelected(
-							selected.find(({ id }) => id === opt.id)
-								? selected.filter(({ id }) => id !== opt.id)
-								: multi
-									? [...selected, opt]
-									: [opt]
-						)
-					}
-					className={cn(selected?.find(({ id }) => id === opt.id) && s.selected)}
+					href={`${pathname}?filter=${opt.value}` as any}
+					className={cn(s.option, value === opt.value && s.selected)}
+					locale={locale}
 				>
 					{opt.label}
-				</span>
+				</Link>
 			))}
 		</nav>
 	);

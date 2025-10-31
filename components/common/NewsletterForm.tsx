@@ -2,18 +2,13 @@
 
 import s from './NewsletterForm.module.scss';
 import cn from 'classnames';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useState } from 'react';
-import { useRouter } from 'next/router';
 import Loader from './Loader';
 
-export type Props = {
-	className?: string;
-};
-
-export default function NewsletterForm({}: Props) {
+export default function NewsletterForm() {
 	const t = useTranslations('NewsletterForm');
-	const { locale } = useRouter();
+	const locale = useLocale();
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState<string | null>(null);
 	const [success, setSuccess] = useState(false);

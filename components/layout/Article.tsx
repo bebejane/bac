@@ -10,10 +10,9 @@ import { useTranslations } from 'next-intl';
 import { Markdown } from 'next-dato-utils/components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, EffectCards } from 'swiper';
-import { render } from 'datocms-structured-text-to-plain-text';
 import SwiperCore from 'swiper';
 import type { Swiper as SwiperType } from 'swiper';
-import { Link } from '@/i18n/routing';
+import { AppPathnames, Link } from '@/i18n/routing';
 
 SwiperCore.use([EffectFade, EffectCards]);
 
@@ -32,9 +31,8 @@ export type ArticleProps = {
 	content?: any;
 	metaInfo?: MetaInfoRecord[];
 	cv?: CvRecord[];
-	onClick?: (id: string) => void;
 	record?: any;
-	backLink?: string;
+	backLink?: AppPathnames;
 	medium?: boolean;
 	noImages?: boolean;
 	seo?: Tag[];
@@ -54,12 +52,10 @@ export default function Article({
 	cv,
 	video,
 	videoImage,
-	onClick,
 	record,
 	backLink,
 	medium,
 	noImages,
-	seo,
 }: ArticleProps) {
 	const t = useTranslations();
 	const [index, setIndex] = useState(0);
@@ -109,7 +105,7 @@ export default function Article({
 												data={slide.responsiveImage}
 												className={s.image}
 												fadeInDuration={0}
-												imgClassname={s.picture}
+												imgClassName={s.picture}
 												placeholderClassName={s.placeholder}
 											/>
 										</figure>

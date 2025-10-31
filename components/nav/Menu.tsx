@@ -9,7 +9,7 @@ import { Hamburger } from '@/components';
 import useStore, { useShallow } from '@/lib/store';
 import { Language } from '@/components';
 import { usePathname } from 'next/navigation';
-import { defaultLocale, Link } from '@/i18n/routing';
+import { defaultLocale, getPathname, Link } from '@/i18n/routing';
 
 export type MenuProps = { items: Menu };
 
@@ -17,13 +17,12 @@ export default function Menu({ items }: MenuProps) {
 	const t = useTranslations('Menu');
 	const locale = useLocale();
 	const pathname = usePathname();
-
 	const menuRef = useRef<HTMLUListElement | null>(null);
 	const [showMenu, setShowMenu] = useStore(useShallow((state) => [state.showMenu, state.setShowMenu]));
-
 	const [selected, setSelected] = useState<MenuItem | undefined>();
 	const [subSelected, setSubSelected] = useState<MenuItem | undefined>();
 
+	/*
 	const setSelectedByPath = (path: string) => {
 		let selected = null;
 		const localePath = `${locale !== defaultLocale ? `/${locale}` : ''}${path}`;
@@ -50,6 +49,7 @@ export default function Menu({ items }: MenuProps) {
 
 		setSelected(selected);
 	};
+*/
 
 	useEffect(() => {
 		setSubSelected(undefined);
@@ -70,6 +70,11 @@ export default function Menu({ items }: MenuProps) {
 		//setSelectedByPath(pathname);
 	}, [items, locale, defaultLocale, pathname]);
 
+	useEffect(() => {
+		const isArchive = getPathname({ locale, href: '/archive' }) === pathname;
+		document.body.style.background = isArchive ? 'var(--archive)' : 'var(--background)';
+	}, [pathname]);
+
 	return (
 		<>
 			<Hamburger />
@@ -82,9 +87,7 @@ export default function Menu({ items }: MenuProps) {
 							style={{ animationDelay: `${index * 50}ms` }}
 						>
 							{!item.sub ? (
-								<Link href={item.href} locale={locale}>
-									{item.label}
-								</Link>
+								item.href !== undefined && item.href !== null && <Link href={item.href as any}>{item.label}</Link>
 							) : (
 								<span onClick={() => setSubSelected(subSelected?.id === item.id ? undefined : item)}>
 									{item.label}
@@ -95,9 +98,11 @@ export default function Menu({ items }: MenuProps) {
 									>
 										{item.sub.map((subItem, index) => (
 											<li key={index} className={cn(selected?.id === subItem.id && s.selected)}>
-												<Link href={subItem.href} locale={locale} onClick={(e) => e.stopPropagation()}>
-													{subItem.label}
-												</Link>
+												{subItem.href && (
+													<Link href={subItem.href as any} locale={locale} onClick={(e) => e.stopPropagation()}>
+														{subItem.label}
+													</Link>
+												)}
 											</li>
 										))}
 									</ul>
@@ -106,7 +111,7 @@ export default function Menu({ items }: MenuProps) {
 						</li>
 					))}
 					<li className={s.language} style={{ animationDelay: `${items.length * 50}ms` }}>
-						<Language menu={items} />
+						<Language />
 					</li>
 				</ul>
 				<div className={cn(s.background, showMenu && s.show)}></div>

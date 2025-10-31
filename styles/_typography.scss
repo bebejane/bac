@@ -18,19 +18,19 @@ h1 {
 	font-size: 1.2rem;
 	font-weight: bold;
 	line-height: 1.25;
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 }
 
 h2 {
 	font-size: 0.75rem;
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
 
 h3 {
 	font-size: 1rem;
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 	padding-bottom: 1em;
 	line-height: var(--line-height);
 }
@@ -71,7 +71,7 @@ p.intro,
 	font-size: 0.75rem;
 
 	strong {
-		font-family: var(--headlin-font);
+		font-family: var(--headline-font);
 		font-weight: bold !important;
 		font-size: 0.65rem;
 		padding-right: 0.5em;
@@ -88,7 +88,7 @@ footer,
 footer nav,
 .caption label,
 aside p {
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 	font-size: 0.82rem !important;
 	text-align: center;
 }
@@ -118,13 +118,13 @@ button,
 nav,
 .nav {
 	letter-spacing: -0.02em;
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 	font-size: 0.82rem;
 }
 
 strong,
 b {
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 }
 
 // För Article
@@ -177,7 +177,7 @@ article {
 	p strong,
 	p b {
 		font-weight: normal !important;
-		font-family: var(--headlin-font);
+		font-family: var(--headline-font);
 	}
 
 	p.center {
@@ -186,7 +186,7 @@ article {
 }
 
 button {
-	font-family: var(--headlin-font);
+	font-family: var(--headline-font);
 }
 
 em,

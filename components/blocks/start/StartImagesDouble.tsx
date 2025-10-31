@@ -39,7 +39,7 @@ export default function StartImagesDouble({ data: { id, images }, data }: Props)
 							{image && (
 								<>
 									<div className={s.cover}></div>
-									<Image data={image.responsiveImage} className={s.image} imgClassname={s.picture} />
+									<Image data={image.responsiveImage} className={s.image} imgClassName={s.picture} />
 								</>
 							)}
 						</figure>

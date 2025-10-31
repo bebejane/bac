@@ -1,11 +1,10 @@
 import s from './[about].module.scss';
 import cn from 'classnames';
-import withGlobalProps from '@/lib/withGlobalProps';
+import { apiQuery } from 'next-dato-utils/api';
+import { locales } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
 import { AboutDocument, AllAboutsDocument } from '@/graphql';
-import { pageProps } from '@/lib/i18n';
-import { apiQuery } from 'dato-next-utils/api';
 import { Article } from '@/components';
-import { apiQueryAll } from 'dato-next-utils/api';
 
 export type Props = {
 	about: AboutRecord;

@@ -57,7 +57,7 @@ export default function ImageGallery({ data: { id, images }, onClick }: ImageGal
 							<Image
 								data={item.responsiveImage}
 								className={s.image}
-								imgClassname={s.picture}
+								imgClassName={s.picture}
 								placeholderClassName={s.picture}
 								objectFit={'cover'}
 								lazyLoad={index !== idx}

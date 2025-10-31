@@ -1,24 +1,20 @@
 'use client';
 
-import Link from 'next/link';
-import { Menu } from '@/lib/menu';
-import { locales, defaultLocale } from '@/i18n/routing';
+import { locales, Link } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
 
-export type Props = {
-	menu: Menu;
-};
-
-export default function Language({ menu }: Props) {
+export default function Language() {
 	const locale = useLocale();
 
 	return (
 		<>
-			{locales.map((l: string, i: number) => (
-				<Link key={i} href={'/'} locale={l}>
-					{l === 'en' ? 'English' : 'Svenska'}
-				</Link>
-			))}
+			{locales
+				.filter((l) => l !== locale)
+				.map((l: string, i: number) => (
+					<Link key={i} href={'/'} locale={l}>
+						{l === 'en' ? 'English' : 'Svenska'}
+					</Link>
+				))}
 		</>
 	);
 }

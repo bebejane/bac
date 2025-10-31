@@ -3,7 +3,7 @@ import cn from 'classnames';
 import withGlobalProps from '@/lib/withGlobalProps';
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from '@/graphql';
 import { pageProps } from '@/lib/i18n';
-import { DatoMarkdown as Markdown, DatoSEO } from 'dato-next-utils/components';
+import { DatoMarkdown as Markdown, DatoSEO } from 'dato-next-utils@/components';
 import { Article, Link, StructuredContent } from '@/components';
 import { Image } from 'react-datocms';
 import { useEffect } from 'react';

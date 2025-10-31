@@ -1,9 +1,9 @@
 import { AllPostsDocument, PostDocument, StartDocument } from '@/graphql';
 import { apiQuery } from 'next-dato-utils/api';
-import { DraftMode } from 'next-dato-utils/components';
+import { DraftMode } from 'next-dato-utils@/components';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Markdown } from 'next-dato-utils/components';
+import { Markdown } from 'next-dato-utils@/components';
 import Content from '@/components/content/Content';
 import { locales } from '@/i18n/routing';
 

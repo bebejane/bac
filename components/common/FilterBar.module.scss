@@ -1,30 +1,30 @@
 .filter {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  text-align: right;
-  height: calc(var(--topbar-height));
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	height: calc(var(--topbar-height));
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
 
-  span {
-    margin-left: 0.8em;
-    cursor: pointer;
+	a {
+		margin-left: 0.8em;
+		cursor: pointer;
 
-    &.selected {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: var(--underline-pos);
-    }
+		&.selected {
+			text-decoration: underline;
+			text-decoration-thickness: 1px;
+			text-underline-offset: var(--underline-pos);
+		}
 
-    @include mq($until: desktop) {
-      display: none;
-      &:nth-child(1) {
-        display: none;
-      }
-    }
-  }
+		@include mq($until: desktop) {
+			display: none;
+			&:nth-child(1) {
+				display: none;
+			}
+		}
+	}
 }

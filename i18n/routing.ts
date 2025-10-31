@@ -19,8 +19,14 @@ export const routing = defineRouting({
 		'/projects': {
 			sv: '/projekt',
 		},
+		'/projects/[project]': {
+			sv: '/projekt/[project]',
+		},
 		'/events': {
 			sv: '/evenemang',
+		},
+		'/events/[event]': {
+			sv: '/evenemang/[event]',
 		},
 		'/bac-20-year-anniversary': {
 			sv: '/bac-20-arsjubileum',
