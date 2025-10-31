@@ -1,11 +1,14 @@
 import s from './page.module.scss';
-import { AllArchivesDocument, ArchiveIntroDocument } from '@/graphql';
+import { AllArchivesDocument, ArchiveDocument, ArchiveIntroDocument } from '@/graphql';
 import { Article, CardContainer, Card } from '@/components';
 import { randomLogoFonts } from '@/lib/utils';
 import React from 'react';
 import { apiQuery } from 'next-dato-utils/api';
-import { Link, locales } from '@/i18n/routing';
+import { getPathname, Link, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { buildMetadata } from '@/app/[locale]/layout';
+import { Metadata } from 'next';
+import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
 export type ArchivesByYear = {
 	year: number;
@@ -63,4 +66,19 @@ export default async function Archive({ params }) {
 			</div>
 		</Article>
 	);
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale } = await params;
+	const { archiveIntro } = await apiQuery(ArchiveIntroDocument, {
+		variables: {
+			locale,
+		},
+	});
+	return await buildMetadata({
+		title: archiveIntro.title,
+		description: structuredToText(archiveIntro.text as any),
+		locale,
+		pathname: getPathname({ locale, href: { pathname: '/archive' } }),
+	});
 }

@@ -4,9 +4,12 @@ import { AnniversaryPageDocument, AllAnniversaryPagesDocument } from '@/graphql'
 import { Article } from '@/components';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Link, locales } from '@/i18n/routing';
+import { getPathname, Link, locales } from '@/i18n/routing';
 import { apiQuery } from 'next-dato-utils/api';
 import { Pagination } from './Pagination';
+import { buildMetadata } from '@/app/[locale]/layout';
+import { Metadata } from 'next';
+import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
 export default async function AnniversaryPage({ params }) {
 	const { locale, page: slug } = await params;
@@ -62,4 +65,16 @@ export async function generateStaticParams({ params }) {
 	if (!locales.includes(locale as any)) return notFound();
 	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { all: true, variables: { locale } });
 	return allAnniversaryPages.filter(({ slug }) => slug).map(({ slug }) => ({ page: slug }));
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale, page: slug } = await params;
+	const { anniversaryPage } = await apiQuery(AnniversaryPageDocument, { variables: { locale, slug } });
+	return await buildMetadata({
+		title: anniversaryPage.title,
+		description: structuredToText(anniversaryPage.content as any),
+		image: anniversaryPage.image as ImageFileField,
+		locale,
+		pathname: getPathname({ locale, href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug } } }),
+	});
 }

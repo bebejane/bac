@@ -4,6 +4,7 @@ fragment SiteFragment on Site {
 		content
 		tag
 	}
+	locales
 	globalSeo {
 		facebookPageUrl
 		siteName
@@ -14,22 +15,7 @@ fragment SiteFragment on Site {
 			title
 			twitterCard
 			image {
-				id
-				mimeType
-				url
-				title
-				alt
-				height
-				width
-				responsiveImage(imgixParams: { auto: format }) {
-					src
-					width
-					height
-					alt
-					title
-					base64
-					sizes
-				}
+				...FileFragment
 			}
 		}
 	}

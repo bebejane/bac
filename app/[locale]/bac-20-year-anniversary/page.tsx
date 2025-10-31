@@ -5,9 +5,12 @@ import { Article, StructuredContent } from '@/components';
 import { Image } from 'react-datocms';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Link, locales } from '@/i18n/routing';
+import { getPathname, Link, locales } from '@/i18n/routing';
 import { apiQuery } from 'next-dato-utils/api';
 import { PaletteAnimation } from '@/app/[locale]/bac-20-year-anniversary/PaletteAnimation';
+import { buildMetadata } from '@/app/[locale]/layout';
+import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
+import { Metadata } from 'next';
 
 export type Props = {
 	anniversary: AnniversaryRecord;
@@ -66,4 +69,16 @@ export default async function Anniversary({ params }) {
 			<PaletteAnimation />
 		</>
 	);
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale } = await params;
+	const { anniversary } = await apiQuery(AnniversaryDocument, { variables: { locale } });
+
+	return await buildMetadata({
+		title: anniversary.title,
+		description: structuredToText(anniversary.intro as any),
+		locale,
+		pathname: getPathname({ locale, href: { pathname: '/bac-20-year-anniversary' } }),
+	});
 }

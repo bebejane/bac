@@ -1,9 +1,4 @@
 query Global($locale: SiteLocale) {
-	contact {
-		mailingAddress
-		email
-		instagram
-	}
 	site: _site(locale: $locale) {
 		...SiteFragment
 	}

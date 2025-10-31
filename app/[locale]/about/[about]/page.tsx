@@ -1,8 +1,10 @@
 import { apiQuery } from 'next-dato-utils/api';
 import { AboutDocument, AllAboutsDocument } from '@/graphql';
 import { Article } from '@/components';
-import { locales } from '@/i18n/routing';
+import { getPathname, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
+import { buildMetadata } from '@/app/[locale]/layout';
 
 export default async function AboutPage({ params }) {
 	const { locale, about: slug } = await params;
@@ -24,4 +26,23 @@ export async function generateStaticParams({ params }) {
 	if (!locales.includes(locale as any)) return notFound();
 	const { allAbouts } = await apiQuery(AllAboutsDocument, { all: true, variables: { locale } });
 	return allAbouts.map((about) => ({ about: about.slug }));
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale, about: slug } = await params;
+	const { about } = await apiQuery(AboutDocument, {
+		variables: {
+			locale,
+			slug,
+		},
+	});
+
+	const pathname = getPathname({ locale, href: { pathname: '/about/[about]', params: { about: slug } } });
+
+	return await buildMetadata({
+		title: about.title,
+		locale,
+		image: about.image as ImageFileField,
+		pathname,
+	});
 }
