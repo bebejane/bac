@@ -13,6 +13,12 @@ export default function NewsletterForm() {
 	const [error, setError] = useState<string | null>(null);
 	const [success, setSuccess] = useState(false);
 
+	const reset = () => {
+		setLoading(false);
+		setError(null);
+		setSuccess(false);
+	};
+
 	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
 
@@ -37,6 +43,7 @@ export default function NewsletterForm() {
 					throw new Error(message);
 				} else {
 					setSuccess(true);
+					setTimeout(reset, 2000);
 				}
 			})
 			.catch((error) => {
