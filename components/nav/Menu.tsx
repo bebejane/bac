@@ -22,16 +22,14 @@ export default function Menu({ items }: MenuProps) {
 	const [selected, setSelected] = useState<MenuItem | undefined>();
 	const [subSelected, setSubSelected] = useState<MenuItem | undefined>();
 
-	/*
-	const setSelectedByPath = (path: string) => {
+	const setSelectedByPath = (localePath: string) => {
 		let selected = null;
-		const localePath = `${locale !== defaultLocale ? `/${locale}` : ''}${path}`;
 
 		items.forEach((item) => {
-			if (translatePath(item.slug, locale, defaultLocale) === localePath) selected = item;
+			if (item.href && getPathname({ href: item.href as any, locale }) === localePath) selected = item;
 			else if (item.sub) {
 				item.sub.forEach((subItem) => {
-					if (translatePath(subItem.slug, locale, defaultLocale) === localePath) {
+					if (getPathname({ href: subItem.href as any, locale }) === localePath) {
 						selected = subItem;
 					}
 				});
@@ -39,39 +37,28 @@ export default function Menu({ items }: MenuProps) {
 		});
 
 		if (!selected) {
-			// Check base path
 			const parentPath = `${localePath
 				.split('/')
 				.slice(0, localePath.split('/').length - 1)
 				.join('/')}`;
-			//selected = items.find((item) => translatePath(item.slug, locale, defaultLocale) === parentPath);
+
+			selected = items.find((item) => item.href && getPathname({ href: item.href as any, locale }) === parentPath);
 		}
 
 		setSelected(selected);
 	};
-*/
 
 	useEffect(() => {
 		setSubSelected(undefined);
 		setShowMenu(false);
-		/*
-		const handleRouteChangeStart = (path: string) => {}; //setSelectedByPath(path)
-
-		router.events.on('routeChangeStart', handleRouteChangeStart);
-		router.events.on('routeChangeComplete', handleRouteChangeComplete);
-		return () => {
-			router.events.off('routeChangeComplete', handleRouteChangeComplete);
-			router.events.off('routeChangeStart', handleRouteChangeStart);
-		};
-		*/
 	}, [pathname]);
 
 	useEffect(() => {
-		//setSelectedByPath(pathname);
+		setSelectedByPath(pathname);
 	}, [items, locale, defaultLocale, pathname]);
 
 	useEffect(() => {
-		const isArchive = getPathname({ locale, href: '/archive' }) === pathname;
+		const isArchive = pathname.startsWith(getPathname({ locale, href: '/archive' }));
 		document.body.style.background = isArchive ? 'var(--archive)' : 'var(--background)';
 	}, [pathname]);
 

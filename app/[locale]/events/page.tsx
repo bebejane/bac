@@ -16,7 +16,7 @@ export default async function EventsPage({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const allEvents = (await apiQuery(AllEventsDocument, { variables: { locale } }))?.allEvents.filter(
+	const allEvents = (await apiQuery(AllEventsDocument, { all: true, variables: { locale } }))?.allEvents.filter(
 		({ slug }) => slug
 	);
 

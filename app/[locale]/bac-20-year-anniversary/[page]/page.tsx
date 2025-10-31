@@ -60,6 +60,6 @@ export default async function AnniversaryPage({ params }) {
 export async function generateStaticParams({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
-	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { variables: { locale } });
+	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { all: true, variables: { locale } });
 	return allAnniversaryPages.filter(({ slug }) => slug).map(({ slug }) => ({ page: slug }));
 }

@@ -37,6 +37,9 @@ export const routing = defineRouting({
 		'/archive': {
 			sv: '/arkiv',
 		},
+		'/archive/[archive]': {
+			sv: '/arkiv/[archive]',
+		},
 		'/contact': {
 			sv: '/kontakt',
 		},

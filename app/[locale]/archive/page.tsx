@@ -1,27 +1,30 @@
-import s from './index.module.scss';
-import cn from 'classnames';
-import withGlobalProps from '@/lib/withGlobalProps';
+import s from './page.module.scss';
 import { AllArchivesDocument, ArchiveIntroDocument } from '@/graphql';
-import { pageProps } from '@/lib/i18n';
 import { Article, CardContainer, Card } from '@/components';
-import { apiQueryAll } from 'dato-next-utils/api';
-import { randomInt, randomLogoFonts } from '@/lib/utils';
-import Link from '@/components/nav/Link';
+import { randomLogoFonts } from '@/lib/utils';
 import React from 'react';
-
-export type Props = {
-	archiveIntro: ArchiveIntroRecord;
-	archives: ArchiveRecord[];
-	randomFonts: string[];
-};
+import { apiQuery } from 'next-dato-utils/api';
+import { Link, locales } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
 
 export type ArchivesByYear = {
 	year: number;
-	archives: ArchiveRecord[];
+	archives: AllArchivesQuery['allArchives'][0][];
 }[];
 
-export default function Archive({ archives, archiveIntro: { title, text }, randomFonts }: Props) {
-	const archivesByYear = archives
+export default async function Archive({ params }) {
+	const { locale } = await params;
+	if (!locales.includes(locale as any)) return notFound();
+
+	const { archiveIntro } = await apiQuery(ArchiveIntroDocument, { variables: { locale } });
+
+	if (!archiveIntro) return notFound();
+
+	const { allArchives } = await apiQuery(AllArchivesDocument, { all: true, variables: { locale } });
+	const { title, text } = archiveIntro;
+	const randomFonts = randomLogoFonts(allArchives.length);
+
+	const archivesByYear = allArchives
 		.reduce((acc, archive) => {
 			const year = new Date(archive._createdAt).getFullYear();
 			const yearArchives = acc.find((el) => el.year === year);
@@ -48,7 +51,7 @@ export default function Archive({ archives, archiveIntro: { title, text }, rando
 										</Card>
 									)}
 									<Card>
-										<Link href={`/archive/${slug}`} translate={false} className={s.thumbnail}>
+										<Link href={{ pathname: `/archive/[archive]`, params: { archive: slug } }}>
 											<h3 className={s.title}>{title}</h3>
 										</Link>
 									</Card>
@@ -61,20 +64,3 @@ export default function Archive({ archives, archiveIntro: { title, text }, rando
 		</Article>
 	);
 }
-
-export const getStaticProps = withGlobalProps(
-	{ queries: [ArchiveIntroDocument] },
-	async ({ props, revalidate, context }: any) => {
-		const { archives } = await apiQueryAll(AllArchivesDocument, { preview: context.preview });
-
-		return {
-			props: {
-				...props,
-				archives,
-				randomFonts: randomLogoFonts(archives.length),
-				page: pageProps('archive'),
-			},
-			revalidate,
-		};
-	}
-);

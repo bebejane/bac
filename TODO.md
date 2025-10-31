@@ -1,6 +1,4 @@
 SEO
-meny selected
-arkiv
 config
 
 api

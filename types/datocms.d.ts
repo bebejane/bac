@@ -5294,6 +5294,14 @@ type SiteSearchQueryVariables = Exact<{
 
 type SiteSearchQuery = { __typename?: 'Query', projects: Array<{ __typename?: 'ProjectRecord', id: any }> };
 
+type SitemapQueryVariables = Exact<{
+  first?: InputMaybe<Scalars['IntType']['input']>;
+  skip?: InputMaybe<Scalars['IntType']['input']>;
+}>;
+
+
+type SitemapQuery = { __typename?: 'Query', allAbouts: Array<{ __typename?: 'AboutRecord', slug?: string | null, _updatedAt: any, _allSlugLocales?: Array<{ __typename?: 'StringMultiLocaleField', locale?: SiteLocale | null, value?: string | null }> | null }>, _allAboutsMeta: { __typename?: 'CollectionMetadata', count: any }, allAnniversaryPages: Array<{ __typename?: 'AnniversaryPageRecord', slug: string, _updatedAt: any, _allSlugLocales?: Array<{ __typename?: 'StringNonNullMultiLocaleField', locale?: SiteLocale | null, value: string }> | null }>, _allAnniversaryPagesMeta: { __typename?: 'CollectionMetadata', count: any }, allArchives: Array<{ __typename?: 'ArchiveRecord', slug?: string | null, _updatedAt: any }>, _allArchivesMeta: { __typename?: 'CollectionMetadata', count: any }, allEvents: Array<{ __typename?: 'EventRecord', slug?: string | null, _updatedAt: any, _allSlugLocales?: Array<{ __typename?: 'StringMultiLocaleField', locale?: SiteLocale | null, value?: string | null }> | null }>, _allEventsMeta: { __typename?: 'CollectionMetadata', count: any }, allProjects: Array<{ __typename?: 'ProjectRecord', slug?: string | null, _updatedAt: any, _allSlugLocales?: Array<{ __typename?: 'StringMultiLocaleField', locale?: SiteLocale | null, value?: string | null }> | null }>, _allProjectsMeta: { __typename?: 'CollectionMetadata', count: any } };
+
 type StartQueryVariables = Exact<{
   locale?: InputMaybe<SiteLocale>;
 }>;

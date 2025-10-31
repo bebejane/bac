@@ -27,7 +27,7 @@ export default async function Projects({ params, searchParams }) {
 
 	const { filter } = await loadSearchParams(searchParams);
 	const t = (await getMessages({ locale })).FilterBar;
-	const allProjects = (await apiQuery(AllProjectsDocument, { variables: { locale } }))?.allProjects.filter(
+	const allProjects = (await apiQuery(AllProjectsDocument, { all: true, variables: { locale } }))?.allProjects.filter(
 		({ slug }) => slug
 	);
 

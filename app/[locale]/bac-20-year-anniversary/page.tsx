@@ -19,7 +19,7 @@ export default async function Anniversary({ params }) {
 	if (!locales.includes(locale as any)) return notFound();
 
 	const { anniversary } = await apiQuery(AnniversaryDocument, { variables: { locale } });
-	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { variables: { locale } });
+	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { all: true, variables: { locale } });
 
 	if (!anniversary) return notFound();
 
