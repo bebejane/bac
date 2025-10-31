@@ -1,4 +1,5 @@
 fragment ImageThumbnailFragment on ImageFileField {
+	__typename
 	id
 	mimeType
 	url

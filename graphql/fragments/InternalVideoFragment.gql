@@ -1,4 +1,5 @@
 fragment InternalVideoFragment on FileField {
+	__typename
 	id
 	mimeType
 	url

@@ -17,7 +17,7 @@ query AllAnniversaryPages($locale: SiteLocale!, $first: IntType = 100, $skip: In
 	allAnniversaryPages(locale: $locale, first: $first, skip: $skip) {
 		...AnniversaryPageFragment
 	}
-	_allAnniversaryPagesMeta {
+	_allAnniversaryPagesMeta(locale: $locale) {
 		count
 	}
 }
@@ -92,6 +92,7 @@ fragment AnniversaryPageFragment on AnniversaryPageRecord {
 }
 
 fragment GalleryFragment on FileField {
+	__typename
 	id
 	mimeType
 	url

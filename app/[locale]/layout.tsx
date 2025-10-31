@@ -3,7 +3,7 @@ import s from './layout.module.scss';
 import { apiQuery } from 'next-dato-utils/api';
 import { ContactDocument, GlobalDocument } from '@/graphql';
 import { Metadata } from 'next';
-import { Icon } from 'next/dist@/lib/metadata/types/metadata-types';
+import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
 import { Content, Footer, Logo, Menu } from '@/components';
 import { buildMenu } from '@/lib/menu';
 import { setRequestLocale } from 'next-intl/server';
@@ -19,7 +19,7 @@ export default async function RootLayout({ children, params }) {
 
 	const { contact } = await apiQuery(ContactDocument);
 	const menu = await buildMenu(locale);
-	console.log(JSON.stringify(menu, null, 2));
+
 	return (
 		<>
 			<html lang={locale === 'sv' ? 'se-SE' : 'en-US'}>

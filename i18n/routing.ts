@@ -31,6 +31,9 @@ export const routing = defineRouting({
 		'/bac-20-year-anniversary': {
 			sv: '/bac-20-arsjubileum',
 		},
+		'/bac-20-year-anniversary/[page]': {
+			sv: '/bac-20-arsjubileum/[page]',
+		},
 		'/archive': {
 			sv: '/arkiv',
 		},

@@ -2,14 +2,14 @@
 
 import s from './VideoPlayer.module.scss';
 import cn from 'classnames';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Image } from 'react-datocms';
 import { Modal, ExternalVideoPlayer, InternalVideoPlayer } from '@/components';
 
-export default function VideoPlayer({ data, image }) {
+export default function VideoPlayer({ data, image }: { data: VideoField | FileField; image?: ImageFileField }) {
 	const ref = useRef<HTMLDivElement | null>(null);
 	const [show, setShow] = useState(false);
-	const isInternalVideo = data?.video !== undefined;
+	const isInternalVideo = data?.__typename === 'FileField';
 
 	if (!data) return null;
 
@@ -28,14 +28,14 @@ export default function VideoPlayer({ data, image }) {
 			</Modal>
 
 			<figure>
-				{!isInternalVideo && image ? (
+				{!isInternalVideo && image?.responsiveImage ? (
 					<Image
 						data={image.responsiveImage}
 						className={s.image}
 						imgClassName={s.picture}
 						placeholderClassName={s.placeholder}
 					/>
-				) : isInternalVideo ? (
+				) : isInternalVideo && data.video?.thumbnailUrl ? (
 					<div className={s.image}>
 						<img src={data.video.thumbnailUrl} className={s.video} />
 					</div>

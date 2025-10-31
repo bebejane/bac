@@ -2,7 +2,7 @@ query AllArchives($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale
 	allArchives(first: $first, skip: $skip, locale: $locale, orderBy: _createdAt_DESC) {
 		...ArchiveFragmentLight
 	}
-	_allArchivesMeta {
+	_allArchivesMeta(locale: $locale) {
 		count
 	}
 }

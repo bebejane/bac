@@ -5,7 +5,7 @@ import { Thumbnail, CardContainer, Card, Article, FilterBar } from '@/components
 import { sortSwedish } from 'next-dato-utils/utils';
 import { randomLogoFonts } from '@/lib/utils';
 import { apiQuery } from 'next-dato-utils/api';
-import { locales } from '@/i18n/routing';
+import { getPathname, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import { DraftMode } from 'next-dato-utils/components';
 import { getMessages } from 'next-intl/server';
@@ -28,7 +28,7 @@ export default async function Projects({ params, searchParams }) {
 	const { filter } = await loadSearchParams(searchParams);
 	const t = (await getMessages({ locale })).FilterBar;
 	const allProjects = (await apiQuery(AllProjectsDocument, { variables: { locale } }))?.allProjects.filter(
-		(p) => p.slug
+		({ slug }) => slug
 	);
 
 	const randomFonts = randomLogoFonts(allProjects.length);
@@ -78,7 +78,10 @@ export default async function Projects({ params, searchParams }) {
 											title={title}
 											subtitle={subtitle}
 											image={image as ImageFileField}
-											slug={`/projects/${slug}`}
+											slug={getPathname({
+												locale,
+												href: { pathname: `/projects/[project]`, params: { project: slug } },
+											})}
 										/>
 									</Card>
 								))}

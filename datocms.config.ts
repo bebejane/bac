@@ -1,5 +1,5 @@
 import { apiQuery } from 'next-dato-utils/api';
-import { locales, defaultLocale } from '@/i18n/routing';
+import { locales, defaultLocale, getPathname } from '@/i18n/routing';
 import { DatoCmsConfig, getUploadReferenceRoutes, getItemReferenceRoutes } from 'next-dato-utils/config';
 import { MetadataRoute } from 'next';
 
@@ -9,10 +9,35 @@ export default {
 		defaultLocale,
 	},
 	routes: {
-		start: async (record, locale) => ['/'],
-		post: async (record, locale) => [`/post/${record.slug[locale] ?? record.slug}`],
-		author: async (record, locale) => getItemReferenceRoutes(record, locales),
-		upload: async (record, locale) => getUploadReferenceRoutes(record.id, locales),
+		start: async ({ id }, locale) => [
+			getPathname({ href: '/', locale }),
+			...(await getItemReferenceRoutes(id, locales)),
+		],
+		project: async ({ id, slug }, locale) => [
+			getPathname({ href: '/projects', locale }),
+			getPathname({ href: { pathname: '/projects/[project]', params: { project: slug } }, locale }),
+			...(await getItemReferenceRoutes(id, locales)),
+		],
+		event: async ({ id, slug }, locale) => [
+			getPathname({ href: '/events', locale }),
+			getPathname({ href: { pathname: '/events/[event]', params: { event: slug } }, locale }),
+			...(await getItemReferenceRoutes(id, locales)),
+		],
+		about: async ({ id, slug }, locale) => [
+			getPathname({ href: { pathname: '/about/[about]', params: { about: slug } }, locale }),
+			...(await getItemReferenceRoutes(id, locales)),
+		],
+		contact: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
+		person: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
+		archive: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
+		archive_intro: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
+		archive_category: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
+		anniversary: async ({ id }, locale) => [getPathname({ href: '/bac-20-year-anniversary', locale })],
+		anniversary_page: async ({ id, slug }, locale) => [
+			getPathname({ href: '/bac-20-year-anniversary', locale }),
+			getPathname({ href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug } }, locale }),
+		],
+		upload: async (record) => getUploadReferenceRoutes(record.id, locales),
 	},
 	sitemap: async () => {
 		return [

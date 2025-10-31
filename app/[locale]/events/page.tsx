@@ -16,11 +16,12 @@ export default async function EventsPage({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { allEvents } = await apiQuery(AllEventsDocument, { variables: { locale } });
+	const allEvents = (await apiQuery(AllEventsDocument, { variables: { locale } }))?.allEvents.filter(
+		({ slug }) => slug
+	);
 
 	const randomFonts = randomLogoFonts(allEvents.length);
 	const eventsByYear = allEvents
-		.filter((p) => p.slug)
 		.reduce((acc, event) => {
 			const year = new Date(event._createdAt).getFullYear();
 			const yearEvent = acc.find((el) => el.year === year);

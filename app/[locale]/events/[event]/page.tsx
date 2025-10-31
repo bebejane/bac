@@ -1,29 +1,18 @@
-import s from './[event].module.scss';
-import cn from 'classnames';
-import withGlobalProps from '@/lib/withGlobalProps';
 import { EventDocument, AllEventsDocument } from '@/graphql';
-import { pageProps } from '@/lib/i18n';
-import { apiQuery } from 'dato-next-utils/api';
+import { apiQuery } from 'next-dato-utils/api';
 import { Article } from '@/components';
-import { apiQueryAll } from 'dato-next-utils/api';
+import { locales } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
 
-export type Props = {
-	event: EventRecord;
-};
+export default async function EventPage({ params }) {
+	const { locale, event: slug } = await params;
+	if (!locales.includes(locale as any)) return notFound();
 
-export async function getStaticPaths() {
-	const { events } = await apiQueryAll(AllEventsDocument);
-	const paths = events.map(({ slug }) => ({ params: { event: slug }, locale: 'en' }));
-	paths.forEach((el) => paths.push({ ...el, locale: 'sv' }));
+	const { event } = await apiQuery(EventDocument, { variables: { locale, slug } });
 
-	return {
-		paths: paths.filter((el) => el.params.event),
-		fallback: 'blocking',
-	};
-}
+	if (!event) return notFound();
 
-export default function Event({
-	event: {
+	const {
 		id,
 		title,
 		subtitle,
@@ -38,43 +27,30 @@ export default function Event({
 		content,
 		_createdAt,
 		_seoMetaTags,
-	},
-	event,
-}: Props) {
+	} = event;
+
 	return (
 		<Article
 			id={id}
 			title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
 			subtitle={introHeadline}
-			image={image}
-			gallery={gallery}
+			image={image as ImageFileField}
+			gallery={gallery as FileField[]}
 			video={video}
-			videoImage={videoImage}
+			videoImage={videoImage as ImageFileField}
 			intro={intro}
 			content={content}
-			metaInfo={metaInfo}
-			cv={cv}
+			metaInfo={metaInfo as MetaInfoRecord[]}
+			cv={cv as CvRecord[]}
 			seo={_seoMetaTags}
 			backLink={'/events'}
 		/>
 	);
 }
 
-export const getStaticProps = withGlobalProps({ queries: [] }, async ({ props, revalidate, context }: any) => {
-	const slug = context.params.event;
-	const { event } = await apiQuery(EventDocument, {
-		variables: { slug, locale: context.locale },
-		preview: context.preview,
-	});
-
-	if (!event) return { notFound: true, revalidate };
-
-	return {
-		props: {
-			...props,
-			event,
-			page: pageProps('event', event._allSlugLocales),
-		},
-		revalidate,
-	};
-});
+export async function generateStaticParams({ params }) {
+	const { locale } = await params;
+	if (!locales.includes(locale as any)) return notFound();
+	const { allEvents } = await apiQuery(AllEventsDocument, { all: true, variables: { locale } });
+	return allEvents.filter(({ slug }) => slug).map(({ slug }) => ({ event: slug }));
+}

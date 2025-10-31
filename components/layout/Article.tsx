@@ -6,7 +6,7 @@ import cn from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
 import { StructuredContent, VideoPlayer } from '@/components';
 import { Image } from 'react-datocms';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Markdown } from 'next-dato-utils/components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, EffectCards } from 'swiper';
@@ -58,12 +58,14 @@ export default function Article({
 	noImages,
 }: ArticleProps) {
 	const t = useTranslations();
+	const locale = useLocale();
 	const [index, setIndex] = useState(0);
 	const figureRef = useRef<HTMLElement | null>(null);
 	const swiperRef = useRef<SwiperType | null>(null);
-	const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [video]
-		.concat(gallery?.length ? gallery : [image])
-		.filter((el) => el);
+	const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [
+		video,
+		...(gallery?.length ? gallery : [image]),
+	].filter((el) => el);
 	const [caption, setCaption] = useState<string | undefined>(slides?.[index]?.title);
 	const haveAside = metaInfo || caption;
 
@@ -71,6 +73,7 @@ export default function Article({
 		setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'));
 	}, [index]);
 
+	console.log(slides);
 	return (
 		<>
 			{/* <DatoSEO title={title} description={render(intro)?.split('\n')[0]} seo={seo} /> */}
@@ -106,6 +109,8 @@ export default function Article({
 												className={s.image}
 												fadeInDuration={0}
 												imgClassName={s.picture}
+												usePlaceholder={idx === 0}
+												priority={idx > 0}
 												placeholderClassName={s.placeholder}
 											/>
 										</figure>
@@ -171,7 +176,7 @@ export default function Article({
 					)}
 				</div>
 				{backLink && (
-					<Link href={backLink}>
+					<Link href={backLink as any} locale={locale}>
 						<button>
 							<span>‹ </span>
 							{t('General.backToOverview')}

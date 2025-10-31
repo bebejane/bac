@@ -1,4 +1,5 @@
 fragment ImageMediumFragment on FileField {
+	__typename
 	id
 	mimeType
 	url
