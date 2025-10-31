@@ -1,34 +1,33 @@
-import s from './index.module.scss';
+import s from './page.module.scss';
 import cn from 'classnames';
-import withGlobalProps from '@/lib/withGlobalProps';
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from '@/graphql';
-import { pageProps } from '@/lib/i18n';
-import { DatoMarkdown as Markdown, DatoSEO } from 'dato-next-utils@/components';
-import { Article, Link, StructuredContent } from '@/components';
+import { Article, StructuredContent } from '@/components';
 import { Image } from 'react-datocms';
-import { useEffect } from 'react';
-import { useTranslations } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { Link, locales } from '@/i18n/routing';
+import { apiQuery } from 'next-dato-utils/api';
+import { PaletteAnimation } from '@/app/[locale]/bac-20-year-anniversary/PaletteAnimation';
 
 export type Props = {
 	anniversary: AnniversaryRecord;
 	anniversaryPages: AnniversaryPageRecord[];
 };
 
-export default function Anniversary({
-	anniversary: { id, title, intro, content },
-	anniversary,
-	anniversaryPages,
-}: Props) {
-	const t = useTranslations('Anniversary');
+export default async function Anniversary({ params }) {
+	const { locale } = await params;
+	if (!locales.includes(locale as any)) return notFound();
 
-	useEffect(() => {
-		document.body.classList.add('background-palette-animation');
-		return () => document.body.classList.remove('background-palette-animation');
-	}, []);
+	const { anniversary } = await apiQuery(AnniversaryDocument, { variables: { locale } });
+	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { variables: { locale } });
+
+	if (!anniversary) return notFound();
+
+	const t = (await getMessages({ locale })).Anniversary;
+	const { id, title, intro, content } = anniversary;
 
 	return (
 		<>
-			<DatoSEO title={title} />
 			<div className={s.logo}>
 				<img src='/images/anniversary-logo.svg' />
 			</div>
@@ -40,11 +39,11 @@ export default function Anniversary({
 					</div>
 				</div>
 				<ul className={s.pages}>
-					{anniversaryPages.map(({ title, introHeadline, image, slug }, idx) => (
+					{allAnniversaryPages.map(({ title, introHeadline, image, slug }, idx) => (
 						<li key={idx}>
-							<Link href={`/bac-20-year-anniversary/${slug}`}>
+							<Link href={{ pathname: `/bac-20-year-anniversary/[page]`, params: { page: slug } }}>
 								<figcaption>
-									<h2>{t('archive_visit')}</h2>
+									<h2>{t.archiveVisit}</h2>
 									<div>
 										<h3>{title}</h3>
 										<p className='mid'>{introHeadline}</p>
@@ -52,7 +51,9 @@ export default function Anniversary({
 								</figcaption>
 
 								<figure>
-									{image && <Image data={image.responsiveImage} className={s.image} imgClassName={s.picture} />}
+									{image?.responsiveImage && (
+										<Image data={image.responsiveImage} className={s.image} imgClassName={s.picture} />
+									)}
 								</figure>
 							</Link>
 						</li>
@@ -62,19 +63,7 @@ export default function Anniversary({
 					<StructuredContent id={id} record={anniversary} content={content} />
 				</section>
 			</Article>
+			<PaletteAnimation />
 		</>
 	);
 }
-
-export const getStaticProps = withGlobalProps(
-	{ queries: [AnniversaryDocument, AllAnniversaryPagesDocument] },
-	async ({ props, revalidate, context }: any) => {
-		return {
-			props: {
-				...props,
-				page: pageProps('anniversary'),
-			},
-			revalidate,
-		};
-	}
-);

@@ -73,10 +73,8 @@ export default function Article({
 		setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'));
 	}, [index]);
 
-	console.log(slides);
 	return (
 		<>
-			{/* <DatoSEO title={title} description={render(intro)?.split('\n')[0]} seo={seo} /> */}
 			<div className={cn(s.article, 'article')}>
 				<header>
 					<h1>{title}</h1>

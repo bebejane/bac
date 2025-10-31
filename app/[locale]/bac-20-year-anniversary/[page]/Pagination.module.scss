@@ -1,0 +1,64 @@
+.pagination {
+	margin-top: var(--space);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: lightgray;
+	padding: 2rem;
+	height: 3rem;
+	width: calc(100% - var(--outer-margin));
+
+	@include mq($until: desktop) {
+		width: calc(100% - (2 * var(--outer-margin)));
+		margin-left: var(--outer-margin);
+		margin-bottom: var(--space);
+	}
+
+	div,
+	a {
+		flex: 1 1 auto;
+		cursor: pointer;
+
+		&:first-child {
+			text-align: left;
+		}
+
+		&:nth-child(2) {
+			text-align: center;
+		}
+
+		&:last-child {
+			text-align: right;
+		}
+
+		&.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+
+			span {
+				display: none;
+			}
+
+			&:hover {
+				span {
+					display: inline;
+					z-index: 1;
+				}
+			}
+
+			img {
+				position: absolute;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				height: 3rem;
+				width: 3rem;
+				opacity: 1;
+				z-index: 0;
+			}
+		}
+	}
+}
