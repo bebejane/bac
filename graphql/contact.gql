@@ -11,3 +11,14 @@ query Contact($locale: SiteLocale) {
 		}
 	}
 }
+
+fragment PersonFragment on PersonRecord {
+	__typename
+	id
+	firstName
+	lastName
+	email
+	location
+	phone
+	role
+}

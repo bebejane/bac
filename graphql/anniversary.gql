@@ -13,14 +13,108 @@ query Anniversary($locale: SiteLocale!) {
 	}
 }
 
-query AllAnniversaryPages($locale: SiteLocale!) {
-	anniversaryPages: allAnniversaryPages(locale: $locale, first: 100) {
+query AllAnniversaryPages($locale: SiteLocale!, $first: IntType = 100, $skip: IntType = 0) {
+	allAnniversaryPages(locale: $locale, first: $first, skip: $skip) {
 		...AnniversaryPageFragment
+	}
+	_allAnniversaryPagesMeta {
+		count
 	}
 }
 
 query AnniversaryPage($slug: String!, $locale: SiteLocale) {
 	anniversaryPage(filter: { slug: { eq: $slug } }, locale: $locale) {
 		...AnniversaryPageFragment
+	}
+}
+
+fragment AnniversaryPageFragment on AnniversaryPageRecord {
+	__typename
+	_modelApiKey
+	id
+	title
+	subtitle
+	introHeadline
+	intro {
+		value
+		blocks
+	}
+	content {
+		value
+		blocks {
+			__typename
+			... on ImageRecord {
+				__typename
+			}
+		}
+	}
+	image {
+		...ImageFragment
+	}
+	gallery {
+		...GalleryFragment
+	}
+	video {
+		...VideoFragment
+	}
+	videoImage {
+		...ImageFragment
+	}
+	videoCaption
+
+	metaInfo {
+		__typename
+		id
+		headline
+		text {
+			__typename
+			blocks
+			value
+		}
+	}
+	cv {
+		__typename
+		id
+		headline
+		text {
+			__typename
+			blocks
+			value
+		}
+	}
+	color {
+		hex
+	}
+	slug
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}
+
+fragment GalleryFragment on FileField {
+	id
+	mimeType
+	url
+	title
+	alt
+	height
+	width
+	responsiveImage(imgixParams: { auto: format }) {
+		src
+		width
+		height
+		alt
+		title
+		base64
+		sizes
+	}
+	video {
+		thumbnailUrl
+		streamingUrl
+		mp4high: mp4Url(res: high)
+		mp4med: mp4Url(res: medium)
+		mp4low: mp4Url(res: low)
+		framerate
+		duration
 	}
 }

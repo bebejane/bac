@@ -1,0 +1,118 @@
+{
+	"Menu": {
+		"home": {
+			"en": "Home",
+			"sv": "Hem"
+		},
+		"about": {
+			"en": "About",
+			"sv": "Om"
+		},
+		"project": {
+			"en": "Projects",
+			"sv": "Projekt"
+		},
+		"event": {
+			"en": "Events",
+			"sv": "Evenemang"
+		},
+		"anniversary": {
+			"en": "BAC 20 Years",
+			"sv": "BAC 20 År"
+		},
+		"archive": {
+			"en": "Archive",
+			"sv": "Arkiv"
+		},
+		"contact": {
+			"en": "Contact",
+			"sv": "Kontakt"
+		},
+		"menu": {
+			"en": "Menu",
+			"sv": "Meny"
+		},
+		"close": {
+			"en": "Close",
+			"sv": "Stäng"
+		}
+	},
+	"FilterBar": {
+		"sortBy": {
+			"en": "Sort by",
+			"sv": "Sortera på"
+		},
+		"year": {
+			"en": "Year",
+			"sv": "År"
+		},
+		"artistName": {
+			"en": "Artist name",
+			"sv": "Konstnärsnamn"
+		}
+	},
+	"General": {
+		"backToOverview": {
+			"en": "Back to overview",
+			"sv": "Tillbaka till översikten"
+		}
+	},
+	"Home": {
+		"about": {
+			"en": "About",
+			"sv": "Om"
+		},
+		"project": {
+			"en": "Project",
+			"sv": "Projekt"
+		},
+		"archive": {
+			"en": "Archive",
+			"sv": "Arkiv"
+		},
+		"event": {
+			"en": "Event",
+			"sv": "Evenemang"
+		},
+		"readMore": {
+			"en": "Read more",
+			"sv": "Läs mer"
+		}
+	},
+	"Anniversary": {
+		"previous": {
+			"en": "Previous",
+			"sv": "Föregående"
+		},
+		"next": {
+			"en": "Next",
+			"sv": "Nästa"
+		},
+		"archive_visit": {
+			"en": "Visit to the archive",
+			"sv": "Nedslag i arkivet"
+		}
+	},
+	"NewsletterForm": {
+		"subscribe": {
+			"en": "Subscribe to our newsletter",
+			"sv": "Prenumerera på vår nyhetsbrev"
+		},
+		"email": {
+			"en": "Email",
+			"sv": "E-post"
+		},
+		"submit": {
+			"en": "Subscribe",
+			"sv": "Prenumerera"
+		},
+		"success": {
+			"en": "You have successfully subscribed to our newsletter!",
+			"sv": "Tack för att du prenumererar på vårt nyhetsbrev!"
+		},
+		"error": {
+			"en": "An error occurred while subscribing to our newsletter",
+			"sv": "Något gick fel, försök igen senare"
+		}
+	}
+}

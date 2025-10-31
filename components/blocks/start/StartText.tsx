@@ -1,11 +1,10 @@
-import s from './StartText.module.scss'
-import React from 'react'
-import { DatoLink, StructuredContent } from '/components'
+import s from './StartText.module.scss';
+import React from 'react';
+import { DatoLink, StructuredContent } from '@/components';
 
-export type Props = { data: StartTextRecord, onClick: Function }
+export type Props = { data: StartTextRecord; onClick: Function };
 
-export default function StartText({ data: { id, text, section, link, title }, data }: Props) {
-
+export default function StartText({ data: { id, text, link, title }, data }: Props) {
 	return (
 		<section className={s.section}>
 			<DatoLink link={link}>
@@ -15,5 +14,5 @@ export default function StartText({ data: { id, text, section, link, title }, da
 				<StructuredContent id={id} record={data} content={text} />
 			</DatoLink>
 		</section>
-	)
+	);
 }

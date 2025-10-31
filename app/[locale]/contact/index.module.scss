@@ -1,0 +1,19 @@
+.figure {
+  .image {}
+
+  .picture {}
+}
+
+.people {
+  list-style: none;
+  line-height: var(--line-height);
+  padding-left: 0;
+
+  @include mq($from: desktop) {
+    columns: 2;
+  }
+
+  li {
+    padding-bottom: 1rem;
+  }
+}

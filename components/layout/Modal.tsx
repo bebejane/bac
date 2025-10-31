@@ -1,22 +1,24 @@
+'use client';
 import ReactDOM from 'react-dom';
-import React from 'react'
+import React from 'react';
 import { useEffect, useState } from 'react';
 
 type ModalProps = {
-  children: React.ReactElement | React.ReactElement[]
-}
+	children: React.ReactElement | React.ReactElement[];
+};
 
 const Modal = React.forwardRef<HTMLDivElement, ModalProps>((props, ref) => {
+	const [isMounted, setIsMounted] = useState(false);
 
-  const [isMounted, setIsMounted] = useState(false)
+	useEffect(() => {
+		setIsMounted(true);
+	}, []);
 
-  useEffect(() => { setIsMounted(true) }, [])
+	if (!isMounted) return null;
 
-  if (!isMounted) return null
+	return ReactDOM.createPortal(props.children, document.body);
+});
 
-  return ReactDOM.createPortal(props.children, document.body)
-})
-
-Modal.displayName = 'Modal'
+Modal.displayName = 'Modal';
 
 export default Modal;

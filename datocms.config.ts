@@ -1,0 +1,53 @@
+import { apiQuery } from 'next-dato-utils/api';
+import { locales, defaultLocale } from '@/i18n/routing';
+import { DatoCmsConfig, getUploadReferenceRoutes, getItemReferenceRoutes } from 'next-dato-utils/config';
+import { MetadataRoute } from 'next';
+
+export default {
+	i18n: {
+		locales,
+		defaultLocale,
+	},
+	routes: {
+		start: async (record, locale) => ['/'],
+		post: async (record, locale) => [`/post/${record.slug[locale] ?? record.slug}`],
+		author: async (record, locale) => getItemReferenceRoutes(record, locales),
+		upload: async (record, locale) => getUploadReferenceRoutes(record.id, locales),
+	},
+	sitemap: async () => {
+		return [
+			{
+				url: `${process.env.NEXT_PUBLIC_SITE_URL}/`,
+				lastModified: new Date(),
+				changeFrequency: 'daily',
+				priority: 1,
+			},
+		] as MetadataRoute.Sitemap;
+	},
+	manifest: async () => {
+		return {
+			name: 'next-dato-boiler',
+			short_name: 'next-dato-boiler',
+			description: 'next-dato-boiler description',
+			start_url: '/',
+			display: 'standalone',
+			background_color: '#ffffff',
+			theme_color: '#000000',
+			icons: [
+				{
+					src: '/favicon.ico',
+					sizes: 'any',
+					type: 'image/x-icon',
+				},
+			],
+		} satisfies MetadataRoute.Manifest;
+	},
+	robots: async () => {
+		return {
+			rules: {
+				userAgent: '*',
+				allow: '/',
+			},
+		};
+	},
+} satisfies DatoCmsConfig;

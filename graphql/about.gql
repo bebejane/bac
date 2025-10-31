@@ -1,8 +1,8 @@
 query AllAbouts($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale) {
-	abouts: allAbouts(locale: $locale, first: $first, skip: $skip) {
+	allAbouts(locale: $locale, first: $first, skip: $skip) {
 		...AboutFragmentLight
 	}
-	pagination: _allAboutsMeta {
+	_allAboutsMeta {
 		count
 	}
 }
@@ -11,4 +11,38 @@ query About($slug: String!, $locale: SiteLocale) {
 	about(filter: { slug: { eq: $slug } }, locale: $locale) {
 		...AboutFragment
 	}
+}
+
+fragment AboutFragment on AboutRecord {
+	__typename
+	_modelApiKey
+	id
+	image {
+		...ImageFragment
+	}
+	title
+	slug
+	content {
+		value
+		blocks {
+			__typename
+			... on ImageRecord {
+				__typename
+			}
+		}
+	}
+	_allSlugLocales {
+		locale
+		value
+	}
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}
+
+fragment AboutFragmentLight on AboutRecord {
+	__typename
+	id
+	title
+	slug
 }

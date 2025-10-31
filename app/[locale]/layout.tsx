@@ -1,0 +1,85 @@
+import '@/styles/index.scss';
+import s from './layout.module.scss';
+import { apiQuery } from 'next-dato-utils/api';
+import { ContactDocument, GlobalDocument } from '@/graphql';
+import { Metadata } from 'next';
+import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
+import { Content, Footer, Logo, Menu } from '@/components';
+import { buildMenu } from '@/lib/menu';
+import { setRequestLocale } from 'next-intl/server';
+import { locales } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
+
+export default async function RootLayout({ children, params }) {
+	const { locale } = await params;
+	if (!locales.includes(locale as any)) return notFound();
+	setRequestLocale(locale);
+
+	const { contact } = await apiQuery(ContactDocument);
+	const menu = await buildMenu(locale);
+	return (
+		<>
+			<div className={s.topline}></div>
+			<Logo />
+			<Menu items={menu} />
+			<div className={s.layout}>
+				<Content menu={menu}>{children}</Content>
+			</div>
+			<Footer contact={contact} />
+			<div className={s.bottomline}></div>
+		</>
+	);
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+	const {
+		site: { globalSeo, faviconMetaTags },
+	} = await apiQuery(GlobalDocument, {
+		variables: {},
+		revalidate: 60 * 60,
+	});
+
+	return {
+		metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL as string),
+		title: {
+			template: `${globalSeo?.siteName} — %s`,
+			default: globalSeo?.siteName,
+		},
+		description: globalSeo?.fallbackSeo?.description,
+		image: globalSeo?.fallbackSeo?.image?.url,
+		icons: faviconMetaTags.map(({ attributes: { rel, sizes, type, href: url } }) => ({
+			rel,
+			url,
+			sizes,
+			type,
+		})) as Icon[],
+		openGraph: {
+			title: globalSeo?.siteName,
+			description: globalSeo?.fallbackSeo?.description,
+			url: process.env.NEXT_PUBLIC_SITE_URL,
+			siteName: globalSeo?.siteName,
+			images: [
+				{
+					url: `${globalSeo?.fallbackSeo?.image?.url}?w=1200&h=630&fit=fill&q=80`,
+					width: 800,
+					height: 600,
+					alt: globalSeo?.siteName,
+				},
+				{
+					url: `${globalSeo?.fallbackSeo?.image?.url}?w=1600&h=800&fit=fill&q=80`,
+					width: 1600,
+					height: 800,
+					alt: globalSeo?.siteName,
+				},
+				{
+					url: `${globalSeo?.fallbackSeo?.image?.url}?w=790&h=627&fit=crop&q=80`,
+					width: 790,
+					height: 627,
+					alt: globalSeo?.siteName,
+				},
+			],
+			locale: 'en_US',
+			type: 'website',
+		},
+	} as Metadata;
+}

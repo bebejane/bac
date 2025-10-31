@@ -1,8 +1,8 @@
 query AllArchives($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale = en) {
-	archives: allArchives(first: $first, skip: $skip, locale: $locale, orderBy: _createdAt_DESC) {
+	allArchives(first: $first, skip: $skip, locale: $locale, orderBy: _createdAt_DESC) {
 		...ArchiveFragmentLight
 	}
-	pagination: _allArchivesMeta {
+	_allArchivesMeta {
 		count
 	}
 }
@@ -21,4 +21,37 @@ query ArchiveIntro($locale: SiteLocale) {
 			blocks
 		}
 	}
+}
+
+fragment ArchiveFragment on ArchiveRecord {
+	__typename
+	_createdAt
+	id
+	title
+	content {
+		value
+		blocks {
+			__typename
+			id
+			... on ImageRecord {
+				__typename
+				image {
+					...ImageFragment
+				}
+				layout
+			}
+		}
+	}
+	slug
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}
+
+fragment ArchiveFragmentLight on ArchiveRecord {
+	__typename
+	_createdAt
+	id
+	title
+	slug
 }

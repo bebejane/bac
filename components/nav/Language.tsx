@@ -1,29 +1,24 @@
-import s from './Language.module.scss'
-import cn from 'classnames'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { capitalize } from '/lib/utils'
-import { usePage } from '/lib/context/page'
-import { Menu } from '/lib/menu'
-import { locales } from '/lib/i18n'
+'use client';
+
+import Link from 'next/link';
+import { Menu } from '@/lib/menu';
+import { locales, defaultLocale } from '@/i18n/routing';
+import { useLocale } from 'next-intl';
 
 export type Props = {
-	menu: Menu
-}
+	menu: Menu;
+};
 
 export default function Language({ menu }: Props) {
-
-	const { locale } = useRouter()
-	const { slugs } = usePage()
-
-	if (locales.length <= 1) return null
-	const slug = slugs?.find((item) => item.locale !== locale) ?? { value: '/', locale: locale === 'en' ? 'sv' : 'en' }
+	const locale = useLocale();
 
 	return (
-
-		<Link href={slug.value || '/'} locale={slug.locale}>
-			{slug.locale === 'en' ? 'English' : 'Svenska'}
-		</Link>
-
-	)
+		<>
+			{locales.map((l: string, i: number) => (
+				<Link key={i} href={'/'} locale={l}>
+					{l === 'en' ? 'English' : 'Svenska'}
+				</Link>
+			))}
+		</>
+	);
 }

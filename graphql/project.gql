@@ -1,8 +1,8 @@
 query AllProjects($first: IntType = 100, $skip: IntType = 0, $locale: SiteLocale) {
-	projects: allProjects(locale: $locale, first: $first, skip: $skip, orderBy: _createdAt_DESC) {
+	allProjects(locale: $locale, first: $first, skip: $skip, orderBy: _createdAt_DESC) {
 		...ProjectFragmentLight
 	}
-	pagination: _allProjectsMeta {
+	_allProjectsMeta {
 		count
 	}
 }
@@ -11,4 +11,89 @@ query Project($slug: String!, $locale: SiteLocale) {
 	project(filter: { slug: { eq: $slug } }, locale: $locale) {
 		...ProjectFragment
 	}
+}
+
+fragment ProjectFragment on ProjectRecord {
+	__typename
+	_createdAt
+	id
+	title
+	endDate
+	subtitle
+	intro {
+		value
+		blocks
+	}
+	introHeadline
+	content {
+		value
+		blocks {
+			... on ImageRecord {
+				__typename
+				id
+				image {
+					...ImageFragment
+				}
+			}
+		}
+	}
+	image {
+		...ImageFragment
+	}
+	gallery {
+		...GalleryFragment
+	}
+	video {
+		...VideoFragment
+	}
+	videoImage {
+		...ImageFragment
+	}
+	videoCaption
+	metaInfo {
+		__typename
+		id
+		headline
+		text {
+			__typename
+			blocks
+			value
+		}
+	}
+	cv {
+		__typename
+		id
+		headline
+		text {
+			__typename
+			blocks
+			value
+		}
+	}
+	slug
+	_allSlugLocales {
+		locale
+		value
+	}
+	_seoMetaTags {
+		...SeoMetaTagsFragment
+	}
+}
+
+fragment ProjectFragmentLight on ProjectRecord {
+	__typename
+	_createdAt
+	id
+	title
+	endDate
+	subtitle
+	introHeadline
+	intro {
+		value
+		blocks
+	}
+	image {
+		...ImageThumbnailFragment
+	}
+	slug
 }

@@ -1,0 +1,134 @@
+.logo {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-right: var(--outer-margin);
+  z-index: 0;
+  margin-top: var(--outer-margin);
+
+  @include mq($until: desktop) {
+    padding-left: var(--outer-margin);
+  }
+
+  @include mq($from: tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+    @include mq($from: desktop) {
+      height: calc(100vh - calc(2 * var(--outer-margin)));
+    }
+    width: auto;
+  }
+}
+
+.introWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: calc(100vh - var(--navbar-height));
+  border-bottom: var(--line);
+
+  @include mq($until: desktop) {
+    height: auto;
+  }
+
+  h1 {
+    padding-bottom: 1em;
+  }
+
+  p {
+    padding-bottom: 2rem;
+  }
+}
+
+.pages {
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: var(--space);
+  padding-left: 0;
+
+  li {
+    display: flex;
+
+    @include mq($from: desktop) {
+      flex: 0 0 50%;
+      margin-bottom: var(--space);
+
+      &:nth-child(even) {
+        padding-left: calc(var(--gutter) / 2);
+      }
+
+      &:nth-child(odd) {
+        padding-right: calc(var(--gutter) / 2);
+      }
+    }
+
+    a {
+      display: flex;
+      @include mq($until: desktop) {
+        flex-direction: column;
+      }
+
+      &:hover figure {
+        filter: grayscale(0%);
+      }
+
+      figure,
+      figcaption {
+        @include mq($from: desktop) {
+          flex: 0 0 50%;
+          text-align: left;
+        }
+      }
+
+      figure {
+        filter: grayscale(100%);
+        mix-blend-mode: multiply;
+        transition: all 0.5s;
+        @include mq($until: desktop) {
+          padding-bottom: 1rem;
+          padding-top: 2rem;
+        }
+      }
+
+      figcaption {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        @include mq($from: desktop) {
+          padding-right: calc(var(--gutter) / 2);
+        }
+
+        h3 {
+          padding-bottom: 0.3em;
+          line-height: 1.4em;
+        }
+
+        p {
+          text-align: left;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.text {
+  border-top: var(--line-thick);
+  padding-top: var(--space);
+  margin-bottom: var(--space);
+  @include mq($from: desktop) {
+    margin-top: var(--space);
+    columns: 2;
+  }
+}
