@@ -17,6 +17,7 @@ export { default as NewsletterForm } from './common/NewsletterForm';
 export { default as StructuredContent } from './common/StructuredContent';
 export { default as Thumbnail } from './common/Thumbnail';
 export { default as VideoPlayer } from './common/VideoPlayer';
+export { default as RandomLineSizes } from './common/RandomLineSizes';
 export { default as Article } from './layout/Article';
 export { default as Content } from './layout/Content';
 export { default as Footer } from './layout/Footer';

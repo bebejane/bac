@@ -3,10 +3,10 @@ import { StartDocument } from '@/graphql';
 import { apiQuery } from 'next-dato-utils/api';
 import { DraftMode } from 'next-dato-utils/components';
 import { setRequestLocale } from 'next-intl/server';
-import { locales } from '@/i18n/routing';
+import { getPathname, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import React from 'react';
-import { Block } from '@/components';
+import { Block, RandomLineSizes } from '@/components';
 
 export type PageProps = {
 	children: React.ReactNode;
@@ -23,19 +23,11 @@ export default async function Home({ params }: PageProps) {
 
 	if (!start) return notFound();
 
-	/*
-	useEffect(() => { // Randomize line sizes
-		const hrs = containerRef.current?.querySelectorAll('hr');
-		hrs?.forEach(hr => {
-			const i = Math.floor(Math.random() * lineSizes.length);
-			hr.style.setProperty('height', `${lineSizes[i]}px`);
-		})
-	}, [])
-	*/
+	const path = getPathname({ locale, href: { pathname: '/' } });
 
 	return (
 		<>
-			<div className={s.container}>
+			<div id='start' className={s.container}>
 				{start?.content?.map((block, idx) => (
 					<React.Fragment key={idx}>
 						<hr />
@@ -43,7 +35,8 @@ export default async function Home({ params }: PageProps) {
 					</React.Fragment>
 				))}
 			</div>
-			<DraftMode url={draftUrl} path={`/`} />
+			<RandomLineSizes />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
 }

@@ -5,6 +5,7 @@ import { getPathname, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { buildMetadata } from '@/app/[locale]/layout';
+import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
 export type Props = {
@@ -15,20 +16,25 @@ export default async function ArchivePage({ params }) {
 	const { locale, archive: slug } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { archive } = await apiQuery(ArchiveDocument, { variables: { locale, slug } });
+	const { archive, draftUrl } = await apiQuery(ArchiveDocument, { variables: { locale, slug } });
 
 	if (!archive) return notFound();
 
 	const { id, title, content, _createdAt } = archive;
+	const path = getPathname({ locale, href: { pathname: '/archive/[archive]', params: { archive: slug } } });
+
 	return (
-		<Article
-			id={id}
-			title={`${title}, ${new Date(_createdAt).getFullYear()}`}
-			medium={true}
-			noImages={true}
-			content={content}
-			backLink={'/archive'}
-		/>
+		<>
+			<Article
+				id={id}
+				title={`${title}, ${new Date(_createdAt).getFullYear()}`}
+				medium={true}
+				noImages={true}
+				content={content}
+				backLink={'/archive'}
+			/>
+			<DraftMode url={draftUrl} path={path} />
+		</>
 	);
 }
 

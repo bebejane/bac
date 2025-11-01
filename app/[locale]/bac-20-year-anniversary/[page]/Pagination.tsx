@@ -35,7 +35,7 @@ export const Pagination = ({
 	return (
 		<nav className={cn(s.pagination, 'background-palette-animation')}>
 			<Link href={{ pathname: `/bac-20-year-anniversary/[page]`, params: { page: prev.slug } }}>{t('previous')}</Link>
-			<Link href={{ pathname: `/bac-20-year-anniversary` }}>
+			<Link href={{ pathname: `/bac-20-year-anniversary` }} className={s.logo}>
 				<img src='/images/anniversary-logo-20.svg' alt='BAC Logo' />
 				<span>Översikt</span>
 			</Link>

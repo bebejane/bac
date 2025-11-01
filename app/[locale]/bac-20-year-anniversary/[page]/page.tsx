@@ -10,17 +10,19 @@ import { Pagination } from './Pagination';
 import { buildMetadata } from '@/app/[locale]/layout';
 import { Metadata } from 'next';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
+import { DraftMode } from 'next-dato-utils/components';
 
 export default async function AnniversaryPage({ params }) {
 	const { locale, page: slug } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { anniversaryPage } = await apiQuery(AnniversaryPageDocument, { variables: { locale, slug } });
+	const { anniversaryPage, draftUrl } = await apiQuery(AnniversaryPageDocument, { variables: { locale, slug } });
 	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { all: true, variables: { locale } });
 
 	if (!anniversaryPage) return notFound();
 
 	const t = (await getMessages({ locale })).Anniversary;
+	const path = getPathname({ locale, href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug } } });
 
 	const {
 		id,
@@ -56,6 +58,7 @@ export default async function AnniversaryPage({ params }) {
 				seo={_seoMetaTags}
 			/>
 			<Pagination pages={allAnniversaryPages} color={color as ColorField} />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
 }

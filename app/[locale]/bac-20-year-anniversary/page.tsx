@@ -9,6 +9,7 @@ import { getPathname, Link, locales } from '@/i18n/routing';
 import { apiQuery } from 'next-dato-utils/api';
 import { PaletteAnimation } from '@/app/[locale]/bac-20-year-anniversary/PaletteAnimation';
 import { buildMetadata } from '@/app/[locale]/layout';
+import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 import { Metadata } from 'next';
 
@@ -21,14 +22,14 @@ export default async function Anniversary({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { anniversary } = await apiQuery(AnniversaryDocument, { variables: { locale } });
+	const { anniversary, draftUrl } = await apiQuery(AnniversaryDocument, { variables: { locale } });
 	const { allAnniversaryPages } = await apiQuery(AllAnniversaryPagesDocument, { all: true, variables: { locale } });
 
 	if (!anniversary) return notFound();
 
 	const t = (await getMessages({ locale })).Anniversary;
 	const { id, title, intro, content } = anniversary;
-
+	const path = getPathname({ locale, href: { pathname: '/bac-20-year-anniversary' } });
 	return (
 		<>
 			<div className={s.logo}>
@@ -67,6 +68,7 @@ export default async function Anniversary({ params }) {
 				</section>
 			</Article>
 			<PaletteAnimation />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
 }

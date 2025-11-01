@@ -6,12 +6,13 @@ import { getPathname, locales } from '@/i18n/routing';
 import { buildMetadata } from '@/app/[locale]/layout';
 import { Metadata } from 'next';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
+import { DraftMode } from 'next-dato-utils/components';
 
 export default async function ProjectPage({ params }) {
 	const { locale, project: slug } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { project } = await apiQuery(ProjectDocument, { variables: { locale, slug } });
+	const { project, draftUrl } = await apiQuery(ProjectDocument, { variables: { locale, slug } });
 
 	if (!project) return notFound();
 
@@ -29,22 +30,27 @@ export default async function ProjectPage({ params }) {
 		_seoMetaTags,
 	} = project;
 
+	const path = getPathname({ locale, href: { pathname: '/projects/[project]', params: { project: slug } } });
+
 	return (
-		<Article
-			id={project.id}
-			title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
-			subtitle={introHeadline}
-			image={image as ImageFileField}
-			gallery={gallery as FileField[]}
-			video={video}
-			videoImage={videoImage as ImageFileField}
-			intro={intro}
-			content={content}
-			metaInfo={project.metaInfo as MetaInfoRecord[]}
-			cv={project.cv as CvRecord[]}
-			seo={_seoMetaTags}
-			backLink={'/projects'}
-		/>
+		<>
+			<Article
+				id={project.id}
+				title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
+				subtitle={introHeadline}
+				image={image as ImageFileField}
+				gallery={gallery as FileField[]}
+				video={video}
+				videoImage={videoImage as ImageFileField}
+				intro={intro}
+				content={content}
+				metaInfo={project.metaInfo as MetaInfoRecord[]}
+				cv={project.cv as CvRecord[]}
+				seo={_seoMetaTags}
+				backLink={'/projects'}
+			/>
+			<DraftMode url={draftUrl} path={path} />
+		</>
 	);
 }
 

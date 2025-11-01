@@ -19,12 +19,11 @@
 			text-decoration-thickness: 1px;
 			text-underline-offset: var(--underline-pos);
 		}
-
-		@include mq($until: desktop) {
+	}
+	@include mq($until: desktop) {
+		display: none;
+		&:nth-child(1) {
 			display: none;
-			&:nth-child(1) {
-				display: none;
-			}
 		}
 	}
 }

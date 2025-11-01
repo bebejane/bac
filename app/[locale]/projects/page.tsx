@@ -10,6 +10,8 @@ import { notFound } from 'next/navigation';
 import { DraftMode } from 'next-dato-utils/components';
 import { getMessages } from 'next-intl/server';
 import { loadSearchParams } from './searchParams';
+import { buildMetadata } from '@/app/[locale]/layout';
+import { Metadata } from 'next';
 
 export type Props = {
 	projects: AllProjectsQuery['allProjects'][0][];
@@ -27,9 +29,9 @@ export default async function Projects({ params, searchParams }) {
 
 	const { filter } = await loadSearchParams(searchParams);
 	const t = (await getMessages({ locale })).FilterBar;
-	const allProjects = (await apiQuery(AllProjectsDocument, { all: true, variables: { locale } }))?.allProjects.filter(
-		({ slug }) => slug
-	);
+	const res = await apiQuery(AllProjectsDocument, { all: true, variables: { locale } });
+	const allProjects = res?.allProjects.filter(({ slug }) => slug);
+	const draftUrl = res?.draftUrl;
 
 	const randomFonts = randomLogoFonts(allProjects.length);
 	const projectsByYear = allProjects
@@ -55,6 +57,8 @@ export default async function Projects({ params, searchParams }) {
 	) as ProjectsByType;
 
 	const projectsByType = filter === 'year' ? projectsByYear : projectsByArtistName;
+
+	const path = getPathname({ locale, href: { pathname: '/projects' } });
 
 	return (
 		<>
@@ -90,7 +94,17 @@ export default async function Projects({ params, searchParams }) {
 					})}
 				</CardContainer>
 			</Article>
-			<DraftMode path={`/projects`} />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale } = await params;
+	const { Menu } = await getMessages({ locale });
+	return await buildMetadata({
+		title: Menu.project,
+		locale,
+		pathname: getPathname({ locale, href: { pathname: '/projects' } }),
+	});
 }

@@ -6,6 +6,9 @@ import { apiQuery } from 'next-dato-utils/api';
 import { getPathname, locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import { DraftMode } from 'next-dato-utils/components';
+import { Metadata } from 'next';
+import { getMessages } from 'next-intl/server';
+import { buildMetadata } from '@/app/[locale]/layout';
 
 export type EventsByYear = {
 	events: AllEventsQuery['allEvents'][0][];
@@ -16,9 +19,9 @@ export default async function EventsPage({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const allEvents = (await apiQuery(AllEventsDocument, { all: true, variables: { locale } }))?.allEvents.filter(
-		({ slug }) => slug
-	);
+	const res = await apiQuery(AllEventsDocument, { all: true, variables: { locale } });
+	const allEvents = res?.allEvents.filter(({ slug }) => slug);
+	const draftUrl = res?.draftUrl;
 
 	const randomFonts = randomLogoFonts(allEvents.length);
 	const eventsByYear = allEvents
@@ -31,6 +34,8 @@ export default async function EventsPage({ params }) {
 			return acc;
 		}, [] as EventsByYear)
 		.sort((a, b) => (a.year > b.year ? -1 : 1));
+
+	const path = getPathname({ locale, href: { pathname: '/events' } });
 
 	return (
 		<>
@@ -56,7 +61,17 @@ export default async function EventsPage({ params }) {
 					})}
 				</CardContainer>
 			</Article>
-			<DraftMode path={`/events`} />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
+}
+
+export async function generateMetadata({ params }): Promise<Metadata> {
+	const { locale } = await params;
+	const { Menu } = await getMessages({ locale });
+	return await buildMetadata({
+		title: Menu.event,
+		locale,
+		pathname: getPathname({ locale, href: { pathname: '/events' } }),
+	});
 }

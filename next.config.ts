@@ -21,17 +21,6 @@ const nextConfig: NextConfig = {
 	webpack: (config) => {
 		config.module.exprContextCritical = false;
 		config.resolve.alias['datocms.config'] = path.join(__dirname, 'datocms.config.ts');
-		config.module.rules.push({
-			test: /\.(graphql|gql)$/,
-			exclude: /node_modules/,
-			loader: 'graphql-tag/loader',
-		});
-		config.module.rules.push({
-			test: /\.svg$/i,
-			issuer: /\.[jt]sx?$/,
-			exclude: /node_modules/,
-			use: ['@svgr/webpack'],
-		});
 		return config;
 	},
 	turbopack: {

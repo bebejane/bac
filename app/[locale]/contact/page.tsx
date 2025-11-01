@@ -13,7 +13,7 @@ export default async function ContactPage({ params }) {
 	if (!locales.includes(locale as any)) return notFound();
 
 	const { contact, draftUrl } = await apiQuery(ContactDocument, { variables: { locale } });
-
+	const path = getPathname({ locale, href: { pathname: '/contact' } });
 	return (
 		<>
 			<Article id={'contact'} title={contact.title} medium={true} image={contact.image as ImageFileField}>
@@ -45,7 +45,7 @@ export default async function ContactPage({ params }) {
 				</div>
 				<NewsletterForm />
 			</Article>
-			<DraftMode url={draftUrl} path={`/contact`} />
+			<DraftMode url={draftUrl} path={path} />
 		</>
 	);
 }

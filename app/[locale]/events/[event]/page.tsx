@@ -6,14 +6,17 @@ import { notFound } from 'next/navigation';
 import { buildMetadata } from '@/app/[locale]/layout';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 import { Metadata } from 'next';
+import { DraftMode } from 'next-dato-utils/components';
 
 export default async function EventPage({ params }) {
 	const { locale, event: slug } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 
-	const { event } = await apiQuery(EventDocument, { variables: { locale, slug } });
+	const { event, draftUrl } = await apiQuery(EventDocument, { variables: { locale, slug } });
 
 	if (!event) return notFound();
+
+	const path = getPathname({ locale, href: { pathname: '/events/[event]', params: { event: slug } } });
 
 	const {
 		id,
@@ -33,21 +36,24 @@ export default async function EventPage({ params }) {
 	} = event;
 
 	return (
-		<Article
-			id={id}
-			title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
-			subtitle={introHeadline}
-			image={image as ImageFileField}
-			gallery={gallery as FileField[]}
-			video={video}
-			videoImage={videoImage as ImageFileField}
-			intro={intro}
-			content={content}
-			metaInfo={metaInfo as MetaInfoRecord[]}
-			cv={cv as CvRecord[]}
-			seo={_seoMetaTags}
-			backLink={'/events'}
-		/>
+		<>
+			<Article
+				id={id}
+				title={`${subtitle || title}, ${new Date(_createdAt).getFullYear()}`}
+				subtitle={introHeadline}
+				image={image as ImageFileField}
+				gallery={gallery as FileField[]}
+				video={video}
+				videoImage={videoImage as ImageFileField}
+				intro={intro}
+				content={content}
+				metaInfo={metaInfo as MetaInfoRecord[]}
+				cv={cv as CvRecord[]}
+				seo={_seoMetaTags}
+				backLink={'/events'}
+			/>
+			<DraftMode url={draftUrl} path={path} />
+		</>
 	);
 }
 
