@@ -26,7 +26,7 @@ export default async function Home({ params }) {
 				{start?.content?.map((block, idx) => (
 					<React.Fragment key={idx}>
 						<hr />
-						<Block data={block} record={start} />
+						<Block data={block} />
 					</React.Fragment>
 				))}
 			</div>

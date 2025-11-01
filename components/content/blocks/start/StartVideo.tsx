@@ -1,6 +1,6 @@
 import s from './StartVideo.module.scss';
 import React from 'react';
-import { DatoLink, StructuredContent } from '@/components';
+import { DatoLink, Content } from '@/components';
 import { useTranslations } from 'next-intl';
 import { sectionToSlug } from '@/lib/utils';
 import Link from 'next/link';
@@ -38,7 +38,7 @@ export default function StartVideo({ data: { id, title, section, text, link }, d
 					<DatoLink link={link} className={s.title}>
 						<h1>{title}</h1>
 						<div className={s.text}>
-							<StructuredContent id={id} record={data} content={text} />
+							<Content id={id} content={text} />
 						</div>
 						<div className={s.readmore}>
 							<strong className='nav'>

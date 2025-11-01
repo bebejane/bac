@@ -18,7 +18,7 @@ export default function Image({ data: { image, layout }, onClick }: ImageBlockPr
 			className={cn(s.figure, s[layout], image.height > image.width && s.portrait)}
 			onClick={() => onClick?.(image.id)}
 		>
-			<DatoImage data={image.responsiveImage} className={s.image} />
+			{image.responsiveImage && <DatoImage data={image.responsiveImage} className={s.image} />}
 			{image.title && (
 				<figcaption>
 					<Markdown allowedElements={['em', 'p']} content={image.title} />

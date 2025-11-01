@@ -1,7 +1,7 @@
 import s from './page.module.scss';
 import cn from 'classnames';
 import { AnniversaryDocument, AllAnniversaryPagesDocument } from '@/graphql';
-import { Article, StructuredContent } from '@/components';
+import { Article, Content } from '@/components';
 import { Image } from 'react-datocms';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -34,7 +34,7 @@ export default async function Anniversary({ params }) {
 				<div className={s.introWrap}>
 					<h1>{title}</h1>
 					<div className={s.intro}>
-						<StructuredContent id={id} record={anniversary} content={intro} />
+						<Content id={id} content={intro} />
 					</div>
 				</div>
 				<ul className={s.pages}>
@@ -59,7 +59,7 @@ export default async function Anniversary({ params }) {
 					))}
 				</ul>
 				<section className={cn('mid', s.text)}>
-					<StructuredContent id={id} record={anniversary} content={content} />
+					<Content id={id} content={content} />
 				</section>
 			</Article>
 			<PaletteAnimation />

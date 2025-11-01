@@ -4,11 +4,11 @@ import { apiQuery } from 'next-dato-utils/api';
 import { ContactDocument, GlobalDocument } from '@/graphql';
 import { Metadata } from 'next';
 import { Icon } from 'next/dist/lib/metadata/types/metadata-types';
-import { Content, Footer, Logo, Menu } from '@/components';
+import { Footer, Logo, Menu } from '@/components';
 import { buildMenu } from '@/lib/menu';
 import { setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
-import { getPathname, locales } from '@/i18n/routing';
+import { locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 
 export default async function RootLayout({ children, params }) {
@@ -25,16 +25,12 @@ export default async function RootLayout({ children, params }) {
 			<html lang={locale === 'sv' ? 'se-SE' : 'en-US'}>
 				<body id='root'>
 					<NextIntlClientProvider locale={locale}>
-						<main>
-							<div className={s.topline}></div>
-							<Logo />
-							<Menu items={menu} />
-							<div className={s.layout}>
-								<Content menu={menu}>{children}</Content>
-							</div>
-							<Footer contact={contact} />
-							<div className={s.bottomline}></div>
-						</main>
+						<div className={s.topline} />
+						<Logo />
+						<Menu items={menu} />
+						<div className={s.layout}>{children}</div>
+						<Footer contact={contact} />
+						<div className={s.bottomline} />
 					</NextIntlClientProvider>
 				</body>
 			</html>

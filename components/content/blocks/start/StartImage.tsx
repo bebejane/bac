@@ -1,7 +1,7 @@
 import s from './StartImage.module.scss';
 import cn from 'classnames';
 import React from 'react';
-import { StructuredContent } from '@/components';
+import { Content } from '@/components';
 import { DatoLink } from '@/components';
 import { Image } from 'react-datocms/image';
 import { useTranslations } from 'next-intl';
@@ -26,7 +26,7 @@ export default function StartImage({ data: { id, image, layout, section, text, t
 				</Link>
 				<DatoLink link={link}>
 					<h1>{title}</h1>
-					<StructuredContent id={id} record={data} content={text} />
+					<Content id={id} content={text} />
 					<div>
 						<strong className='nav'>
 							<span>›</span> {t('readMore')}

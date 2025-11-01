@@ -69,11 +69,6 @@ html {
 	box-sizing: border-box;
 }
 
-html,
-body {
-	//height: 100%;
-}
-
 .background-palette-animation {
 	animation: backgroundColorPalette 50s infinite alternate;
 
@@ -153,15 +148,12 @@ article p a {
 
 button {
 	margin-top: var(--space);
-	//padding-left: 1.5em;
-	//padding-right: 1.5em;
 	padding-bottom: 1.5em;
 	padding-top: 1.5em;
 	background-color: transparent;
 	color: var(--foreground);
 	border: 0;
 	border-top: var(--line-thick);
-	//border-bottom: 1px solid var(--foreground);
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	font-weight: bold;
@@ -182,7 +174,10 @@ button {
 		padding-top: 1em;
 	}
 
-	transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out, padding 0.5s;
+	transition:
+		color 0.2s ease-in-out,
+		background-color 0.3s ease-in-out,
+		padding 0.5s;
 
 	&:hover {
 		span {

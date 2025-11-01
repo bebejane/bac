@@ -11,7 +11,7 @@ import { Language } from '@/components';
 import { usePathname } from 'next/navigation';
 import { defaultLocale, getPathname, Link } from '@/i18n/routing';
 
-export type MenuProps = { items: Menu };
+type MenuProps = { items: Menu };
 
 export default function Menu({ items }: MenuProps) {
 	const t = useTranslations('Menu');

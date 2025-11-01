@@ -1,6 +1,6 @@
 import s from './StartImagesDouble.module.scss';
 import React from 'react';
-import { DatoLink, StructuredContent } from '@/components';
+import { DatoLink, Content } from '@/components';
 import { Image } from 'react-datocms/image';
 import { useTranslations } from 'next-intl';
 import { sectionToSlug } from '@/lib/utils';
@@ -26,7 +26,7 @@ export default function StartImagesDouble({ data: { id, images }, data }: Props)
 						</Link>
 						<DatoLink link={link}>
 							<h3>{title}</h3>
-							<StructuredContent id={id} record={data} content={text} />
+							<Content id={id} content={text} />
 							<div>
 								<strong className='nav'>
 									<span>›</span> {t('readMore')}

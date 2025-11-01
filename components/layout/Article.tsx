@@ -4,7 +4,7 @@ import s from './Article.module.scss';
 import 'swiper/css/effect-fade';
 import cn from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
-import { StructuredContent, VideoPlayer } from '@/components';
+import { Content, VideoPlayer } from '@/components';
 import { Image } from 'react-datocms';
 import { useLocale, useTranslations } from 'next-intl';
 import { Markdown } from 'next-dato-utils/components';
@@ -52,7 +52,6 @@ export default function Article({
 	cv,
 	video,
 	videoImage,
-	record,
 	backLink,
 	medium,
 	noImages,
@@ -143,17 +142,17 @@ export default function Article({
 			<div className={cn(s.wrapper, medium && !haveAside && s.medium)}>
 				<section className={s.content}>
 					{subtitle && <h3>{subtitle}</h3>}
-					<StructuredContent id={id} record={record} content={intro} />
+					<Content id={id} content={intro} />
 					{content && (
 						<section className='structured'>
-							<StructuredContent id={id} record={record} content={content} noImages={noImages} />
+							<Content id={id} content={content} noImages={noImages} />
 						</section>
 					)}
 					{cv?.map(({ headline, text }, idx) => {
 						return (
 							<div className={cn('mid', s.cv)} key={idx}>
 								<strong>{headline?.trim()} </strong>
-								<StructuredContent id={id} record={record} content={text} />
+								<Content id={id} content={text} />
 							</div>
 						);
 					})}
@@ -165,7 +164,7 @@ export default function Article({
 						{metaInfo?.map(({ headline, text }, idx) => (
 							<React.Fragment key={idx}>
 								<h3>{headline}</h3>
-								<StructuredContent id={id} record={record} content={text} />
+								<Content id={id} content={text} />
 							</React.Fragment>
 						))}
 					</aside>
