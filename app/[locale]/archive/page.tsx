@@ -11,14 +11,14 @@ import { Metadata } from 'next';
 import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
-type ArchivesByYear = {
-	year: number;
-	archives: AllArchivesQuery['allArchives'][0][];
-}[];
-
 export default async function Archive({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
+
+	type ArchivesByYear = {
+		year: number;
+		archives: AllArchivesQuery['allArchives'][0][];
+	}[];
 
 	const { archiveIntro, draftUrl } = await apiQuery(ArchiveIntroDocument, { variables: { locale } });
 

@@ -6,7 +6,7 @@
 		"dev": "next dev --turbo & npm run codegen",
 		"start": "next start",
 		"preview": "npm run build && npm run start",
-		"build": "next build",
+		"build": "next build --turbo",
 		"codegen": "graphql-codegen --watch",
 		"lint": "next lint",
 		"reset": "rm -rf ./node_modules && rm -rf pnpm-lock.yaml && rm -rf .next && pnpm i",

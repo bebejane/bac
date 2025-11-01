@@ -1,18 +1,11 @@
-import s from './Card.module.scss'
-import cn from 'classnames'
-import React from 'react'
+import s from './Card.module.scss';
+import cn from 'classnames';
 
 export type CardProps = {
-  children: React.ReactNode | React.ReactNode[],
-  className?: string
-  hideLastOnDesktop?: boolean
-}
+	children: React.ReactNode | React.ReactNode[];
+	className?: string;
+};
 
-export default function Card({ children, className, hideLastOnDesktop = false }: CardProps) {
-
-  return (
-    <li className={cn(s.card, className, hideLastOnDesktop && s.hideLastOnDesktop)}>
-      {children}
-    </li>
-  )
+export default function Card({ children, className }: CardProps) {
+	return <li className={cn(s.card, className)}>{children}</li>;
 }

@@ -1,86 +1,79 @@
 .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: 0.5em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 0.5em;
 
-  @include mq($until: desktop) {
-    //margin-left: calc(-1 * var(--outer-margin));
-  }
+	@include mq($from: desktop) {
+		margin-left: calc(-1 * var(--gutter));
+		width: calc(100% + (var(--gutter)));
+	}
 
-  @include mq($from: desktop) {
-    margin-left: calc(-1 * var(--gutter));
-    width: calc(100% + (var(--gutter)));
-  }
+	padding: 0;
+	list-style: none;
 
-  padding: 0;
-  list-style: none;
+	li a:hover {
+		color: var(--black) !important;
+	}
 
-  li a:hover {
-    color: var(--black) !important;
-  }
+	li {
+		overflow: visible;
+	}
 
-  li {
-    overflow: visible;
-  }
+	&.two > li {
+		p {
+			text-align: center;
+		}
 
-  &.two > li {
-    p {
-      text-align: center;
-    }
+		@include mq($from: desktop) {
+			width: 50%;
 
-    @include mq($from: desktop) {
-      width: 50%;
+			&:nth-of-type(2n) {
+				border-right: none;
+			}
+		}
 
-      &:nth-of-type(2n) {
-        border-right: none;
-      }
-    }
+		@include mq($until: desktop) {
+			width: 100%;
+			border-right: none;
+			a:last-of-type {
+				border-bottom: 1px solid var(--beige-mid);
+			}
 
-    @include mq($until: desktop) {
-      width: 100%;
-      border-right: none;
-      a:last-of-type {
-        //margin-bottom: 2rem;
-        //padding-bottom: 2rem;
-        border-bottom: 1px solid var(--beige-mid);
-      }
+			&:last-of-type a:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
 
-      &:last-of-type a:last-of-type {
-        margin-bottom: 0;
-      }
-    }
-  }
+	&.two {
+		@include mq($until: desktop) {
+			hr {
+				display: none;
+			}
+		}
+	}
 
-  &.two {
-    @include mq($until: desktop) {
-      hr {
-        display: none;
-      }
-    }
-  }
+	&.three > li {
+		width: 33.33%;
 
-  &.three > li {
-    width: 33.33%;
+		@include mq($from: desktop) {
+			&:nth-of-type(3n) {
+				border-right: none;
+			}
+		}
 
-    @include mq($from: desktop) {
-      &:nth-of-type(3n) {
-        border-right: none;
-      }
-    }
+		@include mq($until: desktop) {
+			width: 50%;
 
-    @include mq($until: desktop) {
-      width: 50%;
+			&:nth-of-type(odd) {
+				padding-right: calc(0.5 * var(--outer-margin));
+			}
 
-      &:nth-of-type(odd) {
-        padding-right: calc(0.5 * var(--outer-margin));
-        //padding-right: 0;
-      }
-
-      &:nth-of-type(even) {
-        padding-left: calc(0.5 * var(--outer-margin));
-      }
-    }
-  }
+			&:nth-of-type(even) {
+				padding-left: calc(0.5 * var(--outer-margin));
+			}
+		}
+	}
 }

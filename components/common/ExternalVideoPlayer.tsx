@@ -1,13 +1,10 @@
 'use client';
 
 import s from './ExternalVideoPlayer.module.scss';
-import cn from 'classnames';
 import { useEffect, useRef, useState } from 'react';
 import Youtube from 'react-youtube';
 import Vimeo from '@u-wave/react-vimeo';
 import { useWindowSize } from 'rooks';
-import { Image } from 'react-datocms';
-import { Modal } from '@/components';
 
 export default function ExternalVideoPlayer({ data, image }) {
 	const ref = useRef<HTMLDivElement | null>(null);
