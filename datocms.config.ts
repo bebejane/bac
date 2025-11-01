@@ -14,18 +14,19 @@ export default {
 			getPathname({ href: '/', locale }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
+
 		project: async ({ id, slug }, locale) => [
+			getPathname({ href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } }, locale }),
 			getPathname({ href: '/projects', locale }),
-			getPathname({ href: { pathname: '/projects/[project]', params: { project: slug[locale] } }, locale }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		event: async ({ id, slug }, locale) => [
+			getPathname({ href: { pathname: '/events/[event]', params: { event: slug[locale] ?? slug } }, locale }),
 			getPathname({ href: '/events', locale }),
-			getPathname({ href: { pathname: '/events/[event]', params: { event: slug[locale] } }, locale }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		about: async ({ id, slug }, locale) => [
-			getPathname({ href: { pathname: '/about/[about]', params: { about: slug[locale] } }, locale }),
+			getPathname({ href: { pathname: '/about/[about]', params: { about: slug[locale] ?? slug } }, locale }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		contact: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
@@ -35,8 +36,11 @@ export default {
 		archive_category: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
 		anniversary: async ({ id }, locale) => [getPathname({ href: '/bac-20-year-anniversary', locale })],
 		anniversary_page: async ({ id, slug }, locale) => [
+			getPathname({
+				href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug[locale] ?? slug } },
+				locale,
+			}),
 			getPathname({ href: '/bac-20-year-anniversary', locale }),
-			getPathname({ href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug[locale] } }, locale }),
 		],
 		upload: async (record) => getUploadReferenceRoutes(record.id, locales),
 	},
