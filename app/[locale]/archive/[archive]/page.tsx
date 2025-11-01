@@ -8,10 +8,6 @@ import { buildMetadata } from '@/app/[locale]/layout';
 import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
-export type Props = {
-	archive: ArchiveRecord;
-};
-
 export default async function ArchivePage({ params }) {
 	const { locale, archive: slug } = await params;
 	if (!locales.includes(locale as any)) return notFound();

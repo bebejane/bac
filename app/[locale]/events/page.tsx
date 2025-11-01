@@ -10,7 +10,7 @@ import { Metadata } from 'next';
 import { getMessages } from 'next-intl/server';
 import { buildMetadata } from '@/app/[locale]/layout';
 
-export type EventsByYear = {
+type EventsByYear = {
 	events: AllEventsQuery['allEvents'][0][];
 	year: number;
 }[];

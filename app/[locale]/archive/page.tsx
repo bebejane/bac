@@ -11,7 +11,7 @@ import { Metadata } from 'next';
 import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 
-export type ArchivesByYear = {
+type ArchivesByYear = {
 	year: number;
 	archives: AllArchivesQuery['allArchives'][0][];
 }[];

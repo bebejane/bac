@@ -13,11 +13,6 @@ import { DraftMode } from 'next-dato-utils/components';
 import { render as structuredToText } from 'datocms-structured-text-to-plain-text';
 import { Metadata } from 'next';
 
-export type Props = {
-	anniversary: AnniversaryRecord;
-	anniversaryPages: AnniversaryPageRecord[];
-};
-
 export default async function Anniversary({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();

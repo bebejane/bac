@@ -8,12 +8,7 @@ import { notFound } from 'next/navigation';
 import React from 'react';
 import { Block, RandomLineSizes } from '@/components';
 
-export type PageProps = {
-	children: React.ReactNode;
-	params: Promise<{ locale: string }>;
-};
-
-export default async function Home({ params }: PageProps) {
+export default async function Home({ params }) {
 	const { locale } = await params;
 	if (!locales.includes(locale as any)) return notFound();
 

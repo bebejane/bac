@@ -13,12 +13,7 @@ import { loadSearchParams } from './searchParams';
 import { buildMetadata } from '@/app/[locale]/layout';
 import { Metadata } from 'next';
 
-export type Props = {
-	projects: AllProjectsQuery['allProjects'][0][];
-	randomFonts: string[];
-};
-
-export type ProjectsByType = {
+type ProjectsByType = {
 	projects: AllProjectsQuery['allProjects'][0][];
 	typeTitle: string;
 }[];
