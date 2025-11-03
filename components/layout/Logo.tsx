@@ -3,6 +3,7 @@
 import s from './Logo.module.scss';
 import cn from 'classnames';
 import React, { useEffect, useState } from 'react';
+import { locales } from '@/i18n/routing';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -10,7 +11,7 @@ export type LayoutProps = {};
 
 export default function Logo({}: LayoutProps) {
 	const pathname = usePathname();
-	const isHome = ['/', '/en', '/sv'].includes(pathname);
+	const isHome = ['/', ...locales.map((l) => `/${l}`)].includes(pathname);
 	const [fonts, setFonts] = useState<string[]>([]);
 	const [hover, setHover] = useState(false);
 
