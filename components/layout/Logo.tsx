@@ -5,11 +5,12 @@ import cn from 'classnames';
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+
 export type LayoutProps = {};
 
 export default function Logo({}: LayoutProps) {
 	const pathname = usePathname();
-	const isHome = pathname === '/';
+	const isHome = ['/', '/en', '/sv'].includes(pathname);
 	const [fonts, setFonts] = useState<string[]>([]);
 	const [hover, setHover] = useState(false);
 

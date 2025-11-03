@@ -12,12 +12,6 @@
 		"reset": "rm -rf ./node_modules && rm -rf pnpm-lock.yaml && rm -rf .next && pnpm i",
 		"reset:cache": "rm -rf .next/cache"
 	},
-	"exports": {
-		"lib/*": "./lib",
-		"components/*": "./components",
-		"graphql/*": "./graphql",
-		"/*": "./*"
-	},
 	"dependencies": {
 		"@datocms/cma-client": "^5.1.24",
 		"@datocms/cma-client-browser": "^5.1.24",

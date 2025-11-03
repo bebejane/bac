@@ -1,61 +1,61 @@
 .logo {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  z-index: var(--z-logo);
-  top: 0;
-  left: -0.3em;
-  margin-left: var(--outer-margin);
-  height: calc(var(--topbar-height) + var(--line-top));
-  padding-top: var(--line-top);
+	position: fixed;
+	display: flex;
+	align-items: center;
+	z-index: var(--z-logo);
+	top: 0;
+	left: -0.3em;
+	margin-left: var(--outer-margin);
+	height: calc(var(--topbar-height) + var(--line-top));
+	padding-top: var(--line-top);
 
-  &.home {
-    @include mq($from: tablet) {
-      background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
-      width: 100%;
-    }
-  }
+	&.home {
+		@include mq($from: tablet) {
+			background: linear-gradient(to top, rgba(255, 255, 255, 0), #ffffff);
+			width: 100%;
+		}
+	}
 
-  h1 {
-    margin-top: -0.1em;
-    line-height: 1;
-  }
+	h1 {
+		margin-top: -0.1em;
+		line-height: 1;
+	}
 
-  h1 span {
-    display: inline-block;
-    overflow: hidden;
-    max-width: 0px;
-    transform: scaleX(0);
-    transition: all 0.6s cubic-bezier(0.65, 0.05, 0.36, 1);
+	h1 span {
+		display: inline-block;
+		overflow: hidden;
+		max-width: 0px;
+		transform: scaleX(0);
+		transition: all 0.6s cubic-bezier(0.65, 0.05, 0.36, 1);
 
-    &.home {
-      @include mq($from: tablet) {
-        transform: scaleX(1);
-        max-width: 100px;
-      }
-    }
+		&.home {
+			@include mq($from: tablet) {
+				transform: scaleX(1);
+				max-width: 100px;
+			}
+		}
 
-    &:nth-child(1),
-    &:nth-child(8),
-    &:nth-child(12) {
-      transform: scaleX(1);
-      max-width: 100px;
-    }
+		&:nth-child(1),
+		&:nth-child(8),
+		&:nth-child(12) {
+			transform: scaleX(1);
+			max-width: 100px;
+		}
 
-    &.f1 {
-      font-family: Logo1;
-    }
+		&.f1 {
+			font-family: Logo1;
+		}
 
-    &.f2 {
-      font-family: Logo2;
-    }
+		&.f2 {
+			font-family: Logo2;
+		}
 
-    &.f3 {
-      font-family: Logo3;
-    }
+		&.f3 {
+			font-family: Logo3;
+		}
 
-    &.f4 {
-      font-family: Logo4;
-    }
-  }
+		&.f4 {
+			font-family: Logo4;
+		}
+	}
 }
