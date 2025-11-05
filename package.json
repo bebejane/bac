@@ -17,6 +17,7 @@
 		"@datocms/cma-client-browser": "^5.1.24",
 		"@datocms/cma-client-node": "^5.1.24",
 		"@graphql-typed-document-node/core": "^3.2.0",
+		"@next/third-parties": "^16.0.1",
 		"@types/node": "^18.11.9",
 		"@u-wave/react-vimeo": "^0.9.10",
 		"change-case": "^5.4.4",

@@ -10,6 +10,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { locales } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export default async function RootLayout({ children, params }) {
 	const { locale } = await params;
@@ -32,6 +33,7 @@ export default async function RootLayout({ children, params }) {
 						<Footer contact={contact} />
 						<div className={s.bottomline} />
 					</NextIntlClientProvider>
+					<GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
 				</body>
 			</html>
 		</>
