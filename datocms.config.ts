@@ -11,25 +11,37 @@ export default {
 	},
 	routes: {
 		start: async ({ id }, locale) => [
-			getPathname({ href: '/', locale }),
+			getPathname({ href: '/', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 
 		project: async ({ id, slug }, locale) => [
-			getPathname({ href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } }, locale }),
-			getPathname({ href: '/projects', locale }),
+			getPathname({
+				href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } },
+				locale,
+				forcePrefix: true,
+			}),
+			getPathname({ href: '/projects', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		event: async ({ id, slug }, locale) => [
-			getPathname({ href: { pathname: '/events/[event]', params: { event: slug[locale] ?? slug } }, locale }),
-			getPathname({ href: '/events', locale }),
+			getPathname({
+				href: { pathname: '/events/[event]', params: { event: slug[locale] ?? slug } },
+				locale,
+				forcePrefix: true,
+			}),
+			getPathname({ href: '/events', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		about: async ({ id, slug }, locale) => [
-			getPathname({ href: { pathname: '/about/[about]', params: { about: slug[locale] ?? slug } }, locale }),
+			getPathname({
+				href: { pathname: '/about/[about]', params: { about: slug[locale] ?? slug } },
+				locale,
+				forcePrefix: true,
+			}),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
-		contact: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
+		contact: async ({ id }, locale) => [getPathname({ href: '/contact', locale, forcePrefix: true })],
 		person: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
 		archive: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
 		archive_intro: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
@@ -40,7 +52,7 @@ export default {
 				href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug[locale] ?? slug } },
 				locale,
 			}),
-			getPathname({ href: '/bac-20-year-anniversary', locale }),
+			getPathname({ href: '/bac-20-year-anniversary', locale, forcePrefix: true }),
 		],
 		upload: async (record) => getUploadReferenceRoutes(record.id, locales),
 	},
