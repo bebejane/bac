@@ -1,0 +1,53 @@
+query Sitemap($first: IntType = 100, $skip: IntType = 0) {
+	allAbouts(first: $first, skip: $skip) {
+		slug
+		_allSlugLocales {
+			locale
+			value
+		}
+		_updatedAt
+	}
+	_allAboutsMeta {
+		count
+	}
+	allAnniversaryPages(first: $first, skip: $skip) {
+		slug
+		_allSlugLocales {
+			locale
+			value
+		}
+		_updatedAt
+	}
+	_allAnniversaryPagesMeta {
+		count
+	}
+	allArchives(first: $first, skip: $skip) {
+		slug
+		_updatedAt
+	}
+	_allArchivesMeta {
+		count
+	}
+	allEvents(first: $first, skip: $skip) {
+		slug
+		_allSlugLocales {
+			locale
+			value
+		}
+		_updatedAt
+	}
+	_allEventsMeta {
+		count
+	}
+	allProjects(first: $first, skip: $skip) {
+		slug
+		_allSlugLocales {
+			locale
+			value
+		}
+		_updatedAt
+	}
+	_allProjectsMeta {
+		count
+	}
+}
