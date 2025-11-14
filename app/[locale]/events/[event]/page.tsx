@@ -67,6 +67,8 @@ export async function generateStaticParams({ params }) {
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const { locale, event: slug } = await params;
 	const { event } = await apiQuery(EventDocument, { variables: { locale, slug } });
+	if (!event) return notFound();
+
 	return await buildMetadata({
 		title: event.title,
 		description: structuredToText(event.intro as any),

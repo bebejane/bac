@@ -49,12 +49,12 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 		},
 	});
 
-	const pathname = getPathname({ locale, href: { pathname: '/about/[about]', params: { about: slug } } });
+	if (!about) return notFound();
 
 	return await buildMetadata({
 		title: about.title,
 		locale,
 		image: about.image as ImageFileField,
-		pathname,
+		pathname: getPathname({ locale, href: { pathname: '/about/[about]', params: { about: slug } } }),
 	});
 }

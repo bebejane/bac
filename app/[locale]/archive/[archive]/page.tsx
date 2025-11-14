@@ -49,6 +49,9 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 			slug,
 		},
 	});
+
+	if (!archive) return notFound();
+
 	return await buildMetadata({
 		title: archive.title,
 		description: structuredToText(archive.content as any),

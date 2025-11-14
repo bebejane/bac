@@ -64,6 +64,8 @@ export async function generateStaticParams({ params }) {
 export async function generateMetadata({ params }): Promise<Metadata> {
 	const { locale, project: slug } = await params;
 	const { project } = await apiQuery(ProjectDocument, { variables: { locale, slug } });
+	if (!project) return notFound();
+
 	return await buildMetadata({
 		title: project.title,
 		description: structuredToText(project.intro as any),
