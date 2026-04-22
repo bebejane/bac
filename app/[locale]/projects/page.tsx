@@ -48,7 +48,7 @@ export default async function Projects({ params, searchParams }) {
 			else acc.push({ typeTitle: letter, projects: [project] });
 			return acc;
 		}, [] as ProjectsByType),
-		'typeTitle'
+		'typeTitle',
 	) as ProjectsByType;
 
 	const projectsByType = filter === 'year' ? projectsByYear : projectsByArtistName;
@@ -57,7 +57,7 @@ export default async function Projects({ params, searchParams }) {
 
 	return (
 		<>
-			<Article id={'projects'} title={'Projects'} key={filter}>
+			<Article id={'projects'} title={t.projects} key={filter}>
 				<FilterBar
 					value={filter}
 					options={[

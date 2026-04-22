@@ -71,7 +71,7 @@ export default function Article({
 	useEffect(() => {
 		setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'));
 	}, [index]);
-
+	console.log(cv);
 	return (
 		<div className={cn(s.article, 'article')}>
 			<header>
@@ -93,9 +93,14 @@ export default function Article({
 					>
 						{slides?.map((slide, idx) => (
 							<SwiperSlide key={idx} className={cn(s.slide, slides.length === 1 && s.solo)}>
-								{slide.__typename == 'ImageFileField' || (slide.__typename == 'FileField' && slide.responsiveImage) ? (
+								{slide.__typename == 'ImageFileField' ||
+								(slide.__typename == 'FileField' && slide.responsiveImage) ? (
 									<figure
-										className={cn(s.mainImage, imageSize && s[imageSize], slide.height > slide.width && s.portrait)}
+										className={cn(
+											s.mainImage,
+											imageSize && s[imageSize],
+											slide.height > slide.width && s.portrait,
+										)}
 										onClick={() => swiperRef.current?.slideNext()}
 										ref={figureRef}
 									>

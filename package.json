@@ -3,9 +3,9 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev --turbo & npm run codegen",
+		"dev": "next dev --turbo & pnpm run codegen",
 		"start": "next start",
-		"preview": "npm run build && npm run start",
+		"preview": "pnpm run build && pnpm run start",
 		"build": "next build --turbo",
 		"codegen": "graphql-codegen --watch",
 		"lint": "next lint",

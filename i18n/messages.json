@@ -49,6 +49,10 @@
 		"artistName": {
 			"en": "Artist name",
 			"sv": "Konstnärsnamn"
+		},
+		"projects": {
+			"en": "Projects",
+			"sv": "Projekt"
 		}
 	},
 	"General": {

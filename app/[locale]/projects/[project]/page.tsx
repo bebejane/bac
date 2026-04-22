@@ -30,7 +30,10 @@ export default async function ProjectPage({ params }) {
 		_seoMetaTags,
 	} = project;
 
-	const path = getPathname({ locale, href: { pathname: '/projects/[project]', params: { project: slug } } });
+	const path = getPathname({
+		locale,
+		href: { pathname: '/projects/[project]', params: { project: slug } },
+	});
 
 	return (
 		<>
@@ -71,6 +74,9 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 		description: structuredToText(project.intro as any),
 		image: project.image as ImageFileField,
 		locale,
-		pathname: getPathname({ locale, href: { pathname: '/projects/[project]', params: { project: slug } } }),
+		pathname: getPathname({
+			locale,
+			href: { pathname: '/projects/[project]', params: { project: slug } },
+		}),
 	});
 }
