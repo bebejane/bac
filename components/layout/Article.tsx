@@ -71,7 +71,7 @@ export default function Article({
 	useEffect(() => {
 		setCaption(slides?.[index]?.title?.replaceAll('<br>', '\n'));
 	}, [index]);
-	console.log(cv);
+
 	return (
 		<div className={cn(s.article, 'article')}>
 			<header>

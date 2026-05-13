@@ -29,6 +29,10 @@ const nextConfig: NextConfig = {
 		},
 	},
 	logging: false,
+	experimental: {
+		workerThreads: false,
+		cpus: 1,
+	},
 	async headers() {
 		return [
 			{
