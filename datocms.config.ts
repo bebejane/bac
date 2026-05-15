@@ -1,6 +1,6 @@
 import { apiQuery } from 'next-dato-utils/api';
 import { SitemapDocument } from '@/graphql';
-import { locales, defaultLocale, getPathname, routing } from '@/i18n/routing';
+import { locales, defaultLocale, routing, getInternalPaths, getPathname } from '@/i18n/routing';
 import {
 	DatoCmsConfig,
 	getUploadReferenceRoutes,
@@ -15,56 +15,33 @@ export default {
 	},
 	routes: {
 		start: async ({ id }, locale) => [
-			getPathname({ href: '/', locale, forcePrefix: true }),
+			...getInternalPaths('/'),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 
 		project: async ({ id, slug }, locale) => [
-			getPathname({
-				href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } },
-				locale,
-				forcePrefix: true,
-			}),
-			'/projekt/on-mob2',
-			getPathname({ href: '/projects', locale, forcePrefix: true }),
+			...getInternalPaths('/projects/[project]', { project: slug[locale] ?? slug }),
+			...getInternalPaths('/projects'),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		event: async ({ id, slug }, locale) => [
-			getPathname({
-				href: { pathname: '/events/[event]', params: { event: slug[locale] ?? slug } },
-				locale,
-				forcePrefix: true,
-			}),
-			getPathname({ href: '/events', locale, forcePrefix: true }),
+			...getInternalPaths('/events/[event]', { event: slug[locale] ?? slug }),
+			...getInternalPaths('/events'),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		about: async ({ id, slug }, locale) => [
-			getPathname({
-				href: { pathname: '/about/[about]', params: { about: slug[locale] ?? slug } },
-				locale,
-				forcePrefix: true,
-			}),
+			...getInternalPaths('/about/[about]', { about: slug[locale] ?? slug }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
-		contact: async ({ id }, locale) => [
-			getPathname({ href: '/contact', locale, forcePrefix: true }),
-		],
-		person: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
-		archive: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
-		archive_intro: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
-		archive_category: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
-		anniversary: async ({ id }, locale) => [
-			getPathname({ href: '/bac-20-year-anniversary', locale }),
-		],
+		contact: async ({ id }, locale) => [...getInternalPaths('/contact')],
+		person: async ({ id }, locale) => [...getInternalPaths('/contact')],
+		archive: async ({ id }, locale) => [...getInternalPaths('/archive')],
+		archive_intro: async ({ id }, locale) => [...getInternalPaths('/archive')],
+		archive_category: async ({ id }, locale) => [...getInternalPaths('/archive')],
+		anniversary: async ({ id }, locale) => [...getInternalPaths('/bac-20-year-anniversary')],
 		anniversary_page: async ({ id, slug }, locale) => [
-			getPathname({
-				href: {
-					pathname: '/bac-20-year-anniversary/[page]',
-					params: { page: slug[locale] ?? slug },
-				},
-				locale,
-			}),
-			getPathname({ href: '/bac-20-year-anniversary', locale, forcePrefix: true }),
+			...getInternalPaths('/bac-20-year-anniversary/[page]', { page: slug[locale] ?? slug }),
+			...getInternalPaths('/bac-20-year-anniversary'),
 		],
 		upload: async (record) => getUploadReferenceRoutes(record.id, locales),
 	},

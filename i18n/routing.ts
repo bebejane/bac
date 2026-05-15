@@ -49,3 +49,13 @@ export const routing = defineRouting({
 export type AppPathnames = keyof typeof routing.pathnames;
 
 export const { Link, redirect, usePathname, useRouter, getPathname } = createNavigation(routing);
+
+export function getInternalPaths(internalPath: string, params?: Record<string, string>): string[] {
+	const paths: string[] = [];
+	const href = params ? { pathname: internalPath, params } : ({ pathname: internalPath } as any);
+	for (const locale of locales) {
+		const externalPath = getPathname({ locale, href });
+		paths.push(externalPath);
+	}
+	return paths;
+}
