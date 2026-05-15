@@ -51,8 +51,8 @@ importers:
         specifier: 15.5.9
         version: 15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3)
       next-dato-utils:
-        specifier: github:bebejane/next-dato-utils#v2.0.85
-        version: https://codeload.github.com/bebejane/next-dato-utils/tar.gz/9413a5da629ec3c19688a6fd8db88b49c149790a(@datocms/cda-client@0.2.7(graphql@16.11.0))(@datocms/cma-client-browser@5.1.26)(@datocms/cma-client-node@5.1.26)(@datocms/cma-client@5.1.26)(@types/react@19.2.2)(datocms-structured-text-utils@5.1.6)(graphql@16.11.0)(next@15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3))(postmark@4.0.5)(react-datocms@8.0.0-1(@types/react@19.2.2)(graphql@16.11.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3)(zod@3.25.76)
+        specifier: github:bebejane/next-dato-utils
+        version: https://codeload.github.com/bebejane/next-dato-utils/tar.gz/12d5bf2210cf44263f72a4980665e11209886a87(@datocms/cda-client@0.2.7(graphql@16.11.0))(@datocms/cma-client-browser@5.1.26)(@datocms/cma-client-node@5.1.26)(@datocms/cma-client@5.1.26)(@datocms/content-link@0.3.20)(@types/react@19.2.2)(@vercel/functions@3.5.1)(datocms-structured-text-utils@5.1.6)(graphql@16.11.0)(next@15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3))(postmark@4.0.5)(react-datocms@8.0.0-1(@types/react@19.2.2)(graphql@16.11.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3)(sharp@0.34.4)(zod@3.25.76)
       next-intl:
         specifier: ^4.4.0
         version: 4.4.0(next@15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3))(react@19.2.3)(typescript@5.9.3)
@@ -229,6 +229,10 @@ packages:
 
   '@datocms/cma-client@5.1.26':
     resolution: {integrity: sha512-qR/J7VAe0adVlqQPNysk3v4PzHCoubkUe75dHydVwtk0ciobNTvCQDEz/toc7MfHoRp7BlAC3GfgPpkMQyaTmQ==}
+
+  '@datocms/content-link@0.3.20':
+    resolution: {integrity: sha512-1VkFngKb1wC+XTjhjUPzamOg28LWeY1gpNJ+iuVj4GJq+RMOHg/r05VgOaQocICxgx0sAuuwywucI6tY3as04A==}
+    engines: {node: '>=18'}
 
   '@datocms/rest-client-utils@5.1.13':
     resolution: {integrity: sha512-0sGxoLnjagcMb8/lCcar3XuAW7UCszraNsAiCBnb14ibodJbhCQwERkO8kmR9APYh+hlcm8DJ2yVyQAcg413ng==}
@@ -1187,6 +1191,7 @@ packages:
 
   '@ungap/structured-clone@1.3.0':
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+    deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     resolution: {integrity: sha512-ppLRUgHVaGRWUx0R0Ut06Mjo9gBaBkg3v/8AxusGLhsIotbBLuRk51rAzqLC8gq6NyyAojEXglNjzf6R948DNw==}
@@ -1282,6 +1287,19 @@ packages:
     resolution: {integrity: sha512-lrW200hZdbfRtztbygyaq/6jP6AKE8qQN2KvPcJ+x7wiD038YtnYtZ82IMNJ69GJibV7bwL3y9FgK+5w/pYt6g==}
     cpu: [x64]
     os: [win32]
+
+  '@vercel/functions@3.5.1':
+    resolution: {integrity: sha512-ndh5v+uhWqGA8033oD0i0KHvqUHcLlLCOaLOw5L+xx5zVsWUSQcZPKEYk2nm51aisnKhcnTylxnOmhx+w4UCRA==}
+    engines: {node: '>= 20'}
+    peerDependencies:
+      '@aws-sdk/credential-provider-web-identity': '*'
+    peerDependenciesMeta:
+      '@aws-sdk/credential-provider-web-identity':
+        optional: true
+
+  '@vercel/oidc@3.4.1':
+    resolution: {integrity: sha512-H6B+/ig/GoahccL3WZjiHayHw1H5KhvTJNceqYulwfK9kkz5iul2hTmYzcJ7tTCQzyd0dutuL9xYFZCyLUqsog==}
+    engines: {node: '>= 20'}
 
   '@vimeo/player@2.30.1':
     resolution: {integrity: sha512-rbPMASxUPR6tq4KQatOqL2ZMUOA6hrDS9xReRoTNF/s1Ru+NZr+5qWS4xxHJ4cqwZF6Ri38/qOAQRe66sYY6bg==}
@@ -2735,24 +2753,27 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  next-dato-utils@https://codeload.github.com/bebejane/next-dato-utils/tar.gz/9413a5da629ec3c19688a6fd8db88b49c149790a:
-    resolution: {tarball: https://codeload.github.com/bebejane/next-dato-utils/tar.gz/9413a5da629ec3c19688a6fd8db88b49c149790a}
-    version: 2.0.85
-    engines: {node: '>=0.18'}
+  next-dato-utils@https://codeload.github.com/bebejane/next-dato-utils/tar.gz/12d5bf2210cf44263f72a4980665e11209886a87:
+    resolution: {tarball: https://codeload.github.com/bebejane/next-dato-utils/tar.gz/12d5bf2210cf44263f72a4980665e11209886a87}
+    version: 2.0.369
+    engines: {node: '>=0.22'}
     hasBin: true
     peerDependencies:
       '@datocms/cda-client': '>=0.2.7'
       '@datocms/cma-client': '>=5.0.0'
       '@datocms/cma-client-browser': '>=5.0.0'
       '@datocms/cma-client-node': '>=5.0.0'
+      '@datocms/content-link': '>=0.3.18'
+      '@vercel/functions': '>=3.4.3'
       datocms-structured-text-utils: '>=2.0.0'
       graphql: '>=16.0.0'
-      next: '>=14.0.0'
+      next: '>=16.0.0'
       postmark: '>=4.0.0'
       react: 19.x
-      react-datocms: '>=4.0.0'
+      react-datocms: '>=8.0.0'
       react-dom: 19.x
       sass: '>=1.69.0'
+      sharp: '>=0.34.5'
       zod: '>=3.0.0'
 
   next-intl@4.4.0:
@@ -3526,6 +3547,7 @@ packages:
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   vfile-message@4.0.3:
@@ -3810,6 +3832,8 @@ snapshots:
       '@datocms/rest-client-utils': 5.1.13
       datocms-structured-text-utils: 5.1.6
       uuid: 9.0.1
+
+  '@datocms/content-link@0.3.20': {}
 
   '@datocms/rest-client-utils@5.1.13':
     dependencies:
@@ -4393,8 +4417,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@img/colour@1.0.0':
-    optional: true
+  '@img/colour@1.0.0': {}
 
   '@img/sharp-darwin-arm64@0.34.4':
     optionalDependencies:
@@ -5006,6 +5029,12 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
+  '@vercel/functions@3.5.1':
+    dependencies:
+      '@vercel/oidc': 3.4.1
+
+  '@vercel/oidc@3.4.1': {}
+
   '@vimeo/player@2.30.1':
     dependencies:
       native-promise-only: 0.8.1
@@ -5475,8 +5504,7 @@ snapshots:
 
   detect-libc@1.0.3: {}
 
-  detect-libc@2.1.2:
-    optional: true
+  detect-libc@2.1.2: {}
 
   devlop@1.1.0:
     dependencies:
@@ -6832,15 +6860,16 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next-dato-utils@https://codeload.github.com/bebejane/next-dato-utils/tar.gz/9413a5da629ec3c19688a6fd8db88b49c149790a(@datocms/cda-client@0.2.7(graphql@16.11.0))(@datocms/cma-client-browser@5.1.26)(@datocms/cma-client-node@5.1.26)(@datocms/cma-client@5.1.26)(@types/react@19.2.2)(datocms-structured-text-utils@5.1.6)(graphql@16.11.0)(next@15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3))(postmark@4.0.5)(react-datocms@8.0.0-1(@types/react@19.2.2)(graphql@16.11.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3)(zod@3.25.76):
+  next-dato-utils@https://codeload.github.com/bebejane/next-dato-utils/tar.gz/12d5bf2210cf44263f72a4980665e11209886a87(@datocms/cda-client@0.2.7(graphql@16.11.0))(@datocms/cma-client-browser@5.1.26)(@datocms/cma-client-node@5.1.26)(@datocms/cma-client@5.1.26)(@datocms/content-link@0.3.20)(@types/react@19.2.2)(@vercel/functions@3.5.1)(datocms-structured-text-utils@5.1.6)(graphql@16.11.0)(next@15.5.9(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3))(postmark@4.0.5)(react-datocms@8.0.0-1(@types/react@19.2.2)(graphql@16.11.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.93.3)(sharp@0.34.4)(zod@3.25.76):
     dependencies:
       '@datocms/cda-client': 0.2.7(graphql@16.11.0)
       '@datocms/cma-client': 5.1.26
       '@datocms/cma-client-browser': 5.1.26
       '@datocms/cma-client-node': 5.1.26
+      '@datocms/content-link': 0.3.20
       '@opentelemetry/api': 1.9.0
+      '@vercel/functions': 3.5.1
       commander: 11.1.0
-      datocms-listen: 0.1.15(graphql@16.11.0)
       datocms-structured-text-utils: 5.1.6
       dedent-js: 1.0.1
       dotenv: 16.6.1
@@ -6859,6 +6888,7 @@ snapshots:
       remark-breaks: 4.0.0
       remark-gfm: 4.0.1
       sass: 1.93.3
+      sharp: 0.34.4
       table: 6.9.0
       zod: 3.25.76
     transitivePeerDependencies:
@@ -7386,7 +7416,6 @@ snapshots:
       '@img/sharp-win32-arm64': 0.34.4
       '@img/sharp-win32-ia32': 0.34.4
       '@img/sharp-win32-x64': 0.34.4
-    optional: true
 
   shebang-command@2.0.0:
     dependencies:
