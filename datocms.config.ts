@@ -23,7 +23,7 @@ export default {
 			getPathname({
 				href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } },
 				locale,
-				forcePrefix: false,
+				forcePrefix: true,
 			}),
 			getPathname({ href: '/projects', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
