@@ -1,7 +1,11 @@
 import { apiQuery } from 'next-dato-utils/api';
 import { SitemapDocument } from '@/graphql';
 import { locales, defaultLocale, getPathname, routing } from '@/i18n/routing';
-import { DatoCmsConfig, getUploadReferenceRoutes, getItemReferenceRoutes } from 'next-dato-utils/config';
+import {
+	DatoCmsConfig,
+	getUploadReferenceRoutes,
+	getItemReferenceRoutes,
+} from 'next-dato-utils/config';
 import { MetadataRoute } from 'next';
 
 export default {
@@ -19,7 +23,7 @@ export default {
 			getPathname({
 				href: { pathname: '/projects/[project]', params: { project: slug[locale] ?? slug } },
 				locale,
-				forcePrefix: true,
+				forcePrefix: false,
 			}),
 			getPathname({ href: '/projects', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
@@ -41,15 +45,22 @@ export default {
 			}),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
-		contact: async ({ id }, locale) => [getPathname({ href: '/contact', locale, forcePrefix: true })],
+		contact: async ({ id }, locale) => [
+			getPathname({ href: '/contact', locale, forcePrefix: true }),
+		],
 		person: async ({ id }, locale) => [getPathname({ href: '/contact', locale })],
 		archive: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
 		archive_intro: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
 		archive_category: async ({ id }, locale) => [getPathname({ href: '/archive', locale })],
-		anniversary: async ({ id }, locale) => [getPathname({ href: '/bac-20-year-anniversary', locale })],
+		anniversary: async ({ id }, locale) => [
+			getPathname({ href: '/bac-20-year-anniversary', locale }),
+		],
 		anniversary_page: async ({ id, slug }, locale) => [
 			getPathname({
-				href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: slug[locale] ?? slug } },
+				href: {
+					pathname: '/bac-20-year-anniversary/[page]',
+					params: { page: slug[locale] ?? slug },
+				},
 				locale,
 			}),
 			getPathname({ href: '/bac-20-year-anniversary', locale, forcePrefix: true }),
@@ -72,14 +83,17 @@ export default {
 								`${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: pathname as any }, locale: otherLocales[i] })}`;
 							return acc;
 						},
-						{} as Record<SiteLocale, { [key: string]: string }>
+						{} as Record<SiteLocale, { [key: string]: string }>,
 					),
 				},
 			}));
 
-		const { allAbouts, allProjects, allEvents, allAnniversaryPages } = await apiQuery(SitemapDocument, {
-			all: true,
-		});
+		const { allAbouts, allProjects, allEvents, allAnniversaryPages } = await apiQuery(
+			SitemapDocument,
+			{
+				all: true,
+			},
+		);
 
 		const abouts = allAbouts.map(({ slug, _allSlugLocales }) => ({
 			url: `${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: '/about/[about]', params: { about: slug } }, locale: defaultLocale })}`,
@@ -94,7 +108,7 @@ export default {
 							`${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: '/about/[about]', params: { about: l.value } }, locale: l.locale })}`;
 						return acc;
 					},
-					{} as Record<SiteLocale, { [key: string]: string }>
+					{} as Record<SiteLocale, { [key: string]: string }>,
 				),
 			},
 		}));
@@ -112,7 +126,7 @@ export default {
 							`${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: '/projects/[project]', params: { project: l.value } }, locale: l.locale })}`;
 						return acc;
 					},
-					{} as Record<SiteLocale, { [key: string]: string }>
+					{} as Record<SiteLocale, { [key: string]: string }>,
 				),
 			},
 		}));
@@ -130,7 +144,7 @@ export default {
 							`${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: '/events/[event]', params: { event: l.value } }, locale: l.locale })}`;
 						return acc;
 					},
-					{} as Record<SiteLocale, { [key: string]: string }>
+					{} as Record<SiteLocale, { [key: string]: string }>,
 				),
 			},
 		}));
@@ -148,7 +162,7 @@ export default {
 							`${process.env.NEXT_PUBLIC_SITE_URL}${getPathname({ href: { pathname: '/bac-20-year-anniversary/[page]', params: { page: l.value } }, locale: l.locale })}`;
 						return acc;
 					},
-					{} as Record<SiteLocale, { [key: string]: string }>
+					{} as Record<SiteLocale, { [key: string]: string }>,
 				),
 			},
 		}));
@@ -160,7 +174,8 @@ export default {
 		return {
 			name: 'Baltic Art Center',
 			short_name: 'BAC',
-			description: 'Baltic Art Center is a residency for contemporary art on the island of Gotland in the Baltic Sea',
+			description:
+				'Baltic Art Center is a residency for contemporary art on the island of Gotland in the Baltic Sea',
 			start_url: '/',
 			display: 'standalone',
 			background_color: '#ffffff',
