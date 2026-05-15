@@ -31,7 +31,7 @@
 		"next-intl": "^4.4.0",
 		"nuqs": "^2.7.2",
 		"react": "^19.2.3",
-		"react-datocms": "8.0.0-1",
+		"react-datocms": "8.0.3",
 		"react-dom": "^19.2.3",
 		"react-youtube": "^10.1.0",
 		"rooks": "^7.14.1",
