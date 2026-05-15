@@ -25,6 +25,7 @@ export default {
 				locale,
 				forcePrefix: true,
 			}),
+			'/projekt/on-mob2',
 			getPathname({ href: '/projects', locale, forcePrefix: true }),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
