@@ -50,12 +50,17 @@ export type AppPathnames = keyof typeof routing.pathnames;
 
 export const { Link, redirect, usePathname, useRouter, getPathname } = createNavigation(routing);
 
-export function getInternalPaths(internalPath: string, params?: Record<string, string>): string[] {
-	const paths: string[] = [];
-	const href = params ? { pathname: internalPath, params } : ({ pathname: internalPath } as any);
-	for (const locale of locales) {
-		const externalPath = getPathname({ locale, href });
-		paths.push(externalPath);
+export function getInternalPath(
+	pathname: string,
+	locale?: string,
+	params?: Record<string, string>,
+): string {
+	const href = params ? { pathname, params } : ({ pathname } as any);
+	try {
+		const path = getPathname({ locale: defaultLocale, href, forcePrefix: false });
+		return `/${locale}/${path}`;
+	} catch (e) {
+		console.log(e);
+		return pathname;
 	}
-	return paths;
 }
