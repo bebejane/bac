@@ -58,7 +58,7 @@ export function getInternalPath(
 	const href = params ? { pathname, params } : ({ pathname } as any);
 	try {
 		const path = getPathname({ locale: defaultLocale, href, forcePrefix: false });
-		return `/${locale}/${path}`;
+		return `/${locale}${path}`;
 	} catch (e) {
 		console.log(e);
 		return pathname;
