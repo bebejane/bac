@@ -15,7 +15,7 @@ export default {
 	},
 	routes: {
 		start: async ({ id }, locale) => [
-			getInternalPath('/'),
+			getInternalPath('/', locale),
 			...(await getItemReferenceRoutes(id, locales)),
 		],
 		project: async ({ id, slug }, locale) => [
