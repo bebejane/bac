@@ -26,6 +26,7 @@ type ArticleProps = {
 	image?: ImageFileField;
 	video?: VideoField;
 	videoImage?: ImageFileField;
+	videoCaption?: string;
 	gallery?: FileField[] | VideoField[];
 	imageSize?: 'small' | 'medium' | 'large';
 	content?: any;
@@ -52,6 +53,7 @@ export default function Article({
 	cv,
 	video,
 	videoImage,
+	videoCaption,
 	backLink,
 	medium,
 	noImages,
@@ -62,7 +64,7 @@ export default function Article({
 	const figureRef = useRef<HTMLElement | null>(null);
 	const swiperRef = useRef<SwiperType | null>(null);
 	const slides: (ImageFileField | FileField | VideoField | null | undefined)[] = [
-		video,
+		video ? { ...video, title: videoCaption ?? video.title } : null,
 		...(gallery?.length ? gallery : [image]),
 	].filter((el) => el);
 	const [caption, setCaption] = useState<string | undefined>(slides?.[index]?.title);
@@ -115,7 +117,7 @@ export default function Article({
 										/>
 									</figure>
 								) : (
-									<VideoPlayer data={slide} image={videoImage} />
+									<VideoPlayer data={slide} image={videoImage} caption={slide.title} />
 								)}
 							</SwiperSlide>
 						))}

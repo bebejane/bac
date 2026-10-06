@@ -6,7 +6,15 @@ import { useRef, useState } from 'react';
 import { Image } from 'react-datocms';
 import { Modal, ExternalVideoPlayer, InternalVideoPlayer } from '@/components';
 
-export default function VideoPlayer({ data, image }: { data: VideoField | FileField; image?: ImageFileField }) {
+export default function VideoPlayer({
+	data,
+	image,
+	caption,
+}: {
+	data: VideoField | FileField;
+	image?: ImageFileField;
+	caption?: string;
+}) {
 	const ref = useRef<HTMLDivElement | null>(null);
 	const [show, setShow] = useState(false);
 	const isInternalVideo = data?.__typename === 'FileField';

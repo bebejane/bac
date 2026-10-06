@@ -16,7 +16,10 @@ export default async function EventPage({ params }) {
 
 	if (!event) return notFound();
 
-	const path = getPathname({ locale, href: { pathname: '/events/[event]', params: { event: slug } } });
+	const path = getPathname({
+		locale,
+		href: { pathname: '/events/[event]', params: { event: slug } },
+	});
 
 	const {
 		id,
@@ -26,6 +29,7 @@ export default async function EventPage({ params }) {
 		introHeadline,
 		video,
 		videoImage,
+		videoCaption,
 		gallery,
 		metaInfo,
 		cv,
@@ -45,6 +49,7 @@ export default async function EventPage({ params }) {
 				gallery={gallery as FileField[]}
 				video={video}
 				videoImage={videoImage as ImageFileField}
+				videoCaption={videoCaption}
 				intro={intro}
 				content={content}
 				metaInfo={metaInfo as MetaInfoRecord[]}
@@ -74,6 +79,9 @@ export async function generateMetadata({ params }): Promise<Metadata> {
 		description: structuredToText(event.intro as any),
 		image: event.image as ImageFileField,
 		locale,
-		pathname: getPathname({ locale, href: { pathname: '/events/[event]', params: { event: slug } } }),
+		pathname: getPathname({
+			locale,
+			href: { pathname: '/events/[event]', params: { event: slug } },
+		}),
 	});
 }

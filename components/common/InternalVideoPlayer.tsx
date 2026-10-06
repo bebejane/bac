@@ -1,10 +1,9 @@
-import s from './InternalVideoPlayer.module.scss'
-import cn from 'classnames'
+import s from './InternalVideoPlayer.module.scss';
+import cn from 'classnames';
 
-export type VideoPlayerProps = { data: FileField, className?: string }
+export type VideoPlayerProps = { data: FileField; className?: string };
 
 export default function InternalVideoPlayer({ data, className }: VideoPlayerProps) {
-
 	return (
 		<video
 			className={cn(s.video, className)}
@@ -14,5 +13,5 @@ export default function InternalVideoPlayer({ data, className }: VideoPlayerProp
 			controls
 			poster={data.video?.thumbnailUrl}
 		/>
-	)
+	);
 }

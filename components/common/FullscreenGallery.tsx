@@ -21,7 +21,12 @@ export type FullscreenGalleryProps = {
 	show: boolean;
 };
 
-export default function FullscreenGallery({ images, onClose, index = 0, show }: FullscreenGalleryProps) {
+export default function FullscreenGallery({
+	images,
+	onClose,
+	index = 0,
+	show,
+}: FullscreenGalleryProps) {
 	const swiperRef = useRef<SwiperType | null>(null);
 	const [realIndex, setRealIndex] = useState(0);
 	const [title, setTitle] = useState<string>();
@@ -80,15 +85,18 @@ export default function FullscreenGallery({ images, onClose, index = 0, show }: 
 									onLoad={() => setLoaded({ ...loaded, [image.id]: true })}
 									fadeInDuration={0}
 								/>
-								{/*!loaded[image.id] && initLoaded &&
-                  <div className={s.loading}><Loader /></div>
-                */}
 							</SwiperSlide>
 						))}
 					</Swiper>
 				</div>
 				<div className={s.caption}>
-					{title && <Markdown className={cn(s.text, 'small')} allowedElements={['em', 'p']} content={title} />}
+					{title && (
+						<Markdown
+							className={cn(s.text, 'small')}
+							allowedElements={['em', 'p']}
+							content={title}
+						/>
+					)}
 				</div>
 				<div className={cn(s.close, 'mid')} onClick={onClose}>
 					STÄNG

@@ -25,6 +25,7 @@ export default async function ProjectPage({ params }) {
 		gallery,
 		video,
 		videoImage,
+		videoCaption,
 		intro,
 		_createdAt,
 		_seoMetaTags,
@@ -45,6 +46,7 @@ export default async function ProjectPage({ params }) {
 				gallery={gallery as FileField[]}
 				video={video}
 				videoImage={videoImage as ImageFileField}
+				videoCaption={videoCaption}
 				intro={intro}
 				content={content}
 				metaInfo={project.metaInfo as MetaInfoRecord[]}
